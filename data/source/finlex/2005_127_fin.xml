@@ -1,0 +1,537 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/127/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/127"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/127/alkup"/>
+                    <FRBRdate date="2005-03-04" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="127"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/127/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/127/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/127/alkup/fin"/>
+                    <FRBRdate date="2005-03-04" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/127/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/127/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/127/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="26"/>
+                    <finlex:date date="2005-03-09"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>127/2005</docNumber>
+                <docTitle>Laki kuolleeksi julistamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 luku</num>
+                    <heading>Yleiset säännökset</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Lain soveltamisala</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Kadonnut henkilö voidaan julistaa kuolleeksi tuomioistuimen tai maistraatin päätöksellä siten kuin tässä laissa säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Kuolleeksi julistamisen vaikutukset</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <content>
+                                <p>Kuolleeksi julistetun katsotaan kuolleen päätöksessä määrättynä kuolinpäivänä, jollei muuta näytetä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_2__subsec_2">
+                            <content>
+                                <p>Jos lain mukaan jokin määräaika lasketaan henkilön kuolemasta, lasketaan määräaika henkilön tultua julistetuksi kuolleeksi päätöksen antopäivästä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 luku</num>
+                    <heading>Kuolleeksi julistaminen tuomioistuimen päätöksellä</heading>
+                    <section eId="chp_2__sec_3">
+                        <num>3 §</num>
+                        <heading>Kuolleeksi julistaminen ilman odotusaikaa</heading>
+                        <subsection eId="chp_2__sec_3__subsec_1">
+                            <content>
+                                <p>Jos kadonnut henkilö on kadotessaan ollut välittömän hengenvaaran aiheuttaneessa onnettomuudessa tai muussa siihen rinnastettavassa tilanteessa eikä ole syytä olettaa hänen pelastuneen, hänen kuolleeksi julistamistaan voidaan hakea välittömästi katoamisen jälkeen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_4">
+                        <num>4 §</num>
+                        <heading>Kuolleeksi julistaminen odotusajan kuluttua</heading>
+                        <subsection eId="chp_2__sec_4__subsec_1">
+                            <content>
+                                <p>Kadonneen henkilön kuolleeksi julistamista voidaan muissa kuin 3 §:ssä tarkoitetuissa tapauksissa hakea odotusajan kuluttua. Odotusaika lasketaan siitä, kun kadonnut henkilö on tiettävästi viimeksi ollut elossa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_2">
+                            <content>
+                                <p>Jos kadonnut henkilö on kadotessaan ollut olosuhteissa, joihin liittyy hengenvaara, tai jos katoamiseen liittyvät olosuhteet ja muut seikat huomioon ottaen muutoin on erittäin todennäköistä, että hän on kuollut, odotusaika on yksi vuosi.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_3">
+                            <content>
+                                <p>Muissa kuin 2 momentissa tarkoitetuissa tapauksissa odotusaika on viisi vuotta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Vireillepano</heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <content>
+                                <p>Kuolleeksi julistamista koskeva asia pannaan vireille käräjäoikeudessa hakemuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Toimivaltainen tuomioistuin</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>Kuolleeksi julistamista koskevan asian käsittelee se tuomioistuin, jonka tuomiopiirissä kadonneella henkilöllä on viimeksi ollut kotikunta tai väestökirjanpitokunta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_2">
+                            <content>
+                                <p>Jos haetaan usean samalla kertaa kadonneen henkilön julistamista kuolleeksi, asian voi käsitellä tuomioistuin, joka on 1 momentin nojalla toimivaltainen heistä jonkun osalta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_3">
+                            <content>
+                                <p>Jos Suomessa ei ole tuomioistuinta, joka olisi 1 tai 2 momentin nojalla toimivaltainen käsittelemään asian, asian käsittelee se tuomioistuin, jonka tuomiopiirissä hakijalla on kotikunta tai, jollei hakijalla ole kotikuntaa Suomessa, Helsingin käräjäoikeus.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Oikeus vireillepanoon</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>Kuolleeksi julistamista koskevan hakemuksen voi tehdä kadonneen henkilön aviopuoliso, perillinen tai muu läheinen taikka muu henkilö, jonka oikeus saattaa riippua kuolleeksi julistamisesta. Heillä on myös oikeus jatkaa toisen henkilön hakemusta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_8">
+                        <num>8 §</num>
+                        <heading>Kuuleminen</heading>
+                        <subsection eId="chp_2__sec_8__subsec_1">
+                            <content>
+                                <p>Kadonneen henkilön aviopuolisolle ja perillisille on varattava tilaisuus tulla kuulluiksi hakemuksen johdosta. Jos kadonneelle henkilölle on määrätty edunvalvoja, myös tälle on varattava tilaisuus tulla kuulluksi.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_8__subsec_2">
+                            <content>
+                                <p>Tilaisuutta tulla kuulluksi ei tarvitse varata, jos tiedoksianto olisi toimitettava oikeudenkäymiskaaren 11 luvun 9 §:ssä tarkoitetulla tuomioistuimen kuulutuksella.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_8__subsec_3">
+                            <content>
+                                <p>Käräjäoikeus voi tarvittaessa kuulla poliisi- tai muuta viranomaista hakemuksen johdosta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_9">
+                        <num>9 §</num>
+                        <heading>Kutsu ja sen tiedoksianto</heading>
+                        <subsection eId="chp_2__sec_9__subsec_1">
+                            <content>
+                                <p>Jos kuolleeksi julistamiseen on selvitetty olevan edellytykset, tuomioistuimen on 4 §:ssä tarkoitetuissa tapauksissa kutsuttava kadonnutta henkilöä ilmoittautumaan tuomioistuimelle viimeistään kutsussa mainittuna määräpäivänä. Kutsussa on mainittava, että kadonnut, joka ei ilmoittaudu, voidaan julistaa kuolleeksi. Tuomioistuimen on samalla kutsuttava kaikkia, jotka voivat antaa tietoja siitä, onko kadonnut henkilö elossa vai kuollut, ilmoittamaan samassa ajassa tietonsa tuomioistuimelle.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_9__subsec_2">
+                            <content>
+                                <p>Kutsu annetaan tiedoksi kuuluttamalla siten kuin oikeudenkäymiskaaren 11 luvun 10 §:ssä säädetään. Tuomioistuimen on julkaistava kuulutus kutsusta virallisessa lehdessä viimeistään kolme kuukautta ennen määräpäivää.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_10">
+                        <num>10 §</num>
+                        <heading>Tuomioistuimen päätös kuolleeksi julistamisesta</heading>
+                        <subsection eId="chp_2__sec_10__subsec_1">
+                            <content>
+                                <p>Kadonnut henkilö on 9 §:ssä tarkoitetun määräpäivän jälkeen julistettava kuolleeksi tuomioistuimen päätöksellä, jos tuomioistuin ei ole saanut tietoa siitä, että hän on elossa tai kuollut, ja jos kuolleeksi julistamisen edellytykset muutoin ovat olemassa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_11">
+                        <num>11 §</num>
+                        <heading>Kuolinpäivän määrääminen</heading>
+                        <subsection eId="chp_2__sec_11__subsec_1">
+                            <content>
+                                <p>Julistaessaan kadonneen henkilön kuolleeksi tuomioistuimen on määrättävä se päivä, jona hänen katsotaan kuolleen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_11__subsec_2">
+                            <content>
+                                <p>Kuolinpäiväksi on määrättävä se päivä, jona kadonnut henkilö todennäköisimmin on kuollut. Jollei sitä voida määrittää, kuolinpäiväksi on määrättävä se päivä, jona hän todennäköisesti viimeistään on kuollut. Kuolinpäiväksi on kuitenkin määrättävä viimeistään se päivä, jona on kulunut viisi vuotta siitä, kun kadonnut henkilö on tiettävästi viimeksi ollut elossa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 luku</num>
+                    <heading>Kuolleeksi julistaminen maistraatin päätöksellä</heading>
+                    <section eId="chp_3__sec_12">
+                        <num>12 §</num>
+                        <heading>Edellytykset</heading>
+                        <subsection eId="chp_3__sec_12__subsec_1">
+                            <intro eId="chp_3__sec_12__subsec_1__intro">
+                                <p>Henkilö voidaan julistaa kuolleeksi maistraatin päätöksellä, kun on kulunut:</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_12__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>sata vuotta sen kalenterivuoden päättymisestä, jonka aikana hän on syntynyt; ja</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_12__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>viisi vuotta sen kalenterivuoden päättymisestä, jonka aikana hän on tiettävästi viimeksi ollut elossa.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_13">
+                        <num>13 §</num>
+                        <heading>Vireilletulo</heading>
+                        <subsection eId="chp_3__sec_13__subsec_1">
+                            <content>
+                                <p>Maistraatin on vuosittain omasta aloitteestaan selvitettävä, onko väestötietojärjestelmän tietojen mukaan elossa sellaisia henkilöitä, joiden kuolleeksi julistamiseen on 12 §:n mukaiset edellytykset.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_14">
+                        <num>14 §</num>
+                        <heading>Toimivaltainen maistraatti</heading>
+                        <subsection eId="chp_3__sec_14__subsec_1">
+                            <content>
+                                <p>Kuolleeksi julistamista koskevan asian käsittelee se maistraatti, jonka toimialueella henkilöllä on viimeksi ollut kotikunta tai väestökirjanpitokunta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_14__subsec_2">
+                            <content>
+                                <p>Jos Suomessa ei ole maistraattia, joka olisi 1 momentin nojalla toimivaltainen käsittelemään asian, asian käsittelee Helsingin maistraatti.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_15">
+                        <num>15 §</num>
+                        <heading>Selvittämisvelvollisuus</heading>
+                        <subsection eId="chp_3__sec_15__subsec_1">
+                            <content>
+                                <p>Jos henkilön kuolleeksi julistamiseen on 12 §:n 1 kohdassa säädetty edellytys, maistraatin on hankittava kohtuudella saatavissa oleva selvitys siitä, onko hän ollut viimeksi kuluneiden viiden kalenterivuoden aikana elossa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_16">
+                        <num>16 §</num>
+                        <heading>Kutsu ja sen tiedoksianto</heading>
+                        <subsection eId="chp_3__sec_16__subsec_1">
+                            <content>
+                                <p>Maistraatin on kutsuttava sellaista henkilöä, jonka kuolleeksi julistamiseen on selvitetty olevan edellytykset, ilmoittautumaan maistraatille viimeistään kutsussa mainittuna määräpäivänä. Kutsussa on mainittava, että kutsussa tarkoitettu henkilö, joka ei ilmoittaudu, voidaan julistaa kuolleeksi. Maistraatin on samalla kutsuttava kaikkia, jotka voivat antaa tietoja siitä, onko asianomainen henkilö elossa vai kuollut, ilmoittamaan samassa ajassa tietonsa maistraatille.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_16__subsec_2">
+                            <content>
+                                <p>Jos asianomaiselle henkilölle on merkitty väestötietojärjestelmään voimassa oleva osoite, kutsu on lähetettävä siihen. Jos väestötietojärjestelmästä tai muista väestökirjoista ilmenee, että asianomaisella henkilöllä on Suomessa aviopuoliso tai perintökaaren (40/1965) 2 luvun 1 tai 2 §:ssä tarkoitettuja sukulaisia, kutsu on annettava tiedoksi aviopuolisolle ja vähintään yhdelle sukulaiselle. Jos asianomaiselle henkilölle on määrätty edunvalvoja, kutsu on annettava tiedoksi myös tälle.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_16__subsec_3">
+                            <content>
+                                <p>Jollei asianomaisella henkilöllä ole 2 momentissa tarkoitettua osoitetta, aviopuolisoa, sukulaista eikä edunvalvojaa, kutsu annetaan tiedoksi yleistiedoksiantona siten kuin hallintolain (434/2003) 62 §:ssä säädetään. Maistraatin on julkaistava kuulutus kutsusta virallisessa lehdessä jonkin kuukauden ensimmäisessä numerossa viimeistään kolme kuukautta ennen määräpäivää.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_17">
+                        <num>17 §</num>
+                        <heading>Maistraatin päätös kuolleeksi julistamisesta</heading>
+                        <subsection eId="chp_3__sec_17__subsec_1">
+                            <content>
+                                <p>Henkilö on 16 §:ssä tarkoitetun määräpäivän jälkeen julistettava kuolleeksi maistraatin päätöksellä, jos maistraatti ei ole saanut tietoa siitä, että hän on elossa tai kuollut, ja jos kuolleeksi julistamisen edellytykset muutoin ovat olemassa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_18">
+                        <num>18 §</num>
+                        <heading>Kuolinpäivän määrääminen</heading>
+                        <subsection eId="chp_3__sec_18__subsec_1">
+                            <content>
+                                <p>Julistaessaan henkilön kuolleeksi maistraatin on määrättävä se päivä, jona hänen katsotaan kuolleen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_18__subsec_2">
+                            <content>
+                                <p>Kuolinpäiväksi on määrättävä 1 päivä tammikuuta sinä vuonna, joka ensiksi alkaa sen jälkeen, kun on kulunut sata vuotta henkilön syntymästä ja viisi vuotta siitä, kun hän on tiettävästi viimeksi ollut elossa. Jos asiassa ilmenneiden seikkojen perusteella voidaan määrittää se päivä, jona henkilö todennäköisesti on kuollut, se on kuitenkin määrättävä kuolinpäiväksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_19">
+                        <num>19 §</num>
+                        <heading>Maistraatin päätöksen tiedoksianto</heading>
+                        <subsection eId="chp_3__sec_19__subsec_1">
+                            <content>
+                                <p>Jos väestötietojärjestelmästä tai muista väestökirjoista ilmenee, että kuolleeksi julistetulla on Suomessa aviopuoliso tai perintökaaren 2 luvun 1 tai 2 §:ssä tarkoitettuja sukulaisia, maistraatin päätös on annettava tiedoksi aviopuolisolle ja vähintään yhdelle sukulaiselle. Jos kuolleeksi julistetulle on määrätty edunvalvoja, päätös on annettava tiedoksi myös tälle.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 luku</num>
+                    <heading>Omaisuuden takaisin luovuttaminen</heading>
+                    <section eId="chp_4__sec_20">
+                        <num>20 §</num>
+                        <heading>Omaisuuden luovutusvelvollisuus</heading>
+                        <subsection eId="chp_4__sec_20__subsec_1">
+                            <content>
+                                <p>Jos kuolleeksi julistettu on elossa, hänellä on oikeus saada omaisuutensa takaisin siltä, joka on kuolleeksi julistamisen johdosta ottanut omaisuutta haltuunsa. Edellytyksenä on kuitenkin, että kuolleeksi julistettu vaatii sitä kolmen vuoden kuluessa siitä, kun hän sai tiedon kuolleeksi julistamisesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_20__subsec_2">
+                            <content>
+                                <p>Jos kuolleeksi julistetun näytetään kuolleen muulloin kuin päätöksessä määrättynä kuolinpäivänä ja jos sen vuoksi jollain muulla kuin sillä, joka on kuolleeksi julistamisen johdosta ottanut haltuunsa kuolleeksi julistetun omaisuutta, on oikeus omaisuuteen, haltijan on luovutettava omaisuus siihen oikeutetulle. Edellytyksenä on kuitenkin, että omaisuuteen oikeutettu vaatii sitä kolmen vuoden kuluessa siitä, kun hän sai tiedon oikeudestaan omaisuuteen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_20__subsec_3">
+                            <content>
+                                <p>Jos omaisuus on luovutettu edelleen, luovutus pysyy voimassa, jos haltija ei saadessaan omaisuuden haltuunsa tiennyt eikä hänen olisi pitänyt tietää, ettei luovuttaja ollut omaisuuden oikea omistaja. Sama koskee omaisuuden panttioikeuden tai käyttöoikeuden luovutusta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_21">
+                        <num>21 §</num>
+                        <heading>Luovutusvelvollisen muu suoritusvelvollisuus </heading>
+                        <subsection eId="chp_4__sec_21__subsec_1">
+                            <content>
+                                <p>Jos luovutettava omaisuus ei ole tallella tai muuten luovutettavissa, sen arvo on korvattava.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_21__subsec_2">
+                            <content>
+                                <p>Jos luovutettavan omaisuuden arvo on alentunut merkittävästi kulumisen tai vahingoittumisen vuoksi, luovutusvelvollisen on korvattava arvon aleneminen. Jos omaisuuden arvo on alentunut muusta syystä, luovutusvelvollisen on suoritettava kohtuullinen korvaus omaisuuden arvon alenemisesta, jos siihen katsotaan olevan erityistä syytä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_21__subsec_3">
+                            <content>
+                                <p>Jos luovutettava omaisuus on rahaa, luovutusvelvollisen on maksettava luovutettavalle määrälle korkolain (633/1982) 3 §:n 2 momentin mukaista korkoa siitä lähtien, kun hän sai omaisuuden haltuunsa. Muusta luovutettavasta omaisuudesta saatu tuotto on luovutettava tai sen arvo korvattava. Luovutusvelvollisen on myös suoritettava kohtuullinen korvaus omaisuudesta saamastaan hyödystä, jollei tämän voida katsoa sisältyvän omaisuuden arvon alenemisesta suoritettavaan korvaukseen. Korkoa on kuitenkin maksettava, tuotto luovutettava tai sen arvo korvattava taikka hyöty korvattava aikaisintaan siitä lähtien, kun luovutusvelvollinen sai tiedon, että hän ei ole oikeutettu omaisuuteen. </p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_21__subsec_4">
+                            <content>
+                                <p>Jos luovutettava omaisuus on rahaa tai jos omaisuuden arvo on korvattava, luovutusvelvollisen on maksettava korkoa korkolain 4 §:n 1 momentin mukaisesti luovuttamisvaatimuksen esittämisestä lukien.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_21__subsec_5">
+                            <content>
+                                <p>Jos 1―4 momentin mukaista suoritusvelvollisuutta on olosuhteisiin nähden pidettävä kohtuuttomana, sitä voidaan sovitella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_22">
+                        <num>22 §</num>
+                        <heading>Omaisuuteen pannut kustannukset</heading>
+                        <subsection eId="chp_4__sec_22__subsec_1">
+                            <content>
+                                <p>Luovutusvelvollisella on oikeus saada korvaus luovutettavaan omaisuuteen panemistaan tarpeellisista kustannuksista sekä sellaisista hyödyllisistä kustannuksista, jotka ovat syntyneet ennen kuin hän sai tiedon, että hän ei ole oikeutettu omaisuuteen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_5">
+                    <num>5 luku</num>
+                    <heading>Kansainvälisen yksityisoikeuden alaan kuuluvat säännökset</heading>
+                    <section eId="chp_5__sec_23">
+                        <num>23 §</num>
+                        <heading>Suomen viranomaisten kansainvälinen toimivalta</heading>
+                        <subsection eId="chp_5__sec_23__subsec_1">
+                            <content>
+                                <p>Suomen tuomioistuin tai maistraatti voi tutkia kuolleeksi julistamista koskevan asian, jos henkilö, jonka kuolleeksi julistamista asia koskee, on Suomen kansalainen tai jos hänen viimeinen tiedossa oleva asuin- tai kotipaikkansa on Suomessa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_23__subsec_2">
+                            <content>
+                                <p>Suomen tuomioistuin voi tutkia kuolleeksi julistamista koskevan asian myös, jos hakijan tärkeät edut puoltavat asian ratkaisemista Suomessa. Edellytyksenä on lisäksi, että hakija ei voi saattaa asiaa tutkittavaksi siinä valtiossa, jonka kansalainen se henkilö on, jonka kuolleeksi julistamista asia koskee, eikä valtiossa, jossa on tämän viimeinen tiedossa oleva asuin- tai kotipaikka, tai että asian vireillepano vieraassa valtiossa aiheuttaisi hakijalle kohtuuttomia vaikeuksia.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_24">
+                        <num>24 §</num>
+                        <heading>Sovellettava laki</heading>
+                        <subsection eId="chp_5__sec_24__subsec_1">
+                            <content>
+                                <p>Kuolleeksi julistamista koskevassa asiassa on sovellettava Suomen lakia.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_25">
+                        <num>25 §</num>
+                        <heading>Vieraassa valtiossa annetun päätöksen tunnustaminen</heading>
+                        <subsection eId="chp_5__sec_25__subsec_1">
+                            <content>
+                                <p>Vieraassa valtiossa annettua päätöstä, jolla henkilö on julistettu kuolleeksi, on ilman erityistä vahvistamista pidettävä Suomessa pätevänä, jos päätöksen on antanut sen valtion viranomainen, jonka kansalainen henkilö oli päätöksen antamisen hetkellä tai jossa on hänen viimeinen tiedossa oleva asuin- tai kotipaikkansa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_26">
+                        <num>26 §</num>
+                        <heading>Tunnustamatta jättämisen perusteet</heading>
+                        <subsection eId="chp_5__sec_26__subsec_1">
+                            <intro eId="chp_5__sec_26__subsec_1__intro">
+                                <p>Edellä 25 §:ssä tarkoitettua päätöstä ei kuitenkaan tunnusteta Suomessa:</p>
+                            </intro>
+                            <paragraph eId="chp_5__sec_26__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>jos tunnustaminen on selvästi vastoin Suomen oikeusjärjestyksen perusteita;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_26__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>jos päätös on ristiriidassa saman henkilön kuolleeksi julistamisesta Suomessa annetun päätöksen kanssa; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_26__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>jos päätös on ristiriidassa saman henkilön kuolleeksi julistamisesta jossakin muussa valtiossa aikaisemmin annetun päätöksen kanssa ja tämä aikaisemmin annettu päätös tunnustetaan Suomessa.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_6">
+                    <num>6 luku</num>
+                    <heading>Erinäisiä säännöksiä</heading>
+                    <section eId="chp_6__sec_27">
+                        <num>27 §</num>
+                        <heading>Kustannukset</heading>
+                        <subsection eId="chp_6__sec_27__subsec_1">
+                            <content>
+                                <p>Sillä, jonka hakemuksesta kadonnut henkilö on julistettu kuolleeksi tuomioistuimen päätöksellä, on oikeus saada kuolleeksi julistetun jäämistöstä korvaus kuolleeksi julistamisesta aiheutuneista kustannuksista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_28">
+                        <num>28 §</num>
+                        <heading>Maistraatin oikeus saada tietoja</heading>
+                        <subsection eId="chp_6__sec_28__subsec_1">
+                            <content>
+                                <p>Valtion ja kunnan viranomainen sekä muu julkisoikeudellinen yhteisö, Kansaneläkelaitos, Eläketurvakeskus ja eläkelaitos sekä julkiset ja yksityiset sosiaali- tai terveydenhuollon palvelujen tuottajat ovat salassapitosäännösten estämättä velvollisia pyynnöstä antamaan maksutta maistraatille ne tiedot, jotka se 3 luvussa säädettyä tehtävää suorittaessaan tarvitsee henkilön elossa olemisen tai kuoleman selvittämiseksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_29">
+                        <num>29 §</num>
+                        <heading>Toimivaltainen viranomainen Ahvenanmaan maakunnassa</heading>
+                        <subsection eId="chp_6__sec_29__subsec_1">
+                            <content>
+                                <p>Ahvenanmaan maakunnassa maistraatille tämän lain mukaan kuuluvia tehtäviä hoitaa lääninhallitus.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_30">
+                        <num>30 §</num>
+                        <heading>Tarkemmat säännökset</heading>
+                        <subsection eId="chp_6__sec_30__subsec_1">
+                            <content>
+                                <p>Tarkemmat säännökset kuolleeksi julistamista koskevasta päätöksestä tehtävistä ilmoituksista annetaan valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <section eId="sec_31">
+                    <num>31 §</num>
+                    <heading>Voimaantulo- ja siirtymäsäännökset</heading>
+                    <subsection eId="sec_31__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 9 päivänä maaliskuuta 2005.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_31__subsec_2">
+                        <content>
+                            <p>Tällä lailla kumotaan kuolleeksi julistamisesta 23 päivänä huhtikuuta 1901 annettu laki (15/1901) siihen myöhemmin tehtyine muutoksineen.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_31__subsec_3">
+                        <content>
+                            <p>Jos kumotun lain 4 a §:n 2 momentissa tarkoitettu väestörekisterin pitäjän luettelo on saapunut viralliselle syyttäjälle ennen tämän lain voimaantuloa, luettelossa mainittujen henkilöiden kuolleeksi julistamista koskevan asian käsittelyyn sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/82">HE 82/2004</ref>
+                        </p>
+                        <p>HaVM 1/2005</p>
+                        <p>EV 1/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 4 päivänä maaliskuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Johannes Koskinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,160 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/128/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/128"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/128/alkup"/>
+                    <FRBRdate date="2007-02-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="128"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/128/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/128/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/128/alkup/swe"/>
+                    <FRBRdate date="2007-02-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/128/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/128/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/128/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="21"/>
+                    <finlex:date date="2007-02-14"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>128/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om hypoteksbanker</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 23 december 1999 om hypoteksbanker (
+                        <affectedDocument href="/akn/fi/act/statute/1999/1240">1240/1999</affectedDocument>
+                        ) 1 §, 2 § 2 punkten, 7 § 2 mom. och 15 § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Definition av hypoteksbank</heading>
+                    <subsection>
+                        <content>
+                            <p>En hypoteksbank är ett i 8 § 1 mom. i kreditinstitutslagen (121/2007) avsett kreditinstitut i aktiebolagsform, vars syfte är att bevilja i denna lag avsedda fastighetskrediter och krediter till offentliga samfund samt att emittera i denna lag avsedda masskuldebrevslån med säkerheter i fastigheter och masskuldebrevslån med säkerheter i offentliga samfund.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>2 §</num>
+                    <heading>Övriga definitioner</heading>
+                    <subsection>
+                        <intro>
+                            <p>I denna lag avses med</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>
+                                    <i>kredit till ett offentligt samfund</i>
+                                     en kredit som har beviljats finska staten, finländska kommuner eller andra offentliga samfund som vid användning av en metod som avses i 58 § i kreditinstitutslagen får jämställas med finska staten eller en finländsk kommun eller vars fulla säkerhet består av ett i denna punkt avsett offentligt samfunds borgensförbindelse eller av en fordran hos ett sådant offentligt samfund,
+                                </p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 §</num>
+                    <heading>Tillåten affärsverksamhet</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>En hypoteksbanks tillgångar får utöver vad som föreskrivs i 1 mom. placeras endast i fordringar på vilka vid användning av en metod som avses i 58 § i kreditinstitutslagen får tillämpas 0 eller 20 procents riskvikt samt i andra värdepapper som avses i 1 kap. 2 § 1 mom. 2 punkten i värdepappersmarknadslagen (495/1989) och som utgör sådana börs- eller marknadsvärdepapper som avses i 1 kap. 3 § i den nämnda lagen samt i utländska värdepapper som kan jämställas med de ovan nämnda.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>15 §</num>
+                    <heading>Bokslut och delårsrapport</heading>
+                    <subsection>
+                        <content>
+                            <p>Av en hypoteksbanks bokslut skall utöver vad som föreskrivs i 9 kap. i kreditinstitutslagen framgå beloppen av beviljade fastighetskrediter och krediter till offentliga samfund, beloppen av de masskuldebrevslån med säkerheter i fastigheter och de masskuldebrevslån med säkerheter i offentliga samfund som är i omlopp samt grunderna för värderingen av säkerheterna för fastighetskrediter.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>På hypoteksbanker tillämpas vad som i 157 § i kreditinstitutslagen föreskrivs om inlåningsbankers skyldighet att offentliggöra delårsrapporter och årsrapporter.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 15 februari 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 21/2006</p>
+                        <p>EkUB 25/2006</p>
+                        <p>RSv 252/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 9 februari 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Andra finansminister </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

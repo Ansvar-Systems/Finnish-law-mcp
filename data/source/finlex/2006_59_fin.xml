@@ -1,0 +1,304 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/59/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/59"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/59/alkup"/>
+                    <FRBRdate date="2006-01-20" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="59"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/59/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/59/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/59/alkup/fin"/>
+                    <FRBRdate date="2006-01-20" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/59/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/59/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/59/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="10"/>
+                    <finlex:date date="2006-01-27"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>59/2006</docNumber>
+                <docTitle>Laki rikesakkomenettelystä annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         rikesakkomenettelystä 21 päivänä tammikuuta 1983 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1983/66">66/1983</affectedDocument>
+                        ) 10 §:n 1 momentti sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         8 §:ään, sellaisena kuin se on laissa 699/1997, uusi 2 momentti ja lakiin uusi 2 a luku seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>2 luku</num>
+                    <heading>Rikesakon määrääminen</heading>
+                    <section>
+                        <num>8 §</num>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Sen estämättä, mitä 1 momentissa säädetään, rikesakkomääräys voidaan lähettää rikkomukseen syyllistyneelle postitse asianomaisen henkilön ilmoittamaan taikka ajoneuvoliikennerekisteristä ilmenevään osoitteeseen, jos kyseessä on moottorikäyttöisellä ajoneuvolla tehty liikennerikkomus, johon syyllistyneen henkilöllisyys on välittömästi todettu. Rikesakkomääräys on tällöin lähetettävä viipymättä ja viimeistään kahden viikon kuluessa rikkomuksen tekopäivästä. Asianomaisen henkilön katsotaan saaneen rikesakkomääräyksestä tiedon seitsemäntenä päivänä sen jälkeen, kun se on annettu postin kuljetettavaksi. Rikesakkomääräykseen on merkittävä päivä, jona se on annettu postin kuljetettavaksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>10 §</num>
+                        <subsection>
+                            <content>
+                                <p>Rikesakko raukeaa, jollei sitä koskevaa määräystä ole annettu tiedoksi vuoden kuluessa rikkomuksen tekopäivästä.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>2 a luku</num>
+                    <heading>Menettely rikesakon määräämiseksi ajoneuvoa pysäyttämättä havaituista liikennerikkomuksista</heading>
+                    <section>
+                        <num>13 a §</num>
+                        <subsection>
+                            <intro>
+                                <p>Tämän luvun säännöksiä voidaan soveltaa moottorikäyttöisellä ajoneuvolla tehdyn sellaisen rikesakkorikkomuksen käsittelyyn, joka on havaittu automaattisessa liikennevalvonnassa tai muuten ajoneuvoa pysäyttämättä ja joka koskee:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>suurimman sallitun nopeuden ylitystä enintään 20 kilometrillä tunnissa; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>liikennemerkkien vastaista ajoa linja-auto- tai raitiovaunukaistalla.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 b §</num>
+                        <subsection>
+                            <content>
+                                <p>Menettely käynnistyy siten, että rikesakkomääräys annetaan rikkomukseen käytetyn ajoneuvon kuljettajaa selvittämättä sille luonnolliselle henkilölle, joka rikkomuksen tekoaikana oli rikkomukseen käytetyn ajoneuvon rekisteriin merkitty omistaja, haltija tai tilapäinen käyttäjä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Rikesakkomääräys annetaan ajoneuvolain (1090/2002) 3 §:n 23 kohdassa tarkoitetulle käyttövastaavalle, jos kaikki rikkomukseen liittyvät seikat huomioon ottaen voidaan pitää selvitettynä, että hän on rikkomuksen tekoaikana kuljettanut siihen käytettyä autoa. Muussa tapauksessa käyttövastaavalta on tiedusteltava, kuka kyseistä autoa on silloin kuljettanut.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Poliisipiirissä on pidettävä erillistä luetteloa, johon merkitään se ajankohta, jolloin käyttövastaavalle osoitettu tiedustelukirje on annettu postin kuljetettavaksi tai 2 momentissa tarkoitettu tiedustelu on muutoin suoritettu. Jos käyttövastaava ei kahden viikon kuluessa tiedustelun suorittamisesta vastaa siihen, asian jatkokäsittelyyn sovelletaan, mitä 2, 3 ja 4 luvussa säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 c §</num>
+                        <subsection>
+                            <content>
+                                <p>Rikesakkomääräyksen antaa poliisimies. Rikesakkomääräys on annettava kirjallisena, ja antajan on allekirjoitettava se. Rikesakkomääräys voidaan allekirjoittaa myös koneellisesti.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Rikesakkomääräyksestä tulee ilmetä:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>rikesakkomääräyksen saaneen henkilötiedot;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>rikkomuksen tekoaika ja -paikka, rikkomuksen laatu sekä sovellettavat lainkohdat;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>rikesakon määrä ja päivämäärä, johon mennessä rikesakko on maksettava;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>selostus rikesakkomääräyksen saaneelle rikkomuksesta mahdollisesti aiheutuvista muista seuraamuksista, kuten ajokiellosta; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>selostus siitä, miten rikesakkomääräystä vastustettaessa tulee menetellä ja miten asiaa tällöin käsitellään.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 d §</num>
+                        <subsection>
+                            <content>
+                                <p>Rikesakkomääräys lähetetään rikesakkomääräyksen saaneelle postitse ajoneuvoliikennerekisteristä ilmenevään osoitteeseen. Rikesakkomääräys on lähetettävä viipymättä ja viimeistään kahden viikon kuluessa rikkomuksen tekopäivästä. Käyttövastaavan esittäessä 13 b §:n 2 momentissa tarkoitetun selvityksen rikkomukseen syyllistyneen henkilöllisyydestä rikesakkomääräys saadaan kuitenkin lähettää kahden viikon kuluessa tällaisen tiedon saamisesta. Asianomaisen henkilön katsotaan saaneen määräyksestä tiedon seitsemäntenä päivänä sen jälkeen, kun määräys on annettu postin kuljetettavaksi. Määräykseen on merkittävä päivä, jona se on annettu postin kuljetettavaksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 e §</num>
+                        <subsection>
+                            <content>
+                                <p>Rikesakko on maksettava 30 päivän kuluessa rikesakkomääräyksen tiedoksisaamisesta, jollei rikesakkomääräyksen saanut sitä vastusta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 f §</num>
+                        <subsection>
+                            <content>
+                                <p>Jos rikesakkomääräyksen saanut henkilö kiistää syyllisyytensä rikesakkomääräyksessä tarkoitettuun rikkomukseen tai jos hän pitää sitä muulla tavalla perusteettomana, hänen tulee vastustaa saamaansa rikesakkomääräystä. Vastustamista ei tarvitse perustella.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vastustamisesta tulee ilmoittaa 30 päivän kuluessa rikesakkomääräyksen tiedoksisaamisesta sen kihlakunnan poliisilaitoksen kansliaan, minkä alueella rikkomus on tehty. Vastustamisilmoitukseen on liitettävä rikesakkomääräys. Vastustaminen voidaan tehdä tätä tarkoitusta varten laaditulla lomakkeella. </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vastustamisilmoituksen saa toimittaa poliisilaitokselle myös postilähetyksenä, telekopiona tai lähetin välityksellä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 g §</num>
+                        <subsection>
+                            <content>
+                                <p>Tämän luvun mukaisessa menettelyssä annettuun rikesakkomääräykseen sovelletaan, mitä 11 §:n 1 ja 2 momentissa sekä 4 luvussa säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tämän luvun mukaisessa menettelyssä annettua rikesakkomääräystä ei voida saattaa käräjäoikeuden käsiteltäväksi siten kuin 12 §:ssä säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 h §</num>
+                        <subsection>
+                            <content>
+                                <p>Poliisipiirin päällikkö toimittaa täytäntöönpantavaksi rikesakkomääräyksen, jota ei ole vastustettu eikä poistettu.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Poliisipiirin päällikkö poistaa rikesakkomääräyksen, jota on vastustettu. Tällöin tämän luvun mukainen menettely raukeaa ja asian jatkokäsittelystä on voimassa, mitä 2, 3 ja 4 luvussa säädetään, jollei 3 momentista muuta johdu.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Rikesakkomääräyksen vastustamisen jälkeen uusi, samasta teosta annettava rikesakkomääräys voidaan lähettää rikkomukseen syyllistyneelle postitse asianomaisen henkilön ilmoittamaan osoitteeseen, jos tekoon syyllistyneen henkilöllisyys on selvitetty tunnustuksella, jota ei ole syytä epäillä. Asianomaisen henkilön katsotaan saaneen rikesakkomääräyksestä tiedon seitsemäntenä päivänä sen jälkeen, kun se on annettu postin kuljetettavaksi. Rikesakkomääräykseen on merkittävä päivä, jona se on annettu postin kuljetettavaksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 i §</num>
+                        <subsection>
+                            <content>
+                                <p>Sille, joka ei ole voinut määräajassa vastustaa 13 d §:n mukaisesti tiedoksi annettua rikesakkomääräystä, on hakemuksesta palautettava menetetty määräaika. Menetetyn määräajan palauttamista koskevassa hakemuksessa on ilmoitettava syy siihen, miksi rikesakkomääräystä ei ole voitu määräajassa vastustaa, ja hakemus on tehtävä sen paikkakunnan käräjäoikeudelle, jonka tuomiopiirin alueella rikkomus on tehty, viimeistään yhdeksän kuukauden kuluessa rikkomuksen tekopäivästä. Hakemukseen on liitettävä rikesakkomääräys tai maksukehotus.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 j §</num>
+                        <subsection>
+                            <content>
+                                <p>Jos 13 a §:n 1 tai 2 kohdassa tarkoitettu rikkomus on olosuhteet huomioon ottaen vähäinen, rikkomukseen käytetyn ajoneuvon rekisteriin merkitylle omistajalle, haltijalle tai tilapäiselle käyttäjälle voidaan muihin toimenpiteisiin ryhtymättä antaa kirjallinen huomautus. Huomautuksen antaa poliisimies, ja se lähetetään huomautuksen saaneen henkilön ajoneuvoliikennerekisteristä ilmenevään osoitteeseen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä huhtikuuta 2006.</p>
+                    <p>Lain 2 a luvun 13 b §:n 2 ja 3 momentti tulevat kuitenkin voimaan 1 päivänä tammikuuta 2008.</p>
+                    <p>Lakia on sovellettava sen voimaantulon jälkeen tehtyihin rikkomuksiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/16">HE 16/2005</ref>
+                        </p>
+                        <p>LaVM 14/2005</p>
+                        <p>EV 164/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 20 päivänä tammikuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

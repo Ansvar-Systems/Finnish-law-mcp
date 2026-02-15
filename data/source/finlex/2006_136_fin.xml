@@ -1,0 +1,176 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/136/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/136"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/136/alkup"/>
+                    <FRBRdate date="2006-02-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="136"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/136/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/136/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/136/alkup/fin"/>
+                    <FRBRdate date="2006-02-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/136/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/136/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/136/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="23"/>
+                    <finlex:date date="2006-03-01"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>136/2006</docNumber>
+                <docTitle>Laki kemikaalilain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         14 päivänä elokuuta 1989 annetun kemikaalilain (
+                        <affectedDocument href="/akn/fi/act/statute/1989/744">744/1989</affectedDocument>
+                        ) 52 §:n 1 momentti, sellaisena kuin se on laissa 391/2005, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 8 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>8 a §</num>
+                    <heading>Muut viranomaiset</heading>
+                    <subsection>
+                        <content>
+                            <p>Suomen ympäristökeskus toimii pesuaineista annetun Euroopan parlamentin ja neuvoston asetuksen (EY) N:o 648/2004 5, 7, 8, 10, 11 ja 15 artiklassa tarkoitettuna toimivaltaisena viranomaisena. Sosiaali- ja terveydenhuollon tuotevalvontakeskus toimii lisäksi asetuksen 10, 11 ja 15 artiklassa tarkoitettuna toimivaltaisena viranomaisena, kun on kyse pesuaineiden aiheuttamien terveyshaittojen ehkäisemisestä tai torjumisesta taikka asetuksen 8 artiklassa tarkoitetun hyvän laboratoriokäytännön noudattamisesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Suomen ympäristökeskus toimii pysyvistä orgaanisista yhdisteistä sekä direktiivin 79/117/ETY muuttamisesta annetun Euroopan parlamentin ja neuvoston asetuksen (EY) N:o 850/2004 15 artiklassa tarkoitettuna toimivaltaisena viranomaisena.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä tässä luvussa tarkoitetut valvontaviranomaiset valvovat edellä 1 ja 2 momentissa tarkoitettujen EY:n asetusten noudattamista kukin toimialallaan.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>52 §</num>
+                    <heading>Kemikaalirikkomus</heading>
+                    <subsection>
+                        <intro>
+                            <p>Joka tahallaan tai huolimattomuudesta</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>laiminlyö 25 §:ssä tarkoitetun hyväksymisen hakemisen, 30 c §:ssä tarkoitetun rekisteröinnin hakemisen, 30 e §:ssä tarkoitetun luvan hakemisen tai ilmoituksen tekemisen, 20 §:ssä tarkoitetun ilmoituksen tekemisen, 17 §:n 3 momentissa tarkoitetun käyttöturvallisuustiedotteen laatimisen tai antamisen taikka 18 a §:ssä tarkoitetun tietojentoimittamisvelvollisuuden tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>laiminlyö 42 §:n 3 momentissa säädetyn ilmoitusvelvollisuuden, vaarallisten kemikaalien viennistä ja tuonnista annetun Euroopan parlamentin ja neuvoston asetuksen (EY) N:o 304/2003 7, 9, 13, 14 ja 16 artiklan mukaisen velvollisuuden antaa tietoja kemikaalin viennistä, 15 artiklan mukaisen kauttakulkua koskevien tietojen luovuttamisen taikka rikkoo 13 artiklassa tarkoitetun vastaanottajamaan tekemää päätöstä tai 14 artiklan mukaista vientikieltoa tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>rikkoo pesuaineista annetun Euroopan parlamentin ja neuvoston asetuksen (EY) N:o 648/2004 3 ja 4 artiklan määräyksiä pesuaineiden ja niiden sisältämien pinta-aktiivisten aineiden markkinoille saattamisesta, 7 artiklan mukaista testausvaatimusta taikka laiminlyö 9 artiklan mukaisen tietojen toimittamisvelvollisuuden tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <intro>
+                                <p>rikkoo pysyvistä orgaanisista yhdisteistä sekä direktiivin 79/117/ETY muuttamisesta annetun Euroopan parlamentin ja neuvoston asetuksen (EY) N:o 850/2004 3 artiklassa tarkoitettua kieltoa ja rajoitusta taikka laiminlyö 5 artiklan varastoa koskevien määräysten noudattamisen,</p>
+                            </intro>
+                            <subparagraph>
+                                <content>
+                                    <p>
+                                        on tuomittava, jollei teosta muualla laissa säädetä ankarampaa rangaistusta, 
+                                        <i>kemikaalirikkomuksesta</i>
+                                         sakkoon.
+                                    </p>
+                                </content>
+                            </subparagraph>
+                            <hcontainer name="omission"/>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä maaliskuuta 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/184">HE 184/2005</ref>
+                        </p>
+                        <p>YmVM 17/2005</p>
+                        <p>EV 176/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 17 päivänä helmikuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ympäristöministeri </role>
+                                <person refersTo="">Jan-Erik Enestam</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

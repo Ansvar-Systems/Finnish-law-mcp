@@ -1,0 +1,183 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/108/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/108"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/108/alkup"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="108"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/108/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/108/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/108/alkup/fin"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/108/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/108/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/108/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>108/2016</docNumber>
+                <docTitle>Laki varhaiskasvatuslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         varhaiskasvatuslain (
+                        <affectedDocument href="/akn/fi/act/statute/1973/36">36/1973</affectedDocument>
+                        ) 5 ja 11 a §, sellaisina kuin ne ovat, 5 § laissa 451/1990 ja 11 a § laissa 580/2015, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         11 b §:ään, sellaisena kuin se on laissa 1290/1999, uusi 2 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>5 §</num>
+                    <subsection>
+                        <content>
+                            <p>Päiväkodissa ja perhepäivähoidossa tulee olla tarvittava määrä 4 a §:ssä tarkoitettua henkilöstöä, jotta varhaiskasvatukselle säädetyt tavoitteet voidaan saavuttaa. Valtioneuvoston asetuksella säädetään tarkemmin päiväkodissa ja perhepäivähoidossa hoito- ja kasvatustehtävissä olevan henkilöstön sekä lasten välisestä henkilöstömitoituksesta, tilapäisestä henkilöstömitoituksesta poikkeamisesta, erityistä hoitoa ja kasvatusta tarvitsevien lasten huomioon ottamisesta henkilöstömäärässä sekä henkilöstörakenteesta. Henkilöstömitoituksesta voidaan säätää erikseen alle kolmevuotiaiden lasten sekä kolme vuotta täyttäneiden lasten osalta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>11 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Sen lisäksi, mitä 11 §:ssä säädetään, kunnan on huolehdittava siitä, että lapsi ennen perusopetuslaissa tarkoitetun oppivelvollisuuden alkamista saa varhaiskasvatusta 20 tuntia viikossa kunnan järjestämässä 1 §:n 2 tai 3 momentissa tarkoitetussa paikassa sen ajan päätyttyä, jolta voidaan suorittaa sairausvakuutuslaissa tarkoitettua äitiys- ja vanhempainrahaa tai osittaista vanhempainrahaa. Varhaiskasvatusta ei kuitenkaan ole järjestettävä aikana, jolta voidaan suorittaa sairausvakuutuslain 9 luvun 7 §:n 1 momentissa tarkoitettua äitiys- ja vanhempainrahakauden ulkopuolella maksettavaa isyysrahaa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa säädetystä poiketen varhaiskasvatusta on järjestettävä kokopäiväisesti, jos lapsen vanhemmat tai muut huoltajat työttömyysturvalaissa (1290/2002) tarkoitetulla tavalla työskentelevät kokoaikaisesti taikka opiskelevat, toimivat yrittäjänä tai ovat omassa työssä päätoimisesti. Edellä mainitun tilanteen päätyttyä varhaiskasvatusta on edelleen järjestettävä tämän momentin mukaisesti kahden kuukauden ajan, paitsi jos lapsen vanhempi tai muu huoltaja jää kotiin hoitamaan perheessä asuvaa muuta lasta tai jää eläkkeelle.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Lapsella on lisäksi oikeus 1 momentissa säädettyä laajempaan varhaiskasvatukseen siinä laajuudessa kuin se on tarpeellista lapsen vanhemman tai muun huoltajan osa-aikaisen tai väliaikaisen työssäkäynnin, työllistymistä edistävään palveluun osallistumisen, kuntoutuksen tai muun vastaavan syyn vuoksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Lapselle on kuitenkin järjestettävä varhaiskasvatusta kokopäiväisesti, jos se on tarpeen lapsen kehityksen, tuen tarpeen tai perheen olosuhteiden takia taikka se on muutoin lapsen edun mukaista.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Lapsen vanhempien tai muiden huoltajien on kunnan päättämin määräajoin esitettävä selvitys 1 momentissa säädettyä laajemman varhaiskasvatuksen edellytyksistä. Lisäksi kunta voi perustellusta syystä muutoinkin edellyttää mainitun selvityksen esittämistä. Lapsen vanhempien tai muiden huoltajien tulee ilmoittaa kunnalle varhaiskasvatusoikeuden laajuuteen vaikuttavissa seikoissa tapahtuvista olennaisista muutoksista viipymättä saatuaan niistä tiedon.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1—4 momentissa tarkoitetun lapsen vanhemmilla tai muilla huoltajilla, jotka eivät valitse kunnan järjestämää tämän pykälän mukaista varhaiskasvatuspaikkaa, on lapsen muulla tavalla tapahtuvan hoidon tai varhaiskasvatuksen järjestämiseksi oikeus lasten kotihoidon ja yksityisen hoidon tuesta annetun lain (1128/1996) mukaiseen tukeen mainitussa laissa tarkemmin säädettävällä tavalla.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Lapsen vanhempien tai muiden huoltajien, jotka haluavat lapselle tämän pykälän mukaisen varhaiskasvatuspaikan, on tehtävä sitä koskeva hakemus määräajassa ennen kuin lapsi tarvitsee paikan. Varhaiskasvatusta on mahdollisuuksien mukaan järjestettävä lapsen vanhempien tai muiden huoltajien toivomassa muodossa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Oikeus samaan varhaiskasvatuspaikkaan säilyy, vaikka lapsi ei ole varhaiskasvatuksessa sairausvakuutuslain 9 luvun 7 §:ssä tarkoitettujen isyysrahajaksojen aikana. Isyysrahajaksoista johtuvasta poissaolosta on ilmoitettava varhaiskasvatuspaikkaan viimeistään kaksi viikkoa ennen sen suunniteltua aloittamispäivää. Oikeus samaan varhaiskasvatuspaikkaan säilyy päiväkodissa ja mahdollisuuksien mukaan perhepäivähoidossa, jos lapsen varhaiskasvatusaika muuttuu 1—4 momentissa säädetyllä tavalla.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kunnan on tarjottava 1 momentissa tarkoitetun varhaiskasvatusoikeuden piirissä olevalle lapselle mahdollisuus osallistua lapsen vanhempien tai muiden huoltajien päätöksen mukaisesti joko osapäiväiseen tai osaviikkoiseen varhaiskasvatukseen. Kunta päättää lapsikohtaisesti määräajaksi tarkemmat säännölliset varhaiskasvatuksen toiminta-ajat.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valtioneuvoston asetuksella voidaan antaa tarkempia säännöksiä 7 momentissa tarkoitetusta varhaiskasvatukseen hakemisesta sekä määräajoista, joiden kuluessa lapsen vanhempien tai muiden huoltajien tulee hakea lapselle varhaiskasvatuspaikkaa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>11 b §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Riippumatta siitä, mitä 11 a §:n 1 momentissa säädetään, varhaiskasvatusta ei ole järjestettävä, kun lapsi osallistuu perusopetuslaissa tarkoitettuun esiopetukseen tai perusopetukseen. Varhaiskasvatusta on tällöin kuitenkin järjestettävä osa-aikaisesti, mikäli lapsella on oikeus 11 a §:n 1 momentissa säädettyä laajempaan varhaiskasvatukseen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä elokuuta 2016.</p>
+                    <p>Kunta voi kumota ja päättää uudelleen ennen tämän lain voimaantuloa voimassa olleiden säännösten nojalla tehdyt 11 a §:n mukaista oikeutta koskevat 11 d §:ssä tarkoitetun kunnan toimielimen tai sen alaisen viranhaltijan päätökset. Oikeus samaan varhaiskasvatuspaikkaan kuitenkin säilyy päiväkodissa ja mahdollisuuksien mukaan perhepäivähoidossa, jos lapsen varhaiskasvatusaika tämän lain voimaan tullessa muuttuu 11 a §:n 1—4 momentissa säädetyllä tavalla.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/80">HE 80/2015</ref>
+                        </p>
+                        <p>SiVM 11/2015</p>
+                        <p>EV 112/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 29 päivänä tammikuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sisäministeri</role>
+                                <person refersTo="">Petteri Orpo</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

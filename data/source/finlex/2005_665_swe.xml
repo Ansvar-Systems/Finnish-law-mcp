@@ -1,0 +1,395 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/665/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/665"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/665/alkup"/>
+                    <FRBRdate date="2005-08-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="665"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/665/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/665/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/665/alkup/swe"/>
+                    <FRBRdate date="2005-08-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/665/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/665/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/665/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="115"/>
+                    <finlex:date date="2005-09-01"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>665/2005</docNumber>
+                <docTitle>Lag om högsta domstolen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut föreskrivs:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 kap.</num>
+                    <heading>Högsta domstolens uppgifter</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Den högsta domsrätten i tviste- och brottmål utövas av högsta domstolen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_1__subsec_2">
+                            <content>
+                                <p>Högsta domstolen övervakar rättskipningen inom sitt behörighetsområde.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <intro eId="chp_1__sec_2__subsec_1__intro">
+                                <p>Vid högsta domstolen behandlas som rättskipningsärenden</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>besvär över hovrätternas avgöranden,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>besvär som, enligt vad som särskilt föreskrivs, anförs över andra domstolars eller rättskipningsorgans avgöranden,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>ärenden som gäller extraordinärt ändringssökande, enligt vad som särskilt föreskrivs om detta,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>åtal som gäller tjänstebrott begångna av presidenten eller en ledamot vid en hovrätt eller riksåklagaren eller biträdande riksåklagaren,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>frågor som gäller huruvida ett mål eller ärende omfattas av en allmän domstols eller specialdomstols eller en administrativ myndighets behörighet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>andra ärenden som enligt lag skall behandlas som rättskipningsärenden.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <intro eId="chp_1__sec_3__subsec_1__intro">
+                                <p>Högsta domstolen skall dessutom</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>avge i 77 § i grundlagen avsedda utlåtanden om lagar som tillställs republikens president för stadfästelse,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>avge i 105 § i grundlagen avsedda utlåtanden om benådning,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>behandla ärenden som hör till den enligt självstyrelselagen för Åland (1144/1991),</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>enligt vad som särskilt föreskrivs behandla ärenden som gäller utlämning för brott,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>behandla andra till rättsvården hörande ärenden som enligt vad som särskilt föreskrivs ankommer på den,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>behandla justitieförvaltningsärenden enligt vad som särskilt föreskrivs.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_4">
+                        <num>4 §</num>
+                        <subsection eId="chp_1__sec_4__subsec_1">
+                            <content>
+                                <p>Högsta domstolen avger på begäran utlåtanden till statsrådet i lagstiftningsfrågor.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_4__subsec_2">
+                            <content>
+                                <p>Högsta domstolen kan göra framställningar hos statsrådet om vidtagande av lagstiftningsåtgärder.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_5">
+                        <num>5 §</num>
+                        <subsection eId="chp_1__sec_5__subsec_1">
+                            <content>
+                                <p>Högsta domstolen fungerar i enlighet med artikel 2 i rådets förordning (EG) nr 1348/2000 om delgivning i medlemsstaterna av handlingar i mål och ärenden av civil eller kommersiell natur som sändande organ så som Finland för verkställighet av nämnda förordning meddelar.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 kap.</num>
+                    <heading>Avgörande av ärenden</heading>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>I högsta domstolen handläggs och avgörs ärendena på avdelningar. Bestämmelser om högsta domstolens domföra sammansättning finns i rättegångsbalken.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>Presidenten kan besluta att ett rättskipningsärende i behövlig omfattning skall hänskjutas till plenum eller förstärkt avdelning, som består av 11 ledamöter, om det vid överläggningen om avgörandet i ett ärende eller en del därav visar sig att avdelningen kommer att avvika från den ståndpunkt som högsta domstolen tidigare har intagit. Presidenten kan också i andra fall hänskjuta ett rättskipningsärende eller en del därav som är av vidsträckt eller principiell betydelse till plenum eller förstärkt avdelning.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_8">
+                        <num>8 §</num>
+                        <subsection eId="chp_2__sec_8__subsec_1">
+                            <content>
+                                <p>Lagstiftningsinitiativ som avses i 4 § 2 mom. behandlas i plenum. Också justitieförvaltningsärenden som avses i 3 § 6 punkten behandlas i plenum, om inte annat föreskrivs i arbetsordningen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_8__subsec_2">
+                            <content>
+                                <p>I andra ärenden som avses i 3 och 4 § är högsta domstolen beslutför med fem ledamöter. Högsta domstolen kan dock besluta att ett ärende eller del därav skall behandlas i plenum eller annan utökad sammansättning.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_9">
+                        <num>9 §</num>
+                        <subsection eId="chp_2__sec_9__subsec_1">
+                            <content>
+                                <p>Vid högsta domstolens sammanträden avgörs ärendena på föredragning.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_9__subsec_2">
+                            <content>
+                                <p>Presidenten avgör ärendena på föredragning i enlighet med vad som föreskrivs i arbetsordningen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 kap.</num>
+                    <heading>Presidenten och de övriga ledamöterna</heading>
+                    <section eId="chp_3__sec_10">
+                        <num>10 §</num>
+                        <subsection eId="chp_3__sec_10__subsec_1">
+                            <content>
+                                <p>Högsta domstolen består av en president och minst 15 justitieråd såsom övriga ledamöter. Bestämmelser om utnämning av presidenten och ledamöterna vid högsta domstolen samt om behörighetsvillkoren för dem finns i lagen om utnämning av domare (205/2000).</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_10__subsec_2">
+                            <content>
+                                <p>Vid högsta domstolen kan i enlighet med vad som föreskrivs i lagen om utnämning av domare finnas ledamöter som utnämnts för viss tid.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_11">
+                        <num>11 §</num>
+                        <subsection eId="chp_3__sec_11__subsec_1">
+                            <content>
+                                <p>Presidenten leder högsta domstolens verksamhet och svarar för dess resultat.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_11__subsec_2">
+                            <content>
+                                <p>Vid förhinder för presidenten sköts hans eller hennes uppgifter av den enligt tjänsteår äldsta ledamot som är i tjänst.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_12">
+                        <num>12 §</num>
+                        <subsection eId="chp_3__sec_12__subsec_1">
+                            <content>
+                                <p>I plenum deltar presidenten och de ledamöter som är i tjänst.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 kap.</num>
+                    <heading>Föredragande och annan personal</heading>
+                    <section eId="chp_4__sec_13">
+                        <num>13 §</num>
+                        <subsection eId="chp_4__sec_13__subsec_1">
+                            <content>
+                                <p>Föredragande vid högsta domstolen är kanslichefen, referendarieråden samt äldre justitiesekreterarna och justitiesekreterarna.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_13__subsec_2">
+                            <content>
+                                <p>Föredragandena utnämns av högsta domstolen. För föredragandena gäller i fråga om behörighetsvillkor, utnämningsgrunder och utnämning för viss tid det som föreskrivs i lagen om utnämning av domare. Referendarieråden kan utnämnas till tjänsteförhållande för viss tid också när det är relevant för att främja en bred sakkunskap inom rättskipning vid domstols- eller åklagarväsendet eller för att säkerställa en bred sakkunskap bland föredragandena i de ärenden som högsta domstolen behandlar. Högst en tredjedel av referendarieråden kan vid samma tidpunkt stå i tjänsteförhållande för viss tid, om inte något annat följer av 15 § 1 mom. i lagen om utnämning av domare.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_13__subsec_3">
+                            <content>
+                                <p>Bestämmelser om övriga tjänster och tjänstemän vid högsta domstolen finns i arbetsordningen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_14">
+                        <num>14 §</num>
+                        <subsection eId="chp_4__sec_14__subsec_1">
+                            <content>
+                                <p>Vad som i 103 § i grundlagen föreskrivs om domarnas rätt att kvarstå i tjänsten och om domartjänster gäller även föredragandena vid högsta domstolen och tjänsterna som föredragande.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_5">
+                    <num>5 kap.</num>
+                    <heading>Temporära arrangemang som gäller anställningsförhållande</heading>
+                    <section eId="chp_5__sec_15">
+                        <num>15 §</num>
+                        <subsection eId="chp_5__sec_15__subsec_1">
+                            <content>
+                                <p>Presidenten kan vara tjänstledig högst en månad om året. Beslut om beviljande av tjänstledighet för längre tid fattas i plenum.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_15__subsec_2">
+                            <content>
+                                <p>Justitieråden beviljas tjänstledighet av högsta domstolen. Beslut om detta fattas i plenum, om inte annat föreskrivs i arbetsordningen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_16">
+                        <num>16 §</num>
+                        <subsection eId="chp_5__sec_16__subsec_1">
+                            <content>
+                                <p>I fråga om beviljande av tjänstledighet för kanslichefen och andra föredragande samt andra tjänstemän föreskrivs i arbetsordningen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_6">
+                    <num>6 kap.</num>
+                    <heading>Särskilda bestämmelser</heading>
+                    <section eId="chp_6__sec_17">
+                        <num>17 §</num>
+                        <subsection eId="chp_6__sec_17__subsec_1">
+                            <content>
+                                <p>Föredragandena vid högsta domstolen åtalas för tjänstebrott i Helsingfors hovrätt.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_18">
+                        <num>18 §</num>
+                        <subsection eId="chp_6__sec_18__subsec_1">
+                            <content>
+                                <p>Högsta domstolen fastställer sin egen arbetsordning. I arbetsordningen ges närmare bestämmelser om behandlingen av ärenden i högsta domstolen och om arbetet i övrigt. I arbetsordningen kan högsta domstolen befria de ledamöter som nämns i 10 § 2 mom. från att behandla frågor som avses i 3 § 5 och 6 punkten samt ekonomiska och administrativa frågor som gäller högsta domstolen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_18__subsec_2">
+                            <content>
+                                <p>Högsta domstolens arbetsordning publiceras i Finlands författningssamling.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <section eId="sec_19">
+                    <num>19 §</num>
+                    <subsection eId="sec_19__subsec_1">
+                        <content>
+                            <p>Denna lag träder i kraft den 31 december 2005.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_19__subsec_2">
+                        <content>
+                            <p>Genom denna lag upphävs lagen av den 22 juli 1918 om Högsta domstolen (74/1918) jämte ändringar.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 7/2005</p>
+                        <p>LaUB 6/2005</p>
+                        <p>RSv 81/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 26 augusti 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Johannes Koskinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

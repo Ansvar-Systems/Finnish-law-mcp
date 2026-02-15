@@ -1,0 +1,218 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/663/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/663"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/663/alkup"/>
+                    <FRBRdate date="2015-05-22" name="dateIssued"/>
+                    <FRBRdate date="2015-05-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="663"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/663/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/663/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/663/alkup/fin"/>
+                    <FRBRdate date="2015-05-22" name="dateIssued"/>
+                    <FRBRdate date="2015-05-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/663/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/663/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/663/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-05-28" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>663/2015</docNumber>
+                <docTitle>Laki adoptiolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         adoptiolain (
+                        <affectedDocument href="/akn/fi/act/statute/2012/22">22/2012</affectedDocument>
+                        ) 84 § sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         71, 73—76 ja 82 § sekä 101 §:n 6 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>71 §</num>
+                    <heading>Tuomioistuimen päätös tunnustamisesta</heading>
+                    <subsection>
+                        <content>
+                            <p>Helsingin käräjäoikeus voi hakemuksesta vahvistaa, tunnustetaanko 69 §:ssä tarkoitettu adoptio tai 70 §:ssä tarkoitettu adoption purkaminen päteväksi Suomessa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>73 §</num>
+                    <heading>Haagin sopimuksen mukaiseksi varmennetun adoption tunnustaminen ja oikeusvaikutukset</heading>
+                    <subsection>
+                        <content>
+                            <p>Haagin sopimuksen osapuolena olevassa vieraassa valtiossa vahvistettu ja siellä Haagin sopimuksen mukaiseksi varmennettu adoptio on 69 §:n estämättä ilman eri vahvistusta pätevä Suomessa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitetulla adoptiolla on ainakin ne oikeusvaikutukset, joista Haagin sopimuksen 26 artiklan 1 kappaleessa määrätään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos 1 momentissa tarkoitettu adoptio ei ole kyseisen valtion oikeusjärjestyksen mukaan johtanut lapsen ja vanhemman välisen oikeudellisen suhteen lakkaamiseen, Helsingin käräjäoikeus voi adoptiovanhempien tai lapsen hakemuksesta vahvistaa adoption sellaiseksi adoptioksi, jonka vaikutuksena on lapsen ja hänen aikaisempien vanhempiensa välisen oikeussuhteen lakkaaminen. Edellytyksenä on lisäksi, että Haagin sopimuksen 4 artiklan c ja d kohdassa tarkoitetut suostumukset on annettu tai annetaan tällaiseen adoptioon.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>74 §</num>
+                    <heading>Ulkomaisen adoption vahvistaminen tuomioistuimen päätöksellä</heading>
+                    <subsection>
+                        <content>
+                            <p>Muu kuin 69, 72 tai 73 §:ssä tarkoitettu vieraassa valtiossa tapahtunut adoptio on pätevä Suomessa vain, jos Helsingin käräjäoikeus on vahvistanut sen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Käräjäoikeus voi hakemuksesta vahvistaa 1 momentissa tarkoitetun adoption päteväksi, jos adoptoitavalla tai jommallakummalla adoptionhakijalla on adoption ajankohtana ollut asuin- tai kotipaikkansa taikka kansalaisuutensa perusteella sellainen yhteys siihen valtioon, jossa adoptio on tapahtunut, että sen viranomaisilla voidaan katsoa olleen riittävä aihe ottaa asia tutkittavakseen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos adoptio on tapahtunut muulla tavoin kuin viranomaisen päätöksellä, se voidaan vahvistaa päteväksi vain, kun adoptoitavalla tai jommallakummalla hakijalla on ollut 2 momentissa mainittu yhteys siihen valtioon, jossa adoptio on tapahtunut, ja tämä toimenpide on kyseisen valtion lain mukaan pätevä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Käräjäoikeus ei saa vahvistaa tämän pykälän nojalla päteväksi adoptiota, johon olisi tullut hakea adoptiolupa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>75 §</num>
+                    <heading>Ulkomaisen adoption purkamisen vahvistaminen tuomioistuimen päätöksellä</heading>
+                    <subsection>
+                        <content>
+                            <p>Muu kuin 70 tai 72 §:ssä tarkoitettu vieraassa valtiossa tapahtunut adoption purkaminen on pätevä Suomessa vain, jos Helsingin käräjäoikeus on vahvistanut sen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Käräjäoikeus voi hakemuksesta vahvistaa 1 momentissa tarkoitetun adoption purkamisen päteväksi, jos adoptiolapsella tai jommallakummalla adoptiovanhemmalla on purkamisajankohtana ollut asuin- tai kotipaikkansa taikka kansalaisuutensa perusteella sellainen yhteys siihen valtioon, jossa adoption purkaminen on tapahtunut, että sen viranomaisilla voidaan katsoa olleen riittävä aihe ottaa asia tutkittavakseen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos adoption purkaminen on tapahtunut muulla tavoin kuin viranomaisen päätöksellä, se voidaan vahvistaa päteväksi vain, kun jollakin asiaan osallisella on ollut 2 momentissa mainittu yhteys siihen valtioon, jossa adoption purkaminen on tapahtunut, ja tämä toimenpide on kyseisen valtion lain mukaan pätevä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>76 §</num>
+                    <heading>Suomen oikeusjärjestyksen perusteiden vastaisuus</heading>
+                    <subsection>
+                        <content>
+                            <p>Edellä 69 ja 73 §:ssä tarkoitettua adoptiota sekä 70 §:ssä tarkoitettua adoption purkamista ei tule katsoa Suomessa päteväksi eikä tuomioistuimen tule vahvistaa adoptiota tai sen purkamista 71, 74 tai 75 §:n nojalla päteväksi, jos tämä ottaen erityisesti huomioon lapsen etu johtaisi Suomen oikeusjärjestyksen perusteiden vastaiseen tulokseen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>82 §</num>
+                    <heading>Ulkomaisen asiakirjan luotettavuuden varmistaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Tuomioistuimelle 71, 74 tai 75 §:ssä tarkoitetun asian käsittelyä varten esitetyn ulkomaisen asiakirjan on oltava laillistettu tai siihen on liitettävä kyseisen valtion toimivaltaisen viranomaisen todistus sen alkuperästä, jollei Suomea sitovan kansainvälisen sopimuksen velvoitteiden täyttämisestä muuta johdu tai tuomioistuin erityisestä syystä myönnä tästä poikkeusta. Ulkomaisen asiakirjan esittäjän on tarvittaessa huolehdittava esittämänsä asiakirjan kääntämisestä suomen tai ruotsin kielelle sekä sen laillistamisesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tuomioistuin voi tarvittaessa pyytää ulkoasiainministeriön, Maahanmuuttoviraston tai poliisiviranomaisen lausunnon 1 momentissa tarkoitetun asiakirjan aitoudesta ja luotettavuudesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>101 §</num>
+                    <heading>Siirtymäsäännökset</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>6. Vieraassa valtiossa ennen tämän lain voimaantuloa tapahtuneen lapseksiottamisen ja lapseksiottamisen purkamisen tunnustamiseen sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä. Sama koskee sellaisen lapseksiottamisen tunnustamista, johon 1 tai 2 momentin nojalla sovelletaan aikaisempaa lakia. Asia käsitellään kuitenkin Helsingin hovioikeuden sijasta Helsingin käräjäoikeudessa, eikä lapseksiottamisesta annetun lain 42 §:n 2 momentissa säädettyä muutoksenhakukieltoa sovelleta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                    <p>Asiaan, joka on tullut vireille ennen tämän lain voimaantuloa, sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/231">HE 231/2014</ref>
+                        </p>
+                        <p>LaVM 34/2014</p>
+                        <p>EV 340/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 22 päivänä toukokuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri</role>
+                                <person refersTo="">Anna-Maja Henriksson</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

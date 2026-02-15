@@ -1,0 +1,140 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/992/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/992"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/992/alkup"/>
+                    <FRBRdate date="2007-11-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="992"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/992/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/992/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/992/alkup/swe"/>
+                    <FRBRdate date="2007-11-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/992/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/992/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/992/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="148"/>
+                    <finlex:date date="2007-11-14"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>992/2007</docNumber>
+                <docTitle>Lag om ändring av 13 § i lagen om avträdelsepension</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 4 januari 1974 om avträdelsepension (
+                        <affectedDocument href="/akn/fi/act/statute/1974/16">16/1974</affectedDocument>
+                        ) 13 § 1 mom. 6 punkten, sådan den lyder i lag 1007/2005, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 13 § 1 mom., sådant det lyder i lag 1087/1985 och i nämnda lag 1007/2005, en ny 7 punkt och till 13 §, sådan den lyder i nämnda lagar 1087/1985 och 1007/2005, ett nytt 4 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>13 §</num>
+                    <subsection>
+                        <intro>
+                            <p>Börjar avträdaren bedriva lantbruksproduktion i större omfattning än vad som bestäms i 6 a § 1 mom. eller i en förordning som har utfärdats med stöd av det eller har de förbindelser som nämns i 6 § 2 mom. inte iakttagits, indras avträdelsepensionen räknat från den tidpunkt då den verksamhet som föranleder indragningen inleddes, eller då försummelsen inträffade. Som försummelse att iaktta en förbindelse betraktas härvid dock inte</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>samtycke till sådan avvittring och sådant arvskifte enligt 3 kap. i ärvdabalken (40/1965) där en brukningsenhet som är föremål för avträdelse och som delvis eller helt ingår i ett oskiftat dödsbo skiftas, om det har förflutit minst 15 år sedan den delägare som ännu får avträdelsepension ingått en sådan förbindelse som avses i 6 § 2 mom. 3 punkten,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>överlåtelse av mark som omfattas av en förbindelse om nedläggning av lantbruksproduktion eller en försäljningsbegränsningsförbindelse för åker, om marken inte har varit odlad under en sammanhängande tid av minst 15 år från det att förbindelsen gavs och har utgått permanent ur jordbruksproduktionen på naturligt sätt så att området inte längre kan betraktas som åkermark.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Utan hinder av sekretessbestämmelserna och övriga begränsningar av rätten att få uppgifter har Lantbruksföretagarnas pensionsanstalt rätt att av den registermyndighet som avses i lagen om landsbygdsnäringsregistret (1515/1994) få de uppgifter som är nödvändiga för bedömningen av de förutsättningar som avses i 1 mom. 7 punkten.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                    <p>Denna lag tillämpas på en sådan överlåtelse där överlåtelsehandlingen har undertecknats efter lagens ikraftträdande.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 46/2007</p>
+                        <p>JsUB 2/2007</p>
+                        <p>RSv 34/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 9 november 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Jord- och skogsbruksminister </role>
+                                <person refersTo="">Sirkka-Liisa Anttila</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

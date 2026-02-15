@@ -1,0 +1,116 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1372/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1372"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1372/alkup"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1372"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1372/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1372/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1372/alkup/swe"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1372/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1372/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1372/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="203"/>
+                    <finlex:date date="2007-12-31"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1372/2007</docNumber>
+                <docTitle>Lag om ändring av 31 d § i polislagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i polislagen av den 7 april 1995 (
+                        <affectedDocument href="/akn/fi/act/statute/1995/493">493/1995</affectedDocument>
+                        ) 31 d § 1 mom., sådant det lyder i lag 525/2005, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>31 d §</num>
+                    <heading>Förutsättningar för teleavlyssning</heading>
+                    <subsection>
+                        <content>
+                            <p>En polisman har för att förhindra eller avslöja ett brott rätt att rikta teleavlyssning mot en teleanslutning, teleadress eller teleterminalutrustning som är i en persons besittning eller som denne annars antas använda, om det på grund av personens uttalanden, hotelser eller uppträdande finns grundad anledning att anta att han eller hon gör sig skyldig till ett brott som begås i terroristiskt syfte och som avses i 34 a kap. 1 § 1 mom. 2―7 punkten eller 2 mom. i strafflagen, förberedelse till brott som begås i terroristiskt syfte, ledande av terroristgrupp, främjande av en terroristgrupps verksamhet, meddelande av utbildning för ett terroristbrott, rekrytering för ett terroristbrott eller finansiering av terrorism, och uppgifterna kan antas vara av synnerlig vikt för förhindrande eller utredning av brottet.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Om ikraftträdandet av denna lag bestäms genom förordning av statsrådet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 81/2007</p>
+                        <p>LaUB 9/2007</p>
+                        <p>RSv 107/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p> Helsingfors den 21 december 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Utrikesminister </role>
+                                <person refersTo="">Ilkka Kanerva</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

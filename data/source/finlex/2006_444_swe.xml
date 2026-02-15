@@ -1,0 +1,234 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/444/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/444"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/444/alkup"/>
+                    <FRBRdate date="2006-06-08" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="444"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/444/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/444/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/444/alkup/swe"/>
+                    <FRBRdate date="2006-06-08" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/444/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/444/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/444/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="71"/>
+                    <finlex:date date="2006-06-14"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>444/2006</docNumber>
+                <docTitle>Lag om ändring av lagen om Finansinspektionen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 27 juni 2003 om Finansinspektionen (
+                        <affectedDocument href="/akn/fi/act/statute/2003/587">587/2003</affectedDocument>
+                        ) 6 § 5 punkten, 24 b § 1 mom., 25 § 3 mom., 26 a § 1 och 2 mom. och 36 § 1 mom.,
+                    </block>
+                    <block name="substitutions-originals">av dem 24 b § 1 mom., 25 § 3 mom. och 26 a § 1 och 2 mom. sådana de lyder i lag 299/2005 och 36 § 1 mom. sådant det lyder i lag 1311/2004,</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>foga</i>
+                        s till 6 §, sådan den lyder delvis ändrad i nämnda lag 1311/2004 och i lag 449/2005, en ny 5 a-punkt som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>6 §</num>
+                    <heading>Andra finansmarknadsaktörer</heading>
+                    <subsection>
+                        <intro>
+                            <p>Med andra finansmarknadsaktörer avses i denna lag</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>personer som ger köpeanbud som avses i 6 kap. 1 § i värdepappersmarknadslagen samt sådana skyldiga att ge ett anbud som avses i 10 § i det nämnda kapitlet och andra personer, sammanslutningar och stiftelser som avses i den nämnda paragrafen,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5 a)</num>
+                            <content>
+                                <p>sådana målbolag för offentliga köpeanbud enligt 6 kap. i värdepappersmarknadslagen som har sin bolagsrättsliga hemort i Finland och vilkas värdepapper är föremål för handel som motsvarar offentlig handel någon annanstans än i en stat som hör till Europeiska ekonomiska samarbetsområdet,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>24 b §</num>
+                    <heading>Ordningsavgift</heading>
+                    <subsection>
+                        <intro>
+                            <p>Finansinspektionen kan påföra den som</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>försummar anmälningsskyldigheten enligt 4 kap. 7 § i värdepappersmarknadslagen,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>försummar eller bryter mot anmälningsskyldigheten eller skyldigheten att föra register enligt 5 kap. 4―11 § i värdepappersmarknadslagen eller 99 eller 100 § i lagen om placeringsfonder,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>bryter mot de begränsningar som gäller placering av tillgångar och som anges i 11 kap. i lagen om placeringsfonder eller i placeringsfondens stadgar, eller som</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <intro>
+                                <p>försummar att offentliggöra den årliga sammanställning som avses i 2 kap. 10 c § i värdepappersmarknadslagen,</p>
+                            </intro>
+                            <subparagraph>
+                                <content>
+                                    <p>en ordningsavgift, som skall betalas till staten.</p>
+                                </content>
+                            </subparagraph>
+                            <hcontainer name="omission"/>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>25 §</num>
+                    <heading>Offentlig anmärkning</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Offentlig anmärkning kan även tilldelas andra personer som på något annat sätt än vad som föreskrivs i 51 kap. i strafflagen försummar eller bryter mot värdepappersmarknadslagens eller med stöd av den utfärdade bestämmelser om marknadsmissbruk, offentliggörande av uppgifter som påverkar värdet på värdepapper som är föremål för offentlig handel eller motsvarande handel i en stat som hör till Europeiska ekonomiska samarbetsområdet eller för vilka det har lämnats in en ansökan om upptagande till sådan handel, informationsskyldighet i anslutning till erbjudande av värdepapper eller upptagande till offentlig handel eller motsvarande handel i en stat som hör till Europeiska ekonomiska samarbetsområdet, offentliga köpeanbud eller skyldighet att ge ett anbud eller förordningar som Europeiska gemenskapernas kommission har antagit om genomförande av Europaparlamentets och rådets direktiv 2003/71/EG. En fysisk person kan tilldelas offentlig anmärkning endast om denne förfar i strid med bestämmelser eller föreskrifter som är förpliktande för honom eller henne personligen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>26 a §</num>
+                    <heading>Påföljdsavgift</heading>
+                    <subsection>
+                        <intro>
+                            <p>Det kan bestämmas att tillsynsobjekt och andra juridiska personer som är verksamma på finansmarknaden, om de uppsåtligen eller av oaktsamhet,</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>på något annat sätt än vad som föreskrivs i 51 kap. i strafflagen eller i 8 kap. i värdepappersmarknadslagen försummar eller bryter mot bestämmelserna i 1 kap. 2 b § eller 2 eller 6 kap. i värdepappersmarknadslagen eller med stöd av dem utfärdade bestämmelser om marknadsföring av värdepapper, emission, erbjudande, informationsskyldighet, offentliga köpeanbud eller skyldighet att ge ett anbud,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>på något annat sätt än vad som föreskrivs i 51 kap. i strafflagen försummar eller bryter mot bestämmelserna i 5 kap. 2 eller 12 § i värdepappersmarknadslagen eller föreskrifter som utfärdats med stöd av 15 §,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>på något annat sätt än vad som föreskrivs i 51 kap. i strafflagen försummar eller bryter mot förordningar som Europeiska gemenskapernas kommission har antagit om genomförande av Europaparlamentets och rådets direktiv 2003/71/EG,</p>
+                            </content>
+                        </paragraph>
+                        <wrapUp>
+                            <p>vid sidan av offentlig varning skall betala påföljdsavgift, om förfarandet eller försummelsen är fortlöpande, upprepas eller sker planmässigt eller annars på ett så klandervärt sätt att varningen ensam inte kan anses tillräcklig, och gärningen eller försummelsen bedömd som en helhet inte ger anledning till strängare åtgärder.</p>
+                        </wrapUp>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Det kan bestämmas att också andra personer skall betala påföljdsavgift, om de på något annat sätt än vad som föreskrivs i 51 kap. i strafflagen försummar eller bryter mot värdepappersmarknadslagens i 1 mom. avsedda eller med stöd av den utfärdade bestämmelser om insiderinformation, kursmanipulation eller offentliggörande av uppgifter som påverkar värdet på värdepapper som är föremål för offentlig handel eller för vilka det har lämnats in en ansökan om upptagande till offentlig handel eller informationsskyldighet i anslutning till erbjudande av värdepapper och upptagande till offentlig handel eller motsvarande handel i en stat som hör till Europeiska ekonomiska samarbetsområdet, offentliga köpeanbud eller skyldighet att ge ett anbud eller förordningar som Europeiska gemenskapernas kommission har antagit om genomförande av Europaparlamentets och rådets direktiv 2003/71/EG.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>36 §</num>
+                    <heading>Rätt och skyldighet att lämna uppgifter</heading>
+                    <subsection>
+                        <content>
+                            <p>Utan hinder av vad som i lagen om offentlighet i myndigheternas verksamhet (621/1999) föreskrivs om sekretess har Finansinspektionen rätt att lämna ut uppgifter till Försäkringsinspektionen, Statens säkerhetsfond och till andra myndigheter som övervakar finansmarknaden eller svarar för dess funktion för att de skall kunna sköta sina uppgifter samt till förundersöknings- och åklagarmyndigheter för utredning av brott. Dessutom har Finansinspektionen rätt att till myndigheter som svarar för tillsynen över organ som deltar i tillsynsobjektens och andra på finansmarknaden verksamma sammanslutningars eller stiftelsers likvidations- eller konkursförfarande, lämna ut uppgifter som har anknytning till tillsynsobjektens och andra på finansmarknaden verksamma sammanslutningars och stiftelsers likvidations- eller konkursförfarande samt att till myndigheter som svarar för tillsynen över tillsynsobjektens och andra på finansmarknaden verksamma sammanslutningars och stiftelser revisorer lämna ut uppgifter som har anknytning till tillsynen över tillsynsobjektens och andra på finansmarknaden verksamma sammanslutningars och stiftelsers revisorer. Finansinspektionen har dessutom rätt att i samband med det förfarande för utlåtande som avses i 8 kap. 2 § 3 mom. i bokföringslagen till bokföringsnämnden lämna ut uppgifter som är nödvändiga för den tillsynsuppgift som avses i 24 a § samt rätt att lämna ut nödvändiga uppgifter till Centralhandelskammarens nämnd för företagsförvärv enligt 6 kap. 17 § i värdepappersmarknadslagen. Vad som bestäms i detta moment tillämpas också på lämnande av uppgifter till sådana utländska myndigheter eller sammanslutningar som i sitt hemland enligt lag sköter uppgifter som motsvarar Finansinspektionens samt till andra utländska myndigheter eller sammanslutningar som motsvarar den myndighet som avses i detta moment, förutsatt att de har samma tystnadsplikt som Finansinspektionen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juli 2006.</p>
+                    <p>Ordningsavgift kan påföras för en gärning eller försummelse i strid med 24 b § 1 mom. 4 punkten bara om gärningen eller försummelsen har skett efter lagens ikraftträdande. Påföljdsavgift kan påföras för en gärning eller försummelse i strid med 26 a § 1 mom. 1 och 3 punkten bara om gärningen eller försummelsen har skett efter lagens ikraftträdande. I fråga om ordningsavgift enligt 24 b § och påföljdavgift enligt 26 a § som påförs för gärningar eller försummelser som skett före lagens ikraftträdande tillämpas de bestämmelser som gäller när denna lag träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 6/2006</p>
+                        <p>EkUB 6/2006</p>
+                        <p>RSv 52/2006</p>
+                        <p>Europaparlamentets och rådets direktiv 2004/25/EG (32004L0025); nr EUT L 142, 30.4.2004, s. 12</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 8 juni 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Jan-Erik Enestam</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

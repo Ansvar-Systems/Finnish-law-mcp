@@ -1,0 +1,135 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/93/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/93"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/93/alkup"/>
+                    <FRBRdate date="2015-02-06" name="dateIssued"/>
+                    <FRBRdate date="2015-02-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="93"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/93/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/93/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/93/alkup/fin"/>
+                    <FRBRdate date="2015-02-06" name="dateIssued"/>
+                    <FRBRdate date="2015-02-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/93/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/93/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/93/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-02-11" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>93/2015</docNumber>
+                <docTitle>Laki ulkomaalaislain 54 ja 55 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         ulkomaalaislain (
+                        <affectedDocument href="/akn/fi/act/statute/2004/301">301/2004</affectedDocument>
+                        ) 55 §:n 4 momentti, sellaisena kuin se on laissa 34/2006, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään </i>
+                        54 §:ään, sellaisena kuin se on laeissa 34/2006 ja 449/2012, uusi 6 momentti, jolloin nykyinen 6 momentti siirtyy 7 momentiksi, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>54 §</num>
+                    <heading>Jatkoluvan myöntäminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Edellä 52 d §:ssä tarkoitetulle kolmannen maan kansalaiselle myönnetyn tilapäisen oleskeluluvan voimassaoloa jatketaan siihen asti kunnes hänelle on maksettu hänelle kuuluvat, perityksi saadut palkkasaatavat.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>55 §</num>
+                    <heading>Jatkoluvan pituus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Tilapäinen oleskelulupa Suomessa tutkinnon suorittaneelle myönnetään 54 §:n 4 momentin nojalla yhden kerran enintään yhdeksi vuodeksi edellisen oleskeluluvan päättymisestä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä huhtikuuta 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/219">HE 219/2014</ref>
+                        </p>
+                        <p>HaVM 29/2014</p>
+                        <p>EV 173/2014</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2009/52/EY (32009L0052); EUVL N:o L 168, 30.6.2009, s. 24</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 6 päivänä helmikuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sisäministeri</role>
+                                <person refersTo="">Päivi Räsänen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

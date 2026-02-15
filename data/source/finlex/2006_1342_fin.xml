@@ -1,0 +1,392 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1342/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1342"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1342/alkup"/>
+                    <FRBRdate date="2006-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1342"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1342/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1342/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1342/alkup/fin"/>
+                    <FRBRdate date="2006-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1342/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1342/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1342/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="202"/>
+                    <finlex:date date="2006-12-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1342/2006</docNumber>
+                <docTitle>Laki sairausvakuutuslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         21 päivänä joulukuuta 2004 annetun sairausvakuutuslain (<affectedDocument href="/akn/fi/act/statute/2004/1224">1224/2004</affectedDocument>) 9 luvun 7 §:n 2 momentti,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         9 luvun 10 §:n 1 momentti, 11 §:n 2 momentti, 12 §:n 1 momentti, 11 luvun 1 §:n 2 ja 3 momentti, 9 §:n otsikko ja 1 momentti, 14 luvun 3 §:n 2 ja 3 momentti, 15 luvun 4 § ja 18 luvun 13 §:n 1 momentti, sellaisena kuin niistä on 18 luvun 13 §:n 1 momentti laissa 1113/2005,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         9 lukuun uusi 10 a §, luvun 15 §:ään uusi 2 momentti ja lukuun uusi 16 § sekä 11 luvun 1 §:ään uusi 2 momentti, jolloin muutettu 2 ja 3 momentti siirtyvät 3 ja 4 momentiksi, ja 15 lukuun uusi 4 a §, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>9 luku</num>
+                    <heading>Vanhempainpäivärahat</heading>
+                    <section>
+                        <num>10 §</num>
+                        <heading>Vanhempainrahakausi</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Vanhempainrahaa maksetaan enintään 158 arkipäivältä välittömästi äitiysrahakauden päättymisestä lukien, jollei 2 tai 3 momentista taikka 10 a §:stä muuta johdu. Välittömästi äitiysrahakauden päättymisestä lukien maksetut vanhempainrahapäivät ja 10 a §:n perusteella siirretyt vanhempainrahapäivät muodostavat yhden vanhempainrahakauden
+                                    <i>.</i>
+                                </p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>10 a §</num>
+                        <heading>Isäkuukausi</heading>
+                        <subsection>
+                            <content>
+                                <p>Sen estämättä, mitä 8 §:n 1 momentissa säädetään vanhempainrahakauden yhdenjaksoisuudesta, isä voi äidin ja isän sopimuksen mukaisesti siirtää 10 §:ssä tarkoitetusta vanhempainrahakaudesta 12 vanhempainrahapäivää pidettäväksi myöhemmin. Vanhempainrahan siirtäminen edellyttää lisäksi vähintään yhden 2 momentissa tarkoitetun isyysrahapäivän pitämistä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Jos isälle maksetaan lapsen hoitoon osallistumisen perusteella vanhempainrahaa tai osittaista vanhempainrahaa yhdenjaksoisesti vähintään vanhempainrahakauden viimeisiltä 12 arkipäivältä välittömästi äitiysrahakauden jälkeen tai 12 vanhempainrahapäivältä 1 momentin perusteella siirrettynä, isällä on oikeus isyysrahaan enintään 12 arkipäivän pituiselta yhdenjaksoiselta kaudelta välittömästi hänen pitämänsä vanhempainrahakauden päätyttyä (<i>isäkuukausi</i>).
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 tai 2 momentin perusteella maksettavat vanhempainpäivärahapäivät on pidettävä 180 kalenteripäivän kuluessa sen vanhempainrahajakson päättymisestä, joka on alkanut välittömästi äitiysrahakauden jälkeen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Vanhempainrahan siirtäminen edellyttää, että äidille tai isälle välittömästi äitiysrahakauden päättymisen jälkeen maksetun vanhempainrahan ja isälle tämän pykälän perusteella maksettavan vanhempainrahan välisenä aikana jompi kumpi vanhemmista hoitaa lasta kotona ja kyseinen vanhempi on:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>tämän vuoksi ollut oikeutettu lasten kotihoidon ja yksityisen hoidon tuesta annetun (1128/1996) lain mukaiseen kotihoidon tukeen; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>tosiasiallisesti hoitanut lasta kotona, mutta lasten kotihoidon ja yksityisen hoidon tuesta annetun lain perusteella ei ole ollut oikeutettu kyseisessä laissa tarkoitettuun kotihoidon tukeen.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>11 §</num>
+                        <heading>Ottovanhemman vanhempain- ja isyysraha</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Ottovanhemman vanhempainrahaan oikeutetulla ottoisällä on oikeus isyysrahaan siten kuin 6, 7 ja 10 a §:ssä säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>12 §</num>
+                        <heading>Ottovanhemman vanhempainrahakausi</heading>
+                        <subsection>
+                            <content>
+                                <p>Ottolapsen hoidon johdosta ottovanhemmalle tai hänen aviopuolisolleen maksetaan vanhempainrahaa tai osittaista vanhempainrahaa ajalta, jonka lapsen hoito jatkuu, kunnes lapsen syntymästä on kulunut 234 arkipäivää. Jos lapsi otetaan hoitoon myöhemmin kuin 54 arkipäivän kuluttua lapsen syntymästä, vanhempainrahaa maksetaan 200 arkipäivältä. Vanhempainrahakautta pidennetään siten kuin 10 §:n 3 momentissa säädetään, jos samalla kertaa on otettu hoidettavaksi useampia ottolapsia.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>15 §</num>
+                        <heading>Vanhempainpäivärahan maksamisen rajoitukset</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Jos äitiys-, isyys- tai vanhempainrahakaudella alkaa oikeus uuteen vanhempainpäivärahaan, edellisen äitiys-, isyys- tai vanhempainrahan maksaminen päättyy uuden vanhempainpäivärahakauden alkaessa. Jos ennen siirretyn isäkuukauden pitämistä alkaa oikeus uuteen vanhempainpäivärahaan, oikeus edellisen lapsen perusteella maksettavaan vanhempainpäivärahaan päättyy.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>16 §</num>
+                        <heading>Vanhempainraha rekisteröidyssä parisuhteessa</heading>
+                        <subsection>
+                            <intro>
+                                <p>Mitä 1 §:n 3 momentissa, 8―10 ja 13 §:ssä säädetään vanhempainrahasta, sovelletaan myös vakuutettuihin, joiden parisuhde on rekisteröity siten kuin rekisteröidystä parisuhteesta annetussa laissa (950/2001) säädetään. Vakuutetulla, joka ei ole lapsen vanhempi, on oikeus vanhempainrahaan, jos:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>parisuhteen rekisteröinnin jälkeen parisuhteen osapuolelle syntyy lapsi tai parisuhteen osapuoli ottaa alle 7-vuotiaan lapsen hoitoonsa; ja</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>vakuutettu asuu samassa taloudessa lapsen ja tämän vanhemman kanssa.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>11 luku</num>
+                    <heading>Päivärahaetuuksien määrä</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Päivärahaetuuksien määrä työtulojen perusteella</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <intro>
+                                <p>Sen estämättä, mitä 1 momentissa säädetään:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>äitiysrahan määrä on 56 ensimmäisen arkipäivän ajalta 90 prosenttia vakuutetun verotuksessa todettujen vuosityötulojen kolmassadasosasta, jos vuosityötulot eivät ylitä 41 110 euroa; tämän ylittävästä osasta äitiysrahan määrä on 32,5 prosenttia vuosityötulon kolmassadasosasta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>äidille maksettavan vanhempainrahan määrä on 30 ensimmäisen arkipäivän ajalta 75 prosenttia vakuutetun verotuksessa todettujen vuosityötulojen kolmassadasosasta, jos vuosityötulot eivät ylitä 41 110 euroa; tämän ylittävästä osasta äidille maksettavan vanhempainrahan määrä on 32,5 prosenttia vuosityötulon kolmassadasosasta; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>isälle maksettavan vanhempainrahan ja isäkuukauden isyysrahan määrä on 30 ensimmäisen isälle maksettavan arkipäivän ajalta 75 prosenttia vakuutetun verotuksessa todettujen vuosityötulojen kolmassadasosasta, jos vuosityötulot eivät ylitä 41 110 euroa; tämän ylittävästä osasta isälle maksettavan vanhempainpäivärahan määrä on 32,5 prosenttia vuosityötulon kolmassadasosasta.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 ja 2 momentissa tarkoitetut verotuksessa todetut työtulot tarkistetaan siinä suhteessa kuin työkyvyttömyyden tai vanhempainpäiväraha- taikka erityishoitorahaoikeuden alkamisajankohdalle vahvistettu työntekijän eläkelain 96 §:n 1 momentissa tarkoitettu palkkakerroin poikkeaa edelliselle kalenterivuodelle vahvistetusta palkkakertoimesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 ja 2 momentissa tarkoitettuja tulorajoja tarkistetaan kalenterivuosittain työntekijän eläkelain 96 §:n 1 momentissa tarkoitetulla palkkakertoimella. Jos tulorajat nousevat tarkistuksen yhteydessä yli täysien eurojen, jätetään yli menevä osa lukuun ottamatta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Isän vanhempainpäivärahan määrä</heading>
+                        <subsection>
+                            <content>
+                                <p>Isän vanhempainpäivärahakausi alkaa sinä päivänä, jolta hänelle maksetaan ensimmäisen kerran vanhempainpäivärahaa saman lapsen perusteella. Isyys- ja vanhempainrahan määrä on samasta lapsesta koko vanhempainpäivärahakauden ajan samansuuruinen, jollei 1 §:n 2 momentin 3 kohdasta muuta johdu.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>14 luku</num>
+                    <heading>Vuosilomakustannuskorvaus</heading>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Korvauksen määrä</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Korvausta maksetaan 2,5 päivältä kalenterikuukautta kohti. Korvauksen peruste päivää kohden on kolmassadasosa siitä vuosityötulosta, joka on ollut työntekijälle vuosiloman kertymisajalta maksetun päivärahan perusteena. Jos vakuutetulle maksettu vanhempainpäiväraha on määräytynyt 11 luvun 6 §:n perusteella, korvauksen peruste päivää kohden on kolmassadasosa siitä vuosityötulosta, joka muutoin olisi ollut vakuutetulle maksetun päivärahan perusteena. Korvauksen perustetta korotetaan kertoimella, jonka suuruus on 1,26.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vuosilomakustannuskorvausta ei kuitenkaan makseta enempää kuin se määrä, jonka työnantaja on ollut velvollinen maksamaan vuosilomapalkkana tai lomakorvauksena korotettuna kertoimella, jonka suuruus on 1,26.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>15 luku</num>
+                    <heading>Toimeenpanoa koskevat säännökset</heading>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Päivärahaetuuksien hakemista koskevat määräajat</heading>
+                        <subsection>
+                            <intro>
+                                <p>Päivärahaetuuksia on haettava seuraavasti:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>sairauspäivärahaa, erityishoitorahaa ja erityisäitiysrahaa neljän kuukauden kuluessa siitä päivästä, josta alkaen etuutta halutaan saada;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>äitiysrahaa viimeistään kahta kuukautta ennen laskettua synnytysaikaa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>vanhempainrahaa sekä osittaista vanhempainrahaa kuukautta ennen sitä päivää, josta alkaen etuutta halutaan saada, jollei 5 kohdasta muuta johdu;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>isyysrahaa viimeistään kahden kuukauden kuluessa vanhempainpäivärahakauden päättymisestä, jollei 5 kohdasta muuta johdu;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>vanhempainpäivärahaa isäkuukauden ajalta kahta kuukautta ennen sitä päivää, josta alkaen etuutta halutaan saada; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>vanhempainrahaa ottolapsen hoidon johdosta kahden kuukauden kuluessa lapsen hoitoon ottamisesta.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos työkyvyttömyys tai tarve osallistua lapsen hoitoon jatkuu edelleen määräajaksi myönnetyn sairauspäivärahakauden tai erityishoitorahakauden jälkeen, saadakseen edelleen sairauspäivärahaa tai erityishoitorahaa vakuutetun on toimitettava selvitys työkyvyttömyyden tai lapsen hoitoon osallistumisen tarpeen jatkumisesta Kansaneläkelaitokselle neljän kuukauden kuluessa sairauspäivärahan tai erityishoitorahan maksamisen päättymisestä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 a §</num>
+                        <heading>Velvollisuus ilmoittaa vanhempainrahan siirtämisestä</heading>
+                        <subsection>
+                            <content>
+                                <p>Jos äiti ja isä ovat sopineet vanhempainrahakauden viimeisten 12 arkipäivän siirtämisestä 9 luvun 10 a §:n mukaisesti, asiasta tulee ilmoittaa Kansaneläkelaitokselle kahta kuukautta ennen kuin 9 luvun 10 §:ssä tarkoitettu vanhempainrahakausi päättyy.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>18 luku</num>
+                    <heading>Sairausvakuutusrahasto ja vakuutusmaksut</heading>
+                    <section>
+                        <num>13 §</num>
+                        <heading>Valtion rahoitusosuus ja yrittäjän lisärahoitusosuus</heading>
+                        <subsection>
+                            <intro>
+                                <p>Valtion varoista rahoitetaan kulut, jotka aiheutuvat:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>sellaisen 11 §:n 1 momentin 1 kohdan mukaisen päivärahan tai kuntoutusrahan maksamisesta, joka on enintään 11 luvun 7 §:ssä tarkoitetun vähimmäismäärän suuruinen tai, kun on kysymyksessä Kansaneläkelaitoksen kuntoutusetuuksista ja kuntoutusrahaetuuksista annetun lain 35 §:ssä tarkoitettu kuntoutusraha, enintään viimeksi mainitussa pykälässä tarkoitetun vähimmäismäärän suuruinen; valtion varoista ei kuitenkaan rahoiteta niitä sairauspäivärahoja ja kuntoutusrahoja, jotka ovat enintään vähimmäismäärän suuruisia 12 luvun tai Kansaneläkelaitoksen kuntoutusetuuksista ja kuntoutusrahaetuuksista annetun lain 36 §:n 1 momentin tai 37 taikka 39 §:n mukaisen yhteensovituksen vuoksi;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>kulut, jotka aiheutuvat 13 luvun 2 §:n 2 momentissa tarkoitetun sairaanhoidon ja muun terveydenhuollon korvaamisesta yrittäjälle ja muulle omaa työtään tekevälle; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>0,1 prosenttia kuluista, jotka aiheutuvat muun kuin edellä 1 kohdassa tarkoitetun suuruisena maksettavasta tämän lain mukaisesta vanhempainpäivärahasta aiheutuvasta kulusta.</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2007. Sitä sovelletaan vanhempainpäivärahaan, kun ensimmäinen saman lapsen perusteella maksettava vanhempainpäivärahapäivä on 1 päivänä tammikuuta 2007 tai sen jälkeen, ja työnantajalle maksettavaan vuosilomakustannuskorvaukseen, jos vanhempainpäivärahaa on saman lapsen perusteella maksettu ensimmäisen kerran tämän lain voimaantulon jälkeen.</p>
+                    <p>Lain 11 luvun 1 §:n 2 momentissa olevat rahamäärät vastaavat vuodelle 2004 vahvistetun työtekijäin eläkelain (395/1961) 9 §:n 2 momentin ensimmäisessä virkkeessä tarkoitetun indeksiluvun tasoa.</p>
+                    <p>Vuonna 2007 sairausvakuutuksen päivärahamaksu on 0,75 prosenttia palkkatulosta, työtulosta ja muusta 18 luvun 15―18 §:ssä tarkoitetusta päivärahamaksun maksuperusteesta, ja työnantajan sairausvakuutusmaksu on 2,05 prosenttia työnantajan sosiaaliturvamaksusta annetussa laissa (366/1963) tarkoitetusta palkasta. Yrittäjien lisärahoitusosuus vuonna 2007 on 0,16 prosenttia voimassa olevan yrittäjän eläkelaissa (1272/2006) tarkoitetun vakuutuksen mukaisesta työtulosta.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/112">HE 112/2006</ref>
+                        </p>
+                        <p>StVM 45/2006</p>
+                        <p>EV 217/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 22 päivänä joulukuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

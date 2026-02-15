@@ -1,0 +1,414 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/235/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/235"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/235/alkup"/>
+                    <FRBRdate date="2007-03-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="235"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/235/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/235/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/235/alkup/swe"/>
+                    <FRBRdate date="2007-03-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/235/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/235/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/235/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="38"/>
+                    <finlex:date date="2007-03-08"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>235/2007</docNumber>
+                <docTitle>Lag om ändring av fordonsskattelagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i fordonsskattelagen av den 30 december 2003 (<affectedDocument href="/akn/fi/act/statute/2003/1281">1281/2003</affectedDocument>) 2 § 2 och 3 mom., 3 §, 4 § 1 mom., 5 § 2 och 3 mom., 6 § 1 mom., 8 § 1, 3 och 4 mom., 12 § 1 mom. 1 och 7―10 punkten, 18 § 3 mom., 27 §, 31 § 1 mom., 47 § 2 mom. och 58 § 1 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen nya 4 a och 47 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Tillämpningen av andra lagar</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Om inte något annat föreskrivs i denna lag, tillämpas på klassificering av fordon och största tillåtna totalmassa samt fordonsregistreringsskyldighet fordonslagen (1090/2002) och förordningar utfärdade med stöd av den samt de grunder som fastställts i vägtrafiklagen (267/1981) och med stöd av den. På fordon som är registrerade eller borde ha registrerats i landskapet Åland tillämpas på motsvarande sätt bestämmelserna i Ålands landskapslagstiftning.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om inte något annat föreskrivs i denna lag, iakttas i fråga om användning och utlämnande av beskattningsuppgifter i tillämpliga delar vad som föreskrivs i lagen om fordonstrafikregistret (541/2003). I denna lag avses med register fordonstrafikregistret enligt lagen om fordonstrafikregistret.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <heading>Fordonsskattens struktur</heading>
+                    <subsection>
+                        <content>
+                            <p>Med fordonsskatt avses skatt som består av en grundskatteandel eller en drivkraftsskatteandel eller en sammanräknad andel av grundskatt och drivkraftsskatt. Fordonsskatten inbegriper även tillägg för betalningssätt samt tilläggsskatt. Dessutom inbegriper fordonsskatten också fast skatt och konsumtionsskatt som uppbärs för fordon som registrerats någon annanstans än i Finland.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>4 §</num>
+                    <heading>Skattepliktiga fordon</heading>
+                    <subsection>
+                        <content>
+                            <p>Fordonsskatt skall betalas för fordon i kategorierna M och N som är införda i fordonsregistret. För fordon som är registrerade någon annanstans än i Finland betalas fast skatt och konsumtionsskatt enligt 38―44 § i denna lag. Fordonsskatt skall betalas även för ett fordon som borde ha varit infört i fordonsregistret eller ha registrerats som påställt.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>4 a §</num>
+                    <heading>Fordon som avställts</heading>
+                    <subsection>
+                        <content>
+                            <p>Fordonsskatt uppbärs inte för fordon som avställts i enlighet med 66 c § i fordonslagen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Ett fordon som avställts får användas i trafik utan skyldighet att betala fordonsskatt endast när fordonet</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>under särskild reserverad tid förflyttas till besiktning och därefter från besiktning till förvaringsstället eller till en plats där det kan repareras på ändamålsenligt sätt,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>i enlighet med 66 c § i fordonslagen används den dag som det avställs,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>i enlighet med 66 f § i fordonslagen används med provnummerskyltar,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>i enlighet med 66 f § i fordonslagen används med förflyttningstillstånd,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>används med exportskyltar i enlighet med bestämmelser som utfärdats med stöd av 66 § 2 mom. i fordonslagen.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <heading>Skattskyldig</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Om ett fordon som avställts eller ett oregistrerat fordon används i trafik eller om uppgifter som antecknats i registret är oriktiga, är den skattskyldig som enligt fordonslagen eller bestämmelser som utfärdats med stöd av den borde ha varit antecknad som ägare eller innehavare i registret. Om det inte kan påvisas vem som är ägare eller innehavare eller om ett fordon som avställts eller ett oregistrerat fordon har använts utan ägarens eller innehavarens samtycke, är den skattskyldig i vars användning fordonet skall anses ha varit.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Som skattskyldig enligt 1 mom. betraktas även en fordonsägare som inte har registrerat sig trots att fordonets föregående ägare har gjort en sådan registreringsanmälan som avses i 64 § i fordonslagen. Om en fordonsägare har försummat registreringen, och den ägare som registrerat fordonet i sitt namn har åtagit sig att svara för skatten, bestäms skattskyldigheten enligt 6 §. När en ägare som registrerar ett fordon i sitt namn inte åtar sig att svara för skatten, bestäms skattskyldigheten enligt 1 mom.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>6 §</num>
+                    <heading>Åtagande att svara för skatt</heading>
+                    <subsection>
+                        <content>
+                            <p>När ett fordon överlåts kan mottagaren åta sig att svara för skatten även för den tid som fordonet har varit i en sådan persons ägo som försummat att göra registreringsanmälan om överlåtelse av äganderätt enligt 64 § i fordonslagen. I fråga om förfarande och skatteuppbörd vid åtagande att svara för skatt föreskrivs i 16 §.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>8 §</num>
+                    <heading>När skattskyldigheten inträder och upphör</heading>
+                    <subsection>
+                        <intro>
+                            <p>Skattskyldigheten inträder</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>den dag ett fordon första gången registreras eller omregistreras eller påställs,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>dagen efter att ett i registret infört fordons ägar- eller innehavaruppgifter ändras så att skatten skall påföras en ny skattskyldig,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>den dag ett skattefritt fordon ändringsregistreras eller ändringsbesiktigas som skattepliktigt eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>dagen efter den dag förutsättningarna för skattebefrielse upphörde.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Skattskyldigheten upphör den dag</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>i registret antecknas att fordonet avställs eller avregistreras slutligt,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>uppgifterna om fordonets ägare eller innehavare ändras så att skatt skall påföras en ny skattskyldig,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>ett skattepliktigt fordon ändringsregistreras eller ändringsbesiktigas som skattefritt eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>förutsättningar för skattebefrielse uppkommer.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om i ett fall som avses i 3 mom. 1 punkten den dag då registreringsskyltarna återställs infaller före dagen då i registret antecknas att fordonet avställs eller avregistreras slutligt, upphör skatteperioden den dag då registreringsskyltarna återställs.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>12 §</num>
+                    <heading>Skattefria fordon</heading>
+                    <subsection>
+                        <intro>
+                            <p>Fria från fordonsskatt är</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>fordon som registrerats med C- eller CD-tecken enligt 66 a § i fordonslagen,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>fordon som är registrerade för export i enlighet med bestämmelser som utfärdats med stöd av 66 § 2 mom. i fordonslagen.</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>8)</num>
+                            <content>
+                                <p>fordon som används tillfälligt i Finland på det sätt som avses i 66 f § i fordonslagen,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>9)</num>
+                            <content>
+                                <p>fordon som används i enlighet med 66 f § i fordonslagen med provnummerskyltar,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>10)</num>
+                            <content>
+                                <p>fordon som i enlighet med 66 f § i fordonslagen beviljats förflyttningstillstånd,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>18 §</num>
+                    <heading>Betalning av skatt i rater och tillägg för betalningssätt</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Skatt som skall debiteras med anledning av debiteringsrättelse eller efterbeskattning, som tilläggsskatt eller med anledning av beslut på ändringsansökan uppbärs i en rat.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>27 §</num>
+                    <heading>Förutsättningar för återbäring av skatt</heading>
+                    <subsection>
+                        <intro>
+                            <p>Skatt återbärs om något av följande sker under skatteperioden:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>avställning eller slutlig avregistrering av fordonet antecknas i registret,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>en ny skattskyldig antecknas i registret,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>uppgifter som antecknats i registret förändras så att fordonet blir skattefritt eller skattebeloppet sänks eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>den skattskyldige befrias från skyldigheten att betala skatt.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>31 §</num>
+                    <heading>Överföring av skatteåterbäring</heading>
+                    <subsection>
+                        <content>
+                            <p>Om Fordonsförvaltningscentralen skall både återbära skatt till en skattskyldig och debitera denne, överför Fordonsförvaltningscentralen utan att höra den skattskyldige återbäringen för att användas som betalning för skatten. Överföring kan göras även om den skatt för vars betalning återbäringen överförs inte har förfallit till betalning. Om det inte finns någon skatt att debitera, överförs återbäringen i väntan på följande debitering.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>47 §</num>
+                    <heading>Efterbeskattning</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Om skattebeloppet skall beräknas på ett fordon som inte är infört i registret eller som anmälts som avställt, skall skatten på basis av de omständigheter som är kända uppskattas till det belopp som sannolikt skulle betalas för ett registrerat fordon av motsvarande slag. Skatten kan alltid påföras åtminstone på basis av de uppgifter som antecknats om fordonet då det senast var infört i registret.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>47 a §</num>
+                    <heading>Tilläggskatt när fordon som inte är registrerade eller som avställts används i trafik</heading>
+                    <subsection>
+                        <content>
+                            <p>Om ett fordon som inte är registrerat eller som avställts används i trafik och det inte är fråga om användning av ett fordon i trafik enligt 4 a § 2 mom., skall tilläggsskatt uppbäras för fordonet utöver den fordonsskatt som debiteras på grundval av 47 §. Beloppet av tilläggsskatten skall vara fem gånger den fordonsskatt som med stöd av 10 och 11 § beräknas för en period på tolv månader, dock minst 1 000 euro.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tilläggsskatten påförs den som enligt 5 § är skattskyldig för fordonet. Tilläggskatten påförs i enlighet med efterbeskattningsförfarandet i 47 §.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>58 §</num>
+                    <heading>Användningsförbud</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Om skatt eller den del av skatten som förfallit till betalning inte har betalts inom utsatt tid, får fordonet inte användas i trafik (<i>användningsförbud</i>). Fordonet får inte heller användas i trafik trots att det övergått till en annan ägare eller innehavare än den skattskyldige. Fordonets registreringsskyltar och registreringsintyg skall omhändertas av tillsynsmyndigheten. Fordonet får dock med skriftligt tillstånd utfärdat av polis, tull- eller gränsbevakningsmyndigheten köras till ett av myndigheten i tillståndet bestämt ställe för förvaring. Användningen av ett fordon skall också förhindras, om tilläggsskatt enligt 47 a § skall debiteras för fordonet.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 2 november 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 61/2006</p>
+                        <p>KoUB 27/2006</p>
+                        <p>RSv 224/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 2 mars 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommunikationsminister </role>
+                                <person refersTo="">Susanna Huovinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

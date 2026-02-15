@@ -1,0 +1,196 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/132/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/132"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/132/alkup"/>
+                    <FRBRdate date="2016-02-19" name="dateIssued"/>
+                    <FRBRdate date="2016-02-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="132"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/132/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/132/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/132/alkup/swe"/>
+                    <FRBRdate date="2016-02-19" name="dateIssued"/>
+                    <FRBRdate date="2016-02-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/132/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/132/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/132/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-23" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>132/2016</docNumber>
+                <docTitle>Lag om ändring av utlänningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut </p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i utlänningslagen (
+                        <affectedDocument href="/akn/fi/act/statute/2004/301">301/2004</affectedDocument>
+                        ) 191 § 6 punkten och 191 a §, sådana de lyder, 191 § 6 punkten i lag 1218/2013 och 191 a § i lag 266/2011, 
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         191 § 1 punkten och 204 a § 2 mom., sådana de lyder, 191 § 1 punkten i lag 1218/2013 och 204 a § 2 mom. i lag 266/2011, samt 
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas </i>
+                        till 190 §, sådan den lyder i lagarna 516/2008 och 1214/2013, ett nytt 3 mom., till lagen nya 190 a och 190 b § samt till 196 § ett nytt 2 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>190 §</num>
+                    <heading>Besvär</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelser om ändringssökande i viseringsärenden finns i 190 a §.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>190 a §</num>
+                    <heading>Ändringssökande i viseringsärenden</heading>
+                    <subsection>
+                        <content>
+                            <p>Omprövning av ett sådant beslut enligt viseringskodexen som har fattats av en finsk beskickning och som gäller avslag på ansökan om visering, upphävande av visering eller sådant återkallande av visering som inte har fattats på begäran av viseringsinnehavaren får begäras hos den beskickning som har fattat beslutet på det sätt som föreskrivs i 7 a kap. i förvaltningslagen. När det är fråga om ett beslut om avslag på ansökan om, upphävande av eller återkallande av visering som gäller en familjemedlem till en unionsmedborgare eller därmed jämförbar person, och som omfattas av bestämmelserna i 10 kap., får ändring sökas genom besvär hos förvaltningsdomstolen på det sätt som föreskrivs i förvaltningsprocesslagen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>I det omprövningsbeslut som har fattats av den finska beskickningen får ändring sökas genom besvär hos förvaltningsdomstolen på det sätt som föreskrivs i förvaltningsprocesslagen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>I beslut som gränskontrollmyndigheten, polisen eller Migrationsverket fattat enligt viseringskodexen och som gäller avslag på ansökan om visering, upphävande av visering eller sådant återkallande av visering som inte har fattats på begäran av viseringsinnehavaren får ändring sökas genom besvär hos förvaltningsdomstolen på det sätt som föreskrivs i förvaltningsprocesslagen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>190 b §</num>
+                    <heading>Behandling av omprövningsbegäran</heading>
+                    <subsection>
+                        <content>
+                            <p>En begäran om omprövning av ett beslut om avslag på ansökan om, upphävande av eller återkallande av visering ska behandlas utan ogrundat dröjsmål. Omprövningsärendet får avgöras utan att den berörda parten hörs, om inte hörandet av någon särskild orsak är behövligt.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Motiveringarna till ett beslut med anledning av en begäran om omprövning behöver inte uppges till den del beslutet om avslag på ansökan om, upphävande av eller återkallande av visering baserar sig på upplysningar om sökanden eller om viseringsinnehavaren som fåtts av myndigheterna i en Schengenstat eller ett tredjeland eller på uppgifter om att sökanden eller viseringsinnehavaren kan äventyra allmän ordning eller säkerhet eller den nationella säkerheten i en Schengenstat eller dess förhållanden till en främmande stat.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>191 § </num>
+                    <heading>Besvärsförbud</heading>
+                    <subsection>
+                        <content>
+                            <p>I följande beslut som fattats med stöd av denna lag får ändring inte sökas genom besvär:</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>1) beslut enligt viseringskodexen som hänför sig till skyldigheter i samband med inlämnande av ansökan om visering, en finsk beskicknings behörighet, upptagande av en ansökan till prövning, avbrytande av handläggning av ansökan, överlämnande av ansökan till myndigheterna i en representerad Schengenstat, förlängning av visering samt ett sådant beslut enligt viseringskodexen genom vilket visering utfärdats,</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>196 §</num>
+                    <heading>Anförande av besvär hos högsta förvaltningsdomstolen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>I sådana beslut av förvaltningsdomstolen som gäller avslag på ansökan om visering, upphävande av visering eller återkallande av visering får ändring inte sökas genom besvär hos högsta förvaltningsdomstolen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>204 a §</num>
+                    <heading>Delgivning i viseringsärenden</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ett beslut med anledning av en sådan begäran om omprövning som avses i 190 a § 1 mom. får delges per post till den adress utlänningen uppgett eller genom att beslutet överlämnas till utlänningen hos den myndighet som har fattat beslutet. Beslutet anses delgivet den sjunde dagen efter datumanteckningen i beslutet, om inte något annat visas.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 april 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/54">RP 54/2015</ref>
+                        </p>
+                        <p>FvUB 9/2015</p>
+                        <p>RSv 41/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 19 februari 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Utrikesminister</role>
+                                <person refersTo="">Timo Soini</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

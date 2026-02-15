@@ -1,0 +1,138 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/78/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/78"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/78/alkup"/>
+                    <FRBRdate date="2015-02-06" name="dateIssued"/>
+                    <FRBRdate date="2015-02-09" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="78"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/78/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/78/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/78/alkup/swe"/>
+                    <FRBRdate date="2015-02-06" name="dateIssued"/>
+                    <FRBRdate date="2015-02-09" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/78/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/78/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/78/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-02-09" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>78/2015</docNumber>
+                <docTitle>Lag om ändring av 37 § i konkurrenslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras </i>
+                        i konkurrenslagen (
+                        <affectedDocument href="/akn/fi/act/statute/2011/948">948/2011</affectedDocument>
+                        ) 37 §, sådan den lyder delvis ändrad i lagarna 662/2012 och 1169/2013, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>37 §</num>
+                    <heading>Förfarandet vid inspektioner</heading>
+                    <subsection>
+                        <content>
+                            <p>Näringsidkare och sammanslutningar av näringsidkare ska för inspektioner ge Konkurrens- och konsumentverkets, regionförvaltningsverkets eller Europeiska kommissionens tjänstemän eller personer som dessa bemyndigat tillträde till affärs- och lagerlokaler, markområden och fordon som de har i sin besittning. De tjänstemän som förrättar inspektion har rätt att granska och ta kopior av näringsidkarnas och sammanslutningarnas affärskorrespondens, bokföring, dataregistreringar och andra handlingar och data som kan ha betydelse för tillsynen över att denna lag samt de bestämmelser som utfärdats med stöd av den följs.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>De tjänstemän som förrättar inspektion har rätt att få alla uppgifter som behövs för inspektionen också av ett företag som behandlar kommunikation eller uppgifter som avses i 1 mom. på begäran av den näringsidkare som är föremål för inspektion eller annars som en del av den service som tillhandahållits näringsidkaren. Om lämnandet av uppgifter till de tjänstemän som förrättar inspektionen medför kostnader för det företag som på begäran av den näringsidkare som är föremål för inspektion eller annars som en del av den service som tillhandahålls den näringsidkaren behandlar uppgifter, svarar denna näringsidkare eller den sammanslutning av näringsidkare som är föremål för inspektion för kostnaderna, om inte parterna kommer överens om något annat.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>De tjänstemän som förrättar inspektion har rätt att av samtliga företrädare för och anställda hos näringsidkaren eller sammanslutningen av näringsidkare kräva utredningar av fakta och handlingar som har samband med föremålet för och ändamålet med inspektionen och protokollföra de svar som har erhållits. De tjänstemän som förrättar inspektion har också rätt att försegla lokaler eller bokföring, handlingar och data så länge och i den omfattning som det behövs för inspektionen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vid förrättande av inspektion i andra lokaler än de som avses i 35 § har Europeiska kommissionens, Konkurrens- och konsumentverkets och regionförvaltningsverkets tjänstemän befogenheter enligt 1 mom., men inte befogenheter enligt 3 mom.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelser om polisens skyldighet att ge handräckning finns i 9 kap. 1 § i polislagen (872/2011).</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Europeiska kommissionen, Konkurrens- och konsumentverket och regionförvaltningsverken kan vid inspektioner biträdas av andra personer som de har bemyndigat därtill.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 253/2014</p>
+                        <p>EkUB 25/2014</p>
+                        <p>RSv 254/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 6 februari 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Arbetsminister</role>
+                                <person refersTo="">Lauri Ihalainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

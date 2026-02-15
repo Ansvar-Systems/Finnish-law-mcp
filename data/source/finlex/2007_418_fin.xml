@@ -1,0 +1,125 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/418/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/418"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/418/alkup"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="418"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/418/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/418/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/418/alkup/fin"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/418/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/418/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/418/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="64"/>
+                    <finlex:date date="2007-04-19"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>418/2007</docNumber>
+                <docTitle>Laki kansanterveyslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään </i>
+                        28 päivänä tammikuuta 1972 annettuun kansanterveyslakiin (<affectedDocument href="/akn/fi/act/statute/1972/66">66/1972</affectedDocument>) uusi 14 b § sekä 24 §:ään, sellaisena kuin se on laissa 293/2006, uusi 2 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>14 b §</num>
+                    <subsection>
+                        <content>
+                            <p>
+                                Lastensuojelulain (417/2007) 16 §:n 2 momentin mukaisen kunnan (<i>sijoituskunta</i>), jossa lapsi tai nuori on avohuollon tukitoimena tai sijaishuoltoon sijoitettuna taikka jälkihuollossa, on järjestettävä lapselle tai nuorelle hänen tarvitsemansa kansanterveystyöhön kuuluvat palvelut. Palvelut on järjestettävä yhteistyössä lastensuojelulain 16 §:n 1 momentin tai 17 §:n mukaan vastuussa olevan kunnan (<i>sijoittajakunta</i>) kanssa.
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>24 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Milloin sijoituskunta on järjestänyt 14 b §:ssä tarkoitettuja palveluja, on sijoittajakunnan suoritettava sijoituskunnalle aiheutuneita kustannuksia vastaava korvaus. Korvauksen määrää laskettaessa noudatetaan, mitä lain 22 §:n 2 momentissa säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/252">HE 252/2006</ref>
+                        </p>
+                        <p>StVM 59/2006</p>
+                        <p>EV 309/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 13 päivänä huhtikuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

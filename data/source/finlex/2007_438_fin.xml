@@ -1,0 +1,126 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/438/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/438"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/438/alkup"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="438"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/438/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/438/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/438/alkup/fin"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/438/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/438/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/438/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="65"/>
+                    <finlex:date date="2007-04-20"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>438/2007</docNumber>
+                <docTitle>Laki maatalousyrittäjien luopumiskorvauksesta annetun lain 28 ja 31 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         maatalousyrittäjien luopumiskorvauksesta 18 päivänä joulukuuta 1992 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1992/1330">1330/1992</affectedDocument>
+                        ) 28 §:n 1 momentti ja 31 § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>28 §</num>
+                    <subsection>
+                        <content>
+                            <p>Tämän lain täytäntöönpanosta huolehtivat maa- ja metsätalousministeriö, Maaseutuvirasto, kuntien maaseutuelinkeinoviranomaiset, työvoima- ja elinkeinokeskukset sekä eläkelaitos.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>31 §</num>
+                    <subsection>
+                        <content>
+                            <p>Kuntien maaseutuelinkeinoviranomaisten, työvoima- ja elinkeinokeskusten sekä Maaseutuviraston asiana on eläkelaitoksen ohella valvoa, ettei luopumiskorvauksen saaja harjoita maataloutta tai poronhoitoa omaan tai yhteiseen lukuun ja että tässä laissa tarkoitettuja sitoumuksia noudatetaan.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä toukokuuta 2007.</p>
+                    <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/218">HE 218/2006</ref>
+                        </p>
+                        <p>MmVM 20/2006</p>
+                        <p>EV 282/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 13 päivänä huhtikuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Maa- ja metsätalousministeri </role>
+                                <person refersTo="">Juha Korkeaoja</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

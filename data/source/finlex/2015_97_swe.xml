@@ -1,0 +1,114 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/97/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/97"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/97/alkup"/>
+                    <FRBRdate date="2015-02-06" name="dateIssued"/>
+                    <FRBRdate date="2015-02-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="97"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/97/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/97/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/97/alkup/swe"/>
+                    <FRBRdate date="2015-02-06" name="dateIssued"/>
+                    <FRBRdate date="2015-02-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/97/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/97/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/97/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-02-11" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>97/2015</docNumber>
+                <docTitle>Lag om ändring av 5 § i lagen om bekämpning av oljeskador</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 5 § i lagen om bekämpning av oljeskador (
+                        <affectedDocument href="/akn/fi/act/statute/2009/1673">1673/2009</affectedDocument>
+                        ) ett nytt 5 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>5 §</num>
+                    <heading>Finlands miljöcentrals uppgifter</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Finlands miljöcentral är den kontaktpunkt som avses i internationella avtal som är bindande för Finland om bekämpning av olyckor i den marina miljön och svarar för att meddelanden lämnas till andra stater om fartygsoljeskador och fartygskemikalieolyckor i enlighet med dessa avtal. Dessutom är Finlands miljöcentral den kontaktpunkt som avses i artikel 32.1 i Europaparlamentets och rådets direktiv 2013/30/EU om säkerhet för olje- och gasverksamhet till havs och om ändring av direktiv 2004/35/EG och tillhandahåller den medlemsstat som avses i artikel 32.4 b information enligt den punkten.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 maj 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 205/2014</p>
+                        <p>MiUB 12/2014</p>
+                        <p>RSv 174/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 6 februari 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Miljöminister</role>
+                                <person refersTo="">Sanni Grahn-Laasonen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

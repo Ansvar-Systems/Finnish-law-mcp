@@ -1,0 +1,118 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/396/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/396"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/396/alkup"/>
+                    <FRBRdate date="2015-04-10" name="dateIssued"/>
+                    <FRBRdate date="2015-04-15" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="396"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/396/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/396/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/396/alkup/swe"/>
+                    <FRBRdate date="2015-04-10" name="dateIssued"/>
+                    <FRBRdate date="2015-04-15" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/396/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/396/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/396/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-04-15" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>396/2015</docNumber>
+                <docTitle>Lag om ändring av 4 kap. 1 § i tvångsmedelslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i tvångsmedelslagen (
+                        <affectedDocument href="/akn/fi/act/statute/2011/806">806/2011</affectedDocument>
+                        ) 4 kap. 1 § 2 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>4 kap.</num>
+                    <heading>Begränsning av kontakter</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Förutsättningar för begränsning av kontakter</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Kontakter med det ombud som avses i 8 kap. 4 § i häktningslagen (768/2005) får inte begränsas. Kontakter med nära anhöriga eller andra närstående och kontakter med den beskickning som avses i 9 kap. 12 § i häktningslagen får begränsas endast av särskilt vägande skäl som hänför sig till utredning av brottet. Kontakter med nära anhöriga får begränsas endast i den utsträckning det är nödvändigt för syftet med gripandet, anhållandet eller häktningen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 maj 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 45/2014</p>
+                        <p>LaUB 17/2014</p>
+                        <p>RSv 255/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 10 april 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister</role>
+                                <person refersTo="">Anna-Maja Henriksson</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

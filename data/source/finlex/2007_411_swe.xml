@@ -1,0 +1,127 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/411/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/411"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/411/alkup"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="411"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/411/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/411/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/411/alkup/swe"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/411/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/411/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/411/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="63"/>
+                    <finlex:date date="2007-04-19"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>411/2007</docNumber>
+                <docTitle>Lag om ändring av 10 och 13 § i avfallslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i avfallslagen av den 3 december 1993 (<affectedDocument href="/akn/fi/act/statute/1993/1072">1072/1993</affectedDocument>) 10 § 1 mom. och 13 § 1 mom., sådana de lyder i lag 605/1997, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>10 §</num>
+                    <heading>Ordnad avfallstransport</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Kommunen skall antingen som egen verksamhet eller genom att anlita en sammanslutning eller en privat företagare ordna transport av avfall som uppkommit från bosättning samt av i fråga om beskaffenhet, sammansättning och mängd därmed jämförbart sådant annat avfall än problemavfall som uppkommit vid statens, kommuners och församlingars samt offentligrättsliga sammanslutningars och föreningars offentliga förvaltning och serviceverksamhet (<i>kommunalt anordnad avfallstransport</i>). Detsamma gäller även annat sådant avfall än problemavfall som uppkommer från affärslägenheter i bostadsfastigheter och som till beskaffenheten, sammansättningen och mängden motsvarar avfall som uppkommer från bosättning samt som med fastighetsinnehavarens tillstånd förs till insamlingsplatsen på fastigheten. Som avfall från bosättning anses allt avfall från bosättning, såsom avfall från fasta bostäder och fritidsbostäder samt gårdsbrukslägenheters bostadsbyggnader, oberoende av kategori, kvalitet och volym, inbegripet slam från slamavskiljare och samlingsbrunnar. Genom förordning av statsrådet föreskrivs närmare om vilken verksamhet som anses som offentlig verksamhet som ger upphov till avfall jämförbart med avfall från bosättning. Genom ett avtal med avfallsinnehavaren kan kommunen ta emot även annat avfall för transport med den avfallstransport som kommunen ordnat.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>13 §</num>
+                    <heading>Kommunalt anordnad återvinning och behandling av avfall</heading>
+                    <subsection>
+                        <content>
+                            <p>Kommunen skall ordna återvinning och behandling av i 10 § 1 mom. avsett avfall från bosättning samt av annat avfall än problemavfall som kan jämföras med avfall från bosättning. Kommunen skall också ordna återvinning och behandling av problemavfall från bosättning samt från jord- och skogsbruket, om det inte är fråga om oskäliga mängder. Ovan nämnda avfall skall föras till återvinning eller behandling som anordnas av kommunen. Genom avtal med avfallsinnehavaren kan kommunen ordna återvinning eller behandling av även annat avfall.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juni 2007.</p>
+                    <p>En kommun som innan denna lag träder i kraft har ordnat transporten av avfall från bosättning och av sådant till beskaffenheten, sammansättningen och mängden därmed jämförbart avfall som uppkommit inom industrin, servicesektorn eller någon annan verksamhet såsom kommunalt anordnad avfallstransport på det sätt som avses i 10 § 1 mom. genom att anlita en privat företagare, kan fortsätta ordna transporten av avfall som uppkommit inom industrin, servicesektorn eller någon annan verksamhet med de privata företagarna i fråga under avtalens giltighetstid, dock högst fem år efter att denna lag har trätt i kraft. När kommunen förfar på detta sätt omfattas inte avfallsproducenter och andra innehavare av avfallet i fråga under denna tid av bestämmelserna i 8 och 12 § i avfallslagen om skyldigheten att ordna avfallstransport och återvinning eller behandling av avfall.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 257/2006</p>
+                        <p>MiUB 10/2006</p>
+                        <p>RSv 304/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 13 april 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Miljöminister </role>
+                                <person refersTo="">Stefan Wallin</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

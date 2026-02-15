@@ -1,0 +1,162 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/594/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/594"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/594/alkup"/>
+                    <FRBRdate date="2024-11-08" name="dateIssued"/>
+                    <FRBRdate date="2024-11-12" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="594"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/594/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/594/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/594/alkup/fin"/>
+                    <FRBRdate date="2024-11-08" name="dateIssued"/>
+                    <FRBRdate date="2024-11-12" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/594/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/594/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/594/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2024-11-12" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>594/2024</docNumber>
+                <docTitle>Laki rikosvahinkolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti </p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         rikosvahinkolain (
+                        <affectedDocument href="/akn/fi/act/statute/2005/1204">1204/2005</affectedDocument>
+                        ) 45 ja 47 §, 
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         7 luvun otsikko ja 38 §:n 1 ja 3 momentti sekä 
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 38 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>7 luku</num>
+                    <heading>Muutoksenhaku, itseoikaisu ja takaisinperintä</heading>
+                    <section>
+                        <num>38 §</num>
+                        <heading>Muutoksenhaku</heading>
+                        <subsection>
+                            <content>
+                                <p>Valtiokonttorin tämän lain nojalla antamaan päätökseen haetaan muutosta valittamalla vakuutusoikeuteen 30 päivän kuluessa päätöksen tiedoksisaannista. Valituskirjelmä on toimitettava muutoksenhakuajassa Valtiokonttorille. Ennakkokorvausta koskevaan päätökseen ei kuitenkaan saa hakea muutosta valittamalla.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Jos valitus on saapunut 1 momentissa säädetyn määräajan jälkeen, se voidaan tästä huolimatta ottaa tutkittavaksi, jos myöhästymiseen on ollut painavia syitä.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>38 a §</num>
+                        <heading>Itseoikaisu ja valituksen siirto vakuutusoikeudelle</heading>
+                        <subsection>
+                            <content>
+                                <p>Jos Valtiokonttori hyväksyy kaikilta osin sille toimitetussa valituksessa esitetyt vaatimukset, sen on annettava asiasta uusi päätös. Uuteen päätökseen saa hakea muutosta 38 §:n mukaisesti.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos Valtiokonttori ei voi muuttaa valituksen kohteena olevaa päätöstä 1 momentissa mainituin tavoin, sen on 30 päivän kuluessa valitusajan päättymisestä toimitettava valituskirjelmä, valitusasiaa koskevat asiakirjat ja lausuntonsa vakuutusoikeudelle. Valtiokonttori voi tällöin väliaikaisella päätöksellä muuttaa aikaisempaa päätöstään siltä osin kuin se hyväksyy valituksessa esitetyn vaatimuksen. Valtiokonttorin tulee ilmoittaa muutoksenhakijalle valituksen siirtämisestä vakuutusoikeuden käsiteltäväksi sekä varata tälle mahdollisuus 30 päivän kuluessa esittää vastineensa Valtiokonttorin lausunnosta vakuutusoikeudelle.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos Valtiokonttori hyväksyy valituksessa esitetyn vaatimuksen osin tai kokonaan sen jälkeen, kun valitus on jo toimitettu vakuutusoikeudelle, Valtiokonttori voi myös antaa väliaikaisen päätöksen. Väliaikaisesta päätöksestä on ilmoitettava viipymättä vakuutusoikeudelle. Valtiokonttorin väliaikaiseen päätökseen ei saa hakea muutosta. </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 2 momentissa tarkoitetusta määräajasta voidaan poiketa, jos valituksen johdosta tarvittavan lisäselvityksen hankkiminen sitä edellyttää. Lisäselvityksen hankkimisesta on tällöin viipymättä ilmoitettava valittajalle. Valituskirjelmä ja lausunto on kuitenkin toimitettava vakuutusoikeudelle viimeistään 60 päivän kuluttua valitusajan päättymisestä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2025.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/79">HE 79/2024</ref>
+                        </p>
+                        <p>HaVM 18/2024</p>
+                        <p>EV 82/2024 </p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 8.11.2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kunta- ja alueministeri</role>
+                                <person refersTo="">Anna-Kaisa Ikonen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

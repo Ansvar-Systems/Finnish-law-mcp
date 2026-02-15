@@ -1,0 +1,118 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/959/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/959"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/959/alkup"/>
+                    <FRBRdate date="2007-11-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="959"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/959/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/959/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/959/alkup/fin"/>
+                    <FRBRdate date="2007-11-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/959/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/959/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/959/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="145"/>
+                    <finlex:date date="2007-11-07"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>959/2007</docNumber>
+                <docTitle>Laki verotusmenettelystä annetun lain 17 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         verotusmenettelystä 18 päivänä joulukuuta 1995 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1995/1558">1558/1995</affectedDocument>
+                        ) 17 §:ään, sellaisena kuin se on laeissa 565/2004, 775/2004 ja 1224/2006, uusi 11 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>17 §</num>
+                    <heading>Muita tietoja koskeva sivullisen yleinen tiedonantovelvollisuus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Yhtiön, jonka arvopapereita on otettu yhtiön hakemuksesta tai sen suostumuksella kaupankäynnin kohteeksi säännellyllä ja viranomaisen valvonnassa olevalla markkinalla Suomessa tai ulkomailla, on ilmoitettava verohallinnolle arvopaperin kaupankäynnin kohteeksi ottamisesta, kaupankäynnin siirtymisestä markkinalta toiselle samoin kuin siitä, että arvopaperi on lakannut olemasta kaupankäynnin kohteena markkinalla. Sama koskee vastaavasti arvopapereiden ottamista kaupankäynnin kohteeksi yhtiön hakemuksesta tai sen suostumuksella Euroopan parlamentin ja neuvoston rahoitusvälineiden markkinoista sekä neuvoston direktiivien 85/611/ETY ja 93/6/ETY ja Euroopan parlamentin ja neuvoston direktiivin 2000/12/EY muuttamisesta ja neuvoston direktiivin 93/22/ETY kumoamisesta annetussa direktiivissä 2004/39/EY tarkoitetussa monenkeskisessä kaupankäynnissä Suomessa tai Euroopan talousalueella.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 9 päivänä marraskuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/59">HE 59/2007</ref>
+                        </p>
+                        <p>VaVM 9/2007</p>
+                        <p>EV 40/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 2 päivänä marraskuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Hallinto- ja kuntaministeri </role>
+                                <person refersTo="">Mari Kiviniemi</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

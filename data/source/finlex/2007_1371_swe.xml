@@ -1,0 +1,133 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1371/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1371"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1371/alkup"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1371"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1371/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1371/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1371/alkup/swe"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1371/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1371/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1371/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="203"/>
+                    <finlex:date date="2007-12-31"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1371/2007</docNumber>
+                <docTitle>Lag om ändring av 5 a kap. 2 § i tvångsmedelslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i tvångsmedelslagen av den 30 april 1987 (
+                        <affectedDocument href="/akn/fi/act/statute/1987/450">450/1987</affectedDocument>
+                        ) 5 a kap. 2 § 1 mom. 11 punkten, sådan den lyder i lag 651/2004, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>5 a kap.</num>
+                    <heading>Teleavlyssning, teleövervakning och teknisk observation</heading>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Förutsättningar för teleavlyssning</heading>
+                        <subsection>
+                            <intro>
+                                <p>När någon är skäligen misstänkt för</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>11)</num>
+                                <intro>
+                                    <p>brott enligt 34 a kap. 1 § 1 mom. 2―7 punkten eller 2 mom. i strafflagen som begås i terroristiskt syfte, förberedelse till brott som begås i terroristiskt syfte, ledande av terroristgrupp, främjande av en terroristgrupps verksamhet, meddelande av utbildning för ett terroristbrott, rekrytering för ett terroristbrott, finansiering av terrorism,</p>
+                                </intro>
+                                <hcontainer name="omission"/>
+                                <subparagraph>
+                                    <content>
+                                        <p>kan den myndighet som sköter förundersökningen av brottet beviljas tillstånd att avlyssna och uppta telemeddelanden som den misstänkte sänder från en teleanslutning, teleadress eller teleterminalutrustning som personen innehar eller annars kan antas använda eller som förmedlas till en sådan teleanslutning, teleadress eller teleterminalutrustning och är avsedda för den misstänkte, om de uppgifter som fås kan antas vara av synnerlig vikt för utredning av brottet.</p>
+                                    </content>
+                                </subparagraph>
+                                <hcontainer name="omission"/>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Om ikraftträdandet av denna lag bestäms genom förordning av statsrådet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 81/2007</p>
+                        <p>LaUB 9/2007</p>
+                        <p>RSv 107/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p> Helsingfors den 21 december 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Utrikesminister </role>
+                                <person refersTo="">Ilkka Kanerva</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

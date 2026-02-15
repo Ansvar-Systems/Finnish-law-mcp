@@ -1,0 +1,134 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/125/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/125"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/125/alkup"/>
+                    <FRBRdate date="2006-02-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="125"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/125/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/125/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/125/alkup/swe"/>
+                    <FRBRdate date="2006-02-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/125/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/125/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/125/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="21"/>
+                    <finlex:date date="2006-02-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>125/2006</docNumber>
+                <docTitle>Lag om ändring av socialvårdslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i socialvårdslagen av den 17 september 1982 (
+                        <affectedDocument href="/akn/fi/act/statute/1982/710">710/1982</affectedDocument>
+                        ) 41 § 2 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 40 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>40 a §</num>
+                    <subsection>
+                        <content>
+                            <p>I brådskande fall skall behovet av socialservice bedömas utan dröjsmål.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>I andra än i brådskande fall är kommunen skyldig att i fråga om en person som har fyllt 80 år tillhandahålla bedömning av behovet av socialservice senast den sjunde vardagen efter det att personen i fråga eller hans eller hennes lagliga företrädare eller anhöriga eller någon annan person eller en myndighet, för att få service har tagit kontakt med den myndighet i kommunen som ansvarar för socialservicen. På motsvarande sätt skall kommunen tillhandahålla bedömning av behovet av socialservice i fråga om en person som får vårdbidrag för pensionstagare i enlighet med 30 a § 1 mom. 1 punkten i folkpensionslagen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>41 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Då tillträde förhindras till den bostad eller den plats där personen i fråga vistas, skall de sociala myndigheterna begära sådan handräckning av en polismyndighet som avses i 22 § i lagen om klientens ställning och rättigheter inom socialvården.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 95/2005</p>
+                        <p>ShUB 24/2005</p>
+                        <p>RSv 145/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 17 februari 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Omsorgsminister </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

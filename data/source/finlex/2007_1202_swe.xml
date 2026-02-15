@@ -1,0 +1,154 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1202/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1202"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1202/alkup"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1202"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1202/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1202/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1202/alkup/swe"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1202/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1202/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1202/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="173"/>
+                    <finlex:date date="2007-12-14"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1202/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om utkomststöd</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i lagen av den 30 december 1997 om utkomststöd (
+                        <affectedDocument href="/akn/fi/act/statute/1997/1412">1412/1997</affectedDocument>
+                        ) 14 § 4 mom., sådant det lyder i lag 923/2000,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         5 b § 4 mom., sådant det lyder i lag 1218/2005, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 14 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>5 b §</num>
+                    <heading>Fastställande, betalning och justering av förskott på statsandelen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>För justering av förskotten ska kommunen varje år senast den 31 augusti lämna länsstyrelsen uppgifter om de kostnader som det grundläggande utkomststödet gett upphov till fram till utgången av juni under finansåret samt en uppskattning av de kostnader som det grundläggande utkomststödet ger upphov till under tiden juli―december. På basis av kommunens utredning justerar länsstyrelsen förskotten för resten av året, om uppskattningen av kostnaderna för det grundläggande utkomststödet under finansåret avviker med minst fem procent från de kostnader som använts vid beräkningen av förskott enligt 2 mom. Förskotten justeras från ingången av oktober så att det årliga sammanlagda beloppet av förskotten motsvarar 50 procent av de uppskattade kostnaderna för det grundläggande utkomststödet under finansåret.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>14 a §</num>
+                    <heading>Behandlingen av utkomststödsärenden</heading>
+                    <subsection>
+                        <content>
+                            <p>Ett utkomststödsärende ska i kommunen behandlas så att ingens rätt till oundgänglig försörjning och omsorg äventyras. I brådskande fall ska beslutet fattas på basis av de till buds stående uppgifterna samma eller senast följande vardag efter att ansökan inkommit. I andra än brådskande fall ska beslutet fattas utan dröjsmål, likväl senast den sjunde vardagen efter att ansökan inkommit. Ett beslut om att utkomststöd beviljas ska verkställas utan dröjsmål.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Då ansökan avser månaden efter ansökningstidpunkten ska beslutet, utan hinder av 1 mom., fattas och verkställas senast den första vardagen under nämnda månad, om det då har förflutit mer än sju vardagar från den tidpunkt då ansökan inkom. Om ansökan avser en senare tidsperiod än den månad som följer efter ansökningstidpunkten, ska beslutet fattas och verkställas senast den första vardagen under den tidsperiod som avses i ansökan.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om ansökan är bristfällig ska klienten senast den sjunde vardagen efter att ansökan inkommit ges eller sändas en specificerad uppmaning att komplettera ansökan inom utsatt tid. Beslutet om utkomststöd ska fattas utan dröjsmål, likväl senast den sjunde vardagen efter att den kompletterade ansökan har inkommit. Om klienten inte inom utsatt tid har kompletterat sin ansökan eller uppgett en godtagbar orsak till att kompletteringen försenats, fattas beslutet utan dröjsmål på basis av de till buds stående uppgifterna, likväl senast den sjunde vardagen efter att tidsfristen gått ut. Med klientens samtycke kan beslutet fattas på basis av de till buds stående uppgifterna innan den utsatta tiden har gått ut.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Utkomststödsklienten ska ges tillfälle till ett personligt samtal med en socialarbetare eller socialhandledare senast den sjunde vardagen efter det att klienten begärt detta.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                    <p>Lagen tillämpas på behandlingen av utkomststödsansökningar som har gjorts efter lagens ikraftträdande.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 119/2007</p>
+                        <p>ShUB 15/2007</p>
+                        <p>RSv 74/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 7 december 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Omsorgsminister </role>
+                                <person refersTo="">Paula Risikko</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

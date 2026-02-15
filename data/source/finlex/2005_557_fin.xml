@@ -1,0 +1,557 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/557/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/557"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/557/alkup"/>
+                    <FRBRdate date="2005-07-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="557"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/557/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/557/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/557/alkup/fin"/>
+                    <FRBRdate date="2005-07-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/557/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/557/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/557/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="99"/>
+                    <finlex:date date="2005-07-21"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>557/2005</docNumber>
+                <docTitle>Laki tilatukijärjestelmän täytäntöönpanosta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 luku</num>
+                    <heading>Yleiset säännökset</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Soveltamisala ja suhde muuhun lainsäädäntöön</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Tilatukijärjestelmää koskevassa Euroopan yhteisön yhteisen maatalouspolitiikan uudistuksen täytäntöönpanossa sovelletaan tätä lakia siltä osin kuin siitä ei säädetä erikseen Euroopan yhteisön säädöksissä tai Euroopan yhteisön yhteisen maatalouspolitiikan täytäntöönpanosta annetussa laissa (1100/1994).</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_1__subsec_2">
+                            <content>
+                                <p>Tätä lakia sovelletaan tukioikeusrekisterin hallinnoinnissa siltä osin kuin siitä ei erikseen säädetä maaseutuelinkeinorekisteristä annetussa laissa (1515/1994).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Määritelmät</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <intro eId="chp_1__sec_2__subsec_1__intro">
+                                <p>Tässä laissa tarkoitetaan:</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>
+                                        <i>tilatukijärjestelmällä</i>
+                                         yhteisen maatalouspolitiikan suoria tukijärjestelmiä koskevista yhteisistä säännöistä ja tietyistä viljelijöiden tukijärjestelmistä sekä asetusten (ETY) N:o 2019/93, (EY) N:o 1452/2001, (EY) N:o 1453/2001, (EY) N:o 1454/2001, (EY) N:o 1868/94, (EY) N:o 1251/1999, (EY) N:o 1254/1999, (EY) N:o 1673/2000, (ETY) N:o 2358/71 ja (EY) N:o 2529/2001 muuttamisesta annetun neuvoston asetuksen (EY) N:o 1782/2003, jäljempänä 
+                                        <i>tilatukiasetus</i>, III osastossa tarkoitettua tukijärjestelmää;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>
+                                        <i>yhdistelmämallilla</i>
+                                         maatalousuudistuksen tukimallia, jossa tilatuki maksetaan tasatuen ja tilakohtaisen tuen yhdistelmänä;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>
+                                        <i>maitopalkkiolla</i>
+                                         tilatukiasetuksen 95 artiklan mukaista lypsylehmäpalkkiota;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>
+                                        <i>sonni- ja härkäpalkkiolla</i>
+                                         tilatukiasetuksen 123 artiklan mukaista erityispalkkiota;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>
+                                        <i>kesannointioikeudella</i>
+                                         tilatukiasetuksen 53 artiklan ja 63 artiklan 2 kohdan mukaista viljelijälle myönnettävää hehtaarikohtaista tukioikeutta; ja
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>
+                                        <i>erityistukioikeudella</i>
+                                         tilatukiasetuksen 47 ja 48 artiklan mukaista oikeutta.
+                                    </p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 luku</num>
+                    <heading>Tilatukijärjestelmän täytäntöönpano</heading>
+                    <section eId="chp_2__sec_3">
+                        <num>3 §</num>
+                        <heading>Yhdistelmämalli ja täytäntöönpanomuoto</heading>
+                        <subsection eId="chp_2__sec_3__subsec_1">
+                            <content>
+                                <p>Tilatukijärjestelmä otetaan käyttöön 1 päivänä tammikuuta 2006 ja maatilojen neuvontajärjestelmä 1 päivänä tammikuuta 2007.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_3__subsec_2">
+                            <content>
+                                <p>Yhdistelmämallissa tukioikeus muodostetaan tasatukiosasta ja mahdollisesta tilakohtaisesta lisäosasta, joiden lisäksi voidaan muodostaa kesannointioikeuksia sekä erityistukioikeuksia. Tukioikeuksiin voi valtioneuvoston asetuksella tarkemmin säädettävissä tapauksissa sisältyä tilatukiasetuksen 60 artiklan mukainen oikeus. Tilakohtainen lisäosa muodostetaan viitekaudella 2000―2002 sonni- ja härkäpalkkiota saaneille tiloille, viitekaudella 2000―2002 tärkkelysperunan tukea saaneille tiloille, 31 päivänä maaliskuuta 2006 maitopalkkioon oikeutetuille tiloille sekä tiloille, jotka ovat oikeutettuja saamaan tilakohtaisen lisäosan kansallisesta varannosta. Valtioneuvoston asetuksella voidaan säätää tarkemmin uudistuksen täytäntöönpanosta sekä täytäntöönpanon ajankohdasta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_3__subsec_3">
+                            <content>
+                                <p>Tilakohtaiseen lisäosaan sisällytetään 100 prosenttia maitopalkkiosta, 30 prosenttia sonni- ja härkäpalkkiosta sekä 40 prosenttia tärkkelysperunan tuotantoon sitomattomasta tuesta. Lisäosat säilyvät ennallaan vuosina 2006―2010. Vuosina 2011―2013 lisäosien suuruus on 70 prosenttia ja vuosina 2014 ja 2015 35 prosenttia alkuperäisestä tasosta. Vuodesta 2016 alkaen lisäosia ei makseta. Siirtymäkaudesta, lisäosien ja erityistukioikeuksien asteittaisesta alentamisesta sekä vastaavasta tasatuen korottamisesta voidaan säätää tarkemmin valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_3__subsec_4">
+                            <content>
+                                <p>Tilatukiasetuksen 62 artiklan mukaisesta maitopalkkiosta ja sen lisäpalkkiosta johtuvat määrät sisällytetään kokonaan tilatukijärjestelmään vuodesta 2006 alkaen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_3__subsec_5">
+                            <content>
+                                <p>Tilatukiasetuksen 67―70 artiklan mukaisista tukimuodoista, tuen myöntämisen perusteista, tukimääristä, yksikkötukien tasoista sekä muista kyseisten tukien ehdoista säädetään valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_4">
+                        <num>4 §</num>
+                        <heading>Enimmäismäärät, tukialueet ja viitemäärät</heading>
+                        <subsection eId="chp_2__sec_4__subsec_1">
+                            <content>
+                                <p>Kansallinen enimmäismäärä jaetaan tukialueille vuosien 2000―2002 EU:n tulotukeen oikeuttavan tuotannon perusteella lasketun tukimäärän mukaisesti. Maidon osalta määräytymisperusteena on maidon tilakohtainen viitemäärä 31 päivänä maaliskuuta 2006.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_2">
+                            <content>
+                                <p>Tasatuki vahvistetaan viljelijöiden vuoden 2006 tukioikeuksien haussa ilmoittamille kyseisen alueen tukikelpoisille hehtaareille.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_3">
+                            <content>
+                                <p>Valtioneuvoston asetuksella säädetään alueellisista enimmäismääristä, alueellisen tasatuen määrästä ja tilatukiasetuksen 58 artiklan mukaisista tukialueista.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_4">
+                            <content>
+                                <p>
+                                    Valtioneuvoston asetuksella vahvistetaan tilatukiasetuksessa sekä yhteisen maatalouspolitiikan suoria tukijärjestelmiä koskevista yhteisistä säännöistä ja tietyistä viljelijöiden tukijärjestelmistä annetussa neuvoston asetuksessa (EY) N:o 1782/2003 säädetyn tilatukijärjestelmän täytäntöönpanoa koskevista yksityiskohtaisista säännöistä annetussa komission asetuksessa (EY) N:o 795/2004, jäljempänä 
+                                    <i>komission asetus II</i>, tarkoitettujen viitemäärien laskemisen perusteet.
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Kansallinen varanto</heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <content>
+                                <p>Kansallista varantoa hallinnoidaan kansallisella tasolla.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_2">
+                            <content>
+                                <p>Kansallisen varannon perustamiseen käytetään valtioneuvoston asetuksella vahvistettava prosenttiosuus kansallisesta enimmäismäärästä. Tukioikeuksia on myös niiden vahvistamisen jälkeen vähennettävä lineaarisesti tilatukiasetuksen 42 artiklan 7 kohdan mukaisesti, jos kansallinen varanto ei ole riittävä tukioikeuksien ja viitemäärien myöntämiseksi tilatukiasetuksen 42 artiklan 3 ja 4 kohdan tapausten kattamiseksi. Valtioneuvoston asetuksella voidaan antaa tilatukiasetusta ja komission asetusta II tarkentavia säännöksiä tukioikeuksien arvon vähennyksestä, jos kansallinen varanto ei ole riittävä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_3">
+                            <content>
+                                <p>Tukioikeuksia voidaan tarvittaessa leikata tilatukiasetuksen 42 artiklan 9 kohdan, 46 artiklan 3 kohdan ja komission asetuksen II 9, 10, 44 ja 45 artiklan mukaisesti. Näissä artikloissa tarkoitetuista tukioikeuksien leikkauksista säädetään tarkemmin valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Pysyvät laitumet</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>
+                                    Pysyvien laitumien säilyttämisvelvollisuudesta, yhteisen maatalouspolitiikan suoria tukijärjestelmiä koskevista yhteisistä säännöistä ja tietyistä viljelijöiden tukijärjestelmistä annetussa neuvoston asetuksessa (EY) N:o 1782/2003 säädettyjen täydentävien ehtojen, tuen mukauttamisen ja yhdennetyn hallinto- ja valvontajärjestelmän soveltamista koskevista yksityiskohtaisista säännöistä annetun komission asetuksen (EY) N:o 796/2004, jäljempänä 
+                                    <i>komission asetus I</i>, 4 artiklasta johtuvien tilakohtaisten muuttamiskieltojen perusteista, ennakkolupien myöntämisen perusteista, maan takaisin pysyväksi laitumeksi muuttamisen velvoitteiden perusteista sekä muista vastaavista pysyviin laitumiin liittyvistä seikoista tilatasolla annetaan tilatukiasetusta sekä komission asetuksia I ja II tarkentavia säännöksiä valtioneuvoston asetuksella.
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Lakisääteisten hoitovaatimusten valvonta</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>Työvoima- ja elinkeinokeskus valvoo luonnonsuojelulain (1096/1996) ja metsästyslain (615/1993) noudattamista siltä osin kuin on kyse tilatukiasetuksen 4 artiklassa tarkoitettujen lakisääteisten hoitovaatimusten noudattamisen valvonnasta. Tilatukiasetuksen mukaisten lakisääteisten hoitovaatimusten noudattamisen valvonnasta säädetään tarkemmin valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 luku</num>
+                    <heading>Tukioikeudet ja kesannointioikeudet</heading>
+                    <section eId="chp_3__sec_8">
+                        <num>8 §</num>
+                        <heading>Tukioikeuksien myöntäminen ja vahvistaminen</heading>
+                        <subsection eId="chp_3__sec_8__subsec_1">
+                            <content>
+                                <p>Viljelijälle voidaan myöntää tukioikeuksia, jos viljelijä osoittaa valtioneuvoston asetuksella tarkemmin säädettävällä menettelyllä olevansa tukioikeuksia koskevan hakemuksen jättämisajankohtana viljelijä tilatukiasetuksen 2 artiklan a alakohdassa tarkoitetussa merkityksessä ja jos hän ilmoittaa ensimmäisen toimeenpanovuoden hakemuksella tukikelpoisia hehtaareita. Valtioneuvoston asetuksella voidaan säätää pellon hallinnassa olon ajankohdasta sekä antaa tilatukiasetusta ja komission asetuksia I ja II tarkentavia säännöksiä tukikelpoisuusedellytyksistä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_8__subsec_2">
+                            <content>
+                                <p>Tukioikeuksien vahvistamista pyytävän viljelijän tilan maatalousmaan vähimmäisala on 0,3 hehtaaria. Vähimmäisalaa ei kuitenkaan vahvisteta erityistukioikeuksien osalta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_8__subsec_3">
+                            <content>
+                                <p>Valtioneuvoston asetuksella voidaan vahvistaa tukikelpoisten hehtaarien määrä ja muut neuvoston ja komission asetuksissa tarkoitetut hehtaarimäärät.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_8__subsec_4">
+                            <content>
+                                <p>Kansallista varantoa käytetään viitemäärien vahvistamiseksi viljelijöille, jotka ovat tilatukiasetuksen 42 artiklan 4 kohdassa tarkoitetussa komission määrittelemässä erityistilanteessa. Kansallista varantoa voidaan lisäksi käyttää myönnettäessä viitemääriä viljelijöille, jotka ovat aloittaneet maataloustoimintansa 31 päivän joulukuuta 2002 jälkeen tai vuonna 2002 saamatta mitään suoraa tukea kyseisenä vuotena. Viitemääriä voidaan myös vahvistaa viljelijöille, jotka toimivat sellaisilla alueilla, joihin sovelletaan johonkin julkiseen interventioon liittyvää rakenneuudistus- tai kehitysohjelmaa maan viljelemättä jättämisen välttämiseksi tai jotta voitaisiin korvata näillä alueilla toimiville viljelijöille koituvia erityisiä haittoja. Kansallisen varannon käyttämisestä voidaan antaa tilatukiasetusta ja komission asetusta II tarkentavia säännöksiä valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_8__subsec_5">
+                            <content>
+                                <p>Valtioneuvoston asetuksella voidaan säätää tarkemmin tilatukiasetuksen 42 artiklan 3 ja 5 kohdassa ja komission asetuksen II 3 luvun 3 jaksossa tarkoitetuissa tapauksissa viljelijöille jaettavien oikeuksien määrän ja yksikköarvon korottamisen perusteista.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_8__subsec_6">
+                            <content>
+                                <p>Valtioneuvoston asetuksella vahvistetaan alueellinen keskiarvo, joka perustuu kyseisen alueen viljelijöille myönnettyjen tukioikeuksien arvoon, sekä säädetään alueellisen keskiarvon vahvistamisajankohta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_9">
+                        <num>9 §</num>
+                        <heading>Viljelylohkojen hallinta</heading>
+                        <subsection eId="chp_3__sec_9__subsec_1">
+                            <content>
+                                <p>Viljelijä voi valita tilatukiasetuksen 44 artiklan 3 kohdassa tarkoitetun 10 kuukauden jakson alkamisajankohdan vuosittain helmikuun 1 päivän ja huhtikuun 30 päivän väliltä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_10">
+                        <num>10 §</num>
+                        <heading>Tukioikeuksien käyttö ja siirrot</heading>
+                        <subsection eId="chp_3__sec_10__subsec_1">
+                            <content>
+                                <p>Viljelijä, jolla on erityistukioikeuksia, voi poiketa velvollisuudestaan esittää tukioikeuksien määrää vastaava tukikelpoisten hehtaarien määrä, jos hän säilyttää vähintään 50 prosenttia viitekaudella harjoitetusta maataloustoiminnasta nautayksikköinä ilmaistuna. Valtioneuvoston asetuksella voidaan säätää tarkemmin 50 prosentin säännön määrittelyn perusteista.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_10__subsec_2">
+                            <content>
+                                <p>Tilatukiasetuksen 63 artiklan 1 kohdan mukaisina tukioikeuksien kauppa-alueina käytetään tilatukiasetuksen 58 artiklan mukaisia tukialueita.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_10__subsec_3">
+                            <content>
+                                <p>Tukioikeuden siirtäjän on ilmoitettava tapahtuneesta siirrosta asianomaiselle työvoima- ja elinkeinokeskukselle valtioneuvoston asetuksella vahvistettavan määräajan kuluessa. Valtioneuvoston asetuksella voidaan säätää lisäksi tilatukiasetusta ja komission asetusta II tarkentavia säännöksiä tukioikeuden siirtämisen edellytyksistä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_10__subsec_4">
+                            <content>
+                                <p>Työvoima- ja elinkeinokeskuksella on oikeus suorittaa komission asetuksen I 73 a artiklan mukaisissa tapauksissa tukioikeuksien palauttamiseen liittyvät toimet. Tukioikeuksien palauttamiseen liittyvästä menettelystä voidaan säätää valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_10__subsec_5">
+                            <content>
+                                <p>Viljelijän luovuttaessa vuokralle ottamansa tukikelpoisen maatalousmaan perusteella vahvistettavan tukioikeuden vastikkeetta vuokranantajalle, luovutusta ei pidetä perintö- ja lahjaverolaissa (378/1940) tarkoitettuna lahjana, kun tukioikeuden luovutus tapahtuu 28 päivänä huhtikuuta 2006 voimassa olevan vuokrakauden päättyessä, kuitenkin viimeistään 31 päivänä joulukuuta 2016.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_11">
+                        <num>11 §</num>
+                        <heading>Sukupolvenvaihdoksia koskevat tilanteet</heading>
+                        <subsection eId="chp_3__sec_11__subsec_1">
+                            <intro eId="chp_3__sec_11__subsec_1__intro">
+                                <p>Sen lisäksi, mitä perintökaaren (40/1965) 6 luvun 1 §:n 1 momentissa säädetään, ennakkoperintönä pidetään tilatukiasetuksen 33 artiklan 1 kohdan b alakohtaa ja 43 artiklan 1 kohdan ensimmäistä alakohtaa sovellettaessa myös sellaista vuonna 2003 tai sen jälkeen tehtyä:</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_11__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>maatilan tai sen osan kauppaa, jonka rahoittamiseen on myönnetty nuoren viljelijän aloitustukeen kuuluva avustus, laina tai molemmat;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_11__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>maatilan kauppaa, jossa ostaja on myyjän perillinen suoraan alenevassa polvessa, sisar tai veli taikka näiden perillinen suoraan alenevassa polvessa, ottolapsi taikka edellä mainittujen puoliso edellyttäen, että kauppahinta on selvästi alempi kuin vastaavassa kaupassa ilman edellä tarkoitettua myyjän ja ostajan välistä suhdetta muuten olisi ollut; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_11__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>maatilan osan kauppaa, joka tehdään perintökaaren 25 luvun 1 b §:n 3 momentin mukaisesti.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_12">
+                        <num>12 §</num>
+                        <heading>Kesannointioikeudet</heading>
+                        <subsection eId="chp_3__sec_12__subsec_1">
+                            <content>
+                                <p>Valtioneuvoston asetuksella vahvistetaan alueelliset kesannointivelvoiteprosentit. Kesantoalalle voidaan kylvää siemeniä 15 päivästä heinäkuuta alkaen valtioneuvoston asetuksella erikseen vahvistettavien ympäristönäkökohtien mukaisesti.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_12__subsec_2">
+                            <content>
+                                <p>Valtioneuvoston asetuksella voidaan säätää tilatukiasetuksen 54 artiklan 5 kohdassa tarkoitetuista toimenpiteistä, joilla estetään kesannointioikeuksiin oikeutetun kokonaisalan huomattava kasvu.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_12__subsec_3">
+                            <content>
+                                <p>Kansallisena tukena voidaan maksaa tarvittaessa valtioneuvoston asetuksella vahvistettava osuus niistä menoista, jotka aiheutuvat biomassatuotantoon tarkoitettujen monivuotisten kasvien viljelyalojen perustamisesta kesannoidulla maalla. Osuus voi kuitenkin olla enintään 50 prosenttia.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 luku</num>
+                    <heading>Tukioikeusrekisteri</heading>
+                    <section eId="chp_4__sec_13">
+                        <num>13 §</num>
+                        <heading>Rekisterin muodostaminen</heading>
+                        <subsection eId="chp_4__sec_13__subsec_1">
+                            <content>
+                                <p>Tukioikeusrekisterin perustamista varten voidaan käyttää maaseutuelinkeinorekisterissä olevia tietoja. Rekisteröityminen tukioikeusrekisteriin on maksutonta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_14">
+                        <num>14 §</num>
+                        <heading>Rekisterin pitäjä, käyttäjät ja käyttötarkoitus</heading>
+                        <subsection eId="chp_4__sec_14__subsec_1">
+                            <content>
+                                <p>Tukioikeusrekisterin pidosta vastaa maa- ja metsätalousministeriön tietopalvelukeskus. Maa- ja metsätalousministeriöllä, maa- ja metsätalousministeriön tietopalvelukeskuksella, työvoima- ja elinkeinokeskusten maaseutuosastoilla ja kuntien maaseutuelinkeinoviranomaisilla on oikeus saada rekisteristä tietoja salassapitosäännösten estämättä, jos kysymys on tilatukiasetuksen 21 artiklan mukaisesta tukioikeuksien tarkastamisesta ja ristiintarkastuksista sekä muussa tilatukiasetuksen edellyttämässä tukioikeuksien hallinnoinnissa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_15">
+                        <num>15 §</num>
+                        <heading>Rekisteriin merkittävät tiedot</heading>
+                        <subsection eId="chp_4__sec_15__subsec_1">
+                            <intro eId="chp_4__sec_15__subsec_1__intro">
+                                <p>Rekisteriin voidaan merkitä seuraavat tiedot:</p>
+                            </intro>
+                            <paragraph eId="chp_4__sec_15__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>tilan yksilöintitiedot;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_15__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>tukioikeuden haltija ja omistaja, yhteystiedot, henkilötunnus tai yrityksen tunnistetiedot;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_15__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>tukioikeuden tyyppi ja arvo;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_15__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>tukioikeuden saamispäivä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_15__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>tukioikeuden viimeisimmän aktivoinnin päivämäärä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_15__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>tukioikeuden hallinnan muutos;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_15__subsec_1__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>tukioikeuksien leikkaaminen varantoon ja jakaminen varannosta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_15__subsec_1__para_8">
+                                <num>8)</num>
+                                <content>
+                                    <p>tukioikeuden alkuperä; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_15__subsec_1__para_9">
+                                <num>9)</num>
+                                <content>
+                                    <p>alueelliset rajoitukset.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_4__sec_15__subsec_2">
+                            <content>
+                                <p>Rekisteriin voidaan lisäksi merkitä muita tietoja, jos Euroopan yhteisön säännökset sitä edellyttävät ja tiedot ovat välttämättömiä tukioikeusrekisterin hallinnoinnin kannalta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_16">
+                        <num>16 §</num>
+                        <heading>Rekisterin julkisuus ja tietojen luovuttaminen rekisteristä</heading>
+                        <subsection eId="chp_4__sec_16__subsec_1">
+                            <content>
+                                <p>Tukioikeusrekisterin tietojen julkisuuteen, niiden luovuttamiseen ja luovuttamisesta perittäviin maksuihin sovelletaan viranomaisten toiminnan julkisuudesta annettua lakia (621/1999) ja henkilötietojen osalta soveltuvin osin henkilötietolakia (523/1999).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_17">
+                        <num>17 §</num>
+                        <heading>Rekisteritietojen korjaaminen</heading>
+                        <subsection eId="chp_4__sec_17__subsec_1">
+                            <content>
+                                <p>Rekisterissä olevien virheellisten, tarpeettomien, puutteellisten tai vanhentuneiden henkilötietojen oikaisuun, poistamiseen ja täydentämiseen sovelletaan, mitä henkilötietolain 29 §:ssä säädetään. Virheellinen tieto on merkittävä virheelliseksi ja tiedon saa säilyttää viiden vuoden ajan virheen havaitsemisesta, jos se on tarpeen rekisteröidyn, rekisterinpitäjän tai muun asianosaisen oikeuksien turvaamiseksi. Tällaista tietoa saa käyttää ainoastaan näiden oikeuksien turvaamisen tarkoituksessa. Jos kuitenkin Euroopan yhteisön säännökset edellyttävät tietojen säilyttämistä viittä vuotta kauemmin, noudatetaan soveltuvin osin näitä säännöksiä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_18">
+                        <num>18 §</num>
+                        <heading>Tietojen säilyttäminen</heading>
+                        <subsection eId="chp_4__sec_18__subsec_1">
+                            <content>
+                                <p>Tiedot säilytetään rekisterissä Euroopan yhteisön säännöksissä edellytetyn ajan tai niin kauan kuin niiden käyttö tilatukiasetuksen edellyttämässä tukioikeuksien hallinnoinnissa muutoin on välttämätöntä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_5">
+                    <num>5 luku</num>
+                    <heading>Erinäiset säännökset</heading>
+                    <section eId="chp_5__sec_19">
+                        <num>19 §</num>
+                        <heading>Tarkemmat säännökset</heading>
+                        <subsection eId="chp_5__sec_19__subsec_1">
+                            <content>
+                                <p>Valtioneuvoston asetuksella voidaan antaa tarkempia säännöksiä tukioikeusrekisterin hallinnoinnista sekä tilaneuvontajärjestelmän toteuttamisesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_19__subsec_2">
+                            <content>
+                                <p>Valtioneuvoston asetuksella voidaan tarvittaessa antaa tätä lakia tarkemmat säännökset myös muista Euroopan yhteisön asetuksissa jäsenvaltioiden päätettäväksi jätetyistä seikoista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <section eId="sec_20">
+                    <num>20 §</num>
+                    <heading>Voimaantulo- ja siirtymäsäännökset</heading>
+                    <subsection eId="sec_20__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 1 päivänä elokuuta 2005.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_20__subsec_2">
+                        <content>
+                            <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_20__subsec_3">
+                        <content>
+                            <p>Maatalousmaata ennen tämän lain voimaantuloa tehdyn maanvuokrasopimuksen perusteella hallinnassaan pitävälle viljelijälle tämän lain mukaan myönnetty muu kuin tilatukiasetuksen 60 artiklan mukaisen oikeuden sisältävä tukioikeus siirtyy vuokranantajalle vuokrakauden päättyessä, jollei vuokrasuhdetta jatketa taikka vuokralaisen ja vuokranantajan välillä ole muuta sovittu tai sovita eikä vuokranantaja itsestään riippumattomasta syystä saa tukioikeutta kansallisesta varannosta.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_20__subsec_4">
+                        <content>
+                            <p>Edellä 3 momentissa tarkoitetussa tapauksessa vuokranantajan tulee korvata vuokralaiselle vuosittain vuokrakauden päättymisen jälkeen edellä 3 §:n 3 momentissa tarkoitetun siirtymäkauden aikana alueellisen tasatukioikeuden ja vuokralaiselle vahvistettavan lisäosallisen tukioikeuden hehtaarikohtaisten arvojen erotus, jollei vuokralaisen ja vuokranantajan välillä muuta sovita.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/17">HE 17/2005</ref>
+                        </p>
+                        <p>MmVM 3/2005</p>
+                        <p>EV 93/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Naantalissa 15 päivänä heinäkuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Mauri Pekkarinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

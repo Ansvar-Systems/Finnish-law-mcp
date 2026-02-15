@@ -1,0 +1,207 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/890/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/890"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/890/alkup"/>
+                    <FRBRdate date="2006-10-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="890"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/890/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/890/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/890/alkup/swe"/>
+                    <FRBRdate date="2006-10-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/890/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/890/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/890/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="134"/>
+                    <finlex:date date="2006-10-19"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>890/2006</docNumber>
+                <docTitle>Lag om ändring av 15 och 19 kap. i sjukförsäkringslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i sjukförsäkringslagen av den 21 december 2004 (
+                        <affectedDocument href="/akn/fi/act/statute/2004/1224">1224/2004</affectedDocument>
+                        ) 15 kap. 9 §, 19 kap. 1 § 2 mom. och 5 § 1 mom., av dem 19 kap. 5 § 1 mom. sådant det lyder i lag 885/2005, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 19 kap. 1 § nya 3 och 4 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>15 kap.</num>
+                    <heading>Verkställighet</heading>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Direktersättningsförfarande</heading>
+                        <subsection>
+                            <content>
+                                <p>Om ett apotek för en försäkrads läkemedelsinköp har debiterat ett pris som är nedsatt med beloppet av ersättningen enligt 5 kap. eller om en serviceproducent har debiterat en försäkrad för läkararvode, tandläkararvode eller ett pris för undersökning eller vård som är nedsatt med beloppet av ersättningen enligt 3 kap. eller om en färdtjänstproducent har debiterat en försäkrad för den i 4 kap. 7 § avsedda självriskandelen av priset för en resa, kan ersättningen betalas till apoteket eller serviceproducenten på basis av redovisning som apoteket eller serviceproducenten gör enligt vad som avtalas särskilt.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om ersättning enligt denna lag med stöd av 1 mom. betalas till apoteket eller serviceproducenten, ges den försäkrade inte ett skriftligt beslut om betalning av ersättningen. Ett beslut skall dock ges, om den försäkrade yrkar det. Yrkandet skall framställas inom sex månader från det att läkemedlet köptes eller tjänsten tillhandahölls.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>19 kap.</num>
+                    <heading>Bestämmelser om erhållande och utlämnande av uppgifter</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Rätt att få uppgifter</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Utöver vad som bestäms i 1 mom. har Folkpensionsanstalten och besvärsinstanserna enligt denna lag utan hinder av sekretessbestämmelserna och andra begränsningar i fråga om erhållande av uppgifter på begäran rätt att för avgörandet av en förmån av läkare eller andra yrkesutbildade personer enligt lagen om yrkesutbildade personer inom hälso- och sjukvården (559/1994) samt av verksamhetsenheter för hälso- och sjukvården enligt 2 § 4 punkten i lagen om patientens ställning och rättigheter (785/1992) eller av färdtjänstproducenter, socialserviceproducenter eller andra vårdinrättningar få ett utlåtande och nödvändiga uppgifter ur journalhandlingarna för den som söker en förmån samt uppgifter om hans eller hennes rehabilitering, hälsotillstånd, vård och arbetsförmåga, såvida den som söker förmånen inte själv tillhandahåller dessa uppgifter.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Dessutom har Folkpensionsanstalten utan hinder av sekretessbestämmelserna och andra begränsningar i fråga om erhållande av uppgifter rätt att för betalning av ersättning enligt 15 kap. 9 § av apotek eller serviceproducenter få uppgifter om namn och personbeteckning på försäkrade samt för betalning av nämnda ersättning nödvändiga utredningar</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>av apotek om en försäkrads ersättningsgilla läkemedelsinköp enligt 5 kap.,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>av serviceproducenter om besök för undersökning och vård enligt 3 kap. och resor enligt 4 kap.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Dessutom har Folkpensionsanstalten utan hinder av sekretessbestämmelserna och andra begränsningar i fråga om erhållande av uppgifter rätt att av den som enligt 20 kap. 5 § med stöd av ett avtal sköter samordning av resor få uppgifter om namn och personbeteckning på försäkrade samt sådana uppgifter om resor, färdsätt och färdtjänstproducenter som behövs för betalning av avgifter för samordning eller sammanlänkning av resor som ersätts enligt denna lag.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Utlämnande av uppgifter i vissa fall</heading>
+                        <subsection>
+                            <intro>
+                                <p>Folkpensionsanstalten har utan hinder av sekretessbestämmelserna och andra begränsningar i fråga om erhållande av uppgifter rätt att</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>lämna information om en försäkrads läkemedelsinköp till den läkare som har förskrivit läkemedlet, om den försäkrade trots anmärkning från Folkpensionsanstalten upprepade gånger med nämnda läkares och andra läkares recept har köpt en större mängd läkemedel än vad behandlingen av sjukdomen förutsätter,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>till apoteken lämna namn och personbeteckning på sådana försäkrade till vilka läkemedelsersättning inte skall betalas genom förmedling av ett apotek som tillämpar det redovisningsförfarande som avses i 15 kap. 9 §,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>lämna sådan information till Rättsskyddscentralen för hälsovården som den behöver för utförande av sina uppgifter om läkare som upprepade gånger har föreskrivit en avsevärt större mängd läkemedel än vad behandlingen av en sjukdom enligt denna lag förutsätter,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>till apotek som tillämpar redovisningsförfarandet enligt 15 kap. 9 § i samband med köp av läkemedel eller till serviceproducenter i samband med besök för vård eller undersökning enligt 3 kap. eller resor enligt 4 kap. lämna uppgifter om en persons för- och släktnamn, uppgifter om att personen är medlem av en arbetsplatskassa och om att han eller hon är försäkrad; om personen är försäkrad, kan Folkpensionsanstalten dessutom informera apoteket om det kan överlåta läkemedel till den försäkrade till ett pris som är nedsatt med beloppet av sjukförsäkringsersättningen samt lämna uppgifter om de specialersättningsrättigheter för läkemedel som den försäkrade beviljats, ersättningsrättigheter i fråga om kliniska näringspreparat samt grundersättningsrättigheter i fråga om läkemedel som omfattas av begränsad grundersättning och om uppnående av den årliga självriskandelen, samt till färdtjänstproducenter lämna uppgifter om uppnående av den årliga självriskandelen för resekostnader,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>till den som med stöd av ett avtal om tillhandahållande av tjänster för samordning av resor sköter samordning av resor lämna uppgifter om en persons för- och släktnamn, uppgifter om att personen är medlem av en arbetsplatskassa och om att han eller hon är försäkrad; om personen är försäkrad, kan Folkpensionsanstalten dessutom till den som med stöd av avtal sköter samordning av resor lämna den försäkrades adress, uppgifter om uppnående av den årliga självriskandelen för resekostnader och andra uppgifter om den försäkrade som är nödvändiga för förmedlingen av resor.</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2007.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 69/2006</p>
+                        <p>ShUB 15/2006</p>
+                        <p>RSv 97/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 13 oktober 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,389 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/747/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/747"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/747/alkup"/>
+                    <FRBRdate date="2007-06-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="747"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/747/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/747/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/747/alkup/fin"/>
+                    <FRBRdate date="2007-06-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/747/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/747/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/747/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="113"/>
+                    <finlex:date date="2007-07-05"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>747/2007</docNumber>
+                <docTitle>Laki jätelain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         3 päivänä joulukuuta 1993 annetun jätelain (<affectedDocument href="/akn/fi/act/statute/1993/1072">1072/1993</affectedDocument>) 40 §:n 3 momentti,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         3 §:n 1 momentin 11 ja 12 kohta, 36 §:n 2 momentti, 39 §:n 1 momentti, 45 ja 60 § sekä 74 §:n johdantokappale ja 9 kohta,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 3 §:n 1 momentin 12 kohta laissa 1015/1996, 36 §:n 2 momentti ja 45 § laissa 63/1995 ja 60 § laissa 452/2004, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         3 §:n 1 momenttiin, sellaisena kuin se on osaksi mainitussa laissa 1015/1996, uusi 13 kohta, lakiin siitä lailla 91/2000 kumotun 46―48 §:n tilalle uusi 46―48 § ja lakiin uusi 48 a―48 c § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Määritelmät</heading>
+                    <subsection>
+                        <intro>
+                            <p>Tässä laissa tarkoitetaan:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>11)</num>
+                            <content>
+                                <p>
+                                    <i>käsittelyllä</i>
+                                     toimintaa, jonka tarkoituksena on jätteen vaarattomaksi tekeminen tai lopullinen sijoittaminen;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>12)</num>
+                            <content>
+                                <p>
+                                    <i>valvontaviranomaisella</i>
+                                     alueellista ympäristökeskusta ja kunnan ympäristönsuojeluviranomaista sekä muutakin viranomaista siltä osin kuin sille on annettu tässä laissa tai sen nojalla säädettyjä tai määrättyjä valvontatehtäviä;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>13)</num>
+                            <content>
+                                <p>
+                                    <i>jätteen kansainvälisellä siirrolla</i>
+                                     jätteiden siirrosta annetun Euroopan parlamentin ja neuvoston asetuksen (EY) N:o 1013/2006, jäljempänä 
+                                    <i>jätteensiirtoasetus</i>, mukaista jätteen siirtoa Suomesta toiseen Euroopan unionin jäsenvaltioon ja Euroopan unionin jäsenvaltiosta Suomeen, jätteen vientiä Suomesta Euroopan unioniin kuulumattomaan maahan ja tuontia Euroopan unioniin kuulumattomasta maasta Suomeen joko suoraan tai unionin toisen jäsenvaltion kautta sekä jätteen siirtoa Euroopan unioniin kuulumattomasta maasta toiseen Euroopan unioniin kuulumattomaan maahan Suomen alueen kautta.
+                                </p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>36 §</num>
+                    <heading>Valtakunnalliset viranomaiset</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Suomen ympäristökeskus on jätteensiirtoasetuksessa tarkoitettu toimivaltainen viranomainen ja yhteyshenkilö. Suomen ympäristökeskus valvoo jätteen kansainvälisiä siirtoja koskevien säännösten noudattamista ja vastaa tarvittavasta yhteistyöstä muiden toimivaltaisten viranomaisten kanssa jätteen kansainvälisen siirron valvonnassa.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>39 §</num>
+                    <heading>Muut viranomaiset</heading>
+                    <subsection>
+                        <content>
+                            <p>Jätteen kansainvälistä siirtoa sekä 5 §:n 1 momentissa tarkoitetun tuotteen maahantuontia ja maastavientiä koskevien tämän lain ja sen nojalla annettujen säännösten ja määräysten noudattamista valvoo myös tullilaitos. Jätteen kansainvälistä siirtoa tullilaitos valvoo toimialallaan yhteistyössä Suomen ympäristökeskuksen kanssa. Tullin on tarvittaessa pysäytettävä siirto, joka ei täytä jätteensiirtoasetuksen tai tämän lain vaatimuksia ja ilmoitettava asiasta Suomen ympäristökeskukselle, joka päättää jatkotoimista ilman viivytystä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>45 §</num>
+                    <heading>Jätteen siirto</heading>
+                    <subsection>
+                        <content>
+                            <p>Jätteen siirrosta ja siirron hyväksymisestä on voimassa, mitä jätteensiirtoasetuksessa sekä tässä laissa ja sen nojalla säädetään. Yksinomaan Suomen alueella tapahtuvasta jätteen siirrosta on kuitenkin voimassa, mitä siitä tässä laissa ja sen nojalla laissa säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>46 §</num>
+                    <heading>Jätteen siirto käsiteltäväksi toiseen maahan</heading>
+                    <subsection>
+                        <intro>
+                            <p>Sen lisäksi, mitä 45 §:ssä säädetään, jätteen saa siirtää Suomesta toiseen maahan vain, jos:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>Suomessa ei ole teknisiä tai taloudellisia edellytyksiä taikka tarvittavia käsittelylaitoksia tai -paikkoja jätteen käsittelemiseksi hyväksyttävällä tavalla;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>jäte käsitellään siellä ympäristönsuojelun kannalta olennaisesti paremmin kuin Suomessa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>jäte käsitellään siellä tavalla, joka olisi ympäristönsuojelun kannalta hyväksyttävä Suomessa ja joka on kustannuksiltaan olennaisesti edullisempi kuin käsittely Suomessa; tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>siirto tehdään uuden käsittelymenetelmän kokeilemiseksi tai kyseessä on muuta koetoimintaa varten tarpeellisen jäte-erän siirto.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>47 §</num>
+                    <heading>Jätteen siirto käsiteltäväksi Suomeen</heading>
+                    <subsection>
+                        <intro>
+                            <p>Sen lisäksi, mitä 45 §:ssä säädetään, jätteen saa siirtää Suomeen käsiteltäväksi vain, jos:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>Suomessa syntyvien jätteiden käsittely ei tämän vuoksi esty eikä viivästy;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>jäte käsitellään ilman kohtuutonta viivästystä viimeistään vuoden kuluttua siirrosta; ja</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>jäte käsitellään käsittelylaitoksessa tai -paikassa lupaehtojen ja toiminnalle muutoin asetettujen vaatimusten mukaisesti.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Jätettä ei kuitenkaan saa siirtää Suomeen käsiteltäväksi, jos tarkoituksena on:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>jätteen sijoittaminen maahan, maan päälle tai erityisesti suunnitellulle kaatopaikalle;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>jätteen polttaminen muussa kuin ongelmajätteen polttoon erikoistuneessa laitoksessa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>jätteen biologinen tai fysikaalis-kemiallinen käsittely, jos tällaisessa käsittelyssä syntyvän jätteen jatkokäsittely vaikeuttaa Suomessa syntyvien jätteiden käsittelyä; tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>jätteen maaperäkäsittely, syväinjektointi, allastus, vesistöön tai mereen päästäminen, merellä polttaminen tai pysyvä varastointi.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>48 §</num>
+                    <heading>Jätteen siirron kieltäminen aiemman laittoman siirron vuoksi</heading>
+                    <subsection>
+                        <content>
+                            <p>Suomen ympäristökeskus voi jätteensiirtoasetuksen mukaisesti kieltää jätteen kansainvälisen siirron, jos ilmoituksen tekijän tai jätteen vastaanottajan on aiemmin lainvoimaisella tuomiolla tai päätöksellä todettu syyllistyneen tahalliseen tai törkeästä huolimattomuudesta tehtyyn laittomaan siirtoon tai muuhun ympäristönsuojelullisista syistä laittomaan toimintaan.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>48 a §</num>
+                    <heading>Jätteen siirto raja-alueella</heading>
+                    <subsection>
+                        <content>
+                            <p>Jätteen kansainväliseen siirtoon Suomen raja-alueilla sovelletaan, mitä siitä on jätteensiirtoasetuksen 30 artiklassa tarkoitetulla tavalla sovittu Suomen ja toisen Euroopan unionin jäsenvaltion tai Euroopan talousalueeseen kuuluvan valtion kesken.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>48 b §</num>
+                    <heading>Jätteensiirtoasetuksen vientikiellon soveltaminen poikkeustapauksessa</heading>
+                    <subsection>
+                        <intro>
+                            <p>Suomen ympäristökeskus voi jätteensiirtoasetuksen mukaisesti päättää:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>että jätteensiirtoasetuksen 36 artiklan 1 kohdassa tarkoitettu vientikielto ei poikkeustapauksessa koske tiettyä jätteensiirtoasetuksen liitteessä V tarkoitettua jätettä, jos ilmoituksen tekijä luotettavasti osoittaa, ettei kyseisellä jätteellä ole yhtään jätteensiirtoasetuksen 36 artiklan 3 kohdassa tarkoitettua ominaisuutta; sekä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>että jäte poikkeustapauksessa voidaan luokitella vaaralliseksi jätteeksi ja sen vuoksi soveltaa jätteensiirtoasetuksen 36 artiklan 1 kohdan mukaista vientikieltoa, vaikka jätettä ei mainita jätteensiirtoasetuksen liitteessä V tai se mainitaan sanotun liitteen 1 osan B luettelossa, jos kyseisellä jätteellä on jokin jätteensiirtoasetuksen 36 artiklan 4 kohdassa tarkoitettu ominaisuus.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Suomen ympäristökeskuksen on ennen 1 momentissa tarkoitetun päätöksen tekemistä ilmoitettava asiasta vastaanottomaan toimivaltaiselle viranomaiselle. Suomen ympäristökeskuksen on myös kunkin kalenterivuoden loppuun mennessä ilmoitettava tällaisesta päätöksestä ympäristöministeriölle ja Euroopan yhteisöjen komissiolle.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>48 c §</num>
+                    <heading>Jätteensiirtoasetuksen 18 artiklan mukaisen jätteen kansainvälinen siirto</heading>
+                    <subsection>
+                        <content>
+                            <p>Suomen ympäristökeskuksella on oikeus pyynnöstä saada jätteen kansainvälisestä siirrosta vastaavalta tai jätteen kuljettajalta jätteensiirtoasetuksen liitteessä VII tarkoitetut tiedot jätteensiirtoasetuksen 18 artiklassa tarkoitetuista jätteistä, jos se on tarpeen tarkastuksia ja täytäntöönpanoa varten.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>60 §</num>
+                    <heading>Jäterikkomus</heading>
+                    <subsection>
+                        <intro>
+                            <p>Joka tahallaan tai törkeästä huolimattomuudesta</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>rikkoo 5 §:n 1 momentin 1, 3 tai 4 kohdassa, 6 §:n 6 tai 8 kohdassa, 7 §:n 4 momentissa, 17 §:n 1 momentissa, 18 c §:n 4 momentin 2 kohdassa, 18 g §:n 4 momentissa taikka 18 n, 19, 50, 57 tai 73 a §:ssä tarkoitettua kieltoa taikka mainittujen säännösten nojalla annettua kieltoa tai määräystä,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>laiminlyö 7―9, 12 tai 14 §:ssä, 15 §:n 1 momentissa, 18 c―18 m §:ssä taikka 51 §:n 3 tai 4 momentissa tarkoitetun velvollisuuden taikka</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>tuo maahan, vie maasta tai siirtää Suomen alueen kautta jätettä tämän lain tai sen nojalla annetun säännöksen tai yksittäistapausta koskevan määräyksen tai jätteensiirtoasetuksen vastaisesti,</p>
+                            </content>
+                        </paragraph>
+                        <wrapUp>
+                            <p>
+                                on tuomittava, jollei teosta muualla laissa säädetä ankarampaa rangaistusta, 
+                                <i>jäterikkomuksesta</i>
+                                 sakkoon.
+                            </p>
+                        </wrapUp>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jäterikkomuksesta tuomitaan niin ikään se, joka tahallaan tai törkeästä huolimattomuudesta rikkoo 13 §:n 1 momentin nojalla annettua määräystä tai laiminlyö 11 §:ssä, 20 §:n 1 tai 2 momentissa taikka 21, 49 tai 50 b §:ssä tarkoitetun velvollisuuden.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>74 §</num>
+                    <heading>Tarkemmat säännökset</heading>
+                    <subsection>
+                        <intro>
+                            <p>Valtioneuvoston asetuksella voidaan säätää:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>9)</num>
+                            <content>
+                                <p>toiminnan ilmoittamisesta jätetiedostoon annettujen säännösten soveltamisesta sekä jätetiedostosta;</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 12 päivänä heinäkuuta 2007.</p>
+                    <p>Jätteen siirtoon, jonka Suomen ympäristökeskus on hyväksynyt tai josta sille on ilmoitettu ennen tämän lain voimaantuloa ja josta vastaanottomaan toimivaltainen viranomainen on antanut vastaanottovahvistuksen, sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä lain toimeenpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/30">HE 30/2007</ref>
+                        </p>
+                        <p>YmVM 2/2007</p>
+                        <p>EV 9/2007</p>
+                        <p>Euroopan parlamentin ja neuvoston asetus (EY) N:o 1013/2006 (32006R1013); EYVL N:o L 190, 12.7.2006, s. 1</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 29 päivänä kesäkuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Paavo Väyrynen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

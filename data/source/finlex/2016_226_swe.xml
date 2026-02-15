@@ -1,0 +1,130 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/226/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/226"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/226/alkup"/>
+                    <FRBRdate date="2016-04-08" name="dateIssued"/>
+                    <FRBRdate date="2016-04-12" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="226"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/226/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/226/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/226/alkup/swe"/>
+                    <FRBRdate date="2016-04-08" name="dateIssued"/>
+                    <FRBRdate date="2016-04-12" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/226/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/226/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/226/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-04-12" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>226/2016</docNumber>
+                <docTitle>Lag om ändring av lagen om beskattningsförfarande</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut </p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen om beskattningsförfarande (
+                        <affectedDocument href="/akn/fi/act/statute/1995/1558">1558/1995</affectedDocument>
+                        ) en ny 17 c § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>17 c §</num>
+                    <heading>Allmän skyldighet för finansinstitut att lämna uppgifter om finansiella konton </heading>
+                    <subsection>
+                        <content>
+                            <p>Ett rapporterande finskt finansinstitut enligt 17 b § ska lämna Skatteförvaltningen de uppgifter som avses i den paragrafen även i fråga om finansiella konton som motsvarar rapporteringspliktiga konton, eller uppgift om att sådana konton inte existerar, beträffande personer vars skatterättsliga hemvist är utanför Europeiska unionen. Ett rapporterande finskt finansinstitut ska när det undersöker och identifierar finansiella konton iaktta de förpliktelser som i den paragrafen åläggs rapporterande finansinstitut samt den aktsamhetsprocedur som avses i den paragrafen. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om ett finansinstitut, en person eller en förmedlare har infört rutiner för att kringgå förfarandet för utbyte av upplysningar eller aktsamhetsproceduren, ska finansinstitutet trots det betraktas som ett rapporterande finansinstitut enligt denna paragraf eller 17 a § och det finansiella kontot som ett rapporteringspliktigt finansiellt konto.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ett rapporterande finskt finansinstitut ska föra bok över åtgärder som vidtagits vid tillämpningen av förfarandet för utbyte av upplysningar och av aktsamhetsproceduren och vid lämnande av upplysningar samt över bevis om att dessa förfaranden har använts. Vidare ska finansinstitutet vidta lämpliga åtgärder för att inhämta dessa upplysningar. Finansinstitutet ska dessutom bevara dessa uppgifter i sex år räknat från utgången av det år då förfaranden för identifiering av konton genomfördes eller ett konto avslutades.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Skatteförvaltningen meddelar närmare föreskrifter om tillämpningen av aktsamhetsproceduren, om de uppgifter som ska lämnas samt om tidpunkten och sättet för lämnande av uppgifter. Skatteförvaltningen kan också begränsa skyldigheten att lämna uppgifter.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 15 april 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2016/6">RP 6/2016</ref>
+                        </p>
+                        <p>FiUB 3/2016</p>
+                        <p>RSv 18/2016</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 8 april 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Finansminister</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

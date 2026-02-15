@@ -1,0 +1,155 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/587/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/587"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/587/alkup"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="587"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/587/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/587/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/587/alkup/fin"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/587/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/587/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/587/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="84"/>
+                    <finlex:date date="2007-05-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>587/2007</docNumber>
+                <docTitle>Laki Kansaneläkelaitoksesta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         Kansaneläkelaitoksesta 17 päivänä elokuuta 2001 annettuun lakiin (
+                        <affectedDocument href="/akn/fi/act/statute/2001/731">731/2001</affectedDocument>
+                        ) uusi 3 a luku seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>3 a luku</num>
+                    <heading>Rahastot</heading>
+                    <section>
+                        <num>12 a §</num>
+                        <heading>Kansaneläkelaitoksen rahastot</heading>
+                        <subsection>
+                            <content>
+                                <p>Kansaneläkelaitoksen rahastot ovat kansaneläkerahasto, sairausvakuutusrahasto ja eläkevastuurahasto. Kansaneläkerahastosta säädetään kansaneläkelaissa (568/2007) ja sairausvakuutusrahastosta sairausvakuutuslaissa (1224/2004).</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Kansaneläkelaitoksen rahastoilla on oikeus erityisestä syystä rahastojen luotonannossa noudatetuin ehdoin lainata varoja toisilleen vakuutta vaatimatta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>12 b §</num>
+                        <heading>Eläkevastuurahasto</heading>
+                        <subsection>
+                            <content>
+                                <p>Eläkevastuurahaston varat ovat Kansaneläkelaitoksen henkilöstön eläkelaitoksen palvelukseen perustuvan eläkevastuun katteena. Rahaston varoista maksetaan 13 §:ssä tarkoitetut eläkkeet ja perhe-eläkkeet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>12 c §</num>
+                        <heading>Eläkevastuun kattaminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Eläkevastuun kattamiseksi ja eläkkeiden maksamiseksi on kansaneläkerahastosta ja sairausvakuutusrahastosta suoritettava kannatusmaksua. Eläkevastuurahaston määrä on vähintään 19 prosenttia ja enintään 41 prosenttia eläkevastuun täydestä määrästä. Kannatusmaksulla ei tätä tasoa saa ylittää kuin tilapäisesti.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Eläkevastuun täyden määrän laskemisessa noudatetaan soveltuvin osin eläkesäätiölain (1774/1995) 6 luvussa säädettyjä perusteita, joista vakuutusvalvontavirasto antaa tarkemmat määräykset.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos kansaneläkerahaston ja sairausvakuutusrahaston sijoitus- tai käyttöomaisuutta käytetään kannatusmaksun suorittamiseen, tältä osin ei tehdä kansaneläkelain 97 §:ssä ja sairausvakuutuslain 18 luvun 1 §:ssä määriteltyä toimintakulujen jakoa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                    <p>Tämän lain 12 c §:n 1 momentissa säädetty eläkevastuurahaston 41 prosentin taso tulee saavuttaa vuoden 2010 loppuun mennessä. Eläkevakuutusrahastoon voidaan suorittaa kannatusmaksua enemmän kuin kattamistason tasasuhteinen saavuttaminen edellyttää, jos se tapahtuu Kansaneläkelaitoksen sijoitus- ja käyttöomaisuuden siirrolla ja niihin tehtävillä arvonkorotuksilla.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/90">HE 90/2006</ref>
+                        </p>
+                        <p>StVM 56/2006</p>
+                        <p>EV 283/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 11 päivänä toukokuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Liisa Hyssälä </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

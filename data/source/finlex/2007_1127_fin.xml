@@ -1,0 +1,300 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1127/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1127"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1127/alkup"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1127"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1127/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1127/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1127/alkup/fin"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1127/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1127/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1127/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="166"/>
+                    <finlex:date date="2007-12-11"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1127/2007</docNumber>
+                <docTitle>Laki vuorotteluvapaalain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         30 päivänä joulukuuta 2002 annetun vuorotteluvapaalain (
+                        <affectedDocument href="/akn/fi/act/statute/2002/1305">1305/2002</affectedDocument>
+                        ) 3, 5 ja 7―10 §, 15 §:n 3 momentti sekä 17, 23 ja 25 § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Määritelmät</heading>
+                    <subsection>
+                        <intro>
+                            <p>Tässä laissa tarkoitetaan:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>
+                                    <i>vuorotteluvapaalla</i>
+                                     järjestelyä, jossa työntekijä työnantajansa kanssa tekemän vuorottelusopimuksen mukaisesti määräaikaisesti vapautetaan palvelussuhteeseen kuuluvien tehtävien suorittamisesta ja jossa työnantaja samalla sitoutuu vastaavaksi ajaksi palkkaamaan työvoimatoimistossa työttömyysturvalain 2 luvun 1 §:ssä tarkoitetun työttömänä työnhakijana olevan;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>
+                                    <i>vuorottelijalla</i>
+                                     henkilöä, joka jää vuorotteluvapaalle;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>
+                                    <i>sijaisella</i>
+                                     henkilöä, joka on palkattu vuorotteluvapaan ajaksi työhön;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>
+                                    <i>vuorotteluvapaan jaksottamisella</i>
+                                     sovitun vuorotteluvapaan pitämistä useammassa jaksossa;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>
+                                    <i>vuorotteluvapaan pidentämisellä</i>
+                                     vuorotteluvapaan jatkamista välittömästi sovitun vapaan päättymisestä; ja
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>
+                                    <i>tilapäisellä työhön paluulla</i>
+                                     tilapäistä työssäoloa vuorotteluvapaan aikana sen työnantajan työssä, jonka palvelussuhteesta vuorottelija on vuorotteluvapaalla.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <heading>Työssäoloedellytys</heading>
+                    <subsection>
+                        <content>
+                            <p>Vuorotteluvapaan edellytyksenä on, että vuorottelijan 2 §:ssä tarkoitettu työssäolo ja palvelussuhde samaan työnantajaan on yhdenjaksoisesti kestänyt välittömästi ennen vuorotteluvapaan alkamista vähintään 13 kuukautta, johon voi sisältyä enintään 30 kalenteripäivää palkatonta poissaoloa. Sairaudesta tai tapaturmasta johtuva poissaolo rinnastetaan tätä säännöstä sovellettaessa työssäoloon.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitettua työssäoloaikaa laskettaessa luetaan hyväksi myös aika, jonka vuorottelija on ollut työsopimuslain (55/2001) 1 luvun 10 §:ssä tai merimieslain (423/1978) 6 §:ssä tarkoitetun liikkeenluovuttajan tai liikkeen luovutukseen verrattavan uudelleen järjestelyn kohteena olevan julkisoikeudellisen yhteisön palveluksessa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 §</num>
+                    <heading>Vuorotteluvapaan jaksottaminen ja sovitun vuorotteluvapaan pidentäminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Vuorotteluvapaan jaksottamisesta on sovittava vuorottelusopimuksessa ennen vapaan aloittamista. Vuorotteluvapaata jaksotettaessa kunkin jakson vähimmäispituus on 90 kalenteripäivää.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vuorotteluvapaan pidentämisestä on sovittava kaksi kuukautta ennen sovitun vuorotteluvapaan päättymistä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vuorotteluvapaa on kuitenkin pidettävä kokonaisuudessaan kahden vuoden kuluessa sen alkamisesta eikä sen yhteenlaskettu kesto saa ylittää vuorotteluvapaan enimmäiskestoa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>8 §</num>
+                    <heading>Vuorottelusopimus</heading>
+                    <subsection>
+                        <content>
+                            <p>Työnantajan tulee tehdä vuorottelijan kanssa kirjallinen vuorottelusopimus, jossa työnantaja sitoutuu palkkaamaan sijaisen. Tämä sopimus sekä työsopimus tai muu luotettava selvitys siitä, että sijainen on palkattu vuorotteluvapaan ajaksi, on toimitettava ennen vuorotteluvapaan alkamista työvoimatoimistolle. Vastaavat tarvittavat selvitykset on toimitettava työvoimatoimistolle jaksotettaessa tai pidennettäessä vuorotteluvapaata 7 §:n 1 ja 2 momentissa tarkoitetulla tavalla.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <heading>Sijainen</heading>
+                    <subsection>
+                        <content>
+                            <p>Sijaista palkattaessa on etusija annettava sellaiselle työvoimatoimistossa työttömänä työnhakijana olevalle julkisesta työvoimapalvelusta annetun lain (1295/2002) 1 luvun 7 §:n 1 momentin 4 kohdassa tarkoitetulle nuorelle tai 1 luvun 7 §:n 1 momentin 5 kohdassa tarkoitetulle pitkäaikaistyöttömälle taikka korkeakoulu- tai ammattitutkinnon äskettäin suorittaneelle, jonka ammattitaito arvioidaan riittäväksi haettuun tehtävään. Työvoimaviranomaisen ja työnantajan on suoritettava arviointi yhteistyössä. Jos haettuun tehtävään ei ole sopivaa edellä tarkoitettua työtöntä työnhakijaa, vuorotteluvapaasijaiseksi on mahdollisuuksien mukaan palkattava sijainen, jonka työnsaannin tarve on suurin ja jonka työllistymisedellytyksien voidaan arvioida parantuvan määräaikaisen työn avulla.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Sijaiseksi ei voida palkata henkilöä, jota pidetään työttömyysturvalain 2 luvun 6 ja 7 §:ssä tarkoitettuna päätoimisena opiskelijana.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Sijaisen työajan tulee olla vähintään vuorottelijan säännöllisen työajan pituinen. Jos työnantajan palveluksessa oleva osa-aikainen työntekijä on työttömänä kokoaikatyön hakijana työvoimatoimistossa ja hänet palkataan vuorotteluvapaan johdosta vapaaksi tulleeseen työhön, voidaan vuorotteluvapaa toteuttaa ottamalla näin vapaaksi jäävään työhön työvoimatoimistoon ilmoittautunut työtön työnhakija työsopimuslain 2 luvun 5 §:n estämättä. Tällöin näiden työntekijöiden yhteisen työajan lisäyksen tulee olla vähintään vuorottelijan säännöllisen työajan pituinen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 §</num>
+                    <heading>Vuorotteluvapaan ennenaikainen päättyminen ja tilapäinen työhön paluu</heading>
+                    <subsection>
+                        <content>
+                            <p>Vuorotteluvapaan päättymisestä ennenaikaisesti tai tilapäisestä työhön paluusta on sovittava työnantajan ja vuorottelijan välillä. Vuorotteluvapaa kuluu tilapäisen työhön paluun aikana ja jatkuu sen jälkeen vuorottelusopimuksen mukaisesti, jollei sitä pidennetä 7 §:n 2 momentissa tarkoitetulla tavalla.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vuorotteluvapaa katsotaan päättyneeksi, jos vuorottelijalle syntyy oikeus saada sairausvakuutuslain mukaista äitiys-, erityisäitiys-, isyys- tai vanhempainrahaa taikka hänelle myönnetään vapaata, joka ajoittuu vuorotteluvapaan ajalle, raskauden ja synnytyksen tai lapsen hoidon vuoksi taikka hän alkaa saada erityishoitorahaa. Jos kuitenkin edellä tarkoitettu oikeus tai myönnetty vapaa kestää enintään 18 arkipäivää, katsotaan vuorotteluvapaan olevan sanottuna aikana keskeytyneenä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>15 §</num>
+                    <heading>Vuorottelukorvauksen suuruus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Sen estämättä, mitä työttömyysturvalain 6 luvun 4 §:ssä ja sen nojalla säädetään ansiopäivärahan perusteena olevan palkan määrittämisestä, vakiintuneena pidettävää palkkatuloa määrättäessä otetaan huomioon vuorottelijan vähintään 52 viikon ajalta saamat palkkatulot vuorotteluvapaata edeltäviltä täysiltä palkanmaksukausilta. Palkkatuloihin ei lueta niitä luontaisetuja, joiden saaminen vuorottelusopimuksen mukaan jatkuu vuorotteluvapaan aikana.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>17 §</num>
+                    <heading>Työvoimapoliittinen lausunto</heading>
+                    <subsection>
+                        <content>
+                            <p>Työvoimatoimisto tai työvoimatoimikunta antaa Kansaneläkelaitosta ja työttömyyskassaa sitovan lausunnon vuorottelukorvauksen 5―8 §:ssä, 9 §:n 2 ja 3 momentissa, 11 §:ssä ja 14 §:n 1 momentin 5 kohdassa tarkoitetuista edellytyksistä sekä 19 §:n 1 momentissa tarkoitetuista takaisinperinnän edellytyksistä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Työvoimapoliittiseen lausuntoon sovelletaan, mitä työttömyysturvalaissa ja sen nojalla säädetään, jollei tästä laista muuta johdu.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>23 §</num>
+                    <heading>Toimeenpanoelimet</heading>
+                    <subsection>
+                        <content>
+                            <p>Vuorotteluvapaan toimeenpanoa johtaa, ohjaa ja kehittää ylimpänä viranomaisena työ- ja elinkeinoministeriö. Kansaneläkelaitoksen ja työttömyyskassojen valvonnan osalta on voimassa, mitä työttömyysturvalaissa ja työttömyyskassalaissa säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>25 §</num>
+                    <heading>Voimaantulo</heading>
+                    <subsection>
+                        <content>
+                            <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2003 ja on voimassa 31 päivään joulukuuta 2009.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tätä lakia sovelletaan vuorotteluvapaisiin, joita koskeva vuorottelusopimus tehdään lain voimassa ollessa, jos vuorotteluvapaa pidetään 31 päivään joulukuuta 2010 mennessä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                    <p>Tätä lakia sovelletaan vuorottelusopimuksiin, jotka on tehty tämän lain voimaantulon jälkeen.</p>
+                    <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/77">HE 77/2007</ref>
+                        </p>
+                        <p>TyVM 5/2007</p>
+                        <p>EV 77/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 7 päivänä joulukuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Työministeri </role>
+                                <person refersTo="">Tarja Cronberg</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

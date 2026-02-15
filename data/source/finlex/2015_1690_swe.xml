@@ -1,0 +1,126 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1690/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1690"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1690/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1690"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1690/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1690/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1690/alkup/swe"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1690/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1690/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1690/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1690/2015</docNumber>
+                <docTitle>Lag om temporär ändring av 12 och 48 § i lagen om finansiering av undervisnings- och kulturverksamhet</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 12 § i lagen om finansiering av undervisnings- och kulturverksamhet (
+                        <affectedDocument href="/akn/fi/act/statute/2009/1705">1705/2009</affectedDocument>
+                        ), sådan paragrafen lyder i lag 1410/2014, temporärt ett nytt 2 mom. och till 48 §, sådan den lyder delvis ändrad i lagarna 486/2013 och 1410/2014, temporärt ett nytt 7 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>12 §</num>
+                    <heading>Finansiering av förberedande undervisning som ordnas för invandrare före den grundläggande utbildningen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Beloppet av den i 1 mom. avsedda finansiering som beviljas för de i 48 § 7 mom. avsedda elever som har fått undervisning i minst fyra men mindre än åtta månader i en följd multipliceras med talet 0,5.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>48 §</num>
+                    <heading>Beräkning av antalet studerande och elever</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Om den förberedande undervisning som ordnas före den grundläggande utbildningen och som avses i 5 § i lagen om grundläggande utbildning ordnas för en elev i åldern 6—16 år så att de studier som bedrivs i minst fyra månader i en följd inte beaktas i finansieringen till utbildningsanordnaren, ska de elever i åldern 6—16 år som deltagit i den undervisningen räknas med i de elevantal som beräknas på den beräkningsdag enligt 3 mom. som följer efter undervisningen. Om en elev som deltagit i undervisning i minst åtta månader i följd kan räknas till elevantalet med stöd av detta moment, kan samma elev inte räknas till elevantalet för samma beräkningsdag på någon annan grund.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016 och gäller till utgången av 2016. Lagen tillämpas dock även på de studier som har inletts efter den 20 september 2015. Dessutom ska 12 § 2 mom. tillämpas på finansieringen för 2017 i fråga om de elever som har anmälts med stöd av 48 § 7 mom.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/120">RP 120/2015</ref>
+                        </p>
+                        <p>KuUB 10/2015</p>
+                        <p>RSv 66/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 30 december 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Undervisnings- och kulturminister</role>
+                                <person refersTo="">Sanni Grahn-Laasonen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

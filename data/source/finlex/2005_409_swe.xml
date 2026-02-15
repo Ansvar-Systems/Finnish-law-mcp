@@ -1,0 +1,212 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/409/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/409"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/409/alkup"/>
+                    <FRBRdate date="2005-06-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="409"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/409/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/409/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/409/alkup/swe"/>
+                    <FRBRdate date="2005-06-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/409/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/409/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/409/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="75"/>
+                    <finlex:date date="2005-06-16"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>409/2005</docNumber>
+                <docTitle>Lag om ändring av inkomstskattelagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i inkomstskattelagen av den 30 december 1992 (<affectedDocument href="/akn/fi/act/statute/1992/1535">1535/1992</affectedDocument>) 58 § 1 mom. 2 punkten, 105 § och 132 § 2 mom.,
+                    </block>
+                    <block name="substitutions-originals">sådana de lyder, 58 § 1 mom. 2 punkten i lag 1126/1996, 105 § i lag 896/2001 och 132 § 2 mom. i lag 772/2004, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen nya 127 d och 127 e § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>58 §</num>
+                    <heading>Ränteutgifter</heading>
+                    <subsection>
+                        <intro>
+                            <p>En skattskyldig har rätt att från sina kapitalinkomster dra av räntorna på sina skulder, om skulden</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>
+                                    avser en av staten eller Ålands landskapsregering garanterad studieskuld eller en av ett offentligt samfund garanterad eller beviljad studieskuld som hör till studiestödssystemet i en annan stat inom Europeiska ekonomiska samarbetsområdet (<i>studieskuld</i>),
+                                </p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>105 §</num>
+                    <heading>Studiepenningsavdrag vid kommunalbeskattningen</heading>
+                    <subsection>
+                        <content>
+                            <p>Om en skattskyldig har fått i lagen om studiestöd avsedd studiepenning, skall från hans nettoförvärvsinkomst göras kommunalbeskattningens studiepenningsavdrag. Dettas fulla belopp är 2 200 euro, dock högst beloppet av studiepenningen. Avdraget minskas med 50 procent av det belopp varmed beloppet av den skattskyldiges nettoförvärvsinkomst överstiger studiepenningsavdragets fulla belopp.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <crossHeading eId="crossHeading">Avdrag från skatten</crossHeading>
+                <section>
+                    <num>127 d §</num>
+                    <heading>Studielånsavdrag</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                En sådan i 16 c § i lagen om studiestöd avsedd skattskyldig som avlagt en till avdrag berättigande examen inom föreskriven tid får från skatten dra av ett belopp som motsvarar amorteringarna på studielånet (<i>studielånsavdrag</i>).
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>
+                                Avdrag beviljas per år till ett sammanlagt belopp som är högst 30 procent av den del av den skattskyldiges till avdrag berättigande studielån som överstiger 2 500 euro. Med ett till avdrag berättigande studielån avses ett sådant studielån enligt lagen om studiestöd som har uppkommit mellan utgången av den termin som föregår den första dagen för sådana högskolestudier som avses i 16 c § i lagen om studiestöd och början av den termin som följer efter den dag då en till avdrag berättigande examen avlades, exklusive de kapitaliserade räntorna på studielånet under denna tid (<i>studielånsavdragets maximibelopp</i>).
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Studielånsavdragets maximibelopp beräknas på basis av högst det lånebelopp som motsvarar studielånsbeloppet enligt den omfattning som föreskrivs för examen i fråga med stöd av universitetslagen (645/1997) eller yrkeshögskolelagen (351/2003), när det studielånsbelopp som motsvarar maximibeloppet av statsborgen beaktas för nio månader per läsår. Till den del examens omfattning inte utgör hela år, beaktas vid beräkning av maximibeloppet studielånet för fem månader per ett halvt läsår. Det maximala lånebeloppet enligt examens omfattning beräknas enligt de bestämmelser om maximibeloppet av statsborgen för studielån som gäller vid den tidpunkt då examen avläggs.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Folkpensionsanstalten avgör om den skattskyldige är berättigad till studielånsavdrag och fastställer studielånsavdragets maximibelopp. Skatteförvaltningen beviljar avdraget årligen på basis av de amorteringar på studielånet som en till studielånsavdrag berättigad skattskyldig har gjort under de tio närmaste åren efter det år då examen avlades. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om en studielåntagare betalar av på ett studielån som på basis av statsborgen har betalts av statens medel, har han eller hon på basis av amorteringen till borgensmannen rätt till studielånsavdrag på samma villkor som om han eller hon skulle betala av ett egentligt studielån enligt lagen om studiestöd.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vad som föreskrivs i denna paragraf gäller på motsvarande villkor skattskyldiga som har omfattats av studiestödssystemet i en annan stat inom Europeiska ekonomiska samarbetsområdet eller i landskapet Åland och som under skatteåret har amorterat på ett studielån som motsvarar ett studielån enligt lagen om studiestöd.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>127 e §</num>
+                    <heading>Hur studielånsavdraget görs</heading>
+                    <subsection>
+                        <content>
+                            <p>Studielånsavdraget görs i första hand från inkomstskatten till staten. Avdraget görs från skatten på förvärvsinkomsten och skatten på kapitalinkomsten enligt förhållandet mellan dessa skattebelopp. Till den del avdraget överstiger beloppet av inkomstskatten till staten, görs avdraget från kommunalskatten, den försäkrades sjukförsäkringspremie och kyrkoskatten enligt förhållandet mellan dessa skatter. Avdraget görs efter de övriga avdrag som görs från inkomstskatten samt efter de underskottsgottgörelser som avses i 131 och 131 a §.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>
+                                Om beloppet av studielånsavdraget överstiger beloppet av de skatter som påförts den skattskyldige under skatteåret, uppstår för den skattskyldige på grundval av skillnaden ett 
+                                <i>skatteunderskott vid studielånsavdrag</i>, vilket på det sätt som föreskrivs i 1 mom. avdras från de skatter som påförs den skattskyldige de följande åren, under högst 10 skatteår allteftersom skatt påförs.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Skatteunderskotten vid studielånsavdrag avdras före det studielånsavdrag som beviljas på basis av amorteringarna under skatteåret och i den ordning de har uppkommit. Skatteunderskottet vid studielånsavdrag avdras under högst 15 år efter det år då examen avlades.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>132 §</num>
+                    <heading>Avdrag av underskottsgottgörelse från den skattskyldiges statsskatt</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Särskild underskottsgottgörelse avdras i första hand från den inkomstskatt som skall betalas till staten för förvärvsinkomst, efter det att från skatten dragits av andra avdrag som skall dras av från skatten, med undantag av studielånsavdraget. Särskild underskottsgottgörelse avdras efter underskottsgottgörelse.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 augusti 2005.</p>
+                    <p>Lagen tillämpas första gången vid beskattningen för 2005.</p>
+                    <p>Vid beräkning av det till studielånsavdrag berättigande studielånsbelopp som avses i 127 d § 2 mom. beaktas studielån som har lyfts för högskolestudier som har inletts den 1 augusti 2005 och därefter.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 11/2005</p>
+                        <p>KuUB 5/2005</p>
+                        <p>RSv 57/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 10 juni 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Liisa Hyssälä </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,253 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/91/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/91"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/91/alkup"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="91"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/91/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/91/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/91/alkup/swe"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/91/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/91/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/91/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>91/2016</docNumber>
+                <docTitle>Lag om ändring av sjukförsäkringslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i sjukförsäkringslagen (
+                        <affectedDocument href="/akn/fi/act/statute/2004/1224">1224/2004</affectedDocument>
+                        ) 8 kap. 6 § 1 och 3 mom., 11 kap. 10 §, 12 kap. 2 § 1 mom. samt 3 § 2 och 5 mom.,
+                    </block>
+                    <block name="substitutions-originals">av dem 8 kap. 6 § 1 mom. och 12 kap. 2 § 1 mom. sådana de lyder i lagarna 678/2014 och 880/2015, 8 kap. 6 § 3 mom. sådant det lyder i lag 678/2014 och 11 kap. 10 § sådan den lyder i lag 880/2015, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>8 kap.</num>
+                    <heading>Sjukdagpenning och partiell sjukdagpenning</heading>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Förmåner som utgör hinder för sjukdagpenning</heading>
+                        <subsection>
+                            <intro>
+                                <p>Rätt till sjukdagpenning föreligger inte för en försäkrad som får</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>rehabiliteringspenning enligt lagen om Folkpensionsanstaltens rehabiliteringsförmåner och rehabiliteringspenningförmåner,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>rehabiliteringspenning, partiell rehabiliteringspenning eller rehabiliteringspenning som betalas som rehabiliteringsunderstöd enligt arbetspensionslagarna,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>ersättning för inkomstbortfall med stöd av bestämmelserna om rehabilitering i lagen om olycksfall i arbetet och om yrkessjukdomar, lagen om lantbruksföretagares olycksfall i arbetet och yrkessjukdomar, trafikförsäkringslagen (279/1959), lagen om skada, ådragen i militärtjänst (404/1948) eller lagen om olycksfall i militärtjänst (1211/1990),</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>ålderspension eller förtida ålderspension enligt folkpensionslagen (568/2007) eller arbetspensionslagarna,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5) </num>
+                                <content>
+                                    <p>deltidspension enligt arbetspensionslagarna,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6) </num>
+                                <content>
+                                    <p>garantipension enligt 7 § 1 mom. 1 punkten eller 2 mom. 1 punkten i lagen om garantipension (703/2010),</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7) </num>
+                                <content>
+                                    <p>anpassningspension eller anpassningsbidrag enligt lagen om pension och anpassningsbidrag för riksdagsledamöter.</p>
+                                </content>
+                            </paragraph>
+                            <hcontainer name="omission"/>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>En försäkrad som får pension som nämns i 1 mom. 4—7 punkten, sjukpension som beviljats med stöd av 12 § 1 mom. i folkpensionslagen, full invalidpension, arbetslivspension eller partiell förtida ålderspension enligt arbetspensionslagarna och som är yngre än 68 år har dock rätt till sjukdagpenning, om den försäkrade efter sin pensionering är i arbete och blir oförmögen att utföra det arbete som han eller hon som pensionerad har utfört omedelbart innan arbetsoförmågan började. Sjukdagpenningens belopp räknas då ut på grundval av intjänade arbetsinkomster under pensioneringstiden så som föreskrivs i 11 kap., med beaktande av 12 kap. 2 §.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>11 kap.</num>
+                    <heading>Beloppet av dagpenningsförmånerna</heading>
+                    <section>
+                        <num>10 §</num>
+                        <heading>Hur pension inverkar på föräldradagpenningens belopp</heading>
+                        <subsection>
+                            <content>
+                                <p>Minimibeloppet av föräldradagpenningen betalas, om en försäkrad får ålderspension, partiell förtida ålderspension, förtida ålderspension eller full sjukpension eller full invalidpension enligt 12 § 1 mom. i folkpensionslagen, arbetspensionslagarna, trafikförsäkringslagen, lagen om olycksfall i arbetet och om yrkessjukdomar, lagen om lantbruksföretagares olycksfall i arbetet och yrkessjukdomar, lagen om olycksfall i militärtjänst, lagen om ersättning för skada eller sjukdom som har uppkommit under studierelaterade förhållanden som är jämställbara med arbete (460/2015) eller lagen om olycksfalls- och pensionsskydd för idrottsutövare (276/2009) eller arbetslivspension enligt arbetspensionslagarna.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>12 kap.</num>
+                    <heading>Dagpenningsförmånernas förhållande till andra förmåner</heading>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Sjukdagpenningens förhållande till andra lagstadgade förmåner som betalas på grund av arbetsoförmåga</heading>
+                        <subsection>
+                            <intro>
+                                <p>Från sjukdagpenning som betalas med stöd av denna lag avdras arbetslivspension enligt arbetspensionslagarna och följande förmåner som enligt någon annan lag betalas för samma tid och på grund av samma arbetsoförmåga:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>sjukpension enligt 12 § i folkpensionslagen, med undantag för pension enligt 4 mom. i den paragrafen,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>sådan ersättning för inkomstbortfall enligt lagen om olycksfall i arbetet och om yrkessjukdomar som beviljas på grund av olycksfall i arbetet eller yrkessjukdom,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>sådan ersättning för inkomstbortfall enligt lagen om lantbruksföretagares olycksfall i arbetet och yrkessjukdomar som beviljas på grund av olycksfall i arbetet eller yrkessjukdom,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>dagpenning och olycksfallspension enligt lagen om ersättning för skada eller sjukdom som har uppkommit under studierelaterade förhållanden som är jämställbara med arbete,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5) </num>
+                                <content>
+                                    <p>olycksfallspension enligt lagen om olycksfalls- och pensionsskydd för idrottsutövare,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6) </num>
+                                <content>
+                                    <p>dagpenning och olycksfallspension enligt lagen om olycksfall i militärtjänst samt livränta enligt lagen om skada, ådragen i militärtjänst,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7) </num>
+                                <content>
+                                    <p>ersättning för inkomstbortfall och invalidpension enligt trafikförsäkringslagen.</p>
+                                </content>
+                            </paragraph>
+                            <hcontainer name="omission"/>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Primärtid för sjukdagpenningen och sjukdagpenningens förhållande till full invalidpension enligt arbetspensionslagarna</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Folkpensionsanstalten fastställer primärtiden för sjukdagpenningen när minst 150 sjukdagpenningsdagar som räknas till maximitiden förflutit. Primärtiden fastställs dock inte om den försäkrade har uppnått den lägsta ålder för ålderspension som föreskrivs för den försäkrades åldersklass i 11 § i lagen om pension för arbetstagare. En ny primärtid kan fastställas endast i det fall att det har gått sex månader från utgången av den föregående primärtiden.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Om den försäkrade för den tid som följer efter primärtiden för sjukdagpenningen retroaktivt beviljas full invalidpension enligt arbetspensionslagarna eller arbetslivspension enligt arbetspensionslagarna, har Folkpensionsanstalten rätt att uppbära den del av invalidpensionen eller arbetslivspensionen som motsvarar utbetald sjukdagpenning.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2017.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/16">RP 16/2015</ref>
+                        </p>
+                        <p>ShUB 5/2015</p>
+                        <p>RSv 37/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 januari 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister</role>
+                                <person refersTo="">Hanna Mäntylä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

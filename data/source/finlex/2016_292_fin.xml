@@ -1,0 +1,227 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/292/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/292"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/292/alkup"/>
+                    <FRBRdate date="2016-04-22" name="dateIssued"/>
+                    <FRBRdate date="2016-04-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="292"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/292/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/292/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/292/alkup/fin"/>
+                    <FRBRdate date="2016-04-22" name="dateIssued"/>
+                    <FRBRdate date="2016-04-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/292/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/292/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/292/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-04-28" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>292/2016</docNumber>
+                <docTitle>Laki sosiaalihuoltolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         sosiaalihuoltolain (
+                        <affectedDocument href="/akn/fi/act/statute/2014/1301">1301/2014</affectedDocument>
+                        ) 3 §:n 1 kohta, 27 §:n 3 momentti, 36 §:n 5 momentti, 42 §:n 2 momentti ja 46 §:n 1 momentti sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään </i>
+                        lakiin uusi 27 a, 46 a ja 49 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 § </num>
+                    <heading>Määritelmät</heading>
+                    <subsection>
+                        <intro>
+                            <p>Tässä laissa tarkoitetaan:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>
+                                    <i>sosiaalipalveluilla</i>
+                                     kunnallisia sosiaalipalveluja ja niihin sisältyviä tukipalveluja sekä muita toimia, joilla sosiaalihuollon ammattihenkilöt ja muu asiakastyöhön osallistuva henkilöstö edistävät ja ylläpitävät yksilön, perheen ja yhteisön toimintakykyä, sosiaalista hyvinvointia, turvallisuutta ja osallisuutta;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>27 § </num>
+                    <heading>Lapsen ja vanhemman välisten tapaamisten valvonta</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Valvoja voi päättää, että tapaamista ei aloiteta tai vaihtoa ei suoriteta, tai keskeyttää tapaamisen, jos se on välttämätöntä lapsen edun vuoksi. Valvojan on annettava toimivaltaiselle lastenvalvojalle kirjallinen selvitys keskeyttämistään tai muusta syystä toteutumatta jääneistä sovituista tapaamisista. Valvojalla on oltava tehtävään soveltuva ammattitutkinto tai muu soveltuva koulutus. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>27 a §</num>
+                    <heading>Lastenvalvoja</heading>
+                    <subsection>
+                        <content>
+                            <p>Lastenvalvojan tehtävässä voi toimia sosiaalityöntekijä tai henkilö, jolla on muu tehtävään soveltuva ylempi korkeakoulututkinto. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mitä 1 momentissa on säädetty, koskee myös henkilöä, jonka tehtäviin kuuluu vastata lapsen huollosta ja tapaamisoikeudesta annetun lain 8 §:ssä tai lapsen elatuksesta annetun lain 8 §:ssä tarkoitettujen sopimusten valmistelusta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>36 § </num>
+                    <heading>Palvelutarpeen arviointi</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Palvelutarpeen arvioinnista vastaa palvelutarpeen arvioimisen kannalta tarkoituksenmukainen sosiaalihuollon ammattihenkilöistä annetun lain (817/2015) 3 §:ssä tarkoitettu sosiaalihuollon ammattihenkilö, jollei muualla laissa toisin säädetä.  Erityistä tukea tarvitsevien lasten ja muiden erityistä tukea tarvitsevien henkilöiden palvelutarpeen arvioinnin tekemisestä vastaa virkasuhteessa oleva sosiaalityöntekijä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>42 § </num>
+                    <heading>Omatyöntekijä</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Erityistä tukea tarvitsevan lapsen tai muun erityistä tukea tarvitsevan henkilön omatyöntekijän tai hänen kanssaan asiakastyötä tekevän työntekijän on oltava sosiaalihuollon ammattihenkilöistä annetussa laissa tarkoitettu sosiaalityöntekijä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>46 § </num>
+                    <heading>Hoidon ja huolenpidon turvaavat päätökset</heading>
+                    <subsection>
+                        <content>
+                            <p>Omatyöntekijän kanssa asiakastyötä tekevän virkasuhteessa olevan sosiaalityöntekijän on tehtävä päätös niistä sosiaalipalveluista, joilla yhdessä turvataan 12 ja 13 §:n mukaisesti erityistä tukea tarvitsevan lapsen tai erityistä tukea tarvitsevan muun asiakkaan välttämätön huolenpito ja toimeentulo sekä terveys ja kehitys, jos menettely on asiakkaan edun mukainen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <chapter>
+                    <num>4 luku</num>
+                    <heading>Sosiaalihuollon toteuttaminen</heading>
+                    <section>
+                        <num>46 a §</num>
+                        <heading>Sosiaalihuollon johtaminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Sosiaalihuollon tai sosiaali- ja terveydenhuollon pääasiassa hallinnollisissa johtotehtävissä voi toimia sosiaalityöntekijä tai henkilö, jolla on tehtävään soveltuva ylempi korkeakoulututkinto ja alan tuntemus sekä niiden lisäksi riittävä johtamistaito.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Sosiaalityön ammatillisesta johtamisesta säädetään sosiaalihuollon ammattihenkilöistä annetun lain 9 §:ssä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Muissa asiakastyön ohjausta sisältävissä sosiaalihuollon johtotehtävissä voi toimia henkilö, jolla on tehtävään soveltuva korkeakoulututkinto, alan tuntemus sekä riittävä johtamistaito. </p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>5 luku</num>
+                    <heading>Palvelujen laadun varmistaminen</heading>
+                    <section>
+                        <num>49 a § </num>
+                        <heading>Henkilöstö</heading>
+                        <subsection>
+                            <content>
+                                <p>Sosiaalihuollon toimeenpanoon kuuluvia tehtäviä varten kunnan käytettävissä tulee olla riittävästi sosiaalihuollon ammattihenkilöitä sekä muuta asiakastyöhön osallistuvaa henkilöstöä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jokaisen kunnan käytettävissä tulee olla asiakastyöhön osallistuvan virkasuhteisen sosiaalityöntekijän palveluja.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä toukokuuta 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2016/14">HE 14/2016</ref>
+                        </p>
+                        <p>StVM 3/2016</p>
+                        <p>EV 26/2016</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 22 päivänä huhtikuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Perhe- ja peruspalveluministeri</role>
+                                <person refersTo="">Juha Rehula</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

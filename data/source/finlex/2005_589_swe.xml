@@ -1,0 +1,154 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/589/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/589"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/589/alkup"/>
+                    <FRBRdate date="2005-07-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="589"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/589/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/589/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/589/alkup/swe"/>
+                    <FRBRdate date="2005-07-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/589/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/589/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/589/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="103"/>
+                    <finlex:date date="2005-07-26"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>589/2005</docNumber>
+                <docTitle>Lag om ändring av territorialövervakningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i territorialövervakningslagen av den 18 augusti 2000 (
+                        <affectedDocument href="/akn/fi/act/statute/2000/755">755/2000</affectedDocument>
+                        ) 30 § 4 mom samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         20 § 3 mom., 24 § 2 mom., 30 § 1 mom. och 35 § 2 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>20 §</num>
+                    <heading>Tillståndsmyndighet och tillståndsansökan</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ett ärende som gäller beviljande eller återkallande av tillstånd för verksamhet som avses i 14 § 1 mom. 1 punkten och som bedrivs inom gränszonen handläggs och avgörs dock av gränsbevakningsväsendet.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>24 §</num>
+                    <heading>Territorialövervakningsmyndigheternas uppgifter</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Gränsbevakningsväsendet svarar för territorialövervakningen vid rikets gränser samt inom de områden som dess verksamhet enligt 4 § i gränsbevakningslagen (578/2005) omfattar.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>30 §</num>
+                    <heading>Teknisk övervakning</heading>
+                    <subsection>
+                        <content>
+                            <p>Försvarsmakten och gränsbevakningsväsendet har på det område som är i deras besittning samt vid havskusten och på havet rätt att företa teknisk övervakning av byggnader som är avsedda för något annat ändamål än som stadigvarande bostad eller av annars hemfridsskyddade byggnader eller områden som en del av territorialövervakningen samt för att förebygga brott som avses i 44 § och i 17 kap. 7 b § i strafflagen (39/1889), för att identifiera personer som är misstänkta för sådana brott samt för att bevaka särskilda övervakningsobjekt.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>35 §</num>
+                    <heading>Undersökning av territorieförseelse och territoriekränkning</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Förundersökningen av territorieförseelser och territoriekränkningar utförs av polisen eller av gränsbevakningsväsendet så som bestäms i gränsbevakningslagen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 september 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 6/2005</p>
+                        <p>FuUB 12/2005</p>
+                        <p>RSv 92/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 15 juli 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

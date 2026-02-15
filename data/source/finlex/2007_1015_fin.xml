@@ -1,0 +1,133 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1015/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1015"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1015/alkup"/>
+                    <FRBRdate date="2007-11-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1015"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1015/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1015/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1015/alkup/fin"/>
+                    <FRBRdate date="2007-11-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1015/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1015/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1015/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="149"/>
+                    <finlex:date date="2007-11-15"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1015/2007</docNumber>
+                <docTitle>Laki Kainuun hallintokokeilusta annetun lain 6 ja 45 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan </i>
+                        Kainuun hallintokokeilusta 9 päivänä toukokuuta 2003 annetun lain (<affectedDocument href="/akn/fi/act/statute/2003/343">343/2003</affectedDocument>) 6 § ja 45 §:n 1 ja 2 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>6 §</num>
+                    <heading>Kansallinen kehittämisrahoitus</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Valtion talousarvioon otetaan työ- ja elinkeinoministeriön pääluokkaan määräraha kokeilualueen kehittämistä varten (<i>Kainuun kehittämisraha</i>).
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>45 §</num>
+                    <heading>Kokeilun seuranta</heading>
+                    <subsection>
+                        <content>
+                            <p>Valtiovarainministeriön tehtävänä on seurata ja arvioida hallintokokeilun edistymistä, seurata Kainuun kehitystä sekä valtion toimenpiteiden vaikutuksia Kainuussa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kuntien, maakunnan ja valtion viranomaisten on annettava valtiovarainministeriölle tarpeelliset tiedot kokeilun ja eri toimenpiteiden seuraamiseksi ja arvioimiseksi.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                    <p>Ennen tämän lain voimaantuloa voidaan ryhtyä sen täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/56">HE 56/2007</ref>
+                        </p>
+                        <p>HaVM 5/2007</p>
+                        <p>EV 51/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 9 päivänä marraskuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Mauri Pekkarinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

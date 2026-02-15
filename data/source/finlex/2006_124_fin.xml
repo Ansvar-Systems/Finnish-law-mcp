@@ -1,0 +1,132 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/124/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/124"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/124/alkup"/>
+                    <FRBRdate date="2006-02-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="124"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/124/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/124/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/124/alkup/fin"/>
+                    <FRBRdate date="2006-02-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/124/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/124/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/124/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="21"/>
+                    <finlex:date date="2006-02-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>124/2006</docNumber>
+                <docTitle>Laki pysäköintivirhemaksusta annetun lain 7 ja 9 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         pysäköintivirhemaksusta 3 päivänä huhtikuuta 1970 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1970/248">248/1970</affectedDocument>
+                        ) 7 §:n 1 momentti ja 9 §, sellaisena kuin niistä on 7 §:n 1 momentti laissa 969/2001, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>7 §</num>
+                    <subsection>
+                        <content>
+                            <p>Pysäköintivirhemaksu on virheen laadusta riippumatta 10 euroa. Sisäasiainministeriön asetuksella voidaan kuitenkin, jos liikenteellisten syiden katsotaan vaativan, korottaa maksun määrä enintään 40 euroksi. Korotus voi koskea myös kuntaa tai kunnan tiettyä aluetta. Jos kunta on jakanut alueensa vyöhykkeisiin tai osiin, joilla peritään eri suuruisia pysäköintimaksuja, voidaan vyöhykkeellä tai osalla, jolla maksu on suurin, pysäköintivirhemaksun korotuksen enimmäismäärä sisäasiainministeriön asetuksella ylittää enintään 10 eurolla.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <subsection>
+                        <content>
+                            <p>Ajoneuvon kuljettajalle on annettava kirjallinen kehotus suorittaa maksu kahden viikon kuluessa kehotuksen antamispäivästä. Jollei kuljettajaa tavata, voidaan maksukehotus kiinnittää ajoneuvoon näkyvälle paikalle.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Milloin maksukehotusta ei ole voitu antaa 1 momentissa mainitulla tavalla ajoneuvon kuljettajalle, pysäköinninvalvojan on viipymättä annettava maksusta vastuussa olevalle ajoneuvon omistajalle tai haltijalle tiedoksi kehotus suorittaa maksu kahden viikon kuluessa tiedoksisaamisesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä kesäkuuta 2006.</p>
+                    <p>Lain täytäntöönpanon edellyttämiin toimiin voidaan ryhtyä ennen lain voimaantuloa.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/168">HE 168/2005</ref>
+                        </p>
+                        <p>LA 119/2003</p>
+                        <p>LiVM 29/2005</p>
+                        <p>EV 205/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 17 päivänä helmikuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

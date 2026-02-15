@@ -1,0 +1,265 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/675/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/675"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/675/alkup"/>
+                    <FRBRdate date="2006-07-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="675"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/675/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/675/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/675/alkup/swe"/>
+                    <FRBRdate date="2006-07-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/675/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/675/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/675/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="105"/>
+                    <finlex:date date="2006-08-04"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>675/2006</docNumber>
+                <docTitle>Lag om ändring av lagen om förvaltningsdomstolarna</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 26 mars 1999 om förvaltningsdomstolarna (
+                        <affectedDocument href="/akn/fi/act/statute/1999/430">430/1999</affectedDocument>
+                        ) 12 §, sådan den lyder delvis ändrad i lagarna 106/2000 och 699/2005, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen nya 12 a och 12 b § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>12 §</num>
+                    <heading>Domförhet</heading>
+                    <subsection>
+                        <content>
+                            <p>Förvaltningsdomstolen är domför med tre ledamöter, om inte något annat bestäms särskilt i lag.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vid behandlingen av ärenden enligt vattenlagen och miljöskyddslagen skall i sammansättningen med tre ledamöter ingå två lagfarna ledamöter och en ledamot som är förtrogen med det naturvetenskapliga eller tekniska området och vid behandlingen av ärenden som avses i 7 § två lagfarna ledamöter och en sakkunnigledamot. Om en fråga som skall avgöras i ett ärende på grund av sin natur kräver det, kan förvaltningsdomstolen avgöra ärendet även i en sammansättning med fyra ledamöter. I en sammansättning med fyra ledamöter skall vid behandlingen av ärenden enligt vattenlagen och miljöskyddslagen ingå minst två lagfarna ledamöter och i ärenden som avses i 7 § tre lagfarna ledamöter. Ordföranden skall alltid vara en lagfaren ledamot.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Har besvär eller yrkanden som framställts i något annat förvaltningsprocessuellt ärende återtagits helt och hållet, kan en lagfaren ledamot ensam fatta beslut med anledning av detta. En lagfaren ledamot kan ensam avgöra också ett ärende där det är fråga om huruvida besvär eller något annat förvaltningsprocessuellt ärende har anhängiggjorts inom utsatt tid, samt avgöra huruvida förvaltningsdomstolen är behörig att behandla ett ärende som anhängiggjorts där. En lagfaren ledamot kan ensam fatta beslut om ett förordnande som gäller verkställighet enligt 32 § i förvaltningsprocesslagen eller någon annan lag. En lagfaren ledamot kan ensam fatta beslut om att muntlig förhandling skall hållas eller syn förrättas i ärendet samt träffa de avgöranden som gäller genomförandet av dessa förfaranden och även besluta om andra åtgärder som hänför sig till ärendets förberedelse. En lagfaren ledamot kan också ensam förkasta ett yrkande som gäller hållande av muntlig förhandling eller förrättande av syn.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>12 a §</num>
+                    <heading>Sammansättning i vissa ärenden</heading>
+                    <subsection>
+                        <intro>
+                            <p>Förvaltningsdomstolen är domför också i en sammansättning med två ledamöter, om inte en fråga som skall avgöras i ärendet på grund av sin natur kräver en sammansättning med tre ledamöter och domstolen skall avgöra ett fullföljdsärende som gäller</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>naturliga avdrag, avdrag från kapitalinkomst, resekostnadsersättningar, avdrag från förvärvsinkomsten, avdrag från skatten och underskottsgottgörelser enligt inkomstskattelagen (1535/1992) eller tillämpningen av fastighetsskattelagen (654/1992), bilskattelagen (1482/1994) eller fordonsskattelagen (1281/2003), skogsvårdsavgifter enligt lagen om skogsvårdsföreningar (534/1998) eller uppskattning av värdet på egendom enligt lagen om skatt på arv och gåva (378/1940),</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>tillståndsärenden enligt 18 kap. eller beviljande av undantag enligt 23 kap. i markanvändnings- och bygglagen (132/1999),</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>tillämpningen av avfallslagen (1072/993),</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>tillämpningen av befolkningsdatalagen (507/1993), lagen om hemkommun (201/1994) eller namnlagen (694/1985),</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>tillämpningen av civiltjänstlagen (1723/1991),</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>tillämpningen av ordningslagen (612/2003) eller lagen om sammankomster (530/1999),</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>tillämpningen av lagen om underhållstrygghet (671/1998), socialvårdslagen (710/1982), lagen om utkomststöd (1412/1997) lagen om barndagvård (36/1973), lagen om service och stöd på grund av handikapp (380/1987) eller lagen om klientavgifter inom social- och hälsovården (734/1992),</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>8)</num>
+                            <content>
+                                <p>tillämpningen av utlänningslagen (301/2004) med undantag av ärenden som gäller uppehållstillstånd som beviljas vid asylförfarande eller på grund av behov av skydd,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>9)</num>
+                            <content>
+                                <p>tillämpningen av passlagen (642/1986),</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>10)</num>
+                            <content>
+                                <p>tillämpningen av lagen om grundläggande utbildning (628/1998),</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>11)</num>
+                            <content>
+                                <p>tillämpningen av lagen om avgifter för domstolars och vissa justitieförvaltningsmyndigheters prestationer (701/1993), lagen om grunderna för avgifter till staten (150/1992) eller lagen om avgiftsbefrielse (529/1980), eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>12)</num>
+                            <content>
+                                <p>överlåtande enligt 5 kap. 2 § i ärvdabalken (40/1965) av arv som tillfallit staten. </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Förvaltningsdomstolen är domför också i en sammansättning med två ledamöter, i vilken ingår en lagfaren ledamot och en sakkunnigledamot, i ärenden som gäller beslut om fortsatt vård enligt mentalvårdslagen som skall underställas förvaltningsdomstolen. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ett ärende som har behandlats i en sammansättning med två ledamöter skall överföras till en sammansättning med tre ledamöter för avgörande, om ledamöterna inte är eniga om avgörandet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>12 b §</num>
+                    <heading>Domförhet med en ledamot</heading>
+                    <subsection>
+                        <intro>
+                            <p>Förvaltningsdomstolen är domför även med en ledamot när den avgör fullföljdsärenden som gäller</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>tillämpningen av lagen om parkeringsbot (248/1970) eller lagen om kontrollavgift i kollektivtrafik (469/1979),</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>fastställande av televisionsavgift och påförande av kontrollavgift enligt lagen om statens televisions- och radiofond (745/1998), </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>tillämpningen av lagen om flyttning av fordon och nedskrotning av skrotfordon (151/1975), eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>ärenden som gäller körrätt och körkort enligt 5 kap. i vägtrafiklagen (267/1981).</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelser om förvaltningsdomstolens domförhet med en domare finns i 193 § 2 mom. i utlänningslagen, 27 § 2 mom. i rättshjälpslagen (257/2002) och 20 kap. 14 § 1 mom. i fängelselagen (767/2005).</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ett ärende som avses i 1 mom. kan behandlas även i en sammansättning som avses i 12 a § 1 mom.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 85/2005</p>
+                        <p>LaUB 9/2006</p>
+                        <p>RSv 78/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 21 juli 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

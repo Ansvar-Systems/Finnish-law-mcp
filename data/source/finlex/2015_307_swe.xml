@@ -1,0 +1,327 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/307/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/307"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/307/alkup"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-27" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="307"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/307/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/307/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/307/alkup/swe"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-27" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/307/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/307/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/307/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2015-03-27" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>307/2015</docNumber>
+                <docTitle>Lag om ändring av lagen om försäkringskassor</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om försäkringskassor (<affectedDocument href="/akn/fi/act/statute/1992/1164">1164/1992</affectedDocument>) 83 s §, sådan den lyder i lag 175/2009, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen nya 83 v—83 z § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>7 kap.</num>
+                    <heading>Försäkringspremier, ansvarsskuld och solvenskapital</heading>
+                    <section>
+                        <num>83 s §</num>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Om en pensionskassa som bedriver frivillig tilläggspensionsverksamhet står för åtagandet att täcka en biometrisk risk eller garanterar en viss avkastning för placeringsverksamheten eller en viss nivå på förmånerna, ska pensionskassan utöver ansvarsskulden ständigt ha en tillräcklig kapitalbas för att uppfylla det sammanräknade minimikapitalkravet som i enlighet med 83 v—83 y § beräknats för olika försäkringsklasser (<i>kapitalbasens minimibelopp</i>).
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Kapitalbasen ska motsvara typen av risk och tillgångarnas sammansättning i samtliga tilläggspensionsarrangemang. De tillgångar som hör till kapitalbasen får inte vara bundna vid förutsebara ansvarsförbindelser.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Till pensionskassans kapitalbas enligt 1 mom. hänförs följande poster:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>den betalda grundfonden och garantikapitalet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>fonderna för bundet och fritt eget kapital,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>eget kapital som bildats av överskott från räkenskapsperioden och tidigare räkenskapsperioder,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>den avskrivningsdifferens som upptagits i balansräkningen med stöd av 5 kap. 12 § 1 mom. i bokföringslagen samt de frivilliga reserver som avses i 15 § i det kapitlet, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5) </num>
+                                <content>
+                                    <p>den positiva skillnaden mellan tillgångarnas verkliga värden och bokföringsvärden i balansräkningen, till den del skillnaden inte kan anses vara av exceptionell karaktär.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Från pensionskassans kapitalbas enligt 1 mom. ska följande poster dras av:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>räkenskapsperiodens förlust och förlusten från tidigare räkenskapsperioder,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>den positiva skillnaden mellan tillgångarnas bokföringsvärden och verkliga värden i balansräkningen,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>den andel av anskaffningsutgiften för immateriella tillgångar som inte har upptagits som kostnad i resultaträkningen,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>alla med skulder jämställbara poster som inte upptagits i balansräkningen och i fråga om vilka prestationsskyldigheten ska anses sannolik, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5) </num>
+                                <content>
+                                    <p>eventuell maximal förlust som derivatavtal kan orsaka pensionskassan.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Finansinspektionen får av särskilda skäl förbjuda pensionskassan att delvis eller helt och hållet hänföra poster som avses i 3 mom. 5 punkten till kassans tillgångar enligt 1 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Finansinspektionen får meddela närmare föreskrifter om</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>vilka poster som ska hänföras till eller dras av från kapitalbasen, och</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>hur de beräkningar som gäller uppfyllandet av kraven på kapitalbasen ska göras och när beräkningarna ska ges in.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>83 v §</num>
+                        <subsection>
+                            <content>
+                                <p>Den andel som ska hänföras till kapitalbasens minimibelopp enligt 83 s § ska i fråga om försäkringar som hör till livförsäkringsklasserna 1 och 2 enligt lagen om försäkringsklasser (526/2008), med undantag av försäkringar som avses i 13 § 2 mom. i den lagen, bestämmas genom sammanräkning av de belopp som avses i 2 och 3 mom. i denna paragraf.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>På summan av premieansvaret och ersättningsansvaret för de pensioner som löper vid utgången av den närmast föregående räkenskapsperioden beräknas en andel om 4 procent, och det erhållna resultatet multipliceras med det relationstal som avses i 83 x §.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>På risksumman vid utgången av den närmast föregående räkenskapsperioden för försäkringar med en risksumma som är större än noll beräknas en andel om 0,3 procent. I fråga om dödsfallsförsäkring som tecknats för högst tre år är andelen dock 0,1 procent och, i fråga om försäkring som tecknats för flera än tre men för högst fem år är andelen 0,15 procent. Det erhållna resultatet multipliceras med det relationstal som avses i 83 x §.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>83 w §</num>
+                        <subsection>
+                            <content>
+                                <p>Den andel som hänförs till kapitalbasens minimibelopp enligt 83 s § ska i fråga om försäkringar som hör till livförsäkringsklass 3 enligt lagen om försäkringsklasser bestämmas genom sammanräkning av de belopp som avses i 2—5 mom. i denna paragraf.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om en pensionskassa som bedriver verksamhet enligt 83 s § bär placeringsrisken, ska på summan av premieansvaret för försäkringar och ersättningsansvaret för sådana pensioner som löper vid utgången av den närmast föregående räkenskapsperioden beräknas en andel om 4 procent, och det erhållna resultatet multipliceras med det relationstal som avses i 83 x §.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om en pensionskassa som bedriver verksamhet enligt 83 s § inte bär placeringsrisken och pensionskassan inte har rätt att ändra belastningarna som är avsedda att täcka administrationskostnaderna inom fem år, ska på summan av premieansvaret för försäkringar och ersättningsansvaret för sådana pensioner som löper vid utgången av den närmast föregående räkenskapsperioden beräknas en andel om 1 procent, och det erhållna resultatet multipliceras med det relationstal som avses i 83 x §.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>På risksumman vid utgången av den närmast föregående räkenskapsperioden för försäkringar med en risksumma som är större än noll ska beräknas en andel om 0,3 procent, och det erhållna resultatet multipliceras med det relationstal som avses i 83 x §.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om en pensionskassa som bedriver verksamhet enligt 83 s § inte bär placeringsrisken och pensionskassan har rätt att ändra belastningarna som är avsedda att täcka administrationskostnaderna inom fem år, ska en andel om 25 procent beräknas på försäkringarnas administrationskostnader under den närmast föregående räkenskapsperioden.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>83 x §</num>
+                        <subsection>
+                            <content>
+                                <p>Det relationstal som avses i 83 v § 2 mom. och i 83 w § 2 och 3 mom. erhålls när summan av en försäkringsgrupps egen andel av premieansvaret för gruppen i fråga och ersättningsansvaret för de pensioner som löper vid utgången av den närmast föregående räkenskapsperioden jämförs med motsvarande summa före avdrag av återförsäkrarnas andel. Relationstalet får inte vara mindre än 0,85.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Det relationstal som avses i 83 v § 3 mom. och i 83 w § 4 mom. erhålls när försäkringsgruppens egen andel av risksumman för försäkringarna för den närmast föregående räkenskapsperioden jämförs med motsvarande risksumma före avdrag av återförsäkrarnas andel. Relationstalet får inte vara mindre än 0,5.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om återförsäkringsavtalens natur eller art har förändrats väsentligt sedan den närmast föregående räkenskapsperioden eller om återförsäkringsavtalen inte innebär faktisk risköverföring eller den är ringa, kan Finansinspektionen kräva att pensionskassan vid beräkningen av kapitalbasens minimibelopp använder ett högre relationstal än det som erhålls på basis av 1 och 2 mom.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>83 y §</num>
+                        <subsection>
+                            <content>
+                                <p>Den andel som hänförs till kapitalbasens minimibelopp enligt 83 s § är i fråga om försäkringar som hör till skadeförsäkringsklasserna 1 och 2 enligt lagen om försäkringsklasser det största av de belopp som räknats ut enligt 2—5 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Av en pensionskassas premieinkomst i skadeförsäkringsklasserna 1 och 2 enligt lagen om försäkringsklasser ska av den egna andelen av premieinkomsten under den senaste räkenskapsperioden sammanräknas 18 procent upp till 50 000 000 euro och 16 procent av den överstigande delen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om pensionskassans premieintäkt i skadeförsäkringsklasserna 1 och 2 enligt lagen om försäkringsklasser under den senaste räkenskapsperioden är större än premieinkomsten, ska premieintäkten i stället för premieinkomsten användas i den beräkning som avses i 2 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Av medelvärdet av pensionskassans egen andel av ersättningskostnader i skadeförsäkringsklasserna 1 och 2 enligt lagen om försäkringsklasser under de tre senaste räkenskapsperioderna sammanräknas 26 procent av kostnaderna upp till 37 200 000 euro och 23 procent av den överstigande delen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om kapitalbasens minimibelopp enligt 1 mom. som bestämts i enlighet med 2—4 mom. är mindre än minimibeloppet för det föregående årets kapitalbas, ska kapitalbasens minimibelopp vara minst minimibeloppet för det föregående årets kapitalbas multiplicerad med ett relationstal som erhålls när det egna ersättningsansvaret i skadeförsäkringsklasserna 1 och 2 enligt lagen om försäkringsklasser vid räkenskapsperiodens slut divideras med den egna andelen av ersättningsansvaret vid räkenskapsperiodens början. Detta relationstal får dock inte vara större än 1.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av social- och hälsovårdsministeriet får beloppen i denna paragraf justeras enligt de förändringar i det europeiska konsumentprisindex som offentliggörs av Europeiska gemenskapernas statistikkontor. Det justerade beloppet avrundas uppåt till närmaste hela 100 000 euro.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>83 z §</num>
+                        <subsection>
+                            <content>
+                                <p>Om beloppet av en pensionskassas kapitalbas enligt 83 s § 2 och 3 mom. understiger kapitalbasens minimibelopp enligt 83 s § 1 mom., ska pensionskassan utan dröjsmål för godkännande till Finansinspektionen ge in en plan för återställande av en sund finansiell ställning. Av planen ska det framgå hur pensionskassan inom ett år ska uppfylla minimikapitalkravet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 344/2014</p>
+                        <p>EkUB 30/2014</p>
+                        <p>RSv 304/2014</p>
+                        <p>Europaparlamentets och rådets direktiv 2009/138/EG (32009L0138); EUT nr L 335, 17.12.2009, s. 1.</p>
+                        <p>Europaparlamentets och rådets direktiv 2011/89/EU (32011L0089); EUT nr L 326, 8.12.2011, s. 113.</p>
+                        <p>Europaparlamentets och rådets direktiv 2014/51/EU (32014L0051); EUT nr L 153, 22.5.2014, s. 1.</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 20 mars 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister</role>
+                                <person refersTo="">Laura Räty</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

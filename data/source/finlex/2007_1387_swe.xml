@@ -1,0 +1,141 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1387/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1387"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1387/alkup"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1387"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1387/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1387/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1387/alkup/swe"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1387/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1387/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1387/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="204"/>
+                    <finlex:date date="2007-12-31"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1387/2007</docNumber>
+                <docTitle>Lag om ändring av 1 kap. 8 § och 4 kap. 15 a § i tvångsmedelslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i tvångsmedelslagen av den 30 april 1987 (
+                        <affectedDocument href="/akn/fi/act/statute/1987/450">450/1987</affectedDocument>
+                        ) 4 kap. 15 a § 2 mom., sådant det lyder i lag 10/1994, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 1 kap. 8 § ett nytt 3 mom., i stället för det 3 mom. som upphävts genom lag 213/1995, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>1 kap.</num>
+                    <heading>Gripande, anhållande och häktning</heading>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Häktningsförutsättningar</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Den som på sannolika skäl misstänks för ett brott och som kommer att begäras utlämnad till Finland får häktas, om det för brottet föreskrivna strängaste straffet är fängelse i minst ett år och om det på grund av den misstänktes personliga förhållanden, antal och art på de brott som ingår i framställningen om utlämning eller andra motsvarande omständigheter finns anledning att misstänka att den misstänkte inte frivilligt kommer till Finland för lagföring.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>4 kap.</num>
+                    <heading>Beslag</heading>
+                    <section>
+                        <num>15 a §</num>
+                        <heading>Beslut om beslag när en främmande stat har begärt rättshjälp</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Beslutet om beslag ska av den myndighet som beslutat om beslaget inom en vecka underställas tingsrätten på den ort där beslaget har verkställts. Då domstolen beslutar att fastställa beslaget ska den samtidigt utsätta en giltighetstid för beslaget. Om den myndighet som beslutat om beslaget inom denna tid framställer en begäran om saken får domstolen förlänga giltighetstiden. En domstol sombehandlar ärenden enligt 66 § 2 mom. i lagen om utlämning för brott mellan Finland och de övriga medlemsstaterna i Europeiska unionen (1286/2003) eller enligt 63 § 2 mom. i lagen om utlämning för brott mellan Finland och de övriga nordiska länderna (1383/2007) kan också besluta om beslag. Åklagaren ska vid behov underrätta den myndighet som tidigare behandlat beslagsärendet om beslutet om beslag.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 51/2007</p>
+                        <p>LaUB 8/2007</p>
+                        <p>RSv 101/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 21 december 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Tuija Brax </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,127 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1097/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1097"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1097/alkup"/>
+                    <FRBRdate date="2007-11-30" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1097"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1097/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1097/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1097/alkup/swe"/>
+                    <FRBRdate date="2007-11-30" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1097/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1097/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1097/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="161"/>
+                    <finlex:date date="2007-12-07"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1097/2007</docNumber>
+                <docTitle>Lag om ändring av 8 och 12 § i lagen om yrkesinriktad vuxenutbildning</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 21 augusti 1998 om yrkesinriktad vuxenutbildning (
+                        <affectedDocument href="/akn/fi/act/statute/1998/631">631/1998</affectedDocument>
+                        ) 8 § 4 mom. och 12 § 2 mom., av dem 8 § 4 mom. sådant det lyder i lag 1013/2005, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>8 §</num>
+                    <heading>Utbildning som förbereder för fristående examen, individualisering och avläggande av examen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>En utbildningsanordnare som avses i 7 § 3 mom. eller någon annan sammanslutning eller stiftelse som avses i nämnda bestämmelse är skyldig att på det sätt som avtalats med en examenskommission ordna möjligheter att avlägga fristående examina också utan förberedande utbildning. Möjlighet att avlägga fristående examen eller del av fristående examen ska ordnas också för personer vilka av en myndighet som ansvarar för erkännande av yrkeskvalifikationer har fått ett beslut om erkännande i enlighet med 13 § 2 mom. i lagen om erkännande av yrkeskvalifikationer (1093/2007), i vilket det av sökanden krävs sådana kompensationsåtgärder som avses i nämnda lag.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>12 §</num>
+                    <heading>Fristående examina</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>I en yrkesinriktad grundexamen ska examinanden visa att han eller hon uppnått de kunskaper och färdigheter som yrkesskickligheten förutsätter. I en yrkesexamen ska examinanden visa att han eller hon besitter sådan yrkesskicklighet som förutsätts av en yrkesman på området. I en specialyrkesexamen ska examinanden visa att han eller hon behärskar de mest krävande arbetsuppgifterna på området. En yrkesinriktad grundexamen och en yrkesexamen placerar sig på den kvalifikationsnivå som avses i 6 § 1 mom. 2 punkten i lagen om erkännande av yrkeskvalifikationer och en specialyrkesexamen på den kvalifikationsnivå som avses i 6 § 1 mom. 3 punkten i nämnda lag.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 26/2007</p>
+                        <p>KuUB 5/2007</p>
+                        <p>RSv 52/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 30 november 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Undervisningsminister </role>
+                                <person refersTo="">Sari Sarkomaa</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

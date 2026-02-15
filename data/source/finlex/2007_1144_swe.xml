@@ -1,0 +1,116 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1144/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1144"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1144/alkup"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1144"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1144/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1144/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1144/alkup/swe"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1144/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1144/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1144/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="168"/>
+                    <finlex:date date="2007-12-12"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1144/2007</docNumber>
+                <docTitle>Lag om temporär ändring av 19 § i lagen om beskattning av inkomst av näringsverksamhet</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         temporärt till 19 § i lagen av den 24 juni 1968 om beskattning av inkomst av näringsverksamhet (
+                        <affectedDocument href="/akn/fi/act/statute/1968/360">360/1968</affectedDocument>
+                        ), sådan denna paragraf lyder i lagarna 859/1981 och 1539/1992, ett nytt 3 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>19 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Utan hinder av 1 mom. räknas inte som skattepliktig inkomst för ett i kreditinstitutslagen avsett kreditinstitut vid beskattningen för skatteåren 2007 och 2008 obetalda räntor på fordringar, vilkas kapital ska upptas som oreglerat enligt Finansinspektionens standard, och vars räntor kreditinstitutet enligt Finansinspektionens standard inte får uppta och inte har upptagit som intäkt i bokslutet.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 14 december 2007 och gäller till och med den 31 december 2008.</p>
+                    <p>Lagen tillämpas vid beskattningen för skatteåren 2007 och 2008.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 145/2007</p>
+                        <p>FiUB 19/2007</p>
+                        <p>RSv 98/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 7 december 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Finansminister </role>
+                                <person refersTo="">Jyrki Katainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

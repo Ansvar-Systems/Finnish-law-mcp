@@ -1,0 +1,288 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1027/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1027"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1027/alkup"/>
+                    <FRBRdate date="2007-11-16" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1027"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1027/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1027/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1027/alkup/swe"/>
+                    <FRBRdate date="2007-11-16" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1027/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1027/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1027/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="151"/>
+                    <finlex:date date="2007-11-16"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1027/2007</docNumber>
+                <docTitle>Lag om säkerställande av patientsäkerheten vid arbetskonflikt inom hälso- och sjukvården</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut föreskrivs:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section eId="sec_1">
+                    <num>1 §</num>
+                    <heading>Lagens syfte</heading>
+                    <subsection eId="sec_1__subsec_1">
+                        <content>
+                            <p>Lagens syfte är att säkerställa patientsäkerheten när en arbetskonflikt inom den kommunala hälso- och sjukvården hotar att omedelbart äventyra patienters liv eller orsaka dem bestående allvarlig skada på grund av att det inte finns tillräckligt med vårdpersonal.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_2">
+                    <num>2 §</num>
+                    <heading>Ändring av arbetsuppgifter</heading>
+                    <subsection eId="sec_2__subsec_1">
+                        <content>
+                            <p>En yrkesutbildad person inom hälso- och sjukvården som inte omfattas av en arbetskonflikt ska, utan hinder av vad som föreskrivs någon annanstans eller vad som överenskommits i arbetsavtalet, utöver sina sedvanliga arbetsuppgifter utföra andra uppgifter som motsvarar hans eller hennes yrkesskicklighet och som arbetsgivaren bestämmer, om detta är nödvändigt för att förhindra att en patients liv eller hälsa äventyras.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_3">
+                    <num>3 §</num>
+                    <heading>Patientsäkerhetsarbete</heading>
+                    <subsection eId="sec_3__subsec_1">
+                        <content>
+                            <p>
+                                Om en verksamhetsenhet inom hälso- och sjukvården som har en kommun eller en samkommun som huvudman inte med anledning av en arbetskonflikt förmår tillhandahålla nödvändig vård för att trygga patienters liv eller förhindra bestående allvarliga skador kan länsstyrelsen förordna en yrkesutbildad person inom hälso- och sjukvården att arbeta vid en sådan verksamhetsenhet inom hälso- och sjukvården i uppgifter som motsvarar personens yrkesskicklighet (<i>patientsäkerhetsarbete</i>). Förordnandet kan meddelas för högst en vecka åt gången och det får förnyas högst fyra gånger i fråga om dem som inte omfattas av arbetskonflikten. Att utföra patientsäkerhetsarbete utan samtycke av personen i fråga ska i första hand förordnas personer som har sagt upp sig med anledning av arbetskonflikten. Andra yrkesutbildade personer inom hälso- och sjukvården kan förordnas att utföra patientsäkerhetsarbete utan samtycke bara av synnerligen vägande skäl.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_2">
+                        <intro eId="sec_3__subsec_2__intro">
+                            <p>Sådan nödvändig vård som avses i 1 mom. är</p>
+                        </intro>
+                        <paragraph eId="sec_3__subsec_2__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>intensivvård, inklusive intensivvård av prematurer och nyfödda,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_2__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>jourverksamhet och vård i direkt anslutning till den,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_2__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>förlossningar,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_2__para_4">
+                            <num>4)</num>
+                            <content>
+                                <p>cancerfall som kräver akut vård,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_2__para_5">
+                            <num>5)</num>
+                            <content>
+                                <p>dialysbehandlingar,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_2__para_6">
+                            <num>6)</num>
+                            <content>
+                                <p>omedelbar psykiatrisk vård oberoende av patientens vilja,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_2__para_7">
+                            <num>7)</num>
+                            <content>
+                                <p>brådskande anestesitjänster i anslutning till den vård som avses ovan samt laboratorieundersökningar och radiologiska undersökningar, och</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_2__para_8">
+                            <num>8)</num>
+                            <content>
+                                <p>annan jämförbar vård som är nödvändig för att trygga patientens liv eller förhindra bestående allvarlig skada.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_3">
+                        <content>
+                            <p>En yrkesutbildad person inom hälso- och sjukvården kan förordnas att utföra patientsäkerhetsarbete oberoende av om han eller hon står i arbetsavtals- eller tjänsteförhållande till en annan arbetsgivare. Ett förordnande kan inte meddelas om det betydligt skulle försvåra välfärden för familjen eller de anhöriga till den person som man har för avsikt att förordna eller hans eller hennes arbetsgivares verksamhet eller om förordnandet av någon annan orsak skulle förorsaka särskilt stor olägenhet för den person som man har för avsikt att förordna.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_4">
+                    <num>4 §</num>
+                    <heading>Förfarande vid förordnande om patientsäkerhetsarbete</heading>
+                    <subsection eId="sec_4__subsec_1">
+                        <content>
+                            <p>En person kan förordnas att utföra patientsäkerhetsarbete endast på förslag av en kommun eller samkommun som är huvudman för en verksamhetsenhet inom hälso- och sjukvården. Förslaget ska innehålla en redogörelse om de åtgärder som kommunen eller samkommunen har vidtagit för att undvika omedelbar fara för patienternas liv eller allvarlig bestående skada för dem samt en motivering till varför de åtgärder som den permanenta lagstiftningen möjliggör inte är tillräckliga. Dessutom ska förslaget innehålla information om i vilka uppgifter, i vilken utsträckning och för vilken tid yrkesutbildade personer inom hälso- och sjukvården bör förordnas att utföra patientsäkerhetsarbete. När kommunen eller samkommunen tar fram förslaget ska den ge den i den berörda verksamhetsenheten verksamma fackavdelningen för den fackorganisation som deltar i arbetskonflikten möjlighet att yttra sig, och avdelningens eventuella yttrande ska fogas till förslaget.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_2">
+                        <content>
+                            <p>Innan förordnandet meddelas ska länsstyrelsen ge den som förordnas att utföra patientsäkerhetsarbete tillfälle att bli hörd. Den som hörs ska meddela sina synpunkter i ärendet inom en av länsstyrelsen utsatt tid, som inte får underskrida 24 timmar. Om den som hörs är i arbetsavtals- eller tjänsteförhållande ska länsstyrelsen även bereda arbetsgivaren tillfälle att bli hörd inom samma tid.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_3">
+                        <content>
+                            <p>Förordnandet kan meddelas trots att den som hörs motsätter sig det. I förordnandet ska länsstyrelsen fastställa tidpunkten för patientsäkerhetsarbetets inledande, varaktighet, den verksamhetsenhet där arbetet utförs och de huvudsakliga arbetsuppgifterna. Om den som hörs har motsatt sig förordnandet på de grunder som nämns i 3 § 3 mom. och länsstyrelsen anser att han eller hon trots det kan förordnas att utföra patientsäkerhetsarbete, ska beslutet innehålla en motivering till förordnandet att utföra patientsäkerhetsarbete.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_4">
+                        <content>
+                            <p>Närmare bestämmelser om den information och de redogörelser enligt 1 mom. som ska ingå i kommunens eller samkommunens förslag och om de uppgifter som ska ingå i länsstyrelsens förordnande om patientsäkerhetsarbete kan vid behov utfärdas genom förordning av social- och hälsovårdsministeriet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_5">
+                    <num>5 §</num>
+                    <heading>Rättigheterna för den som förordnas att utföra patientsäkerhetsarbete</heading>
+                    <subsection eId="sec_5__subsec_1">
+                        <content>
+                            <p>Den som förordnas att utföra patientsäkerhetsarbete har rätt att för arbetet av kommunen eller samkommunen få en ersättning som motsvarar minst 1,3 gånger den vanliga lönen för ordinarie arbetstid i motsvarande arbete i den berörda verksamhetsenheten inom hälso- och sjukvården. Om den som förordnats att utföra patientsäkerhetsarbete har ett annat arbete någon annanstans ska ersättningen uppgå till minst 1,2 gånger den lön han eller hon får för ordinarie arbetstid i det andra arbetet. Den som förordnas att utföra patientsäkerhetsarbete har dessutom rätt att få ersättning för särskilda utgifter som förordnandet medför.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_2">
+                        <content>
+                            <p>På patientsäkerhetsarbete tillämpas arbetstidslagen (605/1996), semesterlagen (162/2005), arbetarskyddslagen (738/2002), lagen om företagshälsovård (1383/2001), lagen om olycksfallsförsäkring (608/1948), yrkessjukdomslagen (1343/1988) och lagen om kommunala pensioner (549/2003) och i tillämpliga delar arbetsavtalslagens (55/2001) bestämmelser om arbetstagarens och arbetsgivarens rättigheter och skyldigheter.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_3">
+                        <content>
+                            <p>Om den som förordnats att utföra patientsäkerhetsarbete sköter ett barn under skolåldern hemma ska kommunen ordna en behövlig dagvårdsplats för barnet från det att patientsäkerhetsarbetet inleds.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_4">
+                        <content>
+                            <p>Arbetsgivaren till en person som förordnats att utföra patientsäkerhetsarbete får inte avsluta arbetsavtals- eller tjänsteförhållandet på grund av patientsäkerhetsarbetet. Den som har varit förordnad att utföra patientsäkerhetsarbete har rätt att återgå till sitt tidigare arbete efter patientsäkerhetsarbetet. Den som har varit förordnad att utföra patientsäkerhetsarbete ska återgå till sitt arbete inom skälig tid efter det att det hinder patientsäkerhetsarbetet utgör har upphört.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_6">
+                    <num>6 §</num>
+                    <heading>Avvikelse från arbetstidsbestämmelserna</heading>
+                    <subsection eId="sec_6__subsec_1">
+                        <content>
+                            <p>Om en arbetskonflikt inom hälso- och sjukvården medför överhängande fara för äventyrande av liv eller hälsa på det sätt som avses i 3 § 1 mom., får de föreskrivna eller avtalade arbetstiderna utan hinder av arbetstidslagen överskridas i den utsträckning som krävs för att säkerställa nödvändig vård, dock högst under två veckor.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_6__subsec_2">
+                        <content>
+                            <p>Sådant arbete som avses i 1 mom. räknas inte in i övertidsarbetet enligt 17 § i arbetstidslagen. I sådant arbete får även undantag göras från 26―31 § och 33 § 1 mom. i arbetstidslagen.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_6__subsec_3">
+                        <content>
+                            <p>Arbetsgivaren ska utan dröjsmål göra en skriftlig anmälan till arbetarskyddsmyndigheten om orsaken till det arbete som avses i denna paragraf, dess omfattning och sannolika varaktighet. Arbetsgivaren ska ge den förtroendeman som företräder de arbetstagare som utför sådant arbete eller, om någon förtroendeman inte har valts, det förtroendeombud som avses i 13 kap. 3 § i arbetsavtalslagen eller, om inte heller något förtroendeombud har valts, arbetarskyddsfullmäktigen tillfälle att foga sitt utlåtande till anmälan. Arbetarskyddsmyndigheten kan efter att ha prövat ärendet antingen låta saken bero vid anmälan eller vidta åtgärder för att begränsa eller stoppa det arbete som avses i denna paragraf.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_7">
+                    <num>7 §</num>
+                    <heading>Vite</heading>
+                    <subsection eId="sec_7__subsec_1">
+                        <content>
+                            <p>Länsstyrelsen får förena ett beslut enligt 4 § om förordnande att utföra patientsäkerhetsarbete med vite.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_7__subsec_2">
+                        <content>
+                            <p>På föreläggande och utdömande av vite tillämpas viteslagen (1113/1990). Länsstyrelsen dömer ut vite på ansökan av den kommun eller samkommun som har ansökt om förordnande till patientsäkerhetsarbete.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_8">
+                    <num>8 §</num>
+                    <heading>Sökande av ändring</heading>
+                    <subsection eId="sec_8__subsec_1">
+                        <content>
+                            <p>I ett beslut av länsstyrelsen får ändring sökas genom besvär så som föreskrivs i förvaltningsprocesslagen (586/1996). Länsstyrelsens beslut om förordnande att utföra patientsäkerhetsarbete ska iakttas trots att det har överklagats, om inte besvärsinstansen bestämmer något annat.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_8__subsec_2">
+                        <content>
+                            <p>Besvär som gäller förordnande att utföra patientsäkerhetsarbete eller förbud att verkställa förordnande ska behandlas av besvärsinstansen i brådskande ordning.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_9">
+                    <num>9 §</num>
+                    <heading>Ikraftträdande</heading>
+                    <subsection eId="sec_9__subsec_1">
+                        <content>
+                            <p>Denna lag träder i kraft den 17 november 2007 och gäller till och med den 31 mars 2008. Den får inte längre tillämpas när det hot som avses i 1 § upphört.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_9__subsec_2">
+                        <content>
+                            <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 153/2007</p>
+                        <p>ShUB 17/2007</p>
+                        <p>RSv 80/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 16 november 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Omsorgsminister </role>
+                                <person refersTo="">Paula Risikko </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

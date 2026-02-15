@@ -1,0 +1,329 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/307/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/307"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/307/alkup"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-27" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="307"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/307/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/307/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/307/alkup/fin"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-27" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/307/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/307/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/307/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2015-03-27" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>307/2015</docNumber>
+                <docTitle>Laki vakuutuskassalain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         vakuutuskassalain (<affectedDocument href="/akn/fi/act/statute/1992/1164">1164/1992</affectedDocument>) 83 s §, sellaisena kun se on laissa 175/2009, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 83 v—83 z § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>7 luku</num>
+                    <heading>Vakuutusmaksut, vastuuvelka ja vakavaraisuuspääoma</heading>
+                    <section>
+                        <num>83 s §</num>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Jos vapaaehtoista lisäeläketoimintaa harjoittava eläkekassa takaa biometrisen riskin, sijoitustoiminnan tuoton tai etuuksien tason, eläkekassalla on jatkuvasti oltava vakuutusteknisen vastuuvelan lisäksi riittävästi omia varoja, joilla se pystyy täyttämään 83 v—83 y §:n mukaisesti eri vakuutusluokkien osalta yhteenlasketun vähimmäismäärää koskevan vaatimuksen (<i>omien varojen vähimmäismäärä</i>).
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Omien varojen on oltava riskityypin ja varojen rakenteen mukaiset kaikkien lisäeläkejärjestelyjen osalta. Varoja ei saa sitoa ennakoituihin vastuisiin.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Eläkekassan 1 momentissa tarkoitettuihin omiin varoihin luetaan seuraavat erät:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>maksettu pohjarahasto ja takuupääoma;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>sidotun ja vapaan oman pääoman rahastot;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>tilikauden ja edellisten tilikausien ylijäämistä kertynyt oma pääoma;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>kirjanpitolain 5 luvun 12 §:n 1 momentin nojalla taseeseen merkitty poistoero ja mainitun luvun 15 §:ssä tarkoitetut vapaaehtoiset varaukset; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5) </num>
+                                <content>
+                                    <p>taseen omaisuuden käypien arvojen ja kirjanpitoarvojen positiivinen erotus siltä osin kuin sitä ei voida pitää luonteeltaan poikkeuksellisena.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Eläkekassan 1 momentissa tarkoitetuista omista varoista on vähennettävä seuraavat erät:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>tilikauden ja edellisten tilikausien tappio;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>taseen omaisuuden kirjanpitoarvojen ja käypien arvojen positiivinen erotus;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>aineettomien hyödykkeiden hankinnasta tuloslaskelmaan kuluksi merkitsemättä jätetty osuus;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>kaikki sellaiset taseeseen merkitsemättömät velkoihin rinnastettavat erät, joiden suoritusvelvollisuutta on pidettävä todennäköisenä; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5) </num>
+                                <content>
+                                    <p>johdannaissopimuksista eläkekassalle koituva mahdollinen enimmäistappio.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Finanssivalvonta voi erityisestä syystä kieltää eläkekassaa lukemasta 3 momentin 5 kohdassa tarkoitettua erää osittain tai kokonaan osaksi kassan 1 momentissa tarkoitettuja varoja.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Finanssivalvonta voi antaa tarkempia määräyksiä:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>omiin varoihin luettavista ja siitä vähennettävistä eristä; ja</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>omia varoja koskevien vaatimusten täyttämistä koskevien laskelmien laatimisesta ja toimittamisen ajankohdasta.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>83 v §</num>
+                        <subsection>
+                            <content>
+                                <p>Lukuun ottamatta vakuutusluokista annetun lain (526/2008) 13 §:n 2 momentissa tarkoitettuja vakuutuksia, mainitussa laissa tarkoitettuun henkivakuutusluokkaan 1 ja 2 kuuluvien vakuutusten osalta 83 s §:ssä tarkoitettujen omien varojen vähimmäismäärään luettava osuus saadaan laskemalla yhteen tämän pykälän 2 ja 3 momentin mukaiset määrät.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vakuutusmaksuvastuun ja alkaneiden eläkkeiden korvausvastuun summasta viimeksi kuluneen tilikauden lopussa lasketaan 4 prosentin osuus ja saatu tulos kerrotaan 83 x §:ssä tarkoitetulla suhdeluvulla.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vakuutusten, joiden riskisumma on nollaa suurempi, riskisummasta viimeksi kuluneen tilikauden lopussa lasketaan 0,3 prosentin osuus. Korkeintaan kolmeksi vuodeksi otetussa kuolemanvaravakuutuksessa osuus on kuitenkin 0,1 prosenttia ja, jos vakuutus on otettu useammaksi kuin kolmeksi, mutta enintään viideksi vuodeksi, osuus on 0,15 prosenttia. Saatu tulos kerrotaan 83 x §:ssä tarkoitetulla suhdeluvulla.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>83 w §</num>
+                        <subsection>
+                            <content>
+                                <p>Vakuutusluokista annetussa laissa tarkoitettuun henkivakuutusluokkaan 3 kuuluvien vakuutusten osalta 83 s §:ssä tarkoitettujen omien varojen vähimmäismäärään luettava osuus saadaan laskemalla yhteen tämän pykälän 2—5 momentin mukaiset määrät.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos 83 s §:n mukaista toimintaa harjoittava eläkekassa vastaa sijoitusriskistä, vakuutusten vakuutusmaksuvastuun ja alkaneiden eläkkeiden korvausvastuun summasta viimeksi kuluneen tilikauden lopussa lasketaan 4 prosentin osuus, ja saatu tulos kerrotaan 83 x §:ssä tarkoitetulla suhdeluvulla.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos 83 s §:n mukaista toimintaa harjoittava eläkekassa ei vastaa sijoitusriskistä eikä eläkekassalla ole oikeutta muuttaa hallintokulujen kattamiseksi tarkoitettuja kuormituksia viiden vuoden kuluessa, vakuutusten vakuutusmaksuvastuun ja alkaneiden eläkkeiden korvausvastuun summasta viimeksi kuluneen tilikauden lopussa lasketaan 1 prosentin osuus, ja saatu tulos kerrotaan 83 x §:ssä tarkoitetulla suhdeluvulla.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vakuutusten, joiden riskisumma on nollaa suurempi, riskisummasta viimeksi kuluneen tilikauden lopussa lasketaan 0,3 prosentin osuus, ja saatu tulos kerrotaan 83 x §:ssä tarkoitetulla suhdeluvulla.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos 83 s §:n mukaista toimintaa harjoittava eläkekassa ei vastaa sijoitusriskistä ja eläkekassalla on oikeus muuttaa hallintokulujen kattamiseksi tarkoitettuja kuormituksia viiden vuoden kuluessa, vakuutusten viimeksi kuluneen tilikauden hallintokuluista lasketaan 25 prosentin osuus.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>83 x §</num>
+                        <subsection>
+                            <content>
+                                <p>Edellä 83 v §:n 2 momentissa sekä 83 w §:n 2 ja 3 momentissa tarkoitettu suhdeluku saadaan vertaamalla kyseisen vakuutusryhmän viimeksi kuluneen tilikauden omalla vastuulla olevaa vakuutusmaksuvastuun ja alkaneiden eläkkeiden korvausvastuun summaa vastaavaan summaan ennen jälleenvakuuttajien osuuden vähentämistä. Käytettävä suhdeluku ei saa olla pienempi kuin 0,85.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 83 v §:n 3 momentissa sekä 83 w §:n 4 momentissa tarkoitettu suhdeluku saadaan vertaamalla kyseisen vakuutusryhmän viimeksi kuluneen tilikauden kyseessä olevien vakuutusten omalla vastuulla olevaa riskisummaa vastaavaan riskisummaan ennen jälleenvakuuttajien osuuden vähentämistä. Käytettävä suhdeluku ei saa olla pienempi kuin 0,5.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos jälleenvakuutussopimusten luonne tai laatu on muuttunut merkittävästi viimeksi kuluneesta tilikaudesta, tai jälleenvakuutussopimuksissa ei tapahdu todellista riskinsiirtoa, tai se on vähäistä, Finanssivalvonta voi vaatia, että eläkekassa käyttää omien varojen vähimmäismäärää laskiessaan suurempia suhdelukuja kuin mitä saadaan 1 ja 2 momentin perusteella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>83 y §</num>
+                        <subsection>
+                            <content>
+                                <p>Vakuutusluokista annetussa laissa tarkoitettuihin vahinkovakuutusluokkiin 1 ja 2 kuuluvien vakuutusten osuus 83 s §:ssä tarkoitettujen omien varojen vähimmäismäärästä on 2—5 momentissa tarkoitettujen laskelmien tuloksista suurin.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Eläkekassan viimeksi kuluneen tilikauden vakuutusluokista annetussa laissa tarkoitettujen vahinkovakuutusluokkien 1 ja 2 omalla vastuulla olevasta vakuutusmaksutulosta lasketaan yhteen 18 prosenttia ensimmäisestä 50 000 000 eurosta ja 16 prosenttia sen yli menevästä osasta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos eläkekassan viimeksi kuluneen tilikauden vakuutusluokista annetussa laissa tarkoitettujen vahinkovakuutusluokkien 1 ja 2 vakuutusmaksutuotto on suurempi kuin vakuutusmaksutulo, tehdään 2 momentin mukainen laskelma käyttäen vakuutusmaksutulon sijasta vakuutusmaksutuottoa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Eläkekassan kolmen viimeksi kuluneen tilikauden vakuutusluokista annetussa laissa tarkoitettujen vahinkovakuutusluokkien 1 ja 2 omalla vastuulla olevasta korvauskulujen keskiarvosta lasketaan yhteen 26 prosenttia ensimmäisestä 37 200 000 eurosta ja 23 prosenttia sen ylimenevästä osasta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos 1 momentissa tarkoitettu 2—4 momentin mukaisesti määräytyvä omien varojen vähimmäismäärä on pienempi kuin edeltävän vuoden omien varojen vähimmäismäärä, on omien varojen vähimmäismäärän oltava vähintään edeltävän vuoden omien varojen vähimmäismäärä kerrottuna suhdeluvulla, joka saadaan, kun tilikauden lopun omalla vastuulla oleva vakuutusluokista annetussa laissa tarkoitettuihin vahinkovakuutusluokkiin 1 ja 2 kuuluvien vakuutusten korvausvastuu jaetaan tilikauden alun omalla vastuulla olevalla korvausvastuulla. Tämä suhdeluku ei kuitenkaan saa olla suurempi kuin 1.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Sosiaali- ja terveysministeriön asetuksella voidaan muuttaa tässä pykälässä säädettyjä määriä Euroopan yhteisöjen tilastotoimiston julkaiseman Euroopan kuluttajahintaindeksin muutosten perusteella. Tarkistettu euromäärä pyöristetään ylöspäin lähimpään täyteen 100 000 euroon.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>83 z §</num>
+                        <subsection>
+                            <content>
+                                <p>Jos eläkekassan 83 s §:n 2 ja 3 momentissa tarkoitettu omien varojen määrä on pienempi kuin 83 s §:n 1 momentissa tarkoitettu omien varojen vähimmäismäärä, eläkekassan on viipymättä toimitettava Finanssivalvonnan hyväksyttäväksi taloudellisen aseman tervehdyttämissuunnitelma. Tervehdyttämissuunnitelmassa on osoitettava, miten eläkekassa vuoden kuluessa täyttää omien varojen vähimmäismäärän.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/344">HE 344/2014</ref>
+                        </p>
+                        <p>TaVM 30/2014</p>
+                        <p>EV 304/2014</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2009/138/EY (32009L0138); EYVL N:o L 335, 17.12.2009, s. 1.</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2011/89/EU (32011L0089); EYVL N:o L 326, 8.12.2011, s. 113.</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2014/51/EU (32014L0051); EYVL N:o L 153, 22.5.2014, s. 1.</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>  Helsingissä 20 päivänä maaliskuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri</role>
+                                <person refersTo="">Laura Räty</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

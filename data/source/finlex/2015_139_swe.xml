@@ -1,0 +1,225 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/139/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/139"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/139/alkup"/>
+                    <FRBRdate date="2015-02-20" name="dateIssued"/>
+                    <FRBRdate date="2015-02-24" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="139"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/139/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/139/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/139/alkup/swe"/>
+                    <FRBRdate date="2015-02-20" name="dateIssued"/>
+                    <FRBRdate date="2015-02-24" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/139/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/139/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/139/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-02-24" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>139/2015</docNumber>
+                <docTitle>Lag om ändring av lagen om stark autentisering och elektroniska signaturer</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om stark autentisering och elektroniska signaturer (
+                        <affectedDocument href="/akn/fi/act/statute/2009/617">617/2009</affectedDocument>
+                        ) 2 § 12 och 13 punkten, 6 § 3 mom. samt 7 och 17 § samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 2 § 1 mom. en ny 14 punkt och till lagen en ny 12 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Definitioner</heading>
+                    <subsection>
+                        <intro>
+                            <p>I denna lag avses med</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>12) </num>
+                            <content>
+                                <p>
+                                    <i>anordning för signaturframställning</i>
+                                     programvara eller maskinvara för användning av signaturframställningsdata då en elektronisk signatur skapas,
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>13) </num>
+                            <content>
+                                <p>
+                                    <i>signaturverifieringsdata</i>
+                                     data, såsom koder eller öppna nycklar, som används för att verifiera en elektronisk signatur,
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>14) </num>
+                            <content>
+                                <p>
+                                    <i>förtroendenät</i>
+                                     de leverantörer av identifieringstjänster som har gjort en anmälan till Kommunikationsverket.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>6 §</num>
+                    <heading>Behandling av personuppgifter</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>När leverantörer av identifieringstjänster och certifikatutfärdare som tillhandahåller elektroniska signaturer kontrollerar sökandens identitet ska de kräva att han eller hon uppger sin personbeteckning. Leverantörerna av identifieringstjänster och certifikatutfärdarna som tillhandahåller elektroniska signaturer får behandla personbeteckningar i sina register i de syften som nämns i 1 mom. Identifieringsverktyg och certifikat får innehålla personbeteckning, om verktygets eller certifikatets innehåll är tillgängligt endast för dem som nödvändigt behöver personbeteckningen för att tillhandahålla tjänsten. Personbeteckningen får inte vara tillgänglig i en offentlig katalog.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>7 §</num>
+                    <heading>Användning av uppgifter i befolkningsdatasystemet</heading>
+                    <subsection>
+                        <content>
+                            <p>Leverantörer av identifieringstjänster och certifikatutfärdare som tillhandahåller elektroniska signaturer ska inhämta och uppdatera uppgifterna de behöver för tillhandahållandet av identifieringstjänster ur befolkningsdatasystemet. Leverantörer av identifieringstjänster ska dessutom säkerställa att uppgifterna som de behöver för tillhandahållandet av identifieringstjänster är uppdaterade i relation till uppgifterna i befolkningsdatasystemet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En uppgift som lämnas ut ur befolkningsdatasystemet är en offentligrättslig prestation. Bestämmelser om avgiften för en prestation finns i lagen om grunderna för avgifter till staten (150/1992).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>12 a §</num>
+                    <heading>Nätverk för leverantörer av identifieringstjänster</heading>
+                    <subsection>
+                        <content>
+                            <p>När en leverantör av identifieringstjänster gör en anmälan till Kommunikationsverket enligt 10 § ansluter sig leverantören av identifieringstjänster till förtroendenätet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En leverantör av identifieringstjänster som hör till förtroendenätet ska iaktta en sådan administrativ praxis som säkerställer att de tjänster som tillhandahålls av leverantörer av identifieringstjänster och av leverantörer av elektroniska tjänster som använder dessa identifieringstjänster är kompatibla samt erbjuda tekniska gränssnitt som skapar förutsättningar för verksamheten mellan aktörerna som tillhandahåller identifieringstjänster och aktörerna som använder tjänsterna.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>När en leverantör av elektroniska identifieringstjänster skickar en uppgift som gäller ett elektroniskt identifieringsverktyg till en annan leverantör av elektroniska identifieringstjänster för vidareförmedling, ska det för den förmedlade identifieringsuppgiften betalas en ersättning till den som skickat uppgiften. Ersättningen som tas ut för en förmedlad identifieringsuppgift får uppgå till högst 10 cent. Nivån på ersättningen ska bedömas årligen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Leverantörerna av identifieringstjänster svarar i samarbete för att de tekniska gränssnitten och den administrativa praxisen är kompatibla.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Närmare bestämmelser om förtroendenätets administrativa praxis, tekniska gränssnitt och administrativa ansvar utfärdas genom förordning av statsrådet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>17 §</num>
+                    <heading>Identifiering av den som ansöker om ett identifieringsverktyg</heading>
+                    <subsection>
+                        <content>
+                            <p>Om sökanden inte har ett tidigare verktyg för stark autentisering enligt denna lag, ska den inledande identifieringen göras personligen. Om sökanden redan har ett verktyg för stark autentisering, får det identifieringsverktyg som avses i denna lag sökas elektroniskt.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>När den personliga inledande identifieringen görs ska leverantören av identifieringstjänster noggrant identifiera den som ansöker om ett identifieringsverktyg genom att fastställa identiteten med hjälp av ett giltigt pass eller identitetskort som har utfärdats av en myndighet i en medlemsstat inom Europeiska ekonomiska samarbetsområdet, i Schweiz eller i San Marino. Vid den inledande identifieringen får leverantören, om denne så önskar, även använda ett giltigt körkort som har utfärdats efter den 1 oktober 1990 av en myndighet i en medlemsstat i Europeiska ekonomiska samarbetsområdet eller ett giltigt pass som har utfärdats av en myndighet i någon annan stat.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om identiteten hos den som ansöker om ett identifieringsverktyg inte kan verifieras på ett tillförlitligt sätt, ska polisen utföra den inledande identifiering som gäller ansökan. De kostnader som polisens inledande identifiering orsakar den som ansöker om ett identifieringsverktyg är en offentligrättslig prestation. Bestämmelser om avgiften för en sådan prestation finns i lagen om grunderna för avgifter till staten.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Med hjälp av ett befintligt verktyg för stark autentisering ska det kunna ansökas om ett motsvarande elektroniskt identifieringsverktyg. Den leverantör av tjänster för stark autentisering som litar på en tidigare identifiering bär ansvaret i förhållande till den skadelidande om identifieringen är felaktig.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016. Lagens 12 a § tillämpas dock först från och med den 1 maj 2017.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 272/2014</p>
+                        <p>KoUB 33/2014</p>
+                        <p>RSv 257/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 20 febuari 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Undervisnings- och kommunikationsminister</role>
+                                <person refersTo="">Krista Kiuru</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

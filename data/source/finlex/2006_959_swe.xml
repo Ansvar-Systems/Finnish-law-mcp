@@ -1,0 +1,157 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/959/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/959"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/959/alkup"/>
+                    <FRBRdate date="2006-11-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="959"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/959/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/959/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/959/alkup/swe"/>
+                    <FRBRdate date="2006-11-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/959/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/959/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/959/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="143"/>
+                    <finlex:date date="2006-11-14"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>959/2006</docNumber>
+                <docTitle>Lag om ändring av 20 och 22 § i lagen om faderskap</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 5 september 1975 om faderskap (
+                        <affectedDocument href="/akn/fi/act/statute/1975/700">700/1975</affectedDocument>
+                        ) 20 och 22 §, sådana de lyder i lag 927/2002, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>20 §</num>
+                    <heading>Erkännandets ikraftträdande</heading>
+                    <subsection>
+                        <content>
+                            <p>När en man har erkänt sitt faderskap skall den barnatillsyningsman på vilken faderskaputredningen enligt 6 § 2 mom. ankommer ofördröjligen sända handlingarna angående erkännandet och det protokoll som uppsatts om faderskapsutredningen till den magistrat som enligt 2 mom. är behörig att avgöra ärendet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ett ärende som gäller godkännande av erkännande avgörs av magistraten inom barnatillsyningsmannens verksamhetsområde. Om det är nödvändigt i syfte att effektivisera magistraternas verksamhet eller att främja en balanserad regional utveckling, kan genom förordning av inrikesministeriet dock föreskrivas att en magistrats behörighet att avgöra ärenden som gäller godkännande av erkännande av faderskap överförs på en annan magistrat. Genom förordning av inrikesministeriet utfärdas närmare bestämmelser om de magistrater från vilka behörigheten överförs och de magistrater till vilka behörigheten överförs samt om grunderna för kompetensfördelningen mellan de magistrater som tar emot dessa uppgifter.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Erkännandet skall godkännas</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>om erkännandet skett på det sätt som föreskrivs i 15–19 §, och</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>om det inte finns orsak att anta att den man som erkänt faderskapet inte är far till barnet.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Faderskapet är fastställt genom erkännande, när mannen på det sätt som föreskrivs i 15 § 1 och 3 mom. erkänt faderskapet och magistraten godkänt erkännandet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>22 §</num>
+                    <heading>Talerätt</heading>
+                    <subsection>
+                        <content>
+                            <p>Barnet har rätt att föra talan om fastställande av faderskap.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mannen har rätt att föra talan om fastställande av faderskap, om magistraten av ovan i 20 § 3 mom. 2 punkten nämnd orsak inte godkänt erkännandet. Talan skall väckas inom ett år från den dag då mannen fick del av magistratens beslut. Mannen har dock inte rätt att föra talan, om erkännandet gäller ett barn som avses i 2 §.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2007.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 229/2005</p>
+                        <p>FvUB 16/2006</p>
+                        <p>RSv 118/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 10 november 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Seppo Kääriäinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

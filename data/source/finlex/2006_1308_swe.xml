@@ -1,0 +1,155 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1308/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1308"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1308/alkup"/>
+                    <FRBRdate date="2006-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1308"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1308/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1308/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1308/alkup/swe"/>
+                    <FRBRdate date="2006-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1308/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1308/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1308/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="198"/>
+                    <finlex:date date="2006-12-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1308/2006</docNumber>
+                <docTitle>Lag om ändring av militärunderstödslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i militärunderstödslagen av den 20 augusti 1993 (
+                        <affectedDocument href="/akn/fi/act/statute/1993/781">781/1993</affectedDocument>
+                        ) 19 § 1 mom., 20 a och 21 §, sådana de lyder i lag 339/1997, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>19 §</num>
+                    <heading>Ändringssökande</heading>
+                    <subsection>
+                        <content>
+                            <p>Den som är missnöjd med Folkpensionsanstaltens beslut får söka ändring i beslutet hos besvärsnämnden för social trygghet och den som är missnöjd med ett beslut av besvärsnämnden för social trygghet får söka ändring hos försäkringdomstolen. I försäkringdomstolens beslut får ändring inte sökas genom besvär. Angående besvärsnämnden för social trygghet föreskrivs i lagen om besvärsnämnden för social trygghet (1299/2006).</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>20 a §</num>
+                    <heading>Besvär som inkommit för sent</heading>
+                    <subsection>
+                        <content>
+                            <p>Har besvär som anförs hos besvärsnämnden för social trygghet eller försäkringsdomstolen kommit in efter utgången av den tid som föreskrivs i 19 §, kan besvärsinstansen ifråga trots detta ta upp besvären till prövning, om det finns vägande skäl till förseningen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>21 §</num>
+                    <heading>Undanröjande av beslut</heading>
+                    <subsection>
+                        <content>
+                            <p>Om ett lagakraftvunnet beslut av Folkpensionsanstalten grundar sig på en felaktig eller bristfällig utredning eller uppenbart står i strid med lag, kan besvärsnämnden för social trygghet på yrkande av den som saken gäller eller Folkpensionsanstalten undanröja beslutet och bestämma att ärendet skall behandlas på nytt. Besvärsnämnden för social trygghet skall bereda parterna tillfälle att bli hörda innan ärendet avgörs. I beslutet kan ändring sökas i enlighet med vad som föreskrivs i 19 §.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om ett lagakraftvunnet beslut av besvärsnämnden för social trygghet eller försäkringsdomstolen grundar sig på en felaktig eller bristfällig utredning eller uppenbart står i strid med lag, kan försäkringsdomstolen på yrkande av den som saken gäller eller Folkpensionsanstalten undanröja beslutet och bestämma att ärendet skall behandlas på nytt. Försäkringsdomstolen skall bereda parterna tillfälle att bli hörda innan ärendet avgörs.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om Folkpensionsanstalten yrkar på att ett beslut skall undanröjas, kan den avbryta utbetalningen av en förmån eller betala ut förmånen i enlighet med sitt yrkande till dess ärendet har avgjorts på nytt.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ansökan om att ett beslut skall undanröjas skall lämnas in inom fem år från det att beslutet vann laga kraft. Av särskilt vägande skäl kan ett beslut undanröjas även på ansökan som gjorts efter utgången av den föreskrivna tiden.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om ny utredning framkommer i ett ärende som gäller beviljande av förvägrad förmån eller utökande av redan beviljad förmån, skall Folkpensionsanstalten pröva ärendet på nytt. Folkpensionsanstalten kan utan hinder av ett tidigare lagakraftvunnet beslut bevilja en förvägrad förmån eller utöka en redan beviljad förmån. Besvärsnämnden för social trygghet och försäkringsdomstolen kan tillämpa motsvarande förfarande när de behandlar ärenden som gäller ändringssökande. I beslutet kan ändring sökas enligt 19 §.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2007. </p>
+                    <p>Ett beslut som besvärsnämnden för social trygghet har fattat i enlighet med denna lag och genom vilket nämnden har avgjort besvär över ett beslut av socialförsäkringsnämnden får inte överklagas hos försäkringsdomstolen.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 167/2006</p>
+                        <p>ShUB 34/2006</p>
+                        <p>RSv 168/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 22 december 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

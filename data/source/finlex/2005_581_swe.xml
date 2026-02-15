@@ -1,0 +1,290 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/581/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/581"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/581/alkup"/>
+                    <FRBRdate date="2005-07-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="581"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/581/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/581/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/581/alkup/swe"/>
+                    <FRBRdate date="2005-07-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/581/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/581/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/581/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="103"/>
+                    <finlex:date date="2005-07-26"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>581/2005</docNumber>
+                <docTitle>Lag om ändring av utlänningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs </i>
+                        i utlänningslagen av den 30 april 2004 (<affectedDocument href="/akn/fi/act/statute/2004/301">301/2004</affectedDocument>) 191 § 1 mom. 6 punkten,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         3 § 21 punkten, 4 § 3 mom., 12, 123, 174 och 179 § samt 181 § 1 mom. och 185 § 2 mom., samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 182 §, sådan den lyder i lag 653/2004, ett nytt 2 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Definitioner</heading>
+                    <subsection>
+                        <intro>
+                            <p>I denna lag avses med</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>21)</num>
+                            <content>
+                                <p>
+                                    <i>gränskontrollmyndighet</i>
+                                     gränsbevakningsväsendet och andra myndigheter som har rätt att genomföra gränskontroll enligt gränsbevakningslagen (578/2005).
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>4 §</num>
+                    <heading>Förhållande till andra lagar</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>På undersökning som gränsbevakningsväsendet utför med stöd av denna lag tillämpas 27 § i gränsbevakningslagen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>12 §</num>
+                    <heading>Bestämmelser om passerande av gränsen</heading>
+                    <subsection>
+                        <content>
+                            <p>I gränsbevakningslagen och bestämmelser som utfärdats med stöd av den föreskrivs om passerande av gränsen, gränsövergångsställen och deras öppettider samt fördelningen av gränskontrolluppgifter mellan gränsbevakningsväsendet, polisen och tullen på olika gränsövergångsställen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>123 §</num>
+                    <heading>Beslut om tagande i förvar och placering av utlänningar som tagits i förvar</heading>
+                    <subsection>
+                        <content>
+                            <p>Beslut om tagande i förvar fattas av en tjänsteman som hör till befälet vid polisinrättningen i häradet eller vid centralkriminalpolisen, skyddspolisen eller rörliga polisen och av en anhållningsberättigad tjänsteman vid gränsbevakningsväsendet eller av en gränsbevakningsman med minst majors grad samt av chefen för ett gränsbevaknings- eller sjöbevakningsområde och av chefen för en gränskontrollavdelning. Den som tagits i förvar eller hans eller hennes lagliga företrädare skall meddelas grunden för tagandet i förvar.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En utlänning som tagits i förvar skall så snart som möjligt placeras i en sådan förvarsenhet som avses i lagen om bemötande av utlänningar som tagits i förvar och om förvarsenheter (116/2002).</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>En i 1 mom. avsedd tjänsteman kan fatta beslut om exceptionell placering av en i förvar tagen utlänning i polisens häkteslokaler, om</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>förvarsenheterna tillfälligt är fullsatta, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>utlänningen tas i förvar långt från den närmaste förvarsenheten, varvid förvaret får fortgå högst fyra dygn i polisens häkteslokaler.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>I situationer enligt 3 mom. 2 punkten kan en utlänning exceptionellt placeras i gränsbevakningsväsendets häkteslokaler i stället för polisens, dock längst för 48 timmar.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En person som inte har fyllt 18 år får placeras i polisens eller gränsbevakningsväsendets häkteslokaler endast om också hans eller hennes vårdnadshavare eller någon annan myndig familjemedlem har tagits i förvar i polisens eller gränsbevakningsväsendets häkteslokaler.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>I fråga om utlänningar som placerats i polisens eller gränsbevakningsväsendets häkteslokaler tillämpas lagen om bemötande av utlänningar som tagits i förvar och om förvarsenheter. För att ordningen och säkerheten skall kunna upprätthållas i häkteslokalerna kan i fråga om utlänningarna dock 5, 6, 6 a och 7 § i lagen om rannsakningsfängelse (615/1974) tillämpas till den del det är nödvändigt om de åtgärder som avses i nämnda paragrafer är förenliga med grunderna för att utlänningarna tagits i förvar.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>174 §</num>
+                    <heading>Anmälnings- och övervakningsskyldighet för fordonsförare och transportörer</heading>
+                    <subsection>
+                        <content>
+                            <p>En fordonsförare, befälhavaren för ett fartyg eller luftfartyg samt transportörens företrädare i något annat trafikmedel är skyldiga att övervaka att ingen som saknar rätt därtill tar sig in i landet utan gränskontrollmyndighetens samtycke. En fartygsbefälhavare skall i förväg underrätta gränskontrollmyndigheten om fripassagerare som påträffats ombord.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelser om anmälningsskyldighet för fordonsförare och transportörer finns i 19 och 20 § i lagen om behandling av personuppgifter vid gränsbevakningsväsendet (579/2005).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>179 §</num>
+                    <heading>Påföljdsavgift för transportör</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                En transportör som bryter mot den kontrollskyldighet som föreskrivs i 173 § eller den skyldighet att lämna uppgifter som avses i 20 § i lagen om behandling av personuppgifter vid gränsbevakningsväsendet påförs en påföljdsavgift (<i>påföljdsavgift för transportör</i>). Avgiften för brott mot 173 § utgör 3 000 euro per person som transporterats. Avgiften för brott mot 20 § i lagen om behandling av personuppgifter vid gränsbevakningsväsendet utgör 3 000 euro för varje sådan resa för vilken uppgifter om passagerare inte meddelats eller för vilken bristfälliga eller felaktiga uppgifter meddelats.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Påföljdsavgift för transportör påförs inte, om</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>transportören visar att han iakttagit skyldigheten att försäkra sig om att utlänningen vid medtagandet för transport haft ett sådant resedokument samt ett sådant visum eller uppehållstillstånd som krävs,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>det resedokument, visum eller uppehållstillstånd som krävs har visat sig vara förfalskat och förfalskningen inte har kunnat urskiljas klart,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>transporten av en person utan ett sådant resedokument, visum eller uppehållstillstånd som krävs eller felet i fråga om de uppgifter som skall lämnas om passagerare i flygtrafik har berott på ouppmärksamhet som med beaktande av samtliga omständigheter är ursäktlig,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>om det i övrigt, med hänsyn till omständigheterna skulle vara oskäligt att påföra avgift.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelserna i 2 mom. 1 punkten tillämpas inte vid påförande av avgift för brott mot 20 § i lagen om behandling av personuppgifter vid gränsbevakningsväsendet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>181 §</num>
+                    <heading>Påförande av påföljdsavgift för transportör</heading>
+                    <subsection>
+                        <content>
+                            <p>Påföljdsavgiften för transportör påförs i samband med gränskontrollen av kommendören eller biträdande kommendören för den gräns- eller sjöbevakningssektion eller chefen för den gräns- eller sjöbyrå inom vars verksamhetsområde överträdelsen av 173 § i denna lag eller 20 § i lagen om behandling av personuppgifter vid gränsbevakningsväsendet har konstaterats. Om polisen har varit gränskontrollmyndighet, påförs påföljdsavgiften för transportör av en tjänsteman som ingår i befälet för polisinrättningen i häradet. Om tullmyndigheten har utgjort gränskontrollmyndighet, påförs påföljdsavgiften för transportör av chefen för tulldistriktet eller chefen för tulldistriktets övervakningsenhet.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>182 §</num>
+                    <heading>Avlyftande av påföljdsavgift för transportör</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelserna i denna paragraf gäller inte en påföljdsavgift som påförs för brott mot 20 § i lagen om behandling av personuppgifter vid gränsbevakningsväsendet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>185 §</num>
+                    <heading>Utlänningsförseelse</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>För utlänningsförseelse döms även den som uppsåtligen eller av grov oaktsamhet försummar sin skyldighet enligt 174 eller 175 § i denna lag eller 19 eller 20 § i lagen om behandling av personuppgifter vid gränsbevakningsväsendet.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 september 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 6/2005</p>
+                        <p>FuUB 12/2005</p>
+                        <p>RSv 92/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 15 juli 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

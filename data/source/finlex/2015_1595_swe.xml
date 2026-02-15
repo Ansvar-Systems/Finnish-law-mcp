@@ -1,0 +1,330 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1595/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1595"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1595/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1595"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1595/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1595/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1595/alkup/swe"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1595/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1595/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1595/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1595/2015</docNumber>
+                <docTitle>Lag om ändring av ärvdabalken</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till ärvdabalken (
+                        <affectedDocument href="/akn/fi/act/statute/1965/40">40/1965</affectedDocument>
+                        ) ett nytt 23 a kap. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>23 a kap.</num>
+                    <heading>Om omskifte och skyldighet att återbära egendom</heading>
+                    <section>
+                        <num>1 §</num>
+                        <subsection>
+                            <content>
+                                <p>En arvinge eller en universell testamentstagare som inte har varit part i ett tidigare förrättat arvskifte, kan yrka omskifte, om hans eller hennes rätt till arv inte har preskriberats.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>2 §</num>
+                        <subsection>
+                            <intro>
+                                <p>Om inte något annat följer av 3 §, är den som har fått egendom ur kvarlåtenskapen skyldig att återbära egendom till dödsboet för att omskifte ska kunna förrättas, enligt följande:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>den som har fått egendom i arv eller med stöd av ett universaltestamente eller på basis av 5 kap. 2 §, den erhållna egendomen,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>den som har fått egendom som legat, den erhållna egendomen, om fullgörande av legatet kränker laglotten eller någon annan rätt för den som yrkar omskifte,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>den som har fått egendom som bidrag eller gottgörelse enligt 8 kap. eller som underhåll enligt 18 kap. 6 § 2 mom., den erhållna egendomen, till den del mottagaren har fått betydligt mer än vad han eller hon skulle ha varit berättigad till.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Återbäringsskyldighet enligt i 1 mom. föreligger dock inte, om det är uppenbart att egendom inte behöver återbäras för att rätten för den som yrkar omskifte ska tryggas.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>3 §</num>
+                        <subsection>
+                            <content>
+                                <p>Om den som yrkar omskifte har uppnått ställning av arvinge först efter det att arvskifte förrättades, kan den återbäringsskyldige i stället för att återbära egendomen betala dödsboet en penningersättning som motsvarar värdet av den egendom som han eller hon har fått för mycket. Vid beräkning av den penningersättning som ska återbäras ska egendomen ges det värde som den hade vid mottagandet, om det inte finns särskilda skäl att avvika från detta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 §</num>
+                        <subsection>
+                            <content>
+                                <p>Om den egendom som ska återbäras inte finns kvar eller av någon annan orsak inte kan återbäras, ska dess värde ersättas. Egendomens värde bestäms på det sätt som föreskrivs i 3 §.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om egendomen kan återbäras, men den återbäringsskyldige visar att en återbäring skulle förorsaka honom eller henne betydande olägenhet, kan den återbäringsskyldige i stället för att återbära egendomen betala dödsboet en penningersättning som motsvarar egendomens värde vid den tidpunkt då egendomen togs emot. Om egendomens värde vid den tidpunkt när ersättningen bestäms överstiger värdet vid den tidpunkt då egendomen togs emot och värdeökningen inte är en följd av den återbäringsskyldiges egen verksamhet, ska ersättning dock betalas enligt värdet vid den tidpunkt när ersättningen bestämdes.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>5 §</num>
+                        <subsection>
+                            <content>
+                                <p>Om värdet av den egendom som ska återbäras har minskat väsentligt till följd av slitage eller skada, ska den återbäringsskyldige ersätta värdeminskningen. Har egendomens värde minskat av någon annan orsak, ska den återbäringsskyldige betala en skälig ersättning för värdeminskningen, om det anses finnas särskilda skäl till detta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <subsection>
+                            <content>
+                                <p>Den återbäringsskyldige ska på den penningersättning som ska återbäras betala ränta enligt 3 § 2 mom. i räntelagen från den tidpunkt vid vilken han eller hon fick egendomen i sin besittning. Ersättning ska betalas för avkastningen på annan egendom som ska återbäras eller för värdet på denna avkastning, och skälig ersättning ska betalas för den nytta som erhållits av egendomen. Ersättning för nytta behöver dock inte betalas, om ersättningen kan anses ingå i den ersättning som betalas för värdeminskning på egendomen. </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>I 1 mom. avsedd ränta eller ersättning ska dock betalas tidigast från den tidpunkt då den återbäringsskyldige blev eller borde ha blivit medveten om rätten till kvarlåtenskap för den som yrkar omskifte.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Den återbäringsskyldige ska på den penningersättning som ska återbetalas betala dröjsmålsränta enligt 4 § 1 mom. i räntelagen från den tidpunkt vid vilken yrkandet på återbäring framställdes.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>7 §</num>
+                        <subsection>
+                            <content>
+                                <p>Den återbäringsskyldige har rätt till ersättning av dödsboets medel för de behövliga kostnader som han eller hon har haft för den egendom som ska återbäras och, om det prövas skäligt, även för andra kostnader.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 §</num>
+                        <subsection>
+                            <content>
+                                <p>Om en återbäringsskyldighet enligt 2—6 § är oskälig, kan den jämkas.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>När jämkning av återbäringsskyldigheten prövas ska följande beaktas:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>huruvida den återbäringsskyldige då han eller hon fick egendomen hade eller borde ha haft kännedom om rätten till kvarlåtenskap för den som yrkar omskifte,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>den tid som förflutit från det att egendomen erhölls till dess att ett yrkande på återbäring framställdes,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>vilka ekonomiska förhållanden den återbäringsskyldige och den som yrkar omskifte har och vilka verkningar återbäringsskyldigheten har på deras utkomst, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>andra med dessa jämförbara omständigheter.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>När jämkning av ersättningsskyldighet enligt 4 § 1 mom. och 5 § prövas ska hänsyn dessutom tas till orsakerna till att egendomen inte kan återbäras eller till att dess värde har minskat.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <subsection>
+                            <content>
+                                <p>Avtal om återbäring av egendom kan ingås. Ett avtal ska ingås skriftligen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Domstolen kan på ansökan av den som yrkar omskifte förordna en boutredningsman att sköta återbäringen av egendomen till dödsboet för att omskifte ska kunna förrättas.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Boutredningsmannen ska med dem som har fått egendom ur kvarlåtenskapen försöka nå avtal om återbäring av egendomen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>På boutredningsman tillämpas i övrigt vad som föreskrivs i 19 kap.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>10 §</num>
+                        <subsection>
+                            <content>
+                                <p>Om boutredningsmannen inte når avtal om återbäring av egendom med den som fått egendom eller om den som fått egendom inte återbär egendom enligt vad som avtalats, ska boutredningsmannen föra talan om återbäringsskyldighet mot honom eller henne.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Domstolen ska vid handläggningen av ärendet ge den som yrkar omskifte tillfälle att bli hörd.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>11 §</num>
+                        <subsection>
+                            <content>
+                                <p>För omskifte av egendomen ska ett nytt arvskifte förrättas.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Den som med stöd av 2 § 2 mom. inte har återburit egendom eller den som på det sätt som anges i 3 § har betalat dödsboet en penningersättning som motsvarar värdet av den egendom som han eller hon har fått för mycket, deltar inte i omskiftet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om återbäringsskyldigheten för den som har fått egendom har jämkats, ska det belopp med vilket hans eller hennes återbäringsskyldighet har sänkts på grund av jämkningen beaktas som redan erhållen arvslott vid omskiftet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>I den skifteshandling som upprättas över omskifte ska det nämnas att den ersätter den tidigare skifteshandlingen i fråga om dem som deltar i omskiftet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>På omskifte tillämpas i övrigt vad som i 23 kap. föreskrivs om arvskifte.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>12 §</num>
+                        <subsection>
+                            <content>
+                                <p>Om ett dödsbo vid avvittring, vid åtskiljande av egendom eller genom att lämna gottgörelse enligt 8 § i lagen om upplösning av sambors gemensamma hushåll (26/2011) efter arvlåtarens död har överlåtit avsevärt mer egendom till arvlåtarens make eller sambo eller dennes arvingar än vad dödsboet skulle ha varit skyldigt att överlåta, kan en arvinge eller en universell testamentstagare som inte har varit part vid förrättningen yrka att avvittringen, åtskiljandet av egendomen eller gottgörelsen rättas, om hans eller hennes rätt till arv inte har preskriberats.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>För att avvittringen, åtskiljandet av egendomen eller gottgörelsen ska kunna rättas är arvlåtarens make eller sambo eller dennes arvinge skyldig att återbära erhållen egendom till dödsboet till den del han eller hon har fått avsevärt mer än vad han eller hon skulle ha varit berättigad till. På återbäringsskyldighet tillämpas vad som föreskrivs i 3—8 §.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vad som i 9—11 § föreskrivs om omskifte, tillämpas också på rättelse av avvittring, åtskiljande av egendom eller gottgörelse.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016.</p>
+                    <p>Denna lag tillämpas också på arvskifte, avvittring eller åtskiljande av egendom som har förrättats eller på gottgörelse som har lämnats före ikraftträdandet.</p>
+                    <p>Denna lag inverkar inte på sådana avtals giltighet som har ingåtts före ikraftträdandet av denna lag för förrättande av omskifte eller för rättelse av avvittring, åtskiljande av egendom eller gottgörelse.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/72">RP 72/2015</ref>
+                        </p>
+                        <p>LaUB 5/2015</p>
+                        <p>RSv 84/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 30 december 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommunikationsminister</role>
+                                <person refersTo="">Anne Berner</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

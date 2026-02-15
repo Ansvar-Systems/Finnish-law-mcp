@@ -1,0 +1,172 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/194/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/194"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/194/alkup"/>
+                    <FRBRdate date="2005-04-01" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="194"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/194/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/194/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/194/alkup/fin"/>
+                    <FRBRdate date="2005-04-01" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/194/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/194/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/194/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="37"/>
+                    <finlex:date date="2005-04-06"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>194/2005</docNumber>
+                <docTitle>Laki valtion eläkelain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         20 päivänä toukokuuta 1966 annetun valtion eläkelain (
+                        <affectedDocument href="/akn/fi/act/statute/1966/280">280/1966</affectedDocument>
+                        ) 17 §:n 1 momentti, 23 §:n 2 momentti ja 25 §,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 17 §:n 1 momentti laissa 625/2000, 23 §:n 2 momentti laissa 1189/1994 ja 25 § osaksi laeissa 1528/1993 ja 1184/2003, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         21 §:ään uusi 2 momentti, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>17 §</num>
+                    <subsection>
+                        <content>
+                            <p>Jos edunsaaja iän, vamman, sairauden tai muun syyn takia ei itse pysty hakemaan etuutta tai muuten hoitamaan etuutta koskevia asioitaan eikä hänellä ole edunvalvojaa, voi valtiokonttorin hyväksymä edunsaajan lähiomainen tai muu henkilö, joka on pääasiallisesti huolehtinut hänestä, edunsaajan puolesta käyttää puhevaltaa tämän lain mukaista etuutta koskevassa asiassa.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>21 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Tämän lain mukaisen etuuden saaminen vanhentuu kymmenen vuoden kuluttua siitä päivästä lukien, jona se olisi pitänyt maksaa, jollei vanhentumista ole sitä ennen katkaistu. Vanhentumisen katkaisemisesta alkaa kulua uusi viiden vuoden vanhentumisaika. Vanhentuminen katkeaa siten kuin velan vanhentumisesta annetun lain (728/2003) 10 tai 11 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>23 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Valitusaika on 30 päivää päätöksen tiedoksisaannista. Valtiokonttori ja valtion eläkelautakunta antaa päätöksensä tiedoksi lähettämällä sen vastaanottajalle hänen ilmoittamaansa postiosoitteeseen kirjeellä. Jollei valituksen yhteydessä muuta näytetä, katsotaan valittajan saaneen päätöksestä tiedon seitsemäntenä päivänä sen jälkeen, kun päätös on hänen ilmoittamallaan osoitteella varustettuna annettu postin kuljetettavaksi. Valtiokonttorin valitusaika luetaan päätöksen tekemisestä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>25 §</num>
+                    <subsection>
+                        <content>
+                            <p>Aiheettomasti maksettu eläke on perittävä takaisin, jos edunsaaja on saanut tähän lakiin perustuvaa eläkettä enemmän kuin mihin hänellä on ollut oikeus.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Aiheettomasti maksettu eläkemäärä voidaan jättää osittain tai kokonaan takaisin perimättä, jos sen myöntämisen tai maksamisen ei ole katsottava johtuneen eläkkeen saajan tai hänen edustajansa vilpillisestä menettelystä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Aiheettomasti maksettu etuus saadaan periä takaisin myös kuittaamalla se vastaisuudessa maksettavista eläke-eristä. Kulloinkin suoritettavasta eläke-erästä ei kuitenkaan saa eläkkeensaajan suostumuksetta vähentää enempää kuin kuudesosan siitä eläke-erän osasta, joka jää jäljelle sen jälkeen, kun eläke-erästä on ennakkoperintälain (418/1959) nojalla pidätetty ennakko tai rajoitetusti verovelvollisen tulon ja varallisuuden verottamisesta annetun lain (627/1978) nojalla lähdevero.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mitä 1 ja 2 momentissa säädetään, sovelletaan myös silloin, kun valtiokonttori on 3 a §:n 1 momentissa tarkoitettuna viimeisenä eläkelaitoksena toimiessaan maksanut tämän lain mukaisia etuuksia aiheettomasti. Siltä osin kuin valtiokonttori on maksanut aiheettomasti kunnallisen eläkelain, evankelis-luterilaisen kirkon eläkelain, Kansaneläkelaitoksesta annetun lain 13 §:n tai yksityisten alojen eläkelakien mukaista etuutta, takaisinperinnästä päättävät näistä etuuksista huolehtivat eläkelaitokset siten kuin näissä laeissa säädetään. Valtiokonttori antaa kuitenkin viimeisenä eläkelaitoksena toimiessaan takaisinperittävistä etuuksista päätösyhdistelmän ja perii takaisinperittävän määrän. Jos valtiokonttori perii takaisinperittävän määrän kuittaamalla, sovelletaan 3 momenttia, ja siinä tarkoitettuna eläke-eränä pidetään valtiokonttorin viimeisenä eläkelaitoksena maksettavana olevien eläke-erien yhteismäärää.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Aiheettomasti maksettu etuus on perittävä takaisin kymmenen vuoden kuluessa etuuden maksupäivästä lukien. Takaisinperintäpäätöksellä vahvistettu saatava vanhentuu viiden vuoden kuluttua päätöksen antamisesta, jollei vanhentumista ole sitä ennen katkaistu. Takaisinperintäpäätöksellä vahvistetun saatavan vanhentuminen katkeaa siten kuin velan vanhentumisesta annetun lain 10 tai 11 §:ssä säädetään. Tämän vanhentumisajan katkaisemisesta alkaa kulua uusi viiden vuoden vanhentumisaika.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 15 päivänä huhtikuuta 2005.</p>
+                    <p>Lain 21 §:n 2 momenttia ja 25 §:n 5 momenttia sovelletaan myös ennen lain voimaantuloa syntyneeseen saatavaan ja maksettuun etuuteen. Tällaisen saatavan vanhentumisaikaa laskettaessa otetaan huomioon myös ennen lain voimaantuloa kulunut aika. Kysymyksessä oleva saatava vanhentuu kuitenkin tämän lain nojalla aikaisintaan kolmen vuoden kuluttua lain voimaantulosta, jollei se vanhentuisi myös 31 päivänä joulukuuta 2003 voimassa olleiden säännösten mukaan tätä ennen.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/273">HE 273/2004</ref>
+                        </p>
+                        <p>StVM 1/2005</p>
+                        <p>EV 3/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 1 päivänä huhtikuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Hannes Manninen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

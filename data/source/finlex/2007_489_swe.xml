@@ -1,0 +1,158 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/489/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/489"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/489/alkup"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="489"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/489/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/489/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/489/alkup/swe"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/489/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/489/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/489/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="69"/>
+                    <finlex:date date="2007-04-25"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>489/2007</docNumber>
+                <docTitle>Lag om inspektion av energieffektiviteten hos kylanläggningarna i en byggnads luftkonditioneringssystem</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut föreskrivs:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section eId="sec_1">
+                    <num>1 §</num>
+                    <heading>Kylanläggningar som skall inspekteras</heading>
+                    <subsection eId="sec_1__subsec_1">
+                        <content>
+                            <p>Sådana kylanläggningar i ett luftkonditioneringssystem i en byggnad eller en del av den som har en nominell kyleffekt på minst 12 kilowatt och vilkas effekt baserar sig på användningen av en kompressor skall inspekteras minst en gång på tio år.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_1__subsec_2">
+                        <content>
+                            <p>Om kylanläggningar med en nominell effekt på mindre än 12 kilowatt är funktionellt sammankopplade så att den sammanlagda kyleffekten är minst 12 kilowatt skall också dessa kylanläggningar inspekteras minst en gång på tio år.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_1__subsec_3">
+                        <content>
+                            <p>System för fjärrkyla behöver dock inte inspekteras enligt denna lag.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_2">
+                    <num>2 §</num>
+                    <heading>Skyldighet att sörja för inspektionen</heading>
+                    <subsection eId="sec_2__subsec_1">
+                        <content>
+                            <p>Den som äger en byggnad skall sörja för att kylanläggningarna i byggnadens luftkonditioneringssystem är inspekterade på behörigt sätt.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_3">
+                    <num>3 §</num>
+                    <heading>Inspektionens innehåll</heading>
+                    <subsection eId="sec_3__subsec_1">
+                        <content>
+                            <p>Vid en inspektion skall anläggningarnas skick och effektivitet bedömas.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_2">
+                        <content>
+                            <p>Byggnadens ägare skall ges ett certifikat över inspektionen i vilket anläggningarnas skick och effektivitet anges. Certifikatet skall i mån av möjlighet åtföljas av rekommendationer för åtgärder genom vilka anläggningarnas energieffektivitet kan förbättras.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_4">
+                    <num>4 §</num>
+                    <heading>Den som utför inspektionen</heading>
+                    <subsection eId="sec_4__subsec_1">
+                        <content>
+                            <p>Inspektion av kylanläggningarna i ett luftkonditioneringssystem kan utföras av en rörelse som har den behörighet som förutsätts av en verksamhetsutövare som installerar eller utför underhåll på anläggningar som innehåller minst tre kilogram kylmedier enligt statsrådets förordning om underhåll av anläggningar som innehåller ämnen som bryter ned ozonskiktet samt vissa fluorkolväten samt om behörighetskrav för personer som utför underhåll på och avfallshantering för sådana anläggningar (1187/2001).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_5">
+                    <num>5 §</num>
+                    <heading>Ikraftträdande</heading>
+                    <subsection eId="sec_5__subsec_1">
+                        <content>
+                            <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_2">
+                        <content>
+                            <p>Kylanläggningar som tagits i bruk före år 2000 skall inspekteras inom fem år från det att denna lag har trätt i kraft.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 170/2006</p>
+                        <p>MiUB 9/2006</p>
+                        <p>RSv 302/2006</p>
+                        <p>Europaparlamentets och rådets direktiv 2002/91/EG (32002L0091); EGT nr L 1, 4.1.2003, s. 65</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 13 april 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Miljöminister </role>
+                                <person refersTo="">Stefan Wallin</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

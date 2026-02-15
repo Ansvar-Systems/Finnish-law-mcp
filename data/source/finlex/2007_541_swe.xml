@@ -1,0 +1,204 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/541/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/541"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/541/alkup"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="541"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/541/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/541/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/541/alkup/swe"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/541/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/541/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/541/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="80"/>
+                    <finlex:date date="2007-05-16"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>541/2007</docNumber>
+                <docTitle>Lag om ändring av 4 kap. i tvångsmedelslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i tvångsmedelslagen av den 30 april 1987 (<affectedDocument href="/akn/fi/act/statute/1987/450">450/1987</affectedDocument>) 4 kap. 1 § och 15 a § 1 mom., av dem 15 a § 1 mom. sådant det lyder i lag 10/1994, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 4 kap. nya 4 a―4 c § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>4 kap.</num>
+                    <heading>Beslag</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Förutsättningar för beslag</heading>
+                        <subsection>
+                            <content>
+                                <p>Föremål och handlingar får tas i beslag, om det finns skäl att anta att de kan ha betydelse som bevis i brottmål eller att de har avhänts någon genom brott eller att en domstol förklarar dem förverkade.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Vad som bestäms i 1 mom. gäller också information som finns i en dator eller i något annat motsvarande informationssystem eller på dess lagringsplattform (<i>data</i>).
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vad som i detta kapitel bestäms om handlingar tillämpas även på handlingar i form av data.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 a §</num>
+                        <heading>Skyldighet för innehavare av informationssystem att lämna uppgifter</heading>
+                        <subsection>
+                            <content>
+                                <p>Innehavaren av ett informationssystem, den som svarar för systemet eller någon annan person är skyldig att på begäran ge förundersökningsmyndigheten lösenord och andra motsvarande uppgifter som han eller hon har kännedom om och som behövs för verkställande av beslag. Personen i fråga skall, om han eller hon så önskar, få ett skriftligt intyg över begäran.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Den som vägrar att lämna uppgifterna kan förhöras i domstol så som bestäms i 28 § i förundersökningslagen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vad som bestäms i 1 och 2 mom. gäller inte en misstänkt och inte heller en person som med stöd av 27 § i förundersökningslagen har rätt eller skyldighet att vägra vittna vid en förundersökning.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 b §</num>
+                        <heading>Föreläggande att säkra data</heading>
+                        <subsection>
+                            <content>
+                                <p>Om det finns skäl att anta att data som kan ha betydelse för utredningen av det brott som undersöks går förlorade eller förändras, kan en anhållningsberättigad tjänsteman ålägga den som innehar eller har bestämmanderätten över dessa data, dock inte den som misstänks för brott, att säkra uppgifterna så att de inte ändras. Personen i fråga skall på begäran få ett skriftligt intyg över föreläggandet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Vad som bestäms i 1 mom. gäller även sådana uppgifter i anslutning till ett meddelande som förmedlats med hjälp av ett informationssystem vilka anger meddelandets ursprung, destination, färdväg, storlek, tidpunkt, varaktighet, art och andra motsvarande omständigheter (<i>trafikuppgifter</i>).
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Förundersökningsmyndigheten har inte med stöd av ett sådant föreläggande att säkra data som avses i 1 mom. rätt att ta del av innehållet i ett meddelande, i trafikuppgifter eller i andra lagrade uppgifter. Om flera tjänsteleverantörer har deltagit i förmedlingen av ett sådant meddelande som avses i 2 mom., har förundersökningsmyndigheten rätt att ta del av de trafikuppgifter som behövs för att identifiera tjänsteleverantörerna.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 c §</num>
+                        <heading>Varaktigheten av ett föreläggande att säkra data samt tystnadsplikt</heading>
+                        <subsection>
+                            <content>
+                                <p>Ett föreläggande att säkra data utfärdas för viss tid, högst tre månader. Tiden kan förlängas med högst tre månader åt gången, om det är nödvändigt för utredningen av brottet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Den som fått ett föreläggande att säkra data är skyldig att hemlighålla det.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Till straff för brott mot tystnadsplikt som avses i 2 mom. döms enligt 38 kap. 1 eller 2 § i strafflagen, om inte strängare straff för gärningen föreskrivs någon annanstans i lag.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>15 a §</num>
+                        <heading>Beslut om beslag när en främmande stat har begärt rättshjälp</heading>
+                        <subsection>
+                            <content>
+                                <p>Föremål, handlingar och data kan på begäran av en utländsk myndighet tas i beslag, om de kan utgöra bevis i ett brottmål som behandlas av den utländska myndigheten eller om de har avhänts någon genom brott. Ett föremål kan tas i beslag, om det genom ett beslut av en utländsk domstol har förklarats förverkat med anledning av ett brott eller om det med fog kan antas att föremålet med anledning av ett brott kommer att förklaras förverkat i ett mål som behandlas av en utländsk myndighet.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 september 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 153/2006</p>
+                        <p>LaUB 23/2006</p>
+                        <p>RSv 264/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 11 maj 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Tuija Brax</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

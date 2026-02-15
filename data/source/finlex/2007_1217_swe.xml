@@ -1,0 +1,133 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1217/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1217"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1217/alkup"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1217"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1217/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1217/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1217/alkup/swe"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1217/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1217/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1217/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="177"/>
+                    <finlex:date date="2007-12-18"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1217/2007</docNumber>
+                <docTitle>Lag om ändring av 7 c och 10 a § i lagen om klientavgifter inom social- och hälsovården</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 3 augusti 1992 om klientavgifter inom social- och hälsovården (
+                        <affectedDocument href="/akn/fi/act/statute/1992/734">734/1992</affectedDocument>
+                        ) 7 c § 1 och 2 mom. och 10 a § 2 mom., sådana de lyder, 7 c § 1 och 2 mom. i lag 221/2003 och 10 a § 2 mom. i lag 1134/1996, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>7 c §</num>
+                    <heading>Grunderna för avgifter som tas ut för långvarig anstaltsvård</heading>
+                    <subsection>
+                        <content>
+                            <p>Hos personer i långvarig anstaltsvård tas ut en avgift som bestäms enligt betalningsförmågan. Avgiften kan uppgå till högst 82 procent av klientens månadsinkomster enligt denna lag, om inte något annat bestäms i denna lag. Avgiften får dock vara högst så stor att den som får vård månatligen till sitt förfogande har minst 90 euro.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om den som är i långvarig anstaltsvård omedelbart innan anstaltsvården inletts har levt i gemensamt hushåll i äktenskap eller äktenskapsliknande förhållanden och hans eller hennes månadsinkomster är större än makens månadsinkomster, bestäms avgiften på basis av makarnas sammanräknade månadsinkomster. Den avgift som tas ut hos en person i långvarig anstaltsvård kan uppgå till högst 41 procent av de på ovan nämnda grunder sammanräknade månadsinkomsterna. Den som får anstaltsvård ska dock till sitt förfogande ha minst 90 euro i månaden. Om båda de makar som avses i detta moment är i långvarig anstaltsvård, bestäms avgiften dock enligt vad som anges i 1 mom.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>10 a §</num>
+                    <heading>Inkomster som ligger till grund för bestämmande av dagvårdsavgift</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Som inkomst av skog beaktas den enligt 7 § 3 mom. i lagen om värdering av tillgångar vid beskattningen (1142/2005) fastställda genomsnittliga årliga avkastningen för skog per hektar multiplicerad med arealen skogsmark. Från detta belopp dras av 10 procent och räntorna från skogsbruket. Inkomsten av skog ska dessutom nedsättas på klientens yrkande, om nettopenningvärdet av den lägenhetsbestämda årliga avverkningsmöjligheten enligt skogsvårdsföreningens eller skogscentralens utlåtande är minst 10 procent lägre än inkomsten av skog. Nedsättningen motsvarar skillnaden mellan inkomsten av skog och nettopenningvärdet av den möjliga avverkningen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008. </p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 101/2007</p>
+                        <p>ShUB 10/2007</p>
+                        <p>RSv 58/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 7 december 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Omsorgsminister </role>
+                                <person refersTo="">Paula Risikko</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,289 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/635/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/635"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/635/alkup"/>
+                    <FRBRdate date="2005-08-19" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="635"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/635/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/635/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/635/alkup/fin"/>
+                    <FRBRdate date="2005-08-19" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/635/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/635/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/635/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="110"/>
+                    <finlex:date date="2005-08-24"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>635/2005</docNumber>
+                <docTitle>Laki Yleisradio Oy:stä annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         Yleisradio Oy:stä 22 päivänä joulukuuta 1993 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1993/1380">1380/1993</affectedDocument>
+                        ) 6 ja 7 §, sellaisina kuin ne ovat, 6 § osaksi laeissa 746/1998 ja 396/2003 ja 7 § osaksi mainitussa laissa 746/1998 ja laissa 492/2002 sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 6 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>2 luku</num>
+                    <heading>Yhtiön hallinto</heading>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Hallintoneuvoston tehtävät</heading>
+                        <subsection>
+                            <intro>
+                                <p>Hallintoneuvoston tehtävänä on:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>valita ja vapauttaa yhtiön hallitus ja hallituksen puheenjohtaja sekä määrätä hallituksen jäsenten palkkio;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>päättää asioista, jotka koskevat toiminnan huomattavaa supistamista tai laajentamista tai yhtiön organisaation olennaista muuttamista;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>huolehtia ja valvoa, että julkisen palvelun ohjelmatoiminnan mukaiset tehtävät tulevat suoritetuiksi;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>antaa Saamelaiskäräjiä asiasta kuultuaan julkisen palvelun toteutumisesta joka toinen vuosi kahta toimintavuotta käsittävä kertomus eduskunnalle;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>päättää talouden ja toiminnan suuntaviivoista;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>tarkastaa ja hyväksyä hallituksen vuosikertomus;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7)</num>
+                                <content>
+                                    <p>valvoa yhtiön hallintoa ja antaa varsinaiselle yhtiökokoukselle lausuntonsa tilinpäätöksestä ja tilintarkastuskertomuksesta.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Hallintoneuvoston on lisäksi käsiteltävä muut hallituksen sille esittämät asiat.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Puheenjohtajan on kutsuttava hallintoneuvosto koolle, jos vähintään kolmasosa jäsenistä vaatii sitä kirjallisesti ilmoittamansa asian käsittelemistä varten. Kokouskutsu on toimitettava kuukauden kuluessa vaatimuksen esittämisestä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 a §</num>
+                        <heading>Hallitus</heading>
+                        <subsection>
+                            <content>
+                                <p>Yhtiöllä on oltava hallitus, johon kuuluu vähintään viisi ja enintään kahdeksan jäsentä, jotka eivät saa olla hallintoneuvoston jäseniä eivätkä kuulua yhtiön muuhun ylimpään johtoon.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Yhtiön hallituksen tulee edustaa riittävän monipuolista asiantuntemusta ja molempia kieliryhmiä
+                                    <i>.</i>
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Hallituksen tehtävänä on:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>valita ja vapauttaa yhtiön toimitusjohtaja sekä vahvistaa hänen palkkansa sekä muut toimeen liittyvät ehdot; toimitusjohtaja ei saa olla hallintoneuvoston eikä hallituksen jäsen;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>valita yhtiön muu ylin johto sekä vahvistaa heidän palkkansa ja muut toimiin liittyvät ehdot;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>päättää seuraavan vuoden talousarviosta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>kutsua koolle yhtiökokous ja valmistella siinä käsiteltävät asiat;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>antaa yhtiön toiminnasta vuosittain kertomus Viestintävirastolle.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>7 §</num>
+                        <heading>Julkinen palvelu</heading>
+                        <subsection>
+                            <content>
+                                <p>Yhtiön tehtävänä on tuoda täyden palvelun televisio- ja radio-ohjelmisto siihen liittyvine oheis- ja lisäpalveluineen jokaisen saataville yhtäläisin ehdoin. Näitä ja muita julkiseen palveluun liittyviä sisältöpalveluja voidaan tarjota kaikissa televerkoissa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Julkisen palvelun ohjelmatoiminnan tulee erityisesti:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>tukea kansanvaltaa ja jokaisen osallistumismahdollisuuksia tarjoamalla monipuolisia tietoja, mielipiteitä ja keskusteluja sekä vuorovaikutusmahdollisuuksia;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>tuottaa, luoda ja kehittää kotimaista kulttuuria, taidetta ja virikkeellistä viihdettä; </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>ottaa ohjelmistossa huomioon sivistys- ja tasa-arvonäkökohdat, tarjota mahdollisuus oppimiseen ja itsensä kehittämiseen, painottaa lapsille suunnattuja ohjelmistoja sekä tarjota hartausohjelmia;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>kohdella ohjelmatoiminnassa yhtäläisin perustein suomen- ja ruotsinkielistä väestöä, tuottaa palveluja saamen, romanin ja viittomakielellä sekä soveltuvin osin myös maan muiden kieliryhmien kielellä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>tukea suvaitsevaisuutta ja monikulttuurisuutta sekä huolehtia ohjelmatarjonnasta myös vähemmistö- ja erityisryhmille;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>edistää kulttuurien vuorovaikutusta ja ylläpitää ulkomaille suunnattua ohjelmatarjontaa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7)</num>
+                                <content>
+                                    <p>välittää asetuksella tarkemmin säädettäviä viranomaistiedotuksia ja varautua televisio- ja radiotoiminnan hoitamiseen poikkeusoloissa.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006.</p>
+                    <p>Tämän lain 6 §:n 1 momentin 4 kohtaa sovelletaan ensimmäisen kerran vuosia 2005 ja 2006 käsittelevän kertomuksen osalta.</p>
+                    <p>Lain täytäntöönpanon edellyttämiin toimenpiteisiin voidaan ryhtyä ennen lain voimaantuloa.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/43">HE 43/2005</ref>
+                        </p>
+                        <p>LiVM 16/2005</p>
+                        <p>EV 80/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 19 päivänä elokuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Liikenne- ja viestintäministeri </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

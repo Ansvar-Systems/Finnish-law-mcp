@@ -1,0 +1,166 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/81/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/81"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/81/alkup"/>
+                    <FRBRdate date="2007-02-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="81"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/81/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/81/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/81/alkup/fin"/>
+                    <FRBRdate date="2007-02-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/81/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/81/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/81/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="15"/>
+                    <finlex:date date="2007-02-07"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>81/2007</docNumber>
+                <docTitle>Laki kolttalain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         24 päivänä helmikuuta 1995 annetun kolttalain (
+                        <affectedDocument href="/akn/fi/act/statute/1995/253">253/1995</affectedDocument>
+                        ) 38 §:n otsikko ja 1 momentti sekä 68 §:n 1 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisena kuin niistä ovat 38 §:n otsikko laissa 1289/1996 ja 68 §:n 1 momentti laissa 243/2002 sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         38 §:ään, sellaisena kuin se on osaksi mainitussa laissa 1289/1996, uusi 4 momentti ja lakiin uusi 41 a §, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>7 luku</num>
+                    <heading>Saamisten takaisinperiminen</heading>
+                    <section>
+                        <num>38 §</num>
+                        <heading>Myyntihintasaamisen ja lainojen irtisanominen</heading>
+                        <subsection>
+                            <content>
+                                <p>Työvoima- ja elinkeinokeskus voi 36 ja 37 §:ssä säädetyn lisäksi valtioneuvoston asetuksella tarkemmin säädettävin perustein määrätä tämän lain mukaisen valtion myyntihintasaamisen ja valtionlainan maksettavaksi takaisin osaksi tai kokonaan yhdessä tai useammassa erässä, jos velallinen on valtiolta maata ostaessaan tai lainaa hakiessaan antanut olennaisessa kohdin erehdyttäviä tietoja tai menetellyt muutoin vilpillisesti, luovuttanut kiinteistön osaksi tai kokonaan tai jättänyt noudattamatta 61 §:ssä tarkoitettua suunnitelmaa taikka jos tila on joutunut ulosottotoimin myytäväksi. Työvoima- ja elinkeinokeskus voi valtioneuvoston asetuksella tarkemmin säädettävin perustein määrätä myyntihintasaamisen ja lainan heti takaisin maksettavaksi myös silloin, kun velallinen ei ole noudattanut kauppa- tai velkakirjassa asetettuja muita ehtoja. Jos valtionlainan tai myyntihintasaamisen irtisanomisen perusteena kuitenkin on lyhennyksen tai koron maksun viivästyminen, valtionlainan takaisinperimisestä ja myyntihintasaamisen irtisanomisesta päättää Valtiokonttori.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Valtioneuvoston asetuksella säädetään tarkemmin menettelystä lainaa tai saamista irtisanottaessa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>41 a §</num>
+                        <heading>Poikkeaminen lainan hoitoa koskevista säännöksistä</heading>
+                        <subsection>
+                            <content>
+                                <p>Viimeistään 31 päivänä joulukuuta 2007 tämän lain nojalla syntyneeseen myyntihintasaamiseen sovelletaan 1 päivästä tammikuuta 2008, mitä eräiden maa- ja metsätalousministeriön hallinnonalan lainojen ja saamisten siirtämisestä Valtiokonttorin hoidettavaksi annetussa laissa (78/2007) säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 momentissa tarkoitetun lain 27 §:n 3 ja 4 momenttia sovelletaan kuitenkin jo 1 päivästä toukokuuta 2007.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Valtioneuvoston asetuksella voidaan antaa menettelytapoja koskevia 1 momentissa tarkoitetun lain 1 §:n 1 kohdassa tarkoitetusta lainsäädännöstä poikkeavia säännöksiä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>68 §</num>
+                        <heading>Eräät aikaisemman lainsäädännön mukaiset toimenpiteet ja oikeussuhteet</heading>
+                        <subsection>
+                            <content>
+                                <p>Eräiden kolttien asuttamisesta annetun lain (273/1955), kolttien maanjärjestelylain (593/1969) ja kumotun kolttalain mukaisen valtion ja luottolaitoksen saamisen takaisinmaksuaikaan ja korkoon sekä muihin ehtoihin sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä ja niiden mukaisia sopimusehtoja. Tämän lain voimaantulon jälkeen syntyvän, kumotun kolttalain mukaisen saamisen takaisinmaksuaikaan ja korkoon sekä muihin ehtoihin sovelletaan niin ikään kumotun kolttalain säännöksiä. Sen estämättä, mitä tässä laissa tai sen nojalla säädetään tai on määrätty taikka kauppakirjan ehdoissa on sovittu, edellä mainittujen lakien mukaisiin valtion myyntihintasaamisiin sovelletaan kuitenkin, mitä eräiden maa- ja metsätalousministeriön hallinnonalan lainojen ja saamisten siirtämisestä Valtiokonttorin hoidettavaksi annetussa laissa säädetään.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 15 päivänä helmikuuta 2007.</p>
+                    <p>Tätä lakia sovelletaan 1 päivästä tammikuuta 2008. Tämän lain 41 a §:n 2 momenttia sovelletaan kuitenkin 1 päivästä toukokuuta 2007.</p>
+                    <p>Tätä lakia ei sovelleta tämän lain tai 68 §:n 1 momentissa tarkoitetun lainsäädännön mukaisen valtion myyntihintasaamisen tai lainan irtisanomista tai velkajärjestelyä koskevaan asiaan, joka on vireillä 31 päivänä joulukuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/148">HE 148/2006</ref>
+                        </p>
+                        <p>MmVM 12/2006</p>
+                        <p>PeVL 39/2006</p>
+                        <p>EV 191/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 2 päivänä helmikuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Maa- ja metsätalousministeri </role>
+                                <person refersTo="">Juha Korkeaoja</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

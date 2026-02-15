@@ -1,0 +1,342 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1168/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1168"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1168/alkup"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1168"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1168/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1168/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1168/alkup/fin"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1168/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1168/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1168/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="169"/>
+                    <finlex:date date="2007-12-13"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1168/2007</docNumber>
+                <docTitle>Laki merimieseläkelain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         22 päivänä joulukuuta 2006 annetun merimieseläkelain (<affectedDocument href="/akn/fi/act/statute/2006/1290">1290/2006</affectedDocument>) 3 §:n 2 momentin 4 kohta, 23 §, 25 §:n 1 momentin 2 kohta sekä 4 ja 5 momentti, 34 §:n 1 momentti, 55 §:n 2 momentin 2 kohta, 80 §:n 5 momentti, 82 §:n 1 momentti, 96 §:n 1 momentti, 117 §:n 1 momentti, 128 §:n 2 momentti, 147 §:n 1 momentti, 148 §:n 2 momentti, 191 §:n 1 momentti, 192 § ja 194 §:n 1 ja 3 momentti sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään </i>
+                        191 §:ään uusi 2 momentti, jolloin nykyinen 2 momentti siirtyy 3 momentiksi, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Työeläkelait</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Julkisten alojen työeläkelakeja ovat:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>ortodoksisesta kirkosta annettu laki (985/2006);</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>23 §</num>
+                    <heading>Työkyvyttömyyseläke ja vanhuuseläke osa-aikaeläkkeen jälkeen</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos osa-aikaeläkettä saavalle työntekijälle myönnetään työkyvyttömyyseläke tai vanhuuseläke samalle ajalle, jolta hänelle on jo maksettu osa-aikaeläkettä, osa-aikaeläke otetaan huomioon työkyvyttömyyseläkkeen tai vanhuuseläkkeen osasuorituksena.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>25 §</num>
+                    <heading>Oikeus työeläkekuntoutukseen</heading>
+                    <subsection>
+                        <intro>
+                            <p>Alle 63-vuotiaalla työntekijällä on oikeus saada työkyvyttömyyden estämiseksi tai työ- ja ansiokyvyn parantamiseksi tarkoituksenmukaista ammatillista kuntoutusta, jos:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>hänellä on työskentelystä saatuja vakuutettuja työansioita 82 §:ssä tarkoitettuna tulevan ajan tarkasteluaikana vähintään 25 133,40 euroa; ja</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentin 2 kohdassa tarkoitettu tulevan ajan tarkasteluaika määräytyy siten kuin työntekijä olisi tullut työkyvyttömäksi kuntoutushakemuksen tullessa vireille.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mitä 1 momentissa säädetään, sovelletaan myös sellaisen työntekijän kuntoutukseen, joka on 35 §:n 1 momentissa tarkoitetulla tavalla työkyvytön. Tällöin 1 momentin 2 kohdassa tarkoitetut ansiot määräytyvät samoin kuin tulevan ajan ansiot hänen työkyvyttömyyseläkkeessään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>34 §</num>
+                    <heading>Kuntoutusta koskevat muut säännökset</heading>
+                    <subsection>
+                        <content>
+                            <p>Mitä tässä laissa säädetään työkyvyttömyyseläkkeen hakemisesta, määräytymisestä entisin perustein, kertakorotuksesta, palkka- ja hintatason muutosten huomioon ottamisesta, ensisijaisten etuuksien vähentämisestä, maksamisesta, työkyvyttömyyseläkkeen tarkistamisesta ja määrän muuttamisesta, viivästyskorotuksesta, takaisinperinnästä, tietojen antamisesta ja saamisesta, muutoksenhausta ja työkyvyttömyyseläkkeen saajan ilmoitusvelvollisuudesta, koskee kuntoutusrahaa, kuntoutuskorotusta sekä niiden saajaa, jollei tässä laissa muuta säädetä. Aiheettomasti maksetut ammatillisen kuntoutuksen kustannusten korvaukset voidaan periä takaisin siten kuin tässä laissa säädetään aiheettomasti maksetun eläkkeen takaisinperinnästä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>55 §</num>
+                    <heading>Lesken eläkeoikeus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Leskeneläkkeeseen on oikeus myös sellaisella leskellä, jonka avioliitto on solmittu ennen kuin leski on täyttänyt 50 vuotta ja edunjättäjä 65 vuotta ja avioliitto jatkunut vähintään viisi vuotta, jos:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>leski sai edunjättäjän kuollessa työeläkelain tai kansaneläkelain (568/2007) mukaista työkyvyttömyyseläkettä, joka oli jatkunut vähintään kolmen vuoden ajan.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>80 §</num>
+                    <heading>Eläkkeeseen oikeuttavat palkattomat ajat</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Etuuden perusteena olevan tulon perusteella ei kartu eläkettä siltä ajalta, jolta työntekijä on saanut työeläkelakien mukaista eläkettä taikka vastaavaa ulkomaista etuutta tai kansainvälisen järjestön tai Euroopan yhteisöjen toimielimen palvelukseen perustuvaa etuutta. Osa-aika- ja perhe-eläkkeen ajalta eläkettä karttuu kuitenkin myös etuuden perusteena olevan tulon perusteella.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>82 §</num>
+                    <heading>Tulevan ajan eläkkeen perusteena olevat ansiot</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Tulevan ajan eläkkeen perusteena olevat ansiot (<i>tulevan ajan ansio</i>) määrätään niiden työeläkelakien mukaisten työansioiden ja 80 §:ssä tarkoitettujen palkattomilta ajoilta saatujen etuuksien perusteena olevien tulojen perusteella, jotka työntekijällä on ollut työkyvyttömyyden alkamisvuotta edeltäneiden viiden kalenterivuoden aikana (<i>tarkasteluaika</i>). Tulevan ajan ansioihin luetaan myös tarkasteluaikana maksetun työkyvyttömyyseläkkeen tulevan ajan ansio ja osa-aikaeläkkeen ansionalenema. Tulevan ajan ansio on kuukautta kohden näiden tarkasteluaikana saatujen työansioiden, palkattoman ajan etuuksien perusteena olevien tulojen, työkyvyttömyyseläkkeen tulevan ajan ansion, osa-aikaeläkkeen ansionaleneman ja 4 momentissa tarkoitettujen tulojen summa jaettuna kuudellakymmenellä.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>96 §</num>
+                    <heading>Leskeneläkkeen vähentäminen erityistilanteissa</heading>
+                    <subsection>
+                        <intro>
+                            <p>Leskeneläkettä vähennettäessä otetaan lesken hakemuksesta työeläkkeiden asemesta huomioon hänen saamansa keskimääräiset ansiotulot ja niihin perustuvat etuudet sekä osatyökyvyttömyyseläke tai osa-aikaeläke, jos:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>leski ei saa omaan työhön perustuvaa työeläkettä tai jos leski saa osatyökyvyttömyyseläkettä tai osa-aikaeläkettä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>leski on tehnyt asiasta hakemuksen viiden vuoden kuluessa edunjättäjän kuolemasta tai silloin, kun leskeneläkettä vähennetään ensimmäisen kerran; ja</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>mainitut ansiotulot ja niihin perustuvat etuudet sekä osatyökyvyttömyyseläke tai osa-aikaeläke, kun ansiotuloista otetaan huomioon 60 prosenttia, ovat yhteensä vähintään 25 prosenttia pienemmät kuin lesken 93 §:n mukaisesti määrätty eläke.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>117 §</num>
+                    <heading>Eläkkeen maksaminen Kansaneläkelaitokselle tai työttömyyskassalle</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos työntekijä on väliaikaisesti saanut Kansaneläkelaitoksen maksamaa eläkettä kansaneläkelain 72 §:n mukaan tai edellä mainittua eläkettä ja eläkkeensaajan asumistuesta annetun lain (571/2007) 8 §:n mukaista asumistukea samalta ajalta, jolta hänelle myönnetään muutoksenhaun perusteella tämän lain mukainen eläke takautuvasti, eläkekassan on maksettava takautuva eläke Kansaneläkelaitoksen vaatimuksesta sille siltä osin kuin se vastaa määrältään Kansaneläkelaitoksen samalta ajalta liikaa maksaman etuuden määrää.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>128 §</num>
+                    <heading>Perustevalitus maksuunpanosta</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos perustevalitus tehdään ulosmittauksen takia, on lisäksi voimassa, mitä verojen ja maksujen täytäntöönpanosta annetussa laissa (706/2007) säädetään perustevalituksesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>147 §</num>
+                    <heading>Eläkevakuutusmaksun ulosottokelpoisuus</heading>
+                    <subsection>
+                        <content>
+                            <p>Tämän lain perusteella määrätty eläkevakuutusmaksu viivästyskorkoineen saadaan ulosmitata ilman tuomiota tai päätöstä niin kuin verojen ja maksujen täytäntöönpanosta annetussa laissa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>148 §</num>
+                    <heading>Eläkevakuutusmaksun vanhentuminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos työntekijälle lisätään hänen selvityksensä perusteella 81 §:n 4 momentissa tarkoitetulla tavalla tai muulla perusteella takautuvasti yli viisi vuotta vanhoja eläkkeeseen oikeuttavia työansioita, eläkekassan on määrättävä näiden työansioiden perusteella eläkevakuutusmaksu kymmenen vuoden kuluessa 142 §:n 2 momentin mukaisesta eläkevakuutusmaksun eräpäivästä lukien.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>191 §</num>
+                    <heading>Sovellettava laki</heading>
+                    <subsection>
+                        <content>
+                            <p>Eläkekassan tilintarkastuksesta on voimassa, mitä tässä luvussa ja tilintarkastuslaissa (459/2007) säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Eläkekassan tilintarkastukseen sovelletaan, mitä tilintarkastuslain 25 §:n 1 momentin 8 kohdassa, 5 luvussa ja 40 §:n 2 momentin 1 kohdassa säädetään julkisen kaupankäynnin kohteena olevan yhteisön tilintarkastuksesta ja tilintarkastajasta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>192 §</num>
+                    <heading>Tilintarkastajien valinta ja kelpoisuus</heading>
+                    <subsection>
+                        <content>
+                            <p>Eläkekassan kirjanpitoa, tilinpäätöstä ja toimintakertomusta sekä hallintoa tarkastamaan on valittava vähintään kaksi tilintarkastajaa ja heille vastaavat kelpoisuusehdot täyttävät varatilintarkastajat. Vähintään yhden tilintarkastajan ja varatilintarkastajan on oltava tilintarkastuslain 2 §:n 2 kohdassa tarkoitettu KHT-tilintarkastaja tai KHT-yhteisö.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Yksi tilintarkastaja on nimettävä valvontatilintarkastajana huolehtimaan eläkekassan kirjanpidon ja hallinnon tehokkaasta valvonnasta tilikauden aikana. Lisäksi on nimettävä yksi tilintarkastaja tai varatilintarkastaja valvontatilintarkastajan sijaiseksi. Valvontatilintarkastajan ja tämän sijaisen on oltava KHT-tilintarkastaja tai KHT-yhteisö.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>194 §</num>
+                    <heading>Oikeus vaatia tilintarkastajan määräämistä</heading>
+                    <subsection>
+                        <intro>
+                            <p>Vakuutusvalvontaviraston on ilmoituksesta määrättävä eläkekassalle kelpoisuusehdot täyttävä tilintarkastaja, jos:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>tilintarkastajaa ei ole valittu tämän luvun tai tilintarkastuslain mukaisesti; tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>tilintarkastajalla ei ole tässä laissa tai tilintarkastuslain 3 §:ssä tarkoitettua kelpoisuutta tai jos tilintarkastaja ei ole tilintarkastuslain 24 ja 25 §:ssä tarkoitetulla tavalla riippumaton.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vakuutusvalvontaviraston on pyydettävä Keskuskauppakamarin tilintarkastuslautakunnalta lausunto 1 momentin 2 kohdassa tarkoitetussa riippumattomuutta koskevassa asiassa ennen sen ratkaisemista.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/95">HE 95/2007</ref>
+                        </p>
+                        <p>StVM 9/2007</p>
+                        <p>EV 55/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 7 päivänä joulukuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

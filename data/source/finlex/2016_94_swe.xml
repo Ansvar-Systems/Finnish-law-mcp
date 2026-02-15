@@ -1,0 +1,135 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/94/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/94"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/94/alkup"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="94"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/94/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/94/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/94/alkup/swe"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/94/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/94/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/94/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>94/2016</docNumber>
+                <docTitle>Lag om ändring av 4 och 62 § i lagen om lantbruksföretagares olycksfall i arbetet och yrkessjukdomar</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om lantbruksföretagares olycksfall i arbetet och yrkessjukdomar (
+                        <affectedDocument href="/akn/fi/act/statute/2015/873">873/2015</affectedDocument>
+                        ) 4 § 1 mom. 7 punkten och 62 § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>4 §</num>
+                    <heading>Övriga definitioner och hänvisningsbestämmelser</heading>
+                    <subsection>
+                        <intro>
+                            <p>I denna lag avses med</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>7) </num>
+                            <content>
+                                <p>
+                                    <i>sjukpension </i>
+                                    full invalidpension och arbetslivspension som beviljats tills vidare enligt de lagar som nämns i 3 § i lagen om pension för arbetstagare, sjukpension som beviljats tills vidare enligt folkpensionslagen, full invalidpension enligt den tidigare lagstiftning som avses i 1 § 2 mom. i lagen om införande av lagen om pension för arbetstagare, invaliditetspension enligt den tidigare lagstiftning som avses i 1 § 3 mom. i lagen om införande av folkpensionslagen (569/2007) och motsvarande pensioner som betalas från utlandet samt sådant avträdelsestöd enligt 24 § 2 mom. i lagen om införande av lagen om pension för arbetstagare som ska beaktas som pension enligt 92 § 2 mom. i lagen om pension för arbetstagare.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>62 §</num>
+                    <heading>Årsarbetsinkomst när en yrkessjukdom debuterar under pensionering</heading>
+                    <subsection>
+                        <content>
+                            <p>Om en yrkessjukdom debuterar hos en person som får ålderspension eller sjukpension eller som får partiell förtida ålderspension enligt de lagar som nämns i 3 § i lagen om pension för arbetstagare, och exponeringen för sjukdomen har skett före pensioneringen i arbete som försäkrats enligt denna lag, ska tidpunkten för pensioneringen eller den tidpunkt då försäkringen enligt denna lag senast var i kraft betraktas som tidpunkt för skadefallet när årsarbetsinkomsten bestäms. De inkomster som ska beaktas i årsarbetsinkomsten ska justeras med den lönekoefficient som avses i 96 § i lagen om pension för arbetstagare till indexnivån för det år när yrkessjukdomen debuterade.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2017.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/16">RP 16/2015</ref>
+                        </p>
+                        <p>ShUB 5/2015</p>
+                        <p>RSv 37/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 januari 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister</role>
+                                <person refersTo="">Hanna Mäntylä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

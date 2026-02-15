@@ -1,0 +1,277 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1041/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1041"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1041/alkup"/>
+                    <FRBRdate date="2006-12-01" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1041"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1041/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1041/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1041/alkup/swe"/>
+                    <FRBRdate date="2006-12-01" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1041/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1041/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1041/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="156"/>
+                    <finlex:date date="2006-12-05"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1041/2006</docNumber>
+                <docTitle>Lag om ändring av lagen om beskattningsförfarande</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 18 december 1995 om beskattningsförfarande (<affectedDocument href="/akn/fi/act/statute/1995/1558">1558/1995</affectedDocument>) 31 § samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen nya 14 a―14 c § samt till 32 §, sådan den lyder i lagarna 907/2001, 565/2004 och 1079/2005, ett nytt 4 mom., varvid de nuvarande 4 och 5 mom. blir 5 och 6 mom., som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>2 kap.</num>
+                    <heading>Deklarationsskyldighet</heading>
+                    <section>
+                        <num>14 a §</num>
+                        <heading>Dokumentation av internprissättning</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Den skattskyldige skall upprätta en skriftlig utredning om sådana i 31 § avsedda transaktioner som denne under skatteåret genomfört med parter i intressegemenskap, där den andra parten är utlänning, samt om transaktioner mellan ett utländskt företag och dess fasta driftställe i Finland (<i>dokumentation av internprissättning)</i>.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Av små och medelstora företag krävs inte någon dokumentation av internprissättningen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Med små och medelstora företag avses företag som</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>har färre än 250 anställda,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>har en omsättning som uppgår till högst 50 miljoner euro eller en balansomslutning som uppgår till högst 43 miljoner euro, samt som</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>motsvarar de i kommissionens rekommendation om definitionen av mikroföretag samt små och medelstora företag 2003/361/EG avsedda särdragen för ett företags oberoende samt övriga kännetecken för små och medelstora företag.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>14 b §</num>
+                        <heading>Innehållet i dokumentationen av internprissättningen</heading>
+                        <subsection>
+                            <intro>
+                                <p>Dokumentationen av internprissättningen skall innehålla</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>en beskrivning av affärsverksamheten,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>en beskrivning av relationer i intressegemenskap,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>uppgifter om transaktioner mellan parter i intressegemenskap samt transaktioner mellan företaget och dess fasta driftställe,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>en funktionsanalys av transaktioner mellan parter i intressegemenskap samt transaktioner mellan företaget och dess fasta driftställe,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>en jämförbarhetsanalys inklusive tillgängliga uppgifter om jämförelseobjekten,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>en beskrivning av vald internprissättningsmetod och dess tillämpning.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Ovan i 1 mom. 4―6 punkten avsedda uppgifter krävs inte, om det sammanlagda värdet av transaktionerna mellan den skattskyldige och den andra parten under skatteåret uppgår till högst 500 000 euro.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>14 c §</num>
+                        <heading>Presentation och komplettering av dokumentationen av internprissättningen</heading>
+                        <subsection>
+                            <content>
+                                <p>Den skattskyldige skall inom 60 dagar efter uppmaning från skattemyndigheten lämna in en dokumentation av internprissättningen. Dokumentationen om internprissättningen under skatteåret skall likväl lämnas in tidigast sex månader efter utgången av den sista månaden i räkenskapsperioden.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tilläggsutredning som komplettering till dokumentationen av internprissättningen, såsom uppgifter om jämförelseobjekten, skall lämnas in inom 90 dagar efter uppmaning från skattemyndigheten.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Skattemyndigheten kan på begäran förlänga tidsfristerna i 1 och 2 mom. Beslutet får inte överklagas.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>31 §</num>
+                        <heading>Rättelse av internprissättning</heading>
+                        <subsection>
+                            <content>
+                                <p>Om i en transaktion mellan en skattskyldig och en part i intressegemenskap med denne har överenskommits om villkor eller bestämts villkor som avviker från vad som skulle ha avtalats mellan sinsemellan oberoende parter, och om den beskattningsbara inkomsten av den skattskyldiges näringsverksamhet eller annan verksamhet på grund härav har blivit mindre eller förlusten blivit större än den annars skulle ha varit, skall till inkomsten läggas det belopp som inkomsten skulle ha stigit till om villkoren hade motsvarat dem som hade avtalats mellan sinsemellan oberoende parter.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Parterna i en transaktion är i intressegemenskap med varandra, om den ena parten utövar bestämmande inflytande över den andra parten eller om en tredje part ensam eller tillsammans med närstående kretsar utövar bestämmande inflytande över bägge parter i transaktionen. En part utövar bestämmande inflytande över den andra parten när</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>den ena parten direkt eller indirekt äger mer än hälften av kapitalet i den andra parten,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>den ena parten direkt eller indirekt har mer än hälften av det röstetal som den andra partens samtliga aktier eller andelar medför, </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>den ena parten direkt eller indirekt har rätt att utse fler än hälften av medlemmarna i den andra partens styrelse eller därmed jämförbart organ eller i ett organ med sådana rättigheter, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>den ena parten har en ledning som är gemensam med den andra parten eller den ena parten utövar ett faktiskt bestämmande inflytande över den andra parten.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vad som bestäms i 1 mom. tillämpas även på transaktioner mellan ett företag och dess fasta driftställe.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>32 §</num>
+                        <heading>Skatteförhöjning</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Om den skattskyldige inte har lämnat in en dokumentation av internprissättningen eller en kompletterande tilläggsutredning inom den tid som avses i 14 c § eller om dokumentationen av internprissättningen eller tilläggsutredningen har lämnats in med väsentliga fel eller brister, kan den skattskyldige påföras en skatteförhöjning om högst 25 000 euro.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2007.</p>
+                    <p>Lagen tillämpas första gången vid beskattningen för 2007. Lagens 14 a―14 c § och 32 § 4 mom. tillämpas dock första gången vid beskattningen för det skatteår som börjar den 1 januari 2007 eller därefter.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 107/2006</p>
+                        <p>FiUB 22/2006</p>
+                        <p>RSv 148/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 1 december 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Andra finansminister </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

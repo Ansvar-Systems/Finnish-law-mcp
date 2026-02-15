@@ -1,0 +1,123 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/971/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/971"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/971/alkup"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="971"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/971/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/971/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/971/alkup/swe"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/971/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/971/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/971/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>971/2015</docNumber>
+                <docTitle>Lag om ändring av 285 § i fastighetsbildningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i fastighetsbildningslagen (
+                        <affectedDocument href="/akn/fi/act/statute/1995/554">554/1995</affectedDocument>
+                        ) 285 §, sådan den lyder i lagarna 914/2011 och 901/2013, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>285 §</num>
+                    <subsection>
+                        <content>
+                            <p>Omprövning av ett beslut genom vilket Lantmäteriverket eller kommunens fastighetsregisterförare har vägrat att utfärda förrättningsförordnande får begäras hos Lantmäteriverkets centralförvaltning på det sätt som anges i förvaltningslagen (434/2003).</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Andra beslut av Lantmäteriverket och beslut som har meddelats med anledning av en begäran om omprövning får överklagas genom besvär hos förvaltningsdomstolen på det sätt som anges i förvaltningsprocesslagen (586/1996). Besvären ska anföras hos den förvaltningsdomstol inom vars domkrets det område eller största delen av det område som saken gäller är beläget. Över förvaltningsdomstolens beslut får besvär anföras endast om högsta förvaltningsdomstolen beviljar besvärstillstånd.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Fastighetsregisterförarens beslut om sammanslagning av fastigheter, om ett ärende som avses i 131 § 1 mom., 131 a § eller 165 § 1 mom. eller om rättande av fel enligt 277 § 2 mom. samt förrättningsingenjörens beslut enligt 177 § 4 mom. eller om rättande av skrivfel enligt 274 § 1 mom. får överklagas genom besvär hos jorddomstolen. Besvär ska anföras inom 30 dagar från delfåendet av beslutet. På ändringssökandet i övrigt tillämpas vad som föreskrivs om sökande av ändring i en avslutad förrättning.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016.</p>
+                    <p>På sökande av ändring i ett förvaltningsbeslut som meddelats före ikraftträdandet av denna lag tillämpas de bestämmelser som gällde vid ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 230/2014</p>
+                        <p>LaUB 26/2014</p>
+                        <p>RSv 319/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Nådendal den 7 augusti 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitie- och arbetsminister</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

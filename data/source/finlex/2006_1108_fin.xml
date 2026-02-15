@@ -1,0 +1,142 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1108/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1108"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1108/alkup"/>
+                    <FRBRdate date="2006-12-08" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1108"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1108/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1108/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1108/alkup/fin"/>
+                    <FRBRdate date="2006-12-08" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1108/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1108/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1108/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="165"/>
+                    <finlex:date date="2006-12-13"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1108/2006</docNumber>
+                <docTitle>Laki verotustietojen julkisuudesta ja salassapidosta annetun lain 18 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         verotustietojen julkisuudesta ja salassapidosta 30 päivänä joulukuuta 1999 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1999/1346">1346/1999</affectedDocument>
+                        ) 18 §:n 1 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>18 §</num>
+                    <heading>Verohallinnon oikeus tietojen oma-aloittei- seen antamiseen</heading>
+                    <subsection>
+                        <intro>
+                            <p>Verohallinto voi salassapitovelvollisuuden estämättä antaa omasta aloitteestaan verotustietoja verovelvollista koskevine tunnistetietoineen:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>rikoslain (39/1889) 29 luvun 9 §:n 2 momentissa tarkoitetulle valtion tai kunnan viranomaiselle, muulle julkisyhteisölle taikka muulle yhteisölle tai säätiölle, jos on syytä epäillä jonkun syyllistyneen rikoslain 29 luvun 5―8 §:ssä tarkoitettuun rikolliseen tekoon, jonka selvittämiseksi tietojen antaminen saattaa olla tarpeen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>valtion tai kunnan viranomaiselle tai julkisia tehtäviä hoitaville yhteisöille niiden laissa tai asetuksessa säädettyyn tehtävään liittyvän valvontavelvollisuuden täyttämiseksi, jos on syytä epäillä, että on tehty rikos, josta säädetty ankarin rangaistus on enemmän kuin kuusi kuukautta vankeutta ja jonka selvittämiseksi tietojen antaminen saattaa olla tarpeen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>lakisääteisen eläke- tai tapaturmaturvan toimeenpanosta huolehtivalle viranomaiselle, eläke- tai tapaturmavakuutuslaitokselle tai vastaavalle yhteisölle tai säätiölle niiden laissa tai asetuksessa säädettyyn tehtävään liittyvän valvontavelvollisuuden täyttämiseksi, jos on syytä epäillä, että laissa tai asetuksessa maksuvelvolliseksi säädetty työnantaja tai muu maksuvelvollinen ei ole täyttänyt lakiin tai asetukseen perustuvaa maksuvelvollisuuttaan;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>poliisille verovalvonnassa havaituista liiketoimintakieltoon määrättyyn liittyvistä seikoista, joilla saattaa olla merkitystä liiketoimintakiellon noudattamisen valvonnan kannalta.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/82">HE 82/2006</ref>
+                        </p>
+                        <p>LaVM 14/2006</p>
+                        <p>EV 154/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 8 päivänä joulukuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

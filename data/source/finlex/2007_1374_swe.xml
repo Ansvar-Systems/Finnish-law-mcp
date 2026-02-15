@@ -1,0 +1,193 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1374/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1374"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1374/alkup"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1374"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1374/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1374/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1374/alkup/swe"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1374/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1374/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1374/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="203"/>
+                    <finlex:date date="2007-12-31"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1374/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om förvaltning av straffverkställighet</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 16 februari 2001 om förvaltning av straffverkställighet (
+                        <affectedDocument href="/akn/fi/act/statute/2001/135">135/2001</affectedDocument>
+                        ) 2 § 3 mom. och 3 §, sådana de lyder, 2 § 3 mom. i lag 788/2005 och 3 § delvis ändrad i sistnämnda lag, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 6 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Straffverkställighetsorganisationen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Fångvårdsväsendet omfattar regionfängelser och en riksomfattande hälsovårdsenhet och leds av generaldirektören för Fångvårdsväsendet. Ett regionfängelse består av en placeringsenhet och fängelser. I fängelserna kan finnas avdelningar. Hälsovårdsenheten omfattar sjukhus och polikliniker. Regionfängelserna inrättas genom förordning av statsrådet. Justitieministeriet beslutar om inrättandet av placeringsenheter och fängelser. Under Brottspåföljdsverket lyder Brottspåföljdsområdets utbildningscentral. Bestämmelser om centralen finns i lagen om Brottspåföljdsområdets utbildningscentral (1316/2006).</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <heading>Uppgifter för Brottspåföljdsverket</heading>
+                    <subsection>
+                        <intro>
+                            <p>Brottspåföljdsverket har till uppgift att</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>leda och utveckla verkställigheten av straff i enlighet med mål om vilka överenskommits med justitieministeriet,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>granska och övervaka verkställigheten av straff,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>som högsta organ verkställa samhällspåföljder och fängelsestraff samt styra och övervaka verkställigheten,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>i samarbete med Brottspåföljdsområdets utbildningscentral utveckla grundutbildning och kompletterande utbildning av personalen inom straffverkställigheten,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>styra och organisera förvaltnings- och serviceuppgifter som är gemensamma för Kriminalvårdsväsendet och Fångvårdsväsendet,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>ha hand om det internationella samarbetet på sitt verksamhetsområde.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Beträffande uppgifterna för Brottspåföljdsverket gäller dessutom vad som om dem föreskrivs särskilt genom lag. Närmare bestämmelser om uppgifterna för Brottspåföljdsverket kan utfärdas genom förordning av statsrådet. Brottspåföljdsverket har en arbetsordning som fastställs av generaldirektören för Fångvårdsväsendet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>6 a §</num>
+                    <heading>Avgiftsbelagda prestationer inom Fångvårdsväsendets arbetsverksamhet och anstaltsförsäljning</heading>
+                    <subsection>
+                        <content>
+                            <p>Prestationerna inom Fångvårdsväsendets arbetsverksamhet är avgiftsbelagda. Priserna på prestationerna bestäms enligt företagsekonomiska grunder. Priserna kan dock av orsaker som hänför sig till fångvården sänkas så att de motsvarar gängse prisnivå.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Produkterna i fängelsernas anstaltsbutiker är avgiftsbelagda. Priserna på produkterna motsvarar gängse prisnivå. Priserna kan dock av orsaker som hänför sig till fångvården sänkas så att de täcker åtminstone kostnaderna för anskaffning av produkten.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Fängelset beslutar om prissättningen av de prestationer som avses i 1 och 2 mom. Vid indrivning av avgifter iakttas vad som föreskrivs om indrivning av privaträttsliga fordringar. Tvister som gäller avgifter för prestationer behandlas som tvistemål vid tingsrätten.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 89/2007</p>
+                        <p>LaUB 6/2007</p>
+                        <p>RSv 62/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 21 december 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Tuija Brax</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

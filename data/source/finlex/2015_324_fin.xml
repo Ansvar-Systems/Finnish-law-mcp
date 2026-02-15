@@ -1,0 +1,152 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/324/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/324"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/324/alkup"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-27" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="324"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/324/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/324/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/324/alkup/fin"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-27" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/324/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/324/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/324/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-03-27" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>324/2015</docNumber>
+                <docTitle>Laki yliopistolain 39 ja 41 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         yliopistolain (
+                        <affectedDocument href="/akn/fi/act/statute/2009/558">558/2009</affectedDocument>
+                        ) 41 §:n 3 momentti sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         39 §:ään, sellaisena kuin se on laissa 256/2015, uusi 3 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>39 §</num>
+                    <heading>Lukuvuosi ja lukukaudet sekä opiskelijaksi ilmoittautuminen</heading>
+                    <subsection>
+                        <intro>
+                            <p>Otettuaan opiskelupaikan vastaan opiskelija voi ilmoittautua poissa olevaksi, jos hän ensimmäisenä lukuvuonna:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>suorittaa asevelvollisuuslain (1438/2007), siviilipalveluslain (1446/2007) tai naisten vapaaehtoisesta asepalveluksesta annetun lain (194/1995) mukaista palvelua;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>on äitiys-, isyys- tai vanhempainvapaalla; tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>on oman sairautensa tai vammansa vuoksi kyvytön aloittamaan opintojaan.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>41 §</num>
+                    <heading>Opiskeluoikeus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Tutkinnon suorittamisaikaan ei lasketa poissaoloa, joka johtuu asevelvollisuuslain, siviilipalveluslain tai naisten vapaaehtoisesta asepalveluksesta annetun lain mukaisen palvelun suorittamisesta taikka äitiys-, isyys- tai vanhempainvapaan pitämisestä. Tutkinnon suorittamisaikaan ei lasketa myöskään muuta enintään kahden lukukauden pituista poissaoloa, jonka ajaksi opiskelija on ilmoittautunut poissa olevaksi 39 §:n mukaisesti.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä elokuuta 2015.</p>
+                    <p>Ennen tämän lain voimaantuloa opintonsa aloittaneisiin sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/243">HE 243/2014</ref>
+                        </p>
+                        <p>SiVM 23/2014</p>
+                        <p>EV 324/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>  Helsingissä 20 päivänä maaliskuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kulttuuri- ja asuntoministeri</role>
+                                <person refersTo="">Pia Viitanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

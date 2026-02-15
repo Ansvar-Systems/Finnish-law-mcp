@@ -1,0 +1,137 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1597/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1597"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1597/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1597"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1597/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1597/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1597/alkup/swe"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1597/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1597/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1597/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1597/2015</docNumber>
+                <docTitle>Lag om ändring av 10 kap. 17 § i rättegångsbalken</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i rättegångsbalken 10 kap. 17 § 2 mom. 6 punkten, sådan den lyder i lag 135/2009, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 10 kap. 17 § 2 mom., sådant det lyder i lagarna 135/2009 och 29/2011, en ny 7 punkt som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>10 kap.</num>
+                    <heading>Om forum i tvistemål</heading>
+                    <section>
+                        <num>17 §</num>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <intro>
+                                <p>Med ett ärende som gäller kvarlåtenskap avses ett ärende som gäller</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>6) </num>
+                                <content>
+                                    <p>arvskifte eller klander av arvskifte, </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7) </num>
+                                <content>
+                                    <p>återbäring av egendom till dödsboet för förrättande av omskifte, rättelse av avvittring, åtskiljande eller gottgörelse.</p>
+                                </content>
+                            </paragraph>
+                            <hcontainer name="omission"/>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/72">RP 72/2015</ref>
+                        </p>
+                        <p>LaUB 5/2015</p>
+                        <p>RSv 84/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 30 december 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommunikationsminister</role>
+                                <person refersTo="">Anne Berner</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

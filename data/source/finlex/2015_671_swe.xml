@@ -1,0 +1,137 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/671/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/671"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/671/alkup"/>
+                    <FRBRdate date="2015-05-22" name="dateIssued"/>
+                    <FRBRdate date="2015-05-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="671"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/671/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/671/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/671/alkup/swe"/>
+                    <FRBRdate date="2015-05-22" name="dateIssued"/>
+                    <FRBRdate date="2015-05-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/671/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/671/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/671/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-05-28" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>671/2015</docNumber>
+                <docTitle>Lag om ändring av 1 och 2 § i lagen om verkställighet av böter</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om verkställighet av böter (
+                        <affectedDocument href="/akn/fi/act/statute/2002/672">672/2002</affectedDocument>
+                        ) 2 § 1 mom., sådant det lyder i lag 757/2010, och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 1 § 1 mom., sådant det lyder i lagarna 224/2008, 462/2011, 348/2013 och 257/2014, en ny 6 a-punkt som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Lagens tillämpningsområde</heading>
+                    <subsection>
+                        <intro>
+                            <p>I den ordning som föreskrivs i denna lag verkställs följande påföljder:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>6 a) </num>
+                            <content>
+                                <p>brottsofferavgift,</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>2 §</num>
+                    <heading>Påföljders verkställbarhet</heading>
+                    <subsection>
+                        <content>
+                            <p>Verkställigheten av böter, av förverkandepåföljder som avser egendom och av brottsofferavgifter ska inledas när det avgörande genom vilket påföljden bestämts har vunnit laga kraft eller har blivit verkställbart som en lagakraftvunnen dom. Bestämmelser om verkställbarheten av ett bötesföreläggande, ordningsbotsföreläggande och strafföreläggande som utfärdats med stöd av lagen om föreläggande av böter och ordningsbot (754/2010) och av en brottsofferavgift som påförts i samband med bötesföreläggande eller strafföreläggande finns i 38 § 2 mom. i den lagen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft samma dag som lagen om föreläggande av böter och ordningsbot (754/2010).</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 293/2014</p>
+                        <p>LaUB 32/2014</p>
+                        <p>RSv 347/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 22 maj 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister</role>
+                                <person refersTo="">Anna-Maja Henriksson</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

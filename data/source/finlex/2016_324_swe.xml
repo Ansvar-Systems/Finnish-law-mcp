@@ -1,0 +1,123 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/324/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/324"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/324/alkup"/>
+                    <FRBRdate date="2016-04-29" name="dateIssued"/>
+                    <FRBRdate date="2016-05-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="324"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/324/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/324/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/324/alkup/swe"/>
+                    <FRBRdate date="2016-04-29" name="dateIssued"/>
+                    <FRBRdate date="2016-05-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/324/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/324/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/324/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-05-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>324/2016</docNumber>
+                <docTitle>Lag om ändring av 11 § i lagen om preskription av skulder</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om preskription av skulder (
+                        <affectedDocument href="/akn/fi/act/statute/2003/728">728/2003</affectedDocument>
+                        ) 11 § 2 och 3 mom., av dem 2 mom. sådant det lyder i lag 396/2011, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>11 §</num>
+                    <heading>Rättsliga åtgärder som avbryter preskription</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>När ett ärende enligt 1 mom. 1 eller 3 punkten blir anhängigt, när det fattas beslut om inledande av ett förfarande som avses i 2 punkten eller beslut om ett interimistiskt förbud som gäller skulden, eller när det fattas beslut eller ingås avtal om inledande av medling enligt 4 punkten avstannar preskriptionen för den tid förfarandet i fråga pågår. Den dag det meddelas en dom som vinner laga kraft eller handläggningen av ärendet avslutas av någon annan orsak anses preskriptionen ha avbrutits.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om borgenären återkallar sin ansökan eller handläggningen av ärendet avslutas av någon annan orsak utan att gäldenären tillställts en sådan delgivning eller annat sådant meddelande om borgenärens krav som enligt lag borde ha tillställts gäldenären, anses preskriptionstiden inte ha avbrutits. I ett sådant fall preskriberas skulden dock tidigast ett år från det att handläggningen av ärendet avslutades. Preskriptionstiden kan förlängas på detta sätt bara en enda gång.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juni 2016.</p>
+                    <p>Denna lag tillämpas också på skulder vars grund har uppkommit före lagens ikraftträdande. Lagens 11 § 3 mom. tillämpas också om ett ärende i fråga om en skuld är anhängigt när lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/137">RP 137/2015</ref>
+                        </p>
+                        <p>LaUB 3/2016</p>
+                        <p>RSv 31/2016</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 april 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitie- och arbetsminister</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,394 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/531/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/531"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/531/alkup"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="531"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/531/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/531/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/531/alkup/fin"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/531/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/531/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/531/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="79"/>
+                    <finlex:date date="2007-05-15"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>531/2007</docNumber>
+                <docTitle>Laki rikoslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         19 päivänä joulukuuta 1889 annetun rikoslain (
+                        <affectedDocument href="/akn/fi/act/statute/1889/39">39/1889</affectedDocument>
+                        ) 2 a luvun 9 § ja 34 a luvun 1 §:n 1 momentin 2 kohta,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 2 a luvun 9 § laeissa 613/2003 ja 585/2005 ja 34 a luvun 1 §:n 1 momentin 2 kohta laissa 832/2003, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin siitä lailla 827/1970 kumotun 41 luvun tilalle uusi 41 luku seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>2 a luku</num>
+                    <heading>Sakosta, muuntorangaistuksesta ja rikesakosta</heading>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Rikesakkorikkomukset</heading>
+                        <subsection>
+                            <content>
+                                <p>Rikesakko voidaan 2―6 momentin mukaisesti säätää seuraamukseksi virallisen syytteen alaisesta rikkomuksesta, josta säädetty ankarin rangaistus on sakkoa tai enintään kuusi kuukautta vankeutta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Rikesakko voidaan säätää seuraamukseksi tieliikennelain (267/1981), ajoneuvolain (1090/2002) tai vesiliikennelain (463/1996) taikka niiden nojalla annettujen sellaisten säännösten tai määräysten vähäisestä rikkomisesta, jotka koskevat:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>jalankulkijoita;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>moottorittoman ajoneuvon kuljettajaa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>moottorikäyttöisen tai hinattavan ajoneuvon rakennetta, varusteita, kuntoa, moottorikäyttöistä ajoneuvoa kuljetettaessa vaadittavia asiakirjoja, moottorikäyttöisen ajoneuvon häiritsevää ja tarpeetonta ajoa, henkilökuljetusta, kuljettajan tai matkustajan henkilökohtaisen suojavälineen käyttöä, muita kuljettajaa koskevia liikennesääntöjä tai liikenteen ohjauslaittein osoitettuja käskyjä, kieltoja tai rajoituksia;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>suurimman sallitun nopeuden ylittämistä moottorikäyttöisellä ajoneuvolla;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>ajoneuvon katsastusta ja rekisteröitäväksi ilmoittamista; taikka</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>vesillä liikkujaa koskevia yleisiä velvollisuuksia, vesikulkuneuvon rakennetta, varusteita ja kuntoa, vesiliikenteeseen liittyvien asiakirjojen esittämisvelvollisuutta tai vesiliikennettä koskevia alueellisia kieltoja ja rajoituksia.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Rikesakko voidaan säätää seuraamukseksi myös jätelaissa (1072/1993) säädetyn roskaamiskiellon vähäisestä rikkomisesta sekä kalastuslaissa (286/1982) säädetyn kalastuksenhoito- tai viehekalastusmaksun suorittamisen laiminlyönnistä taikka kyseisen maksun suorittamista osoittavan tositteen määräajassa esittämisen laiminlyönnistä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Rikesakko voidaan säätää seuraamukseksi myös järjestyslaissa (612/2003) säädetystä järjestysrikkomuksesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Rikesakko voidaan säätää seuraamukseksi myös vähäisestä 41 luvun 6 §:ssä säädetystä toisen vahingoittamiseen soveltuvan esineen tai aineen hallussapidosta ja vähäisestä 41 luvun 7 §:ssä tarkoitetusta toisen vahingoittamiseen soveltuvan esineen luovuttamisesta alaikäiselle.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 2―5 momentissa mainituista rikkomuksista säädetään tarkemmin valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>34 a luku</num>
+                    <heading>Terrorismirikoksista</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Terroristisessa tarkoituksessa tehdyt rikokset</heading>
+                        <subsection>
+                            <intro>
+                                <p>Joka terroristisessa tarkoituksessa siten, että teko on omiaan aiheuttamaan vakavaa vahinkoa jollekin valtiolle tai kansainväliselle järjestölle, tekee</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>tahallisen vaaran aiheuttamisen, tahallisen räjähderikoksen tai vaarallisia esineitä koskevien säännösten rikkomisen, on tuomittava vankeuteen vähintään neljäksi kuukaudeksi ja enintään neljäksi vuodeksi,</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>41 luku</num>
+                    <heading>Aserikoksista</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Ampuma-aserikos</heading>
+                        <subsection>
+                            <intro>
+                                <p>Joka ampuma-aselain (1/1998) vastaisesti</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>siirtää tai tuo Suomeen, siirtää Suomesta, kaupallisessa tarkoituksessa vie, kauttakuljettaa tai valmistaa taikka pitää kaupan, hankkii, pitää hallussaan tai luovuttaa ampuma-aseen, aseen osan, patruunoita tai erityisen vaarallisia ammuksia,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>kaupallisessa tarkoituksessa korjaa tai muuntaa ampuma-aseen tai aseen osan, pitää ampumarataa taikka kouluttaa ampuma-aseiden käyttöön,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>lainaa ampuma-aseen tai aseen osan sille, jolla ei ole oikeutta sen hallussapitoon,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>kokonaan tai osittain laiminlyö ase-elinkeinonharjoittajalle ampuma-aselain 25 §:n 1 momentissa säädetyn velvollisuuden tiedoston pitämiseen,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>laiminlyö ampuma-aselain 110 §:n 1 momentissa säädetyn velvollisuuden tarkastuttaa myyntiä varten valmistetut, korjatut, Suomeen siirretyt tai tuodut ampuma-aseet tai patruunat taikka</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>laiminlyö ampuma-aselain 112 a §:ssä säädetyn velvollisuuden esittää pysyvästi ampumakelvottomaksi tehty ampuma-ase tai pysyvästi toimintakelvottomaksi tehty aseen osa poliisilaitokselle,</p>
+                                </content>
+                            </paragraph>
+                            <wrapUp>
+                                <p>
+                                    on tuomittava 
+                                    <i>ampuma-aserikoksesta</i>
+                                     sakkoon tai vankeuteen enintään kahdeksi vuodeksi.
+                                </p>
+                            </wrapUp>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Yritys on rangaistava.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Ampuma-aserikoksena ei pidetä 1 momentin 1 kohdassa tarkoitettua ampuma-aseen, aseen osan, patruunoiden tai erityisen vaarallisten ammusten hallussapitoa, jos tällaisen esineen hallussapitäjä oma-aloitteisesti ilmoittaa esineestä poliisille ja luovuttaa sen poliisin haltuun.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Törkeä ampuma-aserikos</heading>
+                        <subsection>
+                            <intro>
+                                <p>Jos ampuma-aserikoksessa</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>rikoksen kohteena on erityisen vaarallinen ampuma-ase taikka suuri määrä ampuma-aseita tai aseen osia,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>rikoksella tavoitellaan huomattavaa taloudellista hyötyä taikka</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>rikos tehdään erityisen suunnitelmallisesti</p>
+                                </content>
+                            </paragraph>
+                            <wrapUp>
+                                <p>
+                                    ja rikos on myös kokonaisuutena arvostellen törkeä, rikoksentekijä on tuomittava 
+                                    <i>törkeästä ampuma-aserikoksesta</i>
+                                     vankeuteen vähintään neljäksi kuukaudeksi ja enintään neljäksi vuodeksi.
+                                </p>
+                            </wrapUp>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Yritys on rangaistava.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Lievä ampuma-aserikos</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Jos ampuma-aserikos, huomioon ottaen rikoksen kohteena olleiden esineiden laatu tai määrä taikka muut rikokseen liittyvät seikat, on kokonaisuutena arvostellen vähäinen, rikoksentekijä on tuomittava 
+                                    <i>lievästä ampuma-aserikoksesta</i>
+                                     sakkoon.
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Vaarallisia esineitä koskevien säännösten rikkominen</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Joka järjestyslain 9 §:n vastaisesti tuo maahan tai valmistaa vaarallisen esineen tai pitää sellaista kaupan, on tuomittava 
+                                    <i>vaarallisia esineitä koskevien säännösten rikkomisesta</i>
+                                     sakkoon tai vankeuteen enintään kahdeksi vuodeksi.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Yritys on rangaistava.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Vaarallisen esineen hallussapito</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Joka järjestyslain 9 §:n vastaisesti pitää yleisellä paikalla tai yleisellä paikalla olevassa kulkuneuvossa hallussaan vaarallista esinettä, on tuomittava 
+                                    <i>vaarallisen esineen hallussapidosta</i>
+                                     sakkoon tai vankeuteen enintään yhdeksi vuodeksi.
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Toisen vahingoittamiseen soveltuvan esineen tai aineen hallussapito</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Joka järjestyslain 10 §:n vastaisesti pitää yleisellä paikalla hallussaan toisen vahingoittamiseen soveltuvaa esinettä tai ainetta taikka ampuma-asetta tai räjähtävää esinettä erehdyttävästi muistuttavaa esinettä, on tuomittava 
+                                    <i>toisen vahingoittamiseen soveltuvan esineen tai aineen hallussapidosta</i>
+                                     sakkoon tai vankeuteen enintään kuudeksi kuukaudeksi.
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>7 §</num>
+                        <heading>Toisen vahingoittamiseen soveltuvan esineen luovuttaminen alaikäiselle</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Joka järjestyslain 11 §:n vastaisesti myy tai muuten pysyvästi luovuttaa alle 18-vuotiaalle ilma-aseen, jousitoimisen aseen tai harppuunan, on tuomittava 
+                                    <i>toisen vahingoittamiseen soveltuvan esineen luovuttamisesta alaikäiselle</i>
+                                     sakkoon tai vankeuteen enintään kuudeksi kuukaudeksi.
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Rikesakko</heading>
+                        <subsection>
+                            <content>
+                                <p>Rikesakosta seuraamuksena vähäisestä 6 §:ssä tarkoitetusta toisen vahingoittamiseen soveltuvan esineen tai aineen hallussapidosta ja vähäisestä 7 §:ssä tarkoitetusta toisen vahingoittamiseen soveltuvan esineen luovuttamisesta alaikäiselle säädetään 2 a luvun 9 §:n 5 momentissa ja 6 momentin nojalla annetulla valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä kesäkuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/113">HE 113/2004</ref>
+                        </p>
+                        <p>LaVM 27/2006</p>
+                        <p>EV 287/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 11 päivänä toukokuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Tuija Brax</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

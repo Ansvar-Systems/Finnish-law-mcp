@@ -1,0 +1,382 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/363/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/363"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/363/alkup"/>
+                    <FRBRdate date="2006-05-19" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="363"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/363/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/363/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/363/alkup/fin"/>
+                    <FRBRdate date="2006-05-19" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/363/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/363/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/363/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="60"/>
+                    <finlex:date date="2006-05-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>363/2006</docNumber>
+                <docTitle>Laki työttömyysetuuksien rahoituksesta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan </i>
+                        työttömyysetuuksien rahoituksesta 24 päivänä heinäkuuta 1998 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1998/555">555/1998</affectedDocument>
+                        ) 19 a §:n 1 momentti, 21 §:n 2 momentti ja 25 §:n 1 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisena kuin niistä on 19 a §:n 1 momentti laissa 1181/2005 ja</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 22 a―22 g, 26 a ja 26 b § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>19 a §</num>
+                    <heading>Työnantajan työttömyysvakuutusmaksun peruste</heading>
+                    <subsection>
+                        <content>
+                            <p>Työnantajan työttömyysvakuutusmaksun perusteena on se yhteenlaskettu palkkasumma, joka muodostuu työnantajan ja sijaismaksajan maksamista, 19 §:ssä tarkoitetuista palkansaajan työttömyysvakuutusmaksun perusteena olevista tuloeristä, ellei 12 §:stä muuta johdu.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <chapter>
+                    <num>7 luku</num>
+                    <heading>Maksu- ja perintämenettely</heading>
+                    <section>
+                        <num>21 §</num>
+                        <heading>Maksujen perintä ja tilitys</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Vakuutuslaitoksella on oikeus vuoden alussa tai sen aikana alkavalta vakuutukselta kantaa työttömyysvakuutusmaksun ennakkoa. Lopullinen vakuutusmaksu määrätään kalenterivuosittain. Vakuutuslaitos määrää vakuutusmaksun kuluneen kalenterivuoden ajalta, jos tapaturmavakuutuslain mukainen vakuutus päättyy kesken kalenterivuoden. Jos työnantaja on tehnyt 22 d §:n 2 momentin mukaisen ilmoituksen, vakuutuslaitoksen on pyydettävä työttömyysvakuutusrahastolta ilmoitus työnantajan työttömyysvakuutusmaksun tasosta. Työttömyysvakuutusrahasto ilmoittaa tällöin työttömyysvakuutusmaksujen tasot pyynnön esittäneelle vakuutuslaitokselle ja tarvittaessa muille vakuutuslaitoksille, joissa työnantajan tapaturmavakuutuslain mukaiset vakuutukset ovat. Vakuutuslaitos voi muulloinkin pyytää työttömyysvakuutusrahastolta ilmoituksen työnantajan työttömyysvakuutusmaksun tasosta, jos se on tarpeellista maksujen perimiseksi lain mukaisesti.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>22 a §</num>
+                        <heading>Ministeriön ja Vakuutusvalvontaviraston oikeus saada tietoja ja tarkastaa toimintaa</heading>
+                        <subsection>
+                            <content>
+                                <p>Sosiaali- ja terveysministeriöllä ja Vakuutusvalvontavirastolla on oikeus salassapitosäännösten ja muiden tiedon saantia koskevien rajoitusten estämättä saada maksutta työttömyysvakuutusrahastolta 11 §:ssä säädettyä valvontaa varten tarpeelliset tiedot. Ministeriöllä ja Vakuutusvalvontavirastolla on oikeus muullakin tavoin tarkastaa rahaston toimintaa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vakuutusvalvontavirastolla on oikeus saada 8 a luvussa tarkoitetun omavastuumaksun toimeenpanon valvontaa varten 1 momentissa tarkoitetut tiedot siten, että niistä käy ilmi työntekijän henkilötunnus ja muut yksilöintitiedot.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Työttömyysvakuutusrahaston on toimitettava vuosittain kahden kuukauden kuluessa tilinpäätöksen vahvistamisesta sosiaali- ja terveysministeriölle kertomus toiminnastaan ja tilastaan. Työttömyysvakuutusrahaston on toimitettava lisäksi edellä mainitussa määräajassa selvitys työttömyysvakuutusmaksujen perinnän valvonnasta, valvonnassa esiin tulleista seikoista ja toimenpiteistä, joihin havaintojen johdosta on ryhdytty.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Työttömyysvakuutusrahaston on toimitettava Vakuutusvalvontavirastolle tilinpäätöksensä ja tilintarkastajan lausunto tilivuotta seuraavan kesäkuun loppuun mennessä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>22 b §</num>
+                        <heading>Työttömyysvakuutusrahaston oikeus tietojen saamiseen</heading>
+                        <subsection>
+                            <intro>
+                                <p>Työttömyysvakuutusrahastolla on oikeus salassapitosäännösten ja muiden tiedon saantia koskevien rajoitusten estämättä saada vakuutuslaitokselta, Valtiokonttorilta ja Tapaturmavakuutuslaitosten liitolta työttömyysvakuutusmaksujen perinnän ohjaamista, kehittämistä ja valvontaa varten välttämättömät tiedot:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>työnantajan yksilöimiseksi, kuten työnantajan yritys- ja yhteisötunnus, henkilötunnus tai muu vastaava tunnus;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>työnantajan ja palkansaajan työttömyysvakuutusmaksun perusteena olevasta työnantajakohtaisesta palkkasummasta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>perityistä työttömyysvakuutusmaksuista, työnantajille maksetuista työttömyysvakuutusmaksun palautuksista ja työttömyysvakuutusrahastolta perityistä perimiskorvauksista ja muista tilittämiseen sekä perintään liittyvistä seikoista;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>työnantajista, jotka ovat ilmoittaneet palkkasummansa ylittävän 18 §:n 1 momentissa säädetyn palkkasumman;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>13 ja 16 §:ssä tarkoitetun osaomistajan palkkasummasta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>työttömyysvakuutusmaksun perintämenettelyyn liittyvistä seikoista;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7)</num>
+                                <content>
+                                    <p>muista mainittujen tehtävien hoitamista varten välttämättömistä seikoista.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Työttömyysvakuutusrahastolla on oikeus salassapitosäännösten ja muiden tiedon saantia koskevien rajoitusten estämättä saada eläkelaitokselta, Eläketurvakeskukselta, veroviranomaisilta sekä viranomaiselta ja muulta taholta, johon viranomaisten toiminnan julkisuudesta annettua lakia (621/1999) sovelletaan, työnantajakohtaisesti tiedot maksetuista palkoista sekä muista seikoista, jotka ovat välttämättömiä 10 §:n 1 momentissa säädetyn työttömyysvakuutusmaksun perinnän valvontaa varten. Työttömyysvakuutusrahastolla on lisäksi oikeus saada mainittua tarkoitusta varten veroviranomaisilta joukkotietoina palkkaa tai muuta vastiketta työntekijöille maksaneiden työnantajien nimet, yritys- ja yhteisötunnukset tai henkilötunnukset, yhteystiedot, vuosi-ilmoitukset tai vuosi-ilmoituksia vastaavat tiedot, toimialat sekä tiedot näiden työnantajien työstä maksamista vastikkeista ja niihin liittyvistä työnantajasuorituksista.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Työttömyysvakuutusrahastolla on oikeus saada 2 momentissa tarkoitetut tiedot, vaikka se ei olisi joukkotietopyynnössään yksilöinyt valvottavia työnantajia tai vaikka valvonta ei olisi vielä vireillä. Työttömyysvakuutusrahastolla on oikeus yhdistää ja käsitellä 2 momentissa tarkoitettuja henkilötietoja 10 §:n 1 momentissa ja 8 a luvussa säädettyjä tehtäviään varten. Yhdistettyjä tietoja voidaan säilyttää siihen asti, kunnes työttömyysvakuutusrahaston edellä mainitut tehtävät on suoritettu. Yhdistettyjä tietoja ei saa luovuttaa edelleen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Työttömyysvakuutusrahastolla on oikeus saada maksutta 1 ja 2 momentissa tarkoitetut tiedot. Jos tiedot tarvitaan määrätyssä muodossa ja siitä aiheutuu tietojen luovuttajalle olennaisia lisäkustannuksia, ne on kuitenkin korvattava.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>22 c §</num>
+                        <heading>Oikeus tietojen saamiseen ja luovuttamiseen</heading>
+                        <subsection>
+                            <content>
+                                <p>Vakuutuslaitoksella, Valtiokonttorilla, Tapaturmavakuutuslaitosten liitolla ja tämän lain mukaisella muutoksenhakuelimellä on oikeus salassapitosäännösten ja muiden tiedon saantia koskevien rajoitusten estämättä saada lakisääteistä vakuutusta toimeenpanevalta eläkelaitokselta, Eläketurvakeskukselta, veroviranomaisilta sekä viranomaiselta ja muulta taholta, johon viranomaisten toiminnan julkisuudesta annettua lakia sovelletaan, työnantajakohtaisesti tiedot maksetuista palkoista sekä muista seikoista, jotka ovat välttämättömiä työttömyysvakuutusmaksua koskevan asian käsittelemiseksi sekä työttömyysvakuutusmaksun määräämiseksi ja perimiseksi.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vakuutuslaitoksen ja Valtiokonttorin on annettava tapaturmavakuutuksen siirtyessä kesken kalenterivuoden toiseen vakuutuslaitokseen tälle vakuutuslaitokselle maksutta salassapitosäännösten ja muiden tiedon antamista koskevien rajoitusten estämättä tämän lain mukaista perintätehtävää ja maksujen määräämistä varten välttämättömät tiedot työnantajan ja palkansaajan sekä osaomistajan työttömyysvakuutusmaksun perusteena olevasta työnantajakohtaisesta palkkasummasta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vakuutuslaitos ja Valtiokonttori eivät saa käyttää muussa toiminnassaan hyväkseen tämän lain toimeenpanoon perustuvia, salassapitosäännösten tai muiden tiedon saantia koskevien rajoitusten alaisia tietoja, jollei siitä lailla erikseen säädetä. Tällaisia tietoja ei saa antaa myöskään vakuutuslaitoksen yhtiökokoukselle, edustajistolle eikä osakkaalle.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vakuutuslaitoksella, Valtiokonttorilla, Tapaturmavakuutuslaitosten liitolla ja tämän lain mukaisella muutoksenhakuelimellä on oikeus saada maksutta 1 momentissa tarkoitetut tiedot. Jos tiedot tarvitaan määrätyssä muodossa ja siitä aiheutuu tietojen luovuttajalle olennaisia lisäkustannuksia, ne on kuitenkin korvattava.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>22 d §</num>
+                        <heading>Työnantajan velvollisuus tietojen antamiseen</heading>
+                        <subsection>
+                            <content>
+                                <p>Työnantaja on velvollinen antamaan tapaturmavakuutuslain mukaista vakuutusta tehtäessä sekä sen jälkeen vuosittain vakuutuslaitokselle ja Valtiokonttorille työttömyysvakuutusmaksun määräämiseksi ja perimiseksi tarvittavat tiedot maksamistaan palkoista sekä muut tarvittavat tiedot. Tietoja ei tarvitse antaa työntekijäkohtaisesti yksilöitynä. Työnantaja on lisäksi velvollinen antamaan vakuutuslaitokselle, Valtiokonttorille, Tapaturmavakuutuslaitosten liitolle ja tämän lain mukaiselle muutoksenhakuelimelle niiden vaatimat selvitykset, jotka ovat tarpeen työttömyysvakuutusmaksua koskevan asian käsittelemiseksi.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Työnantajan on ilmoitettava vakuutuslaitokselle tapaturmavakuutuslain mukaista vakuutusta tehtäessä vakuutusten jakamisesta eri vakuutuslaitoksiin, jos työnantajan maksama palkkasumma ylittää 18 §:n 1 momentissa tarkoitetun palkkasumman.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>22 e §</num>
+                        <heading>Työttömyysvakuutusmaksujen perintään liittyvä tarkastusoikeus</heading>
+                        <subsection>
+                            <content>
+                                <p>Vakuutuslaitoksella, Valtiokonttorilla ja Tapaturmavakuutuslaitosten liitolla on oikeus tarkastaa työnantajan asiakirjoista työnantajan 22 d §:n mukaisen tietojenantovelvollisuuden piiriin kuuluvien tietojen oikeellisuus. Niillä on oikeus saada poliisilta ja muilta viranomaisilta virka-apua edellä tarkoitettujen tietojen saamiseksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>22 f §</num>
+                        <heading>Asiakirjojen ja toiminnan julkisuus</heading>
+                        <subsection>
+                            <content>
+                                <p>Viranomaisten toiminnan julkisuudesta annettua lakia sovelletaan työttömyysvakuutusrahaston tämän lain toimeenpanoon liittyvien asiakirjojen ja toiminnan julkisuuteen siltä osin kuin mainitun lain 4 §:n 2 momentissa säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tässä laissa säädettyjä tai tämän lain toimeenpanoon liittyviä tehtäviä hoidettaessa saatujen ja laadittujen asiakirjojen ja niihin sisältyvien tietojen salassapitovelvollisuuteen sekä näiden tehtävien hoidossa saatuja tietoja koskevaan vaitiolovelvollisuuteen ja hyväksikäyttökieltoon sovelletaan työttömyysvakuutusrahastossa viranomaisten toiminnan julkisuudesta annetun lain 22―24 ja 35 §:ää myös silloin, kun kysymys ei ole mainitun lain 4 §:n 2 momentissa tarkoitetun julkisen vallan käyttöön kuuluvaa tehtävää varten laadituista tai saaduista asiakirjoista ja tiedoista. Tietojen luovuttamisesta on tällöin soveltuvin osin voimassa, mitä viranomaisten toiminnan julkisuudesta annetun lain 7 luvussa säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Viranomaisten toiminnan julkisuudesta annetun lain soveltamisesta vakuutuslaitoksen ja Tapaturmavakuutuslaitosten liiton tämän lain toimeenpanoon liittyvien asiakirjojen ja toiminnan julkisuuteen on soveltuvin osin voimassa, mitä tapaturmavakuutuslain 64 h §:ssä säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Sen lisäksi, mitä viranomaisten toiminnan julkisuudesta annetun lain 24 §:n 1 momentin 20 kohdassa säädetään, salassa pidettäviä ovat myös sellaiset tämän lain toimeenpanoon liittyvät asiakirjat ja tiedot, jotka koskevat työnantajan taloudellista asemaa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>22 g §</num>
+                        <heading>Tekninen käyttöyhteys</heading>
+                        <subsection>
+                            <content>
+                                <p>Vakuutuslaitoksella, Valtiokonttorilla ja Tapaturmavakuutuslaitosten liitolla sekä 22 b §:n 2 momentissa mainituilla on sen lisäksi, mitä viranomaisten toiminnan julkisuudesta annetun lain 29 §:n 3 momentissa säädetään, oikeus antaa työttömyysvakuutusrahastolle teknisen käyttöyhteyden avulla tiedot, jotka sillä on tämän lain nojalla oikeus saada.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tässä pykälässä tarkoitetun teknisen käyttöyhteyden avulla saa antaa myös salassa pidettäviä tietoja ilman sen suostumusta, jonka etujen suojaamiseksi salassapitovelvollisuus on säädetty.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Ennen teknisen käyttöyhteyden avaamista tietojen pyytäjän on esitettävä käyttöyhteyden avaajalle selvitys siitä, että tietojen suojauksesta huolehditaan asianmukaisesti.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>25 §</num>
+                        <heading>Muutoksenhaku</heading>
+                        <subsection>
+                            <content>
+                                <p>Työnantajan ja palkansaajan työttömyysvakuutusmaksun ja sen ennakon maksuunpanosta voidaan valittaa noudattaen, mitä tapaturmavakuutuslain 53 a §:n 3 ja 11 momentissa sekä 53 b §:n 1 momentissa säädetään.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>26 a §</num>
+                        <heading>Työttömyysvakuutusrekisteri</heading>
+                        <subsection>
+                            <content>
+                                <p>Työttömyysvakuutusrahasto pitää sille tässä laissa säädettyjen työttömyysvakuutusmaksuja koskevien asioiden hoitoa varten työttömyysvakuutusrekisteriä. Työttömyysvakuutusrekisteriin merkityt tiedot on säilytettävä 20 vuoden ajan siitä, kun ne on merkitty rekisteriin. Jollei tässä laissa toisin säädetä, rekisteriin talletettujen henkilötietojen salassapitoon ja luovuttamiseen sovelletaan viranomaisten toiminnan julkisuudesta annettua lakia sekä muuhun henkilötietojen käsittelyyn henkilötietolakia (523/1999).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>26 b §</num>
+                        <heading>Rangaistussäännös</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Työnantaja tai tämän edustaja, joka tahallaan laiminlyö 22 d §:n mukaisen tietojenantovelvollisuutensa tai antaa sen piiriin kuuluvan tiedon virheellisenä, on tuomittava, jollei teko, huomioon ottaen sen haitallisuus ja vahingollisuus sekä muut tekoon liittyvät seikat, ole kokonaisuutena arvostellen vähäinen tai teosta muualla laissa säädetä ankarampaa rangaistusta, 
+                                    <i>työttömyysetuuksien rahoituksesta annetun lain mukaisen tietojenantovelvollisuuden rikkomisesta</i>
+                                     sakkoon.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Edellä 1 momentissa tarkoitetaan:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>
+                                        <i>työnantajalla</i>
+                                         sitä, joka työsuhteessa taikka virka- tai siihen rinnastettavassa julkisoikeudellisessa palvelussuhteessa teettää työtä, sekä sitä, joka tosiasiallisesti käyttää työnantajalle kuuluvaa päätösvaltaa;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>
+                                        <i>työnantajan edustajalla</i>
+                                         työnantajana olevan oikeushenkilön lakimääräisen tai muun päättävän elimen jäsentä sekä sitä, joka työnantajan sijasta johtaa tai valvoo työtä.
+                                    </p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tässä pykälässä rangaistavaksi säädetystä työnantajan tai tämän edustajan menettelystä tuomitaan rangaistukseen se, jonka velvollisuuksien vastainen teko tai laiminlyönti on. Tätä arvioitaessa on otettava huomioon asianomaisen asema, hänen tehtäviensä ja toimivaltuuksiensa laatu ja laajuus sekä muutenkin hänen osuutensa lainvastaisen tilan syntyyn ja jatkumiseen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä kesäkuuta 2006. Lain 19 a §:n 1 momenttia ja 25 §:n 1 momenttia sovelletaan kuitenkin 1 päivästä tammikuuta 2006.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                    <p>Tämän lain säännöksiä oikeudesta saada ja luovuttaa tietoja sovelletaan myös tietoihin, jotka ovat ajalta ennen tämän lain voimaantuloa.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/17">HE 17/2006</ref>
+                        </p>
+                        <p>StVM 8/2006</p>
+                        <p>EV 37/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 19 päivänä toukokuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

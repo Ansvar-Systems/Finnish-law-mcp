@@ -1,0 +1,136 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/21/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/21"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/21/alkup"/>
+                    <FRBRdate date="2005-01-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="21"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/21/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/21/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/21/alkup/swe"/>
+                    <FRBRdate date="2005-01-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/21/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/21/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/21/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="6"/>
+                    <finlex:date date="2005-01-27"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>21/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om offentlig upphandling</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i lagen av den 23 december 1992 om offentlig upphandling (
+                        <affectedDocument href="/akn/fi/act/statute/1992/1505">1505/1992</affectedDocument>
+                        ) 9 b § 3 mom., sådant det lyder i lag 1009/2001, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 7 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>2 kap.</num>
+                    <heading>Verkställande av upphandlingen</heading>
+                    <section>
+                        <num>7 a §</num>
+                        <heading>Upphandlingsbeslut och upphandlingsavtal</heading>
+                        <subsection>
+                            <content>
+                                <p>En upphandlingsenhet skall fatta ett skriftligt beslut om de avgöranden som påverkar kandidaternas eller anbudsgivarnas ställning samt om anbudsförfarandets utgång. Till beslutet som skall motiveras skall dessutom fogas en i 9 b § avsedd anvisning om hur ärendet kan anhängiggöras i marknadsdomstolen (anvisning om ansökan). Beslutet jämte anvisningen om ansökan skall skriftligt delges de parter som saker gäller.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Efter att ett upphandlingsbeslut har fattats skall upphandlingsenheten ingå ett skriftligt avtal om upphandlingen. Upphandlingsavtal får ingås och beslut verkställas tidigast 21 dagar efter det att kandidaterna eller anbudsgivarna har fått eller anses ha fått del av beslutet och anvisningen om ansökan.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Avvikelse från tidsfristen enligt 2 mom. kan göras, om ingående av avtal är absolut nödvändigt av skäl som är tvingande på grund av allmänt intresse eller av någon annan oförutsebar orsak som inte beror på upphandlingsenheten. Upphandlingsenheten skall i sitt beslut ange grunderna för avvikelsen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 februari 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 237/2004</p>
+                        <p>EkUB 25/2004</p>
+                        <p>RSv 182/2004</p>
+                        <p>Rådets direktiv 89/665/EEG (31989L0665); EGT nr L 395, 30.12.1989, s. 33</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 21 januari 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Handels- och industriminister </role>
+                                <person refersTo="">Mauri Pekkarinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,130 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/127/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/127"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/127/alkup"/>
+                    <FRBRdate date="2016-02-19" name="dateIssued"/>
+                    <FRBRdate date="2016-02-22" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="127"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/127/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/127/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/127/alkup/swe"/>
+                    <FRBRdate date="2016-02-19" name="dateIssued"/>
+                    <FRBRdate date="2016-02-22" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/127/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/127/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/127/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-22" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>127/2016</docNumber>
+                <docTitle>Lag om ändring av 48 f § i lagen om grundläggande utbildning</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om grundläggande utbildning (
+                        <affectedDocument href="/akn/fi/act/statute/1998/628">628/1998</affectedDocument>
+                        ) 48 f §, sådan den lyder i lagarna 1136/2003 och 1081/2006, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>48 f §</num>
+                    <heading>Avgifter</heading>
+                    <subsection>
+                        <content>
+                            <p>För morgon- och eftermiddagsverksamhet kan det bestämmas en månadsavgift. Kommunen beslutar om storleken på månadsavgifterna för morgon- och eftermiddagsverksamheten. Avgiften för 570 timmar får vara högst 120 euro och för 760 timmar högst 160 euro.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Avgiften får tas ut för varje sådan månad då barnet deltar i morgon- eller eftermiddagsverksamhet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om morgon- och eftermiddagsverksamhet ordnas högst 10 dagar i månaden, tas endast hälften av avgiften ut. Endast hälften av avgiften tas ut också om barnet på grund av egen sjukdom inte kan delta i verksamheten under en längre tid än 10 dagar under en kalendermånad. Om en frånvaro som beror på egen sjukdom pågår en hel kalendermånad, tas ingen avgift ut. Deltar barnet av någon annan orsak inte i verksamheten under en hel kalendermånad, tas i avgift ut hälften av månadsavgiften. Andra avgifter kan inte tas ut för deltagande i verksamheten.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Avgiften ska efterskänkas eller nedsättas, om det finns skäl till det med beaktande av vårdnadshavarens underhållsskyldighet eller utkomstmöjligheter eller vårdsynpunkter.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 augusti 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/78">RP 78/2015</ref>
+                        </p>
+                        <p>KuUB 12/2015</p>
+                        <p>RSv 90/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 19 februari 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Undervisnings- och kulturminister</role>
+                                <person refersTo="">Sanni Grahn-Laasonen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,153 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/12/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/12"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/12/alkup"/>
+                    <FRBRdate date="2015-01-13" name="dateIssued"/>
+                    <FRBRdate date="2015-01-16" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="12"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/12/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/12/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/12/alkup/fin"/>
+                    <FRBRdate date="2015-01-13" name="dateIssued"/>
+                    <FRBRdate date="2015-01-16" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/12/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/12/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/12/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2015-01-16" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>12/2015</docNumber>
+                <docTitle>Laki oikeusgeneettisestä isyystutkimuksesta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         oikeusgeneettisestä isyystutkimuksesta annetun lain (<affectedDocument href="/akn/fi/act/statute/2005/378">378/2005</affectedDocument>) 2 ja 3 §, 11 §:n 3 momentti ja 13 § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Tutkimuksen teettäminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Tuomioistuin voi käsiteltävänään olevassa isyyden vahvistamista tai kumoamista koskevassa asiassa määrätä tutkimuksen tehtäväksi, jos asianosainen sitä vaatii tai jos tuomioistuin pitää sitä muutoin tarpeellisena asian selvittämiseksi. Lastenvalvoja voi tilata tutkimuksen, jos isyyslain (11/2015) 9 §:ssä säädetyt edellytykset ovat olemassa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <heading>Tutkimuksen tekijä</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Tutkimus tehdään Terveyden ja hyvinvoinnin laitoksessa tai Helsingin yliopiston Hjelt-instituutissa (<i>tutkimuksen tekijä</i>).
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>11 §</num>
+                    <heading>Tutkimusmääräyksen antaminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Todistuksen antaa näytteen ottamisesta vastuussa oleva terveydenhuollon ammattihenkilö tai isyyslain 18 §:n 2 momentissa tarkoitettu Suomen edustuston virkamies.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>13 §</num>
+                    <heading>Näytteen ottaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Elossa olevasta otetaan tutkimusta varten solunäyte suun limakalvolta, jollei verinäytteen ottamiseen ole erityistä syytä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vainajasta näyte otetaan saatavilla olevasta kudoksesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Verinäytteen ottaa siihen tarvittavan koulutuksen saanut laillistettu terveydenhuollon ammattihenkilö terveydenhuollon toimintayksikössä. Näyte suun limakalvolta voidaan ottaa myös lastenvalvojan tai isyyslain 18 §:n 2 momentissa tarkoitetun Suomen edustuston virkamiehen valvonnassa. Ennen näytteen ottamista näytteenantajan on todistettava henkilöllisyytensä näytteenottajalle tai näytteenoton valvojalle.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/91">HE 91/2014</ref>
+                        </p>
+                        <p>LaVM 16/2014</p>
+                        <p>EV 235/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>  Helsingissä 13 päivänä tammikuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri</role>
+                                <person refersTo="">Anna-Maja Henriksson</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

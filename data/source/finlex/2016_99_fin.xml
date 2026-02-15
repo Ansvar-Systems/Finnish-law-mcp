@@ -1,0 +1,170 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/99/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/99"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/99/alkup"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="99"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/99/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/99/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/99/alkup/fin"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/99/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/99/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/99/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>99/2016</docNumber>
+                <docTitle>Laki eläkelaitoksen vakavaraisuusrajan laskemisesta ja sijoitusten hajauttamisesta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         eläkelaitoksen vakavaraisuusrajan laskemisesta ja sijoitusten hajauttamisesta annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2015/315">315/2015</affectedDocument>
+                        ) 1 §:n 2 momentti ja 17 §:n 1 momentti sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 7 a § ja 8 §:ään uusi 2 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Soveltamisala</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Maatalousyrittäjien eläkelaitokseen sovelletaan tämän lain 4—7, 7 a, 26 ja 27 §:ää.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 a §</num>
+                    <heading>Osakesijoitusten enimmäismäärä</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Eläkelaitoksen sijoituksista enintään 65 prosenttia saa olla osakesijoituksia. 
+                                <i>Osakesijoituksilla</i>
+                                 tarkoitetaan 11 §:n 1 momentissa tarkoitetuille riskiluokille 1—5 altistuneiden sijoitusten yhteismäärää. Jos johdannaissopimuksen kohde-etuutena on osakesijoitus, johdannaissopimuksen osakeriskille altistuneella määrällä tarkoitetaan johdannaissopimuksen 19 §:n 3 momentissa tarkoitettua deltavasta-arvoa.
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>8 §</num>
+                    <heading>Hajauttamista koskevien rajojen ylittäminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos osakesijoituksia koskeva 7 a §:ssä mainittu raja ylittyy, lisätään 23 §:ssä tarkoitettuun vakavaraisuusrajaan määrä, joka on 100 prosenttia rajan ylittävästä määrästä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>17 §</num>
+                    <heading>Tuottovaatimusriski ja vakuutusriski</heading>
+                    <subsection>
+                        <content>
+                            <p>Tuottovaatimusriskiluokan riskiarvo lasketaan sen estämättä, mitä 12 §:ssä säädetään, kaavalla</p>
+                            <foreign>
+                                <finlex:latex>$  V_j = (k + bC - \lambda S_j) A_j ,  $</finlex:latex>
+                            </foreign>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>
+                                missä k on vastuuvelan tai eläkevastuun laskemisessa käytettävä diskonttauskorko, b on laskentahetkeä seuraavana päivänä voimassa oleva työntekijän eläkelain (395/2006) 171 §:n 1 momentissa tarkoitettu eläkevastuun täydennyskerroin, S
+                                <sub>j</sub>
+                                 on tuottovaatimusriskille määritelty tappio-olettama ja A
+                                <sub>j</sub>
+                                 on vastuuvelka tai eläkevastuu, josta on vähennetty työeläkevakuutusyhtiöistä annetun lain 14 §:n 2 momentin mukainen osittamaton ja ositettu lisävakuutusvastuu, eläkesäätiölain 43 §:n 2 momentin ja vakuutuskassalain 79 §:n 2 momentin mukainen lisävakuutusvastuu ja erät, joita yrittäjän eläkelain (1272/2006) 139 §:n 2 momentin mukaan ei oteta huomioon vakuutusmaksuvastuussa.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2017.</p>
+                    <p>Sovellettaessa 17 §:n 1 momenttia Keskinäisen Eläkevakuutusyhtiö Eteran vastuuvelasta vähennetään myös työeläkevakuutusyhtiölain muuttamisesta annetun lain (96/2016) voimaantulosäännöksen 4 momentissa tarkoitetusta tasoitusmäärästä vakavaraisuuspääomaan luettava osa.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/16">HE 16/2015</ref>
+                        </p>
+                        <p>StVM 5/2015</p>
+                        <p>EV 37/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 29 päivänä tammikuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri</role>
+                                <person refersTo="">Hanna Mäntylä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

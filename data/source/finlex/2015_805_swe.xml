@@ -1,0 +1,128 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/805/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/805"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/805/alkup"/>
+                    <FRBRdate date="2015-06-26" name="dateIssued"/>
+                    <FRBRdate date="2015-06-30" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="805"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/805/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/805/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/805/alkup/swe"/>
+                    <FRBRdate date="2015-06-26" name="dateIssued"/>
+                    <FRBRdate date="2015-06-30" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/805/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/805/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/805/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-06-30" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>805/2015</docNumber>
+                <docTitle>Lag om ändring av 12 § i lagen om besvärsnämnden för arbetspensionsärenden</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om besvärsnämnden för arbetspensionsärenden (
+                        <affectedDocument href="/akn/fi/act/statute/2005/677">677/2005</affectedDocument>
+                        ) 12 §, sådan den lyder i lag 1318/2010, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>12 §</num>
+                    <heading>Tillämpning av förvaltningsprocesslagen</heading>
+                    <subsection>
+                        <content>
+                            <p>Vid behandlingen av ärenden i besvärsnämnden tillämpas förvaltningsprocesslagen, om inte något annat föreskrivs särskilt.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelserna i 38 § i förvaltningsprocesslagen om muntlig förhandling i förvaltningsdomstolen på begäran av en enskild part gäller också muntlig förhandling i besvärsnämnden. Oberoende av vad som föreskrivs i 2 § 1 mom. i förvaltningsprocesslagen tillämpas i besvärsnämnden också de bestämmelser i 37, 39, 39 a—39 g och 40—50 § i den lagen som gäller behandling och utredning av ärenden.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>De kostnader för vilka det enligt 49 och 50 § i förvaltningsprocesslagen betalas ersättning av statens medel, ersätts, med undantag av ersättning till ett vittne som åberopats av staten, av besvärsnämndens medel.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelserna om extraordinärt ändringssökande i 11 kap. i förvaltningsprocesslagen tillämpas inte på ärenden som hör till besvärsnämndens behörighet.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 245/2014</p>
+                        <p>LaUB 23/2014</p>
+                        <p>RSv 296/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 26 juni 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitie- och arbetsminister</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,157 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/640/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/640"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/640/alkup"/>
+                    <FRBRdate date="2006-07-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="640"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/640/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/640/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/640/alkup/swe"/>
+                    <FRBRdate date="2006-07-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/640/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/640/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/640/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="100"/>
+                    <finlex:date date="2006-07-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>640/2006</docNumber>
+                <docTitle>Lag om ändring av lagen om pantlåneinrättningar</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i lagen av den 18 december 1992 om pantlåneinrättningar (
+                        <affectedDocument href="/akn/fi/act/statute/1992/1353">1353/1992</affectedDocument>
+                        ) 30 § 2 mom., sådant det lyder i lag 769/1997, och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i 7 § det inledande stycket, 13 a § 3 mom., 30 § 3 mom., 30 a § 2 mom. samt 30 b §,
+                    </block>
+                    <block name="substitutions-originals">av dem 13 a § 3 mom. sådant det lyder i nämnda lag 769/1997, 30 § 3 mom. sådant det lyder i lag 598/2003 samt 30 a § 2 mom. och 30 b § sådana de lyder i lag 757/2004, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>7 §</num>
+                    <subsection>
+                        <intro>
+                            <p>I en pantlåneinrättnings bolagsordning skall utöver vad som bestäms i aktiebolagslagen (624/2006) föreskrivas</p>
+                        </intro>
+                    </subsection>
+                </section>
+                <section>
+                    <num>13 a §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Finansinspektionen meddelar pantlåneinrättningen ett förordnande som avses i 7 kap. 7 § i aktiebolagslagen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>30 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Finansinspektionen beviljar pantlåneinrättningar sådana tillstånd som avses i 6 kap. 10 § 2 mom. och 19 § 1 mom. i aktiebolagslagen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>30 a §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Registermyndigheten får inte ge ett sådant intyg som avses i 9 § 5 mom. i lagen om europabolag (742/2004), om Finansinspektionen innan ett sådant tillstånd som avses i 2 mom. i samma paragraf beviljats har meddelat registermyndigheten att pantlåneinrättningen inte har iakttagit bestämmelserna om flyttning av hemort eller bestämmelserna om avslutande av verksamheten i Finland. Tillstånd får beviljas innan en månad har förflutit från den dag som avses i 16 kap. 6 § 2 mom. i aktiebolagslagen endast om Finansinspektionen har meddelat att den inte motsätter sig en flyttning av hemorten.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>30 b §</num>
+                    <subsection>
+                        <content>
+                            <p>Om en pantlåneinrättning deltar i en fusion som avses i artikel 2.1 i europabolagsförordningen, får registermyndigheten inte för denna fusion ge ett intyg som avses i 4 § 3 mom. i lagen om europabolag, om Finansinspektionen innan ett sådant tillstånd som avses i 4 § 2 mom. i nämnda lag beviljats har meddelat registermyndigheten att pantlåneinrättningen inte har iakttagit bestämmelserna om fusion eller om avslutande av verksamheten i Finland. Tillstånd får beviljas innan en månad har förflutit från den dag som avses i 16 kap. 6 § 2 mom. i aktiebolagslagen endast om Finansinspektionen har meddelat att den inte motsätter sig en flyttning av hemorten.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 september 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 109/2005</p>
+                        <p>EkUB 7/2006</p>
+                        <p>RSv 63/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 21 juli 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

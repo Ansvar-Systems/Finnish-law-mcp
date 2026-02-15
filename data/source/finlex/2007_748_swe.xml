@@ -1,0 +1,152 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/748/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/748"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/748/alkup"/>
+                    <FRBRdate date="2007-06-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="748"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/748/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/748/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/748/alkup/swe"/>
+                    <FRBRdate date="2007-06-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/748/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/748/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/748/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="113"/>
+                    <finlex:date date="2007-07-05"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>748/2007</docNumber>
+                <docTitle>Lag om ändring av 48 kap. 1 § i strafflagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i strafflagen av den 19 december 1889 (
+                        <affectedDocument href="/akn/fi/act/statute/1889/39">39/1889</affectedDocument>
+                        ) 48 kap. 1 §, sådan den lyder i lagarna 154/1999, 138/2006 och 629/2007, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Miljöförstöring</heading>
+                    <subsection>
+                        <intro>
+                            <p>Den som uppsåtligen eller av grov oaktsamhet</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>i miljön för eller släpper ut eller lämnar ett föremål eller ämne, strålning eller något annat sådant i strid med lag eller med stöd av lag utfärdade bestämmelser eller allmänna eller särskilda föreskrifter, eller utan sådant tillstånd som lagen förutsätter, eller i strid med tillståndsvillkor,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>framställer, överlåter, transporterar, använder, behandlar eller förvarar ett ämne, ett fabrikat, en produkt eller ett föremål eller använder en anordning i strid med kemikalielagen, REACH-förordningen eller bestämmelser som har utfärdats med stöd av dem eller med stöd av miljöskyddslagen (86/2000) eller i strid med Europaparlamentets och rådets förordning (EG) nr 2037/2000 om ämnen som bryter ned ozonskiktet, Europaparlamentets och rådets förordning (EG) nr 842/2006 om vissa fluorerade växthusgaser eller Europaparlamentets och rådets förordning (EG) nr 850/2004 om långlivade organiska föroreningar och om ändring av direktiv 79/117/EEG eller en sådan bestämmelse som nämns i 60 § 1 mom. i avfallslagen (1072/1993) eller bestämmelser som har utfärdats eller särskilda föreskrifter eller förbud som har meddelats med stöd av avfallslagen, eller som försummar sin skyldighet enligt avfallslagen att ordna avfallshantering, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>för in i landet eller ut ur landet eller genom finskt territorium transiterar avfall i strid med avfallslagen eller bestämmelser som har utfärdats eller särskilda föreskrifter som har meddelats med stöd av den eller i strid med Europaparlamentets och rådets förordning (EG) nr 1013/2006 om transport av avfall, eller i landet för in eller ur landet för ut ett ämne, ett fabrikat eller en produkt i strid med en förordning som utfärdats med stöd av miljöskyddslagen eller i strid med Europaparlamentets och rådets förordning (EG) nr 2037/2000 om ämnen som bryter ned ozonskiktet, Europaparlamentets och rådets förordning (EG) nr 842/2006 om vissa fluorerade växthusgaser, Europaparlamentets och rådets förordning (EG) nr 304/2003 om export och import av farliga kemikalier eller Europaparlamentets och rådets förordning (EG) nr 850/2004 om långlivade organiska föroreningar och om ändring av direktiv 79/117/EEG, eller ur landet för ut genetiskt modifierade organismer eller livsmedel eller foder som innehåller sådana i strid med Europaparlamentets och rådets förordning (EG) nr 1946/2003 om gränsöverskridande förflyttning av genetiskt modifierade organismer,</p>
+                            </content>
+                        </paragraph>
+                        <wrapUp>
+                            <p>
+                                så att gärningen är ägnad att förorena miljön, orsaka andra motsvarande skadliga förändringar i miljön, skräpa ned miljön eller förorsaka fara för hälsan, skall för 
+                                <i>miljöförstöring</i>
+                                 dömas till böter eller fängelse i högst två år.
+                            </p>
+                        </wrapUp>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Försök till ett uppsåtligt brott som avses i 1 mom. 3 punkten är straffbart.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>För miljöförstöring döms också den som uppsåtligen eller av grov oaktsamhet på något annat sätt än det som avses i 1 mom. börjar göra ändringar i miljön i strid med markanvändnings- och bygglagen (132/ 1999), vattenlagen (264/1961) eller marktäktslagen (555/1981) eller avtappningsstadgan för Saimen och Vuoksen eller i strid med bestämmelser, allmänna eller särskilda föreskrifter eller planer eller tillstånd som har utfärdats med stöd av dessa, så att gärningen är ägnad att medföra så allvarliga miljöförändringar att de kan jämställas med förorening av miljön.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <hcontainer name="horizontalRule"/>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 12 juli 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 30/2007</p>
+                        <p>MiUB 2/2007</p>
+                        <p>RSv 9/2007</p>
+                        <p>Europaparlamentets och rådets förordning (EG) nr 1013/2006 (32006R1013); EGT nr L 190, 12.7.2006, s. 1</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 juni 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Paavo Väyrynen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

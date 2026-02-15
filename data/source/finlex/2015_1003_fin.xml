@@ -1,0 +1,121 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1003/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1003"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1003/alkup"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1003"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1003/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1003/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1003/alkup/fin"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1003/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1003/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1003/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1003/2015</docNumber>
+                <docTitle>Laki vesiliikennelain 22 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         vesiliikennelain (
+                        <affectedDocument href="/akn/fi/act/statute/1996/463">463/1996</affectedDocument>
+                        ) 22 §, sellaisena kuin se on laissa 1294/2009, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>22 §</num>
+                    <heading>Muutoksenhaku</heading>
+                    <subsection>
+                        <content>
+                            <p>Tässä laissa tarkoitettuun päätökseen saa hakea muutosta valittamalla hallinto-oikeuteen siten kuin hallintolainkäyttölaissa (586/1996) säädetään. Valitus, joka koskee toimivaltaisen elinkeino-, liikenne- ja ympäristökeskuksen tämän lain 15 §:n 2 momentin, 16 §:n tai 21 §:n 3 momentin taikka Liikenneviraston 15 §:n 2 momentin tai Liikenteen turvallisuusviraston 16 §:n nojalla antamaa päätöstä käsitellään siinä hallinto-oikeudessa, jonka tuomiopiirissä pääosa päätöksen kohteena olevasta vesialueesta sijaitsee. Muutoin toimivaltainen hallinto-oikeus määräytyy sen mukaan, minkä hallinto-oikeuden tuomiopiirissä valituksen kohteena olevan päätöksen tehneen viranomaisen toimipaikka sijaitsee.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Hallinto-oikeuden päätökseen 15, 16 ja 20 §:ssä tarkoitetun kiellon tai rajoituksen määräämistä tai muuttamista koskevassa asiassa saa hakea muutosta valittamalla siten kuin hallintolainkäyttölaissa säädetään. Hallinto-oikeuden muuhun päätökseen saa hakea muutosta valittamalla vain, jos korkein hallinto-oikeus myöntää valitusluvan.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                    <p>Muutoksenhaussa ennen tämän lain voimaantuloa annettuun hallintopäätökseen sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/230">HE 230/2014</ref>
+                        </p>
+                        <p>LaVM 26/2014</p>
+                        <p>EV 319/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Naantalissa 7 päivänä elokuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeus- ja työministeri</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

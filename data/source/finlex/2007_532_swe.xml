@@ -1,0 +1,236 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/532/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/532"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/532/alkup"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="532"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/532/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/532/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/532/alkup/swe"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/532/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/532/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/532/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="79"/>
+                    <finlex:date date="2007-05-15"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>532/2007</docNumber>
+                <docTitle>Lag om ändring av skjutvapenlagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i skjutvapenlagen av den 9 januari 1998 (
+                        <affectedDocument href="/akn/fi/act/statute/1998/1">1/1998</affectedDocument>
+                        ) 101 §, sådan den lyder i lagarna 601/2001 och 804/2003,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         102―104 §, av dem 103 § sådan den lyder delvis ändrad i nämnda lag 601/2001, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 104 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>9 kap.</num>
+                    <heading>Påföljder</heading>
+                    <section>
+                        <num>102 §</num>
+                        <heading>Skjutvapenbrott</heading>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelser om straff för skjutvapenbrott, grovt skjutvapenbrott och lindrigt skjutvapenbrott finns i 41 kap. 1―3 § i strafflagen och bestämmelser om straff för ovarsam hantering i 44 kap. 12 § i strafflagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>103 §</num>
+                        <heading>Skjutvapenförseelse</heading>
+                        <subsection>
+                            <intro>
+                                <p>Den som i strid med denna lag uppsåtligen eller av grov oaktsamhet</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>försummar anmälningsplikten enligt 22 § 1 mom., 24 § 1 mom., 89 § eller 111 § 1 mom.,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>försummar skyldigheten att göra anmälan om ändringar i förvaringslokalerna enligt 22 § 2 mom. eller 59 §,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>underlåter att ansöka om innehavstillstånd inom den tid som föreskrivs i 52 § 1 mom.,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>helt eller delvis försummar skyldigheten att föra register som en vapensamlare skall föra enligt 59 a § 1 mom. eller 60 § 1 mom.,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>försummar skyldigheten att visa upp eller överlämna ett tillståndsbevis till polisen enligt 52 § 2 mom. eller 90 eller 112 §, skyldigheten att visa upp eller överlämna ett europeiskt skjutvapenpass till polisen enligt 74 § 3 mom. eller skyldigheten enligt 96 § 1 mom. att till polisen överlämna ett tillståndsbevis eller samtycke,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>försummar skyldigheten att göra anmälan om förvärv av en vapendel eller att visa upp vapendelen för polisen enligt 70 §,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7)</num>
+                                <content>
+                                    <p>försummar sin övervakningsplikt efter att med stöd av 88 § ha överlåtit ett skjutvapen för att användas av någon annan,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>8)</num>
+                                <content>
+                                    <p>förvarar ett skjutvapen eller en vapendel eller bär eller transporterar ett skjutvapen,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>9)</num>
+                                <content>
+                                    <p>försummar skyldigheten enligt 108 § 1 mom. 3 punkten eller 112 § att för polisen visa upp ett skjutvapen eller en vapendel som försatts i varaktigt obrukbart skick,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>10)</num>
+                                <content>
+                                    <p>försummar skyldigheten att låta besikta ett skjutvapen enligt det villkor som med stöd av 110 § 2 mom. har tagits in i ett privat tillverkningstillstånd, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>11)</num>
+                                <content>
+                                    <p>försummar skyldigheten enligt 117 § att visa upp ett tillståndsbevis, ett europeiskt skjutvapenpass eller de skjutvapen, vapendelar, patroner eller särskilt farliga projektiler som innehas med stöd av tillståndsbeviset eller med stöd av sådana tillstånd som antecknats i det europeiska skjutvapenpasset,</p>
+                                </content>
+                            </paragraph>
+                            <wrapUp>
+                                <p>
+                                    skall för 
+                                    <i>skjutvapenförseelse</i>
+                                     dömas till böter.
+                                </p>
+                            </wrapUp>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>104 §</num>
+                        <heading>Förverkandepåföljd</heading>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelser om förverkande av hjälpmedel vid brott samt föremål eller egendom som har framställts, tillverkats eller fåtts till stånd genom ett brott eller som har varit föremål för brott finns i 10 kap. i strafflagen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om en förverkandepåföljd vore oskälig med beaktande av omständigheterna, behöver yrkande på förverkande inte framställas.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>104 a §</num>
+                        <heading>Förstörande</heading>
+                        <subsection>
+                            <content>
+                                <p>En anhållningsberättigad tjänsteman har rätt att bevisligen förstöra i denna lag avsedda vapendelar, gassprayer, patroner eller särskilt farliga projektiler som kan tas i beslag, om de är av ringa värde och det är uppenbart att de av domstol skulle dömas förverkade till staten.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juni 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 113/2004</p>
+                        <p>LaUB 27/2006</p>
+                        <p>RSv 287/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 11 maj 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Tuija Brax</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,153 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/317/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/317"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/317/alkup"/>
+                    <FRBRdate date="2007-03-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="317"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/317/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/317/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/317/alkup/swe"/>
+                    <FRBRdate date="2007-03-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/317/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/317/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/317/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="52"/>
+                    <finlex:date date="2007-04-04"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>317/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om bekämpning av insekt- och svampskador i skog</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 8 februari 1991 om bekämpning av insekt- och svampskador i skog (
+                        <affectedDocument href="/akn/fi/act/statute/1991/263">263/1991</affectedDocument>
+                        ) 9 §, sådan den lyder i lag 1351/1996, och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 9 a § och till 11 §, sådan den lyder i sistnämnda lag och i lag 1146/2003, ett nytt 3 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>9 §</num>
+                    <heading>Vite och hot om tvångsutförande</heading>
+                    <subsection>
+                        <content>
+                            <p>Om någon försummar sin skyldighet enligt denna lag eller enligt en bestämmelse eller föreskrift som har utfärdats med stöd av den, kan skogscentralen genom sitt beslut förplikta personen i fråga att vidta behövliga åtgärder. Landsbygdsverket kan på framställning av skogscentralen förena skogscentralens beslut med vite eller hot om att åtgärderna vidtas på den försumliges bekostnad.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Angående vad som avses i denna paragraf gäller i övrigt viteslagen (1113/1990).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 a §</num>
+                    <heading>Indrivning av statens fordran</heading>
+                    <subsection>
+                        <content>
+                            <p>Statens fordringar enligt denna lag får indrivas i utsökningsväg utan dom eller beslut i den ordning som föreskrivs i lagen om indrivning av skatter och avgifter i utsökningsväg (367/1961).</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Landsbygdsverket är den myndighet som driver in statens fordringar enligt denna lag.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>11 §</num>
+                    <heading>Ändringssökande</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Utöver vad som särskilt bestäms om sökande av ändring, har skogscentralen rätt att överklaga beslut som Landsbygdsverket eller förvaltningsdomstolen har fattat med stöd av denna lag, om Landsbygdsverkets beslut avviker från skogscentralens framställning eller om förvaltningsdomstolen har ändrat eller upphävt skogscentralens eller Landsbygdsverkets beslut.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 maj 2007.</p>
+                    <p>Ett ärende som inletts vid en skogscentral och som enligt denna lag omfattas av Landsbygdsverkets behörighet överförs vid lagens ikraftträdande till Landsbygdsverket för avgörande om det inte avgjorts av skogscentralen.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 178/2006</p>
+                        <p>GrUU 45/2006</p>
+                        <p>JsUB 19/2006</p>
+                        <p>RSv 281/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 23 mars 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Jord- och skogsbruksminister </role>
+                                <person refersTo="">Juha Korkeaoja</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

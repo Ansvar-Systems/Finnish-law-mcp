@@ -1,0 +1,126 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/447/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/447"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/447/alkup"/>
+                    <FRBRdate date="2006-06-08" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="447"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/447/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/447/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/447/alkup/swe"/>
+                    <FRBRdate date="2006-06-08" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/447/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/447/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/447/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="72"/>
+                    <finlex:date date="2006-06-15"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>447/2006</docNumber>
+                <docTitle>Lag om ändring av lagen om statsbudgeten</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen av den 13 maj 1988 om statsbudgeten (
+                        <affectedDocument href="/akn/fi/act/statute/1988/423">423/1988</affectedDocument>
+                        ) en ny 22 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>22 a §</num>
+                    <heading>Centraliserad upphandling</heading>
+                    <subsection>
+                        <content>
+                            <p>Inom statsförvaltningen kan genom samordnad upphandling anskaffas för förvaltningen nödvändiga, sedvanliga varor och tjänster, sedvanlig datateknisk utrustning jämte programvara vilka är avsedda att användas i stor omfattning samt informationssystem som används gemensamt inom förvaltningen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Finansministeriet kan genom sitt beslut bestämma om inledande av beredning och genomförande av i 1 mom. avsedd samordnad upphandling. När ämbetsverk och inrättningar ordnar den i 1 mom. avsedda upphandlingsverksamheten skall de utnyttja det kontrakt som slutits på basis av konkurrensutsättning som den samordnande upphandlingsenheten verkställt för statsförvaltningens räkning. Om upphandlingen av särskilda skäl inte går att genomföra genom samordnad upphandling, kan ämbetsverken och inrättningarna ordna upphandlingen på något annat sätt än det som avses i detta moment.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Genom förordning av statsrådet utfärdas närmare bestämmelser om varor och tjänster som den i 1 mom. avsedda samordnade upphandlingen skall gälla och om den beredning och det genomförande av samordnad upphandling som avses i 2 mom.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 september 2006. På upphandling som pågår inom statsförvaltningen när denna lag träder i kraft tillämpas de bestämmelser som gäller vid ikraftträdandet.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 20/2006</p>
+                        <p>FiUB 5/2006</p>
+                        <p>RSv 57/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 8 juni 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Antti Kalliomäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

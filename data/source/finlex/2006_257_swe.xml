@@ -1,0 +1,181 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/257/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/257"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/257/alkup"/>
+                    <FRBRdate date="2006-03-31" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="257"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/257/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/257/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/257/alkup/swe"/>
+                    <FRBRdate date="2006-03-31" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/257/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/257/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/257/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="43"/>
+                    <finlex:date date="2006-04-11"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>257/2006</docNumber>
+                <docTitle>Lag om ändring av 17 kap. i strafflagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 17 kap. i strafflagen av den 19 december 1889 (
+                        <affectedDocument href="/akn/fi/act/statute/1889/39">39/1889</affectedDocument>
+                        ) nya 16 b och 16 c § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>17 kap.</num>
+                    <heading>Om brott mot allmän ordning</heading>
+                    <section>
+                        <num>16 b §</num>
+                        <heading>Penninginsamlingsbrott</heading>
+                        <subsection>
+                            <intro>
+                                <p>Den som uppsåtligen</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>anordnar en penninginsamling utan ett tillstånd enligt lagen om penninginsamlingar (255/2006) eller i strid med 5 § 2 eller 3 mom. i lagen,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>anordnar en penninginsamling i strid med förbudet i 9 § i lagen om penninginsamlingar,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>vid anordnande av en penninginsamling ger målgruppen för insamlingen osanna eller vilseledande uppgifter som är betydelsefulla,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>lämnar tillståndsmyndigheten enligt lagen om penninginsamlingar en oriktig uppgift om en omständighet som är ägnad att påverka möjligheterna att få ett tillstånd till penninginsamling eller villkoren för det, eller hemlighåller en sådan omständighet eller efter att ha fått tillståndet inte underrättar tillståndsmyndigheten om en sådan förändring i förhållandena som tillståndshavaren i samband med beviljandet av tillståndet eller annars särskilt har ålagts att anmäla,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>i väsentligt hänseende använder de medel som influtit genom penninginsamlingen i strid med de villkor som uppställts eller förelägganden som givits i tillståndet till penninginsamling eller i ett tillstånd som gäller ändring av användningsändamålet för medlen,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>försummar redovisnings- eller anmälningsskyldigheten enligt 21 § i lagen om penninginsamlingar, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7)</num>
+                                <content>
+                                    <p>är verksam som den som i praktiken anordnar en penninginsamling utan något förordnande enligt 15 § 1 mom. i lagen om penninginsamlingar,</p>
+                                </content>
+                            </paragraph>
+                            <wrapUp>
+                                <p>
+                                    skall, om inte strängare straff för gärningen föreskrivs någon annanstans i lag, för 
+                                    <i>penninginsamlingsbrott</i>
+                                     dömas till böter eller fängelse i högst två år.
+                                </p>
+                            </wrapUp>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>16 c §</num>
+                        <heading>Lindrigt penninginsamlingsbrott</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Om penninginsamlingsbrottet bedömt som en helhet är ringa, skall gärningsmannen för 
+                                    <i>lindrigt penninginsamlingsbrott</i>
+                                     dömas till böter.
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juli 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 102/2005</p>
+                        <p>FvUB 25/2005</p>
+                        <p>RSv 203/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 31 mars 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister </role>
+                                <person refersTo="">Kari Rajamäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

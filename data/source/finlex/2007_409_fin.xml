@@ -1,0 +1,169 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/409/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/409"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/409/alkup"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="409"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/409/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/409/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/409/alkup/fin"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/409/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/409/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/409/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="63"/>
+                    <finlex:date date="2007-04-19"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>409/2007</docNumber>
+                <docTitle>Laki sosiaalisista yrityksistä annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         sosiaalisista yrityksistä 30 päivänä joulukuuta 2003 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2003/1351">1351/2003</affectedDocument>
+                        ) 1 §:n 2 momentin 2 kohta, 3 §:n 2 momentti ja 5 § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Lain tarkoitus ja määritelmät</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Tässä laissa tarkoitetaan:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>
+                                    <i>pitkäaikaistyöttömällä</i>
+                                     työntekijää, joka ennen työsuhteen alkamista on ollut julkisesta työvoimapalvelusta annetun lain (1295/2002) 1 luvun 7 §:n 1 momentin 5 tai 12 kohdassa tarkoitettu työtön työnhakija.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <heading>Sosiaalisen yrityksen tukeminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Sosiaaliselle yritykselle myönnettävästä palkkatuesta säädetään julkisesta työvoimapalvelusta annetussa laissa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <heading>Työllistettyjen osuus</heading>
+                    <subsection>
+                        <content>
+                            <p>Työllistettyjen osuuteen luetaan vajaakuntoinen ja pitkäaikaistyötön ajan, jolta maksetaan palkkatukea työnantajalle hänen palkkauskustannuksiinsa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Laskettaessa työllistettyjen osuutta vajaakuntoiseen rinnastetaan sosiaalihuoltolain (710/1982) 27 d §:n 3 momentin mukaisessa työllistymistä tukevassa toiminnassa oleva vammainen, jonka työllistämiseksi kunta maksaa tukea työnantajalle.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vajaakuntoinen tai pitkäaikaistyötön, jonka palkkauskustannuksiin ei makseta palkkatukea, luetaan työllistettyjen osuuteen ajan, jolta työnantaja on velvollinen maksamaan hänelle palkkaa, pitkäaikaistyötön kuitenkin enintään vuoden ajan.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vammainen, jonka työllistämiseen työnantaja on saanut kunnalta tukea 2 momentissa tarkoitetulla perusteella, rinnastetaan tuen päättymisen jälkeen työllistettyjen osuutta laskettaessa vajaakuntoiseen ajan, jolta työnantaja on velvollinen maksamaan hänelle palkkaa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Työllistettyjen osuudessa tulee aina olla 1 tai 3 momentissa tarkoitettuja työntekijöitä. Laskettaessa työllistettyjen osuutta otetaan huomioon työntekijät, joiden säännöllinen työaika on yli 75 prosenttia alan enimmäistyöajasta. Vajaakuntoisista työllistettyjen osuuteen luetaan kuitenkin työntekijät, joiden säännöllinen työaika on vähintään 50 prosenttia alan enimmäistyöajasta.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä toukokuuta 2007.</p>
+                    <p>Lain 5 §:n 1 ja 3 momenttia sovellettaessa palkkatukeen rinnastetaan julkisesta työvoimapalvelusta annetun lain muuttamisesta annetulla lailla (1216/2005) kumottujen säännösten nojalla palkkauskustannuksiin myönnetty työllistämistuki sekä yhdistelmätuki, joka on myönnetty työttömyysturvalain muuttamisesta annetulla lailla (1217/2005) kumottujen säännösten nojalla. Vajaakuntoisen ja pitkäaikaistyöttömän lisäksi 5 §:n 1 momentissa tarkoitettuun työllistettyjen osuuteen luetaan vuoden 2007 loppuun saakka myös muu työllistetty, jonka palkkauskustannuksiin maksetaan yhdistelmätukea viimeksi mainitulla lailla kumotussa työttömyysturvalain 7 luvun 11 §:ssä tarkoitettuna yhdistelmätukikokeiluna.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/275">HE 275/2006</ref>
+                        </p>
+                        <p>TyVM 18/2006</p>
+                        <p>EV 310/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 13 päivänä huhtikuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

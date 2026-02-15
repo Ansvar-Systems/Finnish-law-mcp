@@ -1,0 +1,170 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1373/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1373"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1373/alkup"/>
+                    <FRBRdate date="2006-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1373"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1373/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1373/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1373/alkup/fin"/>
+                    <FRBRdate date="2006-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1373/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1373/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1373/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="206"/>
+                    <finlex:date date="2006-12-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1373/2006</docNumber>
+                <docTitle>Laki ympäristövahinkovakuutuksesta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         ympäristövahinkovakuutuksesta 30 päivänä tammikuuta 1998 annetun lain (<affectedDocument href="/akn/fi/act/statute/1998/81">81/1998</affectedDocument>) 21 §:n 3 momentti, sellaisena kuin se on laissa 1101/2005, ja
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 21 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>21 §</num>
+                    <heading>Indeksitarkistus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Indeksitarkistuksen on velvollinen suorittamaan peruskorvauksen maksamisesta vastuussa oleva vakuutusyhtiö tai Ympäristövakuutuskeskus.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>21 a §</num>
+                    <heading>Jakojärjestelmä</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Tämän lain mukaista vakuutusta harjoittavien vakuutusyhtiöiden on osallistuttava vuosittain niiden ja Ympäristövakuutuskeskuksen kunakin kalenterivuonna maksamien 21 §:n mukaisten korotusten rahoitukseen vakuutusmaksutulon mukaisessa suhteessa siten kuin 2―7 momentissa säädetään (<i>jakojärjestelmä</i>). 
+                                <i>Vakuutusmaksutulolla</i>
+                                 tarkoitetaan tässä pykälässä vakuutusyhtiön tuloslaskelmaan sisältyvää tämän lain mukaisen vakuutuksen vakuutusmaksutuloa.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>
+                                Ympäristövakuutuskeskus ilmoittaa vakuutusyhtiöille 1 momentissa mainittujen korotusten suoritusvuotta (<i>jakojärjestelmävuosi</i>) edeltävän toukokuun 31 päivään mennessä suhdeluvun, joka määrittelee jakojärjestelmän rahoitusta varten tarvittavien rahoitusosuuksien (<i>jakojärjestelmämaksut</i>) määrän suhteessa jakojärjestelmävuoden vakuutusmaksutuloon. Suhdeluvun on perustuttava arvioon jakojärjestelmävuonna vakuutusyhtiöiden ja keskuksen maksettaviksi tulevien 1 momentin mukaisten korotusten (<i>jakojärjestelmäkorvaukset</i>) ja vakuutusmaksutulojen määristä. Lisäksi suhdeluvussa on otettava huomioon jakojärjestelmämaksujen ja jakojärjestelmäkorvausten erotuksena syntynyt yli- tai alijäämä (<i>jakojärjestelmäsaldo</i>) jakojärjestelmävuotta edeltäviltä vuosilta. Tarkemmat säännökset jakojärjestelmäsaldon huomioon ottamisesta suhdelukua määrättäessä annetaan sosiaali- ja terveysministeriön asetuksella.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vakuutusyhtiökohtainen jakojärjestelmämaksu saadaan kertomalla 2 momentin mukainen suhdeluku vakuutusyhtiön jakojärjestelmävuoden vakuutusmaksutulolla. Vakuutusyhtiökohtainen jakojärjestelmäsaldo määräytyy vakuutusyhtiöiden jakojärjestelmävuoden vakuutusmaksutulojen suhteessa jakojärjestelmävuodelta ja sitä edeltäviltä vuosilta kertyneestä jakojärjestelmäsaldosta. Vakuutusyhtiökohtainen jakojärjestelmäsaldo on vakuutusyhtiön velkaa jakojärjestelmälle, jos saldo on ylijäämäinen, ja vakuutusyhtiön saamista jakojärjestelmältä, jos saldo on alijäämäinen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ympäristövakuutuskeskus tekee jakojärjestelmävuoden toukokuun 31 päivään mennessä ennakkoarvion keskuksen ja vakuutusyhtiöiden jakojärjestelmävuonna maksettaviksi tulevista jakojärjestelmäkorvausten määristä sekä vakuutusyhtiökohtaisten jakojärjestelmämaksujen ja jakojärjestelmäsaldojen määristä. Tarkemmat säännökset ennakkoarvion perusteista annetaan sosiaali- ja terveysministeriön asetuksella.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ympäristövakuutuskeskus vahvistaa jakojärjestelmävuotta seuraavan toukokuun 31 päivään mennessä keskuksen ja vakuutusyhtiöiden maksettaviksi tulleet jakojärjestelmävuoden jakojärjestelmäkorvaukset sekä vakuutusyhtiökohtaiset jakojärjestelmämaksut ja jakojärjestelmäsaldot.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vakuutusyhtiön on maksettava ennakkoarvion mukainen ja lopullisesti vahvistettu jakojärjestelmämaksu ja yhtiökohtaisen jakojärjestelmäsaldon muutoksesta johtuva suoritus Ympäristövakuutuskeskukselle, sekä keskuksen on tilitettävä vakuutusyhtiölle ennakkoarvion mukainen ja lopullisesti vahvistettu jakojärjestelmäkorvaus ja yhtiökohtaisen jakojärjestelmäsaldon muutoksesta johtuva suoritus. Tarkemmat säännökset maksusta ja tilityksestä annetaan sosiaali- ja terveysministeriön asetuksella.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 6 momentissa tarkoitettuihin lopullisiin suorituksiin sisällytetään niiden ja ennakkosuoritusten erotukselle laskettu korko vuoden pituiselta ajalta jakojärjestelmävuoden heinäkuun 1 päivästä lukien. Korkona käytetään mainittuna päivänä voimassa ollutta korkolain 12 §:n mukaista viitekorkoa.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2007.</p>
+                    <p>Tätä lakia sovelletaan vuonna 2007 ja sen jälkeen jakojärjestelmällä rahoitettaviin korotuksiin.</p>
+                    <p>Tätä lakia sovellettaessa 21 a §:n 2 momentin mukaisena jakojärjestelmävuotta 2007 koskevana suhdelukuna käytetään 0 prosenttia vakuutusyhtiön tuloslaskelmaan sisältyvästä tämän lain mukaisen vakuutuksen vakuutusmaksutulosta, joka sisältää jakojärjestelmämaksun.</p>
+                    <p>Tämän lain 21 a §:n 2 ja 3 momentissa mainitun jakojärjestelmävuotta 2007 edeltäviltä vuosilta kertyvän jakojärjestelmäsaldon määrä on nolla.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/238">HE 238/2006</ref>
+                        </p>
+                        <p>StVM 44/2006</p>
+                        <p>EV 212/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 22 päivänä joulukuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

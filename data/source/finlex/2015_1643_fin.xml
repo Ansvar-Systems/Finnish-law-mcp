@@ -1,0 +1,162 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1643/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1643"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1643/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1643"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1643/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1643/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1643/alkup/fin"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1643/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1643/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1643/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1643/2015</docNumber>
+                <docTitle>Laki valvotusta koevapaudesta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         valvotusta koevapaudesta annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2013/629">629/2013</affectedDocument>
+                        ) 4 §, 13 §:n 2 momentti, 20 § ja 32 §:n 3 momentti, 
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 4 § osaksi laissa 404/2015 sekä 13 §:n 2 momentti ja 32 §:n 3 momentti laissa 404/2015, seuraavasti: </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>4 §</num>
+                    <heading>Lääkehoito ja psykososiaalinen hoito koevapauden ehtona</heading>
+                    <subsection>
+                        <content>
+                            <p>Valvotun koevapauden ehdoksi voidaan asettaa, että seksuaalirikoksesta tuomittu vanki sitoutuu noudattamaan Vankiterveydenhuollon yksiköstä annetussa laissa (1635/2015) tarkoitetun Vankiterveydenhuollon yksikön lääkärin hänelle asettamia seksuaalirikoksen uusimisen ehkäisemiseksi tarkoitettua lääkehoitoa koskevia määräyksiä ja sitoutuu tällaisen lääkehoidon valvontaan. Lääkehoitoa koskevien määräysten noudattamisen lisäksi ehdoksi voidaan asettaa, että vanki sitoutuu noudattamaan psykososiaalista hoitoa ja tukea koskevia määräyksiä. Tällöin ehdoksi asetetaan myös, että vanki sitoutuu jatkamaan lääkehoitoa sekä siihen mahdollisesti liitettyä muuta hoitoa ja tukea sekä suostuu niitä koskevien määräysten noudattamisen valvontaan myös ehdonalaisessa vapaudessa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vangin on annettava suostumuksensa lääkehoitoon kirjallisesti Vankiterveydenhuollon yksikön lääkärille. Lääkärin on ennen suostumuksen antamista selvitettävä vangille lääkehoidon vaikutukset.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rikosseuraamuslaitoksen on ennen koevapauteen sijoittamista selvitettävä vangille lääkehoidon lopettamisesta aiheutuvat seuraamukset. Seuraamuksista säädetään 26 §:ssä ja yhdyskuntaseuraamusten täytäntöönpanosta annetun lain (400/2015) 74 §:ssä. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>13 §</num>
+                    <heading>Pitkäaikaisvankien koevapauden valmistelu</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Arviointikeskuksen on tarvittaessa oltava yhteydessä koevapauden täytäntöönpanoon liittyviin viranomaisiin, laitoksiin, yhteisöihin ja yksityisiin henkilöihin sekä tarvittaessa kutsuttava vanki henkilökohtaisesti arviointikeskukseen arvion tekemistä varten. Arviointikeskus antaa lausuntonsa siitä, ylläpitääkö ja edistääkö valvottu koevapaus elinkautista vankeutta tai koko rangaistusta suorittavan vangin valmiuksia sijoittua yhteiskuntaan, sekä selvittää muiden valvotun koevapauden edellytysten täyttymisen. Vankiterveydenhuollon yksikön lausunnosta säädetään erikseen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>20 §</num>
+                    <heading>Lääkehoidon valvonta</heading>
+                    <subsection>
+                        <content>
+                            <p>Edellä 4 §:ssä tarkoitettuun lääkehoitoon sitoutuneen vangin on annettava virtsa- tai verinäytteet, jotka ovat välttämättömiä lääkityksen käytön valvomiseksi ja hoidon turvallisuuden varmistamiseksi. Koevapauteen sijoitettu on velvollinen näytteen antamiseksi saapumaan Vankiterveydenhuollon yksikköön tai erikseen määrättyyn yliopistolliseen sairaalaan tai erikoissairaanhoidon yksikköön.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vankiterveydenhuollon yksikkö sopii lääkehoidon järjestämisestä ja lääkehoitoon liittyvästä veri- ja virtsanäytteen ottamisesta yliopistollisen sairaalan tai erikoissairaanhoidon yksikön kanssa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>32 §</num>
+                    <heading>Päätösvalta</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Vankiterveydenhuollon yksikön lääkäri päättää 4 §:ssä tarkoitetun lääkehoidon sekä muun hoidon ja tuen aloittamisesta, valvonnasta ja lopettamisesta. Kiireellisessä tapauksessa lääkehoidon voi tilapäisesti keskeyttää myös 20 §:ssä tarkoitetussa sairaalassa tai erityissairaanhoidon yksikössä toimiva lääkäri. Tieto hoidon väliaikaisesta keskeyttämisestä välitetään viipymättä Vankiterveydenhuollon yksikön lääkärille, joka tekee lopullisen päätöksen lääkehoidosta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/49">HE 49/2015</ref>
+                        </p>
+                        <p>StVM 10/2015</p>
+                        <p>EV 107/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 30 päivänä joulukuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri</role>
+                                <person refersTo="">Hanna Mäntylä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

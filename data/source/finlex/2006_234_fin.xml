@@ -1,0 +1,274 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/234/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/234"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/234/alkup"/>
+                    <FRBRdate date="2006-03-31" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="234"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/234/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/234/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/234/alkup/fin"/>
+                    <FRBRdate date="2006-03-31" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/234/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/234/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/234/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="40"/>
+                    <finlex:date date="2006-04-06"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>234/2006</docNumber>
+                <docTitle>Laki tieliikennelain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         3 päivänä huhtikuuta 1981 annetun tieliikennelain (
+                        <affectedDocument href="/akn/fi/act/statute/1981/267">267/1981</affectedDocument>
+                        ) 88 §, sellaisena kuin se on laeissa 357/1987, 571/1994 ja 1091/2002, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 88 a―88 d § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>88 §</num>
+                    <heading>Turvavyön ja muun istuinpaikan turvalaitteen käyttövelvollisuus</heading>
+                    <subsection>
+                        <intro>
+                            <p>Kuljettajan ja matkustajan on ajon aikana käytettävä istuinpaikalle asennettua turvavyötä tai heidän liikkumistaan estävää muuta turvalaitetta:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>henkilöautossa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>linja-autossa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>pakettiautossa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>kuorma-autossa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>korilla varustetussa kolmi- ja nelipyörässä sekä korilla varustetussa kevyessä nelipyörässä.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valtioneuvoston asetuksella voidaan säätää kuljetuksen tai ajotehtävän erityislaadusta johtuvia vapautuksia turvavyön käytöstä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kaikkien käytössä olevien lasten turvalaitteiden on oltava liikenne- ja viestintäministeriön asetuksessa säädetyllä tavalla tyypiltään hyväksyttyjä. Liikenne- ja viestintäministeriön asetuksella säädetään myös lasten turvalaitteiden painoluokasta, rakenteesta ja kiinnitystavasta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>88 a §</num>
+                    <heading>Lapsen kuljettaminen ajoneuvossa</heading>
+                    <subsection>
+                        <content>
+                            <p>Kuljetettaessa henkilö-, paketti- tai kuorma-autossa lasta, jonka pituus on alle 135 cm, on käytettävä 88 §:ssä tarkoitettua lasten turvalaitetta, jos ajoneuvossa on turvavyöt tai lasten turvalaite on muuten ajoneuvoon asennettavissa. Jos ajoneuvoon ei voida asentaa lasten turvalaitetta, on vähintään 3-vuotiaita lapsia kuljetettava muulla kuin etuistuimella. Alle 3-vuotiasta lasta henkilö-, paketti- tai kuorma-autossa kuljetettaessa on 2 momentin 1 kohdassa tarkoitettua poikkeusta lukuun ottamatta aina käytettävä lasten turvalaitetta. Linja-autossa lapsen on omalla istuinpaikalla istuessaan käytettävä istuinpaikalle asennettua turvavyötä tai lasten turvalaitetta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Lasten turvalaitteen käyttövelvollisuudesta voidaan poiketa seuraavasti:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>taksissa lasta saadaan kuljettaa muulla kuin etuistuimella turvavyötä käyttäen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>henkilö- tai pakettiauton muulla kuin etuistuimella saadaan yhdellä istuinpaikalla kuljettaa vähintään 3-vuotiasta lasta turvavyötä käyttäen, jos lasten turvalaitteen asentamiselle ei ole tilaa istuimen muille istuinpaikoille asennettujen kahden tai useamman lasten turvalaitteen vuoksi;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>henkilö- tai pakettiauton muulla kuin etuistuimella saadaan kuljettaa lyhyitä matkoja yhtä tai useampaa vähintään 3-vuotiasta lasta turvavöitä käyttäen, jos kuljetustarve on satunnainen eikä ajoneuvossa tästä johtuen ole heitä varten käytettävissä lainkaan tai riittävää määrää lasten turvalaitteita.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Lasta ei saa kuljettaa etuturvatyynyllä suojatulla istuinpaikalla selkä menosuuntaan suunnatussa turvaistuimessa, ellei turvatyynyä ole tehty toimintakyvyttömäksi tai ellei se tule riittävän tehokkaalla tavalla automaattisesti toimintakyvyttömäksi.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>88 b §</num>
+                    <heading>Turvavyön tai muun istuinpaikan turvalaitteen käyttövelvollisuudesta vapautuminen terveydellisten syiden perusteella</heading>
+                    <subsection>
+                        <content>
+                            <p>Turvavyön tai muun istuinpaikan turvalaitteen käyttövelvollisuus ei koske henkilöä, jolta vakava terveydellinen syy estää turvalaitteen käytön.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitettua syytä koskeva lääkärintodistus on pidettävä ajettaessa mukana ja vaadittaessa esitettävä poliisimiehelle. Toisessa Euroopan talousalueeseen kuuluvassa valtiossa annettu lääkärintodistus on pätevä myös Suomessa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valtioneuvoston asetuksella säädetään lääkärintodistuksen sisällöstä ja todistuksessa käytettävästä tunnuksesta. Sosiaali- ja terveysministeriö vahvistaa lääkärintodistuslomakkeiden kaavan.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>88 c §</num>
+                    <heading>Lasten turvalaitteen käyttöä ja invataksikuljetusten turvallisuutta koskevat vastuusäännökset</heading>
+                    <subsection>
+                        <content>
+                            <p>Lapsen mukana matkustava holhooja tai huoltaja on vastuussa siitä, että alle 15-vuotiasta lasta kuljetetaan asianmukaista turvalaitetta käyttäen. Ellei holhooja tai huoltaja ole lapsen mukana, 88 §:n 1 momentissa tarkoitetun ajoneuvon kuljettajan on, M3-luokan linja-auton kuljettajaa lukuun ottamatta, huolehdittava siitä, että alle 15-vuotias lapsi matkustaa asianmukaista turvalaitetta käyttäen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Invataksin kuljettajan on huolehdittava siitä, että kuljetettavat matkustavat asianmukaisia turvalaitteita käyttäen ja että pyörätuolit on asianmukaisesti kiinnitetty ajoneuvoon matkan ajaksi.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>88 d §</num>
+                    <heading>Turvavyön käyttövelvollisuudesta ilmoittaminen linja-autossa</heading>
+                    <subsection>
+                        <intro>
+                            <p>Linja-auton matkustajien on heidän matkansa alkaessa saatava tieto turvavyön käyttövelvollisuudesta vähintään yhdellä seuraavista tavoista:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>kuljettajalta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>rahastajalta, matkaoppaalta tai ryhmänjohtajaksi nimetyltä henkilöltä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>audiovisuaalisin keinoin; tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>jokaiselta istuinpaikalta selvästi näkyvällä yhteisön mallin mukaisella kuvamerkillä.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Yhteisön mallin mukaisesta kuvamerkistä säädetään tarkemmin liikenne- ja viestintäministeriön asetuksella.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä toukokuuta 2006.</p>
+                    <p>Sen estämättä, mitä turvalaitteiden käytöstä tässä laissa säädetään, saadaan 31 päivään joulukuuta 2007 henkilö- ja pakettiautossa, niissä rajoissa kuin rekisteriin merkityn matkustajamäärän tilapäisestä ylittämisestä tällaisessa ajoneuvossa erikseen säädetään, muualla kuin etuistuimella kuljettaa suurempi määrä istuvia matkustajia kuin heillä on mahdollisuus käyttää turvavyötä tai muuta turvalaitetta. Alle 3-vuotiasta kuljetettaessa tätä lakia noudatetaan kuitenkin sen voimaantulosta.</p>
+                    <p>Sen estämättä, mitä turvalaitteiden käytöstä tässä laissa säädetään, saadaan 9 päivään toukokuuta 2008 linja-autolla linjaliikenteenä suoritettavissa koulu- ja päivähoitokuljetuksissa kuljettaa suurempi määrä istuvia matkustajia kuin mitä heidän istuimellaan on turvavöin varustettuja istuinpaikkoja ja mahdollisuutta turvavöiden tai muiden turvalaitteiden käyttöön.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/207">HE 207/2005</ref>
+                        </p>
+                        <p>LiVM 4/2006</p>
+                        <p>EV 16/2006</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2003/20/EY (32003L0020); EYVL N:o L 115, 9.5.2003, s. 63</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 31 päivänä maaliskuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Liikenne- ja viestintäministeri </role>
+                                <person refersTo="">Susanna Huovinen </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

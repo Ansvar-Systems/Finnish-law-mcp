@@ -1,0 +1,124 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1159/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1159"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1159/alkup"/>
+                    <FRBRdate date="2015-09-18" name="dateIssued"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1159"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1159/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1159/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1159/alkup/swe"/>
+                    <FRBRdate date="2015-09-18" name="dateIssued"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1159/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1159/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1159/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1159/2015</docNumber>
+                <docTitle>Lag om ändring av 137 och 165 § i lagen om kommunala pensioner</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändra</i>
+                        s i lagen om kommunala pensioner (
+                        <affectedDocument href="/akn/fi/act/statute/2003/549">549/2003</affectedDocument>
+                        ) 137 § 3 mom. och 165 § 1 mom., sådana de lyder i lag 554/2012, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>137 §</num>
+                    <heading>Tillsyn</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Finansministeriet förordnar årligen en revisor som utifrån den kommunala pensionsanstaltens bokföring och annat material ska granska att de beräkningar som avses i 137 b § och som den kommunala pensionsanstalten har lämnat om den summa som behövs för betalningen av statens, evangelisk-lutherska kyrkans och Folkpensionsanstaltens pensioner och ersättningen för den kommunala pensionsanstaltens kostnader är riktiga och tillräckliga. Revisorn har dessutom till uppgift att utifrån den kommunala pensionsanstaltens bokföring och annat material granska att pensionsanstalten har tagit ut arbetsgivarens och arbetstagarens pensionsavgift i överensstämmelse med 135 och 136 § i lagen om statens pensioner och att pensionsavgifter samt överföringsavgifter och arbetslöshetsförsäkringsfondens avgift har betalats till statens pensionsfond till rätt belopp. Revisorn ska vara en CGR-revisor eller en OFGR-revisor. Bestämmelser om revision finns i revisionslagen (1141/2015).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>165 §</num>
+                    <heading>Revision och bokslut</heading>
+                    <subsection>
+                        <content>
+                            <p>Revision av den kommunala pensionsanstaltens räkenskaper och förvaltning utförs av en revisionssammanslutning som delegationen valt för sin mandatperiod. Den huvudansvariga revisor som revisionssammanslutningen uppgett ska vara en CGR-revisor. Vid revisionen iakttas revisionslagen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 254/2014</p>
+                        <p>EkUB 34/2014</p>
+                        <p>RSv 371/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 18 september 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitie- och arbetsminister</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

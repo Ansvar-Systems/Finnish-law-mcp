@@ -1,0 +1,190 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/343/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/343"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/343/alkup"/>
+                    <FRBRdate date="2006-05-05" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="343"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/343/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/343/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/343/alkup/swe"/>
+                    <FRBRdate date="2006-05-05" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/343/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/343/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/343/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="57"/>
+                    <finlex:date date="2006-05-12"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>343/2006</docNumber>
+                <docTitle>Lag om ändring av vägtrafiklagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i vägtrafiklagen av den 3 april 1981 (
+                        <affectedDocument href="/akn/fi/act/statute/1981/267">267/1981</affectedDocument>
+                        ) 14 § 3 mom. samt 41 och 53 §, av dem 14 § 3 mom. sådant det lyder i lag 414/1997, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 2 §, sådan den lyder delvis ändrad i lag 671/1991 samt i nämnda lag 414/1997, en ny 6 a-punkt samt till lagen nya 33 a och 33 b § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Definitioner</heading>
+                    <subsection>
+                        <intro>
+                            <p>I vägtrafiklagstiftningen avses med:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>6 a)</num>
+                            <content>
+                                <p>
+                                    <i>gågata</i>
+                                     väg som är avsedd för gång- och cykeltrafik och som genom vägmärke angivits såsom sådan gata;
+                                </p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>14 §</num>
+                    <heading>Väjningsplikt</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Föraren skall dock alltid väja för den övriga trafiken när han kommer in på en väg från en gårdsgata, gågata, gårdsplan, parkeringsplats, servicestation eller något annat motsvarande område eller från en stig, ägoväg eller någon annan mindre väg eller från en snöskoterled.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>33 a §</num>
+                    <heading>Körning på gågata</heading>
+                    <subsection>
+                        <content>
+                            <p>På en gågata är det tillåtet att cykla. Motordrivna fordon får föras endast vid körning till en fastighet som är belägen vid gatan, om det inte har ordnats någon annan farbar förbindelse till fastigheten. Det är förbjudet att parkera och stanna ett motordrivet fordon på en gågata, med undantag för stannande i anslutning till servicekörning när servicekörningar enligt ett vägmärke är tillåtna.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Körhastigheten på en gågata skall anpassas till gångtrafiken och får inte överskrida 20 km/h.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Förare av fordon skall på en gågata lämna gående fri passage.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>33 b §</num>
+                    <heading>Körning i tunnel som anges med vägmärke</heading>
+                    <subsection>
+                        <content>
+                            <p>I en tunnel som anges med vägmärke får fordon inte backas eller vändas mot färdriktningen. Ett fordon får stannas och parkeras i en tunnel endast i nödsituationer. Om det är möjligt skall fordonet stannas eller parkeras på områden som anvisats för ändamålet. Vid längre stannande skall fordonets motor stängas av. Fordonet skall använda körljus.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>41 §</num>
+                    <heading>Gångtrafik på gårdsgata och gågata</heading>
+                    <subsection>
+                        <content>
+                            <p>Utan hinder av 40 § får gående på en gårdsgata och en gågata använda samtliga delar av gatan. De får dock inte onödigtvis hindra fordonstrafiken.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>53 §</num>
+                    <heading>Leder för lätt trafik</heading>
+                    <subsection>
+                        <content>
+                            <p>Vägförvaltningen samt kommunerna skall i mån av möjlighet ordna behövliga förbindelser för den lätta trafiken genom att för varje kommunikationsled bygga eller med trafikanordning reservera en särskild led för lätt trafik, gårdsgata, gågata eller en till vägen hörande gångbana och cykelbana.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juni 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 10/2006</p>
+                        <p>KoUB 5/2006</p>
+                        <p>RSv 30/2006</p>
+                        <p>Europaparlamentets och rådets direktiv 2004/54/EG (32004L0054); EGT nr L 167, 30.4.2004, s. 39</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 5 maj 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

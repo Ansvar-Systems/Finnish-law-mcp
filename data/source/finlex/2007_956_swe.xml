@@ -1,0 +1,183 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/956/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/956"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/956/alkup"/>
+                    <FRBRdate date="2007-11-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="956"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/956/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/956/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/956/alkup/swe"/>
+                    <FRBRdate date="2007-11-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/956/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/956/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/956/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="145"/>
+                    <finlex:date date="2007-11-07"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>956/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om överlåtelseskatt</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i lagen av den 29 november 1996 om överlåtelseskatt (
+                        <affectedDocument href="/akn/fi/act/statute/1996/931">931/1996</affectedDocument>
+                        ) 15 § 5 och 6 mom., sådana de lyder i lag 979/1999, och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 15 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>15 a §</num>
+                    <heading>Överlåtelse av värdepapper som är föremål för offentlig handel</heading>
+                    <subsection>
+                        <intro>
+                            <p>Skatt ska inte betalas på överlåtelse mot ett fast penningvederlag av värdepapper som har tagits upp till regelbunden handel som är öppen för allmänheten</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>vid sådan offentlig handel som avses i 1 kap. 3 § i värdepappersmarknadslagen (495/1989) eller på en annan reglerad marknad inom Europeiska ekonomiska samarbetsområdet som avses i Europaparlamentets och rådets direktiv 2004/39/EG om marknader för finansiella instrument och om ändring av rådets direktiv 85/611/EEG och 93/6/EEG och Europaparlamentets och rådets direktiv 2000/12/EG samt upphävande av rådets direktiv 93/22/EEG,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>på en annan reglerad marknad som står under myndighetstillsyn och som finns i en sådan stat utanför Europeiska ekonomiska samarbetsområdet som har godkänt konventionen om ömsesidig handräckning i skatteärenden, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>vid sådan multilateral handel som avses i 1 kap. 3 a § i värdepappersmarknadslagen (495/1989) eller på en motsvarande multilateral handelsplattform enligt direktiv 2004/39/EG inom Europeiska ekonomiska samarbetsområdet, under förutsättning att de värdepapper som bolaget emitterat har tagits upp till handel på bolagets ansökan eller med dess samtycke och att värdepapperen har överförts till ett sådant värdeandelssystem som avses i lagen om värdeandelssystemet (826/1991) eller ett motsvarande utländskt registersystem.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>För skattefrihet krävs att förmedlare av eller part i överlåtelsen är en sådan värdepappersförmedlare som avses i 1 kap. 4 § 1 mom. 4 punkten i värdepappersmarknadslagen eller att förvärvaren är godkänd som handelspart på den marknad där överlåtelsen sker.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om förvärvarens förmedlare eller part i överlåtelsen är någon annan än en sådan värdepappershandlare som avses i 22 § 3 mom. i denna lag krävs för skattefrihet att den skattskyldige förvärvaren gör en anmälan enligt 30 § om överlåtelsen inom två månader från överlåtelsen eller att förmedlaren lämnar årsdeklaration om överlåtelsen till skatteförvaltningen enligt 15 § 4 mom. i lagen om beskattningsförfarande (1558/1995).</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Skattefriheten gäller inte</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>en överlåtelse som grundar sig på ett sådant bud som har lagts efter det att den handel med värdepapper som avses i 1 mom. har avslutats eller innan handeln har börjat, om det inte är fråga om sådan försäljning av bolagets gamla aktier som direkt ansluter sig till en aktieemission i samband med noteringen och som grundar sig på ett kombinerat köp- och teckningserbjudande samt där föremålet för överlåtelsen specificeras först efter det att handeln har börjat och priset motsvarar priset på nya aktier,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>en överlåtelse som sker för att fullgöra inlösningsskyldighet som föreskrivs i 18 kap. i aktiebolagslagen (624/2006) i enlighet med 6 § i nämnda kapitel,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>en överlåtelse där vederlaget delvis eller helt består av en arbetsinsats, och inte</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>en överlåtelse som sker i form av kapitalinvestering eller utdelning av medel.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om det är uppenbart att det uteslutande eller huvudsakliga syftet med bolagets ansökan om att värdepapperen ska tas upp till handel i situationer som avses i 1 mom. 3 punkten har varit att undvika skatt, ska det bestämmas att förvärvaren ska betala den obetalda skatten. Också överlåtaren ansvarar för skatten. Detsamma gäller på motsvarande sätt om bolaget har gett sitt samtycke till att värdepapperen tas upp till handel.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 9 november 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 59/2007</p>
+                        <p>FiUB 9/2007</p>
+                        <p>RSv 40/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 2 november 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Förvaltnings- och kommunminister </role>
+                                <person refersTo="">Mari Kiviniemi</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

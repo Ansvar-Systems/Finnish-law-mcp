@@ -1,0 +1,199 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1123/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1123"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1123/alkup"/>
+                    <FRBRdate date="2007-11-30" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1123"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1123/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1123/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1123/alkup/swe"/>
+                    <FRBRdate date="2007-11-30" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1123/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1123/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1123/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="165"/>
+                    <finlex:date date="2007-12-11"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1123/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om antagningsregistret och studentexamensregistret</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 18 december 1998 om antagningsregistret och studentexamensregistret (
+                        <affectedDocument href="/akn/fi/act/statute/1998/1058">1058/1998</affectedDocument>
+                        ) 1 § 1 mom. 3 punkten och 2 mom., 2 § 1 mom. 3 punkten och 2 mom. 2 punkten, 3 § 2 mom. och 4 § 1 mom., av dem 1 § 2 mom. sådant det lyder i lag 547/2002, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 1 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Register och registeransvarig</heading>
+                    <subsection>
+                        <intro>
+                            <p>Till antagningsregistret hör</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>registret för ansökan till yrkesutbildning och gymnasieutbildning.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Registeransvarig för antagningsregistret är utbildningsstyrelsen. I registerföringen deltar för utbildningsstyrelsens räkning dessutom yrkeshögskolorna i fråga om det delregister som avses i 1 mom. 2 punkten samt anordnarna av yrkesutbildning och gymnasieutbildning i fråga om det delregister som avses i 1 mom. 3 punkten.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>1 a §</num>
+                    <heading>Den registeransvariges uppgifter</heading>
+                    <subsection>
+                        <content>
+                            <p>Utbildningsstyrelsen svarar för samlandet av data i antagningsregistret och för genomförandet på riksplanet av ansökningssystemen samt för den allmänna informationen, vägledningen och rådgivningen i anslutning till ansökan och antagning till utbildning.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Närmare bestämmelser om den registeransvariges uppgifter utfärdas genom förordning av statsrådet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>2 §</num>
+                    <heading>Ändamål</heading>
+                    <subsection>
+                        <intro>
+                            <p>Antagningsregistrets delregister används enligt följande:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>registret för ansökan till yrkesutbildning och gymnasieutbildning vid antagning av studerande till sådan utbildning och sådana examina som avses i lagen om yrkesutbildning (630/1998), gymnasielagen (629/1998) och lagen om yrkesinriktad vuxenutbildning (631/1998).</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Antagningsregistret används för att</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>ordna förfarandet för ansökan till utbildning, antagning av studerande och mottagande av studieplats, som vid universitetens och yrkeshögskolornas antagning också inkluderar arrangemangen kring mottagande av endast en studieplats som leder till högskoleexamen, samt för att följa förfarandet för ansökan och antagning,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <heading>Datainnehåll</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>I registret för gemensam ansökan till yrkeshögskolorna och i registret för ansökan till yrkesutbildning och gymnasieutbildning kan förutom de uppgifter som räknas upp i 1 mom. föras in uppgifter om hälsotillstånd som inverkar på yrkesvalet samt uppgifter om arbetserfarenhet och fritidsintressen enligt vad den sökande själv meddelat. Dessa uppgifter begärs och införs endast i det fall att de är av betydelse för antagningen av studerande.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>4 §</num>
+                    <heading>Källor</heading>
+                    <subsection>
+                        <content>
+                            <p>Den registeransvarige för antagningsregistret har rätt att utöver de uppgifter som sökanden har lämnat och utan hinder av bestämmelserna om tystnadsplikt få de uppgifter som avses i 3 § 1 och 3 mom. ur studentexamensregistret, av Befolkningsregistercentralen, arbetskraftsmyndigheterna, anordnarna av grundläggande utbildning och påbyggnadsutbildning, universiteten, yrkeshögskolorna, anordnarna av yrkesutbildning och gymnasieutbildning samt ur sådana gemensamma register för två eller flera universitet som har bildats för antagningen av studerande.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 februari 2008.</p>
+                    <p>Denna lag tillämpas för första gången på ansökan till yrkesutbildning och gymnasieutbildning för utbildning som inleds läsåret 2008―2009.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 38/2007</p>
+                        <p>KuUB 3/2007</p>
+                        <p>RSv 44/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 30 november 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Undervisningsminister </role>
+                                <person refersTo="">Sari Sarkomaa</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

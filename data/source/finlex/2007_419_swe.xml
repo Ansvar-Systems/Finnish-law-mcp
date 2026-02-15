@@ -1,0 +1,123 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/419/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/419"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/419/alkup"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="419"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/419/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/419/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/419/alkup/swe"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/419/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/419/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/419/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="64"/>
+                    <finlex:date date="2007-04-19"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>419/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om specialiserad sjukvård</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen av den 1 december 1989 om specialiserad sjukvård (<affectedDocument href="/akn/fi/act/statute/1989/1062">1062/1989</affectedDocument>) en ny 30 a §, samt till 42 §, sådan den lyder i lag 1487/1992, ett nytt 3 mom., som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>30 a §</num>
+                    <subsection>
+                        <content>
+                            <p>
+                                Det sjukvårdsdistrikt till vilket den kommun (<i>placeringskommun</i>) hör där ett barn eller en ung person är placerad med stöd av barnskyddslagen (417/2007) som en stödåtgärd inom öppenvården eller i vård utom hemmet eller i eftervård, skall ordna de tjänster inom den specialiserade sjukvården som barnet eller den unga personen behöver. Tjänsterna skall ordnas i samarbete med det sjukvårdsdistrikt till vilket den kommun (<i>placerarkommunen</i>) som är ansvarig enligt 16 § 1 mom. eller 17 § i barnskyddslagen hör.
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>42 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>När placeringskommunens sjukvårdsdistrikt har ordnat de tjänster inom den specialiserade sjukvården som avses i 30 a §, skall det sjukvårdsdistrikt till vilket placerarkommunen hör betala en ersättning som motsvarar de kostnader som åsamkats det sjukvårdsdistrikt som ordnat tjänsterna.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 252/2006</p>
+                        <p>ShUB 59/2006</p>
+                        <p>RSv 309/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 13 april 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

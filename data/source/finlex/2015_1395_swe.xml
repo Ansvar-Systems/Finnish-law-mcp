@@ -1,0 +1,121 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1395/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1395"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1395/alkup"/>
+                    <FRBRdate date="2015-12-04" name="dateIssued"/>
+                    <FRBRdate date="2015-12-07" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1395"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1395/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1395/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1395/alkup/swe"/>
+                    <FRBRdate date="2015-12-04" name="dateIssued"/>
+                    <FRBRdate date="2015-12-07" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1395/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1395/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1395/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-07" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1395/2015</docNumber>
+                <docTitle>Lag om ändring av banlagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut </p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till banlagen (
+                        <affectedDocument href="/akn/fi/act/statute/2007/110">110/2007</affectedDocument>
+                        ) en ny 4 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>4 a §</num>
+                    <heading>Plan för utveckling av järnvägsinfrastrukturen </heading>
+                    <subsection>
+                        <content>
+                            <p>Kommunikationsministeriet ska i samarbete med aktörer inom järnvägsbranschen utarbeta en långsiktig plan för utveckling av järnvägsinfrastrukturen. Planen kan vara en del av en allmän plan över trafikinfrastrukturen för alla fortskaffningsmedel. I planen ska ingå ett finansierings- och investeringsprogram för järnvägsinfrastrukturen för minst åtta år. Finansierings- och investeringsprogrammet ska i början av varje regeringsperiod ses över som en del av det övriga trafikpolitiska strategi- och planeringsarbetet. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om det ur finansierings- och investeringsprogrammet för järnvägsinfrastrukturen i enlighet med planen för utveckling av järnvägsinfrastrukturen anvisas finansiering som ingår i den årliga statsbudgeten till utveckling både av statens bannät och av det övriga järnvägssystemet, ska ministeriet ingå ett sådant avtal med den bannätsförvaltare som ansvarar för förvaltningen av delen av järnvägssystemet i fråga som uppfyller principerna i bilaga V till Europaparlamentets och rådets direktiv 2012/34/EU om inrättande av ett gemensamt europeiskt järnvägsområde. Ministeriet ska säkerställa att de som ansöker om bankapacitet och som avses i järnvägslagen (304/2011) får framföra sin åsikt om avtalet innan det undertecknas. </p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 8 december 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/13">RP 13/2015</ref>
+                        </p>
+                        <p>KoUB 6/2015</p>
+                        <p>RSv 34/2015</p>
+                        <p>EUROPAPARLAMENTETS OCH RÅDETS DIREKTIV 2012/34/EU av den 21 november 2012, om inrättande av ett gemensamt europeiskt järnvägsområde, L 343/32 14.12.2012</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 4 december 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommunikationsminister</role>
+                                <person refersTo="">Anne Berner</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

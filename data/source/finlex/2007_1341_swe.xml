@@ -1,0 +1,133 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1341/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1341"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1341/alkup"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1341"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1341/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1341/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1341/alkup/swe"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1341/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1341/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1341/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="200"/>
+                    <finlex:date date="2007-12-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1341/2007</docNumber>
+                <docTitle>Lag om ändring av 17 och 19 § i lagen om yrkesutbildning</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 21 augusti 1998 om yrkesutbildning (<affectedDocument href="/akn/fi/act/statute/1998/630">630/1998</affectedDocument>) 19 § samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 17 §, sådan den lyder delvis ändrad i lagarna 1185/1998 och 455/2001, ett nytt 5 mom., varvid det nuvarande 5 mom. blir 6 mom., som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>17 §</num>
+                    <heading>Läroavtalsutbildning</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>
+                                Läroavtalsutbildningen kan också grunda sig på ett skriftligt tidsbundet avtal (<i>tjänstemannaläroavtal</i>) som ingås mellan en tjänsteman och arbetsgivaren, om arbetsgivaren och utbildningsanordnaren har kommit överens om att ordna utbildning på det sätt som avses i 1 mom. Utbildningen grundar sig då inte på ett arbetsavtal och man tillämpar inte 18 § på den. Ett tjänstemannaläroavtal kan också ingås med en person som står i ett sådant offentligrättsligt anställningsförhållande som kan jämföras med ett tjänsteförhållande. Arbetsgivaren och tjänstemannen kan genom en gemensam överenskommelse och med omedelbar verkan häva tjänstemannaläroavtalet. Utbildningsanordnaren kan häva läroavtalet efter att ha hört tjänstemannen och arbetsgivaren, om utbildningen inte följer denna lag eller bestämmelser som har utfärdats med stöd av den eller om bestämmelserna i avtalet mellan utbildningsanordnaren och arbetsgivaren inte följs.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>19 §</num>
+                    <heading>Studerandens skydd i arbetet</heading>
+                    <subsection>
+                        <content>
+                            <p>Enligt vad som bestäms och föreskrivs i fråga om arbetstagare svarar arbetsgivaren för studerandens skydd i arbetet vid utbildning som ordnas på en arbetsplats i samband med praktiska arbetsuppgifter även då studeranden inte står i arbetsavtalsförhållande, tjänsteförhållande eller i därmed jämförbart offentligrättsligt anställningsförhållande till arbetsgivaren.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 67/2007</p>
+                        <p>KuUB 9/2007</p>
+                        <p>RSv 106/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 21 december 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Undervisningsminister </role>
+                                <person refersTo="">Sari Sarkomaa</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

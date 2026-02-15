@@ -1,0 +1,208 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/28/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/28"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/28/alkup"/>
+                    <FRBRdate date="2016-01-08" name="dateIssued"/>
+                    <FRBRdate date="2016-01-13" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="28"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/28/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/28/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/28/alkup/fin"/>
+                    <FRBRdate date="2016-01-08" name="dateIssued"/>
+                    <FRBRdate date="2016-01-13" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/28/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/28/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/28/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-01-13" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>28/2016</docNumber>
+                <docTitle>Laki maankäyttö- ja rakennuslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         maankäyttö- ja rakennuslain (
+                        <affectedDocument href="/akn/fi/act/statute/1999/132">132/1999</affectedDocument>
+                        ) 188 §:n 3 ja 4 momentti sekä 
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan </i>
+                        17 §:n 1 momentti, 31 §, 33 §:n 3 momentti, 47 §, 66 §:n 1 momentti, 188 §:n 1 momentti, 191 §:n 4 momentti, 198 §:n 2 momentti sekä 201 §:n 1 momentti, 
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 47 § osaksi laissa 476/2004 sekä 66 §:n 1 momentti, 198 §:n 2 momentti ja 201 §:n 1 momentti laissa 1589/2009, seuraavasti:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>17 §</num>
+                    <heading>Asianomaisen ministeriön tehtävät</heading>
+                    <subsection>
+                        <content>
+                            <p>Asianomaiselle ministeriölle kuuluu alueiden käytön suunnittelun ja rakennustoimen yleinen kehittäminen ja ohjaus.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>31 §</num>
+                    <heading>Maakuntakaavan hyväksyminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Maakuntakaavan hyväksyy maakunnan liiton ylin päättävä toimielin.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>33 §</num>
+                    <heading>Rakentamisrajoitus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Maakunnan liitto voi, jos se maankäytön järjestämisen turvaamiseksi on tarpeen, kieltää käyttämästä aluetta, jolla kaavaehdotuksen tai hyväksytyn kaavan mukaan on rakentamisrajoitus, kaavaehdotuksen tai kaavan vastaiseen rakentamiseen. Rajoitus ei koske jo olevaan asuntoon kuuluvan talousrakennuksen rakentamista eikä maa- ja metsätalouden harjoittamista varten tarpeellista rakentamista. Rajoitus on voimassa enintään kaksi vuotta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>47 §</num>
+                    <heading>Yhteisen yleiskaavan laatiminen ja hyväksyminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Kunnat voivat antaa yhteisen yleiskaavan laatimisen ja hyväksymisen maakunnan liiton, tehtävään soveltuvan muun kuntayhtymän tai kuntien muun yhteisen toimielimen tehtäväksi sen estämättä, mitä kuntalain (410/2015) 49 §:ssä säädetään kuntien yhteistoiminnan muodoista.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitettuun toimielimeen sovelletaan, mitä tässä laissa säädetään kunnasta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>66 §</num>
+                    <heading>Viranomaisneuvottelu</heading>
+                    <subsection>
+                        <content>
+                            <p>Maakuntakaavaa valmisteltaessa on oltava yhteydessä elinkeino-, liikenne- ja ympäristökeskukseen ja niihin ministeriöihin, joiden toimialaan kuuluvia valtakunnallisesti merkittäviä asioita kaavassa käsitellään. Elinkeino-, liikenne- ja ympäristökeskuksen, kyseisten ministeriöiden sekä maakunnan liiton kesken on järjestettävä neuvottelu kaavan laadintaan liittyvien valtakunnallisten ja muiden keskeisten tavoitteiden toteamiseksi.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>188 §</num>
+                    <heading>Muutoksenhaku kaavan ja rakennusjärjestyksen hyväksymispäätöksestä</heading>
+                    <subsection>
+                        <content>
+                            <p>Kaavan ja rakennusjärjestyksen hyväksymistä koskevaan päätökseen haetaan muutosta valittamalla hallinto-oikeuteen siten kuin kuntalaissa säädetään. Kuntalaissa säädettyä oikaisumenettelyä ei kuitenkaan sovelleta asemakaavan hyväksymistä koskevissa asioissa silloinkaan, kun päätösvalta on 52 §:ssä säädetyllä tavalla siirretty kunnanhallitukselle tai lautakunnalle.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>191 §</num>
+                    <heading>Valitusoikeus kaavan ja rakennusjärjestyksen hyväksymistä koskevasta päätöksestä</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Muilla kuin kunnalla ei ole oikeutta hakea muutosta hallinto-oikeuden päätökseen, jolla hallinto-oikeus on kumonnut kunnan viranomaisen tekemän kaavan tai rakennusjärjestyksen hyväksymistä koskevan päätöksen. Jos ranta-asemakaavan laatimisesta on huolehtinut maanomistaja, hänellä on kuitenkin oikeus valittaa hallinto-oikeuden päätöksestä. Muilla kuin maakunnan liitolla tai kunnalla ei ole oikeutta hakea muutosta hallinto-oikeuden päätökseen, jolla hallinto-oikeus on kumonnut maakuntakaavan. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>198 §</num>
+                    <heading>Eräiden päätösten tiedoksi antaminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Hallinto-oikeuden päätös 188 §:n 1 momentissa tarkoitetussa asiassa annetaan julkipanon jälkeen. Hallinto-oikeuden ja kunnan viranomaisen päätös lupa-asiassa sekä kunnan viranomaisen, elinkeino-, liikenne- ja ympäristökeskuksen ja hallinto-oikeuden päätös 171 §:ssä tarkoitetussa poikkeamista koskevassa asiassa annetaan julkipanon jälkeen. Ympäristöministeriön 177 §:n 1 momentissa ja 178 §:ssä sekä elinkeino-, liikenne- ja ympäristökeskuksen 38 §:n 2 momentissa ja 179 §:ssä tarkoitettu päätös annetaan samoin julkipanon jälkeen. </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>201 §</num>
+                    <heading>Kaavapäätöksen täytäntöönpanokelpoisuus </heading>
+                    <subsection>
+                        <content>
+                            <p>Maakuntahallitus voi valitusajan kuluttua määrätä maakuntakaavan tulemaan voimaan ennen kuin se on saanut lainvoiman. Kunnanhallitus voi valitusajan kuluttua määrätä yleis- ja asemakaavan tulemaan voimaan ennen kuin se on saanut lainvoiman kaava-alueen siltä osalta, johon valitusten tai oikaisukehotuksen ei voida katsoa kohdistuvan. Kunnan on annettava päätös viivytyksettä tiedoksi valittajille ja muutoksenhakuviranomaiselle sekä, jos määräys koskee oikaisukehotuksen kohteena olevaa kaavaa, elinkeino-, liikenne- ja ympäristökeskukselle. Muutoksenhakuviranomainen voi kieltää päätöksen täytäntöönpanon.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä helmikuuta 2016. </p>
+                    <p>Ennen tämän lain voimaantuloa hyväksyttyihin maakuntakaavoihin ja kuntien yhteisiin yleiskaavoihin sovelletaan tämän lain voimaan tullessa voimassa olleiden säännösten mukaista vahvistus- ja muutoksenhakumenettelyä vain jos kaava on 200 §:n mukaisesti saatettu yleisesti tiedoksi ennen tämän lain voimaantuloa.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/114">HE 114/2015</ref>
+                        </p>
+                        <p>YmVM 2/2015</p>
+                        <p>EV 96/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 8 päivänä tammikuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Maatalous- ja ympäristöministeri</role>
+                                <person refersTo="">Kimmo Tiilikainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

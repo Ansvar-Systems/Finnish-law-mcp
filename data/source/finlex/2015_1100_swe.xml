@@ -1,0 +1,122 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1100/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1100"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1100/alkup"/>
+                    <FRBRdate date="2015-08-21" name="dateIssued"/>
+                    <FRBRdate date="2015-08-27" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1100"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1100/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1100/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1100/alkup/swe"/>
+                    <FRBRdate date="2015-08-21" name="dateIssued"/>
+                    <FRBRdate date="2015-08-27" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1100/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1100/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1100/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-08-27" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1100/2015</docNumber>
+                <docTitle>Lag om ändring av 21 § i säkerhetsutredningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i säkerhetsutredningslagen (
+                        <affectedDocument href="/akn/fi/act/statute/2014/726">726/2014</affectedDocument>
+                        ) 21 § 2 mom. 4 punkten som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>21 §</num>
+                    <heading>När får en begränsad säkerhetsutredning av person göras</heading>
+                    <subsection>
+                        <intro>
+                            <p>En begränsad säkerhetsutredning får göras också i fråga om en person som</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>4) </num>
+                            <content>
+                                <p>har ansökt om kompetensbrev för laddare eller sökt sig till utbildning för ansvarig föreståndare, utbildare i användningen av maktmedel, skytteinstruktör, väktare, utbildare av ordningsvakter eller ordningsvakt eller utbildning för säkerhetsskyddsuppgifter enligt lagen om privata säkerhetstjänster (1085/2015).</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2017.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 22/2014</p>
+                        <p>FvUVB 57/2014</p>
+                        <p>RSv 351/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 21 augusti 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister</role>
+                                <person refersTo="">Petteri Orpo</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,155 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/960/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/960"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/960/alkup"/>
+                    <FRBRdate date="2006-11-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="960"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/960/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/960/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/960/alkup/swe"/>
+                    <FRBRdate date="2006-11-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/960/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/960/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/960/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="143"/>
+                    <finlex:date date="2006-11-14"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>960/2006</docNumber>
+                <docTitle>Lag om ändring av ärvdabalken</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i ärvdabalken av den 5 februari 1965 (
+                        <affectedDocument href="/akn/fi/act/statute/1965/40">40/1965</affectedDocument>
+                        ) 20 kap. 9 a, 9 b och 9 c §, sådana de lyder i lag 733/1994, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>20 kap.</num>
+                    <heading>Om bouppteckning</heading>
+                    <section>
+                        <num>9 a §</num>
+                        <subsection>
+                            <content>
+                                <p>Om arvlåtaren vid sin död hade hemkommun i Finland, kan en magistrat på ansökan av en dödsbodelägare, efterlevande make, den som sköter boet, boutredningsman, skiftesman eller testamentsexekutor fastställa att alla delägare i boet och arvlåtarens make har antecknats i bouppteckningen så som föreskrivs i 3 § 1 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Fastställelse kan sökas hos vilken magistrat som helst. Om det är nödvändigt i syfte att effektivisera magistraternas verksamhet eller att främja en balanserad regional utveckling, kan genom förordning av inrikesministeriet dock föreskrivas att en magistrat skall överföra de ärenden som gäller fastställelse för behandling i en annan magistrat. Genom förordning av inrikesministeriet utfärdas närmare bestämmelser om de magistrater som överför och tar emot ärenden samt om grunderna för kompetensfördelningen mellan de magistrater som tar emot dessa uppgifter.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Fastställelse skall beviljas, om det med stöd av uppgifterna i befolkningsdatasystemet eller någon annan tillgänglig utredning finns motiverade skäl att anta att uppgifterna i bouppteckningen är riktiga och fullständiga.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Magistraten skall göra en anteckning om beviljad fastställelse i en till riktigheten bestyrkt kopia av bouppteckningen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 b §</num>
+                        <subsection>
+                            <content>
+                                <p>Om fastställelse inte enligt 9 a § kan beviljas, skall magistraten meddela sökanden om de brister och fel den iakttagit samt återsända handlingarna till sökanden utan fastställelse. Den person som enligt bouppteckningen tar emot meddelanden som gäller boet skall också underrättas om saken.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 c §</num>
+                        <subsection>
+                            <content>
+                                <p>En rättshandling som de delägare som finns antecknade i en bouppteckning som fastställts av en magistrat har ingått på boets vägnar med en annan person än en delägare är bindande, även om någon delägare inte har antecknats i bouppteckningen, om den med vilken rättshandlingen ingicks inte visste och inte heller borde ha vetat att en sådan delägare fanns i boet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>När en ansökan om inskrivning av en rättighet eller någon annan åtgärd görs hos en myndighet, skall en fastställd bouppteckning anses som tillräcklig utredning över dödsbodelägarna, om inte något annat framgår i saken.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2007.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 229/2005</p>
+                        <p>FvUB 16/2006</p>
+                        <p>RSv 118/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 10 november 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Seppo Kääriäinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

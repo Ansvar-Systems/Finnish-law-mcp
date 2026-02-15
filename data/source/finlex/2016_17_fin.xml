@@ -1,0 +1,146 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/17/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/17"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/17/alkup"/>
+                    <FRBRdate date="2016-01-08" name="dateIssued"/>
+                    <FRBRdate date="2016-01-12" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="17"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/17/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/17/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/17/alkup/fin"/>
+                    <FRBRdate date="2016-01-08" name="dateIssued"/>
+                    <FRBRdate date="2016-01-12" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/17/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/17/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/17/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-01-12" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>17/2016</docNumber>
+                <docTitle>Laki henkilötietojen käsittelystä Rikosseuraamuslaitoksessa annetun lain 7 ja 31 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         henkilötietojen käsittelystä Rikosseuraamuslaitoksessa annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2015/1069">1069/2015</affectedDocument>
+                        ) 7 §:n 1 momentin 9 kohta ja 31 §:n 1 momentti sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         7 §:n 1 momenttiin uusi 10 kohta seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>7 §</num>
+                    <heading>Valvonta- ja toimintarekisteri</heading>
+                    <subsection>
+                        <intro>
+                            <p>Valvonta- ja toimintarekisteri sisältää laitosjärjestyksen ylläpitämistä sekä vankien ja Rikosseuraamuslaitoksen yksikköön otettujen valvontaa ja toimintaan osallistumista varten tarpeelliset tiedot. Näitä ovat tiedot vankien ja Rikosseuraamuslaitoksen yksikköön otettujen:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>9) </num>
+                            <content>
+                                <p>karkaamisesta ja avolaitoksesta luvatta poistumisesta, poistumislupa-, opintolupa- ja siviilityölupaehtojen rikkomisesta sekä Rikosseuraamuslaitoksen yksikön ulkopuoliseen laitokseen sijoittamiseen liittyvien ehtojen rikkomisesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>10) </num>
+                            <content>
+                                <p>vapauttamisesta ja vankilasta tai muusta säilytystilasta poistumisesta ilmoittamisesta asianomistajalle sekä sitä koskevasta asianomistajan pyynnöstä ja yhteystiedoista. </p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>31 §</num>
+                    <heading>Tarkastusoikeuden rajoitukset</heading>
+                    <subsection>
+                        <content>
+                            <p>Sen lisäksi, mitä henkilötietolaissa säädetään, rekisteröidyn tarkastusoikeutta voidaan rajoittaa, jos tarkastusoikeuden toteuttamisesta voi todennäköisin syin seurata vakava uhka Rikosseuraamuslaitoksen yksikön järjestykselle ja turvallisuudelle taikka Rikosseuraamuslaitoksen henkilöstöön kuuluvan tai jonkun muun turvallisuudelle. Rekisteröidyllä ei ole tarkastusoikeutta turvallisuustietorekisterin tietoihin eikä valvonta- ja toimintarekisterin sisältämiin tämän lain 7 §:n 1 momentin 10 kohdassa tarkoitettuihin asianomistajan tietoihin. </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä maaliskuuta 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/66">HE 66/2015</ref>
+                        </p>
+                        <p>LaVM 4/2015</p>
+                        <p>EV 83/2015</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2012/29/EU (32012L0029); EUVL L 315, 14.11.2012, s. 57</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 8 päivänä tammikuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeus- ja työministeri</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,323 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1245/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1245"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1245/alkup"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1245"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1245/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1245/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1245/alkup/swe"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1245/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1245/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1245/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="204"/>
+                    <finlex:date date="2005-12-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1245/2005</docNumber>
+                <docTitle>Lag om Luftfartsverket</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut föreskrivs:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section eId="sec_1">
+                    <num>1 §</num>
+                    <heading>Ställning inom förvaltningen</heading>
+                    <subsection eId="sec_1__subsec_1">
+                        <content>
+                            <p>Luftfartsverket är ett statligt affärsverk inom kommunikationsministeriets förvaltningsområde.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_1__subsec_2">
+                        <content>
+                            <p>
+                                På Luftfartsverket tillämpas lagen om statliga affärsverk (1185/2002, nedan 
+                                <i>affärsverkslagen</i>), om inte annat föreskrivs i denna lag.
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_2">
+                    <num>2 §</num>
+                    <heading>Verksamhetsområde</heading>
+                    <subsection eId="sec_2__subsec_1">
+                        <intro eId="sec_2__subsec_1__intro">
+                            <p>Luftfartsverkets verksamhetsområde omfattar</p>
+                        </intro>
+                        <paragraph eId="sec_2__subsec_1__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>flygplatserna och servicen på dem,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>flygtrafiktjänsten och flygtrafiktjänstsystemen,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>annan verksamhet i anslutning till flygplatserna och flygtrafiken.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_3">
+                    <num>3 §</num>
+                    <heading>Uppgifter som skall skötas enligt företagsekonomiska principer</heading>
+                    <subsection eId="sec_3__subsec_1">
+                        <intro eId="sec_3__subsec_1__intro">
+                            <p>Luftfartsverket skall bedriva affärsverksamhet inom det verksamhetsområde som anges i 2 §. Särskilt skall Luftfartsverket i syfte att främja luftfarten</p>
+                        </intro>
+                        <paragraph eId="sec_3__subsec_1__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>driva och utveckla statens flygplatsnät och flygtrafiktjänstsystemet i Finland för den civila och militära luftfartens behov,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_1__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>tillhandahålla flygtrafiktjänster inom det luftrum för vilket Finland ansvarar.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_2">
+                        <content>
+                            <p>Bestämmelser om flygtrafiktjänsten finns i 12 kap. i luftfartslagen (1242/2005).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_4">
+                    <num>4 §</num>
+                    <heading>Luftfartsverkets offentliga serviceuppgifter</heading>
+                    <subsection eId="sec_4__subsec_1">
+                        <content>
+                            <p>Luftfartsverket har särskilt i uppgift att erbjuda sig att ordna de offentliga serviceuppgifter enligt 2 mom. som ansluter sig till dess verksamhetsområde.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_2">
+                        <intro eId="sec_4__subsec_2__intro">
+                            <p>Luftfartsverket kan som offentliga serviceuppgifter i anslutning till sitt verksamhetsområde sköta</p>
+                        </intro>
+                        <paragraph eId="sec_4__subsec_2__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>driften av företagsekonomiskt olönsamma delar av statens flygplatsnät,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_4__subsec_2__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>produktion av flygplats- och flygtrafiktjänster för särskilda behov inom utbildningen på luftfartens område,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_4__subsec_2__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>särskilda uppgifter som territorialövervakningen och sjöräddningen förutsätter av flygplatserna och flygtrafiktjänsten,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_4__subsec_2__para_4">
+                            <num>4)</num>
+                            <content>
+                                <p>särskilda beredskapsuppgifter som beredskapslagstiftningen kräver,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_4__subsec_2__para_5">
+                            <num>5)</num>
+                            <content>
+                                <p>särskilda uppgifter i anslutning till räddningsväsendet,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_4__subsec_2__para_6">
+                            <num>6)</num>
+                            <content>
+                                <p>andra lämpliga offentliga serviceuppgifter enligt riksdagens beslut.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_5">
+                    <num>5 §</num>
+                    <heading>Förberedelseskyldighet</heading>
+                    <subsection eId="sec_5__subsec_1">
+                        <content>
+                            <p>Luftfartsverket förbereder sig på att sköta uppgifter även i undantagsförhållanden enligt vad kommunikationsministeriet särskilt bestämmer.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_6">
+                    <num>6 §</num>
+                    <heading>Prissättning</heading>
+                    <subsection eId="sec_6__subsec_1">
+                        <content>
+                            <p>Luftfartsverket finansierar sin affärsverksamhet med avgifter som det fastställer enligt företagsekonomiska principer och med andra intäkter av affärsverksamheten.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_6__subsec_2">
+                        <content>
+                            <p>Med avvikelse från 1 mom. fastställer Luftfartsverket avgifterna för de offentliga serviceuppgifter som nämns i 4 § så att de motsvarar kostnaderna för utförandet av dem. Över utgifterna för och inkomsterna av skötseln av dessa uppgifter samt över tillgångar och ansvar upprättas för varje räkenskapsperiod en separat kalkyl.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_7">
+                    <num>7 §</num>
+                    <heading>Försäkringsbegränsning</heading>
+                    <subsection eId="sec_7__subsec_1">
+                        <content>
+                            <p>Statsrådet kan besluta om att begränsa försäkrandet av Luftfartsverkets flygplatsverksamhet och flygtrafiktjänst. Statsrådet skall i sitt beslutsfattande beakta storleken av de skador som eventuellt skall ersättas med försäkringar, begränsningens inverkan på statens risk och kostnader samt konkurrensneutraliteten.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_8">
+                    <num>8 §</num>
+                    <heading>Personal och ledningen</heading>
+                    <subsection eId="sec_8__subsec_1">
+                        <content>
+                            <p>Luftfartsverket kan anställa personal i både tjänste- och arbetsavtalsförhållande.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_8__subsec_2">
+                        <content>
+                            <p>Bestämmelser om Luftfartsverkets verkställande direktör finns i 11 § i affärsverkslagen. Luftfartsverket kan ha en vice verkställande direktör.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_9">
+                    <num>9 §</num>
+                    <heading>Närmare bestämmelser</heading>
+                    <subsection eId="sec_9__subsec_1">
+                        <intro eId="sec_9__subsec_1__intro">
+                            <p>Genom förordning av statsrådet kan utfärdas närmare bestämmelser</p>
+                        </intro>
+                        <paragraph eId="sec_9__subsec_1__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>om en styrelse enligt 9 § i affärsverkslagen,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_9__subsec_1__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>om styrelsens uppgifter enligt 10 § i affärsverkslagen,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_9__subsec_1__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>om en verkställande direktör enligt 11 § i affärsverkslagen,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_9__subsec_1__para_4">
+                            <num>4)</num>
+                            <content>
+                                <p>om Luftfartsverkets vice verkställande direktör.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_10">
+                    <num>10 §</num>
+                    <heading>Ikraftträdande</heading>
+                    <subsection eId="sec_10__subsec_1">
+                        <content>
+                            <p>Denna lag träder i kraft den 1 januari 2006.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_10__subsec_2">
+                        <content>
+                            <p>
+                                Genom denna lag upphävs lagen av den 14 december 1990 om Luftfartsverket (1123/1990), nedan 
+                                <i>den upphävda lagen</i>, jämte ändringar.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_10__subsec_3">
+                        <content>
+                            <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_10__subsec_4">
+                        <content>
+                            <p>Luftfartsverket behåller sina rättigheter och skyldigheter enligt den upphävda lagen, om inte annat föreskrivs genom lag.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_10__subsec_5">
+                        <content>
+                            <p>Luftfartsverkets personal behåller vid övergången sina rättigheter och skyldigheter enligt tidigare anställningsförhållanden, om inte annat föreskrivs genom lag.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 138/2005</p>
+                        <p>KoUB 25/2005</p>
+                        <p>RSv 182/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 december 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

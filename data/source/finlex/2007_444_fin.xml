@@ -1,0 +1,433 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/444/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/444"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/444/alkup"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="444"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/444/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/444/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/444/alkup/fin"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/444/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/444/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/444/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="66"/>
+                    <finlex:date date="2007-04-20"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>444/2007</docNumber>
+                <docTitle>Ryhmäkannelaki</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section eId="sec_1">
+                    <num>1 §</num>
+                    <heading>Soveltamisala</heading>
+                    <subsection eId="sec_1__subsec_1">
+                        <content>
+                            <p>Tätä lakia sovelletaan kuluttaja-asiamiehen toimivallan mukaisessa laajuudessa kuluttajan ja elinkeinonharjoittajan välisen riita-asian käsittelyyn ryhmäkanteena. Lakia ei kuitenkaan sovelleta arvopaperimarkkinalaissa (495/1989) tarkoitetun arvopaperin liikkeeseenlaskijan tai julkisen ostotarjouksen tekijän menettelyä koskevassa riita-asiassa.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_1__subsec_2">
+                        <content>
+                            <p>
+                                <i>Ryhmäkanteella</i>
+                                 tarkoitetaan kannetta, jota kantaja ajaa kanteessa määritellyn ryhmän puolesta siten, että asiassa annettava tuomio tulee myös ryhmän jäseniä sitovaksi.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_1__subsec_3">
+                        <content>
+                            <p>Ryhmäkanteen käsittelystä on tämän lain lisäksi soveltuvin osin voimassa, mitä riita-asian käsittelystä muutoin säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_2">
+                    <num>2 §</num>
+                    <heading>Ryhmäkanteen edellytykset</heading>
+                    <subsection eId="sec_2__subsec_1">
+                        <intro eId="sec_2__subsec_1__intro">
+                            <p>Asia voidaan käsitellä ryhmäkanteena, jos:</p>
+                        </intro>
+                        <paragraph eId="sec_2__subsec_1__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>useilla henkilöillä on samaa vastaajaa vastaan vaatimuksia, jotka perustuvat samoihin tai samankaltaisiin seikkoihin;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>asian käsittely ryhmäkanteena on tarkoituksenmukaista ottaen huomioon ryhmän koko, asiassa esitettävien vaatimusten sisältö ja asiassa esitettävä todistelu; sekä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>ryhmä on riittävän täsmällisesti määritelty.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_3">
+                    <num>3 §</num>
+                    <heading>Toimivaltainen tuomioistuin</heading>
+                    <subsection eId="sec_3__subsec_1">
+                        <content>
+                            <p>Ryhmäkanteita käsitteleviä käräjäoikeuksia ovat Turun, Vaasan, Kuopion, Helsingin, Lahden ja Oulun käräjäoikeudet. Näistä toimivaltainen on käräjäoikeus samassa hovioikeuspiirissä kuin se käräjäoikeus, jossa vastaaja olisi velvollinen vastaamaan johonkin ryhmäkanteena esitetyistä vaatimuksista erikseen ajettuna.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_4">
+                    <num>4 §</num>
+                    <heading>Kanneoikeus</heading>
+                    <subsection eId="sec_4__subsec_1">
+                        <content>
+                            <p>Kuluttaja-asiamies panee kantajana vireille ryhmäkanteen ja käyttää siinä asianosaisena puhevaltaa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_5">
+                    <num>5 §</num>
+                    <heading>Ryhmäkanteen vireillepano</heading>
+                    <subsection eId="sec_5__subsec_1">
+                        <intro eId="sec_5__subsec_1__intro">
+                            <p>Ryhmäkannetta koskevassa haastehakemuksessa on ilmoitettava:</p>
+                        </intro>
+                        <paragraph eId="sec_5__subsec_1__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>ryhmä, jota kanne koskee;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_1__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>tiedossa olevat vaatimukset;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_1__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>seikat, joihin vaatimukset perustuvat;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_1__para_4">
+                            <num>4)</num>
+                            <content>
+                                <p>millä perusteella asia voidaan käsitellä ryhmäkanteena;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_1__para_5">
+                            <num>5)</num>
+                            <content>
+                                <p>kantajan tiedossa olevat seikat, joilla on merkitystä vain joidenkin ryhmän jäsenten vaatimusten tutkimiselle;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_1__para_6">
+                            <num>6)</num>
+                            <content>
+                                <p>mahdollisuuksien mukaan ne todisteet, jotka kantaja aikoo kanteensa tueksi esittää, sekä mitä hän kullakin todisteella aikoo näyttää toteen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_1__para_7">
+                            <num>7)</num>
+                            <content>
+                                <p>oikeudenkäyntikulujen korvaamista koskeva vaatimus, jos kantaja pitää sitä aiheellisena; sekä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_1__para_8">
+                            <num>8)</num>
+                            <content>
+                                <p>millä perusteella tuomioistuin on toimivaltainen.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_2">
+                        <content>
+                            <p>Haastehakemuksessa on ilmoitettava myös oikeudenkäymiskaaren 5 luvun 2 §:n 2 momentissa tarkoitetut tiedot. Haastehakemus on kantajan tai, jollei hän ole sitä itse laatinut, sen laatijan allekirjoitettava. Laatijan on samalla ilmoitettava ammattinsa ja asuinpaikkansa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_6">
+                    <num>6 §</num>
+                    <heading>Ilmoittaminen ryhmäkanteen käsittelyn alkamisesta</heading>
+                    <subsection eId="sec_6__subsec_1">
+                        <content>
+                            <p>Jollei kannetta ole oikeudenkäymiskaaren 5 luvun 6 §:n mukaisesti jätetty tutkimatta tai hylätty, tuomioistuimen on viipymättä ennen haasteen antamista ilmoitettava postitse tai sähköisesti asianosaisille ryhmäkanteen käsittelyn alkamisesta ja asian valmistelusta vastaavasta tuomarista. Lisäksi tuomioistuimen on asetettava määräaika ryhmään ilmoittautumiselle. Tuomioistuin voi erityisestä syystä pidentää määräaikaa.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_6__subsec_2">
+                        <content>
+                            <p>Kantajan on viipymättä ilmoitettava tiedossa oleville ryhmän jäsenille asian vireilletulosta. Ilmoitus on toimitettava postitse tai sähköisesti. Jos ilmoitusta ei mainituin tavoin voida toimittaa kaikille määritelmän mukaisille ryhmän jäsenille, ryhmäkanteesta voidaan ilmoittaa yhdessä tai useammassa sanomalehdessä taikka muulla asianmukaisella tavalla. Kantajan on toimitettava ilmoitus myös vastaajalle.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_7">
+                    <num>7 §</num>
+                    <heading>Ilmoituksen sisältö</heading>
+                    <subsection eId="sec_7__subsec_1">
+                        <intro eId="sec_7__subsec_1__intro">
+                            <p>Kantajan toimittaman ilmoituksen tulee sisältää:</p>
+                        </intro>
+                        <paragraph eId="sec_7__subsec_1__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>lyhyt kuvaus asiasta ja esitettävistä vaatimuksista;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_7__subsec_1__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>kuvaus ryhmästä, jonka puolesta kanne on nostettu;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_7__subsec_1__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>kantajan yhteystiedot; sekä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_7__subsec_1__para_4">
+                            <num>4)</num>
+                            <content>
+                                <p>tieto siitä, miten ryhmään ilmoittaudutaan ja ilmoittautumiselle asetetusta määräajasta.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_7__subsec_2">
+                        <content>
+                            <p>Lisäksi ilmoituksessa on mainittava perustiedot ryhmäkanteesta oikeudenkäyntimuotona, ryhmän jäsenen asemasta oikeudenkäynnissä, sovinnosta, ryhmäkanteen johdosta annetun tuomion oikeusvaikutuksista, muutoksenhakuoikeudesta ja oikeudenkäyntikuluvastuusta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_8">
+                    <num>8 §</num>
+                    <heading>Ryhmän jäsenyys</heading>
+                    <subsection eId="sec_8__subsec_1">
+                        <content>
+                            <p>Määritelmän mukainen ryhmän jäsen, joka asetetussa määräajassa on toimittanut kantajalle kirjallisen allekirjoitetun ilmoituksen halukkuudestaan osallistua ryhmäkanteeseen, kuuluu ryhmään.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_8__subsec_2">
+                        <content>
+                            <p>Jos määritelmän mukainen jäsen ilmoittautuu ryhmään asetetun määräajan jälkeen, mutta ennen kuin täsmennetty haastehakemus on toimitettu tuomioistuimelle, kantaja voi erityisestä syystä hyväksyä hänet ryhmän jäseneksi.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_9">
+                    <num>9 §</num>
+                    <heading>Täsmennetty haastehakemus</heading>
+                    <subsection eId="sec_9__subsec_1">
+                        <content>
+                            <p>Kantajan on laadittava täsmennetty haastehakemus, joka sisältää jäsenten nimet ja osoitteet sekä yksilöidyt vaatimukset ja, jos se on tarpeellista, täsmennetyt perusteet. Haastehakemus on toimitettava tuomioistuimelle kuukauden kuluessa ryhmään ilmoittautumiselle asetetusta määräajasta. Tuomioistuin voi erityisestä syytä pidentää määräaikaa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_10">
+                    <num>10 §</num>
+                    <heading>Haaste</heading>
+                    <subsection eId="sec_10__subsec_1">
+                        <content>
+                            <p>Tuomioistuimen on viipymättä annettava haaste vastaanotettuaan täsmennetyn haastehakemuksen.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_10__subsec_2">
+                        <content>
+                            <p>Vastaajaa kehotetaan haasteessa vastaamaan kanteeseen kirjallisesti. Haasteen antamiseen ja siihen vastaamiseen sovelletaan muutoin soveltuvin osin, mitä oikeudenkäymiskaaren 5 luvun 10―12 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_11">
+                    <num>11 §</num>
+                    <heading>Ryhmän jäsenen asema</heading>
+                    <subsection eId="sec_11__subsec_1">
+                        <content>
+                            <p>Ryhmän jäsen rinnastetaan asianosaiseen sovellettaessa riidan kohteen luovuttamista, tuomarin esteellisyyttä, oikeudenkäynnin vireilläolovaikutuksia, kanteiden yhdistämistä ja kuulemista koskevia oikeudenkäymiskaaren säännöksiä. Ryhmän jäsenen tulee tehdä väite tuomarin esteellisyydestä niin pian kuin mahdollista saatuaan tiedon asian käsittelyyn osallistuvista tuomareista. Ryhmän jäsen ei voi osallistua oikeudenkäyntiin väliintulijana.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_12">
+                    <num>12 §</num>
+                    <heading>Kanteen laajentaminen</heading>
+                    <subsection eId="sec_12__subsec_1">
+                        <content>
+                            <p>Kantaja saa valmistelun aikana ryhmän määritelmää muuttamalla ulottaa kanteen koskemaan myös uusia ryhmän jäseniä, jos tämä ei merkittävästi viivytä asian käsittelyä tai aiheuta vastaajalle kohtuutonta haittaa. Uusien jäsenten osalta on soveltuvin osin ilmoitettava 5 §:ssä tarkoitetut tiedot.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_12__subsec_2">
+                        <content>
+                            <p>Kantajan vaatimusten muuttamiseen sovelletaan oikeudenkäymiskaaren 14 luvun 2 §:n säännöksiä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_13">
+                    <num>13 §</num>
+                    <heading>Kanteen rajaaminen</heading>
+                    <subsection eId="sec_13__subsec_1">
+                        <content>
+                            <p>Jos kantaja peruuttaa kanteen ryhmän jonkin jäsenen vaatimuksen osalta ennen kuin täsmennetty haastehakemus on toimitettu käräjäoikeuteen, tuomioistuimen on tältä osin jätettävä kanne sillensä.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_13__subsec_2">
+                        <content>
+                            <p>Jos kantaja sen jälkeen, kun täsmennetty haastehakemus on toimitettu käräjäoikeuteen, rajoittaa kannetta siten, että se ei enää koske jonkin jäsenen vaatimusta, tuomioistuimen on asetettava määräaika, jonka kuluessa ryhmän jäsen voi ilmoittaa tuomioistuimelle haluavansa omassa asiassaan jatkaa oikeudenkäyntiä asianosaisena.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_13__subsec_3">
+                        <content>
+                            <p>Jos ryhmän jäsen ilmoittaa jatkavansa oikeudenkäyntiä asianosaisena, tuomioistuimen on erotettava hänen vaatimuksensa käsiteltäväksi erikseen omana asianaan ja päätettävä sen jatkokäsittelystä. Tuomioistuin voi ryhmän jäsenen pyynnöstä siirtää erotetun asian toisen toimivaltaisen tuomioistuimen käsiteltäväksi, jos tämä on asian käsittelyn kannalta tarkoituksenmukaista. Jos oikeudenkäyntiä ei edellä sanotun vaatimuksen osalta jatketa, asia on siltä osin jätettävä sillensä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_14">
+                    <num>14 §</num>
+                    <heading>Käsittely alaryhmissä</heading>
+                    <subsection eId="sec_14__subsec_1">
+                        <content>
+                            <p>Tuomioistuin voi määrätä tiettyjä ryhmän jäseniä koskevat vaatimukset tai tietyt kysymykset käsiteltäviksi erikseen alaryhmissä, jos tämä edistää asian tarkoituksenmukaista käsittelyä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_15">
+                    <num>15 §</num>
+                    <heading>Ryhmästä irrottautuminen</heading>
+                    <subsection eId="sec_15__subsec_1">
+                        <content>
+                            <p>Ryhmän jäsen voi ennen asian siirtämistä pääkäsittelyyn irrottautua ryhmästä ilmoittamalla siitä kirjallisesti tuomioistuimelle tai sen kansliaan. Kanne jätetään tällöin ryhmästä irrottautuneen osalta sillensä.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_15__subsec_2">
+                        <content>
+                            <p>Sen jälkeen kun asia on siirretty pääkäsittelyyn, ryhmän jäsen voi vain vastaajan suostumuksella 1 momentissa säädetyllä tavalla irrottautua ryhmästä. Kanne jätetään tällöinkin ryhmästä irrottautuneen osalta sillensä. Kun asia on jätetty päätettäväksi, ryhmästä ei voi enää irrottautua.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_16">
+                    <num>16 §</num>
+                    <heading>Tuomion oikeusvoimasta</heading>
+                    <subsection eId="sec_16__subsec_1">
+                        <content>
+                            <p>Tuomioistuimen ratkaisu sitoo niitä ryhmän jäseniä, joita tuomioistuin on ratkaisussaan ilmoittanut sen koskevan.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_17">
+                    <num>17 §</num>
+                    <heading>Oikeudenkäyntikulut</heading>
+                    <subsection eId="sec_17__subsec_1">
+                        <content>
+                            <p>Oikeudenkäyntikuluista on voimassa, mitä oikeudenkäymiskaaren 21 luvussa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_17__subsec_2">
+                        <content>
+                            <p>Ryhmän jäsen ei vastaa oikeudenkäyntikuluista. Ryhmän jäsen on kuitenkin velvollinen korvaamaan vastaajalle oikeudenkäymiskaaren 21 luvun 5 §:ssä tarkoitetulla menettelyllä aiheuttamansa kustannukset.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_17__subsec_3">
+                        <content>
+                            <p>Jos ryhmän jäsenen vaatimus on erotettu käsiteltäväksi erikseen omana asianaan, hän on asianosaisena vastuussa erottamisen jälkeen syntyneistä oikeudenkäyntikuluista.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_18">
+                    <num>18 §</num>
+                    <heading>Muutoksenhaku</heading>
+                    <subsection eId="sec_18__subsec_1">
+                        <content>
+                            <p>Asianosaisilla on oikeus hakea valittamalla muutosta ryhmäkanteen johdosta annettuun ratkaisuun siten kuin oikeudenkäymiskaaressa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_18__subsec_2">
+                        <content>
+                            <p>Ryhmäkannemenettelyn edellytyksiä koskevan oikeudenkäyntiväitteen johdosta annettuun hylkäävään ratkaisuun saa hakea muutosta erikseen, jollei tuomioistuin aiheettoman viivästymisen estämiseksi tai muusta erityisestä syystä määrää, että muutosta haetaan pääasiassa annetun tuomion tai lopullisen päätöksen yhteydessä.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_18__subsec_3">
+                        <content>
+                            <p>Jos kantaja ei hae muutosta ryhmäkanteen johdosta annettuun ratkaisuun, ryhmän jäsenellä on omassa asiassaan oikeus hakea ratkaisuun muutosta 14 päivän kuluessa valitusajan tai vastaavasti vastavalitusajan päättymisestä. Ryhmän jäsenen ei tarvitse ilmoittaa ratkaisuun tyytymättömyyttä. Muilta osin muutoksenhakuun sovelletaan oikeudenkäymiskaaren säännöksiä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_19">
+                    <num>19 §</num>
+                    <heading>Voimaantulo</heading>
+                    <subsection eId="sec_19__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 1 päivänä lokakuuta 2007.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/154">HE 154/2006</ref>
+                        </p>
+                        <p>LaVM 30/2006</p>
+                        <p>EV 303/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 13 päivänä huhtikuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

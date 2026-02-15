@@ -1,0 +1,151 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/419/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/419"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/419/alkup"/>
+                    <FRBRdate date="2006-06-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="419"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/419/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/419/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/419/alkup/swe"/>
+                    <FRBRdate date="2006-06-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/419/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/419/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/419/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="67"/>
+                    <finlex:date date="2006-06-02"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>419/2006</docNumber>
+                <docTitle>Lag om ändring av 5 och 7 § i lagen om utlänningsregistret</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen den 19 december 1997 om utlänningsregistret (
+                        <affectedDocument href="/akn/fi/act/statute/1997/1270">1270/1997</affectedDocument>
+                        ) 5 § 1 mom. 3 punkten samt 7 § 2 mom., sådana de lyder i lag 305/2004, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>5 §</num>
+                    <heading>Personer som omfattas av registret</heading>
+                    <subsection>
+                        <intro>
+                            <p>För utlänningsregistret får inhämtas och i registret föras in uppgifter om personer</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>vars uppehållsrätt registreras med stöd av utlänningslagen eller vars arbetsuppgifter registreras med stöd av någon annan lag,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 §</num>
+                    <heading>Uppgifter som registreras</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Utöver vad som bestäms i 1 mom. får i utlänningsregistret i den mån det är nödvändigt registreras</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>uppgifter om ansökt tillstånd eller ärende som framgår av en i 5 § 1 och 2 mom. avsedd ansökan, anmälan eller förfrågan och som gäller ändamålet med vistelsen i landet och resan och vistelsens längd samt resrutten, tidpunkten och platsen för inresa och utresa samt uppgifter om arbetsgivare och arbete samt uppgifter enligt 73 § 1 mom. utlänningslagen som skall fogas till uppehållstillstånd för arbetstagare,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>uppgifter om behandlingen av ärenden som avses i 5 § 1 och 2 mom. samt om utredningar som gäller dem, om utlåtanden, avgörandet av ärendet och motiveringen till beslutet, om att ärendet förfallit samt om ändringssökande,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>person- och kontaktuppgifter för familjemedlemmar och mottagare som avses i 5 § 3 mom.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 5 juni 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 46/2006</p>
+                        <p>AjUB 3/2006</p>
+                        <p>RSv 50/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 2 juni 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,197 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/921/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/921"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/921/alkup"/>
+                    <FRBRdate date="2005-11-25" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="921"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/921/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/921/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/921/alkup/fin"/>
+                    <FRBRdate date="2005-11-25" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/921/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/921/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/921/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="157"/>
+                    <finlex:date date="2005-11-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>921/2005</docNumber>
+                <docTitle>Laki mittatekniikan keskuksesta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan </i>
+                        mittatekniikan keskuksesta 14 päivänä joulukuuta 1990 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1990/1149">1149/1990</affectedDocument>
+                        ) 1 §:n 2 momentti sekä 2, 4 ja 5 § sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään </i>
+                        1 §:ään uusi 3 momentti, jolloin nykyinen 3 ja 4 momentti siirtyvät 4 ja 5 momentiksi, ja lakiin uusi 2 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Mittatekniikan keskuksen tehtävänä on huolehtia kansallisen mittanormaalijärjestelmän ja kansallisen kalibrointipalvelun järjestämisestä siten kuin siitä erikseen säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mittatekniikan keskuksen tehtävänä on lisäksi huolehtia arviointilaitosten pätevyyden arviointiin ja akkreditointiin liittyvistä tehtävistä siten kuin siitä erikseen säädetään. Tätä tehtävää varten mittatekniikan keskuksessa on akkreditointiyksikkö.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>2 §</num>
+                    <subsection>
+                        <content>
+                            <p>Mittatekniikan keskuksen toimintaa ohjaa ja valvoo johtokunta. Akkreditointiyksikön toimintaa ohjaa ja valvoo kuitenkin akkreditointiasiain valtuuskunta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mittatekniikan keskuksen johtokuntaan kuuluvat keskuksen ylijohtaja sekä enintään kuusi muuta keskuksen toimialaa tuntevaa henkilöä. Akkreditointiasiain valtuuskuntaan kuuluvat akkreditointiyksikön päällikkö sekä enintään kuusi muuta yksikön toiminnan kannalta tärkeiden sidosryhmien edustajaa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valtioneuvoston asetuksella säädetään tarkemmin johtokunnan ja akkreditointiasiain valtuuskunnan tehtävistä, kokoonpanosta, asettamisesta ja jäsenille maksettavista palkkioista.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>2 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Mittatekniikan keskusta johtaa ylijohtaja.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ylijohtaja vahvistaa akkreditointiasiain valtuuskuntaa kuultuaan mittatekniikan keskuksen työjärjestyksen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ylijohtaja ratkaisee asiat, joita johtokunta, akkreditointiasiain valtuuskunta tai akkreditointiyksikön päällikkö ei ratkaise tai joita ei työjärjestyksessä ole annettu muun virkamiehen ratkaistavaksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Akkreditointiyksikön päällikkö ratkaisee akkreditointijärjestelmään liittyvät ja akkreditointeja koskevat muut kuin 2 §:n 1 momentissa tarkoitetut asiat.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>4 §</num>
+                    <subsection>
+                        <content>
+                            <p>Mittatekniikan keskuksella on oikeus periä suoritteistaan maksuja. Niistä määrättäessä noudatetaan, mitä valtion maksuperustelaissa (150/1992) säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <subsection>
+                        <content>
+                            <p>Valtioneuvoston asetuksella säädetään mittatekniikan keskuksen henkilöstöstä, virkojen täyttämisestä sekä ylijohtajan sijaisen määräämisestä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tarkempia säännöksiä mittatekniikan keskuksen hallinnosta sekä ylijohtajan ja muiden esimiesasemassa olevien virkamiesten esimiesasemaan liittyvistä tehtävistä voidaan antaa valtioneuvoston asetuksella.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mittatekniikan keskuksen työjärjestyksessä määrätään muista sijaisuuksista, sisäisestä johtamisesta ja muista sisäiseen hallintoon kuuluvista asioista.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006.</p>
+                    <p>Mittatekniikan keskuksen johtokunta, joka on asetettu 16 päivän kesäkuuta 2005 ja 15 päivän kesäkuuta 2009 väliseksi ajaksi, jatkaa toimikautensa loppuun.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/140">HE 140/2005</ref>
+                        </p>
+                        <p>TaVM 15/2005</p>
+                        <p>EV 126/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 25 päivänä marraskuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kauppa- ja teollisuusministeri </role>
+                                <person refersTo="">Mauri Pekkarinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

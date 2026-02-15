@@ -1,0 +1,125 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1616/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1616"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1616/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1616"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1616/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1616/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1616/alkup/swe"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1616/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1616/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1616/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1616/2015</docNumber>
+                <docTitle>Lag om ändring av 4 § i lagen om alkolåsövervakad körrätt</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om alkolåsövervakad körrätt (
+                        <affectedDocument href="/akn/fi/act/statute/2008/439">439/2008</affectedDocument>
+                        ) 4 §, sådan den lyder i lag 1085/2012, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>4 §</num>
+                    <heading>Beslut om och början av övervakad körrätt</heading>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelser om beslut om övervakad körrätt finns i 69 § i körkortslagen (386/2011). En förutsättning för en i 15 a § 2 mom. i körkortslagen avsedd ändring av körkortskategorin är att den övervakade lämnar polisen ett intyg över monteringen av alkolåset, del I till registreringsintyget, ur vilket det framgår att fordonet efter monteringen av alkolåset har ändringsbesiktigats, samt ett intyg över att en i 6 § i denna lag avsedd diskussion om användningen av berusningsmedel har förts.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelser om när den övervakade körrätten börjar och upphör samt om förfarandet i samband med detta finns i 15 a § i körkortslagen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Den övervakade ska fullgöra de skyldigheter som hänför sig till den övervakade körrätten.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/84">RP 84/2015</ref>
+                        </p>
+                        <p>KoUB 14/2015</p>
+                        <p>RSv 86/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 30 december 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommunikationsminister</role>
+                                <person refersTo="">Anne Berner</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,128 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/561/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/561"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/561/alkup"/>
+                    <FRBRdate date="2024-10-25" name="dateIssued"/>
+                    <FRBRdate date="2024-10-29" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="561"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/561/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/561/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/561/alkup/fin"/>
+                    <FRBRdate date="2024-10-25" name="dateIssued"/>
+                    <FRBRdate date="2024-10-29" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/561/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/561/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/561/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2024-10-29" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>561/2024</docNumber>
+                <docTitle>Laki vakuutusten tarjoamisesta annetun lain 58 ja 72 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         vakuutusten tarjoamisesta annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2018/234">234/2018</affectedDocument>
+                        ) 58 §:n 1 momentti ja 72 §:n 1 momentti, sellaisina kuin ne ovat, 58 §:n 1 momentti laissa 323/2020 ja 72 §:n 1 momentti laissa 258/2020, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>58 §</num>
+                    <heading>Vastuuvakuutus</heading>
+                    <subsection>
+                        <content>
+                            <p>Vakuutusmeklarilla on oltava Finanssivalvonnan hyväksymä vastuuvakuutus niiden ammatillisesta virheestä aiheutuvien vahinkojen korvaamiseksi, joista vakuutusmeklari on tämän lain mukaan vastuussa. Vastuuvakuutuksen määrän on oltava vähintään 1 564 610 euroa vahinkoa kohti ja yhteensä 2 315 610 euroa kaikkien vahinkojen osalta vuotta kohti. Sivutoimisen vakuutusmeklarin vastuuvakuutuksen määrän on oltava kohtuullisessa suhteessa vakuutusten tarjoamista koskevan liiketoiminnan laatuun ja laajuuteen nähden.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>72 §</num>
+                    <heading>Rikkomuksista ilmoittaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Vakuutusten tarjoamista harjoittavalla oikeushenkilöllä on oltava menettely, jota noudattamalla sen palveluksessa olevat voivat ilmoittaa oikeushenkilön sisällä riippumattoman kanavan kautta tämän lain sekä markkinoiden väärinkäytöstä (markkinoiden väärinkäyttöasetus) sekä Euroopan parlamentin ja neuvoston direktiivin 2003/6/EY ja komission direktiivien 2003/124/EY, 2003/125/EY ja 2004/72/EY kumoamisesta annetun Euroopan parlamentin ja neuvoston asetuksen (EU) N:o 596/2014 epäillystä rikkomisesta. Ilmoitusmenettelyn tulee sisältää asianmukaiset ja riittävät toimenpiteet, joilla järjestetään ilmoitusten asianmukainen käsittely sekä suojataan ilmoituksen tekijää ja turvataan ilmoituksen tekijän ja ilmoituksen kohteena olevan henkilötietojen suoja. Ilmoittajansuojeluun sovelletaan lisäksi Euroopan unionin ja kansallisen oikeuden rikkomisesta ilmoittavien henkilöiden suojelusta annettua lakia (1171/2022). Ilmoitusmenettelyn tulee lisäksi sisältää ohjeet, joilla
+turvataan ilmoituksen tekijän henkilöllisyyden suoja, jollei rikkomuksen selvittämiseksi tai muuten viranomaisen oikeudesta tietojen saamiseen laissa toisin säädetä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä marraskuuta 2024.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/87">HE 87/2024</ref>
+                        </p>
+                        <p>TaVM 11/2024</p>
+                        <p>EV 77/2024</p>
+                        <p>Komission delegoitu asetus (EU) 2024/895 Euroopan parlamentin ja neuvoston direktiivin (EU) 2016/97 muuttamisesta siltä osin kuin on kyse teknisistä sääntelystandardeista, joilla tarkistetaan vakuutus- ja jälleenvakuutusedustajien ja sivutoimisten vakuutusedustajien ammatillisten vastuuvakuutusten sekä taloudellisen kantokyvyn euromää- räisiä vähimmäismääriä</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 25.10.2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaaliturvaministeri</role>
+                                <person refersTo="">Sanni Grahn-Laasonen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

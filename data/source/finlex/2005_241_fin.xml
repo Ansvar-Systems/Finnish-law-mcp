@@ -1,0 +1,375 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/241/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/241"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/241/alkup"/>
+                    <FRBRdate date="2005-04-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="241"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/241/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/241/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/241/alkup/fin"/>
+                    <FRBRdate date="2005-04-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/241/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/241/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/241/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="47"/>
+                    <finlex:date date="2005-04-27"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>241/2005</docNumber>
+                <docTitle>Laki verkkotunnuslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         13 päivänä maaliskuuta 2003 annetun verkkotunnuslain (<affectedDocument href="/akn/fi/act/statute/2003/228">228/2003</affectedDocument>) 4 §:n 2 momentin 2 kohta,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         3 §, 4 §:n 3 momentti, 5 §:n 1 ja 3 momentti, 11 §:n 1 momentin 4 ja 5 kohta, 12 §:n 1 momentin 4 ja 8 kohta sekä 15 §:n 1 momentin 2 kohta sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         11 §:n 1 momenttiin uusi 6 ja 7 kohta, 12 §:n 1 momenttiin uusi 3 a kohta, 15 §:ään uusi 2 ja 3 momentti, jolloin nykyinen 2 momentti siirtyy 4 momentiksi, sekä lakiin uusi 15 a ja 17 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Määritelmät</heading>
+                    <subsection>
+                        <intro>
+                            <p>Tässä laissa tarkoitetaan:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>
+                                    <i>verkkotunnuksella</i>
+                                     kirjaimista, numeroista tai muista merkeistä taikka niiden yhdistelmästä muodostuvaa Internet-tietoverkon nimimuotoista fi-maatunnuksen alaista toisen asteen osoitetietoa;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>
+                                    fi-
+                                    <i>juurella</i>
+                                     tietokantaa, johon merkitään voimassa olevat verkkotunnukset;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>
+                                    <i>suojatulla nimellä tai merkillä</i>
+                                     kauppa-, tavaramerkki-, yhdistys-, säätiö- tai puoluerekisteriin merkittyä nimeä tai merkkiä taikka toiminimilaissa (128/1979) ja tavaramerkkilaissa (7/1964) tarkoitettua vakiintunutta nimeä, toissijaista tunnusta tai tavaramerkkiä sekä julkisyhteisön, valtion liikelaitoksen, itsenäisen julkisoikeudellisen laitoksen, julkisoikeudellisen yhdistyksen sekä vieraan valtion edustuston tai näiden toimielimen nimeä;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>
+                                    <i>verkkotunnuspalvelulla</i>
+                                     palvelua, joka sisältää verkkotunnushakemuksen välittämisen Viestintävirastolle ja verkkotunnuksen käytön edellyttämien määrittelyjen tekemisen verkkotunnusjärjestelmään;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>
+                                    <i>luonnollisen henkilön nimellä</i>
+                                     nimilain (694/1985) mukaisesta etunimestä ja sukunimestä koostuvaa henkilön virallista nimeä.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>4 §</num>
+                    <heading>Verkkotunnuksen muoto ja sisältö</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Verkkotunnus ei saa oikeudettomasti perustua toisen suojattuun nimeen tai merkkiin taikka luonnollisen henkilön nimeen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <heading>Verkkotunnuksen hakeminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Suomen maatunnukseen päättyvää verkkotunnusta Internet-tietoverkkoon haetaan kirjallisesti Viestintäviraston vahvistamalla lomakkeella, jossa on esitettävä hakemuksen käsittelemiseksi tarpeelliset tiedot. Luonnollisen henkilön hakemuksen käsittelyssä tarpeellisia tietoja ovat ainakin nimi, henkilötunnus, postiosoite ja sähköpostiosoite sekä tieto verkkotunnukseen liitetyistä nimipalvelimista.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Verkkotunnusta voi hakea Suomessa rekisteröity oikeushenkilö tai yksityinen elinkeinonharjoittaja, suomalainen julkisyhteisö, valtion liikelaitos, itsenäinen julkisoikeudellinen laitos, julkisoikeudellinen yhdistys ja vieraan valtion edustusto taikka vähintään 15-vuotias henkilö, jolla on kotikuntalaissa (201/1994) tarkoitettu kotikunta Suomessa ja suomalainen henkilötunnus. Hakija voi hakea yhtä tai useampaa tunnusta. Jos samaa verkkotunnusta hakee useampi kuin yksi hakija, tunnus myönnetään sitä ensin hakeneelle.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>11 §</num>
+                    <heading>Verkkotunnuksen sulkeminen</heading>
+                    <subsection>
+                        <intro>
+                            <p>Viestintävirasto voi sulkea verkkotunnuksen enintään yhden vuoden määräajaksi, jos: </p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>on todennäköisiä syitä epäillä, että tunnus on suojattu nimi tai merkki, ja nimen tai merkin haltija pyytää tunnuksen sulkemista, eikä tunnuksen haltija kahden viikon määräajassa esitä hyväksyttävää perustetta oikeudelleen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>on todennäköisiä syitä epäillä, että tunnus on suojatun nimen tai merkin johdannaisnimi tai -merkki taikka luonnollisen henkilön nimen johdannaisnimi ja se on hankittu ilmeisessä hyötymis- tai vahingoittamistarkoituksessa, ja nimen tai merkin haltija pyytää tunnuksen sulkemista, eikä tunnuksen haltija kahden viikon määräajassa esitä hyväksyttävää perustetta oikeudelleen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>on todennäköisiä syitä epäillä, että luonnollisen henkilön nimeen perustuva verkkotunnus on muun nimisen luonnollisen henkilön hallussa, eikä tunnuksen haltija kahden viikon määräajassa esitä hyväksyttävää perustetta oikeudelleen; tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>on todennäköisiä syitä epäillä, että luonnollisen henkilön nimeen perustuva verkkotunnus on sellaisen oikeushenkilön hallussa, joka ei ole henkilön nimeä vastaavan suojatun nimen tai merkin oikeuksien haltija, eikä tunnuksen haltija kahden viikon määräajassa esitä hyväksyttävää perustetta oikeudelleen.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>12 §</num>
+                    <heading>Verkkotunnuksen peruuttaminen</heading>
+                    <subsection>
+                        <intro>
+                            <p>Viestintävirasto voi peruuttaa verkkotunnuksen, jos:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3 a)</num>
+                            <content>
+                                <p>on painavia perusteita epäillä, että luonnollisen henkilön nimeen perustuva verkkotunnus on muun nimisen luonnollisen henkilön hallussa tai tunnus on sellaisen oikeushenkilön hallussa, joka ei ole henkilön nimeä vastaavan suojatun nimen tai merkin oikeuksien haltija, eikä tunnuksen haltija kahden viikon määräajassa esitä hyväksyttävää perustetta oikeudelleen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>on painavia perusteita epäillä, että tunnus on suojatun nimen tai merkin johdannaisnimi tai -merkki taikka luonnollisen henkilön nimen johdannaisnimi ja se on hankittu ilmeisessä hyötymis- tai vahingoittamistarkoituksessa, ja nimen tai merkin haltija pyytää tunnuksen peruuttamista, eikä tunnuksen haltija kahden viikon määräajassa esitä hyväksyttävää perustetta oikeudelleen;</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>8)</num>
+                            <content>
+                                <p>myöntämisen jälkeen ilmenee, että tunnus sisältää loukkaavia tai rikolliseen toimintaan kehottavia ilmaisuja taikka että se on muodostettu vastoin 4 §:n 3 momentin säännöstä; tai</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>15 §</num>
+                    <heading>Verkkotunnusrekisteri</heading>
+                    <subsection>
+                        <intro>
+                            <p>Viestintävirasto ylläpitää verkkotunnusten hakemista ja muuta yleistä käyttöä varten myönnetyistä verkkotunnuksista julkista rekisteriä, johon merkitään hakemusten ja ilmoitusten perusteella seuraavat tiedot:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>tunnuksen haltijan julkiset yhteystiedot, joita luonnollisen henkilön osalta ovat nimi, postiosoite ja puhelinnumero;</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Luonnollinen henkilö voi kieltää 1 momentin 2 kohdassa tarkoitettujen muiden yhteystietojensa paitsi nimen merkitsemisen verkkotunnusrekisteriin.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Verkkotunnusrekisteriin merkittyjä tietoja voidaan säilyttää niin kauan kuin tietoihin liittyvä verkkotunnus on voimassa.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>15 a §</num>
+                    <heading>Asiakasrekisteri</heading>
+                    <subsection>
+                        <intro>
+                            <p>
+                                Verkkotunnusrekisterin lisäksi Viestintävirasto ylläpitää luonnollisten henkilöiden erottelemisessa välttämätöntä henkilörekisteriä (<i>asiakasrekisteri</i>), jota käytetään hyväksi Viestintäviraston asiakashallinnossa, verkkotunnuksen uudistamismenettelyssä, verkkotunnuksen sulkemis- ja peruutustilanteissa sekä selvitettäessä verkkotunnukseen liittyviä teknisiä ongelmia. Asiakasrekisteriin voidaan 15 §:n 1 ja 2 momentissa tarkoitettujen tietojen lisäksi merkitä seuraavat tiedot verkkotunnuksen hakijasta tai haltijasta:
+                            </p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>henkilötunnus;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>asiointikieli;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>sähköpostiosoite;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>käyttäjätunnus;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>asiakasnumero;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>muu vastaava, asiakassuhteen hallinnoinnin kannalta olennainen ja välttämätön tieto.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Asiakasrekisteriin merkittyjä tietoja voidaan säilyttää niin kauan kuin tietoihin liittyvä verkkotunnus on voimassa. Jos henkilön rekisteröityminen järjestelmän käyttäjäksi ei johda verkkotunnuksen myöntämiseen tai jos verkkotunnuksen haltija irtisanoo verkkotunnuksen, järjestelmän käyttäjäksi rekisteröityneen henkilön tietoja on säilytettävä vuosi rekisteröitymisestä tai irtisanomisesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Asiakasrekisteristä ei saa luovuttaa tietoa henkilön henkilötunnuksesta, käyttäjätunnuksesta tai valtuutusavaimesta. Muut rekisteriin merkityt tiedot saadaan luovuttaa, jos se on tarpeen 1 momentissa tarkoitetun käyttötarkoituksen turvaamiseksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Asiakasrekisteriin merkittyjen henkilötietojen käsittelyyn sovelletaan muutoin, mitä henkilötietolaissa säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>17 a §</num>
+                    <heading>Verkkotunnusta koskevan päätöksen sähköinen tiedoksianto</heading>
+                    <subsection>
+                        <content>
+                            <p>Verkkotunnusta koskeva päätös voidaan verkkotunnuksen hakijan tai haltijan suostumuksella antaa tiedoksi sähköpostilla. Päätös katsotaan annetuksi tiedoksi silloin, kun verkkotunnuksen hakija tai haltija lähettää Viestintävirastolle vastaanottokuittauksen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos verkkotunnuksen hakija tai haltija on antanut Viestintävirastolle olennaisesti puutteelliset tai virheelliset yhteystiedot taikka jättänyt ilmoittamatta olennaisen yhteystiedon, eikä näitä tietoja ole myöhemminkään saatu oikaistua tai täydennettyä, ja päätöksen tiedoksianto ei tästä syystä ole muulla tavoin mahdollista, Viestintäviraston on annettava verkkotunnusta koskeva päätös tiedoksi pitämällä sitä koskeva ilmoitus kuukauden ajan julkisesti nähtävillä verkkosivuillaan. Julkisesti nähtävillä pidettävässä ilmoituksessa on todettava, että päätöksen tiedoksisaannin katsotaan tapahtuneen kuukauden kuluttua ilmoituksen julkaisemisesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Verkkotunnusta koskevassa hallintomenettelyssä noudatetaan muutoin, mitä hallintolaissa (434/2003) ja sähköisestä asioinnista viranomaistoiminnassa annetussa laissa (13/2003) säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä maaliskuuta 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/125">HE 125/2004</ref>
+                        </p>
+                        <p>LiVM 5/2005</p>
+                        <p>EV 21/2005</p>
+                        <p>Ilmoitettu Euroopan parlamentin ja neuvoston direktiivin 98/34/EY, muut. 98/48/EY, mukaisesti</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 21 päivänä huhtikuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Liikenne- ja viestintäministeri </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

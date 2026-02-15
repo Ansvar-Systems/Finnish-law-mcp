@@ -1,0 +1,125 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1630/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1630"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1630/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1630"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1630/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1630/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1630/alkup/fin"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1630/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1630/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1630/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1630/2015</docNumber>
+                <docTitle>Laki saariston kehityksen edistämisestä annetun lain 12 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         saariston kehityksen edistämisestä annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1981/494">494/1981</affectedDocument>
+                        ) 12 §, sellaisena kuin se on osaksi laeissa 973/1988 ja 1576/2009, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>12 §</num>
+                    <heading>Ympäristönhoitoavustus</heading>
+                    <subsection>
+                        <content>
+                            <p>Valtion tulo- ja menoarvion rajoissa voidaan 9 §:ssä tarkoitetulle kunnalle tai kuntalaissa  (410/2015) tarkoitetulle tällaisen kunnan jäsenelle myöntää avustusta toimenpiteisiin, jotka koskevat saaristoluonnon suojelemista taikka saariston maisemakuvan säilyttämistä tai parantamista. Avustusta voidaan myöntää mainitunlaisiin toimenpiteisiin myös yhdistykselle tai säätiölle, jonka tarkoituksena on luonnonsuojelun tai ympäristönhoidon edistäminen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Avustuksen myöntää hakemuksesta elinkeino-, liikenne- ja ympäristökeskus. Ympäristöministeriö vahvistaa saaristoasiain neuvottelukuntaa kuultuaan käyttöperusteet sekä alueelliset avustuskiintiöt sen jälkeen, kun elinkeino-, liikenne- ja ympäristökeskukset ovat toimittaneet ministeriölle yhteenvedot hakemuksista. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Elinkeino-, liikenne- ja ympäristökeskusten sekä työ- ja elinkeinotoimistojen kehittämis- ja hallintokeskus hoitaa avustuksen maksamista, valvontaa ja takaisinperintää koskevat valtion-avustuslain (688/2001) 12, 19, 21 ja 22 §:n mukaiset tehtävät. Lisäksi kehittämis- ja hallintokeskus hoitaa elinkeino-, liikenne- ja ympäristökeskuksen lisäksi valtionavustuslain 15 §:n mukaisia valvontatehtäviä. </p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/90">HE 90/2015</ref>
+                        </p>
+                        <p>HaVM 13/2015</p>
+                        <p>EV 63/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 30 päivänä joulukuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ulkomaankauppa- ja kehitysministeri</role>
+                                <person refersTo="">Lenita Toivakka</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

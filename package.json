@@ -1,0 +1,84 @@
+{
+  "name": "@ansvar/finnish-law-mcp",
+  "version": "1.2.2",
+  "description": "Production-grade Finnish legal research MCP server with Finlex statute coverage and EU law cross-references",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "finnish-law-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "data/database.db"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:db": "node --import tsx scripts/build-db.ts",
+    "build:db:paid": "node --import tsx scripts/build-db-paid.ts",
+    "dev": "node --import tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "ingest": "node --import tsx scripts/ingest-finlex.ts",
+    "ingest:bulk": "node --import tsx scripts/ingest-finlex-bulk.ts",
+    "ingest:current": "node --import tsx scripts/ingest-finlex-current.ts",
+    "ingest:cases": "node --import tsx scripts/ingest-lagennu-cases.ts",
+    "ingest:cases:full-archive": "node --import tsx scripts/ingest-lagennu-full-archive.ts",
+    "sync:cases": "node --import tsx scripts/sync-lagennu-cases.ts",
+    "sync:cases:full": "node --import tsx scripts/sync-lagennu-cases.ts --full",
+    "sync:prep-works": "node --import tsx scripts/ingest-preparatory-works.ts",
+    "check-updates": "node --import tsx scripts/check-updates.ts",
+    "extract:definitions": "node --import tsx scripts/extract-definitions.ts",
+    "audit:seeds": "node --import tsx scripts/audit-seeds.ts",
+    "fetch:eurlex": "node --import tsx scripts/fetch-eurlex-metadata.ts",
+    "import:eurlex-documents": "node --import tsx scripts/import-eurlex-documents.ts",
+    "migrate:eu-references": "node --import tsx scripts/migrate-eu-references.ts",
+    "verify:eu-coverage": "node --import tsx scripts/verify-eu-coverage.ts",
+    "lint": "eslint src tests",
+    "prepublishOnly": "npm run build",
+    "postinstall": "test -d dist || npm run build || true"
+  },
+  "dependencies": {
+    "@ansvar/mcp-sqlite": "^1.0.3",
+    "@modelcontextprotocol/sdk": "^1.25.3"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.15.29",
+    "@vercel/node": "^5.6.3",
+    "@vitest/coverage-v8": "^4.0.18",
+    "fast-xml-parser": "^5.3.5",
+    "jsdom": "^27.4.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ansvar-Systems/finnish-law-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ansvar-Systems/finnish-law-mcp/issues"
+  },
+  "homepage": "https://github.com/Ansvar-Systems/finnish-law-mcp#readme",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "claude",
+    "finnish-law",
+    "finland",
+    "legal",
+    "compliance",
+    "finlex",
+    "suomi",
+    "ansvar"
+  ],
+  "author": "Ansvar Systems AB <hello@ansvar.ai>",
+  "license": "Apache-2.0",
+  "mcpName": "eu.ansvar/finnish-law-mcp"
+}

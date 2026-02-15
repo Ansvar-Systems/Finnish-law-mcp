@@ -1,0 +1,409 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/462/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/462"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/462/alkup"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="462"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/462/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/462/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/462/alkup/fin"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/462/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/462/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/462/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="68"/>
+                    <finlex:date date="2007-04-24"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>462/2007</docNumber>
+                <docTitle>Laki osuuskuntalain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         28 päivänä joulukuuta 2001 annetun osuuskuntalain (
+                        <affectedDocument href="/akn/fi/act/statute/2001/1488">1488/2001</affectedDocument>
+                        ) 6 luvun 1 §:n 3 momentti, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         2 luvun 2 §:n 2 momentin 5 kohta, 4 luvun 3 §:n 1 ja 3 momentti ja 15 §:n 2 momentti, 7 luku, 8 luvun 8 §:n 2 momentti, 12 luvun 5 §:n 1 momentti, 16 luvun 17 §:n 1 momentti, 18 luvun 6 §:n 1 momentti, 19 luvun 17 §:n 1 momentti sekä 20 luvun 4 §:n 1 momentti ja 6 §:n 1 momentin johdantokappale seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>2 luku</num>
+                    <heading>Osuuskunnan perustaminen ja säännöt</heading>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Perustamiskirjan vähimmäissisältö</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <intro>
+                                <p>Perustamiskirjassa on oltava:</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>osuuskunnan ensimmäisen hallituksen tai, jos hallintoneuvosto valitsee hallituksen, hallintoneuvoston jäsenten ja tarvittaessa tilintarkastajien nimet.</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>4 luku</num>
+                    <heading>Osuuskunnan kokous ja edustajisto</heading>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Varsinainen kokous</heading>
+                        <subsection>
+                            <intro>
+                                <p>Varsinainen osuuskunnan kokous on pidettävä kuuden kuukauden kuluessa tilikauden päättymisestä, jollei säännöissä määrätä aikaisemmasta ajankohdasta. Kokouksessa on esitettävä:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>tilinpäätös;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>jos osuuskunnalla on tilintarkastaja, tilintarkastuskertomus; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>jos osuuskunnalla on hallintoneuvosto, sen lausunto tilinpäätöksestä.</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Kokouksessa on myös valittava hallituksen jäsenet ja tarvittaessa tilintarkastajat, jos heitä ei ole sääntöjen mukaan valittava toisessa varsinaisessa kokouksessa tai asetettava muussa järjestyksessä.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>15 §</num>
+                        <heading>Kokousasiakirjat ja niiden nähtävinä pitäminen</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Jos muussa kuin 1 momentissa tarkoitetussa osuuskunnan kokouksessa käsitellään 12 §:ssä tarkoitettua asiaa, hallituksen on laadittava selostus tilinpäätöksen jälkeisistä osuuskunnan asemaan olennaisesti vaikuttavista tapahtumista. Hallintoneuvoston ja tilintarkastajien on annettava lausunto selostuksesta. Lausuntoja ei kuitenkaan tarvitse antaa, jos hallitus ilmoittaa kokouskutsussa, että sen tiedossa ei ole osuuskunnan asemaan olennaisesti vaikuttavia tapahtumia. Tilintarkastajan lausuntoa ei edellytetä, jos osuuskunnalla ei lain tai sääntöjen perusteella ole velvollisuutta valita tilintarkastajaa. Viimeistä tilinpäätöstä koskevat asiakirjat, mainitun tilikauden ylijäämää tai tappiota koskeva osuuskunnan kokouksen päätös sekä hallituksen selostus ja sitä koskevat lausunnot on pidettävä nähtävinä ja lähetettävä 1 momentissa säädetyllä tavalla.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>7 luku</num>
+                    <heading>Tilintarkastus, jäsenen tarkastusoikeus ja erityinen tarkastus</heading>
+                    <crossHeading eId="crossHeading">Tilintarkastus</crossHeading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Sovellettava laki</heading>
+                        <subsection>
+                            <content>
+                                <p>Osuuskunnan tilintarkastuksesta on voimassa, mitä tässä luvussa ja tilintarkastuslaissa (459/2007) säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Tilintarkastajan valinta</heading>
+                        <subsection>
+                            <content>
+                                <p>Tilintarkastusvelvollisuudesta säädetään tilintarkastuslain 2 luvussa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tilintarkastajan valitsee osuuskunnan kokous. Jos tilintarkastajia on valittava useita, säännöissä voidaan määrätä, että joku tai jotkut heistä, ei kuitenkaan kaikkia, valitaan muussa järjestyksessä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Varatilintarkastaja</heading>
+                        <subsection>
+                            <content>
+                                <p>Velvollisuudesta valita varatilintarkastaja säädetään tilintarkastuslain 4 §:ssä. Osuuskunnan kokous voi valita varatilintarkastajan myös osuuskunnassa, jossa siihen ei ole velvollisuutta, ja valita useamman varatilintarkastajan. Jos osa tilintarkastajista valitaan muussa järjestyksessä, säännöissä voidaan myös määrätä, että myös tällaisen tilintarkastajan varatilintarkastaja valitaan muussa järjestyksessä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Mitä tässä laissa ja tilintarkastuslaissa säädetään tilintarkastajasta, koskee myös varatilintarkastajaa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Tilintarkastajan toimikausi</heading>
+                        <subsection>
+                            <content>
+                                <p>Tilintarkastajan toimikausi jatkuu toistaiseksi, jollei säännöissä määrätä määräaikaisesta toimikaudesta. Toimikausi päättyy ja uuden tilintarkastajan toimikausi alkaa uuden tilintarkastajan valinnasta päättävän osuuskunnan kokouksen päättyessä, jollei säännöissä määrätä tai uutta tilintarkastajaa valittaessa päätetä toisin.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Vähemmistön oikeus vaatia tilintarkastajaa</heading>
+                        <subsection>
+                            <content>
+                                <p>Osuuskunnassa, jossa ei lain tai sääntöjen mukaan ole valittava tilintarkastajaa, osuuskunnan kokouksen on valittava tilintarkastaja, jos jäsenet, joilla on vähintään yksi neljäsosa osuuskunnan jäsenten koko äänimäärästä tai yksi kolmasosa kokouksessa edustettujen jäsenten äänimäärästä, vaativat sitä varsinaisessa osuuskunnan kokouksessa tai siinä osuuskunnan kokouksessa, jossa asiaa kokouskutsun mukaisesti on käsiteltävä. Jollei osuuskunnan kokous valitse tilintarkastajaa, lääninhallitus määrää tilintarkastajan tilintarkastuslain 9 §:n 1 ja 4 momentissa säädetyssä järjestyksessä, jos jäsen hakee tilintarkastajan määräämistä kuukauden kuluessa osuuskunnan kokouksesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <crossHeading eId="crossHeading_2">Jäsenen tarkastusoikeus ja erityinen tarkastus</crossHeading>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Jäsenen tarkastusoikeus harvainosuuskunnassa</heading>
+                        <subsection>
+                            <content>
+                                <p>Jäsenellä on oikeus osuuskunnassa, jossa on enintään kymmenen jäsentä, tutustua osuuskunnan kirjanpitoon ja muihin osuuskunnan toimintaan liittyviin asiakirjoihin siinä laajuudessa kuin se on tarpeen 4 luvun 18 §:n 1 momentissa tarkoitettujen seikkojen arvioimiseksi.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Hallitus voi evätä tarkastusoikeuden siltä osin kuin se katsoo, että tutustumisesta aiheutuu olennaista haittaa osuuskunnalle. Hallituksen velvollisuuteen antaa tietoja tilintarkastajille sovelletaan, mitä 4 luvun 18 §:n 3 momentissa säädetään. Määräaika tiedon antamiselle ja tilintarkastajien lausunnolle lasketaan kuitenkin oikeuden pyytämisestä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jäsenellä on oikeus käyttää avustajaa sekä korvattuaan osuuskunnan kulut oikeus saada jäljennöksiä kirjanpidosta ja asiakirjoista. Hallitus voi kieltää muun kuin tilintarkastajan käyttämisen avustajana.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jäsen tai avustaja ei saa ilmaista eikä käyttää tietoa, jonka hän saa tässä pykälässä säädetyllä tavalla, jos tiedon ilmaisemisesta tai käyttämisestä saattaa aiheutua olennaista haittaa osuuskunnalle.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>7 §</num>
+                        <heading>Erityisen tarkastuksen määrääminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Jäsen voi hakea osuuskunnan kotipaikan lääninhallitukselta erityisen tarkastuksen toimittamista osuuskunnan hallinnosta ja kirjanpidosta tietyltä päättyneeltä ajanjaksolta taikka tietyistä toimenpiteistä tai seikoista. Edellytyksenä on, että ehdotusta on osuuskunnan kokouksessa käsitelty ja kannatettu 2 momentissa tarkoitetulla tavalla. Hakemus lääninhallitukselle on tehtävä kuukauden kuluessa osuuskunnan kokouksesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Ehdotus tarkastuksen toimittamisesta on tehtävä varsinaisessa osuuskunnan kokouksessa tai siinä osuuskunnan kokouksessa, jossa asiaa kokouskutsun mukaisesti on käsiteltävä. Hakemus voidaan tehdä, jos jäsenet, joilla on vähintään neljäsosa jäsenten koko äänimäärästä tai kolmasosa kokouksessa edustettujen jäsenten äänimäärästä, ovat ehdotusta kannattaneet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Lääninhallituksen on kuultava osuuskunnan hallitusta ja, jos tarkastus hakemuksen mukaan koskee tietyn henkilön toimenpiteitä, tätä henkilöä. Hakemukseen on suostuttava, jos tarkastuksen toimittamiseen katsotaan olevan painavia syitä. Lääninhallitus voi määrätä yhden tai useamman erityisen tarkastajan. Määräys voidaan panna täytäntöön lainvoimaa vailla olevana.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Erityinen tarkastaja</heading>
+                        <subsection>
+                            <content>
+                                <p>Erityisen tarkastajan on oltava luonnollinen henkilö tai tilintarkastusyhteisö. Erityisellä tarkastajalla on oltava sellainen taloudellisten ja oikeudellisten asioiden tuntemus ja kokemus kuin tarkastustehtävän laatuun ja laajuuteen katsoen on tarpeen tehtävän hoitamiseksi. Mitä tilintarkastajasta säädetään 20 luvun 4―6 §:ssä ja 23 luvun 4 §:ssä sekä tilintarkastuslain 8, 18, 19, 24―26 ja 51 §:ssä, sovelletaan vastaavasti erityiseen tarkastajaan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Tarkastuslausunto</heading>
+                        <subsection>
+                            <content>
+                                <p>Erityisestä tarkastuksesta on annettava lausunto osuuskunnan kokoukselle. Lausunto on vähintään viikon ajan ennen osuuskunnan kokousta pidettävä jäsenten nähtävänä osuuskunnan pääkonttorissa tai Internet-verkkosivuilla, viivytyksettä lähetettävä jäsenelle, joka pyytää sitä, sekä asetettava nähtäväksi osuuskunnan kokouksessa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>10 §</num>
+                        <heading>Palkkio ja muut kustannukset</heading>
+                        <subsection>
+                            <content>
+                                <p>Erityisellä tarkastajalla on oikeus saada osuuskunnalta palkkio. Osuuskunta vastaa myös muista erityisestä tarkastuksesta aiheutuvista kuluista. Tuomioistuin voi kuitenkin erityisistä syistä velvoittaa tarkastusta hakeneen jäsenen kokonaan tai osittain korvaamaan osuuskunnalle sen kulut.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>8 luku</num>
+                    <heading>Varojen käyttäminen, vararahasto, ylikurssirahasto ja arvonkorotusrahasto</heading>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Laiton varojenjako</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Varojenjakoa koskevan päätöksen tekemiseen tai täytäntöönpanoon taikka päätöksen perusteena olevan virheellisen taseen laatimiseen tai vahvistamiseen osallistuneet ovat yhteisvastuussa varojen palauttamisen jälkeisen vajauksen täyttämisestä 20 luvun 1―3 §:n sekä tilintarkastuslain 51 §:n mukaisesti.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>12 luku</num>
+                    <heading>Sijoitusosuudet</heading>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Rekisteri-ilmoitus</heading>
+                        <subsection>
+                            <content>
+                                <p>Sijoituspääomaa ja sen korottamista koskevasta rekisteri-ilmoituksesta säädetään kaupparekisterilaissa (129/1979). Rekisteri-ilmoitukseen on liitettävä osuuskunnan hallituksen jäsenten ja toimitusjohtajan vakuutus siitä, että sijoitusosuuksien antamisessa on noudatettu tämän lain säännöksiä ja että rekisteröitävästä sijoitusosuuspääomasta tai sen korotuksesta maksettu määrä on osuuskunnan omistuksessa ja hallinnassa. Rekisteri-ilmoitukseen on myös liitettävä osuuskunnan tilintarkastajien todistus siitä, että sijoitusosuuspääoman maksua koskevia tämän lain säännöksiä on noudatettu. Jos osuuskunnassa ei lain tai sääntöjen mukaan ole velvollisuutta valita tilintarkastajaa, sijoitusosuuksien maksamisesta on liitettävä muu luotettava selvitys.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>16 luku</num>
+                    <heading>Sulautuminen</heading>
+                    <section>
+                        <num>17 §</num>
+                        <heading>Rekisteröinnin oikeusvaikutukset</heading>
+                        <subsection>
+                            <content>
+                                <p>Sulautuvan osuuskunnan varat ja velat, lukuun ottamatta 20 luvun 1 tai 2 §:ään taikka tilintarkastuslain 51 §:ään perustuvaa vaatimusta, siirtyvät selvitysmenettelyttä vastaanottavalle osuuskunnalle, kun sulautumisen täytäntöönpano on rekisteröity. Samanaikaisesti sulautuva osuuskunta purkautuu.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>18 luku</num>
+                    <heading>Osuuskunnan muuttaminen osakeyhtiöksi</heading>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Rekisteröinnin oikeusvaikutukset</heading>
+                        <subsection>
+                            <content>
+                                <p>Osuuskunta muuttuu osakeyhtiöksi, kun yhteisömuodon muuttaminen merkitään kaupparekisteriin. Samalla säännöissä määrätty jäsenten lisämaksuvelvollisuus lakkaa. Osuuskunnan oikeus 20 luvun 1 tai 2 §:ään taikka tilintarkastuslain 51 §:ssä tarkoitettuun vahingonkorvaukseen ei siirry osakeyhtiölle.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>19 luku</num>
+                    <heading>Selvitystila, purkaminen, rekisteristä poistaminen, saneeraus ja konkurssi</heading>
+                    <section>
+                        <num>17 §</num>
+                        <heading>Lopputilitys</heading>
+                        <subsection>
+                            <content>
+                                <p>Suoritettuaan tehtävänsä selvitysmiesten on viivytyksettä annettava lopputilitys hallinnostaan laatimalla koko selvitysmenettelyä koskeva kertomus. Kertomuksessa on oltava myös selostus osuuskunnan omaisuuden jakamisesta. Kertomukseen on liitettävä tilinpäätöksiä koskevat asiakirjat koko selvitystilan ajalta. Jos osuuskunnassa on lain tai sääntöjen mukaan velvollisuus valita tilintarkastaja, kertomus liitteineen on annettava tilintarkastajille, joiden on kuukauden kuluessa kertomuksen saamisesta annettava lopputilitystä ja selvitystilan aikaista hallintoa koskeva tilintarkastuskertomus.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>20 luku</num>
+                    <heading>Vahingonkorvausvelvollisuus</heading>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Päätös kanteen vireillepanosta</heading>
+                        <subsection>
+                            <content>
+                                <p>Vahingonkorvauskanteen vireillepanosta osuuskunnan lukuun 1 tai 2 §:n taikka tilintarkastuslain 51 §:n nojalla päätetään osuuskunnan kokouksessa. Hallituksella on kuitenkin oikeus päättää rangaistavaan tekoon perustuvan korvauskanteen vireillepanosta.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Kanteen vireillepanoajat</heading>
+                        <subsection>
+                            <intro>
+                                <p>Kannetta osuuskunnan lukuun 1 tai 2 §:n taikka tilintarkastuslain 51 §:n nojalla ei voida panna vireille, ellei kanne perustu rangaistavaan tekoon:</p>
+                            </intro>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä heinäkuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/194">HE 194/2006</ref>
+                        </p>
+                        <p>TaVM 33/2006</p>
+                        <p>EV 293/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 13 päivänä huhtikuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kauppa- ja teollisuusministeri </role>
+                                <person refersTo="">Mauri Pekkarinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,198 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/369/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/369"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/369/alkup"/>
+                    <FRBRdate date="2015-04-10" name="dateIssued"/>
+                    <FRBRdate date="2015-04-14" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="369"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/369/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/369/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/369/alkup/swe"/>
+                    <FRBRdate date="2015-04-10" name="dateIssued"/>
+                    <FRBRdate date="2015-04-14" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/369/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/369/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/369/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-04-14" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>369/2015</docNumber>
+                <docTitle>Lag om ändring av 10 kap. 3 och 6 § i tvångsmedelslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i tvångsmedelslagen (
+                        <affectedDocument href="/akn/fi/act/statute/2011/806">806/2011</affectedDocument>
+                        ) 10 kap. 3 § 2 mom. 12 punkten och 6 § 2 mom., sådana de lyder i lag 1069/2014, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>10 kap.</num>
+                    <heading>Hemliga tvångsmedel</heading>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Teleavlyssning och dess förutsättningar</heading>
+                        <subsection>
+                            <intro>
+                                <p>Förundersökningsmyndigheten kan ges tillstånd att rikta teleavlyssning mot en teleadress eller teleterminalutrustning som en misstänkt innehar eller annars kan antas använda, om den misstänkte är skäligen misstänkt för</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>12)</num>
+                                <content>
+                                    <p>grov skadegörelse eller grov dataskadegörelse,</p>
+                                </content>
+                            </paragraph>
+                            <hcontainer name="omission"/>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Teleövervakning och dess förutsättningar</heading>
+                        <subsection>
+                            <intro>
+                                <p>Förundersökningsmyndigheten kan ges tillstånd att rikta teleövervakning mot en teleadress eller teleterminalutrustning som en misstänkt innehar eller annars kan antas använda, om den misstänkte är skäligen misstänkt för</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>ett brott för vilket det föreskrivna strängaste straffet är fängelse i minst fyra år,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>ett brott som begåtts med användning av en teleadress eller teleterminalutrustning och för vilket det föreskrivna strängaste straffet är fängelse i minst två år,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>olovligt brukande som riktat sig mot ett automatiskt databehandlingssystem och som begåtts med användning av en teleadress eller teleterminalutrustning,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>utnyttjande av person som är föremål för sexhandel, lockande av barn i sexuella syften eller koppleri,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>narkotikabrott,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>förberedelse till brott som begås i terroristiskt syfte, eller deltagande i utbildning för ett terroristbrott eller finansiering av terroristgrupp,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7)</num>
+                                <content>
+                                    <p>grovt tullredovisningsbrott,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>8)</num>
+                                <content>
+                                    <p>grovt döljande av olagligt byte,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>9)</num>
+                                <content>
+                                    <p>förberedelse till tagande av gisslan, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>10)</num>
+                                <content>
+                                    <p>förberedelse till grovt rån.</p>
+                                </content>
+                            </paragraph>
+                            <hcontainer name="omission"/>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 4 september 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 232/2014</p>
+                        <p>LaUB 29/2014</p>
+                        <p>RSv 335/2014</p>
+                        <p>Europaparlamentets och rådets direktiv 2013/40/EU (32013L0040); EUT L 218, 14.8.2013, s. 8</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 10 april 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister</role>
+                                <person refersTo="">Anna-Maja Henriksson</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

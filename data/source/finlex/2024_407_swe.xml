@@ -1,0 +1,120 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/407/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/407"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/407/alkup"/>
+                    <FRBRdate date="2024-06-28" name="dateIssued"/>
+                    <FRBRdate date="2024-06-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="407"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/407/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/407/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/407/alkup/swe"/>
+                    <FRBRdate date="2024-06-28" name="dateIssued"/>
+                    <FRBRdate date="2024-06-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/407/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/407/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/407/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2024-06-28" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>407/2024</docNumber>
+                <docTitle>Lag om ändring av 2 kap. i lagen om investeringstjänster</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 2 kap. i lagen om investeringstjänster (
+                        <affectedDocument href="/akn/fi/act/statute/2012/747">747/2012</affectedDocument>
+                        ) en ny 3 b § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>2 kap.</num>
+                    <heading>Rätt att tillhandahålla investeringstjänster eller bedriva investeringsverksamhet</heading>
+                    <section>
+                        <num>3 b §</num>
+                        <heading>Rätt att tillhandahålla kryptotillgångstjänster</heading>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelser om ett värdepappersföretags rätt att tillhandahålla kryptotillgångstjänster finns i artikel 60.3 i Europaparlamentets och rådets förordning (EU) 2023/1114 om marknader för kryptotillgångar och om ändring av förordningarna (EU) nr 1093/2010 och (EU) nr 1095/2010 samt direktiven 2013/36/EU och (EU) 2019/1937 samt i kommissionens förordningar och beslut som utfärdats med stöd av den förordningen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 30 juni 2024.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/31">RP 31/2024</ref>
+                        </p>
+                        <p>EkUB 8/2024</p>
+                        <p>RSv 57/2024</p>
+                        <p>Europaparlamentets och rådets direktiv (EU) 2023/113 (32023R1113); EUT L 150, 9.6.2023, s. 1</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 28 juni 2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Näringsminister</role>
+                                <person refersTo="">Wille Rydman</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

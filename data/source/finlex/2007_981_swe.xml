@@ -1,0 +1,142 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/981/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/981"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/981/alkup"/>
+                    <FRBRdate date="2007-11-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="981"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/981/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/981/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/981/alkup/swe"/>
+                    <FRBRdate date="2007-11-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/981/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/981/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/981/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="147"/>
+                    <finlex:date date="2007-11-14"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>981/2007</docNumber>
+                <docTitle>Lag om ändring av 13 och 19 § i lagen om behandling av personuppgifter i polisens verksamhet</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 22 augusti 2003 om behandling av personuppgifter i polisens verksamhet (
+                        <affectedDocument href="/akn/fi/act/statute/2003/761">761/2003</affectedDocument>
+                        ) 13 § 2 mom. 7 punkten och 19 § 1 mom. 8 punkten som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>13 §</num>
+                    <heading>Polisens rätt att få uppgifter ur vissa register</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Utan hinder av sekretessbestämmelserna har polisen rätt att enligt avtal med den registeransvarige genom teknisk anslutning eller i maskinläsbar form få följande uppgifter:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>ur Migrationsverkets informationssystem uppgifter som behövs vid behandlingen av ärenden som avses i utlänningslagen och vid tillsynen över att utlänningslagen iakttas,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>19 §</num>
+                    <heading>Utlämnande av uppgifter till andra myndigheter</heading>
+                    <subsection>
+                        <intro>
+                            <p>Utan hinder av sekretessbestämmelserna får polisen lämna ut behövliga uppgifter genom teknisk anslutning eller i maskinläsbar form ur polisens personregister, med undantag för Europolinformationssystemet som avses i 30 § och Schengens nationella informationssystem som avses i 31 §, till</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>8)</num>
+                            <content>
+                                <p>Migrationsverket för behandling av ärenden som gäller finskt medborgarskap, utlänningars inresa, vistelse och arbete i landet samt flyktingar och asyl,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 90/2007</p>
+                        <p>GrUB 4/2007</p>
+                        <p>RSv 48/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 9 november 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Migrations- och Europaminister </role>
+                                <person refersTo="">Astrid Thors</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

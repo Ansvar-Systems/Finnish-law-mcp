@@ -1,0 +1,394 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/393/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/393"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/393/alkup"/>
+                    <FRBRdate date="2006-05-19" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="393"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/393/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/393/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/393/alkup/fin"/>
+                    <FRBRdate date="2006-05-19" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/393/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/393/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/393/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="63"/>
+                    <finlex:date date="2006-05-26"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>393/2006</docNumber>
+                <docTitle>Laki ulkomaisista vakuutusyhtiöistä annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         ulkomaisista vakuutusyhtiöistä 17 päivänä maaliskuuta 1995 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1995/398">398/1995</affectedDocument>
+                        ) 2 §:n 1 momentin 13 ja 14 kohta, 17 §:n 1 ja 3 momentti, 70 §:n 1 momentin 6 ja 7 kohta, 75 § sekä 76 §:n 1 momentin 1 kohta,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 2 §:n 1 momentin 13 ja 14 kohta sekä 17 §:n 3 momentti laissa 331/2004, 17 §:n 1 momentti laissa 80/1999, 75 § laissa 359/2002 ja 76 §:n 1 momentin 1 kohta laissa 363/2001, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         1 §:ään uusi 4 momentti, 2 §:n 1 momenttiin, sellaisena kuin se on osaksi laissa 637/2000 ja mainitussa laissa 331/2004, uusi 15 kohta, lakiin uusi 13 a―13 e ja 14 a §, 15 §:ään, sellaisena kuin se on mainituissa laeissa 359/2002 ja 331/2004, uusi 3 momentti ja 70 §:n 1 momenttiin, sellaisena kuin se on osaksi mainitussa laissa 359/2002, uusi 8 kohta seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Soveltamisala</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Henkivakuutusta harjoittavalla ulkomaisella ETA-vakuutusyhtiöllä on oikeus harjoittaa lisäeläketoimintaa Suomessa siten kuin tässä laissa säädetään. Lisäeläketoimintaan ei sovelleta 4―6 ja 7―13 §:n, 4―8 luvun, 56 ja 57 §:n eikä 10 luvun säännöksiä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>2 §</num>
+                    <heading>Määritelmät</heading>
+                    <subsection>
+                        <intro>
+                            <p>Tässä laissa tarkoitetaan:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>13)</num>
+                            <content>
+                                <p>
+                                    <i>selvittäjällä</i>
+                                     toimivaltaisten viranomaisten tai vakuutusyhtiön hallintoelinten nimeämää henkilöä tai elintä, jonka tehtävänä on huolehtia likvidaatiomenettelystä;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>14)</num>
+                            <content>
+                                <p>
+                                    <i>vakuutussaatavalla</i>
+                                     kaikkia niitä saatavia, joista ulkomainen vakuutusyhtiö on ensivakuutussopimuksen perusteella vastuussa vakuutuksenottajalle, vakuutetulle, edunsaajalle tai sellaiselle vahinkoa kärsineelle, jolla on oikeus vaatia vakuutussopimuksen mukainen korvaus suoraan vakuutusyhtiöltä, mukaan lukien varaukset tuntemattomia vahinkoja varten; vakuutusmaksuja, jotka ulkomainen vakuutusyhtiö on velkaa sen vuoksi, että näitä sopimuksia ja toimia ei ole tehty tai että ne on peruutettu tällaisiin sopimuksiin tai toimiin sovellettavan lainsäädännön mukaisesti ennen likvidaatiomenettelyn aloittamista, pidetään myös vakuutussaatavina; sekä
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>15)</num>
+                            <content>
+                                <p>
+                                    <i>lisäeläketoiminnalla</i>
+                                     ammatillisia lisäeläkkeitä tarjoavien laitosten toiminnasta ja valvonnasta annetussa Euroopan parlamentin ja neuvoston direktiivissä 2003/41/EY tarkoitettua toimintaa.
+                                </p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <chapter>
+                    <num>2 luku</num>
+                    <heading>Toiminnan aloittaminen ja lopettaminen</heading>
+                    <section>
+                        <num>13 a §</num>
+                        <heading>Lisäeläketoiminnan aloittaminen</heading>
+                        <subsection>
+                            <intro>
+                                <p>Ennen kuin ulkomainen ETA-vakuutusyhtiö voi harjoittaa lisäeläketoimintaa Suomessa, Vakuutusvalvontaviraston on saatava ETA-vakuutusyhtiön kotivaltion vakuutustarkastuksesta vastaavalta viranomaiselta vähintään seuraavat tiedot:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>niiden Suomessa sijaitsevien yritysten ja itsenäisten ammatinharjoittajien nimet, joiden lisäeläkejärjestelmää ETA-vakuutusyhtiö alkaa hoitaa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>ETA-valtio, jonka ammatillisia lisäeläkkeitä koskevaa sosiaali- ja työlainsäädäntöä sovelletaan 1 kohdassa tarkoitetun yrityksen ja jäsenten väliseen suhteeseen tai itsenäisiin ammatinharjoittajiin; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>selvitys ulkomaiselle ETA-vakuutusyhtiölle hoidettavaksi tulevan eläkejärjestelmän pääpiirteistä.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 b §</num>
+                        <heading>Vakuutusvalvontaviraston ilmoitus</heading>
+                        <subsection>
+                            <intro>
+                                <p>Vakuutusvalvontaviraston on tarvittaessa ilmoitettava kahden kuukauden kuluessa 13 a §:ssä tarkoitettujen tietojen vastaanottamisesta ETA-vakuutusyhtiön kotivaltion vakuutustarkastuksesta vastaavalle viranomaiselle:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>niistä ammatillisiin lisäeläkkeisiin sovellettavista sosiaali- ja työlainsäädännön vaatimuksista, joita noudattaen lisäeläketoimintaa on harjoitettava Suomessa; ja</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>Suomessa työskentelevien vakuutettujen osalta noudatettavista tiedonantosäännöksistä, joista säädetään tarkemmin 13 c ja 13 d §:ssä.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 c §</num>
+                        <heading>Lisäeläketoimintaa harjoittavan ETA-vakuutusyhtiön tiedonantovelvoitteet</heading>
+                        <subsection>
+                            <content>
+                                <p>Lisäeläketoimintaa harjoittavan ETA-vakuutusyhtiön on kohtuullisin väliajoin saatettava lisäeläke-etuihin oikeutetuille vakuutetuille sekä tarvittaessa heidän edustajillensa tiedoksi voimassa olevat vakuutusehdot, joista käy ilmi lisäeläke-etujen laajuus, lisäeläke-etujen saamiseen liittyvät edellytykset ja valintamahdollisuudet sekä kohtuullisen ajan kuluessa olennaiset tiedot vakuutusehtoihin tehdyistä muutoksista.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>ETA-vakuutusyhtiön on annettava vakuutetuille vuosittain selvitys taloudellisesta tilanteestaan lisäeläketoiminnan osalta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Kunkin eläkkeensaajan on saatava eläkkeelle jäädessään tai muiden etuuksien erääntyessä yksityiskohtaiset tiedot niistä eläke- ja muista etuuksista, joihin hän on oikeutettu. Lisäksi kunkin eläkkeensaajan sekä tarvittaessa heidän edustajiensa on saatava kohtuullisen ajan kuluessa tieto vakuutusehtoihin tehdyistä olennaisista muutoksista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 d §</num>
+                        <heading>Lisäeläketoimintaa harjoittavan ETA-vakuutusyhtiön pyynnöstä toimitettavat tiedot</heading>
+                        <subsection>
+                            <intro>
+                                <p>Vakuutettujen ja eläkkeensaajien sekä tarvittaessa heidän edustajiensa on saatava pyynnöstä lisäeläketoimintaa harjoittavan ETA-vakuutusyhtiön lisäeläketoimintaa koskeva:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>tilinpäätös ja vuosikertomus ja, jos ETA-vakuutusyhtiö vastaa useammasta kuin yhdestä lisäeläkejärjestelmästä, kunkin lisäeläkejärjestelmän tilinpäätös ja vuosikertomus; ja</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>sijoituspolitiikan periaatteita koskeva selvitys.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Vakuutettujen on saatava pyynnöstä lisäeläketoimintaa harjoittavalta ETA-vakuutusyhtiöltä yksityiskohtaiset tiedot:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>eläke-etuuksien tavoitetasosta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>etuuksien tasosta vakuutussuhteen päättyessä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>mahdollisista sijoitusvaihtoehdoista ja kulloisestakin sijoitussalkusta sekä riskiasemasta ja sijoituksiin liittyvistä kustannuksista, jos vakuutettu vastaa sijoitusriskistä; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>säännöistä, jotka koskevat eläkeoikeuksien siirtämistä toiseen eläkelaitokseen siinä tapauksessa, että työsuhteen päättymisen johdosta vakuutussuhde päättyy.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 e §</num>
+                        <heading>Lisäeläketoiminnan aloittaminen</heading>
+                        <subsection>
+                            <content>
+                                <p>ETA-vakuutusyhtiö voi aloittaa lisäeläketoiminnan harjoittamisen Suomessa, kun ulkomainen ETA-vakuutusyhtiö on saanut kotivaltionsa vakuutustarkastuksesta vastaavalta viranomaiselta tiedon 13 b §:ssä tarkoitetuista ehdoista, kuitenkin viimeistään kahden kuukauden kuluessa siitä, kun Vakuutusvalvontavirasto vastaanotti 13 a §:ssä tarkoitetut tiedot ETA-vakuutusyhtiön kotivaltion vakuutustarkastuksesta vastaavalta viranomaiselta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vakuutusvalvontaviraston on ilmoitettava ulkomaisen ETA-vakuutusyhtiön kotivaltion vakuutustarkastuksesta vastaavalle viranomaiselle lisäeläketoimintaan sovellettavan työ- ja sosiaalilainsäädännön vaatimusten ja tiedonantosäännösten merkittävistä muutoksista, jos ne voivat vaikuttaa ETA-vakuutusyhtiön Suomessa hoitamaan eläkejärjestelmään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>14 a §</num>
+                        <heading>Ulkomaisten ETA-vakuutusyhtiöiden lisäeläketoiminnan valvonta</heading>
+                        <subsection>
+                            <content>
+                                <p>Vakuutusvalvontavirasto valvoo, että lisäeläketoimintaa harjoittava ETA-vakuutusyhtiö noudattaa Suomessa harjoittamansa toiminnan osalta 13 b §:n 1 momentin 1 kohdassa mainittua sosiaali- ja työlainsäädäntöä sekä 13 b §:n 1 momentin 2 kohdassa mainittuja tiedonantosäännöksiä. Jos Vakuutusvalvontavirasto havaitsee, että ETA-vakuutusyhtiö ei noudata edellä mainittuja säännöksiä, sen on ilmoitettava asiasta välittömästi ETA-vakuutusyhtiön kotivaltion vakuutusvalvonnasta vastaavalle viranomaiselle. Vakuutusvalvontavirasto harjoittaa valvontaa yhteistyössä ETA-vakuutusyhtiön kotivaltion vakuutustarkastuksesta vastaavan viranomaisen kanssa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>15 §</num>
+                        <heading>Kotivaltion viranomaisen toimivalta Suomessa</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Vakuutusvalvontavirasto voi ulkomaisen ETA-vakuutusyhtiön kotivaltion vakuutustarkastuksesta vastaavan viranomaisen pyynnöstä rajoittaa ETA-vakuutusyhtiön oikeutta käyttää luottolaitostoiminnasta annetussa laissa (1607/1993) tarkoitettujen luottolaitosten, sijoitusrahastolaissa (48/1999) tarkoitettujen rahastoyhtiöiden ja yhteissijoitusyritysten, sijoituspalveluyrityksistä annetussa laissa (579/1996) tarkoitettujen sijoituspalveluyritysten ja vakuutusyhtiölaissa tarkoitettujen henkivakuutusyhtiöiden hallussa olevia ETA-vakuutusyhtiön lisäeläketoimintaa koskevia varoja tai kieltää yhtiöltä varojen käytön kokonaan, jos ETA-vakuutusyhtiö ei ole kotivaltionsa valvontaviranomaisen mukaan muodostanut riittävää koko liiketoimintansa käsittävää vakuutusteknistä vastuuvelkaa tai sen varat ovat riittämättömät kattamaan vakuutusteknisen vastuuvelan taikka ETA-vakuutusyhtiö ei enää täytä lakisääteisiä omia varoja koskevia vaatimuksia.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>17 §</num>
+                        <heading>Pakkokeinot</heading>
+                        <subsection>
+                            <content>
+                                <p>Vakuutusvalvontavirasto voi antaa ulkomaiselle ETA-vakuutusyhtiölle huomautuksen, kehottaa yhtiötä korjaamaan asian määräajassa tai kieltää yhtiötä jatkamasta sosiaali- ja terveysministeriön tai Vakuutusvalvontaviraston virheellisenä pitämää menettelyä, jos yhtiö ei noudata lakia tai ministeriön taikka Vakuutusvalvontaviraston tämän lain taikka poliisitoimesta vastaavan ministeriön rahanpesun estämisestä ja selvittämisestä annetun lain (68/1998) nojalla antamia säännöksiä, jos yhtiö on käyttänyt hyvän vakuutustavan vastaisia menettelytapoja tai jos yhtiön toiminnassa on ilmennyt väärinkäytöksiä taikka jos yhtiö ei ole lisäeläketoiminnassa noudattanut 13 b §:n 1 momentin 1 kohdassa tarkoitettuja työ- ja sosiaalilainsäädännön säännöksiä.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Jos ulkomaisen ETA-vakuutusyhtiön kotivaltion vakuutustarkastuksesta vastaavan viranomaisen toimenpiteet osoittautuvat riittämättömiksi ja yhtiö jatkaa virheellistä menettelyään, Vakuutusvalvontavirasto voi ilmoitettuaan asiasta yhtiön kotivaltion vakuutustarkastuksesta vastaavalle viranomaiselle asettaa uhkasakon antamansa kehotuksen tai kiellon noudattamisen tehostamiseksi, kieltää yhtiötä luovuttamasta tai panttaamasta yhtiön Suomessa olevaa omaisuutta, kieltää yhtiötä suorittamasta vakuutuksen takaisinostoarvoa vakuutuksenottajille tai kieltää yhtiötä antamasta Suomessa uusia vakuutuksia, kunnes asia on korjattu. Uhkasakon tuomitsee maksettavaksi ulkomaisen ETA-vakuutusyhtiön edustuston sijaintipaikan lääninhallitus tai, jollei yhtiöllä ole edustustoa Suomessa, Etelä-Suomen lääninhallitus. Vakuutusvalvontavirasto voi lisäksi kieltää ETA-vakuutusyhtiötä jatkamasta lisäeläkkeiden markkinointia tai lisäeläketoimintaansa Suomessa ja erityisen painavista syistä kieltää yhtiön toiminnan Suomessa kokonaan.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>70 §</num>
+                        <heading>Ulkomaisista vakuutusyhtiöistä pidettävä rekisteri</heading>
+                        <subsection>
+                            <intro>
+                                <p>Vakuutusvalvontavirasto pitää rekisteriä Suomessa toimivista ulkomaisista vakuutusyhtiöistä. Rekisteriin merkitään:</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>kolmannen maan vakuutusyhtiölle Suomessa myönnetyn toimiluvan peruuttaminen ja rajoittaminen, sen syy ja ajankohta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7)</num>
+                                <content>
+                                    <p>ulkomaiselle ETA-vakuutusyhtiölle sen kotivaltiossa myönnetyn toimiluvan peruuttamisen ajankohta; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>8)</num>
+                                <content>
+                                    <p>ETA-vakuutusyhtiön Suomessa harjoittama lisäeläketoiminta.</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>75 §</num>
+                        <heading>Vakuutusyhtiön lukuun toimiminen Suomessa</heading>
+                        <subsection>
+                            <content>
+                                <p>Jos Vakuutusvalvontavirastolla on syytä otaksua, että joku harjoittaa ulkomaisen vakuutusyhtiön lukuun Suomessa tässä laissa tarkoitettua toimintaa tekemättä 7, 10 ja 13 a §:ssä tarkoitettua ilmoitusta tai ilman 18 §:n 1 momentissa tarkoitettua toimilupaa, viraston on hankittava siitä selvitystä ja tarvittaessa kehotettava asianomaista määräajassa tekemään 7, 10 tai 13 a §:ssä tarkoitettu ilmoitus, hakemaan toimilupaa, muuttamaan toimintaansa viraston ilmoittamalla tavalla tai lopettamaan toimintansa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>76 §</num>
+                        <heading>Vakuutusliikkeen luvaton harjoittaminen</heading>
+                        <subsection>
+                            <intro>
+                                <p>Joka</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>ulkomaisen vakuutusyhtiön lukuun harjoittaa vakuutusliikettä Suomessa tekemättä 7 tai 10 §:ssä tarkoitettua ilmoitusta tai ilman 18 §:n 1 momentissa tarkoitettua toimilupaa taikka 22 a tai 57 §:n vastaisesti taikka harjoittaa lisäeläketoimintaa tekemättä 13 a §:ssä tarkoitettua ilmoitusta tai</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <content>
+                                    <p>on tuomittava siten kuin vakuutusyhtiölaissa säädetään vakuutusliikkeen luvattomasta harjoittamisesta.</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä kesäkuuta 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/156">HE 156/2005</ref>
+                        </p>
+                        <p>TaVM 3/2006</p>
+                        <p>EV 34/2006</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2003/41/EY (32003L0041); EYVL N:o L 235, 23.9.2003 s. 10</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 19 päivänä toukokuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,273 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/938/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/938"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/938/alkup"/>
+                    <FRBRdate date="2006-11-03" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="938"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/938/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/938/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/938/alkup/swe"/>
+                    <FRBRdate date="2006-11-03" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/938/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/938/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/938/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="140"/>
+                    <finlex:date date="2006-11-08"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>938/2006</docNumber>
+                <docTitle>Lag om De vetenskapliga samfundens delegation</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut föreskrivs:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section eId="sec_1">
+                    <num>1 §</num>
+                    <heading>Syfte</heading>
+                    <subsection eId="sec_1__subsec_1">
+                        <content>
+                            <p>För främjandet av samarbetet mellan de vetenskapliga samfunden och av den vetenskapliga informationsförmedlingen finns De vetenskapliga samfundens delegation.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_2">
+                    <num>2 §</num>
+                    <heading>Uppgifter</heading>
+                    <subsection eId="sec_2__subsec_1">
+                        <intro eId="sec_2__subsec_1__intro">
+                            <p>Delegationen skall</p>
+                        </intro>
+                        <paragraph eId="sec_2__subsec_1__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>främja samarbetet mellan medlemssamfunden i delegationen och stödja deras verksamhetsbetingelser,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>utveckla förmedlingen av vetenskaplig information och publikationsverksamheten samt sköta det internationella utbytet av vetenskaplig litteratur,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>arbeta för att forskningsrönen blir kända och utnyttjade i samhället, samt</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_4">
+                            <num>4)</num>
+                            <content>
+                                <p>sköta de övriga uppgifter som ålagts delegationen i dess stadgar.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_3">
+                    <num>3 §</num>
+                    <heading>Rättskapacitet och hemort</heading>
+                    <subsection eId="sec_3__subsec_1">
+                        <content>
+                            <p>Delegationen kan för skötseln av sina uppgifter förvärva rättigheter i sitt namn och ingå förbindelser, uppträda som part vid myndighetsförfarande samt kära och svara vid domstol.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_2">
+                        <content>
+                            <p>Delegationens hemort är Helsingfors stad.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_4">
+                    <num>4 §</num>
+                    <heading>Delegationens medlemmar</heading>
+                    <subsection eId="sec_4__subsec_1">
+                        <content>
+                            <p>Delegationen består av de vetenskapliga samfund som i enlighet med denna lag och delegationens stadgar godkänns som medlemmar i delegationen.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_2">
+                        <content>
+                            <p>Som medlem i delegationen kan godkännas ett samfund som i fråga om vetenskaplig och övrig verksamhet uppfyller de kriterier som anges i delegationens stadgar. Medlemmarna godkänns av delegationsmötet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_5">
+                    <num>5 §</num>
+                    <heading>Delegationens organ</heading>
+                    <subsection eId="sec_5__subsec_1">
+                        <content>
+                            <p>Organ vid delegationen är delegationsmötet och styrelsen. Delegationen kan också ha andra organ enligt vad som bestäms i stadgarna.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_2">
+                        <content>
+                            <p>Varje medlemssamfund väljer en representant till delegationsmötet.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_3">
+                        <content>
+                            <p>I delegationens styrelse finns 15 medlemmar och suppleanter för dem, vilka delegationsmötet väljer eller fastställer enligt vad som bestäms i stadgarna.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_6">
+                    <num>6 §</num>
+                    <heading>Ärenden som skall avgöras vid delegationsmöte</heading>
+                    <subsection eId="sec_6__subsec_1">
+                        <intro eId="sec_6__subsec_1__intro">
+                            <p>Vid delegationsmötet fattas beslut om</p>
+                        </intro>
+                        <paragraph eId="sec_6__subsec_1__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>godkännande och ändring av delegationens stadgar,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_6__subsec_1__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>val eller avskedande av styrelsen, en styrelsemedlem eller en revisor,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_6__subsec_1__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>godkännande av verksamhetsplanen och budgeten,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_6__subsec_1__para_4">
+                            <num>4)</num>
+                            <content>
+                                <p>fastställande av verksamhetsberättelsen och bokslutet samt beviljande av ansvarsfrihet,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_6__subsec_1__para_5">
+                            <num>5)</num>
+                            <content>
+                                <p>godkännande eller uteslutande av medlemssamfund, samt</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_6__subsec_1__para_6">
+                            <num>6)</num>
+                            <content>
+                                <p>andra ärenden som enligt stadgarna ankommer på delegationsmötet.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_7">
+                    <num>7 §</num>
+                    <heading>Bokföring och revision</heading>
+                    <subsection eId="sec_7__subsec_1">
+                        <content>
+                            <p>Delegationen är bokföringsskyldig. På dess bokföring tillämpas bokföringslagen (1336/1997).</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_7__subsec_2">
+                        <content>
+                            <p>Delegationen skall ha två revisorer och två revisorssuppleanter. Minst en av revisorerna och en av revisorssuppleanterna skall vara en av Centralhandelskammaren eller en handelskammare godkänd revisor. I fråga om revisionen tillämpas i övrigt revisionslagen (936/1994).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_8">
+                    <num>8 §</num>
+                    <heading>Tillämpning av bestämmelser i föreningslagen</heading>
+                    <subsection eId="sec_8__subsec_1">
+                        <content>
+                            <p>I fråga om delegationen, dess stadgar, förvaltning, beslutsfattande och medlemmar gäller i tillämpliga delar vad som bestäms i 6 § 2 mom., 8, 9, 11―15, 20, 24, 26―34 §, 35 § 1 och 2 mom. samt 36, 37 och 39 § i föreningslagen (503/1989).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_9">
+                    <num>9 §</num>
+                    <heading>Ikraftträdande- och övergångsbestämmelser</heading>
+                    <subsection eId="sec_9__subsec_1">
+                        <content>
+                            <p>Denna lag träder i kraft den 1 januari 2007.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_9__subsec_2">
+                        <content>
+                            <p>Före ikraftträdandet av de stadgar som avses i denna lag iakttas de stadgar för De vetenskapliga samfundens delegation som gällde vid ikraftträdandet. Mandatperioden för de organ vid De vetenskapliga samfundens delegation som är verksamma när lagen träder i kraft fortsätter tills nya organ enligt denna lag och enligt de nya stadgarna har valts.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_9__subsec_3">
+                        <content>
+                            <p>De vetenskapliga samfund som är medlemmar i delegationen vid lagens ikraftträdande blir medlemssamfund i den delegation som avses i denna lag. Ett samfund som inte godkänner delegationens stadgar har rätt att omedelbart utträda ur delegationen.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_9__subsec_4">
+                        <content>
+                            <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 104/2006</p>
+                        <p>KuUB 7/2006</p>
+                        <p>RSv 108/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 3 november 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Undervisningsminister </role>
+                                <person refersTo="">Antti Kalliomäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

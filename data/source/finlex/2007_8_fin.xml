@@ -1,0 +1,661 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/8/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/8"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/8/alkup"/>
+                    <FRBRdate date="2007-01-12" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="8"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/8/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/8/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/8/alkup/fin"/>
+                    <FRBRdate date="2007-01-12" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/8/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/8/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/8/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="3"/>
+                    <finlex:date date="2007-01-16"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>8/2007</docNumber>
+                <docTitle>Laki kuluttajariitalautakunnasta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 luku</num>
+                    <heading>Lautakunnan toimivalta ja tehtävät</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Kuluttajariitalautakunta</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Kuluttajariitalautakunta on riippumaton ja puolueeton kuluttajariita-asioita käsittelevä oikeussuojaelin.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Lautakunnan toimivalta</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <intro eId="chp_1__sec_2__subsec_1__intro">
+                                <p>Lautakunnan tehtävänä on antaa ratkaisusuosituksia yksittäisiin erimielisyyksiin:</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>elinkeinonharjoittajien ja kuluttajien välisissä kulutushyödykesopimuksia koskevissa tai muissa kulutushyödykkeen hankintaan liittyvissä asioissa, joita kuluttajat saattavat lautakunnan käsiteltäviksi;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>asunnon kauppaan liittyvissä asioissa, joita kuluttajat, asuntoyhteisöt taikka asunnon myyjinä tai tarjoajina olevat yksityishenkilöt saattavat lautakunnan käsiteltäviksi;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>asumisoikeuden luovutukseen liittyvissä asioissa, joita kuluttajat taikka asumisoikeuden myyjinä tai tarjoajina olevat yksityishenkilöt saattavat lautakunnan käsiteltäviksi;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>asuinhuoneiston vuokraukseen liittyvissä asioissa, joita kuluttajat taikka vuokranantajina olevat yksityishenkilöt saattavat lautakunnan käsiteltäviksi;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>asuntokauppalain (843/1994) 2 luvun 17, 18 b ja 19 §:ssä sekä 4 luvun 3 ja 3 a §:ssä tarkoitetun vakuuden käyttöönottoa samoin kuin 2 luvun 17 §:ssä ja 4 luvun 3 §:ssä tarkoitetun vakuuden vapauttamista koskevissa asioissa riippumatta siitä, kuka riidan osapuolista saattaa asian lautakunnan käsiteltäväksi;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>asuntokauppalain 7 luvun 1 §:ssä tarkoitettua takautumisoikeutta koskevissa asioissa, joita asunnon myyjinä olevat yksityishenkilöt saattavat lautakunnan käsiteltäviksi;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>asioissa, jotka koskevat yksityistakaajien tai yksityisten pantinantajien sitoumuksia luotonantajille ja joita sitoumusten antajat saattavat lautakunnan käsiteltäviksi;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_8">
+                                <num>8)</num>
+                                <content>
+                                    <p>korkolain (633/1982) 11 §:ssä tarkoitettua viivästyskoron sovittelua koskevissa asioissa, joita velalliset saattavat lautakunnan käsiteltäviksi, jos velallisen sovitteluvaatimukseen sisältyy ainakin yksi kuluttajasaatava.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <heading>Toimivallan rajoitukset</heading>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <intro eId="chp_1__sec_3__subsec_1__intro">
+                                <p>Lautakunnan toimivaltaan eivät kuitenkaan kuulu:</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>asiat, jotka koskevat lakisääteistä vakuutusta taikka työntekijän ryhmähenkivakuutusta tai sitä vastaavaa kunnallisen eläkelaitoksen myöntämää etuutta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>arvopaperimarkkinalaissa (495/1989) tarkoitetun arvopaperin luovutusta koskevat asiat, tällaisen arvopaperin liikkeeseenlaskijan, julkisen ostotarjouksen tekijän tai lunastusvelvollisen osakkeenomistajan menettelyä koskevat asiat eivätkä tällaisen arvopaperin välittäjän, omaisuudenhoitajan tai sijoitusneuvojan suoritusta koskevat asiat;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>sellaiset asumisoikeuteen liittyvät asiat, joita koskevaan kunnan viranomaisen päätökseen voidaan hakea oikaisua ja muutosta siten kuin asumisoikeusasunnoista annetussa laissa (650/1990) säädetään;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_4">
+                                <num>4)</num>
+                                <intro eId="chp_1__sec_3__subsec_1__para_4__intro">
+                                    <p>sellaiset asuinhuoneiston vuokraukseen liittyvät asiat, jotka koskevat:</p>
+                                </intro>
+                                <subparagraph eId="chp_1__sec_3__subsec_1__para_4__subpara_1">
+                                    <num>a)</num>
+                                    <content>
+                                        <p>huoneiston luovutusta väliaikaisesti toisen käytettäväksi;</p>
+                                    </content>
+                                </subparagraph>
+                                <subparagraph eId="chp_1__sec_3__subsec_1__para_4__subpara_2">
+                                    <num>b)</num>
+                                    <content>
+                                        <p>vuokraoikeuden siirtoa perheenjäsenelle;</p>
+                                    </content>
+                                </subparagraph>
+                                <subparagraph eId="chp_1__sec_3__subsec_1__para_4__subpara_3">
+                                    <num>c)</num>
+                                    <content>
+                                        <p>vuokrasuhteen jatkumista vuokralaisen kuoltua;</p>
+                                    </content>
+                                </subparagraph>
+                                <subparagraph eId="chp_1__sec_3__subsec_1__para_4__subpara_4">
+                                    <num>d)</num>
+                                    <content>
+                                        <p>irtisanomisen julistamista tehottomaksi;</p>
+                                    </content>
+                                </subparagraph>
+                                <subparagraph eId="chp_1__sec_3__subsec_1__para_4__subpara_5">
+                                    <num>e)</num>
+                                    <content>
+                                        <p>muuttopäivän siirtämistä; tai</p>
+                                    </content>
+                                </subparagraph>
+                                <subparagraph eId="chp_1__sec_3__subsec_1__para_4__subpara_6">
+                                    <num>f)</num>
+                                    <content>
+                                        <p>jälleenvuokralaisen oikeutta jatkaa vuokrasuhdetta.</p>
+                                    </content>
+                                </subparagraph>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_4">
+                        <num>4 §</num>
+                        <heading>Asian käsittely ryhmävalituksena</heading>
+                        <subsection eId="chp_1__sec_4__subsec_1">
+                            <content>
+                                <p>Lautakunta voi käsitellä toimivaltaansa kuuluvan asian ryhmävalituksena, jos useilla kuluttajilla taikka useilla yksityistakaajilla tai yksityisillä pantinantajilla on tai voidaan olettaa olevan samaa elinkeinonharjoittajaa kohtaan sellaisia vaatimuksia, jotka voidaan ratkaista yhdellä lautakunnan päätöksellä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_4__subsec_2">
+                            <content>
+                                <p>Ryhmävalituksen saattaa vireille kuluttaja-asiamies. Hänellä on myös oikeus käyttää siinä asianosaisena puhevaltaa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_5">
+                        <num>5 §</num>
+                        <heading>Muut tehtävät</heading>
+                        <subsection eId="chp_1__sec_5__subsec_1">
+                            <content>
+                                <p>Lautakunta voi antaa tuomioistuimille lausuntoja niiden käsitellessä lautakunnan toimivaltaan kuuluvia asioita.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_5__subsec_2">
+                            <content>
+                                <p>Lautakunnan henkilökunnan on annettava kuluttajariita-asian asianosaisille tietoja ja neuvoja asian vireille saattamisesta ja lautakunnan menettelytavoista. Kunnallisille kuluttajaneuvojille on annettava oikeudellista neuvontaa ja muuta opastusta lautakunnan toimivaltaan kuuluvissa asioissa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 luku</num>
+                    <heading>Lautakunnan kokoonpano</heading>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Jäsenet</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>Lautakunnassa on päätoiminen puheenjohtaja ja päätoiminen varapuheenjohtaja sekä vähintään kymmenen sivutoimista lakimiesjäsentä ja sivutoimisia asiantuntijajäseniä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_2">
+                            <content>
+                                <p>Lautakuntaa johtaa ja sen tuloksellisuudesta vastaa puheenjohtaja.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Jäsenten ja esittelijöiden kelpoisuus</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>Puheenjohtajalta ja varapuheenjohtajalta vaaditaan yleinen kelpoisuus tuomarinvirkaan ja hyvä perehtyneisyys lautakunnan ratkaisutoiminnassa keskeisiin oikeudenaloihin. Puheenjohtajalta edellytetään lisäksi johtamistaitoa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_7__subsec_2">
+                            <content>
+                                <p>Lakimiesjäseneltä vaaditaan oikeustieteen ylempi korkeakoulututkinto. Asiantuntijajäseneltä vaaditaan perehtyneisyyttä kuluttajansuojaan tai elinkeinoelämään taikka kulutushyödykkeiden ominaisuuksiin.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_7__subsec_3">
+                            <content>
+                                <p>Esittelijän tehtävään määrätyltä vaaditaan oikeustieteen ylempi korkeakoulututkinto tai muu tehtävään soveltuva ylempi korkeakoulututkinto.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_8">
+                        <num>8 §</num>
+                        <heading>Jäsenten nimittäminen tai määrääminen</heading>
+                        <subsection eId="chp_2__sec_8__subsec_1">
+                            <content>
+                                <p>Puheenjohtajan ja varapuheenjohtajan nimittää valtioneuvosto.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_8__subsec_2">
+                            <content>
+                                <p>Jäsenet ja kullekin jäsenelle varajäsenen määrää oikeusministeriö viideksi vuodeksi kerrallaan. Jäsenten toimikausi jatkuu, kunnes uudet jäsenet on määrätty. Jos lautakuntaan tarvitaan lisäjäsen, tämä määrätään jäljellä olevaksi toimikaudeksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_9">
+                        <num>9 §</num>
+                        <heading>Virkavastuu ja esteellisyys</heading>
+                        <subsection eId="chp_2__sec_9__subsec_1">
+                            <content>
+                                <p>Jäsenet ja ne, joille on annettu määräys toimia lautakunnan sivutoimisina esittelijöinä, toimivat virkavastuulla.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_9__subsec_2">
+                            <content>
+                                <p>Jäsenen ja esittelijän esteellisyyteen sovelletaan tuomarin esteellisyyttä koskevia säännöksiä lukuun ottamatta oikeudenkäymiskaaren 13 luvun 7 §:n 2 momenttia.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_10">
+                        <num>10 §</num>
+                        <heading>Jaostot</heading>
+                        <subsection eId="chp_2__sec_10__subsec_1">
+                            <content>
+                                <p>Lautakunta toimii jakautuneena asiaryhmittäin jaostoihin siten kuin oikeusministeriö tarkemmin määrää. Jaostoon kuuluu viisi jäsentä, joista yksi määrätään toimimaan jaoston puheenjohtajana. Jäsenet määrää oikeusministeriö jaostossa käsiteltävien asioiden oikeudellisen ja muun laadun perusteella siten, että jaostossa on edustettuina oikeudellisiin kysymyksiin, kuluttajansuojaan, elinkeinoelämään ja jaostossa käsiteltäviin kulutushyödykkeisiin perehtyneitä jäseniä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_11">
+                        <num>11 §</num>
+                        <heading>Täysistunto</heading>
+                        <subsection eId="chp_2__sec_11__subsec_1">
+                            <content>
+                                <p>Lautakunnassa on täysistunto, jonka puheenjohtajana toimii lautakunnan puheenjohtaja tai varapuheenjohtaja sen mukaan kuin lautakunnan työjärjestyksessä määrätään. Lisäksi täysistuntoon kuuluu kahdeksan jäsentä, jotka oikeusministeriö määrää siten, että täysistunnossa on edustettuina oikeudellisiin kysymyksiin, kuluttajansuojaan ja elinkeinoelämään perehtyneitä jäseniä. Oikeusministeriö voi määrätä täysistunnolle asiaryhmittäin useampia ratkaisukokoonpanoja.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 luku</num>
+                    <heading>Kuluttajariita-asian käsittely ja ratkaiseminen</heading>
+                    <section eId="chp_3__sec_12">
+                        <num>12 §</num>
+                        <heading>Asian vireilletulo ja valmistelu</heading>
+                        <subsection eId="chp_3__sec_12__subsec_1">
+                            <content>
+                                <p>Asia tulee lautakunnassa vireille kirjallisella tai sähköisellä hakemuksella. Ryhmävalitusta koskevassa hakemuksessa kuluttaja-asiamiehen on määriteltävä se kuluttajaryhmä, jonka puolesta ryhmävalitus tehdään. </p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_12__subsec_2">
+                            <content>
+                                <p>Hakijan vastapuolta on pyydettävä vastaamaan hakemukseen. Tämä ei kuitenkaan ole tarpeen asiassa, jonka valmistelussa hakemus havaitaan ilmeisen perusteettomaksi.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_12__subsec_3">
+                            <content>
+                                <p>Lautakunta voi ratkaista asian, vaikka 2 momentissa tarkoitettua vastausta ei ole annettu.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_12__subsec_4">
+                            <content>
+                                <p>Asian valmistelussa on pyrittävä sovintoon ja tehtävä tarvittaessa sitä edistävä ehdotus. Asian valmistelussa voidaan tehdä hakijalle myös ehdotus luopua asian käsittelystä, jos sovellettavan lainsäädännön, oikeuskäytännön tai lautakunnan ratkaisukäytännön perusteella on ilmeistä, että asian ratkaisu olisi hakijalle vastainen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_13">
+                        <num>13 §</num>
+                        <heading>Asian selvittäminen</heading>
+                        <subsection eId="chp_3__sec_13__subsec_1">
+                            <content>
+                                <p>Lautakunnalla on asian selvittämiseksi oikeus kuulla asiantuntijoita, hankkia lausuntoja ja muita selvityksiä sekä toimittaa tarkastuksia ja katselmuksia.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_13__subsec_2">
+                            <content>
+                                <p>Asiantuntijana ei saa käyttää henkilöä, joka on sellaisessa suhteessa asianosaiseen tai asiaan, että hänen luotettavuutensa voi tästä syystä vaarantua.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_13__subsec_3">
+                            <content>
+                                <p>Katselmus ei ole julkinen. Kotirauhan piiriin kuuluvissa tiloissa katselmuksen saa toimittaa vain, jos se katselmuksen kohteena olevan asian selvittämiseksi on välttämätöntä. Katselmukseen sovelletaan muutoin, mitä hallintolain (434/2003) 38 §:ssä säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_14">
+                        <num>14 §</num>
+                        <heading>Asian jättäminen ratkaisematta tai käsittelemättä</heading>
+                        <subsection eId="chp_3__sec_14__subsec_1">
+                            <content>
+                                <p>Lautakunta ei saa ratkaista asiaa, jonka tiedetään olevan vireillä tai ratkaistu tuomioistuimessa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_14__subsec_2">
+                            <intro eId="chp_3__sec_14__subsec_2__intro">
+                                <p>Lautakunta voi jättää asian käsittelemättä, jos:</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_14__subsec_2__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>asian ratkaiseminen edellyttää suullisten todistuskeinojen käyttämistä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_14__subsec_2__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>asia on vireillä tai ratkaistu muussa tuomioistuimen ulkopuolisessa riidanratkaisuelimessä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_14__subsec_2__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>sama asia on lautakunnassa vireillä tai ratkaistu ryhmävalituksena;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_14__subsec_2__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>hakijan vastapuoli on konkurssissa; taikka</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_14__subsec_2__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>asian käsittely lautakunnassa ei ole tarkoituksenmukaista asian poikkeuksellisen monimutkaisuuden ja vaikean selvitettävyyden takia.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_3__sec_14__subsec_3">
+                            <content>
+                                <p>Päätöksen asian käsittelemättä jättämisestä tekee puheenjohtaja, varapuheenjohtaja tai esittelijän tehtävään määrätty lautakunnan virkamies sen mukaan kuin lautakunnan työjärjestyksessä määrätään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_15">
+                        <num>15 §</num>
+                        <heading>Asian ratkaiseminen täysistunnossa ja jaoston istunnossa sekä istuntojen päätösvaltaisuus</heading>
+                        <subsection eId="chp_3__sec_15__subsec_1">
+                            <content>
+                                <p>Asiat ratkaistaan lautakunnan täysistunnossa ja jaoston istunnossa esittelystä kirjallisen aineiston perusteella. Esittelijänä toimii tehtävään määrätty lautakunnan virkamies tai henkilö, jolle on annettu määräys toimia lautakunnan sivutoimisena esittelijänä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_15__subsec_2">
+                            <content>
+                                <p>Täysistunnossa ratkaistaan periaatteellisesti tärkeät asiat sekä asiat, jotka on tarpeen käsitellä täysistunnossa lautakunnan ratkaisukäytännön yhdenmukaistamiseksi. Asian käsittelemisestä täysistunnossa päättää puheenjohtaja tai varapuheenjohtaja sen mukaan kuin lautakunnan työjärjestyksessä määrätään.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_15__subsec_3">
+                            <content>
+                                <p>Täysistunto on päätösvaltainen, kun siihen osallistuu puheenjohtaja ja vähintään neljä muuta jäsentä. Jaoston istunto on päätösvaltainen, kun siihen osallistuu puheenjohtaja ja vähintään kaksi muuta jäsentä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_16">
+                        <num>16 §</num>
+                        <heading>Asian muu ratkaiseminen</heading>
+                        <subsection eId="chp_3__sec_16__subsec_1">
+                            <intro eId="chp_3__sec_16__subsec_1__intro">
+                                <p>Puheenjohtaja, varapuheenjohtaja ja jaoston puheenjohtajaksi määrätty jäsen voivat kukin esittelystä ratkaista yksin asian, jos ratkaisija ja esittelijä ovat päätöksestä yksimieliset ja:</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_16__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>lautakunnan ratkaisukäytäntö samankaltaisissa asioissa on vakiintunut; taikka</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_16__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>sama riitakysymys on ratkaistu täysistunnon tai jaoston aiemmalla päätöksellä.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_3__sec_16__subsec_2">
+                            <intro eId="chp_3__sec_16__subsec_2__intro">
+                                <p>Esittelijän tehtävään määrätty lautakunnan virkamies voi yksin ratkaista asian, joka on: </p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_16__subsec_2__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>ilmeisen perusteeton;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_16__subsec_2__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>merkitykseltään vähäinen; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_16__subsec_2__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>tosiseikoiltaan selvä ja oikeudellisesti yksinkertainen.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_17">
+                        <num>17 §</num>
+                        <heading>Äänestys</heading>
+                        <subsection eId="chp_3__sec_17__subsec_1">
+                            <content>
+                                <p>Äänestykseen täysistunnossa ja jaoston istunnossa sovelletaan, mitä oikeudenkäymiskaaren 23 luvun 1, 3―6 ja 8 §:ssä säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_18">
+                        <num>18 §</num>
+                        <heading>Selvittelykustannusten korvaaminen valtiolle</heading>
+                        <subsection eId="chp_3__sec_18__subsec_1">
+                            <content>
+                                <p>Jos lautakunnan ratkaisusuositus on keskeisiltä osiltaan vastainen elinkeinonharjoittajalle, lautakunnan on suosituksessaan mainittava, paljonko kustannuksia valtiolle on aiheutunut asiaan liittyvien lausuntojen ja selvitysten hankkimisesta sekä katselmusten järjestämisestä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_18__subsec_2">
+                            <content>
+                                <p>Jos itselleen vastaisen ratkaisusuosituksen saanut elinkeinonharjoittaja ei ole noudattanut suositusta ja hän häviää samaa asiaa koskevan oikeudenkäynnin, suosituksesta tiedon saaneen tuomioistuimen on velvoitettava hänet korvaamaan valtiolle 1 momentissa tarkoitetut kustannukset. Korvaus voidaan jättää tuomitsematta tai sen määrää alentaa, jos korvausvelvollisuus muodostuisi asiassa esiin tulleisiin seikkoihin nähden kohtuuttomaksi tai jos oikeudenkäyntiin on ollut perusteltua syytä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_19">
+                        <num>19 §</num>
+                        <heading>Asianosaisen kulut</heading>
+                        <subsection eId="chp_3__sec_19__subsec_1">
+                            <content>
+                                <p>Asian selvittämisestä ja käsittelemisestä lautakunnassa ei peritä maksuja. Omista kustannuksistaan asianosaiset vastaavat itse. Jos asianosainen on omalla kustannuksellaan hankkinut asian ratkaisemiseksi tarpeellisia asiantuntijalausuntoja tai muita selvityksiä, lautakunta voi kuitenkin suosittaa niistä aiheutuneiden kustannusten korvaamista asianosaiselle.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_19__subsec_2">
+                            <content>
+                                <p>Lautakunnan suosittamat 1 momentissa tarkoitetut korvaukset on asiaa tuomioistuimessa käsiteltäessä rinnastettava oikeudenkäymiskaaren 21 luvussa tarkoitettuihin oikeudenkäyntikuluihin.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_20">
+                        <num>20 §</num>
+                        <heading>Päätöksen luonne ja valituskielto</heading>
+                        <subsection eId="chp_3__sec_20__subsec_1">
+                            <content>
+                                <p>Kuluttajariita-asiassa annettu lautakunnan päätös ei ole täytäntöönpanokelpoinen, eikä sillä ole tuomion oikeusvaikutuksia. Päätökseen ei saa hakea muutosta valittamalla. Lautakuntakäsittely ei estä asian viemistä yleisen tuomioistuimen käsiteltäväksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_21">
+                        <num>21 §</num>
+                        <heading>Päätöksessä olevan virheen korjaaminen</heading>
+                        <subsection eId="chp_3__sec_21__subsec_1">
+                            <content>
+                                <p>Jos lautakunnan päätös perustuu selvästi virheelliseen tai puutteelliseen selvitykseen taikka ilmeisen väärään lain soveltamiseen taikka päätöstä tehtäessä on tapahtunut menettelyvirhe, lautakunta voi poistaa virheellisen päätöksen ja ratkaista asian uudelleen. Päätöksen korjaamisesta päätetään kokoonpanoltaan sitä vastaavassa täysistunnossa tai jaostossa, jossa virheellinen päätös on tehty. Jos asia on ratkaistu 16 §:n nojalla, päätöksen korjaamisesta päättää puheenjohtaja tai varapuheenjohtaja sen mukaan kuin työjärjestyksessä määrätään.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_21__subsec_2">
+                            <content>
+                                <p>Edellä 1 momentissa tarkoitetun asiavirheen korjaaminen ei edellytä asianosaisten suostumusta. Asianosaisille on kuitenkin ilmoitettava päätöksessä olevasta virheestä ja siitä, että asia aiotaan ratkaista uudelleen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_21__subsec_3">
+                            <content>
+                                <p>Lautakunnan on korjattava päätöksessään oleva ilmeinen kirjoitus- tai laskuvirhe taikka muu niihin verrattava selvä virhe. Virhettä ei kuitenkaan tarvitse korjata, jos päätöksen antamisesta on kulunut yli kaksi vuotta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_22">
+                        <num>22 §</num>
+                        <heading>Päätöksen tiedoksianto</heading>
+                        <subsection eId="chp_3__sec_22__subsec_1">
+                            <content>
+                                <p>Lautakunnan päätöksen tiedoksiantoon sovelletaan, mitä hallintolaissa säädetään, ei kuitenkaan yleistiedoksiantoa koskevia säännöksiä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_23">
+                        <num>23 §</num>
+                        <heading>Eräät määräajat ja ilmoitukset</heading>
+                        <subsection eId="chp_3__sec_23__subsec_1">
+                            <content>
+                                <p>Asian vireilletulo kuluttajariitalautakunnassa katkaisee maakaaren (540/1995) 2 luvun 2 §:n 2 momentissa, 4 §:n 2 momentissa ja 34 §:n 3 momentissa säädetyn määräajan kulumisen. Asia saadaan panna vireille tuomioistuimessa kolmen kuukauden kuluessa lautakunnan päätöksen antamisesta, vaikka sanottu määräaika päättyisi tätä aikaisemmin.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_23__subsec_2">
+                            <content>
+                                <p>Lautakunnan on ilmoitettava kiinteistön sijaintipaikkakunnan kirjaamisviranomaiselle, kun sen käsiteltäväksi on tullut kiinteistön kauppaa koskeva asia, jossa vaaditaan kaupan purkua tai kiinteistön palauttamista myyjälle, sekä antamastaan ratkaisusuosituksesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_24">
+                        <num>24 §</num>
+                        <heading>Hallintolain soveltaminen</heading>
+                        <subsection eId="chp_3__sec_24__subsec_1">
+                            <content>
+                                <p>Siltä osin kuin tässä laissa ei toisin säädetä, menettelyyn lautakunnassa sovelletaan hallintolakia.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 luku</num>
+                    <heading>Erinäiset säännökset</heading>
+                    <section eId="chp_4__sec_25">
+                        <num>25 §</num>
+                        <heading>Tarkemmat säännökset ja määräykset</heading>
+                        <subsection eId="chp_4__sec_25__subsec_1">
+                            <content>
+                                <p>Lautakunnan organisaatiosta, henkilöstöstä, hallinnosta ja hallintoasian ratkaisemisesta säädetään tarkemmin oikeusministeriön asetuksella.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_25__subsec_2">
+                            <content>
+                                <p>Työskentelyn järjestämisestä lautakunnassa määrätään tarkemmin lautakunnan työjärjestyksessä, jonka puheenjohtaja vahvistaa täysistuntoa kuultuaan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <section eId="sec_26">
+                    <num>26 §</num>
+                    <heading>Voimaantulo</heading>
+                    <subsection eId="sec_26__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 1 päivänä maaliskuuta 2007.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_26__subsec_2">
+                        <content>
+                            <p>Tällä lailla kumotaan kuluttajavalituslautakunnasta 20 päivänä tammikuuta 1978 annettu laki (42/1978) siihen myöhemmin tehtyine muutoksineen.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_26__subsec_3">
+                        <content>
+                            <p>Mitä muualla lainsäädännössä säädetään kuluttajavalituslautakunnasta, koskee tämän lain voimaan tultua kuluttajariitalautakuntaa.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_26__subsec_4">
+                        <content>
+                            <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_27">
+                    <num>27 §</num>
+                    <heading>Siirtymäsäännökset</heading>
+                    <subsection eId="sec_27__subsec_1">
+                        <content>
+                            <p>Tämän lain voimaan tullessa kuluttajavalituslautakunnassa vireillä oleva asia käsitellään tämän lain säännösten mukaan. Mitä 14 §:n 2 momentissa säädetään, ei kuitenkaan sovelleta.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_27__subsec_2">
+                        <content>
+                            <p>Kuluttajavalituslautakunnan sivutoimiset jäsenet ja varajäsenet jatkavat toimikautensa loppuun kuluttajariitalautakunnan sivutoimisina jäseninä ja varajäseninä. Jaostojen puheenjohtajiksi määrätyt jäsenet jatkavat toimikautensa loppuun kuluttajariitalautakunnan jaostojen puheenjohtajina. Varapuheenjohtajiksi määrättyjen jäsenten tehtävät varapuheenjohtajina lakkaavat tämän lain voimaan tullessa.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_27__subsec_3">
+                        <content>
+                            <p>Kuluttajavalituslautakunnan puheenjohtaja ja muu päätoiminen henkilöstö jatkavat nykyisissä viroissaan ja tehtävissään kuluttajariitalautakunnassa.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/115">HE 115/2006</ref>
+                        </p>
+                        <p>TaVM 18/2006</p>
+                        <p>EV 190/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 12 päivänä tammikuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Kari Rajamäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

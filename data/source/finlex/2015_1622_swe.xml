@@ -1,0 +1,179 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1622/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1622"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1622/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1622"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1622/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1622/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1622/alkup/swe"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1622/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1622/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1622/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1622/2015</docNumber>
+                <docTitle>Lag om ändring av aktiebolagslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i aktiebolagslagen (
+                        <affectedDocument href="/akn/fi/act/statute/2006/624">624/2006</affectedDocument>
+                        ) 8 kap. 5 och 9 § samt 13 kap 5 §, av dem 8 kap. 9 § sådan den lyder delvis ändrad i lag 1214/2009, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>8 kap.</num>
+                    <heading>Eget kapital, bokslut, verksamhetsberättelse och koncern</heading>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Verksamhetsberättelse</heading>
+                        <subsection>
+                            <content>
+                                <p>Av verksamhetsberättelsen ska alltid framgå den information som anges i denna lag, om inte aktiebolaget är ett litet företag som avses i 1 kap. 4 a § i bokföringslagen eller ett mikroföretag som avses i 4 b § i samma kapitel. Bestämmelser om vilka uppgifter som ska anges i sådana företags verksamhetsberättelse och bokslut finns i bokföringslagen och i bestämmelser som utfärdas med stöd av den.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Verksamhetsberättelsen ska innehålla styrelsens förslag till disposition av bolagets vinst samt styrelsens förslag till eventuell utbetalning av annat fritt eget kapital.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>I verksamhetsberättelsen ska uppges</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>antalet aktier av varje aktieslag och bolagsordningens huvudsakliga bestämmelser om varje aktieslag, och</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>de huvudsakliga villkoren för kapitallån och den på lånen upplupna, icke-kostnadsförda räntan.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Verksamhetsberättelsen ska uppge bolagets utländska filialer.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Den information som avses i denna lag får dock lämnas i bokslutsnoter i stället för i verksamhetsberättelsen, om inte något annat föreskrivs i bokföringslagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Koncernbokslut</heading>
+                        <subsection>
+                            <content>
+                                <p>Koncernbokslut ska, utöver vad som föreskrivs annanstans, upprättas i enlighet med detta kapitel.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Moderbolaget ska alltid upprätta ett koncernbokslut, om det betalar ut medel till aktieägarna eller är ett publikt aktiebolag. Ett koncernbokslut behöver dock inte upprättas för en liten koncern som avses i 1 kap. 6 a § i bokföringslagen och inte heller när bolaget enligt 6 kap. 1 § 4 mom. i bokföringslagen är befriat från skyldigheten att upprätta koncernbokslut.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>13 kap.</num>
+                    <heading>Utbetalning av medel</heading>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Utdelningsbart belopp</heading>
+                        <subsection>
+                            <content>
+                                <p>Om inte något annat följer av vad som i 2 § föreskrivs om bolagets solvens, får bolaget betala ut fritt eget kapital från vilket det har dragits av belopp som enligt bolagsordningen inte får betalas ut samt belopp som i form av utvecklingsutgifter har tagits upp i balansräkningen i enlighet med bokföringslagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016. Lagen ska första gången tillämpas den räkenskapsperiod som börjar den 1 januari 2016 eller därefter. Aktiebolag får dock tillämpa denna lag under den räkenskapsperiod som börjar efter ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/89">RP 89/2015</ref>
+                        </p>
+                        <p>EkUB 16/2015</p>
+                        <p>RSv 95/2015</p>
+                        <p>Europaparlamentets och rådets direktiv 2013/34/EU (32013L0034); EUT nr L 182, 29.6.2013, s. 19.</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 30 december 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Utrikeshandels- och utvecklingsminister</role>
+                                <person refersTo="">Lenita Toivakka</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

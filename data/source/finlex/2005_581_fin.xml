@@ -1,0 +1,292 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/581/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/581"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/581/alkup"/>
+                    <FRBRdate date="2005-07-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="581"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/581/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/581/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/581/alkup/fin"/>
+                    <FRBRdate date="2005-07-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/581/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/581/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/581/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="103"/>
+                    <finlex:date date="2005-07-26"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>581/2005</docNumber>
+                <docTitle>Laki ulkomaalaislain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         30 päivänä huhtikuuta 2004 annetun ulkomaalaislain (<affectedDocument href="/akn/fi/act/statute/2004/301">301/2004</affectedDocument>) 191 §:n 1 momentin 6 kohta,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         3 §:n 21 kohta, 4 §:n 3 momentti, 12, 123, 174 ja 179 § sekä 181 §:n 1 momentti ja 185 §:n 2 momentti sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         182 §:ään, sellaisena kuin se on laissa 653/2004, uusi 2 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Määritelmät</heading>
+                    <subsection>
+                        <intro>
+                            <p>Tässä laissa tarkoitetaan:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>21)</num>
+                            <content>
+                                <p>
+                                    <i>rajatarkastusviranomaisella</i>
+                                     rajavartiolaitosta ja muuta viranomaista, jolla on oikeus rajavartiolaissa (578/2005) tarkoitetun rajatarkastuksen tekemiseen.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>4 §</num>
+                    <heading>Suhde muihin lakeihin</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Rajavartiolaitoksen tämän lain nojalla suorittamaan tutkintaan sovelletaan rajavartiolain 27 §:ää.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>12 §</num>
+                    <heading>Rajan ylittämistä koskevat säännökset</heading>
+                    <subsection>
+                        <content>
+                            <p>Rajan ylittämisestä, rajanylityspaikoista ja niiden aukioloajoista sekä rajatarkastustehtävien jakamisesta rajavartiolaitoksen, poliisin ja tullin kesken eri rajanylityspaikoilla säädetään rajavartiolaissa ja sen nojalla annetuissa säännöksissä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>123 §</num>
+                    <heading>Säilöön ottamisesta päättäminen ja säilöön otetun sijoittaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Säilöön ottamisesta päättää poliisissa kihlakunnan poliisilaitoksen, keskusrikospoliisin, suojelupoliisin tai liikkuvan poliisin päällystöön kuuluva virkamies ja rajavartiolaitoksessa pidättämiseen oikeutettu virkamies tai vähintään majurin arvoinen rajavartiomies sekä raja- tai merivartioalueen päällikkö ja rajatarkastusosaston päällikkö. Säilöön otetulle tai hänen lailliselle edustajalleen on ilmoitettava säilöön ottamisen peruste.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Säilöön otettu ulkomaalainen on mahdollisimman pian sijoitettava säilöön otettujen ulkomaalaisten kohtelusta ja säilöönottoyksiköstä annetussa laissa (116/2002) tarkoitettuun säilöönottoyksikköön.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Edellä 1 momentissa tarkoitettu virkamies voi päättää säilöön otetun ulkomaalaisen sijoittamisesta poikkeuksellisesti poliisin pidätystiloihin, jos:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>säilöönottoyksiköt ovat tilapäisesti täynnä; tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>ulkomaalainen otetaan säilöön kaukana lähimmästä säilöönottoyksiköstä, jolloin säilöön ottaminen saa poliisin pidätystiloissa kestää enintään neljä vuorokautta.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 3 momentin 2 kohdassa tarkoitetussa tilanteessa ulkomaalainen voidaan poikkeuksellisesti sijoittaa poliisin pidätystilojen sijasta rajavartiolaitoksen pidätystiloihin, kuitenkin enintään 48 tunniksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Alle 18-vuotias voidaan sijoittaa poliisin ja rajavartiolaitoksen pidätystiloihin vain, jos myös hänen huoltajansa tai muu täysi-ikäinen perheenjäsenensä on otettu säilöön poliisin tai rajavartiolaitoksen pidätystiloihin.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Poliisin tai rajavartiolaitoksen pidätystiloihin sijoitettuun ulkomaalaiseen sovelletaan, mitä säilöön otettujen ulkomaalaisten kohtelusta ja säilöönottoyksiköstä annetussa laissa säädetään. Pidätystilojen järjestyksen ja turvallisuuden säilyttämiseksi ulkomaalaiseen voidaan kuitenkin soveltaa tarpeellisin osin, mitä tutkintavankeudesta annetun lain (615/1974) 5, 6, 6 a ja 7 §:ssä säädetään, jos mainituissa pykälissä tarkoitetut toimenpiteet ovat sopusoinnussa säilöön ottamisen perusteen kanssa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>174 §</num>
+                    <heading>Ajoneuvon kuljettajan ja liikenteenharjoittajan ilmoitus- ja valvontavelvollisuus</heading>
+                    <subsection>
+                        <content>
+                            <p>Ajoneuvon kuljettaja, aluksen tai ilma-aluksen päällikkö sekä muussa liikennevälineessä oleva liikenteenharjoittajan edustaja on velvollinen valvomaan, ettei kukaan, jolla ei ole siihen oikeutta, pääse maahan ilman rajatarkastusviranomaisen suostumusta. Aluksen päällikön on annettava rajatarkastusviranomaiselle ennakkoon tieto aluksessa havaitusta salamatkustajasta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ajoneuvon kuljettajan ja liikenteenharjoittajan ilmoitusvelvollisuudesta säädetään henkilötietojen käsittelystä rajavartiolaitoksessa annetun lain (579/2005) 19 ja 20 §:ssä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>179 §</num>
+                    <heading>Liikenteenharjoittajan seuraamusmaksu</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Liikenteenharjoittajalle, joka rikkoo 173 §:ssä säädetyn tarkastusvelvollisuuden tai henkilötietojen käsittelystä rajavartiolaitoksessa annetun lain 20 §:ssä säädetyn tietojenantovelvollisuuden, määrätään seuraamusmaksu (<i>liikenteenharjoittajan seuraamusmaksu</i>). Maksun suuruus 173 §:n rikkomisesta on 3 000 euroa kuljetettua henkilöä kohden. Maksun suuruus henkilötietojen käsittelystä rajavartiolaitoksessa annetun lain 20 §:n rikkomisesta on 3 000 euroa kutakin sellaista matkaa kohden, jolta ei ole ilmoitettu matkustajatietoja tai ne on ilmoitettu puutteellisesti tai virheellisesti.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Liikenteenharjoittajan seuraamusmaksua ei määrätä, jos:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>liikenteenharjoittaja osoittaa noudattaneensa velvollisuuttaan varmistaa, että ulkomaalaisella on kuljetettavaksi otettaessa ollut vaadittava matkustusasiakirja sekä vaadittava viisumi tai oleskelulupa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>vaadittava matkustusasiakirja taikka viisumi tai oleskelulupa on osoittautunut väärennetyksi ja väärennös ei ole ollut selvästi havaittavissa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>henkilön kuljettaminen ilman vaadittavaa matkustusasiakirjaa taikka viisumia tai oleskelulupaa taikka virhe lentoliikenteen matkustajatiedon antamisessa on tapahtunut kaikki olot huomioon ottaen anteeksiannettavasta huomaamattomuudesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>maksun määrääminen olisi olosuhteet huomioon ottaen muutoin kohtuutonta.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 2 momentin 1 kohtaa ei sovelleta määrättäessä maksua henkilötietojen käsittelystä rajavartiolaitoksessa annetun lain 20 §:n rikkomisesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>181 §</num>
+                    <heading>Liikenteenharjoittajan seuraamusmaksun määrääminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Liikenteenharjoittajan seuraamusmaksun määrää rajatarkastuksen yhteydessä sen rajavartioston tai merivartioston komentaja, apulaiskomentaja taikka raja- tai meritoimiston päällikkö, jonka toimialueella tämän lain 173 §:n tai henkilötietojen käsittelystä rajavartiolaitoksessa annetun lain 20 §:n rikkominen on havaittu. Jos rajatarkastusviranomaisena on toiminut poliisi, liikenteenharjoittajan seuraamusmaksun määrää kihlakunnan poliisilaitoksen päällystöön kuuluva virkamies. Jos rajatarkastusviranomaisena on toiminut tulliviranomainen, liikenteenharjoittajan seuraamusmaksun määrää tullipiirin päällikkö tai tullipiirin valvontayksikön päällikkö.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>182 §</num>
+                    <heading>Liikenteenharjoittajan seuraamusmaksun poistaminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Mitä tässä pykälässä säädetään, ei koske seuraamusmaksua, joka määrätään henkilötietojen käsittelystä rajavartiolaitoksessa annetun lain 20 §:n rikkomisesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>185 §</num>
+                    <heading>Ulkomaalaisrikkomus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ulkomaalaisrikkomuksesta tuomitaan myös se, joka tahallaan tai törkeästä huolimattomuudesta laiminlyö 174 tai 175 §:ssä taikka henkilötietojen käsittelystä rajavartiolaitoksessa annetun lain 19 tai 20 §:ssä säädetyn velvollisuutensa.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä syyskuuta 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/6">HE 6/2005</ref>
+                        </p>
+                        <p>HaVM 12/2005</p>
+                        <p>EV 92/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Naantalissa 15 päivänä heinäkuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

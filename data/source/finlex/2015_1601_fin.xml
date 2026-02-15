@@ -1,0 +1,157 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1601/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1601"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1601/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1601"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1601/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1601/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1601/alkup/fin"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1601/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1601/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1601/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1601/2015</docNumber>
+                <docTitle>Laki ammattikorkeakoululain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         ammattikorkeakoululain (<affectedDocument href="/akn/fi/act/statute/2014/932">932/2014</affectedDocument>) 63 §,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         13 § sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 13 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>13 §</num>
+                    <heading>Tilauskoulutus</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Ammattikorkeakoulu voi järjestää opiskelijaryhmälle korkeakoulututkintoon johtavaa opetusta niin, että koulutuksen tilaa ja rahoittaa Suomen valtio, toinen valtio, kansainvälinen järjestö taikka suomalainen tai ulkomainen julkisyhteisö, säätiö tai yksityinen yhteisö (<i>tilauskoulutus</i>).
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tilauskoulutusta ei voida järjestää Euroopan talousalueeseen kuuluvien valtioiden kansalaisille eikä niille, jotka Euroopan unionin ja sen jäsenvaltioiden muun sopimuspuolen kanssa tekemän sopimuksen mukaan rinnastetaan Euroopan unionin kansalaisiin, eikä edellä mainittujen perheenjäsenille. Tilauskoulutusta ei myöskään voida järjestää niille, joilla on ulkomaalaislaissa (301/2004) tarkoitettu Euroopan unionin sininen kortti, jatkuva tai pysyvä oleskelulupa tai pitkään oleskelleen kolmannen maan kansalaisen EU-oleskelulupa, eikä edellä mainittujen perheenjäsenille. Perheenjäsenen määrittelyyn sovelletaan ulkomaalaislakia. Tilauskoulutukseen osallistuvaan opiskelijaan sovelletaan tämän lain 25—27, 33—40 ja 57—61 §:ää.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tilauskoulutuksena annettavan opetuksen on liityttävä ammattikorkeakoulun toimiluvassa määrättyyn koulutustehtävään. Tilauskoulutus ei saa heikentää ammattikorkeakoulun antamaa perus- tai jatkokoulutusta. Ammattikorkeakoulun on perittävä koulutuksen tilaajalta tilauskoulutuksen järjestämisestä vähintään siitä aiheutuvat kustannukset kattava maksu. Koulutuksen tilaajalla on oikeus periä tilauskoulutukseen osallistuvilta opiskelijoilta sen sijaintivaltion lainsäädännön tai oman käytäntönsä mukaisia maksuja.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>13 a §</num>
+                    <heading>Tutkintoon johtavasta vieraskielisestä koulutuksesta perittävät maksut</heading>
+                    <subsection>
+                        <content>
+                            <p>Ammattikorkeakoulun on perittävä muuhun kuin suomen- tai ruotsinkieliseen ammattikorkeakoulututkintoon tai ylempään ammattikorkeakoulututkintoon johtavaan koulutukseen hyväksytyltä opiskelijalta vähintään 1 500 euron suuruinen maksu lukuvuodessa. Ammattikorkeakoulu päättää maksun perimiseen liittyvistä järjestelyistä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Maksua ei kuitenkaan peritä Euroopan talousalueeseen kuuluvan valtion kansalaiselta eikä siltä, joka Euroopan unionin ja sen jäsenvaltioiden muun sopimuspuolen kanssa tekemän sopimuksen mukaan rinnastetaan Euroopan unionin kansalaiseen, eikä edellä mainittujen perheenjäseneltä. Maksua ei peritä myöskään siltä, jolla on ulkomaalaislaissa tarkoitettu Euroopan unionin sininen kortti, jatkuva tai pysyvä oleskelulupa tai pitkään oleskelleen kolmannen maan kansalaisen EU-oleskelulupa, eikä edellä mainittujen perheenjäseneltä. Perheenjäsenen määrittelyyn sovelletaan ulkomaalaislakia. Maksua ei peritä myöskään 13 §:n mukaiseen tilauskoulutukseen osallistuvalta opiskelijalta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ammattikorkeakoululla on oltava apurahajärjestelmä maksulliseen tutkintokoulutukseen osallistuvien opiskelijoiden tukemiseksi.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                    <p>Lain 13 a §:ää sovelletaan 1 päivänä elokuuta 2017 tai sen jälkeen opintonsa aloittaviin opiskelijoihin. Ammattikorkeakoulu saa kuitenkin halutessaan soveltaa 13 a §:ää lain voimaantulon jälkeen opintonsa aloittaviin opiskelijoihin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/77">HE 77/2015</ref>
+                        </p>
+                        <p>SiVM 13/2015</p>
+                        <p>EV 100/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 30 päivänä joulukuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Opetus- ja kulttuuriministeri</role>
+                                <person refersTo="">Sanni Grahn-Laasonen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

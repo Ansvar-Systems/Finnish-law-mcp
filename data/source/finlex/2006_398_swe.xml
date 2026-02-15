@@ -1,0 +1,198 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/398/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/398"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/398/alkup"/>
+                    <FRBRdate date="2006-05-19" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="398"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/398/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/398/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/398/alkup/swe"/>
+                    <FRBRdate date="2006-05-19" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/398/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/398/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/398/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="64"/>
+                    <finlex:date date="2006-05-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>398/2006</docNumber>
+                <docTitle>Lag om ändring av 29 kap. i strafflagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i strafflagen av den 19 december 1889 (
+                        <affectedDocument href="/akn/fi/act/statute/1889/39">39/1889</affectedDocument>
+                        ) rubriken för 29 kap. 9 §, sådan rubriken lyder i lag 814/1998, och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 29 kap. en ny 4 a och en ny 4 b § samt till 9 § i samma kapitel, sådan den lyder i sistnämnda lag, nya 5 och 6 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>29 kap.</num>
+                    <heading>Om brott mot den offentliga ekonomin</heading>
+                    <section>
+                        <num>4 a §</num>
+                        <heading>Arbetspensionsförsäkringsavgiftsbedrägeri</heading>
+                        <subsection>
+                            <intro>
+                                <p>En arbetsgivare eller en företrädare för denne som</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>genom att försumma försäkringsskyldigheten enligt lagen om pension för arbetstagare (395/2006) eller en annan anmälningsskyldighet som avses i lagen om pension för arbetstagare,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>genom att till den som sköter uppgifter enligt lagen om pension för arbetstagare lämna felaktig information om sådana uppgifter som behövs enligt nämnda lag och som påverkar försäkringsavgiften eller fördelningen av de kostnader som pensionerna föranleder eller genom att vägra lämna uppgifter som nämns i denna punkt, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>genom att underlåta att till en pensionsanstalt som sköter pensionsförsäkring enligt lagen om pension för arbetstagare redovisa arbetspensionsförsäkringsavgift som tagits ut hos arbetstagaren,</p>
+                                </content>
+                            </paragraph>
+                            <wrapUp>
+                                <p>
+                                    får till stånd eller försöker få till stånd att ingen eller alltför låg arbetspensionsförsäkringsavgift bestäms eller att en sådan avgift återbetalas utan grund, skall för 
+                                    <i>arbetspensionsförsäkringsavgiftsbedrägeri</i>
+                                     dömas till böter eller fängelse i högst två år.
+                                </p>
+                            </wrapUp>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>När en i 1 mom. avsedd gärning bedömd som en helhet är ringa, får eftergift ske i fråga om anmälan, åtal eller straff, om en förhöjning av försäkringsavgiften anses vara en tillräcklig påföljd.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 b §</num>
+                        <heading>Grovt arbetspensionsförsäkringsavgiftsbedrägeri</heading>
+                        <subsection>
+                            <intro>
+                                <p>Om vid arbetspensionsförsäkringsavgiftsbedrägeri</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>eftersträvas avsevärd ekonomisk vinning, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>brottet begås särskilt planmässigt</p>
+                                </content>
+                            </paragraph>
+                            <wrapUp>
+                                <p>
+                                    och arbetspensionsförsäkringsavgiftsbedrägeriet även bedömt som en helhet är grovt, skall arbetsgivaren eller dennes företrädare för 
+                                    <i>grovt arbetspensionsförsäkringsavgiftsbedrägeri</i>
+                                     dömas till fängelse i minst fyra månader och högst fyra år.
+                                </p>
+                            </wrapUp>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Definitioner och ansvarsfördelning</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>På en arbetsgivare och dennes företrädare som avses i 4 a och 4 b § i detta kapitel tillämpas vad som i 47 kap. 8 § 1 mom. 1 eller 2 punkten föreskrivs om arbetsgivare eller arbetsgivarens företrädare.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>På brott som nämns i 4 a och 4 b § i detta kapitel tillämpas vad som i 47 kap. 7 § föreskrivs om ansvarsfördelning.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 45/2005</p>
+                        <p>ShUB 5/2006</p>
+                        <p>RSv 20/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 19 maj 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Tuula Haatainen </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

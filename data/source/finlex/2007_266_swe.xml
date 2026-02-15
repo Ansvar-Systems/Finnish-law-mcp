@@ -1,0 +1,189 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/266/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/266"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/266/alkup"/>
+                    <FRBRdate date="2007-03-16" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="266"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/266/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/266/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/266/alkup/swe"/>
+                    <FRBRdate date="2007-03-16" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/266/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/266/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/266/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="44"/>
+                    <finlex:date date="2007-03-21"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>266/2007</docNumber>
+                <docTitle>Lag om ändring av 8 kap. i häktningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i häktningslagen av den 23 september 2005 (
+                        <affectedDocument href="/akn/fi/act/statute/2005/768">768/2005</affectedDocument>
+                        ) 8 kap. 1 §, rubriken för 2 § och 2 § 1 mom., 4 § 2 mom. och 9 § 1 och 2 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 8 kap. en ny 9 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>8 kap.</num>
+                    <heading>Brevväxling och telefonsamtal</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Brevväxling och granskning av postförsändelser</heading>
+                        <subsection>
+                            <content>
+                                <p>De häktade har rätt till korrespondens, om inte denna rätt har begränsats på det sätt som avses i 1 kap. 18 b § i tvångsmedelslagen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Ett slutet brev eller någon annan postförsändelse till eller från en häktad får granskas med genomlysning eller på något annat motsvarande sätt utan att öppna försändelsen för undersökning av om den innehåller förbjudna ämnen eller föremål som avses i 5 kap. 1 § 1 eller 2 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Ett brev eller någon annan postförsändelse till en häktad får öppnas och dess innehåll granskas utan att ett eventuellt meddelande i försändelsen läses, för att ta reda på om försändelsen innehåller i 2 mom. nämnda förbjudna ämnen eller föremål. Ett brev eller någon annan postförsändelse från en häktad får öppnas och dess innehåll granskas utan att ett eventuellt meddelande läses, om formen eller storleken på försändelsen är sådan att man kan sluta sig till att den också innehåller någonting annat än ett förtroligt meddelande eller om det annars finns grundad anledning att misstänka att den innehåller nämnda ämnen eller föremål.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om ämnen eller föremål som den häktade inte har tillstånd att inneha påträffas vid granskningen, skall de tas för att förvaras i fängelset. Penningtillgångar skall antecknas på den häktades konto. Om det finns skäl att betvivla egendomens lagliga härkomst, skall saken anmälas på det sätt som avses i 16 kap. 1 §.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Läsning och kopiering av meddelanden</heading>
+                        <subsection>
+                            <content>
+                                <p>Brev, andra postförsändelser eller meddelanden till eller från en häktad får läsas, om det av någon grundad anledning som har samband med den häktades brottsliga bakgrund, den häktades uppförande under häktestiden eller med försändelsen eller avsändaren är nödvändigt för att säkerställa syftet med häktningen, förhindra eller utreda ett brott, avvärja en fara som hotar anstaltsordningen eller trygga den häktades eller någon annans säkerhet.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Brevväxling med ombud</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Ett brev eller någon annan postförsändelse som anlänt till en häktad och av vars kuvert eller på något annat sätt det tillförlitligt framgår att avsändaren är det ombud som avses i 1 mom. får endast i den häktades närvaro öppnas och dess innehåll granskas utan att ett eventuellt meddelande i försändelsen läses, om det finns anledning att misstänka att brevet innehåller ämnen eller föremål som avses i 5 kap. 1 § 1 eller 2 mom. Vid granskningen iakttas i övrigt bestämmelserna i 1 § 4 mom.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Beslutanderätt</heading>
+                        <subsection>
+                            <content>
+                                <p>En i regionfängelsets arbetsordning förordnad tjänsteman som utför styrnings- eller övervakningsuppgifter beslutar om granskning av brev och andra postförsändelser med stöd av 1 § 2 mom. i detta kapitel samt om öppnande av en sådan försändelse och granskning av dess innehåll med stöd av 1 § 3 mom. och 4 § 2 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Beslut om läsning av brev, andra postförsändelser eller meddelanden med stöd av 2 § 1 mom., kopiering enligt 2 § 2 mom. samt kvarhållande av försändelser eller meddelanden enligt 5 § fattas av en säkerhetsansvarig eller en av denne för uppgiften särskilt förordnad tjänsteman i chefsuppgifter inom övervakningen. Ett meddelande får dock även lämnas för läsning till en tjänsteman vid Fångvårdsväsendet som enligt lagen om behandling av personuppgifter vid verkställighet av straff har rätt att behandla uppgifter i säkerhetsregistret. Beslut om avlyssning och inspelning av telefonsamtal fattas av en säkerhetsansvarig.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 a §</num>
+                        <heading>Tystnadsplikt och förbud mot utnyttjande</heading>
+                        <subsection>
+                            <content>
+                                <p>En tjänsteman som handhar uppdrag enligt detta kapitel får inte obehörigen röja sådant som genom innehållet i ett meddelande från eller till en häktad kommit till tjänstemannens kännedom i uppdraget, och inte heller identifieringsuppgifter om ett sådant meddelande. Tjänstemannen får inte heller använda sådana uppgifter för att skaffa sig själv eller någon annan fördel eller för att skada någon annan. Uppgifterna får inte heller röjas eller användas på nämnda sätt efter det att uppdraget har avslutats.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Utöver vad som föreskrivs någon annanstans i lag får uppgifter som avses i 1 mom. emellertid lämnas ut också till en tjänsteman som oundgängligen behöver dem för att sköta sina åligganden enligt denna lag.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 april 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 261/2006</p>
+                        <p>GrUB 59/2006</p>
+                        <p>LaUB 31/2006</p>
+                        <p>RSv 312/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 16 mars 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

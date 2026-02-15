@@ -1,0 +1,117 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/911/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/911"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/911/alkup"/>
+                    <FRBRdate date="2006-10-19" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="911"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/911/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/911/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/911/alkup/swe"/>
+                    <FRBRdate date="2006-10-19" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/911/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/911/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/911/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="136"/>
+                    <finlex:date date="2006-10-26"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>911/2006</docNumber>
+                <docTitle>Lag om ändring av 10 § i företagsinteckningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i företagsinteckningslagen av den 24 augusti 1984 (
+                        <affectedDocument href="/akn/fi/act/statute/1984/634">634/1984</affectedDocument>
+                        ) 10 § 3 mom., sådant det lyder i lag 747/2004, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>10 §</num>
+                    <heading>Överlåtelse av företag och åtagande att svara för inteckning</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Vad som bestäms i 1 och 2 mom. gäller i tillämpliga delar när ett publikt aktiebolag deltar i en sådan fusion som avses i artikel 2.1 i rådets förordning (EG) nr 2157/2001 om stadga för europabolag och det publika aktiebolagets näringsverksamhet och den inteckningsbara egendom i Finland som hör till denna verksamhet överförs till en filial i Finland som inrättas av det övertagande europabolaget, som registreras i någon annan stat. Detsamma gäller när ett europabolags hemort flyttas från Finland till någon annan stat så som avses i artikel 8 i nämnda förordning och bolagets näringsverksamhet och den inteckningsbara egendom i Finland som hör till denna verksamhet överförs till en filial som bolaget inrättar i Finland. Vad som sägs ovan tillämpas på motsvarande sätt på europaandelslag i fråga om sådan fusion för europaandelslag som avses i artikel 2.1 fjärde strecksatsen i rådets förordning (EG) nr 1435/2003 om stadga för europeiska kooperativa föreningar (SCE-föreningar) samt när ett europaandelslag flyttar sin hemort enligt artikel 7 i nämnda förordning.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 november 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 54/2006</p>
+                        <p>EkUB 9/2006</p>
+                        <p>RSv 99/2006</p>
+                        <p>Rådets förordning (EG) nr 1435/2003 (32003R1435); EGT nr L 207, 18.08.2003, s. 1</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 19 oktober 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

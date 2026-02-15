@@ -1,0 +1,180 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/331/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/331"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/331/alkup"/>
+                    <FRBRdate date="2005-05-20" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="331"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/331/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/331/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/331/alkup/fin"/>
+                    <FRBRdate date="2005-05-20" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/331/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/331/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/331/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="63"/>
+                    <finlex:date date="2005-05-26"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>331/2005</docNumber>
+                <docTitle>Laki arvonlisäverolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan </i>
+                        30 päivänä joulukuuta 1993 annetun arvonlisäverolain (
+                        <affectedDocument href="/akn/fi/act/statute/1993/1501">1501/1993</affectedDocument>
+                        ) 2 a §, 63 g §:n johdantokappale ja 5 kohta, 72 g §:n johdantokappale, 133 u §, 162 b §:n 2 momentti ja 209 c §:n 1 momentin 1 kohta,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 2 a § ja 162 b §:n 2 momentti laissa 1767/1995, 63 g §:n johdantokappale ja 5 kohta laissa 935/2004, 72 g §:n johdantokappale laissa 1486/1994, 133 u § laissa 971/2002 ja 209 c §:n 1 momentin 1 kohta laissa 325/2003, seuraavasti:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Verovelvollinen 72 g §:ssä tarkoitetusta edelleenmyynnistä on ostaja, jos myyjän antama lasku on 209 b §:n mukainen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>63 g §</num>
+                    <subsection>
+                        <intro>
+                            <p>Tavaran yhteisöhankinta katsotaan verotetun 63 f §:ssä tarkoitetulla tavalla tavaran kuljetuksen päättymisvaltiossa myös silloin, kun:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>ostajan edelleenmyyntiä koskeva lasku on 209 b §:n tai vastaavien säännösten mukainen; ja</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>72 g §</num>
+                    <subsection>
+                        <intro>
+                            <p>Suomessa 63 e §:n mukaan tapahtuvasta tavaran yhteisöhankinnasta ei ole suoritettava veroa, jos:</p>
+                        </intro>
+                    </subsection>
+                </section>
+                <section>
+                    <num>133 u §</num>
+                    <subsection>
+                        <content>
+                            <p>Jos erityisjärjestelmää käyttävä verovelvollinen on ilmoittanut verokaudelta Suomeen tilitettävän veron liian suurena, liikaa maksettu vero maksetaan hänelle hakemuksen tai muun saadun selvityksen perusteella. Vero voidaan palauttaa viimeistään kolmantena kalenterivuotena sen kalenterivuoden päättymisestä, jolta verovelvollinen on ilmoittanut liikaa veroa, tai verovelvollisen viimeistään tuolloin tekemän vaatimuksen perusteella myöhemminkin.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Erityisjärjestelmää käyttävän verovelvollisen osalta tilikautena pidetään 187, 192, 193 ja 204 §:ää sovellettaessa sitä kalenterivuotta, johon kuuluvasta verokaudesta on kysymys. Lain 192 ja 193 §:ää sovellettaessa oikaisu ja valitus voidaan tehdä jo kalenterivuoden kuluessa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>162 b §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Yhteenvetoilmoitus tulee antaa myös silloin, kun verovelvollisen tekemä tavaran yhteisöhankinta katsotaan 63 g §:n nojalla verotetun kuljetuksen päättymisvaltiossa.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>209 c §</num>
+                    <subsection>
+                        <intro>
+                            <p>Poiketen siitä, mitä 209 b §:n 2 momentin 1―10 kohdassa säädetään, seuraavissa laskuissa tarvitsee olla vain jäljempänä 3 momentissa tarkoitetut tiedot:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>loppusummaltaan enintään 250 euron suuruiset laskut;</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006.</p>
+                    <p>Lakia sovelletaan, kun myyty tavara on toimitettu tai palvelu on suoritettu taikka tavaran yhteisöhankinta on tehty lain voimaantulopäivänä tai sen jälkeen. Lain 133 u §:ää sovelletaan ensimmäisen kerran lain voimaantulopäivänä alkavalta verokaudelta suoritettavaan veroon.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/22">HE 22/2005</ref>
+                        </p>
+                        <p>VaVM 5/2005</p>
+                        <p>EV 39/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 20 päivänä toukokuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Valtiovarainministeri </role>
+                                <person refersTo="">Antti Kalliomäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

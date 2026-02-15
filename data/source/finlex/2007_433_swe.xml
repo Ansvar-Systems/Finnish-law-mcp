@@ -1,0 +1,143 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/433/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/433"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/433/alkup"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="433"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/433/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/433/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/433/alkup/swe"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/433/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/433/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/433/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="65"/>
+                    <finlex:date date="2007-04-20"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>433/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om ersättande av skador som förorsakats av exceptionella översvämningar</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 18 mars 1983 om ersättande av skador som förorsakats av exceptionella översvämningar (
+                        <affectedDocument href="/akn/fi/act/statute/1983/284">284/1983</affectedDocument>
+                        ) 4 § 1 mom. samt 5 och 7 §, av dem 4 § 1 mom. och 5 § sådana de lyder i lag 92/1995, och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 4 §, sådan den lyder i sistnämnda lag, ett nytt 3 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>4 §</num>
+                    <subsection>
+                        <content>
+                            <p>Landsbygdsverket meddelar föreskrifter om inom vilken tid den skadelidande för att få ersättning skall göra en ersättningsansökan hos landsbygdsnäringsmyndigheten i den kommun inom vilken den skadade fastigheten eller det skadade lösöret finns eller, om det är fråga om en skada som har drabbat en gårdsbruksenhet eller där befintligt lösöre, hos landsbygdsnäringsmyndigheten i den kommun där gårdsbruksenhetens driftscentrum är beläget. Landsbygdsverket meddelar föreskrifter om den ansökningsblankett som skall användas för ansökan om ersättning och om de upplysningar som skall fogas till ansökan.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>De regionala skogscentralerna kan för sakkunnighjälp som de har gett betalas ersättning ur det anslag som avses i 1 § 2 mom. på de grunder om vilka det bestäms genom förordning av jord- och skogsbruksministeriet. Kommunens landsbygdsnäringsmyndighet skall, efter att ha utfört de värderingar som anges i 2 mom., till Landsbygdsverket lämna in kopior av ansökningarna och värderingsprotokollen, av bilagorna till ansökan och av de andra handlingar som behövs.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <subsection>
+                        <content>
+                            <p>Kommunens landsbygdsnäringsmyndighet beslutar om beviljande av ersättning och betalar ersättningen sedan Landsbygdsverket i de enskilda fallen har konstaterat att det är fråga om ersättande av skador som avses i denna lag och inom ramen för anslaget har ställt de utifrån de enskilda fallen uträknade och för ersättande av skadorna behövliga medlen till landsbygdsnäringsmyndighetens disposition. Genom förordning av jord- och skogsbruksministeriet bestäms om ersättningsprocenten, som kan vara olika stor för skador och kostnader av olika slag.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 §</num>
+                    <subsection>
+                        <content>
+                            <p>Om inte något annat bestäms i denna lag iakttas dessutom i tillämpliga delar lagen om förfarandet vid skötseln av stöduppgifter i fråga om landsbygdsnäringar (1336/1992).</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 maj 2007.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 218/2006</p>
+                        <p>JsUB 20/2006</p>
+                        <p>RSv 282/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 13 april 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Jord- och skogsbruksminister </role>
+                                <person refersTo="">Juha Korkeaoja</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

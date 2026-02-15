@@ -1,0 +1,162 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/449/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/449"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/449/alkup"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="449"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/449/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/449/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/449/alkup/swe"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/449/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/449/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/449/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="82"/>
+                    <finlex:date date="2005-06-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>449/2005</docNumber>
+                <docTitle>Lag om ändring av 6 och 15 § i lagen om Finansinspektionen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 27 juni 2003 om Finansinspektionen (
+                        <affectedDocument href="/akn/fi/act/statute/2003/587">587/2003</affectedDocument>
+                        ) 6 § 1 punkten och 15 §,
+                    </block>
+                    <block name="substitutions-originals">sådana de lyder, 6 § 1 punkten i lag 299/2005 och 15 § delvis ändrad i lagarna 706/2004 och 1295/2004, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>6 §</num>
+                    <heading>Andra finansmarknadsaktörer</heading>
+                    <subsection>
+                        <intro>
+                            <p>Med andra finansmarknadsaktörer avses i denna lag</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>emittenter av värdepapper som är föremål för offentlig handel och sådant handelsförfarande som avses i 3 kap. 16 § i värdepappersmarknadslagen och emittenter av värdepapper för vilka det har lämnats in en ansökan om upptagande till offentlig handel samt andra som är skyldiga att offentliggöra prospekt enligt 2 kap. 3 § i värdepappersmarknadslagen eller som erbjuder värdepapper enligt 2 kap. 2 §,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>15 §</num>
+                    <heading>Granskningsrätt och rätt att få uppgifter</heading>
+                    <subsection>
+                        <content>
+                            <p>Finansinspektionen har utan hinder av bestämmelserna om sekretess rätt att på ett tillsynsobjekts verksamhetsställe granska handlingar och andra dokument som gäller tillsynsobjektet och dess kunder samt rätt att få kopior av handlingarna och dokumenten. Finansinspektionen har också rätt att granska tillsynsobjekts datasystem samt kassa och övriga tillgångar. Vidare har Finansinspektionen rätt att på övriga på finansmarknaden verksamma sammanslutningars och stiftelsers verksamhetsställen granska sådana handlingar och övriga dokument rörande sammanslutningen eller stiftelsen som den behöver för att fullgöra sitt uppdrag samt att få kopior av handlingarna och dokumenten.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tillsynsobjekt och övriga finansmarknadsaktörer samt deras styrelse- och förvaltningsrådsmedlemmar och verkställande direktörer skall utan hinder av sekretessbestämmelserna och utan obefogat dröjsmål tillställa Finansinspektionen de för tillsynen och fastställandet av tillsynsavgiften relevanta uppgifter och redogörelser som den ber om. Motsvarande skyldighet har den som i förhållande till ett tillsynsobjekt eller en annan aktör på finansmarknaden har sådant bestämmande inflytande som avses i 1 kap. 5 § i värdepappersmarknadslagen samt den som tillsynsobjektet eller någon annan aktör på finansmarknaden har bestämmande inflytande i. Finansinspektionen kan meddela föreskrifter om vilka uppgifter om tillsynsobjekts finansiella ställning, ägare, interna kontroll och riskhantering, förvaltnings- och kontrollorgan, anställda samt verksamhetsställen som regelbundet skall rapporteras till Finansinspektionen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Finansinspektionen har utan hinder av sekretessbestämmelserna rätt att av tillsynsobjekts och övriga på finansmarknaden verksamma sammanslutningars och stiftelsers revisorer få alla för tillsynen relevanta uppgifter samt att få för tillsynen relevanta kopior av sådana handlingar och dokument rörande tillsynsobjekt eller andra på finansmarknaden verksamma sammanslutningar och stiftelser som revisorerna har i sin besittning. Finansinspektionen har motsvarande rätt att få uppgifter av revisorer för sammanslutningar eller stiftelser som har i 1 kap. 5 § i värdepappersmarknadslagen avsett bestämmande inflytande i tillsynsobjekt eller andra på finansmarknaden verksamma aktörer samt av revisorer för sammanslutningar eller stiftelser i vilka tillsynsobjekt eller andra på finansmarknaden verksamma aktörer har bestämmande inflytande. Vad som i detta moment föreskrivs om revisorer tillämpas också på andra personer som enligt lag är skyldiga eller som har samtyckt till att deras yttrande eller något annat dokument fogas till ett prospekt som avses i 2 kap. 3 § i värdepappersmarknadslagen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vad som i 1―3 mom. föreskrivs om tillsynsobjekt skall också tillämpas på finska företag som hör till samma inhemska eller utländska koncern eller konsolideringsgrupp som tillsynsobjektet eller som är dettas intresseföretag. Finansinspektionen har utan hinder av bestämmelserna om sekretess dessutom rätt att av ett tillsynsobjekt få de uppgifter som avses i 2 mom. om utländska företag som hör till samma koncern eller konsolideringsgrupp som tillsynsobjektet och om dettas utländska intresseföretag samt rätt att granska handlingar och övriga dokument som innehåller sådana uppgifter och som tillsynsobjektet har i sin besittning samt att få kopior av dem. Vad som ovan i detta moment föreskrivs om företag som hör till en inhemsk eller utländsk koncern eller konsolideringsgrupp tilllämpas på motsvarande sätt på inhemska och utländska företag som hör till ett finans- och försäkringskonglomerat som avses i lagen om tillsyn över finans- och försäkringskonglomerat (699/2004), om Finansinspektionen är samordnande tillsynsmyndighet enligt den nämnda lagen eller i övrigt utför uppgifter som med stöd av den nämnda lagen hör till Finansinspektionen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Finansinspektionen har utan hinder av bestämmelserna om sekretess rätt att granska för tillsynen relevanta uppgifter på verksamhetsställen till företag som är ombud för tillsynsobjekt eller som på uppdrag av ett tillsynsobjekt sköter uppgifter som gäller dess bokföring, datasystem, riskhantering eller interna kontroll i övrigt.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Finansinspektionen har utan hinder av sekretessbestämmelserna rätt att för en specificerad tillsynsåtgärd få för tillsynen relevanta uppgifter, handlingar och andra dokument samt kopior av handlingar och andra dokument av andra än ovan i denna paragraf avsedda personer, vilka av grundad anledning kan antas vara i besittning av för tillsynen nödvändiga uppgifter eller handlingar och andra dokument. Finansinspektionen skall återlämna handlingar och andra dokument som den fått i original. Finansinspektionen har emellertid inte rätt att av en advokat få i detta moment avsedda uppgifter, handlingar eller andra dokument som gäller dennes klienter och inte heller uppgifter, handlingar eller andra dokument som erhållits i samband med skötseln av ett uppdrag som rättegångsbiträde eller rättegångsombud. Förutom egentliga uppgifter i samband med en rättegång räknas till ett rättegångsbiträdes eller rättegångsombuds uppgifter juridisk rådgivning rörande en klients rättsliga ställning vid förundersökning till följd av brott eller vid annan behandling av saken som föregår rättegång samt juridisk rådgivning för inledande eller undvikande av rättegång.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Finansinspektionen har rätt att ur det bötesregister som avses i 46 § i lagen om verkställighet av böter (672/2002) få de uppgifter som är nödvändiga för att utreda om ett tillsynsobjekts ägare, styrelsemedlemmar, verkställande direktör eller anställda har den tillförlitlighet som lagen förutsätter. Särskilda bestämmelser gäller om rätten att få uppgifter ur straffregistret.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juli 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 38/2005</p>
+                        <p>EkUB 9/2005</p>
+                        <p>RSv 71/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 23 juni 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Andra finansminister </role>
+                                <person refersTo="">Ulla-Maj Wideroos </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

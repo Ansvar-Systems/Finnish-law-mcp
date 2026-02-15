@@ -1,0 +1,308 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1359/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1359"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1359/alkup"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1359"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1359/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1359/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1359/alkup/fin"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1359/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1359/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1359/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="202"/>
+                    <finlex:date date="2007-12-31"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1359/2007</docNumber>
+                <docTitle>Laki tapaturmavakuutuslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         20 päivänä elokuuta 1948 annetun tapaturmavakuutuslain (<affectedDocument href="/akn/fi/act/statute/1948/608">608/1948</affectedDocument>) 41 §:n 6 momentti, sellaisena kuin se on laissa 723/2002,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         28 §:n 6 momentti, 35 §:n 1 momentti, 53 §:n 6 momentti, 53 i §:n 4 momentti, 58 §, 60 §:n 1 ja 2 momentti, 60 b §:n 1 momentti ja 64 b §,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 28 §:n 6 momentti ja 60 §:n 2 momentti laissa 1365/2004, 35 §:n 1 momentti ja 58 § laissa 1204/1996, 53 §:n 6 momentti laissa 388/2007, 53 i §:n 4 momentti laissa 484/2007, 60 §:n 1 momentti laissa 1234/2005, 60 b §:n 1 momentti laissa 1367/2006 ja 64 b § mainitussa laissa 723/2002, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 60 c § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>28 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Jos vuosityöansio on pienempi kuin  9 211,76 euroa, se korotetaan 9 211,76 euroksi. Vuosityöansiota ei kuitenkaan koroteta, jos työntekijä sai tapaturman sattuessa:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>työntekijän eläkelain (395/2006) 3 §:ssä tarkoitettujen lakien mukaista toistaiseksi myönnettyä täyttä työkyvyttömyyseläkettä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>kansaneläkelaissa (568/2007) tarkoitettua toistaiseksi myönnettyä työkyvyttömyyseläkettä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>työntekijän eläkelain voimaanpanolain (396/2006) 1 §:n 2 momentissa tarkoitettuun aikaisempaan lainsäädäntöön perustuvaa täyttä työkyvyttömyyseläkettä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>kansaneläkelain voimaanpanosta annetun lain (569/2007) 1 §:n 3 momentissa tarkoitettuun aikaisempaan lainsäädäntöön perustuvaa työkyvyttömyyseläkettä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>tämän lain mukaan määräytyvää, toistaiseksi myönnettyä täyttä tapaturmaeläkettä tai sitä vastaavaa liikennevakuutuslain mukaista korvausta; taikka</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>1―4 kohdassa tarkoitettuun lainsäädäntöön perustuvaa vanhuuseläkettä ja työntekijä oli tapaturman sattuessa täyttänyt 65 vuotta.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>35 §</num>
+                    <subsection>
+                        <content>
+                            <p>Tämän lain mukaista vakuutusta harjoittavalla vakuutuslaitoksella on oltava laskuperusteet, joissa määrätään, miten vakuutusmaksut lasketaan. Laskuperusteet on laadittava tämän lain mukaiselle pakolliselle vakuutukselle, 57 §:n 1 ja 4 momentin mukaiselle työajan vakuutukselle ja 57 §:n 2 ja 3 momentin mukaiselle vapaa-ajan vakuutukselle kullekin erikseen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>53 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Asian käsittelyssä tapaturma-asioiden muutoksenhakulautakunnassa sovelletaan hallintolainkäyttölakia, jollei erikseen toisin säädetä. Tapaturma-asioiden muutoksenhakulautakunnassa toimitetaan tarvittaessa asian selvittämiseksi suullinen käsittely siten kuin hallintolainkäyttölain 37 §:ssä säädetään. Mitä hallintolainkäyttölain 38 §:ssä säädetään suullisen käsittelyn toimittamisesta yksityisen asianosaisen pyynnöstä hallinto-oikeudessa, koskee suullisen käsittelyn toimittamista tapaturma-asioiden muutoksenhakulautakunnassa. Oikeudenkäynnin julkisuudesta tapaturma-asioiden muutoksenhakulautakunnassa ja muutoksenhakulautakunnan ratkaisukokoonpanosta asiassa, joka koskee oikeudenkäynnin julkisuutta, on voimassa, mitä oikeudenkäynnin julkisuudesta hallintotuomioistuimissa annetussa laissa (381/2007) säädetään. Tarkempia säännöksiä tapaturmaasioiden muutoksenhakulautakunnasta ja siitä aiheutuvista kustannuksista voidaan antaa valtioneuvoston asetuksella. Muutoksenhakulautakunta vahvistaa itselleen työjärjestyksen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>53 i §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Tapaturma-asioiden muutoksenhakulautakunnan tilintarkastukseen sovelletaan, mitä tilintarkastuslaissa (459/2007) säädetään tilintarkastajan riippumattomuudesta, esteellisyydestä, salassapitovelvollisuudesta, erottamisesta ja eroamisesta. Muutoksenhakulautakunnan täysistunto valitsee vuosittain tilintarkastajan ja varatilintarkastajan. Tilintarkastajan ja varatilintarkastajan tulee olla Keskuskauppakamarin hyväksymä tilintarkastaja (KHT). Tilinpäätöksen vahvistaa ja vastuuvapauden hallintojaostolle myöntää tapaturma-asioiden muutoksenhakulautakunnan täysistunto. Tapaturma-asioiden muutoksenhakulautakunta antaa vahvistetun tilinpäätöksen tiedoksi Vakuutusvalvontavirastolle. Jos tilinpäätös osoittaa yli- tai alijäämää vahvistettuun talousarvioon nähden, erotus otetaan huomioon seuraavalta vuodelta määrättävän oikeushallintomaksun perusteissa.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>58 §</num>
+                    <subsection>
+                        <content>
+                            <p>Vakuutuslaitos on velvollinen suorittamaan vuosittain Tapaturmavakuutuslaitosten liitolle maksun muista kuin 60 b §:n 1 momentin mukaan rahoitettavista tehtävistä aiheutuvien kustannusten kattamista varten. Maksun perusteet vahvistaa sosiaali- ja terveysministeriö liiton hakemuksesta enintään kolmeksi vuodeksi kerrallaan. Vakuutuslaitos tilittää maksut liitolle. Tarkempia säännöksiä maksun tilityksestä annetaan sosiaali- ja terveysministeriön asetuksella.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>60 §</num>
+                    <subsection>
+                        <content>
+                            <p>Tämän lain 10 §:n 2 momentissa, 11 §:ssä, 12 §:n 1 momentissa, 28 §:n 6 momentissa, 35 a §:ssä, 53 §:n 5 momentissa ja 60 a §:n 4 momentissa säädetyt rahamäärät tarkistetaan kalenterivuosittain työntekijän eläkelain 96 §:ssä tarkoitetulla palkkakertoimella. Tämän lain 16 §:n 3 momentissa, 20 §:n 2―4 momentissa ja 20 a §:n 2―4 momentissa säädetyt rahamäärät tarkistetaan kalenterivuosittain työntekijän eläkelain 98 §:ssä tarkoitetulla työeläkeindeksillä. Tarkistetut rahamäärät pyöristetään siten, että 20 §:n 2―4 momentissa, 20 a §:n 2―4 momentissa ja 60 a §:n 4 momentissa säädetyt rahamäärät pyöristetään lähimmäksi sentiksi, 10 §:n 2 momentissa, 12 §:n 1 momentissa ja 35 a §:ssä säädetyt rahamäärät lähimmäksi täydeksi euroksi sekä 11 §:ssä, 16 §:n 3 momentissa, 28 §:n 6 momentissa ja 53 §:n 5 momentissa säädetyt rahamäärät lähimmäksi täydeksi kymmeneksi euroksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tapaturmaeläke, jatkuvana maksettava haittaraha ja perhe-eläke tarkistetaan kalenterivuosittain työntekijän eläkelain 98 §:ssä tarkoitetulla työeläkeindeksillä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>60 b §</num>
+                    <subsection>
+                        <intro>
+                            <p>
+                                Tämän lain mukaista vakuutusta harjoittavien vakuutusyhtiöiden on osallistuttava vuosittain tässä pykälässä tarkoitettujen kustannusten rahoitukseen vakuutusmaksutulon mukaisessa suhteessa siten kuin 2―7 momentissa säädetään (<i>jakojärjestelmä</i>). Vakuutusmaksutulolla tarkoitetaan tässä pykälässä vakuutusyhtiön tuloslaskelmaan sisältyvää tämän lain mukaisen vakuutuksen vakuutusmaksutuloa. Rahoitettavat kustannukset ovat:
+                            </p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>10 §:n 2 momentin ja 11 §:n mukaiset vakuuttamattomassa työssä sattuneista tapaturmista aiheutuvat kustannukset, joista on vähennetty 36 §:n nojalla saadut maksut;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>Suomea sitovasta kansainvälisestä sopimuksesta johtuvista asuin- ja oleskelupaikan vakuutuslaitoksen tehtävistä aiheutuneet kustannukset;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <intro>
+                                <p>vakuutusyhtiön kalenterivuonna maksamat:</p>
+                            </intro>
+                            <subparagraph>
+                                <num>a)</num>
+                                <content>
+                                    <p>tapaturmaeläkkeiden, jatkuvina maksettavien haittarahojen, perhe-eläkkeiden, kertakaikkisten korvausten, hautausapujen sekä haitta-, vaate- ja opaskoiralisien indeksikorotukset;</p>
+                                </content>
+                            </subparagraph>
+                            <subparagraph>
+                                <num>b)</num>
+                                <content>
+                                    <p>15, 15 a ja 15 b §:ssä säädetyt sairaanhoidon korvaukset ja maksut, jotka maksetaan, kun tapaturman sattumispäivää seuraavan kalenterivuoden alusta on kulunut yli yhdeksän vuotta;</p>
+                                </content>
+                            </subparagraph>
+                            <subparagraph>
+                                <num>c)</num>
+                                <content>
+                                    <p>tapaturmavakuutuslain perusteella korvattavasta kuntoutuksesta annetun lain 7 §:ssä tarkoitetun kuntoutuksen korvaukset, jotka maksetaan, kun tapaturman sattumispäivää seuraavan kalenterivuoden alusta on kulunut yli yhdeksän vuotta;</p>
+                                </content>
+                            </subparagraph>
+                            <subparagraph>
+                                <num>d)</num>
+                                <content>
+                                    <p>korvaukset ammattitautilain (1343/1988) mukaan korvattavasta ammattitaudista, jonka ilmetessä on kulunut vähintään viisi vuotta altistuksesta, joka on viimeksi voinut aiheuttaa ammattitaudin;</p>
+                                </content>
+                            </subparagraph>
+                            <subparagraph>
+                                <num>e)</num>
+                                <content>
+                                    <p>14 §:n 4 momentissa tarkoitetut kulut, jotka on korvattu d kohdassa tarkoitettua ammattitautia epäiltäessä.</p>
+                                </content>
+                            </subparagraph>
+                            <hcontainer name="omission"/>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>60 c §</num>
+                    <subsection>
+                        <content>
+                            <p>Jos vakuutuskantaa on siirtynyt vakuutusyhtiöstä toiseen jakautumisen tai vakuutuskannan luovutuksen seurauksena, siirtyneisiin vakuutuksiin kohdistuvien toteutuneiden ja ennakkoarvion mukaisten vakuutusmaksutulojen ja jakojärjestelmäkorvausten sekä näitä vakuutuksia vastaavan osuuden jakojärjestelmävuotta edeltävän vuoden vahvistetusta jakojärjestelmäsaldosta katsotaan 60 b §:n 4 momentin mukaista ennakkoarviota tehtäessä ja pykälän 5 momentin mukaisia jakojärjestelmäeriä vahvistettaessa kuuluvan sille vakuutusyhtiölle, jolle vakuutuskanta on siirtynyt.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>64 b §</num>
+                    <subsection>
+                        <content>
+                            <p>Vakuutuslaitoksella ja Tapaturmavakuutuslaitosten liitolla on oikeus tarkastaa työnantajan asiakirjoista työnantajan tämän lain mukaisen tietojenantovelvollisuuden piiriin kuuluvien tietojen oikeellisuus. Vakuutuslaitoksella ja Tapaturmavakuutuslaitosten liitolla on oikeus saada poliisilta ja muulta viranomaiselta virka-apua edellä tarkoitettujen tietojen saamiseksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vakuutuslaitoksella, Tapaturmavakuutuslaitosten liitolla ja tämän lain mukaisella muutoksenhakuelimellä on oikeus saada maksutta tiedot, jotka niillä on tämän lain ja sosiaali- ja terveydenhuollon asiakasmaksuista annetun lain 13 b §:n mukaan oikeus saada. Jos 64 a §:n 1 momentin 1 ja 2 kohdassa tarkoitetut tiedot pyydetään tietyssä muodossa ja siitä aiheutuu tietojen luovuttajalle lisäkustannuksia, lisäkustannukset on korvattava.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vahingoittuneen terveydentilaa koskevat tiedot on 2 momentissa tarkoitetulla pyytäjällä oikeus saada siinä muodossa kuin pyytäjä on luovutuspyynnössä yksilöinyt. Tällöin tietojen luovuttajalla on oikeus saada 64 a §:n 1 momentin 3 kohdan perusteella luovuttamistaan tiedoista tietojen pyytäjältä kohtuullinen korvaus tietojen luovuttamisesta aiheutuneesta työstä ja kustannuksesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Terveydenhuollon ammattihenkilöistä annetussa laissa tarkoitetulla ammattihenkilöllä on oikeus saada kohtuullinen palkkio 64 a §:n 1 momentin 3 kohdassa säädetyn tietojenantovelvollisuuden perusteella antamastaan lausunnosta. Lausunto on annettava Tapaturmavakuutuslaitosten liiton hyväksymän kaavan mukaista lomaketta käyttäen. Jos lausunnon on antanut kunnan tai kuntayhtymän järjestämän terveydenhuollon palveluksessa oleva henkilö, palkkio suoritetaan kunnalle tai kuntayhtymälle.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                    <p>Tätä lakia sovellettaessa 28 §:n 6 momentissa säädetty rahamäärä vastaa vuoden 2004 indeksitasoa.</p>
+                    <p>Tämän lain mukaista vakuutusta harjoittavan vakuutusyhtiön 60 b §:n 1 momentin 1 ja 2 kohdan perusteella vapautuva korvausvastuu siirtyy lain tullessa voimaan yhtiön sanotun pykälän 3 momentissa tarkoitettuun vakuutusyhtiökohtaiseen jakojärjestelmäsaldoon.</p>
+                    <p>Tämän lain 60 b §:n 1 momentin 3 d ja e kohtaa sovelletaan ammattitautilaissa tarkoitettuun ammattitautiin ja ammattitautiepäilystä aiheutuneisiin kuluihin, jos altistusta, joka on viimeksi voinut aiheuttaa ammattitaudin, on ollut lain tultua voimaan.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/138">HE 138/2007</ref>
+                        </p>
+                        <p>StVM 19/2007</p>
+                        <p>EV 94/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 21 päivänä joulukuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

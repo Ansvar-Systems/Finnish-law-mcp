@@ -1,0 +1,123 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/945/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/945"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/945/alkup"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="945"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/945/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/945/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/945/alkup/swe"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/945/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/945/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/945/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>945/2015</docNumber>
+                <docTitle>Lag om ändring av 8 kap. 5 § i lagen om värdeandelssystemet och om clearingverksamhet</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om värdeandelssystemet och om clearingverksamhet (
+                        <affectedDocument href="/akn/fi/act/statute/2012/749">749/2012</affectedDocument>
+                        ) 8 kap. 5 §, sådan den lyder delvis ändrad i lag 256/2013, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>8 kap.</num>
+                    <heading>Särskilda bestämmelser</heading>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Överklagande av finansministeriets beslut</heading>
+                        <subsection>
+                            <content>
+                                <p>Beslut som finansministeriet meddelat med stöd av denna lag får överklagas genom besvär hos Helsingfors förvaltningsdomstol. Över förvaltningsdomstolens beslut får besvär anföras på det sätt som anges i förvaltningsprocesslagen (586/1996).</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om ett i 2 kap. 1 § avsett beslut om beviljande av verksamhetstillstånd för en värdepapperscentral, ett i 2 kap. 23 § avsett beslut om fastställelse av värdepapperscentralens regler, ett i 3 kap. 1 § avsett beslut om beviljande av verksamhetstillstånd för en clearingorganisation eller ett i 3 kap. 5 § avsett beslut om fastställelse av clearingorganisationens regler eller ett i 4 kap. 1 § avsett beslut om beviljande av verksamhetstillstånd för en central motpart inte har meddelats inom den föreskrivna tidsfristen, får sökanden anföra besvär. Besvären anses då avse ett beslut om avslag av ansökan. Sådana besvär får anföras till dess att beslut har meddelats. Finansministeriet ska underrätta besvärsmyndigheten om beslutet, om detta har meddelats efter att besvär anförts. Bestämmelser i övrigt om anförande och behandling av besvär finns i förvaltningsprocesslagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016.</p>
+                    <p>På sökande av ändring i ett förvaltningsbeslut som meddelats före ikraftträdandet av denna lag tillämpas de bestämmelser som gällde vid ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 230/2014</p>
+                        <p>LaUB 26/2014</p>
+                        <p>RSv 319/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Nådendal den 7 augusti 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitie- och arbetsminister</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

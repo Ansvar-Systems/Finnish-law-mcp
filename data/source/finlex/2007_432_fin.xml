@@ -1,0 +1,162 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/432/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/432"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/432/alkup"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="432"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/432/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/432/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/432/alkup/fin"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/432/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/432/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/432/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="65"/>
+                    <finlex:date date="2007-04-20"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>432/2007</docNumber>
+                <docTitle>Laki perintökaaren 25 luvun 8 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         5 päivänä helmikuuta 1965 annetun perintökaaren (
+                        <affectedDocument href="/akn/fi/act/statute/1965/40">40/1965</affectedDocument>
+                        ) 25 luvun 8 §, sellaisena kuin se on laissa 612/1989, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>25 luku</num>
+                    <heading>Jäämistöön kuuluvan maatilan jakamisesta</heading>
+                    <section>
+                        <num>8 §</num>
+                        <subsection>
+                            <intro>
+                                <p>Ennen lopullista perinnönjakoa, jossa sovelletaan tämän luvun säännöksiä, pesänjakajan on tarvittaessa tai kuolinpesän osakkaan vaatimuksesta hankittava työvoima- ja elinkeinokeskukselta, jonka alueella jäämistöön kokonaan tai osaksi kuuluvan maatilan talouskeskus sijaitsee, lausunto siitä:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>onko jäämistöön kuuluva maatila sellainen, että sen viljelijä ja hänen perheenjäsenensä voivat saada siitä pääasiallisen toimeentulonsa taikka muodostavatko jäämistöön kuuluvat tilat tai tilanosat joko yksinään tai yhdessä soveliaan tilanpidonjatkajan ja hänen puolisonsa omistamien tilojen tai tilanosien kanssa, 1 b §:n 2 momentissa tarkoitetussa tapauksessa eloonjääneelle puolisolle kuuluva osa mukaan luettuna, sellaisen maatilataloudellisen kokonaisuuden, josta sen viljelijä ja hänen perheenjäsenensä voivat saada pääasiallisen toimeentulonsa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>onko sillä, joka haluaa jäämistöön kuuluvan maatilan, tilan tai tilanosan tämän luvun mukaisesti perintöosaansa, riittävät ammatilliset edellytykset maatalouselinkeinon harjoittamiseen;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>kenellä useasta soveliaasta tilanpidonjatkajasta, jotka haluavat jäämistöön kuuluvan maatilan, tilan tai tilanosan tämän luvun mukaisesti perintöosaansa, on parhaat ammatilliset edellytykset kysymykseen tulevan maatalouselinkeinon harjoittamiseen;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>voidaanko maatilasta jaon yhteydessä luovuttaa alueita muille osakkaille, kun otetaan huomioon 4 §:n säännökset; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>mikä on jäämistöön kuuluvan maatilan, tilan tai tilanosan käypä arvo ja 2 §:n mukainen laskelmallinen arvo.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos osakas ei hyväksy työvoima- ja elinkeinokeskuksen lausuntoa, hän voi kuukauden kuluessa siitä, kun hän todistettavasti sai tiedon tästä lausunnosta, pyytää 1 momentissa mainituista seikoista Maaseutuviraston lausunnon. Maaseutuviraston tulee lähettää lausuntonsa lausunnon pyytäjälle ja pesänjakajalle.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Työvoima- ja elinkeinokeskuksen ja Maaseutuviraston on annettava tässä pykälässä tarkoitettu lausuntonsa kiireellisenä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä toukokuuta 2007.</p>
+                    <p>Tämän lain voimaan tullessa ne maa- ja metsätalousministeriössä vireillä olevat asiat, jotka tämän lain mukaan kuuluvat Maaseutuviraston tehtäviin, käsitellään kuitenkin lain voimaan tullessa voimassa olleiden säännösten mukaisesti maa- ja metsätalousministeriössä.</p>
+                    <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/218">HE 218/2006</ref>
+                        </p>
+                        <p>MmVM 20/2006</p>
+                        <p>EV 282/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 13 päivänä huhtikuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Maa- ja metsätalousministeri </role>
+                                <person refersTo="">Juha Korkeaoja</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,157 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1219/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1219"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1219/alkup"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1219"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1219/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1219/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1219/alkup/swe"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1219/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1219/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1219/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="200"/>
+                    <finlex:date date="2005-12-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1219/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om statsandelar till kommunerna</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 20 december 1996 om statsandelar till kommunerna (<affectedDocument href="/akn/fi/act/statute/1996/1147">1147/1996</affectedDocument>) 7 § 1 och 2 mom.,
+                    </block>
+                    <block name="substitutions-originals">av dem 7 § 2 mom. sådant det lyder i lag 1360/2001, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 12 b § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>7 §</num>
+                    <heading>Utjämning av statsandelarna på basis av skatteinkomsterna</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Kommunen beviljas en på skatteinkomsterna baserad ökning av statsandelen 
+                                <i>(utjämningstillägg)</i>, om dess kalkylerade skatteinkomst per invånare är mindre än 91,86 procent av det belopp som fås genom att alla kommuners sammanräknade kalkylerade skatteinkomster delas med kommunernas sammanräknade invånarantal 
+                                <i>(utjämningsgräns)</i>. Kommunens statsandelar ökas med ett utjämningstillägg som motsvarar beloppet av skillnaden mellan utjämningsgränsen och kommunens kalkylerade skatteinkomst.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>
+                                Om kommunens kalkylerade skatteinkomst per invånare överskrider utjämningsgränsen, minskas kommunens statsandelar med ett belopp som utgör 37 procent av skillnaden mellan de per invånare i kommunen beräknade kalkylerade skatteinkomsterna och utjämningsgränsen 
+                                <i>(utjämningsavdrag)</i>.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>12 b §</num>
+                    <heading>Beaktande av arbetsmarknadsstöd och utkomststöd i den allmänna statsandelen</heading>
+                    <subsection>
+                        <content>
+                            <p>Kommunens allmänna statsandel ökas eller minskas med ett belopp som beräknats så som bestäms i 2―4 mom. på grundval av de utgifter för arbetsmarknadsstödet och utkomststödet som kommunen ansvarar för. De beräkningar som avses i denna paragraf görs utifrån uppgifterna för 2003 enligt kostnadsnivån för 2005.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>När ökningen eller minskningen av den allmänna statsandelen beräknas, ökas de arbetsmarknadsstöd som betalts till i kommunen bosatta personer som fått arbetsmarknadsstöd på grund av arbetslöshet för minst 500 dagar med kommunens utgifter i anslutning till det grundläggande utkomststödet, och beloppet divideras med två. Det erhållna beloppet minskas med den andel av den kalkylerade kostnaden för det grundläggande utkomststödet som inte kalkylmässigt täckts av den statsandel som beviljats för ändamålet samt med de ökningar av kommunens statsandel som 2006 föranleds av att statsandelsprocenten för social- och hälsovård höjs med 0,56 procentenheter och av att den utjämningsgräns som avses i 7 § 1 mom. höjs med en procentenhet från 90 procent.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kommunens allmänna statsandel ökas eller minskas 2006 med hela det belopp som beräknats enligt 2 mom. Beloppet sänks för alla kommuner med 2,9 euro per invånare 2007 och dessutom med 2,9 euro per invånare 2008. Därefter ändras inte ökningen eller minskningen av den allmänna statsandelen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Som kommunens utgifter för det grundläggande utkomststödet betraktas utgifter som motsvarar 90 procent av kommunens totala utgifter för utkomststödet 2003.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2006. </p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 164/2005</p>
+                        <p>ShUB 34/2005</p>
+                        <p>RSv 216/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 december 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

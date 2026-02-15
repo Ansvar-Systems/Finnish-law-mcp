@@ -1,0 +1,143 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1206/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1206"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1206/alkup"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1206"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1206/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1206/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1206/alkup/swe"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1206/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1206/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1206/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="198"/>
+                    <finlex:date date="2005-12-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1206/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om verkställighet av böter</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras </i>
+                        i lagen av den 9 augusti 2002 om verkställighet av böter (<affectedDocument href="/akn/fi/act/statute/2002/672">672/2002</affectedDocument>) 1 § 7 punkten, 2 § 4 mom. och 5 § 1 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Lagens tillämpningsområde</heading>
+                    <subsection>
+                        <intro>
+                            <p>I den ordning som föreskrivs i denna lag verkställs följande påföljder:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>en på statens regressrätt enligt 31 § i brottsskadelagen (1204/2005) grundad fordran på den som ansvarar för en skada och en fordran som staten har på ersättningstagaren enligt beslut om återkrav som avses i 42 § 2 mom. i nämnda lag.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>2 §</num>
+                    <heading>Påföljders verkställbarhet</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Angående verkställbarheten av fordringar som avses i 1 § 7 punkten föreskrivs särskilt.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <heading>Tillfälle att erlägga betalning</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Den myndighet som i första instans bestämmer böter och andra påföljder i pengar (<i>fordran</i>) som skall verkställas i den ordning som föreskrivs i denna lag, den myndighet som sörjer för självindrivning och Rättsregistercentralen i fråga om fordringar som avses i 1 § 7 punkten, skall ge den betalningsskyldige tillfälle att betala beloppet omedelbart.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 192/2005</p>
+                        <p>LaUB 16/2005</p>
+                        <p>RSv 186/2005</p>
+                        <p>Rådets direktiv 2004/80/EG (32004L0080); EGT nr L 261, 6.8.2004, s. 15</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 december 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

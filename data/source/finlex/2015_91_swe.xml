@@ -1,0 +1,121 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/91/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/91"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/91/alkup"/>
+                    <FRBRdate date="2015-02-06" name="dateIssued"/>
+                    <FRBRdate date="2015-02-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="91"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/91/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/91/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/91/alkup/swe"/>
+                    <FRBRdate date="2015-02-06" name="dateIssued"/>
+                    <FRBRdate date="2015-02-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/91/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/91/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/91/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-02-11" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>91/2015</docNumber>
+                <docTitle>Lag om ändring av 24 § i lagen om offentlighet i myndigheternas verksamhet</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om offentlighet i myndigheternas verksamhet (
+                        <affectedDocument href="/akn/fi/act/statute/1999/621">621/1999</affectedDocument>
+                        ) 24 § 1 mom. 28 punkten, sådan den lyder i lag 1067/2014, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>24 §</num>
+                    <heading>Sekretessbelagda myndighetshandlingar</heading>
+                    <subsection>
+                        <intro>
+                            <p>Om inte något annat föreskrivs särskilt, är följande myndighetshandlingar sekretessbelagda:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>28)</num>
+                            <content>
+                                <p>en förvaltningsmyndighets handlingar och register med uppgifter om en dömd, en häktad eller en person som annars berövats sin frihet, om det inte är uppenbart att utlämnandet av uppgifter inte äventyrar personens framtida utkomst, anpassning i samhället eller säkerhet, och om det finns grundad anledning att lämna ut uppgiften; sekretessbelagda är också uppgifter som registrerats i straffregistret, bötesregistret, justitieförvaltningens riksomfattande informationssystem och registret över djurhållningsförbud samt uppgifter som registrerats i registret över vittnesskyddsprogram och andra uppgifter som gäller vittnesskyddsprogram liksom också uppgifter som Institutet för kriminologi och rättspolitik samlat in för forskning och uppföljningsändamål,</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 65/2014</p>
+                        <p>FvUB 38/2014</p>
+                        <p>RSv 248/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 6 februari 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister</role>
+                                <person refersTo="">Päivi Räsänen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

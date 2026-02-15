@@ -1,0 +1,220 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1088/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1088"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1088/alkup"/>
+                    <FRBRdate date="2007-11-30" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1088"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1088/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1088/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1088/alkup/fin"/>
+                    <FRBRdate date="2007-11-30" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1088/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1088/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1088/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="160"/>
+                    <finlex:date date="2007-12-05"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1088/2007</docNumber>
+                <docTitle>Laki valtion virkamieslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         19 päivänä elokuuta 1994 annetun valtion virkamieslain (
+                        <affectedDocument href="/akn/fi/act/statute/1994/750">750/1994</affectedDocument>
+                        ) 11 §, 53 §:n 1 ja 2 momentti, 56 §:n 1 momentti, 65 §:n 1 momentti ja 66 §:n 3 ja 4 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 11 § laissa 25/2004, 53 §:n 1 momentti ja 66 §:n 3 momentti laissa 604/1997 ja 53 §:n 2 momentti laissa 677/2006, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         9 §:ään uusi 3 momentti, jolloin nykyinen 3 momentti siirtyy 4 momentiksi, lakiin uusi 23 a §, 35 §:ään, sellaisena kuin se on laissa 682/2004, uusi 4 momentti, 40 §:ään uusi 4 momentti sekä 65 §:ään, sellaisena kuin se on osaksi laissa 604/2007, uusi 3 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>9 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos virkamies nimitetään 1 tai 2 momentin nojalla määräajaksi, tulee nimittämiskirjasta ilmetä määräaikaisuuden peruste. Virkamies on nimitettävä koko määräaikaisuuden perusteena olevaksi ajaksi, jollei erityisestä syystä toisin päätetä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>11 §</num>
+                    <subsection>
+                        <content>
+                            <p>Viranomaisen on kohdeltava palveluksessaan olevia virkamiehiä tasapuolisesti niin, ettei ketään perusteettomasti aseteta toisiin nähden eri asemaan syntyperän, etnisen alkuperän, kansalaisuuden, sukupuolen, sukupuolisen suuntautumisen, uskonnon, vakaumuksen, vammaisuuden, iän taikka poliittisen tai ammattiyhdistystoiminnan taikka muun näihin verrattavan seikan vuoksi. Siitä, mitä syrjinnän käsitteellä tarkoitetaan, vastatoimien kiellosta ja todistustaakasta syrjintäasiaa käsiteltäessä säädetään sukupuoleen perustuvan syrjinnän osalta naisten ja miesten välisestä tasa-arvosta annetussa laissa (609/1986) sekä eräiden muiden syrjintäperusteiden osalta yhdenvertaisuuslaissa (21/2004).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <chapter>
+                    <num>5 luku</num>
+                    <heading>Virkavapaus</heading>
+                    <section>
+                        <num>23 a §</num>
+                        <subsection>
+                            <content>
+                                <p>Virkamiehen on hakiessaan virkavapautta sairauden perusteella todistettava sairautensa sairausvakuutuslain (1224/2004) mukaisen päivärahan hakemista varten vahvistetun kaavan mukaisella lääkärintodistuksella, terveyskeskuksen terveydenhoitajan antamalla todistuksella taikka viraston osoittaman terveydenhoitajan tai sairaanhoitajan antamalla todistuksella. Jos sairaus kestää enintään kolme vuorokautta, virkamies voi todistaa sairautensa myös muulla virkavapauden myöntävän viranomaisen hyväksymällä luotettavalla tavalla. Jos sairaus kuitenkin kestää yli viisi vuorokautta, on se todistettava edellä tarkoitetulla lääkärintodistuksella.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Määrätyn ajanjakson tai alueen tai muulla tavoin rajoitettujen tapausten osalta voidaan valtioneuvoston asetuksella määrätä lievennyksistä virkamiehen velvollisuuteen sairauden todistamiseen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>35 §</num>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Kun virkamiehelle on virkasuhteen perusteella myönnetty täysi työkyvyttömyyseläke toistaiseksi, virkasuhde lakkaa ilman irtisanomista tai muuta virkasuhteen päättymistä tarkoittavaa toimenpidettä sen kalenterikuukauden päättyessä, jonka aikana virkamiehen oikeus sairausajan palkan saamiseen on päättynyt tai, jos työnantaja on saanut työkyvyttömyyseläkepäätöksestä tiedon myöhemmin, tiedoksisaantikuukauden päättyessä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>40 §</num>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Virantoimituksesta pidättämisestä päättäneen viranomaisen tulee seurata virantoimituksesta pidättämisen perusteita ja olosuhteiden muututtua tarvittaessa tehdä asiassa uusi päätös. Virantoimituksesta pidättämisen jatkaminen tulee ottaa viipymättä ratkaistavaksi virkamiehen sitä vaatiessa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>53 §</num>
+                        <subsection>
+                            <content>
+                                <p>Valtioneuvoston päätökseen, jolla valtioneuvosto on irtisanonut virkamiehen, purkanut virkasuhteen, pidättänyt virkamiehen virantoimituksesta tai päättänyt pitää virantoimituksesta pidättämisen edelleen voimassa, saadaan hakea muutosta valittamalla korkeimpaan hallinto-oikeuteen siten kuin hallintolainkäyttölaissa säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Päätökseen, jolla muu viranomainen kuin valtioneuvosto on antanut virkamiehelle varoituksen taikka lomauttanut tai irtisanonut virkamiehen, purkanut virkasuhteen tai muuttanut virkasuhteen osa-aikaiseksi, pidättänyt virkamiehen virantoimituksesta, päättänyt pitää virantoimituksesta pidättämisen edelleen voimassa tai määräaikaisesti erottanut virkamiehen virantoimituksesta, saadaan hakea oikaisua virkamieslautakunnalta. Oikaisuvaatimus on annettava virkamieslautakunnalle 30 päivän kuluessa päätöksen tiedoksisaannista. Viranomaisen on liitettävä oikaisuvaatimusosoitus päätökseen, johon saadaan hakea oikaisua.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>56 §</num>
+                        <subsection>
+                            <content>
+                                <p>Virkamiehellä, joka on ilman 9 §:n 1 tai 2 momentissa säädettyä perustetta taikka ilman 9 §:n 3 momentissa säädettyä erityistä syytä nimitetty määräajaksi tai ilman pätevää syytä toistuvasti peräkkäin nimitetty 9 §:n 1 tai 2 momentin nojalla määräajaksi, on oikeus virkasuhteen virastoon päättyessä sen vuoksi, ettei häntä enää nimitetä tämän viraston virkamieheksi, saada virastolta vähintään 6 ja enintään 24 kuukauden palkkaa vastaava korvaus. Korvauksen määrää maksettavaksi virkamieslautakunta.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>65 §</num>
+                        <subsection>
+                            <content>
+                                <p>Virkamies katsotaan eronneeksi aikaisemmasta virasta siitä ajankohdasta, josta hänet on muutoin kuin määräajaksi nimitetty toiseen valtion virkaan. Jos toinen valtion virka on kuitenkin 18 §:n 3 momentissa tarkoitettu sivutoimi, virkamiehen ei katsota eronneen aikaisemmasta virasta tällaiseen sivutoimiseen virkaan nimittämisen vuoksi.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Jos virkaan nimitetty virkamies nimitetään toiseen valtion virkaan ja tähän virkaan liittyy koeaika, virkamies katsotaan eronneeksi aikaisemmasta virasta, kun koeaika on päättynyt, jollei uutta virkasuhdetta ole koeaikana purettu. Virkamies on virkavapaana aikaisemmasta virastaan siihen saakka, kunnes koeaika uudessa virassa päättyy.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>66 §</num>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Viranomaisesta, joka antaa virkamiehelle varoituksen, lomauttaa tai irtisanoo virkamiehen, purkaa virkasuhteen, pidättää virantoimituksesta taikka siirtää virkamiehen 20 tai 21 §:n nojalla, säädetään valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Asianomaisen pääluottamusmiehen tai luottamusmiehen kuulemisesta, ennen kuin virkamiehen lomauttamisesta, irtisanomisesta tai virantoimituksesta pidättämisestä taikka virkasuhteen purkamisesta tehdään päätös, säädetään valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                    <p>Tällä lailla kumotaan 14 päivänä marraskuuta 1994 annetun valtion virkamiesasetuksen (971/1994) 22 ja 42 a §, sellaisena kuin niistä 42 a § on asetuksessa 793/1997.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/63">HE 63/2007</ref>
+                        </p>
+                        <p>HaVM 7/2007</p>
+                        <p>EV 67/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 30 päivänä marraskuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Valtiovarainministeri </role>
+                                <person refersTo="">Jyrki Katainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

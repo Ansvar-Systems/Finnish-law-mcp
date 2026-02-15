@@ -1,0 +1,153 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/12/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/12"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/12/alkup"/>
+                    <FRBRdate date="2016-01-08" name="dateIssued"/>
+                    <FRBRdate date="2016-01-12" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="12"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/12/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/12/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/12/alkup/swe"/>
+                    <FRBRdate date="2016-01-08" name="dateIssued"/>
+                    <FRBRdate date="2016-01-12" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/12/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/12/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/12/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-01-12" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>12/2016</docNumber>
+                <docTitle>Lag om ändring av lagen om rättegång i brottmål</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om rättegång i brottmål (
+                        <affectedDocument href="/akn/fi/act/statute/1997/689">689/1997</affectedDocument>
+                        ) 6 a kap. 3 § 1 mom., sådant det lyder i lag 769/2013, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 1 kap. 9 § ett nytt 2 mom. i stället för det 2 mom. som upphävts genom lag 670/2014 och till 5 kap. 15 §, sådan den lyder delvis ändrad i lag 243/2006, ett nytt 4 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>1 kap.</num>
+                    <heading>Om åtalsrätt och åtalsprövning</heading>
+                    <section>
+                        <num>9 §</num>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Till en målsägande som inte är finsk-, svensk- eller samiskspråkig ska det på begäran inom skälig tid ges en avgiftsfri översättning av beslutet om åtalseftergift eller av ett sammandrag av detta. Bestämmelser om översättning finns dessutom i språklagen (423/2003) och samiska språklagen (1086/2003). </p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>5 kap.</num>
+                    <heading>Om väckande av åtal</heading>
+                    <section>
+                        <num>15 §</num>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>En målsägande ska underrättas om tiden och platsen för sammanträdet, om målsäganden har begärt det. </p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>6 a kap.</num>
+                    <heading>Rättegångsspråket och tolkning</heading>
+                    <section>
+                        <num>3 §</num>
+                        <subsection>
+                            <content>
+                                <p>Till en svarande som inte är finsk-, svensk- eller samiskspråkig ska det inom skälig tid ges en avgiftsfri skriftlig översättning av stämningsansökan och domen till den del de gäller honom eller henne. Till svaranden ska det inom skälig tid även ges en avgiftsfri skriftlig översättning av ett beslut som fattats i brottmålet och av andra väsentliga handlingar eller delar av dem, om översättningen behövs för att bevaka svarandens rättigheter. Till en målsägande som inte är finsk-, svensk- eller samiskspråkig i ett brottmål där åklagaren utför åtal ska det på begäran inom skälig tid ges en avgiftsfri skriftlig översättning av domen till den del den gäller målsäganden och av underrättelsen om tiden och platsen för sammanträdet. Till målsäganden ska det på begäran inom skälig tid även ges en avgiftsfri skriftlig översättning av ett beslut som fattats i brottmålet och av andra väsentliga handlingar eller delar av dem, om översättningen behövs för att bevaka målsägandens
+rättigheter.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/66">RP 66/2015</ref>
+                        </p>
+                        <p>LaUB 4/2015</p>
+                        <p>RSv 83/2015</p>
+                        <p>Europaparlamentets och rådets direktiv 2012/29/EU (32012L0029); EUT L 315, 14.11.2012, s. 57</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 8 januari 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitie- och arbetsminister</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,121 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/733/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/733"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/733/alkup"/>
+                    <FRBRdate date="2007-06-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="733"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/733/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/733/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/733/alkup/swe"/>
+                    <FRBRdate date="2007-06-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/733/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/733/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/733/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="111"/>
+                    <finlex:date date="2007-06-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>733/2007</docNumber>
+                <docTitle>Lag om ändring av 25 § i lagen om elektronisk behandling av klientuppgifter inom social- och hälsovården</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 9 februari 2007 om elektronisk behandling av klientuppgifter inom social- och hälsovården (
+                        <affectedDocument href="/akn/fi/act/statute/2007/159">159/2007</affectedDocument>
+                        ) 25 § 1 och 2 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>25 §</num>
+                    <heading>Övergångsbestämmelser</heading>
+                    <subsection>
+                        <content>
+                            <p>Med avvikelse från 24 § träder 15 §, som gäller skyldigheten att ansluta sig som användare av riksomfattande informationssystemtjänster, i kraft tre år och nio månader efter lagens ikraftträdande. Om det emellertid är så att en tillhandahållare av hälso- och sjukvårdstjänster har anslutit sig som användare av i denna lag avsedda informationssystemtjänster innan 15 § träder i kraft, gäller bestämmelserna i denna lag de av tillhandahållarens handlingar som är kopplade till informationssystemtjänsterna. I övrigt skall tillhandahållare av hälso- och sjukvårdstjänster iaktta bestämmelserna om elektronisk behandling av patientuppgifter när tre år och nio månader har förflutit från lagens ikraftträdande. De riksomfattande informationssystemtjänster som avses i 14 § kan införas stegvis redan innan skyldigheten att ansluta sig inträtt. I så fall tillämpas denna lag på den behandling av patientuppgifter som sker med hjälp av de tjänsterna. Tillhandahållare av socialvårdstjänster skall iaktta bestämmelserna om elektronisk behandling av patientuppgifter inom socialvården när tre år och nio månader har förflutit från lagens ikraftträdande.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Avgifter enligt 22 § börjar tas ut tre år och nio månader efter lagens ikraftträdande.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juli 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 23/2007</p>
+                        <p>ShUB 1/2007</p>
+                        <p>RSv 5/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 juni 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

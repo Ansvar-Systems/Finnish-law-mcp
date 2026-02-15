@@ -1,0 +1,132 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1669/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1669"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1669/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1669"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1669/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1669/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1669/alkup/swe"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1669/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1669/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1669/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1669/2015</docNumber>
+                <docTitle>Lag om ändring av lagen om utländska försäkringsbolag</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i lagen om utländska försäkringsbolag (
+                        <affectedDocument href="/akn/fi/act/statute/1995/398">398/1995</affectedDocument>
+                        ) 40 a §, 
+                    </block>
+                    <block name="repeals-originals">sådan den lyder i lag 525/2008, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         40 och 40 b §, sådana de lyder, 40 § i lagarna 525/2008 och 305/2015 och 40 b § i lagarna 1321/2004 och 525/2008, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>40 §</num>
+                    <heading>Filialens bokslut och verksamhetsberättelse</heading>
+                    <subsection>
+                        <content>
+                            <p>Bokslutet och verksamhetsberättelsen för filialen för ett försäkringsbolag från tredjeland upprättas med iakttagande av bestämmelserna i 8 kap. i försäkringsbolagslagen, om inte Finansinspektionen beviljar tillstånd att upprätta bokslutet enligt bestämmelserna på hemorten för det försäkringsbolag till vilket filialen hör.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>40 b §</num>
+                    <heading>Närmare föreskrifter om filialens bokslut och verksamhetsberättelse</heading>
+                    <subsection>
+                        <content>
+                            <p>Finansinspektionen meddelar vid behov närmare föreskrifter om tillämpningen av 8 kap. i försäkringsbolagslagen på upprättande av en filials bokslut och verksamhetsberättelse. </p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016. Lagen tillämpas första gången på bokföringen för en filial till ett tredjelands försäkringsbolag för den räkenskapsperiod som börjar den 1 januari 2016 eller därefter. </p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/98">RP 98/2015</ref>
+                        </p>
+                        <p>EkUB 17/2015</p>
+                        <p>RSv 114/2015</p>
+                        <p>Europaparlamentets och rådets direktiv 2013/34/EU (32013L0034); EUT nr L 182, 29.6.2013, s. 19.</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 30 december 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister</role>
+                                <person refersTo="">Hanna Mäntylä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,140 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/188/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/188"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/188/alkup"/>
+                    <FRBRdate date="2024-04-19" name="dateIssued"/>
+                    <FRBRdate date="2024-04-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="188"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/188/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/188/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/188/alkup/swe"/>
+                    <FRBRdate date="2024-04-19" name="dateIssued"/>
+                    <FRBRdate date="2024-04-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/188/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/188/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/188/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2024-04-23" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>188/2024</docNumber>
+                <docTitle>Lag om ändring av 5 kap. 28 och 54 § i polislagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i polislagen (
+                        <affectedDocument href="/akn/fi/act/statute/2011/872">872/2011</affectedDocument>
+                        ) 5 kap. 28 § 3 mom. och 54 § 2 mom. 9 punkten, av dem 54 § 2 mom. 9 punkten sådan den lyder i lag 492/2023, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>5 kap.</num>
+                    <heading>Hemliga metoder för inhämtande av information</heading>
+                    <section>
+                        <num>28 §</num>
+                        <heading>Täckoperationer och förutsättningar för sådana</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Polisen får rikta en datanätsbaserad täckoperation mot en person, om det på grund av personens yttranden eller uppträdande i övrigt med fog kan antas att denne kommer att göra sig skyldig till ett brott för vilket det föreskrivna strängaste straffet är fängelse i minst två år.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>54 §</num>
+                        <heading>Användning av överskottsinformation</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <intro>
+                                <p>Överskottsinformation får också användas, om användningen av överskottsinformationen kan antas vara av synnerlig vikt för utredningen av brottet och om det för brottet föreskrivna strängaste straffet är fängelse i minst tre år eller det är fråga om något av följande brott:</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>9) </num>
+                                <content>
+                                    <p>tagande av muta, brott mot tjänstehemlighet, missbruk av tjänsteställning eller missbruk av Europeiska unionens medel, eller</p>
+                                </content>
+                            </paragraph>
+                            <hcontainer name="omission"/>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 24 april 2024.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2023/105">RP 105/2023</ref>
+                        </p>
+                        <p>LaUB 1/2024</p>
+                        <p>RSv 5/2024</p>
+                        <p>Europaparlamentets och rådets direktiv (EU) 2017/1371 (32017L1371); EUT L 198, 28.7.2017, s. 29</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 19 april 2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister</role>
+                                <person refersTo="">Leena Meri</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

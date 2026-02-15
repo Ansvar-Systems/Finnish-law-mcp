@@ -1,0 +1,160 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/551/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/551"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/551/alkup"/>
+                    <FRBRdate date="2024-10-18" name="dateIssued"/>
+                    <FRBRdate date="2024-10-21" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="551"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/551/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/551/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/551/alkup/fin"/>
+                    <FRBRdate date="2024-10-18" name="dateIssued"/>
+                    <FRBRdate date="2024-10-21" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/551/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/551/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/551/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2024-10-21" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>551/2024</docNumber>
+                <docTitle>Laki konkurssipesien hallinnon valvonnasta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         konkurssipesien hallinnon valvonnasta annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1995/109">109/1995</affectedDocument>
+                        ) 4 §:n 2 momentti sekä 5 ja 17 §, sellaisena kuin niistä on 5 § osaksi laissa 123/2004, sekä 
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 15 b § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>4 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Konkurssiasiamiehellä on salassapitosäännösten estämättä samanlainen oikeus kuin velallisella tai konkurssipesällä saada velallisen tai konkurssipesän toimintaa ja taloudellista asemaa koskevat tiedot sekä tiedot velallisen tai konkurssipesän pankkitileistä ja maksuliikenteestä sekä rahoitusta koskevista sopimuksista ja sitoumuksista. Tiedot on annettava maksutta ja viipymättä konkurssiasiamiehelle ja konkurssiasiamiehen pyynnöstä konkurssipesälle.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <subsection>
+                        <content>
+                            <p>Konkurssiasiamies voi määrätä yhden tai useamman tarkastajan suorittamaan velallisen tai konkurssipesän hallinnon, tilien ja toiminnan erityistarkastuksen. Tarkastajilla on 4 §:n 1 momentissa säädetyn mukaiset oikeudet. Konkurssiasiamies voi vastaavasti määrätä velallisen kirjanpidon loppuun saattamisesta ja tilinpäätöksen laatimisesta konkurssin alkamiseen saakka.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitetut toimenpiteet maksetaan valtion varoista. Pesänhoitajan on toimitettava konkurssiasiamiehelle selvitys toimenpiteistä, joihin konkurssipesä on tarkastuksen perusteella ryhtynyt, sekä varoista, jotka toimenpiteiden vuoksi ovat kertyneet konkurssipesään. Jos 1 momentissa tarkoitetut toimenpiteet ovat olleet konkurssipesän kannalta tarpeellisia, konkurssipesä on konkurssiasiamiehen vaatimuksesta velvollinen maksamaan valtiolle niistä aiheutuneet kustannukset kokonaan tai osaksi. Maksuvelvollisuus voidaan määrätä alkavaksi vasta siitä, kun konkurssipesään kertyy riittävästi varoja maksun suorittamiseksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Konkurssipesä voi saattaa maksuvelvollisuuttaan koskevan asian konkurssiasiassa toimivaltaisen tuomioistuimen ratkaistavaksi 30 päivän kuluessa konkurssiasiamiehen päätöksestä tiedon saatuaan. Tuomioistuin voi kieltää päätöksen täytäntöönpanon toistaiseksi.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>15 b §</num>
+                    <subsection>
+                        <content>
+                            <p>Konkurssipesä on konkurssiasiamiehen vaatimuksesta velvollinen maksamaan valtiolle julkisselvityksestä aiheutuneet konkurssimenettelyn kustannukset kokonaan tai osaksi. Maksuvelvollisuus voidaan määrätä alkavaksi vasta siitä, kun konkurssipesään kertyy riittävästi varoja maksun suorittamiseksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Konkurssipesä voi saattaa 1 momentissa tarkoitettua maksuvelvollisuuttaan koskevan asian konkurssiasiassa toimivaltaisen tuomioistuimen ratkaistavaksi 30 päivän kuluessa konkurssiasiamiehen päätöksestä tiedon saatuaan. Tuomioistuin voi kieltää päätöksen täytäntöönpanon toistaiseksi.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>17 §</num>
+                    <subsection>
+                        <content>
+                            <p>Tarkemmat säännökset konkurssiasiamiehen ja hänen toimistonsa tehtävien järjestämisestä sekä säännökset konkurssiasiain neuvottelukunnasta annetaan valtioneuvoston asetuksella.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä marraskuuta 2024.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/59">HE 59/2024</ref>
+                        </p>
+                        <p>LaVM 3/2024</p>
+                        <p>EV 70/2024</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 18.10.2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri</role>
+                                <person refersTo="">Leena Meri</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

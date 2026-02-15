@@ -1,0 +1,643 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/159/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/159"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/159/alkup"/>
+                    <FRBRdate date="2007-02-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="159"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/159/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/159/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/159/alkup/fin"/>
+                    <FRBRdate date="2007-02-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/159/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/159/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/159/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="23"/>
+                    <finlex:date date="2007-02-15"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>159/2007</docNumber>
+                <docTitle>Laki sosiaali- ja terveydenhuollon asiakastietojen sähköisestä käsittelystä</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 luku</num>
+                    <heading>Yleiset säännökset</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Lain tarkoitus</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Tämän lain tarkoituksena on edistää sosiaali- ja terveydenhuollon asiakastietojen tietoturvallista sähköistä käsittelyä. Lailla toteutetaan yhtenäinen sähköinen potilastietojen käsittely- ja arkistointijärjestelmä terveydenhuollon palvelujen tuottamiseksi potilasturvallisesti ja tehokkaasti sekä potilaan tiedonsaantimahdollisuuksien edistämiseksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Soveltamisala</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <content>
+                                <p>Tässä laissa säädetään sosiaali- ja terveydenhuollon asiakastietojen sähköisestä käsittelystä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_2__subsec_2">
+                            <content>
+                                <p>Tätä lakia sovelletaan julkisten ja yksityisten sosiaalihuollon ja terveydenhuollon palvelujen antajien järjestäessä taikka toteuttaessa sosiaalihuoltoa tai terveydenhuoltoa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_2__subsec_3">
+                            <content>
+                                <p>Jollei tästä tai muusta laista muuta johdu, asiakastietojen käsittelyyn sovelletaan, mitä potilaan asemasta ja oikeuksista annetussa laissa (785/1992), jäljempänä potilaslaki, sosiaalihuollon asiakkaan asemasta ja oikeuksista annetussa laissa (812/2000), jäljempänä asiakaslaki, henkilötietolaissa (523/1999), viranomaisten toiminnan julkisuudesta annetussa laissa (621/1999), sähköisestä asioinnista viranomaistoiminnassa annetussa laissa (13/2003), sähköisistä allekirjoituksista annetussa laissa (14/2003) sekä arkistolaissa (831/1994) tai näiden nojalla säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <heading>Määritelmät</heading>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <intro eId="chp_1__sec_3__subsec_1__intro">
+                                <p>Tässä laissa tarkoitetaan:</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>
+                                        <i>asiakkaalla</i>
+                                         asiakaslaissa tarkoitettua asiakasta sekä potilaslaissa tarkoitettua potilasta;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>
+                                        <i>asiakasasiakirjalla</i>
+                                         asiakaslaissa tarkoitettua asiakirjaa sekä potilaslaissa tarkoitettua potilasasiakirjaa;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>
+                                        <i>potilastiedolla</i>
+                                         potilasta koskevaa tietoa, joka sisältyy potilaslaissa tarkoitettuun potilasasiakirjaan;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>
+                                        <i>asiakastiedolla</i>
+                                         potilastietoa sekä asiakasta koskevaa tietoa, joka sisältyy asiakaslaissa tarkoitettuun asiakirjaan;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>
+                                        <i>palvelutapahtumalla</i>
+                                         terveydenhuollon palvelujen antajan ja potilaan välistä yksittäisen palvelun järjestämistä tai toteuttamista;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>
+                                        <i>palvelukokonaisuudella</i>
+                                         yhden tai useamman terveydenhuollon palvelujen antajan tuottamien palvelutapahtumien yksilöityä kokonaisuutta;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>
+                                        <i>terveydenhuollon palvelujen antajalla</i>
+                                         potilaslain 2 §:n 4 kohdassa tarkoitettua terveydenhuollon toimintayksikköä, työterveyshuoltolain (1383/2001) 7 §:n 2 kohdassa tarkoitettua työnantajaa sekä itsenäisenä ammatinharjoittajana toimivaa terveydenhuollon ammattihenkilöä; sekä
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_8">
+                                <num>8)</num>
+                                <content>
+                                    <p>
+                                        <i>sosiaalihuollon palvelujen antajalla </i>
+                                        asiakaslain 3 §:n 2 kohdassa tarkoitettua sosiaalihuoltoa järjestävää viranomaista, julkista sosiaalipalvelujen tuottajaa sekä yksityisten sosiaalipalvelujen valvonnasta annetussa laissa (603/1996) tarkoitettua palvelujen tuottajaa.
+                                    </p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 luku</num>
+                    <heading>Asiakastietojen sähköisen käsittelyn yleiset vaatimukset</heading>
+                    <section eId="chp_2__sec_4">
+                        <num>4 §</num>
+                        <heading>Asiakastietojen käytettävyys ja säilyttäminen</heading>
+                        <subsection eId="chp_2__sec_4__subsec_1">
+                            <content>
+                                <p>Asiakastietojen sähköisessä käsittelyssä tulee turvata tietojen saatavuus ja käytettävyys. Asiakastietojen tulee säilyä eheinä ja muuttumattomina koko niiden säilytysajan.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_2">
+                            <content>
+                                <p>Sähköisestä asiakasasiakirjasta tulee olla vain yksi alkuperäinen tunnisteella yksilöity kappale. Alkuperäisestä asiakirjasta voidaan palvelun toteuttamiseksi tai muusta perustellusta syystä ottaa jäljennös, josta tulee ilmetä asiakirjan olevan jäljennös.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_3">
+                            <content>
+                                <p>Sosiaali- ja terveysministeriön asetuksella voidaan säätää tarkemmin asiakasasiakirjojen yksilöimisestä sekä niiden jäljennösten säilyttämisestä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Käytön ja luovutuksen seuranta</heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <content>
+                                <p>Sosiaalihuollon ja terveydenhuollon palvelujen antajan tulee pitää rekisteriä omien asiakastietojärjestelmiensä ja asiakasrekisteriensä käyttäjistä sekä näiden käyttöoikeuksista.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_2">
+                            <content>
+                                <p>Palvelujen antajan tulee kerätä asiakasrekisterikohtaisesti kaikesta asiakastietojen käytöstä ja jokaisesta asiakastietojen luovutuksesta seurantaa varten lokitiedot lokirekisteriin. Käyttölokirekisteriin tallennetaan tieto käytetyistä asiakastiedoista, siitä palvelujen antajasta, jonka asiakastietoja käytetään, asiakastietojen käyttäjästä, tietojen käyttötarkoituksesta ja käyttöajankohdasta. Luovutuslokirekisteriin tallennetaan tieto luovutetuista asiakastiedoista, siitä palvelujen antajasta, jonka asiakastietoja luovutetaan, asiakastietojen luovuttajasta, tietojen luovutustarkoituksesta, luovutuksensaajasta ja luovutusajankohdasta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_3">
+                            <content>
+                                <p>Terveydenhuollon palvelujen antajien potilasasiakirjatietojen luovuttamista koskevat lokitiedot tallennetaan 14 §:ssä tarkoitettuun arkistointipalveluun.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_4">
+                            <content>
+                                <p>Asiakastietojen käyttäjien käyttöoikeustiedot ja lokitiedot tulee hävittää, kun ne eivät enää ole tarpeen asiakastietojen käytön ja luovutuksen lainmukaisuuden seuraamiseksi. Käyttöoikeus- ja lokitiedoista sekä tietojen vähimmäissäilytysajasta voidaan säätää tarkemmin sosiaali- ja terveysministeriön asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Potilasasiakirjojen tietorakenteet</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>Terveydenhuollon potilastietojärjestelmien ja potilasasiakirjojen tietorakenteiden tulee mahdollistaa sähköisten potilasasiakirjojen käyttö, luovuttaminen, säilyttäminen ja suojaaminen 14 §:ssä tarkoitettujen valtakunnallisten tietojärjestelmäpalvelujen avulla.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_2">
+                            <content>
+                                <p>Palvelutapahtumassa käytettävät tiedot tulee voida rajata potilasasiakirjojen tietorakenteiden avulla vain kyseisen palvelutapahtuman kannalta tarpeellisiin tietoihin. Terveydenhuollon palvelujen antajan tulee luokitella erityistä suojausta edellyttävät potilasasiakirjat ja potilastiedot erillisellä vahvistuspyynnöllä suojattaviin potilastietoihin.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_3">
+                            <content>
+                                <p>Sosiaali- ja terveysministeriön asetuksella voidaan säätää tarkemmin potilastietojärjestelmien ja potilasasiakirjojen tietorakenteista sekä tietojen luokittelusta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Suunnittelu-, tutkimus- ja tilastotiedot</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>Asiakastietojärjestelmästä tulee voida tuottaa sosiaalihuollon ja terveydenhuollon palvelujen antajan oman suunnittelun, johtamisen ja tilastoinnin, sekä valtakunnallisen tutkimus- ja tilastotoiminnan kannalta tarpeelliset tiedot ja hoidon tarpeen arviointia sekä hoitoon pääsyn ajankohtaa koskevat tiedot.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_8">
+                        <num>8 §</num>
+                        <heading>Tunnistaminen</heading>
+                        <subsection eId="chp_2__sec_8__subsec_1">
+                            <content>
+                                <p>Asiakastietojen sähköisessä käsittelyssä asiakas, sosiaalihuollon ja terveydenhuollon palvelujen antaja, muu asiakastietojen käsittelyn osapuoli ja näiden edustajat sekä tietotekniset laitteet tulee tunnistaa luotettavasti. Potilastietoja käsittelevien henkilöiden, palvelujen antajien, tietoteknisten laitteiden sekä valtakunnallisten tietojärjestelmäpalvelujen tunnistaminen edellyttää lisäksi todentamista. Sosiaali- ja terveysministeriön asetuksella voidaan säätää tarkemmin tunnistamisen ja todentamisen teknisistä keinoista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_9">
+                        <num>9 §</num>
+                        <heading>Asiakirjan sähköinen allekirjoittaminen</heading>
+                        <subsection eId="chp_2__sec_9__subsec_1">
+                            <content>
+                                <p>Asiakastietojen eheys, muuttumattomuus ja kiistämättömyys tulee varmistaa sähköisellä allekirjoituksella tietojen sähköisessä käsittelyssä, tiedonsiirrossa ja säilytyksessä. Luonnollisen henkilön sähköisessä allekirjoittamisessa tulee käyttää sähköisistä allekirjoituksista annetussa laissa tarkoitettua kehittynyttä sähköistä allekirjoitusta. Organisaation ja tietoteknisten laitteiden allekirjoituksessa on käytettävä luotettavuudeltaan vastaavaa sähköistä allekirjoitusta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 luku</num>
+                    <heading>Potilastietojen sähköinen luovuttaminen valtakunnallisten tietojärjestelmäpalvelujen avulla</heading>
+                    <section eId="chp_3__sec_10">
+                        <num>10 §</num>
+                        <heading>Potilastietojen luovuttaminen</heading>
+                        <subsection eId="chp_3__sec_10__subsec_1">
+                            <content>
+                                <p>Potilastietoja saadaan luovuttaa 14 §:ssä tarkoitettujen valtakunnallisten tietojärjestelmäpalvelujen avulla ainoastaan toiselle terveydenhuollon palvelujen antajalle. Luovutuksen tulee perustua joko potilaan suostumukseen tai luovutuksen oikeuttavaan lain säännökseen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_10__subsec_2">
+                            <content>
+                                <p>Sähköiseen luovutuspyyntöön perustuva potilastietojen sähköinen luovutus toiselle terveydenhuollon palvelujen antajalle toteutetaan valtakunnallisten tietojärjestelmäpalvelujen avulla sen jälkeen, kun hoitosuhteen olemassaolo potilaan ja luovutuspyynnön esittäjän välillä on tietoteknisesti varmistettu. Muut potilastietojen sähköiset luovutukset toiselle terveydenhuollon palvelujen antajalle toteutetaan joko valtakunnallisten tietojärjestelmäpalvelujen avulla tai terveydenhuollon palvelujen antajien välisenä luovutuksena.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_10__subsec_3">
+                            <content>
+                                <p>Sen estämättä, mitä 1 momentissa säädetään, voidaan valtakunnallisten tietojärjestelmäpalvelujen avulla toteuttaa arkistointipalveluun liittyneiden terveydenhuollon palvelujen antajien lukuun terveydenhuollon valtakunnallisista henkilörekistereistä annetun lain (556/1989) ja sen nojalla annettujen säännösten mukainen tietojen luovutus terveydenhuollon valtakunnallisiin henkilörekistereihin.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_11">
+                        <num>11 §</num>
+                        <heading>Hakutiedot</heading>
+                        <subsection eId="chp_3__sec_11__subsec_1">
+                            <content>
+                                <p>
+                                    Hakutiedot ovat potilasasiakirjojen sähköisessä hakemisessa käytettäviä asiakirjan yksilöiviä tietoja. Hakutietojen tarkoituksena on mahdollistaa potilasasiakirjojen luovutus toiselle terveydenhuollon palvelujen antajalle 14 §:n 1 momentissa tarkoitetun hakemistopalvelun avulla. Sähköiseen potilasasiakirjaan ja potilaan suostumusta koskevat tiedot sisältävään asiakirjaan (<i>suostumusasiakirja</i>) on liitettävä hakutiedot. Hakutiedot ovat osa kunkin terveydenhuollon palvelujen antajan potilasrekisteriä.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_11__subsec_2">
+                            <content>
+                                <p>Potilasasiakirjan hakutietoja ovat potilaan henkilötunnus, terveydenhuollon palvelujen antaja, potilasrekisteri, osastohoitojakso tai avohoitokäyntitieto ja niiden alkamis- ja päättymispäivä, tieto siitä, sisältääkö potilasasiakirja tietoja laboratoriotutkimuksista, kuvantamistutkimuksista tai muista vastaavista tutkimuksista sekä palvelukokonaisuustunnus. Suostumusasiakirjaan tallennetaan hakutietoina lisäksi tieto potilaan antaman suostumuksen olemassaolosta, suostumuksen antamisen aika sekä suostumukseen liittyvä palvelukokonaisuustunnus. Jos potilaalla ei ole henkilötunnusta, voidaan hakutietona tallentaa nimen ja syntymäajan yhdistelmä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_11__subsec_3">
+                            <content>
+                                <p>Potilastietojen haun hakutietojen avulla tulee olla mahdollista erikseen julkisen ja yksityisen terveydenhuollon, eri palvelujen antajien sekä eri potilasrekistereiden osalta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_12">
+                        <num>12 §</num>
+                        <heading>Hakutietojen luovutuskielto</heading>
+                        <subsection eId="chp_3__sec_12__subsec_1">
+                            <content>
+                                <p>Potilaalla on oikeus kieltää hakutietojensa luovutus tietyn terveydenhuollon palvelujen antajan taikka potilasrekisterin osalta sekä yksittäisen palvelutapahtuman tai palvelujen antajan palvelukokonaisuuden osalta. Potilaalla on oikeus peruuttaa hakutietojen luovutuskielto tai tehdä siihen muutoksia. Kiellon sekä sen muutoksen ja peruutuksen tulee olla allekirjoitettu omakätisesti tai turvallisuudeltaan kehittynyttä sähköistä allekirjoitusta vastaavalla sähköisellä allekirjoituksella, ja ne on tehtävä sille palvelujen antajalle, jonka potilasrekisterin tietoja kielto koskee.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_12__subsec_2">
+                            <content>
+                                <p>Kiellosta huolimatta hakutiedot saadaan luovuttaa potilaan 1 momentissa tarkoitetulla tavalla allekirjoitetun suostumuksen perusteella sekä potilaslain 13 §:n 3 momentin 3 kohdassa tarkoitetuissa tapauksissa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_13">
+                        <num>13 §</num>
+                        <heading>Potilaan suostumus</heading>
+                        <subsection eId="chp_3__sec_13__subsec_1">
+                            <content>
+                                <p>Potilaan suostumus voidaan antaa palvelutapahtumaa tai palvelukokonaisuutta varten. Suostumuksen tulee olla allekirjoitettu omakätisesti tai turvallisuudeltaan kehittynyttä sähköistä allekirjoitusta vastaavalla sähköisellä allekirjoituksella. Potilaslain 13 §:n 3 momentin 2 kohdassa tarkoitetut tiedot ja ne hakutiedot, joiden luovuttamista potilas ei ole 12 §:ssä tarkoitetulla tavalla kieltänyt, voidaan kuitenkin luovuttaa toiselle terveydenhuollon palvelujen antajalle potilaan suullisella suostumuksella.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_13__subsec_2">
+                            <content>
+                                <p>Kirjallisesta suostumuksesta tulee laatia suostumusasiakirja. Suostumusasiakirjasta tulee suostumuksen antamisen yhteydessä tulostaa jäljennös potilaalle. Suostumusasiakirjat ovat osa kunkin suostumuksen pyytäneen palvelujen antajan sähköistä potilasrekisteriä. Suullinen suostumus kirjataan potilasrekisteriin. Potilaalla on oikeus peruuttaa suostumus tai tehdä siihen muutoksia. Palvelukokonaisuutta varten annettu suostumus lakkaa olemasta voimassa, kun edellisestä palvelukokonaisuuteen kuuluvan palvelutapahtuman päättymisestä on kulunut vuosi.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_13__subsec_3">
+                            <content>
+                                <p>Jos potilaalla ei ole edellytyksiä arvioida annettavan suostumuksen merkitystä, palvelutapahtuman tai palvelukokonaisuuden kannalta tarpeellisia tietoja saa antaa hänen laillisen edustajansa suostumuksen perusteella. Potilaan laillinen edustaja voi tällöin potilaan puolesta myös kieltää 12 §:ssä tarkoitetulla tavalla hakutietojen luovuttamisen. Potilaan laillisella edustajalla on oikeus salassapitovelvollisuuden estämättä saada suostumuksen antamista, kiellon toteuttamista tai niiden muuttamista varten välttämättömät potilasta koskevat tiedot.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 luku</num>
+                    <heading>Terveydenhuollon valtakunnalliset tietojärjestelmäpalvelut</heading>
+                    <section eId="chp_4__sec_14">
+                        <num>14 §</num>
+                        <heading>Valtakunnalliset tietojärjestelmäpalvelut</heading>
+                        <subsection eId="chp_4__sec_14__subsec_1">
+                            <content>
+                                <p>Kansaneläkelaitos hoitaa terveydenhuollon palvelujen antajien lukuun potilasasiakirjojen säilytystä ja käyttöä varten olevaa arkistointipalvelua sekä sen osana potilasasiakirjojen luovutusta varten hakemistopalvelua ja suostumuksenhallintapalvelua. Kansaneläkelaitos hoitaa luovutuslokirekisterien säilytyksen osana arkistointipalvelua. Kansaneläkelaitos voi hoitaa osana arkistointipalvelua myös käyttölokirekisterien säilytyksen. Kansaneläkelaitos hoitaa 19 §:ssä tarkoitettua katseluyhteyttä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_14__subsec_2">
+                            <content>
+                                <p>Sosiaali- ja terveysalan tutkimus- ja kehittämiskeskus vastaa koodistopalvelun sisällöstä. Kansaneläkelaitos hoitaa koodistopalvelun tietoteknistä toteutusta. Koodistopalvelu sisältää kaikki koodistot, joita tarvitaan potilasasiakirjojen käsittelyssä valtakunnallisten tietojärjestelmäpalvelujen avulla.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_14__subsec_3">
+                            <content>
+                                <p>Terveydenhuollon oikeusturvakeskus hoitaa terveydenhuollon palvelujen antajien sekä näiden palvelujen antamiseen osallistuvien henkilöiden ja tietoteknisten laitteiden varmennepalvelua, johon kuuluvat tunnistamisessa ja todentamisessa sekä sähköisessä allekirjoittamisessa tarvittavat varmenteet ja näihin liittyvät palvelut.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_14__subsec_4">
+                            <content>
+                                <p>Kansaneläkelaitos ei saa antaa valtakunnallisten tietojärjestelmäpalvelujen järjestämiseen liittyvien potilasrekistereiden tai niihin liittyvien lokirekistereiden käsittelyä tai säilyttämistä toimeksiantotehtävänä ulkopuolisille.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_15">
+                        <num>15 §</num>
+                        <heading>Velvollisuus liittyä tietojärjestelmäpalvelujen käyttäjäksi</heading>
+                        <subsection eId="chp_4__sec_15__subsec_1">
+                            <content>
+                                <p>Julkisen terveydenhuollon palvelujen antajan tulee liittyä 14 §:ssä tarkoitettujen valtakunnallisten tietojärjestelmäpalvelujen käyttäjäksi. Yksityisen terveydenhuollon palvelujen antajan tulee liittyä näiden tietojärjestelmäpalvelujen käyttäjäksi, jos sen potilasasiakirjojen pitkäaikaissäilytys toteutetaan sähköisesti. Ahvenanmaan maakunnan julkisen terveydenhuollon palvelujen antaja voi liittyä valtakunnallisten tietojärjestelmäpalvelujen käyttäjäksi. Tästä liittymisestä on kuitenkin säädettävä erikseen siten kuin Ahvenanmaan itsehallintolain (1144/1991) 32 §:ssä säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_15__subsec_2">
+                            <content>
+                                <p>Kaikki liittymisen jälkeen valmistuneiden valmiiden potilasasiakirjojen alkuperäiset kappaleet tulee tallentaa valtakunnalliseen arkistointipalveluun. Näihin potilasasiakirjoihin liittyvät suostumusasiakirjat tallennetaan vastaavasti suostumuksenhallintapalveluun. Ennen liittymistä valmistuneet potilasasiakirjat sekä niitä koskevat suostumusasiakirjat voidaan tallentaa valtakunnalliseen arkistointipalveluun. Ennen liittymistä valmistuneiden asiakirjojen hakutietoja ei kuitenkaan saa luovuttaa ilman potilaan kirjallista suostumusta. Keskeneräisten potilasasiakirjojen hakutiedot tulee tallentaa hakemistopalveluun. Sosiaali- ja terveysministeriön asetuksella voidaan säätää tarkemmin siitä, miten keskeneräiset potilasasiakirjat tallennetaan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_16">
+                        <num>16 §</num>
+                        <heading>Vastuut tietojärjestelmäpalvelujen hoidossa</heading>
+                        <subsection eId="chp_4__sec_16__subsec_1">
+                            <content>
+                                <p>Valtakunnallisten tietojärjestelmäpalvelujen ja potilastietojen tulee olla käytettävissä ympärivuorokautisesti siten, että potilastiedot ovat aina saatavilla potilasturvallisuutta vaarantamatta. Tietojärjestelmäpalveluilla tulee olla tarpeelliset varajärjestelmät toimintahäiriöiden ja poikkeusolojen varalle.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_16__subsec_2">
+                            <content>
+                                <p>Kansaneläkelaitos vastaa arkistointipalvelun teknisenä toteuttajana ja ylläpitäjänä arkistointipalvelun yleisestä toiminnasta ja toiminnan lainmukaisuudesta, huolehtii potilaalle annettavan 19 §:ssä tarkoitetun katseluyhteyden teknisestä toteuttamisesta sekä käyttää päätösvaltaa järjestelmän tietotekniseen toimintaan liittyvissä kysymyksissä, jollei tästä laista tai sen nojalla annetuista säännöksistä muuta johdu.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_16__subsec_3">
+                            <content>
+                                <p>Arkistointipalveluun liittynyt terveydenhuollon palvelujen antaja vastaa potilastietojen rekisterinpitäjänä järjestelmään tallennettujen potilastietojen ja niiden käsittelyyn liittyvien lokitietojen sisällöstä ja virheettömyydestä sekä tietojen luovuttamisen ja muun käsittelyn lainmukaisuudesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_16__subsec_4">
+                            <content>
+                                <p>Kansaneläkelaitos vastaa hoitamiensa tietojärjestelmäpalvelujen osalta potilastietojen käytettävyydestä, eheydestä, muuttumattomuudesta, suojaamisesta, säilyttämisestä ja hävittämisestä. Kansaneläkelaitos vastaa siitä, että arkistointipalvelu toimii teknisesti siten, että potilastietoja ei sen kautta voida luovuttaa lain vastaisesti sekä siitä, että luovutuksesta tallentuu lokitieto luovutuslokirekisteriin. Kansaneläkelaitoksella ei ole oikeutta määrätä arkistointipalveluun kuuluvista potilastiedoista eikä luovuttaa niitä, ellei tässä laissa toisin säädetä. Potilastietoja ei saa muutoinkaan käsitellä laajemmin kuin mitä ylläpitoon kuuluvat tehtävät välttämättä edellyttävät. Arkistointipalvelu on suojattava valtion viranomaisten tietoturvallisuutta koskevien velvoitteiden mukaisesti.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_16__subsec_5">
+                            <content>
+                                <p>Terveydenhuollon oikeusturvakeskus vastaa terveydenhuollon varmennepalvelujen luotettavasta toiminnasta. Terveydenhuollon oikeusturvakeskuksen tulee pitää yleisesti saatavilla varmennetta ja varmennetoimintaa koskevat tiedot, joiden perusteella sen toiminta ja luotettavuus voidaan arvioida, sekä turvata allekirjoituksen luomistietojen luottamuksellisuus silloin, kun Terveydenhuollon oikeusturvakeskus itse tuottaa tiedot. Terveydenhuollon oikeusturvakeskus ei saa tallentaa tai jäljentää allekirjoittajalle luovutettuja allekirjoituksen luomistietoja. Terveydenhuollon oikeusturvakeskuksen on pidettävä rekisteriä myöntämistään varmenteista. Lisäksi sen on pidettävä varmenteisiin luottavien osapuolten saatavilla rekisteriä peruutetuista varmenteista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_5">
+                    <num>5 luku</num>
+                    <heading>Asiakkaan tiedonsaantioikeus</heading>
+                    <section eId="chp_5__sec_17">
+                        <num>17 §</num>
+                        <heading>Potilaan informointi</heading>
+                        <subsection eId="chp_5__sec_17__subsec_1">
+                            <content>
+                                <p>Kansaneläkelaitos laatii kirjallisen selosteen, josta ilmenee tiedot valtakunnallisista tietojärjestelmäpalveluista, niiden yleisistä toimintaperiaatteista sekä näistä tietojärjestelmäpalveluista vastaavista tahoista, hakutietojen tallentamisesta ja niiden käyttötarkoituksesta sekä käsittelystä, potilastiedon luovutuksen edellytyksistä, potilaan oikeuksista vaikuttaa potilastietojen käsittelyyn, potilastietojen suojaamisesta sekä muista potilaan kannalta merkityksellisistä tietojen käsittelyyn liittyvistä seikoista. Valtakunnallisiin tietojärjestelmäpalveluihin liittyneen terveydenhuollon palvelujen antajan on annettava seloste potilaalle.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_17__subsec_2">
+                            <content>
+                                <p>Valtakunnallisiin tietojärjestelmäpalveluihin liittyneen terveydenhuollon palvelujen antajan on palvelutapahtuman yhteydessä ilmoitettava potilaalle hänen oikeudestaan kieltää hakutietojen luovuttaminen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_17__subsec_3">
+                            <content>
+                                <p>Jos potilas on jo saanut 1 ja 2 momentissa tarkoitetut tiedot, voidaan tietojenantovelvollisuudesta poiketa siten kuin henkilötietolain 24 §:ssä säädetään. Tietojen antamisesta tulee tehdä merkintä potilasrekisteriin.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_18">
+                        <num>18 §</num>
+                        <heading>Asiakkaan tiedonsaantioikeus</heading>
+                        <subsection eId="chp_5__sec_18__subsec_1">
+                            <content>
+                                <p>Asiakkaan oikeudesta tarkastaa asiakasrekisterin tietoja ja oikeuden toteuttamisesta säädetään henkilötietolain 26―28 §:ssä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_18__subsec_2">
+                            <content>
+                                <p>Asiakkaalla on oikeus saada asiakastietojensa käsittelyyn liittyvien oikeuksiensa selvittämistä tai toteuttamista varten sosiaalihuollon ja terveydenhuollon palvelujen antajalta kirjallisesta pyynnöstä viivytyksettä lokirekisterin perusteella maksutta tieto siitä, kuka on käyttänyt tai kenelle on luovutettu häntä koskevia tietoja sekä mikä on ollut käytön tai luovutuksen peruste. Asiakkaalla ei kuitenkaan ole oikeutta saada lokitietoja henkilötietolain 27 §:n 1 momentin 1―4 kohdassa tarkoitetuissa tapauksissa. Asiakas ei saa käyttää tai luovuttaa saamiaan lokitietoja edelleen muuhun tarkoitukseen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_18__subsec_3">
+                            <content>
+                                <p>Jos asiakas pyytää toistamiseen saman ajanjakson lokitietoja, palvelujen antaja voi periä lokitietojen antamisesta kohtuullisen korvauksen, joka ei saa ylittää tiedon antamisesta aiheutuvia välittömiä kustannuksia. Pääsystä lokitietoihin 19 §:ssä tarkoitetun katseluyhteyden avulla ei kuitenkaan saa periä erillistä maksua.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_18__subsec_4">
+                            <content>
+                                <p>Jos asiakas katsoo, että hänen asiakastietojaan on käytetty tai luovutettu ilman riittäviä perusteita, tietoja käyttäneen tai tietoja saaneen palvelujen antajan tulee antaa asiakkaalle pyynnöstä selvitys tietojen käytön tai luovuttamisen perusteista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_19">
+                        <num>19 §</num>
+                        <heading>Katseluyhteys</heading>
+                        <subsection eId="chp_5__sec_19__subsec_1">
+                            <intro eId="chp_5__sec_19__subsec_1__intro">
+                                <p>Täysi-ikäiselle potilaalle annetaan sähköisen katseluyhteyden avulla hänen seuraavat valtakunnalliseen arkistointipalveluun tallennetut potilastietonsa ja niiden luovutukseen liittyvät tiedot:</p>
+                            </intro>
+                            <paragraph eId="chp_5__sec_19__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>suostumusta koskevat tiedot sekä luovutuslokitiedot lukuun ottamatta luovuttajan ja luovutuksensaajan henkilötietoja sekä niitä luovutuslokitietoja, joihin potilaalla ei henkilötietolain 27 §:n 1 momentin 1―4 kohdan mukaan ole tiedonsaantioikeutta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_19__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>potilasasiakirjojen hakutiedot, tiedot palvelutapahtumien paikasta ja ajasta, lääkemääräystiedot ja hoito-ohjeet; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_19__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>lähetteet, yhteenvedot annetusta hoidosta, hoidon loppulausunnot, laboratoriotulokset sekä lääkärintodistukset ja -lausunnot sen jälkeen, kun potilasta hoitava terveydenhuollon ammattihenkilö on hyväksynyt tietojen antamisen katseluyhteyden kautta.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_5__sec_19__subsec_2">
+                            <content>
+                                <p>Potilaalle voidaan antaa sähköisen katseluyhteyden avulla myös ajanvaraustiedot sekä 1 momentin 3 kohdan edellytysten täyttyessä kuvantamistulokset ja muut vastaavat tutkimustulokset.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_19__subsec_3">
+                            <content>
+                                <p>Sen estämättä, mitä 1 ja 2 momentissa säädetään, katseluyhteys tulee toteuttaa siten, ettei potilaalla ole pääsyä niihin tietoihin, joiden luovuttamisesta voi terveydenhuollon ammattihenkilön harkinnan mukaan aiheutua vakavaa vaaraa potilaan terveydelle tai hoidolle taikka jonkun muun oikeuksille.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_19__subsec_4">
+                            <content>
+                                <p>Katseluyhteys tulee toteuttaa siten, että potilaan yksityisyyden suoja ei vaarannu. Tietojen saanti katseluyhteyden avulla ei vaikuta potilaan henkilötietolain mukaiseen tarkastusoikeuteen. Sosiaali- ja terveysministeriön asetuksella voidaan säätää siitä, miten tiedot annetaan katseluyhteyden kautta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_6">
+                    <num>6 luku</num>
+                    <heading>Erinäiset säännökset</heading>
+                    <section eId="chp_6__sec_20">
+                        <num>20 §</num>
+                        <heading>Ohjaus, valvonta ja seuranta</heading>
+                        <subsection eId="chp_6__sec_20__subsec_1">
+                            <content>
+                                <p>Sosiaali- ja terveydenhuollon asiakastiedon sähköisen käsittelyn, siihen liittyvän tietohallinnon ja 14 §:ssä tarkoitettujen valtakunnallisten tietojärjestelmäpalvelujen hoidon ja toteuttamisen yleinen suunnittelu, ohjaus ja valvonta kuuluvat sosiaali- ja terveysministeriölle.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_20__subsec_2">
+                            <content>
+                                <p>Tietosuojavaltuutettu, Terveydenhuollon oikeusturvakeskus sekä lääninhallitus alueellaan ohjaavat ja valvovat niille säädetyn toimivallan mukaisesti osaltaan tämän lain noudattamista.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_20__subsec_3">
+                            <content>
+                                <p>Sosiaalihuollon ja terveydenhuollon palvelujen antajan, Kansaneläkelaitoksen ja Terveydenhuollon oikeusturvakeskuksen on omalta osaltaan seurattava ja valvottava, että sen antamaan palveluun liittyvä tietosuoja toteutuu. Jos joku on lainvastaisesti käsitellyt asiakastietoja, tulee asianomaisen palvelujen antajan sekä Kansaneläkelaitoksen oma-aloitteisesti ryhtyä tarvittaviin toimenpiteisiin. Seurannan ja valvonnan toteuttamiseksi palvelujen antajalla on oikeus saada Kansaneläkelaitokselta omien potilasrekisteriensä lokitiedot.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_20__subsec_4">
+                            <content>
+                                <p>Sosiaalihuollon ja terveydenhuollon toimintayksikön vastaavan johtajan tulee antaa kirjalliset ohjeet asiakastietojen käsittelystä ja noudatettavista menettelytavoista sekä huolehtia henkilökunnan riittävästä asiantuntemuksesta ja osaamisesta asiakastietojen käsittelyssä. Lisäksi jokaisella palvelujen antajalla, Kansaneläkelaitoksella ja Terveydenhuollon oikeusturvakeskuksella on oltava seuranta- ja valvontatehtävää varten tietosuojavastaava.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_21">
+                        <num>21 §</num>
+                        <heading>Sosiaali- ja terveydenhuollon sähköisen tietohallinnon neuvottelukunta</heading>
+                        <subsection eId="chp_6__sec_21__subsec_1">
+                            <content>
+                                <p>Sosiaali- ja terveydenhuollon sähköistä tiedonhallintaa koskevien periaatekysymysten käsittelyä, 14 §:ssä tarkoitettujen valtakunnallisten tietojärjestelmäpalvelujen toteutusta sekä palvelujen käyttäjien tietojärjestelmien yhtenäistämistä ja kehittämistä varten on sosiaali- ja terveysministeriön yhteydessä sosiaali- ja terveydenhuollon sähköisen tietohallinnon neuvottelukunta. Neuvottelukunnan tehtävistä ja kokoonpanosta säädetään tarkemmin valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_22">
+                        <num>22 §</num>
+                        <heading>Maksut</heading>
+                        <subsection eId="chp_6__sec_22__subsec_1">
+                            <content>
+                                <p>Kansaneläkelaitoksen ja Terveydenhuollon oikeusturvakeskuksen hoitamien 14 §:ssä tarkoitettujen valtakunnallisten tietojärjestelmäpalvelujen käyttö on terveydenhuollon palvelujen antajille maksullista. Käyttömaksut säädetään sosiaali- ja terveysministeriön asetuksella sellaisiksi, että ne vastaavat palvelujen hoidosta aiheutuvien kustannusten määrää.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_22__subsec_2">
+                            <content>
+                                <p>Kansaneläkelaitoksen ja Terveydenhuollon oikeusturvakeskuksen tulee toimittaa vuosittain sosiaali- ja terveysministeriölle sekä sosiaali- ja terveydenhuollon sähköisen tietohallinnon neuvottelukunnalle selvitys kustannuksiin vaikuttavista tekijöistä sekä arvio seuraavan vuoden käyttömaksujen perustana olevista kokonaiskustannuksista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_23">
+                        <num>23 §</num>
+                        <heading>Rangaistussäännökset</heading>
+                        <subsection eId="chp_6__sec_23__subsec_1">
+                            <content>
+                                <p>
+                                    Joka tahallaan tai törkeästä huolimattomuudesta rikkoo 8 §:ssä säädettyä tunnistamis- tai todentamisvelvoitetta, luovuttaa hakutietoja 12 §:n, 15 §:n 2 momentin tai 25 §:n 3 momentin vastaisesti, luovuttaa potilastietoja ilman 13 §:ssä edellytettyä potilaan suostumusta tai luovutuksen oikeuttavaa lain säännöstä taikka laiminlyö 17 §:n 2 momentin mukaisen informointivelvoitteen ja siten vaarantaa asiakkaan yksityisyyden suojaa tai muutoin hänen oikeuksiaan, on tuomittava, jollei teosta muualla laissa säädetä ankarampaa rangaistusta, 
+                                    <i>sosiaali- ja terveydenhuollon asiakastietojen käsittelyrikkomuksesta</i>
+                                     sakkoon.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_23__subsec_2">
+                            <content>
+                                <p>Rangaistus tietomurrosta säädetään rikoslain (39/1889) 38 luvun 8 §:ssä ja rangaistus henkilörekisteririkoksesta rikoslain 38 luvun 9 §:ssä. Rangaistus salassapitovelvollisuuden rikkomisesta tuomitaan rikoslain 38 luvun 1 tai 2 §:n mukaan, jollei teko ole rangaistava rikoslain 40 luvun 5 §:n mukaan tai siitä muualla laissa säädetä ankarampaa rangaistusta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_7">
+                    <num>7 luku</num>
+                    <heading>Voimaantulo- ja siirtymäsäännökset</heading>
+                    <section eId="chp_7__sec_24">
+                        <num>24 §</num>
+                        <heading>Voimaantulo</heading>
+                        <subsection eId="chp_7__sec_24__subsec_1">
+                            <content>
+                                <p>Tämä laki tulee voimaan 1 päivänä heinäkuuta 2007.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_25">
+                        <num>25 §</num>
+                        <heading>Siirtymäsäännökset</heading>
+                        <subsection eId="chp_7__sec_25__subsec_1">
+                            <content>
+                                <p>Edellä lain 24 §:ssä säädetystä poiketen 15 §, jossa säädetään velvollisuudesta liittyä valtakunnallisten tietojärjestelmäpalvelujen käyttäjäksi, tulee voimaan neljän vuoden kuluttua lain voimaantulosta. Jos terveydenhuollon palvelujen antaja on kuitenkin liittynyt tässä laissa tarkoitettujen tietojärjestelmäpalvelujen käyttäjäksi ennen 15 §:n voimaantuloa, koskevat tämän lain säännökset niitä terveydenhuollon palvelujen antajan asiakirjoja, jotka on liitetty mainittuihin tietojärjestelmäpalveluihin. Lain 14 §:ssä tarkoitetut valtakunnalliset tietojärjestelmäpalvelut voidaan ottaa käyttöön vaiheittain jo ennen liittymisvelvollisuuden voimaantuloa. Tällöin näiden palvelujen avulla tapahtuvaan potilastietojen käsittelyyn sovelletaan tämän lain säännöksiä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_25__subsec_2">
+                            <content>
+                                <p>Lain 22 §:ssä tarkoitettuja maksuja aletaan periä neljän vuoden kuluttua tämän lain voimaantulosta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_25__subsec_3">
+                            <content>
+                                <p>Sosiaali- ja terveydenhuollon saumattoman palveluketjun kokeilusta annetun lain (811/2000) mukaisesti toteutettuihin viitetietojärjestelmiin tallennetut tiedot voidaan liittää valtakunnalliseen arkistointipalveluun ilman potilaan suostumusta. Arkistointipalveluun liitettyjen viitetietojen ja niiden avulla tapahtuva potilastietojen luovutus tapahtuu tämän lain mukaisesti hakutietojen avulla. Näitä hakutietoja ei kuitenkaan saa luovuttaa ilman potilaan kirjallista suostumusta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_25__subsec_4">
+                            <content>
+                                <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/253">HE 253/2006</ref>
+                        </p>
+                        <p>StVM 47/2006</p>
+                        <p>EV 232/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 9 päivänä helmikuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Hannes Manninen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

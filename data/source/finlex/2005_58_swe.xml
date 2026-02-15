@@ -1,0 +1,176 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/58/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/58"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/58/alkup"/>
+                    <FRBRdate date="2005-02-04" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="58"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/58/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/58/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/58/alkup/swe"/>
+                    <FRBRdate date="2005-02-04" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/58/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/58/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/58/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="12"/>
+                    <finlex:date date="2005-02-08"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>58/2005</docNumber>
+                <docTitle>Lag om ändring av äktenskapslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i äktenskapslagen av den 13 juni 1929 (
+                        <affectedDocument href="/akn/fi/act/statute/1929/234">234/1929</affectedDocument>
+                        ) 105 och 105 a §, sådana de lyder i lag 929/2002,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         35 § 4 mom., 43 §, 104 § 2 mom., 107 § samt 135 § 2 mom., sådana de lyder, 35 § 4 mom., 43 § och 104 § 2 mom. i nämnda lag 929/2002, 107 § i lag 411/1987 och 135 § 2 mom. i lag 1226/2001, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 16 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>16 a §</num>
+                    <subsection>
+                        <content>
+                            <p>För hindersprövning och vigsel som har förrättats av en statlig myndighet och för intyg i anslutning därtill uttas inte någon avgift. För förrättande av borgerlig vigsel kan dock tas ut en avgift och ersättning för resekostnader, om vigselförrättaren och de förlovade har kommit överens om att vigseln skall förrättas vid någon annan tidpunkt än under den öppettid som nämns i 1 § i förordningen om öppethållandet av statens ämbetsverk (332/1994). Ersättning för resekostnader kan också tas ut om borgerlig vigsel förrättas någon annanstans än i vigselförrättarens ämbetslokal. Avgiftens och ersättningens storlek anges genom förordning av statsrådet i enlighet med lagen om grunderna för avgifter till staten (150/1992).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>35 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Har en makes egendom avträtts till konkurs, kan den andra maken utesluta vardera makens giftorätt genom att inom ett år efter konkursens början anmäla detta till magistraten så som föreskrivs i lagen om vissa personregister vid magistraterna (57/2005).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>43 §</num>
+                    <subsection>
+                        <content>
+                            <p>Ett äktenskapsförord skall ges in till magistraten för registrering så som föreskrivs i lagen om vissa personregister vid magistraterna.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om avtalsparterna i ett äktenskapsförord meddelat att lös egendom givits som gåva, tillämpas dessutom vad som särskilt föreskrivs om registrering av gåvor som avses i 6 § i lagen om gåvoutfästelser (625/1947).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>104 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>För att en make som fått egendom genom avvittring som avses i 1 mom. eller dennes arvingar skall kunna få skydd mot återvinningsanspråk från den andra makens borgenärer vid konkurs eller utsökning, skall avvittringshandlingen ges in till magistraten för registrering så som föreskrivs i lagen om vissa personregister vid magistraterna.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>107 §</num>
+                    <subsection>
+                        <content>
+                            <p>Har ingendera av makarna giftorätt i den andras egendom, skall vid avskiljande av egendom i tillämpliga delar iakttas 89, 98, 101, 102, 103 b, 104 och 106 §.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>135 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ett avtal genom vilket makarna har förordnat att en främmande stats lag skall tillämpas på förmögenhetsförhållandena dem emellan kan inte åberopas mot makes borgenär i det fall att makarna är bosatta eller har hemvist i Finland, om avtalet inte har lämnats in för registrering till magistraten så som föreskrivs i lagen om vissa personregister vid magistraterna.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 maj 2005.</p>
+                    <p>På de ärenden som är anhängiga vid magistraterna när denna lag träder i kraft tillämpas de bestämmelser som gäller vid ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 123/2004</p>
+                        <p>FvUB 25/2004</p>
+                        <p>RSv 235/2004</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 4 februari 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Johannes Koskinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

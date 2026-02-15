@@ -1,0 +1,318 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1161/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1161"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1161/alkup"/>
+                    <FRBRdate date="2005-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1161"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1161/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1161/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1161/alkup/swe"/>
+                    <FRBRdate date="2005-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1161/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1161/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1161/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="192"/>
+                    <finlex:date date="2005-12-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1161/2005</docNumber>
+                <docTitle>Lag om ändring av strafflagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i strafflagen av den 19 december 1889 (
+                        <affectedDocument href="/akn/fi/act/statute/1889/39">39/1889</affectedDocument>
+                        ) 8 kap. 1 § 1 och 4 mom., 6 § 1 och 3 mom., 9 §, 10 § 1 mom., 14 § och 18 § 1 mom., 25 kap. 5 §, 34 a kap. 1 § 1 mom. 5 punkten och 5 § 1 mom. 5 punkten samt 48 a kap. 7 §,
+                    </block>
+                    <block name="substitutions-originals">sådana de lyder, 8 kap. 1 § 1 och 4 mom., 6 § 1 och 3 mom., 9 §, 10 § 1 mom., 14 § och 18 § 1 mom. i lag 297/2003, 25 kap. 5 § i lag 578/1995, 34 a kap. 1 § 1 mom. 5 punkten och 5 § 1 mom. 5 punkten i lag 17/2003 och 48 a kap. 7 § i lag 1067/2004, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 8 kap. 1 §, sådan den lyder i nämnda lag 297/2003, ett nytt 5 mom. och till 6 §, sådan den lyder i sistnämnda lag, ett nytt 4 mom., till 8 kap. en ny 12 a § samt till 25 kap. en ny 5 a och en ny 9 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>8 kap.</num>
+                    <heading>Om preskription</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Preskription av åtalsrätten</heading>
+                        <subsection>
+                            <content>
+                                <p>Rätten att väcka åtal för brott för vilket det strängaste föreskrivna straffet är fängelse på livstid preskriberas inte. Rätten att väcka åtal preskriberas inte heller om det är fråga om krigföringsbrott, grovt krigföringsbrott, kränkning av mänskliga rättigheter under undantagsförhållanden eller grov kränkning av mänskliga rättigheter under undantagsförhållanden.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>För tjänstebrott är preskriptionstiden dock minst fem år. För miljöförstöring, naturskyddsbrott och byggnadsskyddsbrott är preskriptionstiden tio år. För miljöförstöring, grov miljöförstöring, miljöförseelse och miljöförstöring av oaktsamhet som har skett från ett utländskt fartyg i Finlands ekonomiska zon så som avses i 28 § i lagen om förhindrande av miljöförorening från fartyg (300/1979) är preskriptionstiden tre år. För fiskebrott som har begåtts från ett utländskt fartyg i den ekonomiska zonen är den kortaste preskriptionstiden tre år.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Åtalsrätten för sexuellt utnyttjande av barn och grovt sexuellt utnyttjande av barn preskriberas tidigast då målsäganden fyller 28 år. Detsamma gäller våldtäkt, grov våldtäkt och tvingande till samlag som riktat sig mot en person som inte fyllt 18 år.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Preskription som förhindrar utdömande av straff</heading>
+                        <subsection>
+                            <content>
+                                <p>Rätten att döma ut straff för de brott som avses i 1 § 1 mom. preskriberas inte.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>För brott som avses i 1 § 5 mom. får straff inte dömas ut efter det att den tid som nämns i 2 mom. i denna paragraf har löpt ut och tio år har förflutit från det att målsäganden fyllt 28 år.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Ett utdömt straff förfaller, om den dom som gäller straffet inte har blivit verkställbar innan den i 2 eller 3 mom. nämnda tiden har löpt ut.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Preskription som förhindrar utdömande av förverkandepåföljd</heading>
+                        <subsection>
+                            <content>
+                                <p>En förverkandepåföljd får inte dömas ut, om straff för gärningen inte får dömas ut på grund av preskription. Den kortaste preskriptionstiden för ett yrkande på förverkande är dock fem år. Om yrkandet på förverkande gäller ett sådant hjälpmedel vid brott som avses i 10 kap. 4 § eller annan egendom som avses i 10 kap. 5 §, preskriberas yrkandet dock inte.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>10 §</num>
+                        <heading>När utdömt fängelsestraff förfaller</heading>
+                        <subsection>
+                            <content>
+                                <p>Ett fängelsestraff på livstid och ett fängelsestraff på viss tid som dömts ut för ett brott som nämns i 1 § 1 mom. förfaller inte.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>12 a §</num>
+                        <heading>När utdömt ungdomsstraff förfaller</heading>
+                        <subsection>
+                            <content>
+                                <p>Ett ungdomsstraff förfaller, om verkställigheten inte har börjat inom tre år från den dag då den lagakraftvunna domen gavs.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>14 §</num>
+                        <heading>När utdömd förverkandepåföljd förfaller</heading>
+                        <subsection>
+                            <content>
+                                <p>En förverkandepåföljd får inte verkställas när tio år har förflutit från den dag då den lagakraftvunna domen gavs. Om förverkandepåföljden gäller sådana hjälpmedel vid brott som avses i 10 kap. 4 § eller annan egendom som avses i 10 kap. 5 §, förfaller verkställigheten av förverkandepåföljden dock inte.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>18 §</num>
+                        <heading>Hänvisningsbestämmelse</heading>
+                        <subsection>
+                            <content>
+                                <p>I 2 b kap. 3 § 2 mom. bestäms när villkorligt fängelse förfaller.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>25 kap.</num>
+                    <heading>Om brott mot friheten</heading>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Egenmäktigt omhändertagande av barn</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Om en förälder, fosterförälder eller vårdnadshavare till ett barn under 16 år eller någon som står barnet nära egenmäktigt omhändertar barnet eller egenmäktigt för en annan ovan nämnd person omhändertar barnet från den som omhänderhar barnet skall han eller hon, om gärningen inte utgör bortförande av barn enligt 5 a §, för 
+                                    <i>egenmäktigt omhändertagande av barn</i>
+                                     dömas till böter eller fängelse i högst sex månader.
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>5 a §</num>
+                        <heading>Bortförande av barn</heading>
+                        <subsection>
+                            <intro>
+                                <p>Om vid egenmäktigt omhändertagande av barn</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>ett barn, i strid med rätten att ta vård om barnet, förs bort från den stat där barnet är bosatt eller kvarhålls utom den staten, och</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>rätten att ta vård om barnet faktiskt utövades vid den tidpunkt barnet bortfördes eller kvarhölls, eller skulle ha utövats om inte bortförandet eller kvarhållandet hade ägt rum,</p>
+                                </content>
+                            </paragraph>
+                            <wrapUp>
+                                <p>
+                                    skall gärningsmannen för 
+                                    <i>bortförande av barn</i>
+                                     dömas till böter eller fängelse i högst två år.
+                                </p>
+                            </wrapUp>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 a §</num>
+                        <heading>Åtgärdseftergift</heading>
+                        <subsection>
+                            <content>
+                                <p>Vid bortförande av barn får eftergift ske i fråga om åtal eller straff, om gärningsmannen frivilligt har återlämnat barnet, om barnets fördel kräver det eller om rättegång och straff med hänsyn till de orsaker som lett till gärningen bör anses oskäliga.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>34 a kap.</num>
+                    <heading>Om terroristbrott</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Brott som begåtts i terroristiskt syfte</heading>
+                        <subsection>
+                            <intro>
+                                <p>Den som i terroristiskt syfte och så att gärningen är ägnad att allvarligt skada en stat eller en internationell organisation gör sig skyldig till</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>grov misshandel, grov människohandel, tagande av gisslan, grovt sabotage, grovt äventyrande av andras hälsa, kärnladdningsbrott eller kapning, skall dömas till fängelse i minst två och högst tolv år,</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Finansiering av terrorism</heading>
+                        <subsection>
+                            <intro>
+                                <p>Den som direkt eller indirekt tillhandahåller eller samlar in tillgångar för att finansiera, eller med vetskap om att de skall användas till att finansiera</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>5)</num>
+                                <intro>
+                                    <p>mord, dråp, dråp under förmildrande omständigheter, grov misshandel, frihetsberövande, grovt frihetsberövande, grov människohandel, tagande av gisslan eller grovt brott mot offentlig frid eller hot om dem, när gärningen riktar sig mot en person som avses i konventionen om förebyggande och bestraffning av brott mot personer, som åtnjuter internationellt skydd, bland dem diplomatiska representanter (FördrS 63/1978),</p>
+                                </intro>
+                                <subparagraph>
+                                    <content>
+                                        <p>
+                                            skall för 
+                                            <i>finansiering av terrorism</i>
+                                             dömas till fängelse i minst fyra månader och högst åtta år.
+                                        </p>
+                                    </content>
+                                </subparagraph>
+                                <hcontainer name="omission"/>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>48 a kap.</num>
+                    <heading>Om naturresursbrott</heading>
+                    <section>
+                        <num>7 §</num>
+                        <heading>Från utländska fartyg i den ekonomiska zonen begångna fiskebrott och döljande av olagligt byte som erhållits genom fiskebrott</heading>
+                        <subsection>
+                            <content>
+                                <p>För ett fiskebrott som har begåtts från ett utländskt fartyg i Finlands ekonomiska zon och för döljande av olagligt byte som erhållits genom fiskebrottet får dömas endast till böter, om inte annat följer av en internationell överenskommelse som är bindande för Finland.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 169/2005</p>
+                        <p>LaUB 15/2005</p>
+                        <p>RSv 187/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 22 december 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,141 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/126/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/126"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/126/alkup"/>
+                    <FRBRdate date="2007-02-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="126"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/126/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/126/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/126/alkup/swe"/>
+                    <FRBRdate date="2007-02-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/126/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/126/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/126/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="21"/>
+                    <finlex:date date="2007-02-14"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>126/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om statens säkerhetsfond</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 30 april 1992 om statens säkerhetsfond (<affectedDocument href="/akn/fi/act/statute/1992/379">379/1992</affectedDocument>) 1 § 2 mom., 14 § 1 mom. och 19 a §, sådana de lyder, 1 § 2 mom. och 14 § 1 mom. i lag 1237/1997 samt 19 a § i nämnda lag 245/1996 och i lag 602/2003, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Fondens uppgifter</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>
+                                Av fondens medel kan de säkerhetsfonder som avses i 113 § i kreditinstitutslagen (121/2007) enligt denna lag beviljas lån på specialvillkor (<i>stödlån</i>). På fondens ansvar kan dessutom borgen ställas för lån som upptas av de nämnda säkerhetsfonderna.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>14 §</num>
+                    <heading>Beslut om stödåtgärder</heading>
+                    <subsection>
+                        <content>
+                            <p>Finansministeriet beslutar om samtycke som avses i 119 § 5 mom. och 120 § 1 mom. i kreditinstitutslagen och om andra frågor i samband med stödåtgärder, om det inte har uppdragits åt statsrådets allmänna sammanträde att besluta om dessa frågor.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>19 a §</num>
+                    <heading>Särskilda bestämmelser om bolag</heading>
+                    <subsection>
+                        <content>
+                            <p>På aktier i egendomsförvaltningsbolag och andra bolag som avses i 1 § 4 mom. samt på aktier i bolag som dessa äger tillämpas inte 24 § 1 mom. i lagen om statsbudgeten (423/1988) och inte heller lagen om utövande av statens delägarrätt i vissa aktiebolag som bedriver ekonomisk verksamhet (740/1991). På egendomsförvaltningsbolag tillämpas utöver den gällande lagstiftningen om aktiebolag vad kreditinstitutslagen föreskriver om kundskydd i 125, 126 och 128―131 §, om tystnadsplikt i 141―144 § och om brott mot tystnadsplikten i 169 § samt vad 25 § i lagen om Finansinspektionen (587/2003) föreskriver om vite.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Finansinspektionen skall utöva tillsyn över iakttagandet av bestämmelserna om kundskydd och tystnadsplikt. I frågor som gäller dessa bestämmelser har Finansinspektionen granskningsrätt och rätt att få uppgifter enligt 15 § i lagen om Finansinspektionen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 15 februari 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 21/2006</p>
+                        <p>EkUB 25/2006</p>
+                        <p>RSv 252/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 9 februari 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Andra finansminister </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

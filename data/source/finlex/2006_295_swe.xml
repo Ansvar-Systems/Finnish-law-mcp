@@ -1,0 +1,149 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/295/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/295"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/295/alkup"/>
+                    <FRBRdate date="2006-04-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="295"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/295/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/295/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/295/alkup/swe"/>
+                    <FRBRdate date="2006-04-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/295/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/295/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/295/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="50"/>
+                    <finlex:date date="2006-04-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>295/2006</docNumber>
+                <docTitle>Lag om ändring av 3 § i patentlagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i patentlagen av den 15 december 1967 (
+                        <affectedDocument href="/akn/fi/act/statute/1967/550">550/1967</affectedDocument>
+                        ) 3 § 3 mom., sådant det lyder i lag 407/1980 och 1409/1992, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Ensamrätten omfattar inte</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>utnyttjande som inte sker yrkesmässigt,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>utnyttjande av patentskyddat alster som av patenthavaren eller med dennes samtycke bringats i omsättning inom Europeiska ekonomiska samarbetsområdet,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>utnyttjande av uppfinningen för experiment, som avser själva uppfinningen,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>undersökningar eller prövningar eller åtgärder som föranleds av de praktiska kraven, vilka behövs för ansökan om försäljningstillstånd för ett läkemedelspreparat och vilka gäller en uppfinning som hänför sig till ifrågavarande läkemedelspreparat, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>beredning på apotek av läkemedel enligt läkares föreskrift i enskilda fall eller åtgärder med sålunda berett läkemedel.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 maj 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 225/2005</p>
+                        <p>EkUB 2/2006</p>
+                        <p>RSv 14/2006</p>
+                        <p>Europaparlamentets och rådets direktiv 2001/82/EG (32001L0082); EGT nr L 311, 28.11.2001, s. 1</p>
+                        <p>Europaparlamentets och rådets direktiv 2001/83/EG (32001L0083); EGT nr L 311, 28.11.2001, s. 67</p>
+                        <p>Europaparlamentets och rådets direktiv 2004/27/EG (32004L0027); EGT nr L 136, 30.4.2004, s. 34</p>
+                        <p>Europaparlamentets och rådets direktiv 2004/28/EG (32004L0028); EGT nr L 136, 30.4.2004, s. 58</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 21 april 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Paula Lehtomäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

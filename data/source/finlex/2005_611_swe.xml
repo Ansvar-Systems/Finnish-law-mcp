@@ -1,0 +1,143 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/611/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/611"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/611/alkup"/>
+                    <FRBRdate date="2005-08-05" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="611"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/611/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/611/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/611/alkup/swe"/>
+                    <FRBRdate date="2005-08-05" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/611/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/611/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/611/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="106"/>
+                    <finlex:date date="2005-08-09"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>611/2005</docNumber>
+                <docTitle>Lag om ändring av fordonsskattelagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i fordonsskattelagen av den 30 december 2003 (
+                        <affectedDocument href="/akn/fi/act/statute/2003/1281">1281/2003</affectedDocument>
+                        ) 64 §,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         52 § 1 mom. och 62 § 1 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 62 § ett nytt 3 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>52 §</num>
+                    <heading>Ränta som skall betalas med anledning av ändringssökande</heading>
+                    <subsection>
+                        <content>
+                            <p>Om skatt med anledning av ändringssökande eller rättelse har avlyfts eller sänkts, skall till vederbörande återbetalas det överskjutande beloppet jämte årlig ränta från skattebetalningsdagen enligt vad som bestäms i lagen om skatteuppbörd (609/2005).</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>62 §</num>
+                    <heading>Minsta belopp som uppbärs, debiteras och återbärs</heading>
+                    <subsection>
+                        <content>
+                            <p>Det minsta fordonsskattebeloppet som debiteras är 10 euro med undantag för det högre fordonsskattebelopp som debiteras enligt 20 § i denna lag. Skatt återbärs, om det belopp som skall återbäras är fem euro eller mer. En återbäring på mindre än fem euro kan överföras för att gottskrivas vid följande debitering.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>På debitering, uppbörd och återbäring av fordonsskatt tillämpas inte 47 § i lagen om skatteuppbörd.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 15 augusti 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 63/2005</p>
+                        <p>FiUB 16/2005</p>
+                        <p>RSv 87/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 5 augusti 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Andra finansminister </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

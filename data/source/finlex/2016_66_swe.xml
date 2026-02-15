@@ -1,0 +1,907 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/66/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/66"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/66/alkup"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-02" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="66"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/66/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/66/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/66/alkup/swe"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-02" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/66/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/66/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/66/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2016-02-02" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>66/2016</docNumber>
+                <docTitle>Lag om Keva</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut föreskrivs:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 kap.</num>
+                    <heading>Tillämpningsområde och Kevas medlemssamfund</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Tillämpningsområde</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Denna lag innehåller bestämmelser om pensionsanstalten Keva. Keva är en offentligrättslig pensionsanstalt som förvaltas av sina medlemssamfund och den har sin hemort i Helsingfors.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Kevas uppgifter</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <intro eId="chp_1__sec_2__subsec_1__intro">
+                                <p>Keva har till uppgift att sköta</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_1">
+                                <num>1) </num>
+                                <content>
+                                    <p>verkställigheten av pensionsskyddet för kommunsektorns personal, de statsanställda, evangelisk-lutherska kyrkans personal och Folkpensionsanstaltens personal enligt pensionslagen för den offentliga sektorn (81/2016) samt de uppgifter som anges i den lagen,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_2">
+                                <num>2) </num>
+                                <content>
+                                    <p>finansieringen av pensionsskyddet för medlemssamfundens anställda personal, med undantag av finansieringen på vilken lagen om finansieringen av statens pensionsskydd (67/2016) tillämpas,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_3">
+                                <num>3) </num>
+                                <content>
+                                    <p>uttagandet av pensionsavgifter enligt 2 § 1 mom. i lagen om finansiering av statens pensionsskydd (67/2016) och 3 § 1 mom. i lagen om finansiering av evangelisk-lutherska kyrkans pensionsskydd (68/2016).</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_1__sec_2__subsec_2">
+                            <content>
+                                <p>Keva ska sköta den uppgift som avses i 1 mom. 2 punkten på ett sätt som tryggar de förmåner som pensionsskyddet omfattar.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_2__subsec_3">
+                            <content>
+                                <p>Keva kan med stöd av ett avtal producera pensionsadministrativa tjänster samt sådana stödtjänster som behövs vid skötseln av dem även för kundgrupper som inte omfattas av tillämpningsområdet för pensionslagen för den offentliga sektorn, om tjänsterna inte innebär utövande av offentlig makt.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <heading>Kevas medlemssamfund</heading>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <content>
+                                <p>Kommuner och samkommuner samt Keva och Kommunernas garanticentral är medlemssamfund i Keva.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_3__subsec_2">
+                            <intro eId="chp_1__sec_3__subsec_2__intro">
+                                <p>Till Keva kan som medlemssamfund ansluta sig</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_3__subsec_2__para_1">
+                                <num>1) </num>
+                                <content>
+                                    <p>en sådan förening vars medlemmar enbart består av medlemssamfund som nämns i 1 mom. eller föreningar som bildats av dem,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_2__para_2">
+                                <num>2) </num>
+                                <content>
+                                    <p>ett sådant aktiebolag vars samtliga aktier ägs av medlemssamfund som nämns i 1 mom. eller av föreningar som anslutit sig som medlemssamfund i Keva eller av aktiebolag som nämns i denna punkt och som har anslutit sig som medlemssamfund,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_2__para_3">
+                                <num>3) </num>
+                                <content>
+                                    <p>ett sådant aktiebolag och en sådan stiftelse som ett eller flera i 1 mom. nämnda medlemssamfund har bestämmande inflytande i enligt 1 kap. 5 § i bokföringslagen (1336/1997) och som bistår vid produktionen av tjänster som skötseln av kommunernas lagstadgade uppgifter förutsätter och funktioner som direkt betjänar dessa, och</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_2__para_4">
+                                <num>4) </num>
+                                <content>
+                                    <p>ett sådant aktiebolag och en sådan stiftelse som ett eller flera i 1 mom. nämnda medlemssamfund har bestämmande inflytande i enligt 1 kap. 5 § i bokföringslagen och där majoriteten av de anställda omedelbart innan aktiebolaget eller stiftelsen bildades har varit anställda hos ett medlemssamfund i Keva.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_1__sec_3__subsec_3">
+                            <content>
+                                <p>En förening, ett aktiebolag och en stiftelse som anslutit sig som medlemssamfund ska underrätta Keva om sådana förändringar av dess förhållanden som medför att föreningen, aktiebolaget eller stiftelsen inte längre uppfyller förutsättningarna i 2 mom.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_4">
+                        <num>4 §</num>
+                        <heading>Anslutning som medlemssamfund samt avslutande av medlemskap</heading>
+                        <subsection eId="chp_1__sec_4__subsec_1">
+                            <content>
+                                <p>En förening, ett aktiebolag och en stiftelse som önskar ansluta sig som medlemssamfund i Keva ska skriftligen ansöka om medlemskap hos Kevas styrelse. Styrelsen avgör om den sökande uppfyller förutsättningarna i 3 § 2 mom. och beslutar från vilken tidpunkt medlemskapet börjar.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_4__subsec_2">
+                            <content>
+                                <p>Om det blir klarlagt att en förening, ett aktiebolag eller en stiftelse som anslutit sig som medlemssamfund inte längre uppfyller förutsättningarna för medlemskap enligt 3 § 2 mom. eller om ett medlemssamfund skriftligen har anmält att det önskar utträda ur medlemskapet, konstaterar styrelsen efter att ha hört medlemssamfundet i fråga att medlemskapet upphört. Medlemssamfundet ska göra anmälan om sin önskan att utträda senast tre månader före den tidpunkt då det önskat att medlemskapet upphör.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_5">
+                        <num>5 §</num>
+                        <heading>Medlemssamfund i konkurs</heading>
+                        <subsection eId="chp_1__sec_5__subsec_1">
+                            <content>
+                                <p>Om en förening, ett aktiebolag eller en stiftelse som anslutit sig som medlemssamfund försätts i konkurs, kan konkursboet fortsätta som medlemssamfund i Keva med samma rättigheter och skyldigheter som andra medlemssamfund. Avgifterna enligt 19 § för den tid konkursboet är medlem betalas av konkursboet. Konkursboet kan utträda ur medlemskapet i Keva i enlighet med vad som föreskrivs i 4 § 2 mom.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 kap.</num>
+                    <heading>Tillsyn</heading>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Allmän tillsyn</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>Finansministeriet svarar för den allmänna tillsynen över Kevas verksamhet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_2">
+                            <content>
+                                <p>Finansministeriet kan av särskilda skäl förordna en specialrevision av Kevas förvaltning och räkenskaper.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_3">
+                            <content>
+                                <p>Finansministeriet tillsätter för högst fyra år en revisor som utifrån Kevas bokföring och annat material ska granska att de beräkningar som avses i 24 § och som Keva har lämnat om den summa som behövs för betalningen av statens, evangelisk-lutherska kyrkans och Folkpensionsanstaltens pensioner och om ersättningen för Kevas kostnader är riktiga och tillräckliga. Revisorn har dessutom till uppgift att utifrån Kevas bokföring och annat material granska att Keva har tagit ut statliga och kyrkliga arbetsgivares pensionsavgifter i enlighet med vad som föreskrivs i 2 § 1 mom. i lagen om finansiering av statens pensionsskydd och 3 § 2 mom. i lagen om finansiering av evangelisk-lutherska kyrkans pensionsskydd samt arbetstagarens pensionsavgift i enlighet med vad som föreskrivs 168 § 2 mom. i pensionslagen för den offentliga sektorn och att pensionsavgifter samt överföringsavgifter och arbetslöshetsförsäkringsfondens avgift har betalats till statens pensionsfond till
+rätt belopp och att pensionsavgifterna och arbetslöshetsförsäkringsfondens avgift har betalats till evangelisk-lutherska kyrkan till rätt belopp. Revisorn ska vara antingen en av Revisionstillsynen godkänd CGR-revisor eller en OFGR-revisor. Bestämmelser om revision finns i revisionslagen (1141/2015).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Tillsyn över planeringen av finansieringsverksamheten och över placeringsverksamheten</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>Finansinspektionen utövar tillsyn över planeringen av Kevas finansieringsverksamhet och över placeringen av Kevas tillgångar. På Finansinspektionens rätt att få uppgifter och att granska tillämpas 18 och 24 § i lagen om Finansinspektionen (878/2008). Finansinspektionen ska årligen i fråga om tillsynen överlämna en berättelse till finansministeriet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 kap.</num>
+                    <heading>Förvaltning</heading>
+                    <section eId="chp_3__sec_8">
+                        <num>8 §</num>
+                        <heading>Delegationen</heading>
+                        <subsection eId="chp_3__sec_8__subsec_1">
+                            <content>
+                                <p>Kevas beslutanderätt utövas av dess delegation. Delegationen kan i instruktionen för Keva överföra beslutanderätt till andra organ inom Keva. Beslutanderätten får dock inte överföras i ärenden som delegationen eller något annat organ ska besluta om enligt denna lag.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_8__subsec_2">
+                            <content>
+                                <p>Delegationen består av 30 ledamöter med en personlig suppleant för var och en av dem, vilka förordnas av finansministeriet för fyra år i sänder. Minst fyra ledamöter och lika många suppleanter utses bland personer som föreslagits av de huvudavtalsorganisationer som avses i det kommunala huvudavtalet. Övriga ledamöter och suppleanter utses bland personer som Finlands Kommunförbund rf föreslagit så att kommunerna och samkommunerna samt landets olika delar är rättvist representerade i delegationen. När dessa ledamöter och suppleanter förordnas ska dessutom de olika gruppernas röstandel i kommunalvalet beaktas i enlighet med proportionalitetsprincipen i vallagen (714/1998).</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_8__subsec_3">
+                            <intro eId="chp_3__sec_8__subsec_3__intro">
+                                <p>Delegationen har till uppgift att</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_8__subsec_3__para_1">
+                                <num>1) </num>
+                                <content>
+                                    <p>välja styrelseledamöter och suppleanter samt revisor för högst delegationens mandatperiod,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_3__para_2">
+                                <num>2) </num>
+                                <content>
+                                    <p>besluta om instruktionen för Keva, tilläggspensionsstadgan och räkenskapsstadgan,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_3__para_3">
+                                <num>3) </num>
+                                <content>
+                                    <p>anställa verkställande direktören och säga upp eller förflytta honom eller henne till andra uppgifter om han eller hon har förlorat delegationens förtroende,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_3__para_4">
+                                <num>4) </num>
+                                <content>
+                                    <p>besluta om grunderna för arvoden och andra ersättningar till de förtroendevalda,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_3__para_5">
+                                <num>5) </num>
+                                <content>
+                                    <p>besluta om medlemssamfundens betalningsandelar på det sätt som föreskrivs i 19 §,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_3__para_6">
+                                <num>6) </num>
+                                <content>
+                                    <p>behandla bokslutet och revisionsberättelsen samt besluta om fastställande av bokslutet, beviljande av ansvarsfrihet för styrelsen och andra redovisningsskyldiga och andra åtgärder som är behövliga,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_3__para_7">
+                                <num>7) </num>
+                                <content>
+                                    <p>godkänna budgeten för det följande året som en allmän ekonomisk anvisning samt en verksamhets- och ekonomiplan för tre eller flera år.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_9">
+                        <num>9 §</num>
+                        <heading>Styrelsen</heading>
+                        <subsection eId="chp_3__sec_9__subsec_1">
+                            <content>
+                                <p>Kevas förvaltning sköts av styrelsen som väljs av delegationen för två år i sänder. Styrelsens mandatperiod fortsätter dock tills nästa styrelse är vald.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_9__subsec_2">
+                            <content>
+                                <p>Styrelsen består av nio ledamöter med en personlig suppleant för var och en av dem. Två av styrelseledamöterna och deras suppleanter väljs bland personer som föreslagits gemensamt av de huvudavtalsorganisationer som avses i det kommunala huvudavtalet. Delegationen förordnar en av de ordinarie ledamöterna till ordförande och en till vice ordförande.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_9__subsec_3">
+                            <content>
+                                <p>Styrelseledamöterna ska vara väl ansedda och ha god sakkunskap om arbetspensionsförsäkringsverksamhet. I styrelsen ska det också finnas god sakkunskap om placeringsverksamhet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_9__subsec_4">
+                            <intro eId="chp_3__sec_9__subsec_4__intro">
+                                <p>Styrelsen har till uppgift att</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_9__subsec_4__para_1">
+                                <num>1) </num>
+                                <content>
+                                    <p>bereda de ärenden som ska behandlas i delegationen och se till att delegationens beslut verkställs,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_9__subsec_4__para_2">
+                                <num>2) </num>
+                                <content>
+                                    <p>styra och övervaka Kevas verksamhet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_9__subsec_4__para_3">
+                                <num>3) </num>
+                                <content>
+                                    <p>göra upp en plan för placeringen av pensionsmedlen samt behandla övriga ärenden som är principiellt viktiga eller vittomfattande med tanke på placeringsverksamheten, </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_9__subsec_4__para_4">
+                                <num>4) </num>
+                                <content>
+                                    <p>sörja för ordnandet av Kevas interna kontroll och riskhantering.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_3__sec_9__subsec_5">
+                            <content>
+                                <p>Delegationen kan avsätta styrelsen under mandatperioden, om en eller flera av ledamöterna inte åtnjuter delegationens förtroende. Avsättningsbeslutet gäller samtliga styrelseledamöter. Delegationen väljer då en ny styrelse för återstoden av mandatperioden.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_10">
+                        <num>10 §</num>
+                        <heading>Principer för ägarstyrningen</heading>
+                        <subsection eId="chp_3__sec_10__subsec_1">
+                            <content>
+                                <p>
+                                    Kevas styrelse ska fastställa principer för hur Kevas rättigheter som grundar sig på innehav i andra sammanslutningar ska utövas (<i>principer för ägarstyrningen</i>). I principerna ska Kevas verkställande direktörs och de anställdas ledamotskap i andra sammanslutningars eller stiftelsers förvaltningsorgan bedömas med beaktande av Kevas intressen.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_10__subsec_2">
+                            <content>
+                                <p>Keva ska offentliggöra principerna för ägarstyrningen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_11">
+                        <num>11 §</num>
+                        <heading>Förteckning över förtroendeuppdrag</heading>
+                        <subsection eId="chp_3__sec_11__subsec_1">
+                            <content>
+                                <p>Keva ska föra en uppdaterad offentlig förteckning av vilken det framgår uppgifter om Kevas styrelseledamöters och verkställande direktörs ledamotskap i styrelser, förvaltningsråd och motsvarande organ i andra ekonomiskt eller samhälleligt betydelsefulla sammanslutningar och stiftelser, med undantag för ledamotskap i bostadsaktiebolags styrelser.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_11__subsec_2">
+                            <content>
+                                <p>I den förteckning som avses i 1 mom. ska det även i fråga om sådana anställda vid Keva som hör till den övriga högsta ledningen eller som för Kevas räkning fattar eller bereder placeringsbeslut föras in uppgifter om sådana ledamotskap i styrelser, förvaltningsråd och motsvarande organ i andra sammanslutningar och stiftelser som har samband med deras arbetsuppgifter, med undantag för ledamotskap i bostadsaktiebolags styrelser.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_12">
+                        <num>12 §</num>
+                        <heading>Handlingsprinciper som gäller intressekonflikter</heading>
+                        <subsection eId="chp_3__sec_12__subsec_1">
+                            <content>
+                                <p>Keva ska ha av styrelsen godkända skriftliga handlingsprinciper för de förfaranden som ska iakttas vid identifiering och förebyggande av intressekonflikter.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_13">
+                        <num>13 §</num>
+                        <heading>Transaktioner med personer som hör till ledningen eller till ledningens närmaste krets</heading>
+                        <subsection eId="chp_3__sec_13__subsec_1">
+                            <intro eId="chp_3__sec_13__subsec_1__intro">
+                                <p>Beslut om betydande transaktioner som gäller Keva ska fattas av Kevas styrelse, om den andra parten i transaktionen är</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_13__subsec_1__para_1">
+                                <num>1) </num>
+                                <content>
+                                    <p>en ledamot av Kevas delegation eller styrelse, Kevas verkställande direktör, revisor eller en sådan anställd hos en revisionssammanslutning som har huvudansvar för revisionen av Keva,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_13__subsec_1__para_2">
+                                <num>2) </num>
+                                <content>
+                                    <p>någon annan som hör till Kevas högsta ledning och som har rätt att fatta beslut om ordnande av Kevas verksamhet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_13__subsec_1__para_3">
+                                <num>3) </num>
+                                <content>
+                                    <p>make eller maka till en person som avses i 1 eller 2 punkten, en i de punkterna avsedd persons partner i ett parförhållande enligt lagen om registrerat partnerskap (950/2001), en omyndig vars intressebevakare en person som avses i de punkterna är eller den som är sambo med en person som avses i de punkterna och har bott i samma hushåll som personen i minst ett års tid.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_3__sec_13__subsec_2">
+                            <content>
+                                <p>Keva ska föra en uppdaterad offentlig förteckning över de transaktioner som avses i 1 mom. samt över transaktionsparterna och de centrala transaktionsvillkoren. Förteckningen ska föras på ett tillförlitligt sätt. De uppgifter som antecknats i förteckningen ska bevaras i fem år efter anteckningen. Fysiska personers personbeteckning och adress och namnet på de personer som avses i 1 mom. 3 punkten är dock inte offentliga.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_13__subsec_3">
+                            <content>
+                                <p>Vad som föreskrivs i 1 och 2 mom. ska även tillämpas på transaktioner mellan Keva och någon annan än en person som avses i 1 mom., om det är uppenbart att syftet med arrangemanget har varit att kringgå bestämmelserna i 1 och 2 mom.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_14">
+                        <num>14 §</num>
+                        <heading>Kevas ledning</heading>
+                        <subsection eId="chp_3__sec_14__subsec_1">
+                            <content>
+                                <p>Kevas verksamhet leds av den verkställande direktören som är underställd styrelsen. Keva och den verkställande direktören kan ingå ett direktörsavtal. Keva kan besluta att betala avgångsvederlag till den verkställande direktören.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_14__subsec_2">
+                            <content>
+                                <p>Behörighetsvillkor för tjänsten som verkställande direktör och tjänsten som vice verkställande direktör är högre högskoleexamen, sådan mångsidig erfarenhet som uppgiften kräver samt i praktiken visad ledarförmåga och erfarenhet av ledarskap.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_15">
+                        <num>15 §</num>
+                        <heading>Kevas tjänsteinnehavare</heading>
+                        <subsection eId="chp_3__sec_15__subsec_1">
+                            <content>
+                                <p>De uppgifter inom Keva i vilka offentlig makt utövas ska skötas i tjänsteförhållande. På Kevas tjänsteinnehavare tillämpas lagen om kommunala tjänsteinnehavare (304/2003).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_16">
+                        <num>16 §</num>
+                        <heading>Förtroendevalda</heading>
+                        <subsection eId="chp_3__sec_16__subsec_1">
+                            <content>
+                                <p>På Kevas förtroendevalda tillämpas bestämmelserna om straffrättsligt tjänsteansvar när de utför uppgifter som avses i denna lag. Bestämmelser om skadeståndsansvar finns i skadeståndslagen (412/1974).</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_16__subsec_2">
+                            <content>
+                                <p>Om en plats som förtroendevald blir ledig under mandatperioden, förordnas eller väljs en efterträdare för återstoden av perioden.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_17">
+                        <num>17 §</num>
+                        <heading>Instruktion</heading>
+                        <subsection eId="chp_3__sec_17__subsec_1">
+                            <content>
+                                <p>Behövliga bestämmelser om Kevas organ och deras sammansättning, uppgifter och mandatperiod samt Kevas övriga verksamhet ges i en instruktion.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_18">
+                        <num>18 §</num>
+                        <heading>Statens delegation för ärenden gällande arbetsoförmåga och rehabilitering</heading>
+                        <subsection eId="chp_3__sec_18__subsec_1">
+                            <content>
+                                <p>I anslutning till Keva finns statens delegation för ärenden gällande arbetsoförmåga och rehabilitering, som har till uppgift att följa och styra såväl bedömningen av arbetsförmåga som den yrkesinriktade rehabiliteringen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_18__subsec_2">
+                            <content>
+                                <p>Delegationen har en ordförande och fem andra medlemmar. Finansministeriet förordnar medlemmarna för fyra år i sänder. Av medlemmarna ska en representera finansministeriet, en Keva och en Statskontoret. Av medlemmarna förordnas tre bland personer som föreslagits av de mest representativa organisationerna på centralnivå för statens tjänstemän och arbetstagare. Finansministeriet förordnar en av medlemmarna till ordförande.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 kap.</num>
+                    <heading>Finansiering</heading>
+                    <section eId="chp_4__sec_19">
+                        <num>19 §</num>
+                        <heading>Medlemssamfundens betalningsandelar</heading>
+                        <subsection eId="chp_4__sec_19__subsec_1">
+                            <content>
+                                <p>Kevas utgifter för skötseln av pensionsskyddet för medlemssamfundens personal fördelas för varje finansår på medlemssamfunden. Den del av kostnaderna som Kevas delegation beslutat fördelas i förhållande till de sammanlagda beloppen av de i 85 § i pensionslagen för den offentliga sektorn avsedda arbetsinkomsterna för personer som är anställda hos Kevas medlemssamfund. Delegationen kan även besluta att fördela en del av kostnaderna i förhållande till de sammanlagda beloppen av pensioner eller pensionsdelar som betalats på basis av anställning hos medlemssamfunden och som tjänats in under anställning hos medlemssamfunden. </p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_19__subsec_2">
+                            <content>
+                                <p>Medlemssamfunden är dessutom skyldiga att till Keva betala de självriskandelar för olika pensionsslag som bestämts enligt de grunder som delegationen fastställt.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_19__subsec_3">
+                            <content>
+                                <p>Av medlemssamfunden kan under finansåret tas ut förskott på deras betalningsandelar.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_19__subsec_4">
+                            <content>
+                                <p>Kevas delegation meddelar närmare föreskrifter om grunderna för betalningen av de avgifter som avses i 1 och 2 mom.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_20">
+                        <num>20 §</num>
+                        <heading>Indrivning av avgifter och preskription av avgiftsfordran</heading>
+                        <subsection eId="chp_4__sec_20__subsec_1">
+                            <content>
+                                <p>Keva ska påföra en avgift som baserar sig på denna lag inom fem år från det att fordran uppkom. Avgiftsfordran anses uppkomma på förfallodagen för en slutlig avgift enligt denna lag. En avgift som påförts med stöd av denna lag och en på avgiften för tiden för betalningsdröjsmål beräknad årlig dröjsmålsränta enligt den räntefot som avses i 4 § 1 mom. i räntelagen (633/1982) är direkt utsökbar. Bestämmelser om indrivning av dessa fordringar finns i lagen om verkställighet av skatter och avgifter (706/2007). Bestämmelser om indrivning av fordringar finns dessutom i lagen om indrivning av fordringar (513/1999).</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_20__subsec_2">
+                            <content>
+                                <p>Återbetalningen av en avgift som betalats utan grund preskriberas fem år efter den dag då avgiften betalades, om inte preskriptionen har avbrutits innan dess. Om preskriptionen avbryts börjar en ny femårig preskriptionstid löpa. På avbrytande av preskription tillämpas 10 och 11 § i lagen om preskription av skulder (728/2003). </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_21">
+                        <num>21 §</num>
+                        <heading>Pensionsansvarsfonden</heading>
+                        <subsection eId="chp_4__sec_21__subsec_1">
+                            <content>
+                                <p>Till de utgifter som avses i 19 § 1 mom. räknas även överföringar till pensionsansvarsfonden, som grundats för utjämning av pensionsutgifterna, enligt vad Kevas delegation bestämmer särskilt.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_21__subsec_2">
+                            <content>
+                                <p>När pensionsansvarsfondens medel placeras ska placeringarnas säkerhet, avkastning och likviditet tryggas samt placeringarna diversifieras. Beslut om placering av medlen fattas av Kevas styrelse, som på det sätt som bestäms i instruktionen för Keva kan överföra sin beslutanderätt till Kevas tjänsteinnehavare och arbetstagare.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_22">
+                        <num>22 §</num>
+                        <heading>Placeringsdelegationen</heading>
+                        <subsection eId="chp_4__sec_22__subsec_1">
+                            <content>
+                                <p>Vid Keva finns en placeringsdelegation med uppgift att stödja placeringsverksamheten och främja informationen mellan de instanser som nämns i 2 mom. Delegationen är ett rådgivande organ som behandlar riktlinjerna för Kevas placeringsverksamhet och dess utveckling.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_22__subsec_2">
+                            <content>
+                                <p>Kevas styrelse kallar för sin mandatperiod till placeringsdelegationen tio medlemmar och en personlig suppleant för var och en av dem. Av medlemmarna ska tre företräda finansministeriet, en arbets- och näringsministeriet samt två de huvudavtalsorganisationer som nämns i 3 § i det kommunala huvudavtalet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_23">
+                        <num>23 §</num>
+                        <heading>Tillsynsavgift och vissa andra avgifter</heading>
+                        <subsection eId="chp_4__sec_23__subsec_1">
+                            <content>
+                                <p>Bestämmelser om tillsynsavgiften finns i lagen om Finansinspektionens tillsynsavgift (879/2008).</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_23__subsec_2">
+                            <content>
+                                <p>Till de utgifter som avses i 19 § 1 mom. räknas även tillsynsavgiften, justitieförvaltningsavgiften enligt 16 § i lagen om besvärsnämnden för arbetspensionsärenden (677/2005) och kostnadsandelen och den verksamhetsbaserade serviceavgiften enligt 5 § i lagen om Pensionsskyddscentralen (397/2006).</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_23__subsec_3">
+                            <content>
+                                <p>Av lönesummorna för sådana anställda för vilka det ordnats tilläggspensionsskydd enligt 8 § i pensionslagen för den offentliga sektorn är medlemssamfunden skyldiga att erlägga betalningsandelar enligt de grunder som Kevas delegation fastställer.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_24">
+                        <num>24 §</num>
+                        <heading>Betalning av statens, evangelisk-lutherska kyrkans och Folkpensionsanstaltens pensionsutgifter och ersättning av Kevas kostnader</heading>
+                        <subsection eId="chp_4__sec_24__subsec_1">
+                            <content>
+                                <p>Staten, Kyrkans centralfond och Folkpensionsanstalten betalar i förskott till Keva det belopp som behövs för att betala pensionsförmåner. Om beloppet av de faktiska kostnaderna är större eller mindre än det uppskattade beloppet, ska skillnaden beaktas i efterhand som en korrigeringspost.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_24__subsec_2">
+                            <content>
+                                <p>Statens pensionsfond betalar ersättning till Keva för skötseln av uppgifterna i anslutning till det pensionsskydd som tjänas in under anställning hos staten. Också Folkpensionsanstalten betalar ersättning till Keva för skötseln av pensionsskyddet för Folkpensionsanstaltens personal, och Kyrkans centralfond betalar ersättning till Keva för skötseln av pensionsskyddet för evangelisk-lutherska kyrkans anställda. Finansministeriet fastställer det ersättningsbelopp som statens pensionsfond, Kyrkans centralfond och Folkpensionsanstalten ska betala i förskott till Keva. Keva lägger fram en beräkning av ersättningsbeloppet för finansministeriet. Ersättningsbeloppet beräknas till en nivå som motsvarar självkostnadsvärdet enligt 6 § i lagen om grunderna för avgifter till staten (150/1992). Ersättningen betalas i månatliga, lika stora poster enligt en förhandsberäkning av beloppet av kostnaderna för året i fråga. Om beloppet av de faktiska kostnaderna är större eller mindre
+än det uppskattade beloppet, ska skillnaden beaktas i efterhand som en korrigeringspost.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_24__subsec_3">
+                            <content>
+                                <p>Finansministeriet, Kyrkans centralfond och Folkpensionsanstalten bedömer med fem års mellanrum hur de mål som ställts för kostnadseffektiviteten och kvalitetsnivån på skötseln av pensionerna har förverkligats. I detta syfte ska Keva lämna tillräckliga uppgifter till de ovannämnda parterna.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_24__subsec_4">
+                            <content>
+                                <p>Närmare bestämmelser om överföring av de medel som behövs för betalning av pensioner till statsanställda, evangelisk-lutherska kyrkans personal och Folkpensionsanstaltens personal och om ersättning för kostnader till Keva utfärdas genom förordning av statsrådet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_5">
+                    <num>5 kap.</num>
+                    <heading>Riskhantering, intern kontroll och intern revision</heading>
+                    <section eId="chp_5__sec_25">
+                        <num>25 §</num>
+                        <heading>Riskhantering</heading>
+                        <subsection eId="chp_5__sec_25__subsec_1">
+                            <content>
+                                <p>Keva ska ha ett med beaktande av arten och omfattningen av dess verksamhet tillräckligt riskhanteringssystem som innefattar fortlöpande identifiering, uppföljning, övervakning och rapportering av de risker som Keva exponeras för och av den sammanlagda riskexponeringen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_25__subsec_2">
+                            <intro eId="chp_5__sec_25__subsec_2__intro">
+                                <p>Riskhanteringen ska omfatta följande delområden:</p>
+                            </intro>
+                            <paragraph eId="chp_5__sec_25__subsec_2__para_1">
+                                <num>1) </num>
+                                <content>
+                                    <p>placeringar,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_25__subsec_2__para_2">
+                                <num>2) </num>
+                                <content>
+                                    <p>likviditet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_25__subsec_2__para_3">
+                                <num>3) </num>
+                                <content>
+                                    <p>koncentrationsrisker, och</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_25__subsec_2__para_4">
+                                <num>4) </num>
+                                <content>
+                                    <p>operativa risker.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_5__sec_25__subsec_3">
+                            <content>
+                                <p>Keva ska ha en riskhanteringsfunktion som är oberoende av risktagningsfunktionerna.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_26">
+                        <num>26 §</num>
+                        <heading>Intern kontroll</heading>
+                        <subsection eId="chp_5__sec_26__subsec_1">
+                            <content>
+                                <p>Keva ska ha en intern kontroll som omfattar dess bokföring, förvaltning, placeringsverksamhet och övriga centrala funktioner. Den interna kontrollen omfattar också säkerställande av lämplig rapportering på Kevas alla organisationsnivåer.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_26__subsec_2">
+                            <content>
+                                <p>Till den interna kontrollen hör en funktion för regelefterlevnad. Funktionen ska också bedöma om Kevas åtgärder för att förhindra och korrigera eventuella brister i regelefterlevnaden är tillräckliga.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_27">
+                        <num>27 §</num>
+                        <heading>Intern revision</heading>
+                        <subsection eId="chp_5__sec_27__subsec_1">
+                            <content>
+                                <p>Keva ska ha en intern revision som utvärderar huruvida den interna kontrollen och den övriga förvaltningen är tillräcklig och effektiv.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_27__subsec_2">
+                            <content>
+                                <p>Den interna revisionen ska vara oberoende i förhållande till Kevas operativa verksamhet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_27__subsec_3">
+                            <content>
+                                <p>Den interna revisionens resultat och rekommendationer till åtgärder ska minst en gång om året rapporteras till styrelsen och verkställande direktören. Dessa ska besluta om vilka åtgärder som ska vidtas med anledning av den interna revisionens resultat och rekommendationer. Den interna revisionen ska också se till att åtgärderna genomförs.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_28">
+                        <num>28 §</num>
+                        <heading>Skyldighet att göra insideranmälan</heading>
+                        <subsection eId="chp_5__sec_28__subsec_1">
+                            <content>
+                                <p>
+                                    En insider i Keva ska till Kevas insiderregister enligt 30 § anmäla uppgifter om aktier som är föremål för handel på en reglerad marknad eller en multilateral handelsplattform i Finland och om sådana finansiella instrument vilkas värde bestäms utifrån aktierna i fråga (<i>insideranmälan</i>).
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_28__subsec_2">
+                            <intro eId="chp_5__sec_28__subsec_2__intro">
+                                <p>Med insider i Keva avses</p>
+                            </intro>
+                            <paragraph eId="chp_5__sec_28__subsec_2__para_1">
+                                <num>1) </num>
+                                <content>
+                                    <p>ordföranden och vice ordföranden för Kevas delegation, ledamöterna och suppleanterna i Kevas styrelse, Kevas verkställande direktör och dennes ställföreträdare, Kevas revisorer och de anställda hos en revisionssammanslutning som är huvudansvariga för revisionen av Keva,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_28__subsec_2__para_2">
+                                <num>2) </num>
+                                <content>
+                                    <p>andra anställda hos Keva som har möjlighet att påverka beslut om placering av Kevas tillgångar eller som på annat sätt regelbundet får tillgång till insiderinformation om sådana aktier eller finansiella instrument.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_29">
+                        <num>29 §</num>
+                        <heading>Insideranmälan</heading>
+                        <subsection eId="chp_5__sec_29__subsec_1">
+                            <content>
+                                <p>Insideranmälan ska göras inom fjorton dagar från det att insidern har utnämnts till ett uppdrag som avses i 28 § 2 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_29__subsec_2">
+                            <intro eId="chp_5__sec_29__subsec_2__intro">
+                                <p>I insideranmälan ska nämnas</p>
+                            </intro>
+                            <paragraph eId="chp_5__sec_29__subsec_2__para_1">
+                                <num>1) </num>
+                                <content>
+                                    <p>omyndiga vars intressebevakare insidern är,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_29__subsec_2__para_2">
+                                <num>2) </num>
+                                <content>
+                                    <p>sammanslutningar och stiftelser där insidern eller en omyndig som avses i 1 punkten direkt eller indirekt har bestämmande inflytande,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_29__subsec_2__para_3">
+                                <num>3) </num>
+                                <content>
+                                    <p>insiderns samt en i 1 punkten avsedd omyndigs och en i 2 punkten avsedd sammanslutnings eller stiftelses innehav av aktier som är föremål för handel på en reglerad marknad eller en multilateral handelsplattform i Finland och av sådana finansiella instrument vilkas värde bestäms utifrån aktierna i fråga.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_5__sec_29__subsec_3">
+                            <intro eId="chp_5__sec_29__subsec_3__intro">
+                                <p>En insider ska medan uppdraget pågår inom sju dagar underrätta Keva om</p>
+                            </intro>
+                            <paragraph eId="chp_5__sec_29__subsec_3__para_1">
+                                <num>1) </num>
+                                <content>
+                                    <p>förvärv och avyttringar av sådana aktier och finansiella instrument som avses i 2 mom. 3 punkten när förändringen i innehavet uppgår till minst 5 000 euro,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_29__subsec_3__para_2">
+                                <num>2) </num>
+                                <content>
+                                    <p>andra förändringar i uppgifter som avses i denna paragraf.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_5__sec_29__subsec_4">
+                            <content>
+                                <p>De uppgifter som avses i 2 mom. 2 och 3 punkten behöver inte uppges till den del de gäller bostadsaktiebolag, ömsesidiga fastighetsaktiebolag enligt 28 kap. 2 § i lagen om bostadsaktiebolag (1599/2009), ideella eller ekonomiska föreningar eller sådana sammanslutningar som drivs utan vinstsyfte. Om en sammanslutning bedriver regelbunden handel med finansiella instrument, ska emellertid uppgifter om denna sammanslutning lämnas.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_29__subsec_5">
+                            <content>
+                                <p>Insideranmälan ska innehålla de uppgifter som behövs för att identifiera personen, sammanslutningen eller stiftelsen i fråga samt uppgifter om aktierna och de finansiella instrumenten.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_29__subsec_6">
+                            <content>
+                                <p>Om aktier eller finansiella instrument som avses i 2 mom. 3 punkten har överförts till värdeandelssystemet, kan Keva organisera ett förfarande som gör det möjligt att hämta uppgifterna ur värdeandelssystemet. I detta fall behöver en separat insideranmälan inte göras.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_30">
+                        <num>30 §</num>
+                        <heading>Insiderregister</heading>
+                        <subsection eId="chp_5__sec_30__subsec_1">
+                            <content>
+                                <p>
+                                    Keva ska föra ett register över insideranmälningar (<i>insiderregister)</i>, av vilket det för varje insider framgår de aktier och finansiella instrument enligt 29 § 2 mom. som innehas av insidern, en omyndig som avses i 1 punkten i det momentet och av en sammanslutning eller stiftelse som avses i 2 punkten i det momentet, samt specificerade förvärv och avyttringar av dessa aktier och instrument.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_30__subsec_2">
+                            <content>
+                                <p>Om de aktier och finansiella instrument som avses i 29 § 2 mom. 3 punkten har överförts till värdeandelssystemet, kan Kevas insiderregister till denna del bildas av uppgifter från värdeandelssystemet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_30__subsec_3">
+                            <content>
+                                <p>Driften av insiderregistret ska organiseras på ett tillförlitligt sätt. De uppgifter som registrerats i registret ska bevaras i fem år efter registreringen. Var och en har rätt att mot ersättning av kostnaderna få utdrag ur och kopior av uppgifterna i registret. Fysiska personers personbeteckning och adress samt andra fysiska personers än insiderns namn är dock inte offentliga.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_31">
+                        <num>31 §</num>
+                        <heading>Övervakning av insideranmälan och insiderregistret</heading>
+                        <subsection eId="chp_5__sec_31__subsec_1">
+                            <content>
+                                <p>Finansinspektionen övervakar efterlevnaden av bestämmelserna i 28—30 § om insideranmälan och insiderregistret. På övervakningen tillämpas vad som i 7 § föreskrivs om tillsynen över planeringen av Kevas finansieringsverksamhet och över placeringen av Kevas tillgångar.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_6">
+                    <num>6 kap.</num>
+                    <heading>Ändringssökande</heading>
+                    <section eId="chp_6__sec_32">
+                        <num>32 §</num>
+                        <heading>Sökande av ändring </heading>
+                        <subsection eId="chp_6__sec_32__subsec_1">
+                            <content>
+                                <p>Parter och medlemssamfund får söka ändring i Kevas beslut i andra ärenden än pensionsrättsärenden genom besvär hos Helsingfors förvaltningsdomstol, inom vars domkrets Kevas hemort ligger, på det sätt som föreskrivs i förvaltningsprocesslagen (586/1996).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_33">
+                        <num>33 §</num>
+                        <heading>Delgivning av beslut</heading>
+                        <subsection eId="chp_6__sec_33__subsec_1">
+                            <content>
+                                <p>När ett beslut delges en part ska delvisningen ske genom vanlig delgivning. Bestämmelser om vanlig delgivning finns i 59 § i förvaltningslagen (434/2003) i 19 § i lagen om elektronisk kommunikation i myndigheternas verksamhet (13/2003).</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_33__subsec_2">
+                            <content>
+                                <p> Protokoll från Kevas delegation och Kevas styrelse, med tillhörande besvärsanvisning, ska efter justeringen hållas tillgängliga i det allmänna datanätet, om inte något annat följer av sekretessbestämmelserna. Om ärendet är sekretessbelagt i sin helhet, publiceras i protokollet endast ett omnämnande av att det sekretessbelagda ärendet behandlades. I protokollet publiceras endast de personuppgifter som är nödvändiga med tanke på tillgången till information. De personuppgifter som ingår i protokollen ska avföras från datanätet när besvärstiden löper ut.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_33__subsec_3">
+                            <content>
+                                <p>Ett medlemssamfund anses ha fått del av ett beslut av Kevas delegation eller Kevas styrelse sju dagar efter det att protokollet har offentliggjorts på det sätt som föreskrivs i 2 mom.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_7">
+                    <num>7 kap.</num>
+                    <heading>Särskilda bestämmelser</heading>
+                    <section eId="chp_7__sec_34">
+                        <num>34 §</num>
+                        <heading>Undantag från jäv</heading>
+                        <subsection eId="chp_7__sec_34__subsec_1">
+                            <content>
+                                <p>Kevas förtroendevalda, tjänsteinnehavare och arbetstagare får trots vad som föreskrivs i 28 § 1 mom. 4 och 5 punkten i förvaltningslagen behandla ärenden som gäller Kevas medlemssamfund eller personer som är anställda hos ett medlemssamfund eller någon annan person som omfattas av pensionsskyddet enligt pensionslagen för den offentliga sektorn.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_35">
+                        <num>35 §</num>
+                        <heading>Revision och bokslut</heading>
+                        <subsection eId="chp_7__sec_35__subsec_1">
+                            <content>
+                                <p>Granskningen av Kevas räkenskaper och förvaltning ska utföras av en revisionssammanslutning som godkänts av Revisionstillsynen. </p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_35__subsec_2">
+                            <content>
+                                <p>Keva upprättar bokslut för varje kalenderår. Vid upprättandet av bokslut iakttas bokföringslagen i tillämpliga delar. </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_36">
+                        <num>36 §</num>
+                        <heading>Samarbete</heading>
+                        <subsection eId="chp_7__sec_36__subsec_1">
+                            <content>
+                                <p>Keva kan med Pensionsskyddscentralen och andra pensions- och försäkringsanstalter avtala om samarbete och om ersättande av kostnaderna för samarbetet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_37">
+                        <num>37 §</num>
+                        <heading>Ikraftträdande</heading>
+                        <subsection eId="chp_7__sec_37__subsec_1">
+                            <content>
+                                <p>Denna lag träder i kraft den 1 januari 2017.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_37__subsec_2">
+                            <content>
+                                <p>Trots vad som anges i 4 § 2 mom. bevarar de aktiebolag som före den 1 januari 2007 har anslutit sig som medlemssamfund i Keva sitt medlemskap, om ett eller flera av de medlemssamfund som nämns i 3 § 1 mom. har sådant bestämmande inflytande i aktiebolaget som avses i 1 kap. 5 § i bokföringslagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_38">
+                        <num>38 §</num>
+                        <heading>Övergångsbestämmelser som gäller delegationens och styrelsens mandatperiod</heading>
+                        <subsection eId="chp_7__sec_38__subsec_1">
+                            <content>
+                                <p>Bestämmelserna i 8 § 2 mom. om delegationens mandatperiod tillämpas första gången på den delegation som väljs 2017. Mandatperioden för den delegation som är behörig när lagen träder i kraft fortsätter fram till utgången av augusti 2017.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_38__subsec_2">
+                            <content>
+                                <p>Mandatperioden för den styrelse som är behörig när lagen träder i kraft fortsätter fram till dess att den delegation som väljs 2017 har valt nästa styrelse.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/21">RP 21/2015</ref>
+                        </p>
+                        <p>ShUB 6/2015</p>
+                        <p>RSv 36/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 januari 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommun- och reformminister</role>
+                                <person refersTo="">Anu Vehviläinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

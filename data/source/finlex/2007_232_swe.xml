@@ -1,0 +1,171 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/232/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/232"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/232/alkup"/>
+                    <FRBRdate date="2007-03-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="232"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/232/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/232/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/232/alkup/swe"/>
+                    <FRBRdate date="2007-03-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/232/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/232/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/232/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="38"/>
+                    <finlex:date date="2007-03-08"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>232/2007</docNumber>
+                <docTitle>Lag om ändring av 1 § i lagen om verkställighet av böter</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 9 augusti 2002 om verkställighet av böter (<affectedDocument href="/akn/fi/act/statute/2002/672">672/2002</affectedDocument>) 1 § 1 mom., sådant det lyder i lag 248/2006, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Lagens tillämpningsområde</heading>
+                    <subsection>
+                        <intro>
+                            <p>I den ordning som föreskrivs i denna lag verkställs följande påföljder:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>
+                                    böter som bestämts som dagsböter enligt 2 a kap. 3 § 1 mom. i strafflagen (39/1889) samt vite, samfundsbot, ordningsbot och disciplinbot (<i>böter</i>),
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>avgift som avses i 44 § 2 mom. och 45 b § i militära disciplinlagen (331/1983),</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>förverkandepåföljd som avser egendom eller ett penningbelopp,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>staten tilldömd ersättning som grundar sig på ett brott,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>staten tilldömd ersättning i andra ärenden och mål än brottmål, om allmänna åklagaren uppträtt i dem på tjänstens vägnar,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>staten tilldömd ersättning som grundar sig på en sådan ersättning för kostnader i samband med en rättegång som betalats av statens medel,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>en på statens regressrätt enligt 31 § i brottsskadelagen (1204/2005) grundad fordran på den som ansvarar för en skada och en fordran som staten har på ersättningstagaren enligt beslut om återkrav som avses i 42 § 2 mom. i nämnda lag,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>8)</num>
+                            <content>
+                                <p>rättegångsbot som avses i 14 kap. 7 § i rättegångsbalken,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>9)</num>
+                            <content>
+                                <p>bötesstraff som avses i lagen om det nationella genomförandet av de bestämmelser som hör till området för lagstiftningen i rambeslutet om tillämpning av principen om ömsesidigt erkännande på bötesstraff och om tillämpning av rambeslutet (231/2007).</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 22 mars 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 142/2006</p>
+                        <p>LaUB 28/2006</p>
+                        <p>RSv 289/2006</p>
+                        <p>Rådets rambeslut 2005/214/RIF; EUT nr L 76, 22.3.2005, s. 16</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 2 mars 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

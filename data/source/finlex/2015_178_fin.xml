@@ -1,0 +1,116 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/178/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/178"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/178/alkup"/>
+                    <FRBRdate date="2015-03-06" name="dateIssued"/>
+                    <FRBRdate date="2015-03-09" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="178"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/178/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/178/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/178/alkup/fin"/>
+                    <FRBRdate date="2015-03-06" name="dateIssued"/>
+                    <FRBRdate date="2015-03-09" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/178/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/178/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/178/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-03-09" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>178/2015</docNumber>
+                <docTitle>Laki tieliikennelain 88 c §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         tieliikennelain (
+                        <affectedDocument href="/akn/fi/act/statute/1981/267">267/1981</affectedDocument>
+                        ) 88 c §:n otsikko ja 2 momentti, sellaisina kuin ne ovat laissa 234/2006, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>88 c §</num>
+                    <heading>Lasten turvalaitteen käyttöä ja vammaisten ja paareilla matkustavien henkilöiden kuljetuksia koskevat vastuusäännökset</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos ajoneuvo on rekisteröity kuljettajan lisäksi korkeintaan 16 matkustajalle, ajo-neuvon kuljettajan on huolehdittava siitä, että matkustajat voivat siirtyä turvallisesti ajoneuvoon ja siitä ulos ja että tähän tarvittavia laitteita käytetään asianmukaisesti. Ajoneuvon kuljettajan on lisäksi huolehdittava siitä, että matkustajien pyörätuolit ja paarit on kiinnitetty ajoneuvoon asianmukaisesti.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 15 päivänä maaliskuuta 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/315">HE 315/2014</ref>
+                        </p>
+                        <p>LiVM 34/2014</p>
+                        <p>EV 283/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>  Helsingissä 6 päivänä maaliskuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Liikenne- ja kuntaministeri</role>
+                                <person refersTo="">Paula Risikko</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

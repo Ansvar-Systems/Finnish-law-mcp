@@ -1,0 +1,118 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2025/141/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/141"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/141/alkup"/>
+                    <FRBRdate date="2025-04-04" name="dateIssued"/>
+                    <FRBRdate date="2025-04-08" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="141"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2025/141/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/141/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/141/alkup/swe"/>
+                    <FRBRdate date="2025-04-04" name="dateIssued"/>
+                    <FRBRdate date="2025-04-08" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2025/141/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/141/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/141/alkup/swe/xml"/>
+                    <FRBRdate date="2025-12-09" name="dateProduced"/>
+                    <FRBRdate date="2025-04-08" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2025</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>141/2025</docNumber>
+                <docTitle>Lag om ändring av lagen om Museiverket</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen om Museiverket (<affectedDocument href="/akn/fi/act/statute/2004/282">282/2004</affectedDocument>) en ny 2 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section eId="sec_2a">
+                    <num>2 a §</num>
+                    <heading>Behörighet vid import av kulturföremål</heading>
+                    <subsection eId="sec_2a__subsec_1">
+                        <content>
+                            <p>Museiverket är en sådan behörig myndighet som avses i artikel 4 i Europaparlamentets och rådets förordning (EU) 2019/880 om införsel och import av kulturföremål.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_2a__subsec_2">
+                        <content>
+                            <p>Omprövning får begäras av ett beslut som Museiverket har fattat med stöd av den förordning som nämns i 1 mom. Bestämmelser om begäran om omprövning finns i förvaltningslagen (434/2003).</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 28 juni 2025.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2025/4">RP 4/2025</ref>
+                        </p>
+                        <p>KuUB 1/2025</p>
+                        <p>RSv 19/2025</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 4 april 2025</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Forsknings- och kulturminister</role>
+                                <person refersTo="">Mari-Leena Talvitie</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

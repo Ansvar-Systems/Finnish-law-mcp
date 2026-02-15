@@ -1,0 +1,165 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/60/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/60"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/60/alkup"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-01" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="60"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/60/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/60/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/60/alkup/swe"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-01" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/60/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/60/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/60/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-01" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>60/2016</docNumber>
+                <docTitle>Lag om ändring av lagen om Finansinspektionen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om Finansinspektionen (
+                        <affectedDocument href="/akn/fi/act/statute/2008/878">878/2008</affectedDocument>
+                        ) 40 § 2 mom. och rubriken för 6 kap., av dem 40 § 2 mom. sådant det lyder i lag 254/2013, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 50 g § som följer: 
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>40 §</num>
+                    <heading>Påföljdsavgift</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Påföljdsavgift ska också påföras den som uppsåtligen eller av oaktsamhet försummar eller bryter mot</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>vad som i artikel 4.1 eller 4.3 i EMIR-förordningen föreskrivs om clearingkravet för OTC-derivatkontrakt som ingåtts med en finansiell motpart eller vad som i artikel 10.1 i den förordningen föreskrivs om clearingkravet och rapporteringskravet för OTC-derivatkontrakt som ingåtts med en icke-finansiell motpart,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>ett beslut som Finansinspektionen fattat med stöd av artikel 20.2, 21.1 eller 23.1 i blankningsförordningen eller ett beslut som Europeiska värdepappers- och marknadsmyndigheten fattat med stöd av artikel 28.1 i den förordningen, </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3) </num>
+                            <content>
+                                <p>vad som i artiklarna 38, 39 och 40 i auktioneringsförordningen föreskrivs om förbjuden användning av insiderinformation, vad som i artikel 41 föreskrivs om förbudet mot otillbörlig marknadspåverkan eller vad som i artikel 42.1, 42.3 eller 42.5 föreskrivs om särskilda krav för att minska risken för marknadsmissbruk, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4) </num>
+                            <content>
+                                <p>
+                                    det maximibelopp på 0,2 procent per transaktion för förmedlingsavgifter för betalkortstransaktioner som anges i artikel 3.1 i Europaparlamentets och rådets förordning (EU) 2015/751 om förmedlingsavgifter för kortbaserade betalningstransaktioner, nedan 
+                                    <i>förordningen om förmedlingsavgifter för kortbaserade betalningstransaktioner </i>
+                                    eller det maximibelopp på 0,3 procent per transaktion för förmedlingsavgifter för kreditkortstransaktioner som anges i artikel 4 i den förordningen.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <chapter>
+                    <num>6 kap.</num>
+                    <heading>Tillsyn över utländska tillsynsobjekt och deras filialer i Finland och samarbete med utländska tillsynsmyndigheter samt behörig myndighet</heading>
+                    <section>
+                        <num>50 g §</num>
+                        <heading>Behörig myndighet enligt förordningen om förmedlingsavgifter för kortbaserade betalningstransaktioner</heading>
+                        <subsection>
+                            <content>
+                                <p>Finansinspektionen är den i artikel 13 i förordningen om förmedlingsavgifter för kortbaserade betalningstransaktioner avsedda behöriga myndighet som utöver tillsyn över efterlevnaden av förordningen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 februari 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/115">RP 115/2015</ref>
+                        </p>
+                        <p>EkUB 14/2015</p>
+                        <p>RSv 70/2015</p>
+                        <p>Europaparlamentets och rådets förordning (EU) nr 751/2015 (32015R0751); EUT nr L 123, 19.5.2015, s. 1-15</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 januari 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommun- och reformminister</role>
+                                <person refersTo="">Anu Vehviläinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

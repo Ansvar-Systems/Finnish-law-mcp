@@ -1,0 +1,196 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/881/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/881"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/881/alkup"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-10" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="881"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/881/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/881/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/881/alkup/fin"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-10" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/881/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/881/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/881/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-08-10" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>881/2015</docNumber>
+                <docTitle>Laki kansaneläkelain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         kansaneläkelain (
+                        <affectedDocument href="/akn/fi/act/statute/2007/568">568/2007</affectedDocument>
+                        ) 22 §:n 1 momentin 3 ja 5 kohta, 33 §:n 1 momentin 2 kohta, 34 §:n 2 momentin 4 kohta, 35 §:n 15 kohta ja 97 §:n 2 momentti, sellaisena kuin niistä on 97 §:n 2 momentti laissa 934/2009, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>22 §</num>
+                    <heading>Kansaneläkkeeseen vaikuttavat eläketulot</heading>
+                    <subsection>
+                        <intro>
+                            <p>Kansaneläkkeen määrää laskettaessa otetaan huomioon henkilön jatkuvasti tai vuosittain toistuvasti saama:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>työtapaturma- ja ammattitautilain (459/2015), maatalousyrittäjän työtapaturma- ja ammattitautilain (873/2015) sekä sotilastapaturmalain (1211/1990) mukainen tapaturmaeläke ja perhe-eläke;</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>liikennevakuutuslain perusteella korvattavasta kuntoutuksesta annetun lain (626/1991) mukainen työkyvyttömyyseläke ja ansionmenetyskorvaus; viimeksi mainittu kuitenkin vasta vuoden kuluttua vahingon sattumisesta, sekä työtapaturma- ja ammattitautilain ja maatalousyrittäjän työtapaturma- ja ammattitautilain mukainen kuntoutusraha, kuitenkin vasta vuoden kuluttua vahinkotapahtuman sattumisesta; sekä</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>33 §</num>
+                    <heading>Jatkoeläkkeen täydennysmäärään vaikuttavat vuositulot</heading>
+                    <subsection>
+                        <intro>
+                            <p>Täydennysmäärää laskettaessa otetaan vuosituloina huomioon lesken jatkuvasti tai vuosittain toistuvasti saamat:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>työeläkkeenä maksettava kuntoutustuki ja työtapaturma- ja ammattitautilain tai maatalousyrittäjän työtapaturma- ja ammattitautilain mukainen kuntoutusraha sekä liikennevakuutuslain perusteella korvattavasta kuntoutuksesta annetun lain mukaiset etuudet;</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>34 §</num>
+                    <heading>Jatkoeläkkeen täydennysmäärään vaikuttava työtulo ja siihen rinnastettava tulo</heading>
+                    <subsection>
+                        <intro>
+                            <p>Työtuloon rinnastetaan:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>työkyvyttömyyden perusteella maksettava sairausvakuutuslain mukainen sairauspäiväraha tai tähän rinnastettava vuodelta tai sitä lyhyemmältä ajalta maksettava muu ansionmenetyksen korvaus kuin työtapaturma- ja ammattitautilain tai maatalousyrittäjän työtapaturma- ja ammattitautilain mukainen kuntoutusraha tai liikennevakuutuslain perusteella korvattavasta kuntoutuksesta annetun lain mukainen ansionmenetyksen korvaus;</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>35 §</num>
+                    <heading>Jatkoeläkkeen täydennysmäärässä etuoikeutetut tulot</heading>
+                    <subsection>
+                        <intro>
+                            <p>Täydennysmäärää laskettaessa vuositulona ei oteta huomioon lesken saamaa:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>15)</num>
+                            <content>
+                                <p>työtapaturma- ja ammattitautilain tai maatalousyrittäjän työtapaturma- ja ammattitautilain mukaista haittarahaa tai muita haitan perusteella maksettavia korvauksia;</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>97 §</num>
+                    <heading>Kansaneläkerahastosta maksettavat etuudet ja kulut</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Kansaneläkerahastosta maksetaan myös maatalousyrittäjän työtapaturma- ja ammattitautilain 148 §:n 2 momentin mukaan perusturvaosuuteen katsottavat kansaneläke- ja perhe-eläkekulut.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                    <p>Mitä tässä laissa säädetään työtapaturma- ja ammattitautilain tai maatalousyrittäjän työtapaturma- ja ammattitautilain mukaisesta etuudesta, sovelletaan tapaturmavakuutuslain (608/1948) tai maatalousyrittäjien tapaturmavakuutuslain (1026/1981) mukaiseen vastaavaan etuuteen.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/278">HE 278/2014</ref>
+                        </p>
+                        <p>StVM 50/2014</p>
+                        <p>MmVL 47/2014</p>
+                        <p>TyVL 17/2014</p>
+                        <p>EV 320/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>  Naantalissa 7 päivänä elokuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Perhe- ja peruspalveluministeri</role>
+                                <person refersTo="">Juha Rehula</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

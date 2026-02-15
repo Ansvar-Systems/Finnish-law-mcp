@@ -1,0 +1,209 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/246/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/246"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/246/alkup"/>
+                    <FRBRdate date="2024-05-17" name="dateIssued"/>
+                    <FRBRdate date="2024-05-17" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="246"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/246/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/246/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/246/alkup/fin"/>
+                    <FRBRdate date="2024-05-17" name="dateIssued"/>
+                    <FRBRdate date="2024-05-17" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/246/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/246/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/246/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-05" name="dateProduced"/>
+                    <FRBRdate date="2024-05-17" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>246/2024</docNumber>
+                <docTitle>Laki työehtosopimuslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         työehtosopimuslain (<affectedDocument href="/akn/fi/act/statute/1946/436">436/1946</affectedDocument>) 8 §:n 1 momentti, 9 §:n 1 momentti ja 10 §:n 1 momentti, sellaisina kuin niistä ovat 9 §:n 1 momentti laissa 864/2001 ja 10 §:n 1 momentti laissa 424/1986, sekä 
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 8 a ja 8 b § seuraavasti: 
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>8 §</num>
+                    <subsection>
+                        <content>
+                            <p>Työehtosopimus velvoittaa siihen osallisia tai muuten sidottuja yhdistyksiä ja työnantajia, niin myös yhdistyksiä, joiden jäsenet tai 4 §:n 1 momentin 2 kohdassa mainitut yhdistykset ovat yhdistyksen suostumuksella tehneet työehtosopimuksen, välttämään kaikkia työtaistelutoimenpiteitä, jotka kohdistuvat työehtosopimukseen kokonaisuudessaan tai johonkin sen yksityiseen määräykseen. Sopimukseen sidotut yhdistykset ovat sitä paitsi velvolliset huolehtimaan siitä, että myöskin niiden alaiset yhdistykset, työnantajat ja työntekijät, joita sopimus koskee, välttävät sellaisia työtaistelutoimenpiteitä eivätkä muutoinkaan riko työehtosopimuksen määräyksiä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>8 a §</num>
+                    <subsection>
+                        <content>
+                            <p>
+                                Edellä 8 §:ssä tarkoitetun työrauhavelvollisuuden vallitessa työtaistelua, jolla tuetaan toisessa työriidassa esitettyjä vaatimuksia (<i>myötätuntotyötaistelu</i>), ei saa toimeenpanna, jos sitä on pidettävä 2 tai 3 momentissa tarkoitetulla tavalla suhteettomana.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Myötätuntotyötaistelua on pidettävä suhteettomana, jos:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>työnantajan palvelu- tai tuotantotoimintaa rajoitetaan laajemmin kuin sen toiminnan osalta, joka palvelee tai hyödyttää pääriidan piirissä olevaa työnantajaa; ja</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>rajoittamisella aiheutetaan sille työnantajalle, jonka työntekijät osallistuvat myötätuntotyötaisteluun, tai tämän sopimuskumppanille sellaisia vahingollisia seurauksia, joita olosuhteet huomioon ottaen ei voida pitää kohtuullisina.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos myötätuntotyötaistelu toimeenpannaan tuen osoittamiseksi ilman, että sillä olisi välitöntä vaikutusta pääriidan piirissä olevan työnantajan toimintaan, myötätuntotyötaistelusta ei saa aiheutua pääriitaan nähden suhteettomia vahingollisia seurauksia.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Työehtosopimukseen sidotun yhdistyksen on huolehdittava siitä, että sen alaiset yhdistykset, työnantajat ja työntekijät, joita sopimus koskee, välttävät 1–3 momentin vastaisia myötätuntotyötaisteluita.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>8 b §</num>
+                    <subsection>
+                        <content>
+                            <p>
+                                <i>Poliittisella työtaistelulla</i>
+                                 tarkoitetaan työtaistelua, jonka tarkoituksena on vaikuttaa ylikansalliseen, valtakunnalliseen, alueelliseen tai paikalliseen poliittiseen päätöksentekoon.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 8 §:ssä tarkoitetun työrauhavelvollisuuden vallitessa työnseisauksena toimeenpantava poliittinen työtaistelu ei saa jatkua enää sen jälkeen, kun on kulunut 24 tuntia työnseisauksen aloittamisesta. Lisäksi työnseisaus on järjestettävä siten, ettei siitä aiheudu häiriöitä tuotantotoimintaan ennen työnseisausta tai sen päättymisen jälkeen, jos tällaiset häiriöt ovat kohtuudella vältettävissä toimeenpanijan käytettävissä olevin keinoin. Tämä velvollisuus ei kuitenkaan estä poliittisen työnseisauksen toimeenpanoa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Muutoin kuin työnseisauksena toimeenpantava poliittinen työtaistelu saa kestää enintään kaksi viikkoa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Poliittista työtaistelua ei saa toimeenpanna, jos toimeenpaneva yhdistys 12 kuukauden kuluessa tosiasiallisesti jatkaa aiemmin järjestämäänsä poliittista työtaistelua saman tavoitteen saavuttamiseksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Työehtosopimukseen sidotun yhdistyksen on huolehdittava siitä, että sen alaiset yhdistykset, työnantajat ja työntekijät, joita sopimus koskee, välttävät 2–4 momentin vastaisia poliittisia työtaisteluita.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <subsection>
+                        <content>
+                            <p>Työehtosopimukseen osallisen tai muutoin sidotun yhdistyksen ja työnantajan, joka ei täytä sopimuksesta johtuvia, 8, 8 a ja 8 b §:ssä tarkoitettuja velvollisuuksiaan on, jollei työehtosopimuksessa ole toisin määrätty, vahingonkorvauksen asemesta maksettava hyvityssakko. Hyvityssakon määrä on vähintään 10 000 euroa ja enintään 150 000 euroa.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>10 §</num>
+                    <subsection>
+                        <content>
+                            <p>Hyvityssakkoon tuomittaessa on otettava huomioon kaikki esiin tulleet asianhaarat, kuten vahingon suuruus, syyllisyyden määrä, toisen osapuolen rikkomukseen mahdollisesti antama aihe ja yhdistyksen tai yrityksen koko. Erityisestä syystä hyvityssakkoa voidaan kohtuullistaa tai jättää se kokonaan tuomitsematta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 18 päivänä toukokuuta 2024. </p>
+                    <p>Tämän lain voimaan tullessa voimassa olevan työehtosopimuksen työrauhaa koskevan määräyksen asemesta sovelletaan tätä lakia, elleivät työehtosopimukseen osalliset ole keskinäisessä suhteessaan sopineet laajemmasta työrauhavelvollisuudesta kuin mitä tämän lain 8 a ja 8 b §:ssä säädetään.</p>
+                    <p>Tätä lakia ei sovelleta myötätuntotyötaisteluun, joka on alkanut tai josta on ilmoitettu työnantajalle ennen tämän lain voimaantuloa.</p>
+                    <p>Ennen tämän lain voimaantuloa alkaneeseen poliittiseen työtaisteluun, joka jatkuu lain voimaan tullessa, sovelletaan tämän lain säännöksiä. Tällöin poliittisen työtaistelun katsotaan alkaneen tämän lain tullessa voimaan. </p>
+                    <p>Ennen tämän lain voimaantuloa alkaneeseen lain 8 §:n vastaiseen työtaistelutoimenpiteeseen sovelletaan tämän lain voimaan tullessa voimassa ollutta 9 ja 10 §:ää. </p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/12">HE 12/2024</ref>
+                        </p>
+                        <p>TyVM 4/2024</p>
+                        <p>EV 29/2024</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 17.5.2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Työministeri</role>
+                                <person refersTo="">Arto Satonen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

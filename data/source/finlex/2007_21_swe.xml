@@ -1,0 +1,178 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/21/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/21"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/21/alkup"/>
+                    <FRBRdate date="2007-01-12" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="21"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/21/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/21/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/21/alkup/swe"/>
+                    <FRBRdate date="2007-01-12" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/21/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/21/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/21/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="5"/>
+                    <finlex:date date="2007-01-22"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>21/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om räntestöd för hyresbostadslån och bostadsrättshuslån</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 29 juni 2001 om räntestöd för hyresbostadslån och bostadsrättshuslån (
+                        <affectedDocument href="/akn/fi/act/statute/2001/604">604/2001</affectedDocument>
+                        ) 14 § 1 mom. och 5 mom. och 15 § 1, 3 och 5 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 14 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>14 §</num>
+                    <heading>Överlåtelse</heading>
+                    <subsection>
+                        <intro>
+                            <p>En räntestödshyresbostad eller aktier som medför rätt att besitta en sådan bostad, eller ett räntestödshyreshus eller aktier i ett räntestödshyreshusbolag, får överlåtas till</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>kommunen, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>en sådan av Statens bostadsfond angiven mottagare som kan beviljas räntestödslån för hyresbostad.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kommunen skall underrätta Statens bostadsfond om förvärv enligt 1 mom. 1 punkten och om i 4 mom. avsedda överlåtelser som kommunen har fått kännedom om.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>14 a §</num>
+                    <heading>Skyldighet att höra kommunen och anmälningsskyldighet i fråga om överlåtelsetagaren</heading>
+                    <subsection>
+                        <content>
+                            <p>Statens bostadsfond kan vid behov, innan den fattar ett i 14 § avsett beslut, höra den kommun där den räntestödshyresbostad eller det räntestödshyreshus som ägs direkt eller via aktieinnehav och som skall överlåtas finns, eller den kommun som är hemort för det bolag som äger huset då en aktie i ett räntestödshyreshusbolag överlåts. Hörande av kommunen förutsätter att den varken direkt eller indirekt är part i överlåtelsen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Statens bostadsfond skall, efter att ha fattat ett i 14 § avsett beslut, meddela detta till den kommun där det hus eller den bostad som skall överlåtas finns, eller till den kommun som är bolagets hemort då överlåtelsen gäller en aktie i ett räntestödshyreshusbolag.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>15 §</num>
+                    <heading>Överlåtelsepris</heading>
+                    <subsection>
+                        <content>
+                            <p>Det högsta tillåtna överlåtelsepriset för en räntestödshyresbostad eller en aktie som medför rätt att besitta en sådan bostad eller för ett räntestödshyreshus eller en aktie i ett räntestödshyreshusbolag är den överlåtelseersättning som beräknas enligt denna paragraf, och som Statens bostadsfond fastställer.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Det tillåtna överlåtelsepriset för en aktie i ett hyreshusbolag eller en aktie som medför rätt att besitta en bostad beräknas på basis av överlåtelsepriset för hela aktiestocken i förhållande till aktiernas antal.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Den del av försäljningspriset som överstiger det tillåtna överlåtelsepriset skall betalas till Statens bostadsfond.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 april 2007.</p>
+                    <p>Bestämmelserna i 14 § 1 mom. 2 punkten och 15 § 1 mom. samt 14 a § tillämpas på ansökningar som anhängiggjorts efter lagens ikraftträdande.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 198/2006</p>
+                        <p>MiUB 7/2006</p>
+                        <p>RSv 219/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 12 januari 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Hannes Manninen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

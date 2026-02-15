@@ -1,0 +1,232 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/187/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/187"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/187/alkup"/>
+                    <FRBRdate date="2006-03-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="187"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/187/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/187/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/187/alkup/swe"/>
+                    <FRBRdate date="2006-03-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/187/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/187/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/187/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="32"/>
+                    <finlex:date date="2006-03-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>187/2006</docNumber>
+                <docTitle>Lag om ändring av lagen om domännamn</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 13 mars 2003 om domännamn (<affectedDocument href="/akn/fi/act/statute/2003/228">228/2003</affectedDocument>) 2 §, 3 § 1 punkten och 5 §, av dem 3 § 1 punkten sådan den lyder i lag 241/2005 och 5 § sådan den lyder delvis ändrad i sistnämnda lag, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 4 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Tillämpningsområde</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Lagen tillämpas på domännamn som slutar på landskoden för Finland (<i>landskoden fi</i>) och landskapskoden för Åland (<i>landskapskoden ax</i>) i datornätet Internet, på domännamnsförvaltningen och på förmedlingen av ansökningar om domännamn.
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <heading>Definitioner</heading>
+                    <subsection>
+                        <intro>
+                            <p>I denna lag avses med</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>
+                                    <i>domännamn</i>
+                                     en adressuppgift strax under landskoden fi eller landskapskoden ax i datornätet Internet i form av ett namn som består av bokstäver, siffror eller andra tecken eller en kombination av dem,
+                                </p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>4 a §</num>
+                    <heading>Förfarande vid ansökan av domännamn</heading>
+                    <subsection>
+                        <content>
+                            <p>Ett domännamn skall sökas skriftligen hos Kommunikationsverket på en av verket fastställd blankett. I ansökan skall lämnas de uppgifter som behövs för behandlingen av ansökan. Uppgifter som behövs för handläggningen av en fysisk persons ansökan är åtminstone namn, personbeteckning, postadress och e-postadress samt uppgifter om namnservrar som är anknutna till domännamnet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kommunikationsverket ger närmare föreskrifter om de tekniska konfigurationer som är nödvändiga för att domännamnet skall fungera.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Sökanden kan ansöka om ett eller flera domännamn. Om samma domännamn söks av flera än en sökande, beviljas namnet den som först ansökt om det.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Domännamn får inte sökas för att lagras i syfte att överlåta dem vidare.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>För behandlingen av ansökan skall en avgift betalas. Avgiftens storlek bestäms enligt lagen om grunderna för avgifter till staten (150/1992). I ansökan skall lämnas en utredning över att avgiften är betald.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <heading>Allmänna förutsättningar för beviljande av domännamn</heading>
+                    <subsection>
+                        <intro>
+                            <p>Ett domännamn som slutar på landskoden fi beviljas</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>en i Finland registrerad juridisk person eller privat näringsidkare,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>ett finländskt offentligt samfund, ett statligt affärsverk, en självständig offentligrättslig inrättning, en offentligrättslig förening,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>en främmande stats beskickning,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>en person som fyllt 15 år och som har i lagen om hemkommun (201/1994) avsedd hemkommun i Finland och finländsk personbeteckning.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Ett domännamn som slutar på landskapskoden ax beviljas</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>en privat näringsidkare som har i självstyrelselagen för Åland (1144/1991) avsedd hembygdsrätt eller som har sin hemkommun eller fast driftställe i landskapet Åland,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>en juridisk person som har fast driftställe eller som är registrerad på Åland,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>ett offentligt samfund, ett affärsverk, en självständig offentligrättslig inrättning eller en offentligrättslig förening som verkar på Åland eller har registrerats där,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>en person som fyllt 15 år och vars hemkommun är på Åland eller som har i självstyrelselagen för Åland avsedd hembygdsrätt.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 27 mars 2006. </p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 151/2005</p>
+                        <p>KoUB 1/2006</p>
+                        <p>RSv 5/2006</p>
+                        <p>Europaparlamentets och rådets direktiv 98/34/EG; EGT nr L 204, 21.7.1998, s. 37</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 17 mars 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommunikationsminister </role>
+                                <person refersTo="">Susanna Huovinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

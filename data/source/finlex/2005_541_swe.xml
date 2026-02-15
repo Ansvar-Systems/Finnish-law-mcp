@@ -1,0 +1,145 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/541/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/541"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/541/alkup"/>
+                    <FRBRdate date="2005-07-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="541"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/541/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/541/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/541/alkup/swe"/>
+                    <FRBRdate date="2005-07-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/541/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/541/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/541/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="97"/>
+                    <finlex:date date="2005-07-20"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>541/2005</docNumber>
+                <docTitle>Lag om ändring av tvångsmedelslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 3 kap. 3 § i tvångsmedelslagen av den 30 april 1987 (
+                        <affectedDocument href="/akn/fi/act/statute/1987/450">450/1987</affectedDocument>
+                        ), sådan denna paragraf lyder delvis ändrad i lag 646/2003, ett nytt 3 mom. och till kapitlets 6 a §, sådan den lyder i lag 10/1994, ett nytt 4 mom. samt till 4 kap. 15 a §, sådan den lyder i sistnämnda lag, ett nytt 5 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>3 kap.</num>
+                    <heading>Skingringsförbud och kvarstad</heading>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Tillfälliga åtgärder</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Om åklagarens beslut enligt 1 mom. har översänts till en annan medlemsstat i Europeiska unionen som ett frysningsbeslut enligt lagen om verkställighet i Europeiska unionen av frysningsbeslut av egendom eller bevismaterial (540/2005), återgår åtgärden dock endast i det fall att yrkandet om skingringsförbud eller kvarstad inte har framställts hos domstolen inom en vecka från det att åklagaren informerades om verkställigheten av den tillfälliga åtgärden. Myndigheten i den medlemsstat där verkställighet av den tillfälliga åtgärden begärts skall utan dröjsmål av åklagaren underrättas om att åtgärden har återgått.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 a §</num>
+                        <heading>Beslut om skingringsförbud och kvarstad när en främmande stat har begärt rättshjälp</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>I fråga om en begäran om frysning som inkommit från en medlemsstat i Europeiska unionen och som avses i lagen om verkställighet i Europeiska unionen av frysningsbeslut av egendom eller bevismaterial iakttas bestämmelserna i nämnda lag i stället för 1―3 mom.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>4 kap.</num>
+                    <heading>Beslag</heading>
+                    <section>
+                        <num>15 a §</num>
+                        <heading>Beslut om beslag när en främmande stat har begärt rättshjälp</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>I fråga om begäran om frysning som inkommit från en medlemsstat i Europeiska unionen och som avses i lagen om verkställighet i Europeiska unionen av frysningsbeslut av egendom eller bevismaterial iakttas bestämmelserna i nämnda lag i stället för 1, 2 och 4 mom. I ett sådant fall får en begäran enligt 3 mom. framställas hos domstolen av en åklagare eller av en förundersökningsmyndighet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 2 augusti 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 56/2005</p>
+                        <p>LaUB 7/2005</p>
+                        <p>RSv 84/2005</p>
+                        <p>Rådets rambeslut 2003/577/RIF, EGT nr L 196, 2.8.2003, s. 45</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 15 juli 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

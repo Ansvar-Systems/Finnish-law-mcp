@@ -1,0 +1,131 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/110/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/110"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/110/alkup"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="110"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/110/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/110/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/110/alkup/fin"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/110/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/110/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/110/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>110/2016</docNumber>
+                <docTitle>Laki Suomen metsäkeskuksen metsätietojärjestelmästä annetun lain muuttamisesta </docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         Suomen metsäkeskuksen metsätietojärjestelmästä annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2011/419">419/2011</affectedDocument>
+                        ) 8 §:n 2 momentti, sellaisena kuin se on laissa 468/2012, ja 
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 13 b § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>8 §</num>
+                    <heading>Julkisten tietojen luovuttaminen teknisen käyttöyhteyden avulla</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Tietojärjestelmän julkisia tietoja voidaan luovuttaa teknisen käyttöyhteyden avulla metsätalouteen liittyvää kaupallista tai muuta hyväksyttävää tarkoitusta varten, jos maanomistaja on antanut siihen suostumuksen. Luoton myöntämistä ja luoton valvontaa varten tietojärjestelmän julkisia tietoja voidaan luovuttaa teknisen käyttöyhteyden avulla myös ilman maanomistajan suostumusta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>13 b §</num>
+                    <heading>Luovutettujen tietojen käyttö</heading>
+                    <subsection>
+                        <content>
+                            <p>Metsätietojärjestelmästä luovutettuja tietoja saa käyttää vain siihen käyttötarkoitukseen, johon ne on luovutettu. Tiedot saa luovuttaa edelleen tai muuten antaa sivulliselle vain, jos siitä on säädetty laissa tai jos metsäkeskus on tietojen luovuttamista koskevassa päätöksessään antanut siihen nimenomaisen luvan. Metsäkeskus ei saa antaa lupaa metsätietojärjestelmän alkuperäisestä käyttötarkoituksesta poikkeavaan tietojen käsittelyyn.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 15 päivänä helmikuuta 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/27">HE 27/2015</ref>
+                        </p>
+                        <p>MmVM 10/2015</p>
+                        <p>EV 88/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 29 päivänä tammikuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Maatalous- ja ympäristöministeri</role>
+                                <person refersTo="">Kimmo Tiilikainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,163 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1329/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1329"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1329/alkup"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1329"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1329/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1329/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1329/alkup/fin"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1329/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1329/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1329/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="198"/>
+                    <finlex:date date="2007-12-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1329/2007</docNumber>
+                <docTitle>Laki viestintämarkkinalain 134 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         23 päivänä toukokuuta 2003 annetun viestintämarkkinalain (
+                        <affectedDocument href="/akn/fi/act/statute/2003/393">393/2003</affectedDocument>
+                        ) 134 § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>134 §</num>
+                    <heading>Velvollisuus ohjelmistojen ja palvelujen siirtämiseen</heading>
+                    <subsection>
+                        <intro>
+                            <p>Verkkopalvelua kaapelitelevisioverkossa tarjoava teleyritys on velvollinen siirtämään verkossa ilman korvausta:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>Yleisradio Oy:stä annetun lain (1380/1993) 7 §:n 1 momentissa tarkoitetut, verkon sijaintikunnassa vastaanotettavissa olevat julkisen palvelun televisio- ja radio-ohjelmistot sellaisen televisio- ja radiotoiminnan osalta, jota harjoitetaan tämän lain 2 §:n 7 kohdassa tarkoitetussa maanpäällisessä joukkoviestintäverkossa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>näihin ohjelmistoihin liittyvät oheis- ja lisäpalvelut;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>vapaasti vastaanotettavat televisio- ja radio-ohjelmistot, jotka tarjotaan verkon sijaintikunnassa televisio- ja radiotoiminnasta annetun lain 7 §:n 1 momentin mukaisen valtakunnallisen ohjelmistoluvan nojalla;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>tiettyä 3 kohdassa tarkoitettuun ohjelmistoon sisältyvää ohjelmaa varten toimitetun vapaasti vastaanotettavan aineiston, ohjelmistoihin liittyvät mainokset sekä muut ohjelmistoihin kuuluvat vastaavat palvelut.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Siirtovelvollisuutta ei kuitenkaan ole, jos kaapelitelevisioverkon välityskyky on teleyrityksen käytössä sen omassa televisio- tai radiotoiminnassa tai jos se on tarpeen tähän tarkoitukseen yrityksen omaa kohtuullista tulevaa tarvetta varten. Teleyrityksen ei tarvitse siirtovelvollisuuden täyttämiseksi tehdä verkon välityskykyä lisääviä, olennaisia taloudellisia investointeja vaativia parannuksia.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitetut ohjelmistot niihin liittyvine palveluineen on tarjottava käyttäjälle maksutta. Verkkopalvelua kaapelitelevisioverkossa tarjoava teleyritys voi kuitenkin vaatia käyttäjältä kohtuullisen maksun verkon ylläpidosta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitetut ohjelmistot ja palvelut on tarjottava käyttäjälle muuttamattomina ja samanaikaisesti alkuperäisen lähetyksen kanssa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Asunto-osakeyhtiön, kiinteistöosakeyhtiön tai niihin verrattavan yhteisantennijärjestelmän, joka omistaa tai hallinnoi kiinteistön sisäistä tai usean kiinteistön välistä yhteisantenniverkkoa, jota käytetään joukkoviestinnän välittämiseen kiinteistössä käyttäjien päätelaitteisiin, on huolehdittava siitä, että 1 momentissa tarkoitetut ohjelmistot ja palvelut ovat kiinteistössä käyttäjien saatavilla muuttamattomina ja samanaikaisesti alkuperäisen lähetyksen kanssa.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                    <p>Tämän lain 134 §:n 1 momentin 3 ja 4 kohtaa sovelletaan 31 päivään elokuuta 2010.</p>
+                    <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/100">HE 100/2007</ref>
+                        </p>
+                        <p>LiVM 16/2007</p>
+                        <p>EV 140/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 21 päivänä joulukuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Viestintäministeri </role>
+                                <person refersTo="">Suvi Lindén</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

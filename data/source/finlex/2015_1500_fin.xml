@@ -1,0 +1,301 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1500/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1500"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1500/alkup"/>
+                    <FRBRdate date="2015-12-17" name="dateIssued"/>
+                    <FRBRdate date="2015-12-21" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1500"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1500/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1500/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1500/alkup/fin"/>
+                    <FRBRdate date="2015-12-17" name="dateIssued"/>
+                    <FRBRdate date="2015-12-21" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1500/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1500/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1500/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2015-12-21" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1500/2015</docNumber>
+                <docTitle>Laki eläintautilain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         eläintautilain (<affectedDocument href="/akn/fi/act/statute/2013/441">441/2013</affectedDocument>) 3 §:n 1 momentin 2 kohta, 46 §:n 3 momentti, 52 §:n 1 momentti, 73 §:n 2 momentti, 74 §:n 2 momentti, 85 §:n 2 momentti, 99 §:n 3 momentti, 102 ja 106 § sekä 113 §:n 1 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Euroopan unionin lainsäädäntö</heading>
+                    <subsection>
+                        <intro>
+                            <p>Tätä lakia sovelletaan seuraavien eläintautien vastustamista koskevien Euroopan unionin säädösten ja niiden nojalla annettujen säädösten täytäntöönpanoon siltä osin kuin niiden täytäntöönpanosta ei säädetä muun lain nojalla:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>
+                                    lemmikkieläinten muista kuin kaupallisista siirroista ja asetuksen (EY) N:o 998/2003 kumoamisesta annettu Euroopan parlamentin ja neuvoston asetus (EU) N:o 576/2013 (<i>lemmikkieläinasetus</i>);
+                                </p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>46 §</num>
+                    <heading>Eläinten keinolliseen lisäämiseen liittyvien toimintojen luvanvaraisuus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitettua spermaa saa säilyttää vain hyväksytyllä sperman keräysasemalla, hyväksytyssä spermavarastossa tai hyväksytyn alkioiden tuotantoryhmän tiloissa. Edellä 2 momentissa tarkoitettuja alkioita saa säilyttää vain hyväksytyn alkioiden keräys- tai tuotantoryhmän tiloissa, hyväksytyllä sperman keräysasemalla tai hyväksytyssä spermavarastossa. Vaatimukset eivät kuitenkaan koske sperman ja alkioiden säilyttämistä omien tai omassa hallinnassa olevien eläinten keinollista lisäämistä varten taikka sperman säilyttämistä Suomessa tapahtuvaa hevoseläinten siementämistä varten.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>52 §</num>
+                    <heading>Spermavaraston hyväksyminen</heading>
+                    <subsection>
+                        <intro>
+                            <p>Aluehallintovirasto hyväksyy spermavaraston hakemuksesta. Hyväksymisen edellytyksenä on, että:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>varastolla on toimintaan soveltuvat tilat ja välineet ja se on siten rakennettu, eristetty ja huollettavissa, että sperman hygieeninen laatu ei vaarannu ja eläintautien leviäminen voidaan tehokkaasti estää;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>eläintautien leviämisen estämisestä varastossa vastaa nimetty eläinlääkäri; ja</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3) </num>
+                            <content>
+                                <p>varaston henkilöstöllä on tehtävän hoitamisen kannalta riittävät tiedot ja taidot.</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>73 §</num>
+                    <heading>Nisäkkäiden ja lintujen kuljetus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Suomen rajat ylittävään nautaeläinten, sikojen, lampaiden, vuohien tai siipikarjan kuljetukseen käytettävä ajoneuvo on puhdistettava ja desinfioitava hyväksytyssä kuljetusajoneuvojen desinfiointipaikassa ennen eläinten lastausta sekä Suomeen palaamisen jälkeen ennen uutta kuljetusta. Eläimet eivät saa kuljetuksen aikana joutua kosketuksiin sellaisten eläinten kanssa, joiden terveydentila on kuljetettavien eläinten terveydentilaa huonompi. Nautaeläimiä, sikoja, lampaita tai vuohia toiseen jäsenvaltioon kuljettavan on pidettävä luetteloa kuljetettavista eläimistä jokaisen kuljetusvälineen osalta erikseen. Luetteloa on säilytettävä vähintään kolme vuotta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>74 §</num>
+                    <heading>Vesieläinten kuljetus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Vesieläimiä kuljettavan on huolehdittava siitä, että eläinten terveydentila ei muutu kuljetuksen aikana ja että kuljetus ei vaaranna vesieläinten terveydentilaa lähtöpaikassa, kauttakuljetuspaikoissa tai määräpaikassa. Kuljetusten aikana tapahtuva kuljetussäiliöiden veden vaihto ei saa heikentää kuljetettavien vesieläinten terveydentilaa eikä aiheuttaa vaaraa eläintautien leviämisestä. Suomen rajat ylittävissä vesieläinten kuljetuksissa kuljetussäiliön vesi saadaan vaihtaa vain hyväksytyssä kuljetussäiliöiden vedenvaihtopaikassa.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>85 §</num>
+                    <heading>Aluehallintovirasto</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Sen lisäksi, mitä muualla tässä laissa säädetään aluehallintoviraston tehtävistä, virasto:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>ylläpitää toimialueensa eläintautivalmiutta ja laatii toimialuettaan koskevia valmiussuunnitelmia eläintautien varalta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>järjestää koulutusta kunnaneläinlääkäreille;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3) </num>
+                            <content>
+                                <p>vastaa toimivaltaisena viranomaisena tällä lailla täytäntöön pantavien Euroopan unionin säädösten mukaisista tehtävistä siltä osin kuin tehtävät eivät kuulu Elintarviketurvallisuusviraston tai kunnaneläinlääkärin toimivaltaan; </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4) </num>
+                            <content>
+                                <p>suorittaa elintarvikelaissa tarkoitetuissa poroteurastamoissa ja niiden yhteydessä olevissa laitoksissa ne eläintautien vastustamiseen liittyvät tehtävät, jotka tämän lain mukaan muutoin kuuluisivat kunnaneläinlääkärille.</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>99 §</num>
+                    <heading>Viranomaisten suoritteista valtiolle perittävät maksut</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Poiketen siitä, mitä 2 momentissa säädetään, maksua ei peritä muihin kuin jäsenvaltioihin toimitettavia eläimistä saatuja tuotteita koskevasta virallisesta eläinlääkintötodistuksesta, jos kunta perii maksun samasta tai samaa vientierää koskevasta eläinlääkintötodistuksesta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>102 §</num>
+                    <heading>Vastuu eläintaudin hävittämiskustannuksista</heading>
+                    <subsection>
+                        <content>
+                            <p>Eläinten lopettamista, omaisuuden hävittämistä sekä näihin liittyviä puhdistus- ja desinfektiotoimenpiteitä koskevan määräyksen täytäntöönpanoon liittyvästä työstä aiheutuvista kustannuksista vastaa valtio. Sama koskee täytäntöönpanoon liittyvistä laitteista ja välineistä sekä tarvikkeista ja aineista aiheutuvia kustannuksia. Toimijalle aiheutuneita kustannuksia tai toimijan omaa työtä ei kuitenkaan voida korvata valtion varoista, ellei kyseessä ole vesiviljelyeläimissä esiintyvä tauti. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Poiketen siitä, mitä 1 momentissa säädetään, valtion vastuu ei koske tilanteita, joissa vastuu määräyksen täytäntöönpanosta kuuluu toimijalle. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>106 §</num>
+                    <heading>Kustannusten ja korvausten maksamista koskevat rajoitukset</heading>
+                    <subsection>
+                        <content>
+                            <p>Tässä luvussa säädettyihin kustannuksiin ja korvauksiin sovelletaan maatalousalalla toimivien yritysten osalta tiettyjen maa- ja metsätalousalan ja maaseutualueiden tukimuotojen toteamisesta sisämarkkinoille soveltuviksi Euroopan unionin toiminnasta tehdyn sopimuksen 107 ja 108 artiklan mukaisesti annetun komission asetuksen (EU) N:o 702/2014 (EUVL L 193, 1.7.2014, s. 1) I lukua ja 26 artiklaa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vesiviljelyalalla toimiville yrityksille tässä luvussa säädetyt kustannukset ja korvaukset maksetaan kalastus- ja vesiviljelyalan valtiontukien tarkastelemista  koskevien  suuntaviivojen  (2015/C 217/01) 5.4 jakson mukaisena tukena. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Tässä luvussa tarkoitettuja kustannuksia ja menetyksiä ei korvata, jos ne ovat syntyneet elintarvikkeiden jalostuksessa, muiden eläimistä saatujen tuotteiden tai rehujen valmistuksessa taikka elintarvikkeiden tai muiden tuotteiden kaupan pitämisessä tai jos ne ovat aiheutuneet:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>1 momentissa mainitun asetuksen 2 artiklan 26 kohdassa tarkoitetulle suurelle yritykselle, joka toimii maatalousalalla; tai </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>yritykselle, joka ei ole noudattanut eräiden valtion tukea koskevien Euroopan unionin säännösten soveltamisesta annetun lain (300/2001) 1 §:ssä tarkoitettua tuen takaisinperintäpäätöstä. </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Korvausta 103—105 §:ssä tarkoitetuista menetyksistä ei makseta 1 momentissa mainitun asetuksen 2 artiklan 14 kohdassa tarkoitetulle vaikeuksissa olevalle yritykselle, ellei vaikeuksiin joutuminen johdu taudinpurkauksesta. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tässä luvussa tarkoitettuja kustannuksia ja menetyksiä ei korvata myöskään, jos ne ovat ai-heutuneet eläintaudista, jota ei ole mainittu Maailman eläintautijärjestön vahvistamassa eläintautien luettelossa, tämän lain 3 §:n 2 momentin 22 kohdassa mainitun direktiivin liitteessä IV olevassa II osassa taikka elintarvikeketjuun, eläinten terveyteen ja eläinten hyvinvointiin, kasvien terveyteen ja kasvien lisäysaineistoon liittyvien menojen hallinnointia koskevista säännöksistä, neuvoston direktiivien 98/56/EY, 2000/29/EY ja 2008/90/EY, Euroopan parlamentin ja neuvoston asetusten (EY) N:o 178/2002, (EY) N:o 882/2004, (EY) N:o 396/2005, Euroopan parlamentin ja neuvoston direktiivin 2009/128/EY ja  Euroopan  parlamentin  ja  neuvoston  asetuksen  (EY) N:o  1107/2009 muuttamisesta sekä neuvoston päätösten 66/399/ETY, 76/894/ETY ja 2009/470/EY kumoamisesta annetun Euroopan parlamentin ja neuvoston asetuksen (EU) N:o 652/2014 liitteessä I tai II.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Korvauksen määrästä vähennetään samoista kustannuksista tai menetyksistä vakuutussopimuksen tai muun lain perusteella maksettavat korvaukset.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>113 §</num>
+                    <heading>Toimenpiteet siirtokelpoisuuden puuttuessa</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos 64 §:ssä tarkoitetussa tarkastuksessa tai 90 §:n 1 momentissa tarkoitetussa epäilyn perusteella suoritetussa tarkastuksessa todetaan, että toisesta jäsenvaltiosta toimitettu eläin tai eläimestä saatu tuote taikka eläimen tai tuotteen mukana olevat asiakirjat eivät täytä niille 9 luvussa säädettyjä vaatimuksia, kunnaneläinlääkäri tai aluehallintovirasto voi määrätä eläimen pidettäväksi karanteenissa tai eristettynä määräpaikassa tai osoittamassaan muussa paikassa taikka tuotteen säilytettäväksi määräpaikassa tai osoittamassaan muussa paikassa siihen asti, kunnes toimija on korjannut puutteet. Kunnaneläinlääkäri voi tehdä mainitun päätöksen vain kiireellisessä tilanteessa, jossa aluehallintovirasto ei ole vielä ryhtynyt asiassa toimenpiteisiin. Kunnaneläinlääkärin on toimitettava tieto tekemästään päätöksestä välittömästi aluehallintovirastolle.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                    <p>Tämän lain 106 §:n 2 momentissa tarkoitettua tukea ei voida maksaa ennen kuin Euroopan komissio on hyväksynyt tukijärjestelmän. </p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/68">HE 68/2015</ref>
+                        </p>
+                        <p>MmVM 7/2015</p>
+                        <p>EV 58/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 17 päivänä joulukuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Maatalous- ja ympäristöministeri</role>
+                                <person refersTo="">Kimmo Tiilikainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

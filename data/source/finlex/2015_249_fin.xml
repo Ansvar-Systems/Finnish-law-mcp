@@ -1,0 +1,130 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/249/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/249"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/249/alkup"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-25" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="249"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/249/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/249/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/249/alkup/fin"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-25" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/249/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/249/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/249/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-03-25" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>249/2015</docNumber>
+                <docTitle>Laki opintotukilain 5 a ja 7 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan </i>
+                        opintotukilain (
+                        <affectedDocument href="/akn/fi/act/statute/1994/65">65/1994</affectedDocument>
+                        ) 5 a §:n 3 momentti ja 7 §:n 9 momentti, sellaisina kuin ne ovat, 5 a §:n 3 momentti laissa 789/2014 ja 7 §:n 9 momentti laissa 1078/2012, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>5 a §</num>
+                    <heading>Päätoimiset opinnot</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ammatilliset ja muut kuin 1 ja 2 momentissa tarkoitetut opinnot ovat päätoimisia, kun opintojen laajuus on keskimäärin vähintään kolme opintoviikkoa tai 4,5 osaamispistettä opiskelukuukautta kohti. Kun opintojen laajuutta ei ole mitoitettu opintoviikkoina eikä osaamispisteinä, edellytetään opetus- tai koulutusohjelman mukaiseen opetukseen tai opintoihin kuuluvaan harjoitteluun osallistumista keskimäärin vähintään 25 viikkotuntia. Työhön ja itsenäiseen elämään valmentava koulutus on kuitenkin aina päätoimista.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>7 §</num>
+                    <heading>Opintotukeen oikeuttava aika</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Muussa oppilaitoksessa säännönmukaisen opiskeluajan päätyttyä opintotukea voidaan myöntää enintään 12 kuukauden ajalle. Säännönmukaisella opiskeluajalla tarkoitetaan ammatillisesta peruskoulutuksesta annetun lain 31 §:n tai lukiolain 24 §:n 1 momentin mukaista pidentämätöntä suoritusaikaa taikka opetussuunnitelman mukaista suoritusaikaa, jos suoritusaikaa ei ole lainsäädännössä määritelty.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä elokuuta 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/211">HE 211/2014</ref>
+                        </p>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/357">HE 357/2014</ref>
+                        </p>
+                        <p>SiVM 21/2014</p>
+                        <p>EV 311/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>  Helsingissä 20 päivänä maaliskuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kulttuuri- ja asuntoministeri</role>
+                                <person refersTo="">Pia Viitanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

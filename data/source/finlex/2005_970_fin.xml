@@ -1,0 +1,194 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/970/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/970"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/970/alkup"/>
+                    <FRBRdate date="2005-12-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="970"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/970/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/970/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/970/alkup/fin"/>
+                    <FRBRdate date="2005-12-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/970/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/970/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/970/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="165"/>
+                    <finlex:date date="2005-12-13"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>970/2005</docNumber>
+                <docTitle>Laki rajoitetusti verovelvollisen tulon ja varallisuuden verottamisesta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         rajoitetusti verovelvollisen tulon ja varallisuuden verottamisesta 11 päivänä elokuuta 1978 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1978/627">627/1978</affectedDocument>
+                        ) 10 §, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 10 b―10 d § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>10 §</num>
+                    <subsection>
+                        <content>
+                            <p>Lähdeveroa perittäessä noudatetaan 1 §:ssä tarkoitetun kansainvälisen sopimuksen määräyksiä, jos tulon saaja ennen suorituksen maksamista esittää maksajalle selvityksen kotipaikastaan ja muista sopimuksen soveltamisen edellytyksistä. Selvityksenä tulon saaja voi esittää lähdeverokortin taikka ilmoittaa nimensä, syntymäaikansa ja mahdollisen muun virallisen tunnistetietonsa sekä osoitteensa kotivaltiossaan.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos selvitys esitetään sen jälkeen, kun suoritus on maksettu, mutta ennen liikaa perityn veron tilittämistä valtiolle, on veron perintä oikaistava. Samoin on meneteltävä, jos veroa on peritty muutoin liikaa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 b §</num>
+                    <subsection>
+                        <content>
+                            <p>Poiketen siitä, mitä 10 §:ssä säädetään, hallintarekisteröidylle osakkeelle maksettavasta osingosta peritään lähdeveroa 15 prosenttia, jos maksaja on 2 ja 3 momentissa tarkoitetulla tavalla riittävän huolellisesti varmistanut, että osingon saajaan sovelletaan kaksinkertaisen verotuksen välttämistä koskevan sopimuksen osinkoa koskevia määräyksiä. Jos sopimuksen mukaan Suomella on kuitenkin oikeus periä osingosta veroa enemmän kuin 15 prosenttia, vero peritään sopimuksen mukaisesti.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Selvityksenä osinkoa koskevien määräyksien soveltumisen riittävän huolellisesta varmistamisesta pidetään sopimusta, jossa joko tilinhoitajayhteisö tai tilinhoitajayhteisön asiamies ja ulkomainen omaisuudenhoitaja sopivat hallintarekisteröidyn osakkeen säilyttämisestä. Sopimuksen mukaan omaisuudenhoitajan tulee:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>ilmoittaa osingonmaksua varten valtio, jossa lopullisen osingon saajan kotipaikka on, ja vakuuttaa, että Suomen ja kyseisen valtion välisen kaksinkertaisen verotuksen välttämistä koskevan sopimuksen osinkoa koskevia määräyksiä sovelletaan osingon saajaan;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>sitoutua ilmoittamaan välittömästi tilinhoitajayhteisölle tai tämän asiamiehelle 1 kohdassa tarkoitettuja seikkoja koskevista muutoksista; ja</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>sitoutua pyydettäessä ilmoittamaan osingon saajan nimi, syntymäaika, mahdollinen muu virallinen tunnistetieto ja osoite kotivaltiossa sekä toimittamaan asianomaisen valtion veroviranomaisen antama todistus osingon saajan verotuksellisesta asuinvaltiosta.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Lisäksi edellytetään, että ulkomaisen omaisuudenhoitajan kotipaikka on sellaisessa valtiossa, jonka kanssa Suomella on kaksinkertaisen verotuksen välttämistä koskeva sopimus. Omaisuudenhoitajasta on myös oltava osingonjakohetkellä merkintä verohallinnon ylläpitämässä ulkomaisten omaisuudenhoitajien rekisterissä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tilinhoitajayhteisön tai tämän asiamiehen on pyynnöstä toimitettava hallintarekisteröidyn osakkeen liikkeeseenlaskijalle 2 momentissa tarkoitettu sopimus tai siitä kopio siltä osin kuin sopimus sisältää 2 momentissa tarkoitettuja tietoja.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 c §</num>
+                    <subsection>
+                        <content>
+                            <p>Merkintä ulkomaisesta omaisuudenhoitajasta ulkomaisten omaisuudenhoitajien rekisteriin tehdään omaisuudenhoitajan hakemuksesta. Hakemuksessa on ilmoitettava hakijan yksilöimiseksi tarpeelliset tiedot ja yhteystiedot. Lisäksi hakijan on vakuutettava, että sen tekemät hallintarekisteröityjen osakkeiden säilyttämistä koskevat sopimukset täyttävät 10 b §:n 2 momentin edellytykset.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rekisteristä voidaan poistaa se, joka jättää olennaisella tavalla noudattamatta 10 b §:n 2 momentissa tarkoitetun sopimuksen ehtoja tai tiedonantovelvollisuuksia koskevia säännöksiä, sekä se, joka sitä pyytää. Rekisteriin voidaan jättää merkitsemättä hakija, jonka voidaan olettaa aiempien laiminlyöntien perusteella olennaisesti laiminlyövän edellä tarkoitetut velvollisuutensa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rekisteriin sovelletaan soveltuvin osin, mitä ennakkoperintälaissa säädetään ennakkoperintärekisteristä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 d §</num>
+                    <subsection>
+                        <content>
+                            <p>Jos maksajalla ei ole vuosi-ilmoitusta antaessaan käytettävissään tietoja osingon saajasta, vuosi-ilmoituksella annetaan ulkomaisen omaisuudenhoitajan tiedot. Kotivaltioksi ilmoitetaan kuitenkin osingon saajan kotivaltio. Lisäksi on annettava tieto siitä, onko osingonmaksun perusteena olevan osakkeen omistusoikeus hallintarekisteröity ja hallitaanko osaketta omaan vai toisen lukuun.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 15 päivänä joulukuuta 2005. Lain 10 b―10 d §:ää sovelletaan osinkoon, joka saadaan 1 päivänä tammikuuta 2006 tai sen jälkeen.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/118">HE 118/2005</ref>
+                        </p>
+                        <p>VaVM 23/2005</p>
+                        <p>EV 142/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 9 päivänä joulukuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Valtiovarainministeri </role>
+                                <person refersTo="">Eero Heinäluoma</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

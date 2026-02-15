@@ -1,0 +1,174 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/136/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/136"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/136/alkup"/>
+                    <FRBRdate date="2006-02-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="136"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/136/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/136/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/136/alkup/swe"/>
+                    <FRBRdate date="2006-02-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/136/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/136/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/136/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="23"/>
+                    <finlex:date date="2006-03-01"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>136/2006</docNumber>
+                <docTitle>Lag om ändring av kemikalielagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i kemikalielagen av den 14 augusti 1989 (
+                        <affectedDocument href="/akn/fi/act/statute/1989/744">744/1989</affectedDocument>
+                        ) 52 § 1 mom., sådant det lyder i lag 391/2005, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 8 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>8 a §</num>
+                    <heading>Övriga myndigheter</heading>
+                    <subsection>
+                        <content>
+                            <p>Finlands miljöcentral är behörig myndighet enligt artiklarna 5, 7, 8, 10, 11 och 15 i Europaparlamentets och rådets förordning (EG) nr 648/2004 om tvätt- och rengöringsmedel. Dessutom är Social- och hälsovårdens produkttillsynscentral behörig myndighet enligt artiklarna 10, 11 och 15 i fråga om förebyggande och avvärjning av sådana skador på hälsan som orsakats av tvätt- och rengöringsmedel och i fråga om överensstämmelse med principerna för god laboratoriesed enligt artikel 8.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Finlands miljöcentral är behörig myndighet enligt artikel 15 i Europaparlamentets och rådets förordning (EG) nr 850/2004 om långlivade organiska föroreningar och om ändring av direktiv 79/117/EEG.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>De tillsynsmyndigheter som avses ovan i detta kapitel utövar inom sina respektive verksamhetsområden tillsyn över efterlevnaden av de EG-förordningar som nämns i 1 och 2 mom.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>52 §</num>
+                    <heading>Kemikalieförseelse</heading>
+                    <subsection>
+                        <intro>
+                            <p>Den som uppsåtligen eller av oaktsamhet</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>försummar att ansöka om godkännande som avses i 25 §, att ansöka om registrering som avses i 30 c §, att ansöka om tillstånd eller göra en anmälan som avses i 30 e §, att göra en anmälan som avses i 20 §, att utarbeta och distribuera ett skyddsinformationsblad som avses i 17 § 3 mom. eller sin skyldighet att lämna uppgifter enligt 18 a §, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>försummar den anmälningsskyldighet som bestäms i 42 § 3 mom. eller den i artiklarna 7, 9, 13, 14 och 16 i Europaparlamentets och rådets förordning (EG) nr 304/2003 om export och import av farliga kemikalier föreskrivna skyldigheten att lämna information om export av kemikalier, eller försummar att ge information om transitering enligt artikel 15 i nämnda förordning eller bryter mot ett beslut av det i förordningens artikel 13 avsedda destinationslandet eller det i artikel 14 avsedda exportförbudet, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>bryter mot vad som i artiklarna 3 och 4 i Europaparlamentets och rådets förordning (EG) nr 648/2004 om tvätt- och rengöringsmedel bestäms om utsläppande på marknaden av tvätt- och rengöringsmedel och tensider för tvätt- och rengöringsmedel eller vad som i artikel 7 i förordningen bestäms om testningskrav eller försummar sin skyldighet att enligt förordningens artikel 9 tillhandahålla information, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <intro>
+                                <p>bryter mot ett förbud eller en begränsning som avses i artikel 3 i Europaparlamentets och rådets förordning (EG) nr 850/2004 om långlivade organiska föroreningar och om ändring av direktiv 79/117/EEG eller underlåter att iaktta bestämmelserna om lager i artikel 5 i förordningen,</p>
+                            </intro>
+                            <subparagraph>
+                                <content>
+                                    <p>
+                                        skall, om inte strängare straff för gärningen föreskrivs någon annanstans i lag, för 
+                                        <i>kemikalieförseelse</i>
+                                         dömas till böter.
+                                    </p>
+                                </content>
+                            </subparagraph>
+                            <hcontainer name="omission"/>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 184/2005</p>
+                        <p>MiUB 17/2005</p>
+                        <p>RSv 176/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 17 februari 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Miljöminister </role>
+                                <person refersTo="">Jan-Erik Enestam</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

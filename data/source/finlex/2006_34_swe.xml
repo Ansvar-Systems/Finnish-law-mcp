@@ -1,0 +1,352 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/34/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/34"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/34/alkup"/>
+                    <FRBRdate date="2006-01-20" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="34"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/34/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/34/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/34/alkup/swe"/>
+                    <FRBRdate date="2006-01-20" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/34/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/34/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/34/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="8"/>
+                    <finlex:date date="2006-01-25"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>34/2006</docNumber>
+                <docTitle>Lag om ändring av utlänningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i utlänningslagen av den 30 april 2004 (
+                        <affectedDocument href="/akn/fi/act/statute/2004/301">301/2004</affectedDocument>
+                        ) 54 och 55 §, 68 § 1 mom. 1 punkten, 79 §, 80 § 1 mom. 1 punkten, 157 § 3 mom., 169 §, 171 § 2 mom. och 190 §, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 81 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>54 §</num>
+                    <heading>Beviljande av fortsatt tillstånd</heading>
+                    <subsection>
+                        <content>
+                            <p>Ett nytt tidsbegränsat uppehållstillstånd beviljas om villkoren för det föregående tidsbegränsade uppehållstillståndet fortfarande uppfylls.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om en utlänning har fått uppehållstillstånd på grund av internationellt skydd, beviljas ett nytt tidsbegränsat uppehållstillstånd, om det inte på basis av de omständigheter som framkommit förefaller uppenbart att de villkor på grundval av vilka det föregående tidsbegränsade uppehållstillståndet beviljades inte längre uppfylls.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En utlänning som med stöd av 45 § 1 mom. beviljats tillfälligt uppehållstillstånd för arbete eller näringsidkande, beviljas efter två års oavbruten vistelse i landet kontinuerligt uppehållstillstånd, om villkoren för beviljande av tillstånd fortfarande uppfylls.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En utlänning som med stöd av 45 § 1 mom. 3 punkten beviljats tillfälligt uppehållstillstånd för studier, beviljas efter avlagd examen ett nytt tillfälligt uppehållstillstånd för sökande av arbete.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En utlänning som med stöd av 51 § beviljats tillfälligt uppehållstillstånd på grund av hinder för avlägsnande ur landet beviljas efter två års oavbruten vistelse i landet kontinuerligt uppehållstillstånd, om de omständigheter som nämns i 51 § fortfarande föreligger.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ett nytt tidsbegränsat uppehållstillstånd beviljas på nya grunder, om utlänningen kunde beviljas första uppehållstillstånd på dessa nya grunder. En utlänning som beviljats tillfälligt eller kontinuerligt uppehållstillstånd på grund av familjeband kan beviljas uppehållstillstånd efter det att familjebandet brutits, om han eller hon har fast anknytning till Finland.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>55 §</num>
+                    <heading>Det fortsatta tillståndets längd</heading>
+                    <subsection>
+                        <content>
+                            <p>Ett nytt tidsbegränsat uppehållstillstånd beviljas för högst tre år.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>I de fall som avses i 54 § 3 och 5 mom. tillämpas, när grunden för vistelsen ändras från tillfällig till kontinuerlig, på uppehållstillståndets längd vad som i 53 § bestäms om det första tidsbegränsade uppehållstillståndets längd.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om uppehållstillstånd beviljas på grund av familjeband, får giltighetstiden för det uppehållstillstånd som beviljas dock inte vara längre än giltighetstiden för det uppehållstillstånd för en familjemedlem som ligger till grund för beviljandet av uppehållstillståndet. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En studerande som avlagt examen beviljas tillfälligt uppehållstillstånd i Finland med stöd av 54 § 4 mom. en gång för sex månader efter det att det föregående uppehållstillståndet har upphört att gälla.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>68 §</num>
+                    <heading>Den lokala polisen som uppehållstillståndsmyndighet</heading>
+                    <subsection>
+                        <intro>
+                            <p>Polisinrättningen i häradet beviljar</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>uppehållstillstånd för en sådan familjemedlem till en finsk medborgare som befinner sig i Finland samt för dennes minderåriga ogifta barn,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <crossHeading eId="crossHeading">Arbete utan uppehållstillstånd för arbetstagare</crossHeading>
+                <section>
+                    <num>79 §</num>
+                    <heading>Obegränsat arbete med stöd av annat uppehållstillstånd än uppehållstillstånd för arbetstagare</heading>
+                    <subsection>
+                        <content>
+                            <p>Rätt att förvärvsarbeta har en utlänning som har beviljats permanent uppehållstillstånd eller kontinuerligt uppehållstillstånd på grundval av annat än arbete eller yrkesutövning.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rätt att förvärvsarbeta har en utlänning som i egenskap av familjemedlem till en utlänning med tillfälligt uppehållstillstånd för arbetstagare eller tillfälligt uppehållstillstånd för näringsidkare har beviljats tillfälligt uppehållstillstånd på grund av familjeband.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rätt att förvärvsarbeta har en utlänning som har beviljats tillfälligt uppehållstillstånd på grund av tillfälligt skydd eller annan humanitär invandring.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En utlänning som har avlagt examen i Finland har rätt att förvärvsarbeta utan prövning enligt 72 § 1 mom., om han eller hon har beviljats uppehållstillstånd med stöd av 45 § 1 mom. 1 punkten eller 47 § 1 mom. 2 punkten.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Rätt att förvärvsarbeta har en utlänning som har beviljats tidsbegränsat uppehållstillstånd och som</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>sköter ledningsuppgifter på högsta nivå eller mellannivå i ett företag eller utför sakkunniguppdrag som kräver specialkompetens,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>är idrottare, tränare eller idrottsdomare, om verksamheten är yrkesmässig,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>arbetar för ett religiöst eller ideologiskt samfund,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>yrkesmässigt verkar inom området för vetenskap, kultur eller konst med undantag av restaurangmusiker, eller som</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>arbetar i en internationell organisation eller sköter uppgifter som hänför sig till officiellt mellanstatligt arbete.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Rätt att förvärvsarbeta har en utlänning vars arbets- eller uppdragsgivare inte har något verksamhetsställe i Finland, om han eller hon</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>är yrkesmässigt verksam inom masskommunikationsområdet, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>undersöker marknaden, förbereder ett företags etablering i Finland, förhandlar om eller skaffar beställningar eller övervakar hur beställningar verkställs eller sköter andra motsvarande uppgifter.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rätt att förvärvsarbeta har en utlänning som av utrikesministeriet beviljats uppehållstillstånd för att utföra bygg-, reparations- och underhållsarbete vid en beskickning.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Sådan rätt att arbeta som baserar sig på denna paragraf skall med undantag av uppehållstillstånd enligt 7 mom. antecknas i utlänningens uppehållstillstånd.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>80 §</num>
+                    <heading>Begränsat arbete med stöd av annat uppehållstillstånd än uppehållstillstånd för arbetstagare</heading>
+                    <subsection>
+                        <intro>
+                            <p>Rätt att förvärvsarbeta har en utlänning som beviljats uppehållstillstånd</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>för studier, om arbetet är arbetspraktik som ingår i examen eller är ett slutarbete som ingår i studierna och som utförs i form av förvärvsarbete eller om mängden av arbete utjämnas till i genomsnitt 25 timmar per vecka under den tid då egentlig undervisning ordnas vid läroanstalten eller om heltidsarbetet infaller under en tid då egentlig undervisning inte ordnas vid läroanstalten,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>81 a §</num>
+                    <heading>Rätt för en utlänning som avlagt examen i Finland att fortsätta och börja arbeta</heading>
+                    <subsection>
+                        <content>
+                            <p>Har en utlänning anhållit om fortsatt uppehållstillstånd för arbete eller sökande av arbete medan ett uppehållstillstånd för studier beviljat med stöd av 45 § 1 mom. 3 punkten varit gällande, får han eller hon fortsätta arbeta eller börja ett nytt arbete med stöd av det tidigare uppehållstillståndet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Har en utlänning anhållit om fortsatt uppehållstillstånd för arbete medan ett uppehållstillstånd beviljat med stöd av 54 § 4 mom. varit gällande, får utlänningen börja arbeta när han eller hon har hittat ett arbete.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Får en utlänning avslag på sin ansökan enligt 1 eller 2 mom. får han eller hon inte fortsätta arbeta, även om ändring har sökts i beslutet genom besvär.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>157 §</num>
+                    <heading>Nordiska medborgares inresa och vistelse</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>En nordisk medborgare som kommer till Finland i annat än kortvarigt syfte skall registrera sin vistelse så som överenskommits om folkbokföring mellan de nordiska länderna.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>169 §</num>
+                    <heading>Grunderna för avvisning och utvisning av nordiska medborgare</heading>
+                    <subsection>
+                        <content>
+                            <p>En medborgare i Danmark, Island, Norge eller Sverige vars flyttning till Finland inte har registrerats på det sätt som föreskrivs i 157 § 3 mom. kan avvisas, om han eller hon anses äventyra allmän ordning och säkerhet eller folkhälsan.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En medborgare i Danmark, Island, Norge eller Sverige vars flyttning till Finland har registrerats på det sätt som föreskrivs i 157 § 3 mom. kan utvisas, om han eller hon anses äventyra allmän ordning och säkerhet eller folkhälsan.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>171 §</num>
+                    <heading>Behöriga myndigheter</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Polisinrättningen i häradet återkallar registreringen av en uppehållsrätt samt en tidsbegränsad respektive permanent uppehållstillståndshandling. Polisinrättningen beslutar också på ansökan att en registrering av uppehållsrätten eller en uppehållstillståndshandling inte återkallas i sådana fall som avses i 165 § 3 mom.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>190 §</num>
+                    <heading>Besvär</heading>
+                    <subsection>
+                        <content>
+                            <p>I beslut som fattats av Utlänningsverket, polisen, gränskontrollmyndigheten, arbetskraftsbyrån och en finsk beskickning och som avses i denna lag får ändring sökas genom besvär hos förvaltningsdomstolen på det sätt som föreskrivs i förvaltningsprocesslagen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 februari 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 78/2005</p>
+                        <p>FvUB 21/2005</p>
+                        <p>RSv 169/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 20 januari 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister </role>
+                                <person refersTo="">Kari Rajamäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

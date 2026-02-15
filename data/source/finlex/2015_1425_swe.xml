@@ -1,0 +1,115 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1425/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1425"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1425/alkup"/>
+                    <FRBRdate date="2015-12-04" name="dateIssued"/>
+                    <FRBRdate date="2015-12-10" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1425"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1425/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1425/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1425/alkup/swe"/>
+                    <FRBRdate date="2015-12-04" name="dateIssued"/>
+                    <FRBRdate date="2015-12-10" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1425/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1425/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1425/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-10" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1425/2015</docNumber>
+                <docTitle>Lag om temporär ändring av 1 § i lagen om arvoden och ersättningar som betalas till medlemmar av statsrådet</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         temporärt i lagen om arvoden och ersättningar som betalas till medlemmar av statsrådet (
+                        <affectedDocument href="/akn/fi/act/statute/2006/1096">1096/2006</affectedDocument>
+                        ) 1 § 2 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Arvodet motsvarar till sitt belopp det av riksdagens arvodeskommission fastställda arvode som med stöd av lagen om riksdagsmannaarvode (328/1947) betalas till riksdagens vice talman, minskat med sju procent. Det arvode som betalas till statsministern motsvarar till sitt belopp emellertid det av riksdagens arvodeskommission fastställda arvode som betalas till riksdagens talman, minskat med sju procent. Under denna lags giltighetstid påverkar ytterligare minskningar av eller tillägg till det arvode som fastställts för riksdagens talman eller vice talman inte det arvode som betalas till statsministern eller ministrarna.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016 och gäller till och med den 31 maj 2019, dock högst till utgången av den månad då det statsråd som är tillsatt vid denna lags ikraftträdande beviljas avsked av republikens president.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/53">RP 53/2015</ref>
+                        </p>
+                        <p>GrUB 5/2015</p>
+                        <p>RSv 19/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 4 december 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Statsminister</role>
+                                <person refersTo="">Juha Sipilä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

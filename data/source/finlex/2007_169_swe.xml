@@ -1,0 +1,631 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/169/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/169"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/169/alkup"/>
+                    <FRBRdate date="2007-02-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="169"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/169/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/169/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/169/alkup/swe"/>
+                    <FRBRdate date="2007-02-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/169/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/169/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/169/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="26"/>
+                    <finlex:date date="2007-02-20"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>169/2007</docNumber>
+                <docTitle>Lag om en kommun- och servicestrukturreform</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut föreskrivs:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 kap.</num>
+                    <heading>Lagens syfte och tillämpningsområde</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Lagens syfte</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Syftet med denna lag är att skapa förutsättningar för en kommun- och servicestrukturreform. Syftet med reformen är att utgående från den kommunala demokratin stärka kommun- och servicestrukturen, utveckla sätten att producera och organisera servicen, revidera kommunernas finansierings- och statsandelssystem samt se över uppgiftsfördelningen mellan kommunerna och staten så att det finns en stark strukturell och ekonomisk grund för ordnandet och produktionen av den service som kommunerna ansvarar för samt för kommunernas utveckling. Syftet är att förbättra produktiviteten och dämpa utgiftsökningen i kommunerna samt att skapa förutsättningar för att utveckla styrningen av den service som kommunerna ordnar.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_1__subsec_2">
+                            <content>
+                                <p>Lagens mål är en livskraftig och funktionsduglig samt enhetlig kommunstruktur. Dessutom är lagens mål att i hela landet säkerställa service av hög kvalitet som är tillgänglig för invånarna. Servicestrukturen skall vara heltäckande och ekonomisk och den skall möjliggöra en effektiv användning av resurserna.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_1__subsec_3">
+                            <intro eId="chp_1__sec_1__subsec_3__intro">
+                                <p>När arrangemangen enligt denna lag planeras och genomförs skall beaktas</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_1__subsec_3__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>tillgången till service, dess kvalitet och finansieringen av den i landets alla delar,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_1__subsec_3__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>de grundläggande fri- och rättigheterna samt jämlikhet i fråga om erhållandet av service,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_1__subsec_3__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>förutsättningarna för kommuninvånarnas självstyrelse,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_1__subsec_3__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>kommuninvånarnas möjligheter att delta och påverka,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_1__subsec_3__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>den finsk- och svenskspråkiga befolkningens rättigheter att använda sitt eget språk och att få service på detta språk, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_1__subsec_3__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>samernas språkliga rättigheter samt samernas rätt att såsom urfolk bevara och utveckla sitt språk och sin kultur samt självstyrelsen när det gäller samernas språk och kultur inom samernas hembygdsområde.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Tillämpningsområde</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <content>
+                                <p>Lagen tillämpas i landets samtliga kommuner. I de kommuner som hör till tillämpningsområdet för lagen om ett förvaltningsförsök i Kajanaland (343/2003) tillämpas dock endast 8, 9 och 11―13 § i denna lag.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <heading>Förhållandet till regionindelningarna</heading>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <content>
+                                <p>Kommunerna kan utarbeta de utredningar och planer som avses i denna lag så att de avviker från indelningen i sjukvårdsdistrikt enligt 7 § i lagen om specialiserad sjukvård (1062/1989) och den indelning i specialomsorgsdistrikt som statsrådet beslutat om med stöd av 6 § i lagen angående specialomsorger om utvecklingsstörda (519/1977).</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_3__subsec_2">
+                            <content>
+                                <p>Kommunerna kan utarbeta de utredningar och planer som avses i denna lag så att de avviker från den landskapsindelning som statsrådet beslutat om med stöd av 1 § 2 mom. i lagen om landskapsindelning (1159/1997).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 kap.</num>
+                    <heading>Genomförandet av reformen</heading>
+                    <section eId="chp_2__sec_4">
+                        <num>4 §</num>
+                        <heading>Metoder</heading>
+                        <subsection eId="chp_2__sec_4__subsec_1">
+                            <content>
+                                <p>Kommunstrukturen stärks genom att kommuner sammanslås och genom att delar av kommuner ansluts till andra kommuner. Ändringar i kommunindelningen verkställs och stöds på det sätt som bestäms i kommunindelningslagen (1196/1997).</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_2">
+                            <content>
+                                <p>Servicestrukturerna stärks genom att den service som förutsätter ett större befolkningsunderlag än en kommun sammanförs och genom att samarbetet mellan kommunerna utökas.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_3">
+                            <content>
+                                <p>Verksamhetens produktivitet förbättras också genom att kommunernas verksamhet effektiviseras vid ordnandet och produktionen av service samt genom att stärka verksamhetsförutsättningarna för huvudstadsregionen och andra stadsregioner med problematisk samhällsstruktur.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Bildandet av kommuner och samarbetsområden</heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <content>
+                                <p>En kommun skall bestå av en pendlingsregion eller någon annan sådan funktionell helhet som har ekonomiska förutsättningar och på personella resurser grundade förutsättningar att ansvara för ordnandet och finansieringen av servicen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_2">
+                            <content>
+                                <p>För att stärka samarbetet mellan kommunerna kan kommunerna inrätta ett samarbetsområde enligt 3 och 4 mom. som består av en funktionell helhet. Kommunerna kan komma överens om att samarbetsområdets uppgifter i enlighet med 76 § 2 mom. i kommunallagen (365/1995) anförtros en kommun inom området att sköta, varvid det för skötseln av uppgifterna inrättas ett i 77 § i kommunallagen avsett gemensamt organ för kommunerna inom området, eller att samarbetsområdets uppgifter sköts av en samkommun.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_3">
+                            <content>
+                                <p>I en kommun eller inom ett samarbetsområde som sköter primärvården och sådana uppgifter inom socialväsendet som är nära anslutna till primärvärden skall det finnas åtminstone ungefär 20 000 invånare.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_4">
+                            <content>
+                                <p>En kommun eller ett samarbetsområde som har tillstånd att ordna grundläggande yrkesutbildning enligt lagen om yrkesutbildning (630/1998) skall åtminstone ha ungefär 50 000 invånare.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_5">
+                            <intro eId="chp_2__sec_5__subsec_5__intro">
+                                <p>Från de villkor som i 3 och 4 mom. föreskrivs för bildandet av en kommun eller ett samarbetsområde kan avvikas, om</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_5__subsec_5__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>det på grund av skärgård eller långa avstånd inte är möjligt att bilda en funktionell helhet på det sätt som bestäms i 1 och 2 mom.,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_5__subsec_5__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>det är nödvändigt för att trygga de finsk- eller svenskspråkiga invånarnas språkliga rättigheter, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_5__subsec_5__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>det är nödvändigt för att trygga de rättigheter som gäller samernas språk och kultur.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Service som förutsätter ett brett befolkningsunderlag</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>För att trygga den service som förutsätter ett brett befolkningsunderlag indelas landet i de samkommuner som uppräknas i 7 § i lagen om specialiserad sjukvård. Varje kommun skall höra till en samkommun. Angående röstetalet i samkommunen gäller vad som bestäms i 17 § i lagen om specialiserad sjukvård, om inte kommunerna kommer överens om något annat.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_2">
+                            <intro eId="chp_2__sec_6__subsec_2__intro">
+                                <p>Samkommunen skall</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_6__subsec_2__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>i den omfattning som kommunen anger ansvara för den service som föreskrivs i lagen om specialiserad sjukvård och lagen angående specialomsorger om utvecklingsstörda,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_2__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>inom sitt område främja beaktandet av hälsa, funktionsförmåga och social trygghet, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_2__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>sköta de andra uppgifter som åläggs den genom lag.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_3">
+                            <content>
+                                <p>Kommunen kan också ge samkommunen andra uppgifter.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_4">
+                            <content>
+                                <p>Tvåspråkiga och enspråkiga svenskspråkiga kommuner är dessutom medlemmar i en samkommun som har till uppgift att trygga ordnandet av svenskspråkig service för medlemskommunerna i enlighet med den arbetsfördelning som särskilt skall beslutas.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_5">
+                            <content>
+                                <p>En del av de åtgärder och den vård som hör till den högspecialiserade sjukvården centraliseras till något specialupptagningsområde på riksnivå. En proposition med förslag till ändring av lagen om specialiserad sjukvård bereds och föreläggs riksdagen så att genom förordning av statsrådet bestäms vilka undersökningar och åtgärder samt vilken vård som hör till den högspecialiserade sjukvården samt vilka av dessa som centraliseras på riksnivå.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Planeringsskyldighet för vissa stadsregioner</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>
+                                    Städerna Esbo, Grankulla, Helsingfors och Vanda (<i>huvudstadsregionen</i>) skall senast den 31 augusti 2007 utarbeta en plan för hur samordningen av markanvändningen, boendet och trafiken samt användningen av service över kommungränserna skall förbättras i regionen med beaktande av de projekt i syfte att utveckla samarbetet som redan pågår.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_7__subsec_2">
+                            <content>
+                                <p>Städerna Åbo, Borgå, Björneborg, Tavastehus, Tammerfors, Lahtis, Kotka, Villmanstrand, S:t Michel, Kuopio, Joensuu, Jyväskylä, Seinäjoki, Vasa, Karleby och Uleåborg skall tillsammans med de kommuner som nämns i 3 mom. senast den 31 augusti 2007 utarbeta en plan för hur samordningen av markanvändningen, boendet och trafiken samt användningen av service över kommungränserna skall förbättras i de i 3 mom. avsedda regionerna, om inte de berörda kommunerna enhälligt konstaterar att det är onödigt att utarbeta en plan.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_7__subsec_3">
+                            <intro eId="chp_2__sec_7__subsec_3__intro">
+                                <p>Planer som avses i 2 mom. skall utarbetas tillsammans med följande kommuner:</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>Åbo stad tillsammans med Aura, S:t Karins, Lundo, Nådendal, Reso, Rusko och Vahto,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>Borgå stad tillsammans med Askola, Mörskom och Pernå,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>Björneborgs stad tillsammans med Luvia, Sastmola, Nakkila, Norrmark, Påmark, Siikainen och Ulvsby,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>Tavastehus stad tillsammans med Hattula, Hauho, Janakkala, Kalvola, Lammi, Renko och Tuulos,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>Tammerfors stad tillsammans med Kangasala, Lempäälä, Nokia, Orivesi, Birkala, Vesilahti och Ylöjärvi,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>Lahtis stad tillsammans med Asikkala, Hollola, Hämeenkoski, Kärkölä, Nastola och Orimattila,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>Kotka stad tillsammans med Fredrikshamn, Pyttis och Strömfors,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_8">
+                                <num>8)</num>
+                                <content>
+                                    <p>Villmanstrands stad tillsammans med Joutseno, Lemi och Taipalsaari,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_9">
+                                <num>9)</num>
+                                <content>
+                                    <p>S:t Michels stad tillsammans med Hirvensalmi och Ristiina,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_10">
+                                <num>10)</num>
+                                <content>
+                                    <p>Kuopio stad tillsammans med Karttula, Maaninka och Siilinjärvi,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_11">
+                                <num>11)</num>
+                                <content>
+                                    <p>Joensuu stad tillsammans med Kontiolahti, Liperi och Pyhäselkä,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_12">
+                                <num>12)</num>
+                                <content>
+                                    <p>Jyväskylä stad tillsammans med Jyväskylä landskommun, Korpilahti, Laukaa, Muurame, Petäjävesi och Toivakka,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_13">
+                                <num>13)</num>
+                                <content>
+                                    <p>Seinäjoki stad tillsammans med Ilmajoki, Lappo, Nurmo och Ylistaro,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_14">
+                                <num>14)</num>
+                                <content>
+                                    <p>Vasa stad tillsammans med Storkyro, Korsnäs, Laihela, Malax, Maxmo, Korsholm, Oravais, Lillkyro och Vörå,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_15">
+                                <num>15)</num>
+                                <content>
+                                    <p>Karleby stad tillsammans med Kronoby och Kelviå, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_3__para_16">
+                                <num>16)</num>
+                                <content>
+                                    <p>Uleåborgs stad tillsammans med Karlö, Haukipudas, Kempele, Kiiminki, Limingo, Lumijoki, Muhos, Oulunsalo, Tyrnävä och Ylikiiminki.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_8">
+                        <num>8 §</num>
+                        <heading>Uppgifter som överförs från kommunerna till staten</heading>
+                        <subsection eId="chp_2__sec_8__subsec_1">
+                            <intro eId="chp_2__sec_8__subsec_1__intro">
+                                <p>Staten övertar ordnandet och finansieringen av de uppgifter som ålagts kommunerna i</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_8__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>lagen om anordnande av konsumentrådgivning i kommunerna (72/1992),</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_8__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>lagen om underhållstrygghet (671/1998), inte dock åtgärderna för fastställande av underhållsskyldighet, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_8__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>lagen om ordnande av intressebevakningstjänster i förmyndarverksamheten (443/1999).</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_2__sec_8__subsec_2">
+                            <intro eId="chp_2__sec_8__subsec_2__intro">
+                                <p>Staten övertar finansieringen av de kostnader som åsamkas kommunerna som en del av uppgifterna enligt folkhälsolagen (66/1972), lagen om specialiserad sjukvård eller mentalvårdslagen (1116/1990)</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_8__subsec_2__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>för hälso- och sjukvård för sådana personer som finska staten skall lämna hälso- och sjukvård eller bekosta hälso- och sjukvård för med stöd av Europeiska unionens lagstiftning eller internationella avtal som Finland ingått,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_8__subsec_2__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>för utredningar i anslutning till sexuellt utnyttjande av barn, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_8__subsec_2__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>för rättspsykiatriska utredningar.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_2__sec_8__subsec_3">
+                            <content>
+                                <p>Ordnandet och finansieringen av ovan nämnda uppgifter överförs på staten senast den 1 januari 2009.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_9">
+                        <num>9 §</num>
+                        <heading>Kommuner som befinner sig i en speciellt svår ekonomisk ställning</heading>
+                        <subsection eId="chp_2__sec_9__subsec_1">
+                            <content>
+                                <p>Om de nyckeltal för kommunens ekonomi som beskriver finansieringens tillräcklighet eller soliditeten är väsentligt och upprepade gånger sämre än motsvarande nyckeltal för hela landet och två år efter varandra har underskridit de gränsvärden som anges genom förordning av statsrådet, skall kommunen och staten tillsammans reda ut kommunens möjligheter att garantera sina invånare den service som lagstiftningen förutsätter samt vidta åtgärder för att trygga förutsättningarna för servicen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_9__subsec_2">
+                            <content>
+                                <p>Den utredning som avses i 1 mom. görs i en utvärderingsgrupp där en av medlemmarna utses av inrikesministeriet och en av den berörda kommunen. Dessutom utser inrikesministeriet efter att ha hört den berörda kommunen till ordförande för utvärderingsgruppen en person som är oavhängig av de nämnda instanserna. Utvärderingsgruppen lägger fram ett förslag till åtgärder som behövs för att trygga servicen till invånarna. Kommunfullmäktige skall behandla utvärderingsgruppens åtgärdsförslag och delge inrikesministeriet beslutet om dem för eventuella fortsatta åtgärder.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_9__subsec_3">
+                            <content>
+                                <p>Inrikesministeriet avgör utgående från utvärderingsgruppens åtgärdsförslag och kommunfullmäktiges beslut om det är nödvändigt med en sådan särskild utredning som avses i kommunindelningslagen i syfte att ändra kommunindelningen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_9__subsec_4">
+                            <content>
+                                <p>Om de åtgärder som nämns i 1―3 mom. inte är tillräckliga, kan regeringen i början av 2009 till riksdagen överlämna en proposition med förslag till lag om ändring av kommunindelningslagen så att statsrådet på förslag av utvärderingsgruppen eller en kommunindelningsutredare som tillsatts i enlighet med 3 mom. kan besluta att ändra kommunindelningen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 kap.</num>
+                    <heading>Särskilda bestämmelser</heading>
+                    <section eId="chp_3__sec_10">
+                        <num>10 §</num>
+                        <heading>Kommunens utredning och genomförandeplan för reformen</heading>
+                        <subsection eId="chp_3__sec_10__subsec_1">
+                            <content>
+                                <p>
+                                    Kommunen skall senast den 31 augusti 2007 lämna statsrådet en utredning om de åtgärder som kommer att vidtas i kommunen med stöd av 5 och 6 § samt en plan för genomförandet av reformen (<i>genomförandeplan</i>). Beslut om utredningen och genomförandeplanen fattas av kommunfullmäktige.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_10__subsec_2">
+                            <intro eId="chp_3__sec_10__subsec_2__intro">
+                                <p>Den genomförandeplan som avses i 1 mom. skall innehålla</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_10__subsec_2__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>en befolkningsanalys och en analys av servicebehovet i kommunen för 2015 och 2025,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_10__subsec_2__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>kommunens ekonomiplan enligt 65 § 1 mom. i kommunallagen samt, om underskott i balansräkningen inte kan täckas under ekonomiplanens planeperiod, ett åtgärdsprogram enligt 65 § 3 mom. i kommunallagen,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_10__subsec_2__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>en plan för hur kommunen utnyttjar de metoder som nämns i 4 §,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_10__subsec_2__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>en utredning om servicenätets täckning, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_10__subsec_2__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>en plan för hur kommunens viktigaste funktioner skall ordnas samt för personalresursernas tillräcklighet och utveckling.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_3__sec_10__subsec_3">
+                            <content>
+                                <p>Om kommunen beslutar att verkställa en ändring i kommunindelningen vid ingången av 2009, skall kommunen lägga fram ett förslag till ändring av kommunindelningen och en utredning enligt 1 mom. om ordnandet av servicen för statsrådet före utgången av 2007. Om inrikesministeriet har beslutat att genomföra en särskild utredning enligt 8 § i kommunindelningslagen eller vidta åtgärder enligt 9 § i denna lag, skall framställningen om en ändring i kommunindelningen dock göras senast den 30 mars 2008.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_11">
+                        <num>11 §</num>
+                        <heading>Statens kommunpolitik samt revideringen av finansierings- och statsandelssystemet</heading>
+                        <subsection eId="chp_3__sec_11__subsec_1">
+                            <content>
+                                <p>Basserviceprogrammet, som behandlar kommunernas uppgifter och finansieringen av dem, utvecklas och blir en etablerad del av statens och kommunernas lagbaserade samrådsförfarande. De ekonomiska styrmetoderna enligt basserviceprogrammet utvecklas så att de blir effektivare.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_11__subsec_2">
+                            <content>
+                                <p>Kommunernas finansierings- och statsandelssystem revideras med ett enkelt och genomskådligt system som mål. I samband med reformen fattas beslut om att stärka kommunernas skatteinkomstbas genom att skatteavdragen överförs så att de belastar staten samt undanröjs hindren för kommunsammanslagningar och samarbete mellan kommuner i anslutning till finansieringssystemet. Målet är att slå samman statsandelarna för de olika förvaltningsområdena.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_11__subsec_3">
+                            <content>
+                                <p>I statsandelssystemet beaktas kommunernas olika förhållanden och servicebehov. Det utjämningssystem för statsandelarna som baserar sig på skatteinkomsterna skall vara neutralt med avseende på de ekonomiska förhållandena mellan staten och kommunerna.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_11__subsec_4">
+                            <content>
+                                <p>Den reform som avses i denna lag ändrar inte kostnadsfördelningen mellan staten och kommunerna.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_12">
+                        <num>12 §</num>
+                        <heading>Utvecklande av informationssystemen och samservicen</heading>
+                        <subsection eId="chp_3__sec_12__subsec_1">
+                            <content>
+                                <p>Staten och kommunerna utarbetar gemensamma standarder för att säkerställa att datasystemen är interoperabla och främjar tillsammans ibruktagandet av nya informationsförvaltningssystem och sätt att genomföra informationsförvaltningen samt elektroniska tjänster.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_12__subsec_2">
+                            <content>
+                                <p>Staten och kommunerna utvecklar och tar i bruk en samservicemodell som överskrider gränserna mellan organisationer och förvaltningsområden och som utnyttjar informations- och kommunikationstekniska lösningar.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_13">
+                        <num>13 §</num>
+                        <heading>Personalens ställning</heading>
+                        <subsection eId="chp_3__sec_13__subsec_1">
+                            <content>
+                                <p>De omorganiseringar som avses i denna lag samt beredningen av de utredningar och planer som avses i lagen genomförs i samarbete med företrädarna för kommunernas personal.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_13__subsec_2">
+                            <content>
+                                <p>De omorganiseringar som avses i denna lag och som leder till att personalen byter arbetsgivare betraktas som överlåtelse av rörelse.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_13__subsec_3">
+                            <content>
+                                <p>På grundval av de omorganiseringar av verksamheten som avses i 5 och 6 § i denna lag har arbetsgivaren inte rätt att säga upp ett anställningsförhållande av ekonomiska orsaker eller av produktionsorsaker enligt 7 kap. 3 § i arbetsavtalslagen (55/2001) eller 37 § i lagen om kommunala tjänsteinnehavare (304/2003). En arbetstagare eller tjänsteinnehavare kan dock sägas upp om han eller hon vägrar att ta emot en ny arbetsuppgift eller tjänst enligt 7 kap. 4 § i arbetsavtalslagen eller 37 § i lagen om kommunala tjänsteinnehavare som arbetsgivaren erbjuder honom eller henne. Detta förbud är i kraft fem år från det att personalen har övergått i anställning hos den nya arbetsgivaren. Förbudet gäller hela personalen som är anställd i de tjänster som ovannämnda omorganiseringar gäller, såväl hos den nya som den gamla arbetsgivaren.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_14">
+                        <num>14 §</num>
+                        <heading>Bemyndigande att utfärda förordning om lämnandet av uppgifter</heading>
+                        <subsection eId="chp_3__sec_14__subsec_1">
+                            <content>
+                                <p>Genom förordning av statsrådet bestäms närmare om hur de planer som avses i 7 § samt den utredning och genomförandeplan som avses i 10 § skall vara strukturerade samt om hur planerna och utredningarna skall lämnas till statsrådet. Genom förordning av statsrådet bestäms dessutom vilken service den utredning om servicenätets täckning som avses i 10 § 2 mom. 4 punkten och den plan för ordnandet av kommunens viktigaste funktioner som avses i 10 § 2 mom. 5 punkten åtminstone skall gälla.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 kap.</num>
+                    <heading>Ikraftträdandebestämmelser</heading>
+                    <section eId="chp_4__sec_15">
+                        <num>15 §</num>
+                        <heading>Ikraftträdande</heading>
+                        <subsection eId="chp_4__sec_15__subsec_1">
+                            <content>
+                                <p>Denna lag träder i kraft den 23 februari 2007 och gäller till utgången av 2012.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_15__subsec_2">
+                            <content>
+                                <p>Om de arrangemang som avses i 5 och 6 § vidtas före den 31 december 2012, tillämpas det uppsägningsskydd som avses i 13 § 3 mom. även efter den 31 december 2012 på den personal som är föremål för arrangemanget.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_15__subsec_3">
+                            <content>
+                                <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 155/2006</p>
+                        <p>FvUB 31/2006</p>
+                        <p>RSv 259/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 9 februari 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Region- och kommunminister </role>
+                                <person refersTo="">Hannes Manninen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

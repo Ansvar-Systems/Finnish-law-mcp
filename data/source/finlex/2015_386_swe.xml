@@ -1,0 +1,166 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/386/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/386"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/386/alkup"/>
+                    <FRBRdate date="2015-04-10" name="dateIssued"/>
+                    <FRBRdate date="2015-04-14" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="386"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/386/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/386/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/386/alkup/swe"/>
+                    <FRBRdate date="2015-04-10" name="dateIssued"/>
+                    <FRBRdate date="2015-04-14" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/386/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/386/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/386/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-04-14" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>386/2015</docNumber>
+                <docTitle>Lag om ändring av 25 och 25 a kap. i rättegångsbalken</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i rättegångsbalken 25 a kap. 6—10 §, sådana de lyder i lag 650/2010,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         25 kap. 15 § 1 mom. 4 a-punkten och 25 a kap. 5 §, sådana de lyder i lag 650/2010, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 25 a kap. 19 §, sådan den lyder i lag 650/2010, ett nytt 2 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>25 kap.</num>
+                    <heading>Om fullföljd av talan från tingsrätt till hovrätt</heading>
+                    <section>
+                        <num>15 §</num>
+                        <subsection>
+                            <intro>
+                                <p>I besvärsskriften, som skall ställas till hovrätten, skall uppges</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>4 a)</num>
+                                <content>
+                                    <p>grunden för att tillstånd till fortsatt handläggning ska meddelas i ett mål eller ärende där det enligt 25 a kap. 5 § behövs tillstånd till fortsatt handläggning och skälen till att ändringssökanden anser att det finns grund för tillståndet, om inte dessa annars framgår av besvärsskriften,</p>
+                                </content>
+                            </paragraph>
+                            <hcontainer name="omission"/>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>25 a kap.</num>
+                    <heading>Om inledande av förberedelsen av ett besvärsärende vid hovrätten och om tillstånd till fortsatt handläggning</heading>
+                    <section>
+                        <num>5 §</num>
+                        <subsection>
+                            <content>
+                                <p>Tillstånd till fortsatt handläggning behövs i ett mål eller ärende, när tingsrättens avgörande överklagas genom besvär.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>En svarande i ett brottmål som har dömts till strängare straff än fängelse i åtta månader behöver dock inte tillstånd till fortsatt handläggning i någon del av målet, om besvären avser det brott som tillräknats honom eller henne eller straffet. När straffets stränghet bedöms beaktas inte böter eller andra straffrättsliga påföljder som har dömts ut utöver fängelse.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Åklagaren eller målsäganden behöver inte tillstånd till fortsatt handläggning i någon del av målet, om svaranden har dömts till strängare straff än fängelse i åtta månader och besvären avser det brott som tillräknats svaranden eller det straff som dömts ut.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>19 §</num>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Ett beslut genom vilket den som överklagat ett avgörande har meddelats tillstånd till fortsatt handläggning endast delvis, får överklagas i samband med att besvär anförs över hovrättens avgörande i övrigt. Om tillstånd till fortsatt handläggning inte har meddelats alla som överklagat i saken, får beslutet att inte meddela tillstånd överklagas på det sätt som anges i 30 kap. 1 §.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 oktober 2015.</p>
+                    <p>Om ett avgörande som överklagas har meddelats eller avkunnats i tingsrätten före ikraftträdandet av denna lag, tillämpas de bestämmelser som gällde vid ikraftträdandet av denna lag på besvärsskriften och tillstånd till fortsatt handläggning.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 246/2014</p>
+                        <p>LaUB 24/2014</p>
+                        <p>RSv 308/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 10 april 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister</role>
+                                <person refersTo="">Anna-Maja Henriksson</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

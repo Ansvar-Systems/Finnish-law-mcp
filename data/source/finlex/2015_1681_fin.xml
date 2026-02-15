@@ -1,0 +1,433 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1681/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1681"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1681/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1681"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1681/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1681/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1681/alkup/fin"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1681/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1681/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1681/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1681/2015</docNumber>
+                <docTitle>Laki eduskunnan virkamiehistä annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan </i>
+                        eduskunnan virkamiehistä annetun lain (<affectedDocument href="/akn/fi/act/statute/2003/1197">1197/2003</affectedDocument>) 40 §:n 2 momentti, 68 §:n 3 momentti ja 76 §:n 4 kohta,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         3 §:n 1 momentti, 4 §:n 2 momentin 1 kohta, 8 §:n 1 ja 3 momentti, 10 §:n 1 momentti, 13 §:n 2 momentti, 24 §, 29 §:n 1 kohta, 33 §:n 3 momentti sekä 43, 54, 58, 61, 63 ja 69 §,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 3 §:n 1 momentti laissa 608/2007, 4 §:n 2 momentin 1 kohta laissa 537/2011, 24 § laissa 193/2005 ja 29 §:n 1 kohta laissa 537/2011, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 26 a ja 26 b §, 38 §:ään, sellaisena kuin se on laissa 1190/2004, uusi 3 momentti sekä lakiin uusi 63 a ja 68 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num> 3 §</num>
+                    <subsection>
+                        <content>
+                            <p>
+                                Eduskunnan kansliatoimikunta (<i>kansliatoimikunta</i>) päättää eduskunnan kanslian virkojen sekä eduskunnan oikeusasiamiehen kanslian, valtiontalouden tarkastusviraston ja kansainvälisten suhteiden ja Euroopan unionin asioiden tutkimuslaitoksen valtion talousarviossa eriteltävien virkojen perustamisesta, muuttamisesta ja lakkauttamisesta. Eduskunnan oikeusasiamies päättää oikeusasiamiehen kanslian, valtiontalouden tarkastusviraston pääjohtaja tarkastusviraston ja kansainvälisten suhteiden ja Euroopan unionin asioiden tutkimuslaitoksen johtaja tutkimuslaitoksen muiden virkojen perustamisesta, muuttamisesta ja lakkauttamisesta.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num> 4 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Seuraavia virkoja sekä niitä virka-asemaltaan vastaavia tai ylempiä virkoja ei saa perustaa, lakkauttaa eikä niiden nimeä muuttaa, ellei kutakin virkaa ole valtion talousarviossa eritelty:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>eduskunnan kansliassa eduskunnan pääsihteerin, eduskunnan apulaispääsihteerin, eduskunnan hallintojohtajan, eduskunnan lainsäädäntöjohtajan, tieto- ja viestintäjohtajan, kansainvälisen osaston johtajan ja turvallisuusjohtajan virat;</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num> 8 §</num>
+                    <subsection>
+                        <content>
+                            <p>Virkamieheksi voidaan nimittää määräajaksi tai muutoin rajoitetuksi ajaksi, jos työn luonne, sijaisuus, avoinna olevaan virkaan kuuluvien tehtävien hoidon väliaikainen järjestäminen tai harjoittelu edellyttää määräaikaista virkasuhdetta. Virkamiestä ei tällöin nimitetä virkaan, vaan määräaikaiseen virkasuhteeseen. Nimittämisestä enintään vuoden mittaiseen määräaikaiseen virkasuhteeseen voidaan perustellusta syystä päättää ilman julkista hakumenettelyä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Päätöksestä, jolla virkamies nimitetään 1 tai 2 momentin perusteella määräajaksi, tulee ilmetä määräaikaisuuden peruste. Virkamies on nimitettävä koko määräaikaisuuden perusteena olevaksi ajaksi, jollei erityisestä syystä toisin päätetä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num> 10 §</num>
+                    <subsection>
+                        <content>
+                            <p>Eduskunnan pääsihteerin valitsemisesta säädetään eduskunnan työjärjestyksessä (40/2000). Edellä 4 §:n 2 momentin 1 kohdassa mainittuihin muihin valtion talousarviossa eriteltäviin eduskunnan kanslian virkoihin ja määräaikaisiin virkasuhteisiin sekä niihin muihin eduskunnan kanslian virkoihin ja määräaikaisiin virkasuhteisiin, joiden kelpoisuusvaatimuksena on ylempi korkeakoulututkinto, nimittää kansliatoimikunta. Muihin eduskunnan kanslian virkoihin ja määräaikaisiin virkasuhteisiin nimittää eduskunnan pääsihteeri.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num> 13 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Työnantajalle annetut henkilön taloudellista asemaa koskevat tiedot ovat salassa pidettäviä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num> 24 §</num>
+                    <subsection>
+                        <content>
+                            <p>Virkamies on velvollinen työnantajan pyynnöstä antamaan tälle virkasuhteen hoitamisen kannalta välttämättömiä terveydellisiä tietoja. Virkamies voidaan myös määrätä terveydentilansa toteamiseksi suoritettaviin tarkastuksiin ja tutkimuksiin, jos se on välttämätöntä tehtävän hoitamisen edellytysten selvittämiseksi. Oikeudesta velvoittaa virkamies toimittamaan huumausainetestiä koskeva todistus on voimassa, mitä yksityisyyden suojasta työelämässä annetun lain 8 §:ssä säädetään. Työnantajan määräämistä tarkastuksista ja tutkimuksista aiheutuvat kustannukset suoritetaan työnantajan varoista.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <chapter>
+                    <num>Luku 5</num>
+                    <heading>Virkavapaus</heading>
+                    <section>
+                        <num> 26 a §</num>
+                        <subsection>
+                            <content>
+                                <p>Virkamiehen on hakiessaan virkavapautta sairauden perusteella todistettava sairautensa sairausvakuutuslain (1224/2004) mukaisen päivärahan hakemista varten vahvistetun kaavan mukaisella lääkärintodistuksella, terveyskeskuksen terveydenhoitajan antamalla todistuksella taikka viraston osoittaman terveydenhoitajan tai sairaanhoitajan antamalla todistuksella. Jos sairaus kestää enintään viisi vuorokautta, virkamies voi todistaa sairautensa myös muulla työnantajan hyväksymällä luotettavalla tavalla. Jos sairaus kuitenkin kestää yli viisi vuorokautta, on se todistettava edellä tarkoitetulla lääkärintodistuksella.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Määrätyn ajanjakson tai alueen tai muulla tavoin rajoitettujen tapausten osalta voi kansliatoimikunta päättää lievennyksistä virkamiehen velvollisuuteen todistaa sairautensa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num> 26 b §</num>
+                        <subsection>
+                            <content>
+                                <p>Työstä vapaan saamisesta kunnallisen luottamustoimen hoitamista varten säädetään kuntalain (410/2015) 80 ja 81 §:ssä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num> 29 §</num>
+                        <subsection>
+                            <intro>
+                                <p>Sen lisäksi, mitä 30 §:ssä säädetään irtisanomisen perusteista, voidaan seuraavat virkamiehet irtisanoa, kun siihen on virkasuhteen luonne huomioon ottaen hyväksyttävä ja perusteltu syy:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>eduskunnan kanslia: eduskunnan pääsihteeri, eduskunnan apulaispääsihteeri, eduskunnan hallintojohtaja, eduskunnan lainsäädäntöjohtaja, tieto- ja viestintäjohtaja, kansainvälisen osaston johtaja, turvallisuusjohtaja sekä puhemiehen erityisavustaja ja varapuhemiehen erityisavustaja;</p>
+                                </content>
+                            </paragraph>
+                            <hcontainer name="omission"/>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num> 33 §</num>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <intro>
+                                <p>Jos virkamiehen palvelussuhde eduskunnan virastoon tai valtioon on jatkunut keskeytyksittä eikä muusta ole sovittu, työnantaja voi irtisanoa virkamiehen virkasuhteen päättymään aikaisintaan:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>yhden kuukauden kuluttua, jos palvelussuhde on jatkunut enintään yhden vuoden;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>kahden kuukauden kuluttua, jos palvelussuhde on jatkunut yli vuoden mutta enintään viisi vuotta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>kolmen kuukauden kuluttua, jos palvelussuhde on jatkunut yli viisi vuotta mutta enintään yhdeksän vuotta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>neljän kuukauden kuluttua, jos palvelussuhde on jatkunut yli yhdeksän vuotta mutta enintään 12 vuotta; </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>viiden kuukauden kuluttua, jos palvelussuhde on jatkunut yli 12 vuotta mutta enintään 15 vuotta; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6) </num>
+                                <content>
+                                    <p>kuuden kuukauden kuluttua, jos palvelussuhde on jatkunut yli 15 vuotta. </p>
+                                </content>
+                            </paragraph>
+                            <hcontainer name="omission"/>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>38 §</num>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Jos virkamiehelle on virkasuhteen perusteella myönnetty täysi työkyvyttömyyseläke toistaiseksi, virkasuhde lakkaa ilman irtisanomista tai muuta virkasuhteen päättymistä tarkoittavaa toimenpidettä sen kalenterikuukauden päättyessä, jonka aikana virkamiehen oikeus sairausajan palkan saamiseen on päättynyt tai, jos työnantaja on saanut työkyvyttömyyseläkepäätöksestä tiedon myöhemmin, tiedoksisaantikuukauden päättyessä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num> 43 §</num>
+                        <subsection>
+                            <content>
+                                <p>Jos virkamiehen irtisanomista koskeva päätös ei ole saanut lainvoimaa silloin, kun irtisanomisaika on kulunut loppuun, hänet on pidätettävä  virantoimituksesta,  jollei  korkein  hallinto-oikeus erityisestä syystä toisin määrää. Jos virkamies on pantu viralta tai virkasuhde on purettu, hänet on heti pidätettävä virantoimituksesta, vaikkei päätös ole saanut lainvoimaa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Virkamies voidaan lisäksi pidättää virantoimituksesta:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>rikossyytteen ja sen edellyttämien tutkimusten ajaksi, jos näillä voi olla vaikutusta virkamiehen edellytyksiin hoitaa tehtäväänsä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>jos virkamies kieltäytyy 24 §:ssä tarkoitetuista tarkastuksista tai tutkimuksista taikka jos hän kieltäytyy antamasta sanotun pykälän mukaisesti terveydentilaansa koskevia tietoja;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>jos virkamiehellä on sellainen sairaus, joka haittaa olennaisesti viran hoitoa; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>välittömästi irtisanomisen jälkeen, jos irtisanomisen perusteena oleva teko tai laiminlyönti osoittaa virkamiehen siinä määrin soveltumattomaksi tehtäväänsä, ettei virantoimitusta voida jatkaa, tai jos virantoimituksen jatkuminen irtisanomisajan voi vaarantaa turvallisuuden.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos virkamies pidätetään virantoimituksesta 2 momentin 4 kohdan nojalla, hänellä on kuitenkin oikeus irtisanomisajan palkkaa vastaavaan korvaukseen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Virantoimituksesta pidättämisestä päättäneen tulee seurata virantoimituksesta pidättämisen perusteita ja tarvittaessa olosuhteiden muututtua tehdä asiassa uusi päätös. Virantoimituksesta pidättäminen tulee ottaa viipymättä uudelleen ratkaistavaksi irtisanotun virkamiehen sitä vaatiessa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num> 54 §</num>
+                        <subsection>
+                            <content>
+                                <p>Eduskunnan kanslian on turvattava eduskunnan edellytykset suorittaa sille valtioelimenä kuuluvat tehtävät työtaistelutoimenpiteistä huolimatta. Jos työtaistelutoimenpide estää tai olennaisesti haittaa eduskunnan toimintaa valtioelimenä, tulee osapuolten siitä tiedon saatuaan viivytyksettä ryhtyä tarpeellisiin toimenpiteisiin sellaisen esteen tai haitan poistamiseksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num> 58 §</num>
+                        <subsection>
+                            <content>
+                                <p>Virkamiehen osallistumista virkamiesyhdistyksen päätöksen perusteella yhdistyksen toimeenpanemaan työtaistelutoimenpiteeseen ei ole pidettävä virkarikoksena eikä perusteena virkasuhteen purkamiseen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num> 61 §</num>
+                        <subsection>
+                            <content>
+                                <p>Työtaistelun piiriin kuuluvalle virkamiehelle ei suoriteta palkkausta ja muita taloudellisia etuja siltä ajalta, minkä työnteko on estynyt eduskuntaan tai sen virastoon kohdistetun työtaistelutoimenpiteen vuoksi. Niitä ei myöskään suoriteta työnantajan toimeenpaneman työsulun piiriin kuuluvalle virkamiehelle.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>15 luku</num>
+                    <heading>Muutoksenhaku virkasuhdeasioissa</heading>
+                    <section>
+                        <num>63 §</num>
+                        <subsection>
+                            <content>
+                                <p>Jos virkamies katsoo, ettei työnantaja ole antanut hänelle palvelussuhteesta johtuvaa taloudellista etuutta sellaisena kuin se olisi ollut suoritettava, hän saa vaatia päätökseen oikaisua työnantajalta. Oikaisuvaatimusta ei saa tehdä asiassa, joka kuuluu työtuomioistuimen toimivaltaan, jollei työtuomioistuin työtuomioistuimesta annetun lain (646/1974) 1 §:n 2 momentin nojalla ole päättänyt  olla  ratkaisematta  asiaa. Oikaisuvaatimus-menettelystä  säädetään  hallintolain (434/2003) 7 a luvussa. </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos 1 momentissa tarkoitettua oikaisuvaatimusta ei ole tehty kolmen vuoden kuluessa sen kalenterivuoden päättymisestä, jonka aikana suorituksen olisi pitänyt tapahtua, on oikeus etuuteen menetetty.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num> 63 a §</num>
+                        <subsection>
+                            <content>
+                                <p>Virkamies saa hakea muutosta itseään koskevaan työnantajan päätökseen valittamalla korkeimpaan hallinto-oikeuteen noudattaen, mitä hallintolainkäyttölaissa (586/1996) säädetään. Päätös tulee noudatettavaksi valituksesta huolimatta, jollei päätöksessä toisin määrätä tai korkein hallinto-oikeus toisin päätä. Valitus käsitellään kiireellisenä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Päätökseen ei saa hakea muutosta valittamalla, jos se koskee:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>virkaan tai virkasuhteeseen nimittämistä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>harkinnanvaraista virkavapautta; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>tehtävään määräämistä, johon virkamies on antanut suostumuksensa.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos 2 momentin 3 kohdassa tarkoitettu päätös merkitsee viran sijoituspaikkakunnan muuttumista, päätökseen saa kuitenkin hakea muutosta valittamalla. </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>68 a §</num>
+                        <subsection>
+                            <content>
+                                <p>Virkamiehen virkasuhteen katsotaan jatkuneen katkeamatta, jos virkamiehen irtisanominen tai virkasuhteen purkaminen on lainvoimaisen päätöksen mukaan tapahtunut ilman tässä laissa säädettyä perustetta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos virkasuhteen päättäminen on korkeimman hallinto-oikeuden lainvoimaisella päätöksellä todettu lainvastaiseksi, virkamiehelle maksetaan virkasuhteen lainvastaisen päättämisen johdosta saamatta jäänyt ansio.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Virkamies on velvollinen esittämään työnantajalle luotettavan selvityksen virkasuhteen lainvastaisen päättämisen johdosta saamatta jääneen ansion maksamista varten. Selvityksen tulee sisältää kaikki muut palvelussuhteessa, ammatinharjoittajana tai yrittäjänä saadut ansiotulot sekä sairausvakuutuslain mukaiset päivärahaetuudet siltä osin kuin työnantajalla olisi vastaavalta ajalta ollut oikeus kyseiseen etuuteen sairausvakuutuslain 7 luvun 4 §:n 1 momentin nojalla. </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>69 §</num>
+                        <subsection>
+                            <content>
+                                <p>Eduskunnan virkamies katsotaan eronneeksi aikaisemmasta virastaan siitä ajankohdasta, josta hänet on nimitetty toiseen eduskunnan virkaan tai nimitetty valtion virkamieslaissa (750/1994) tarkoitettuun valtion virkaan, jollei muualla laissa toisin säädetä. Jos uuteen virkaan liittyy koeaika, virkamies katsotaan eronneeksi aikaisemmasta eduskunnan virasta, kun koeaika on päättynyt, jollei uutta virkasuhdetta ole koeaikana purettu. Virkamies on virkavapaana aikaisemmasta eduskunnan virasta siihen saakka, kunnes koeaika uudessa valtion tai eduskunnan virassa päättyy.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Sen estämättä, mitä 1 momentissa säädetään, työantaja voi myöntää virkavapautta eduskunnan virkamiehelle, joka on nimitetty määräajaksi valtion virkamieslaissa tarkoitettuun valtion virkaan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>PNE 1/2015</p>
+                        <p>PeVM 6/2015 </p>
+                        <p>EK 22/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 30 päivänä joulukuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Liikenne- ja viestintäministeri</role>
+                                <person refersTo="">Anne Berner</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,142 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1228/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1228"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1228/alkup"/>
+                    <FRBRdate date="2006-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1228"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1228/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1228/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1228/alkup/swe"/>
+                    <FRBRdate date="2006-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1228/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1228/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1228/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="187"/>
+                    <finlex:date date="2006-12-27"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1228/2006</docNumber>
+                <docTitle>Lag om ändring av upphovsrättslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i upphovsrättslagen av den 8 juli 1961 (
+                        <affectedDocument href="/akn/fi/act/statute/1961/404">404/1961</affectedDocument>
+                        ) 19 § 4 mom., sådant det lyder i lag 446/1995, och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 19 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <crossHeading eId="crossHeading">Spridning av exemplar av verk</crossHeading>
+                <section>
+                    <num>19 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Upphovsmannen till ett verk har rätt till ersättning för utlåning av exemplar av verket till allmänheten, med undantag för alster av byggnadskonst, konsthantverk eller konstindustri. Ersättning kan påyrkas endast för utlåning som har ägt rum under de tre föregående kalenderåren. Rätt till ersättning saknas dock, om utlåningen äger rum vid bibliotek som betjänar forskning eller undervisningsverksamhet. Det som sägs i 41 § tillämpas på den rätt som avses i detta moment.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>19 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Ersättning för utlåning enligt 19 § 4 mom. från allmänna bibliotek betalas genom förmedling av en av undervisningsministeriet godkänd organisation som företräder ett flertal upphovsmän till från allmänna bibliotek utlånade verk.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Undervisningsministeriet godkänner på ansökan en organisation för viss tid, högst fem år. Den organisation som godkänns skall vara solvent och ha beredskap och förmåga att sköta de uppgifter som beslutet om godkännande avser. Organisationen skall årligen lämna undervisningsministeriet en utredning om de åtgärder den vidtagit med stöd av beslutet om godkännande. Organisationen eller, i den händelse upphovsmännens representativitet bara kan uppnås genom att flera organisationer godkänns, organisationerna skall företräda en betydande del av de upphovsmän till verk inom olika områden vars verk lånas från allmänna bibliotek. I beslutet om godkännande kan även tas in villkor som allmänt styr organisationens praktiska verksamhet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Undervisningsministeriets beslut skall iakttas även om det överklagas till dess ärendet avgjorts genom ett lagakraftvunnet beslut. Godkännandet kan återkallas om organisationen genom att bryta mot beslutet om godkännande och villkoren i beslutet gör sig skyldig till allvarliga eller väsentliga förseelser eller försummelser, och om de anmärkningar och varningar som getts organisationen inte lett till att bristerna i verksamheten blivit avhjälpta.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2007.</p>
+                    <p>Ersättning för utlåning från offentliga bibliotek kan påyrkas endast för utlåning som äger rum efter lagens ikraftträdande.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 126/2006</p>
+                        <p>KuUB 15/2006</p>
+                        <p>RSv 226/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 22 december 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kulturminister </role>
+                                <person refersTo="">Tanja Saarela</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

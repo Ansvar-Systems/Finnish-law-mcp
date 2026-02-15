@@ -1,0 +1,195 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/456/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/456"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/456/alkup"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="456"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/456/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/456/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/456/alkup/swe"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/456/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/456/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/456/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="83"/>
+                    <finlex:date date="2005-06-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>456/2005</docNumber>
+                <docTitle>Lag om ändring av arbetsavtalslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i arbetsavtalslagen av den 26 januari 2001 (
+                        <affectedDocument href="/akn/fi/act/statute/2001/55">55/2001</affectedDocument>
+                        ) 9 kap. 3 § 1 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 7 kap. en ny 12 § samt till 9 kap. nya 3 a och 3 b § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>7 kap.</num>
+                    <heading>Grunder för uppsägning av arbetsavtal</heading>
+                    <section>
+                        <num>12 §</num>
+                        <heading>Arbetstagarens rätt till sysselsättningsledighet</heading>
+                        <subsection>
+                            <content>
+                                <p>Har inte arbetsgivaren och arbetstagaren, sedan arbetsgivaren sagt upp arbetsavtalet på de grunder som avses i 7 kap. 3 och 4 eller 7 §, kommit överens om annat, har arbetstagaren rätt till ledighet med full lön för att under uppsägningstiden delta i utarbetandet av en sysselsättningsplan enligt lagen om offentlig arbetskraftsservice (1295/2002), i arbetskraftspolitisk vuxenutbildning, praktik och inlärning i arbetet enligt planen, eller i arbetssökande på eget eller myndigheternas initiativ och i arbetsintervjuer eller omplaceringsträning.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Sysselsättningsledighetens längd bestäms enligt uppsägningstidens längd så att sysselsättningsledigheten är</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>sammanlagt högst fem arbetsdagar, om uppsägningstiden är högst en månad,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>sammanlagt högst 10 arbetsdagar, om uppsägningstiden är längre än en månad men högst fyra månader,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>sammanlagt högst 20 arbetsdagar, om uppsägningstiden är längre än fyra månader.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Arbetstagaren skall innan han eller hon utnyttjar sysselsättningsledigheten eller en del av den underrätta arbetsgivaren om ledigheten och om grunden för ledigheten i så god tid som möjligt samt på begäran lägga fram en tillförlitlig utredning om grunden för varje ledighet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Utnyttjandet av sysselsättningsledigheten får inte åsamka arbetsgivaren betydande olägenhet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>9 kap.</num>
+                    <heading>Förfarandet vid upphävande av arbetsavtal</heading>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Arbetsgivarens upplysningsplikt</heading>
+                        <subsection>
+                            <content>
+                                <p>Innan arbetsgivaren säger upp ett arbetsavtal med stöd av 7 kap. 3 eller 7 §, skall arbetsgivaren i så god tid som möjligt informera den arbetstagare som blir uppsagd om grunderna för uppsägningen och om alternativen samt om den arbetskraftsservice som arbetskraftsbyrån erbjuder. Om arbetsavtalet sägs upp med stöd av 7 kap. 8 §, skall konkurs- eller dödsboet så snart som möjligt informera arbetstagarna om grunden för uppsägningen. I lagen om offentlig arbetskraftsservice finns bestämmelser om arbetskraftsmyndigheternas uppgift att kartlägga behövliga arbetskraftstjänster i samarbete med arbetsgivaren och personalens företrädare.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>3 a §</num>
+                        <heading>Arbetsgivarens meddelande till arbetskraftsbyrån</heading>
+                        <subsection>
+                            <content>
+                                <p>En arbetsgivare som av sådana ekonomiska orsaker eller produktionsorsaker som avses i 7 kap. 3, 4, 7 eller 8 § säger upp en arbetstagare som före uppsägningstidens utgång skulle ha en arbetshistoria på sammanlagt minst tre år hos samma arbetsgivare eller olika arbetsgivare, är skyldig att utan dröjsmål meddela arbetskraftsbyrån om uppsägningen. Samma skyldighet har en arbetsgivare till vilken arbetstagaren när anställningsförhållandet upphör har stått i anställningsförhållande för viss tid utan avbrott i minst tre år eller i anställningsförhållanden för viss tid i sammanlagt minst 36 månader under de senaste 42 månaderna.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Arbetsgivaren skall, med arbetstagarens samtycke, till meddelandet enligt 1 mom. foga tillgängliga uppgifter om arbetstagarens utbildning, arbetsuppgifter och arbetserfarenhet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>3 b §</num>
+                        <heading>Arbetsgivarens skyldighet att informera om sysselsättningsplan och tillägg för sysselsättningsplan</heading>
+                        <subsection>
+                            <content>
+                                <p>Arbetsgivaren är i de fall som avses i 3 a § skyldig att informera arbetstagaren om dennes rätt till en sysselsättningsplan enligt lagen om offentlig arbetskraftsservice samt till tillägg för sysselsättningsplan enligt lagen om utkomstskydd för arbetslösa (1290/2002).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juli 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 48/2005</p>
+                        <p>AjUB 6/2005</p>
+                        <p>RSv 79/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 23 juni 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Arbetsminister </role>
+                                <person refersTo="">Tarja Filatov</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,142 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/88/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/88"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/88/alkup"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="88"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/88/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/88/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/88/alkup/swe"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/88/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/88/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/88/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>88/2016</docNumber>
+                <docTitle>Lag om ändring av 9 och 33 § i lagen om handikappförmåner</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om handikappförmåner (
+                        <affectedDocument href="/akn/fi/act/statute/2007/570">570/2007</affectedDocument>
+                        ) 9 § 1 mom. 2 punkten och 4 b-punkten samt 33 § 3 mom.,
+                    </block>
+                    <block name="substitutions-originals">sådana de lyder, 9 § 1 mom. 2 punkten i lag 154/2011 samt 9 § 1 mom. 4 b-punkten och 33 § 3 mom. i lag 697/2012, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>9 §</num>
+                    <heading>Vårdbidrag för pensionstagare</heading>
+                    <subsection>
+                        <intro>
+                            <p>Rätt till vårdbidrag har en person som fyllt 16 år och som får</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>full invalidpension, arbetslivspension, ålderspension eller förtida ålderspension enligt de lagar som nämns i 3 § i lagen om pension för arbetstagare (395/2006), lagen om pension och anpassningsbidrag för riksdagsledamöter (329/1967) eller lagen om medlems av statsrådet rätt till pension och om familjepension efter honom (870/1977),</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>4 b)</num>
+                            <content>
+                                <p>enbart efterlevandepension på basis av de lagar som nämns i 2 eller 4 punkten eller 4 a-punkten och som uppnått åldern för ålderspension enligt 10 § i folkpensionslagen, eller</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>33 §</num>
+                    <heading>Indragning av en handikappförmån</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Handikappbidrag som beviljats en person som fyllt 16 år upphör från ingången av den månad då bidragstagaren beviljas pension eller förmån enligt 9 § 1 mom., eller, om bidragstagaren får sådan efterlevandepension som avses i 9 § 1 mom. 4 b-punkten, från utgången av den månad då han eller hon uppnår åldern för ålderspension enligt 10 § i folkpensionslagen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2017.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/16">RP 16/2015</ref>
+                        </p>
+                        <p>ShUB 5/2015</p>
+                        <p>RSv 37/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 januari 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister</role>
+                                <person refersTo="">Hanna Mäntylä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,116 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1386/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1386"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1386/alkup"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1386"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1386/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1386/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1386/alkup/fin"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1386/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1386/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1386/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="204"/>
+                    <finlex:date date="2007-12-31"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1386/2007</docNumber>
+                <docTitle>Laki huoltoa tai hoitoa koskevan päätöksen täytäntöönpanoa varten tapahtuvasta luovuttamisesta Islantiin, Norjaan, Ruotsiin tai Tanskaan annetun lain 13 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         huoltoa tai hoitoa koskevan päätöksen täytäntöönpanoa varten tapahtuvasta luovuttamisesta Islantiin, Norjaan, Ruotsiin tai Tanskaan 11 päivänä joulukuuta 1970 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1970/761">761/1970</affectedDocument>
+                        ) 13 § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>13 §</num>
+                    <subsection>
+                        <content>
+                            <p>Luovuttamispyyntöön suostuttaessa on asetettava ehto siitä, ettei luovutettavaan saa kohdistaa rikosoikeudellisia toimenpiteitä eikä häntä saada luovuttaa rikoksen johdosta edelleen. Ehdosta poikkeamiseen voidaan vastaanottaneen Pohjoismaan pyynnöstä myöntää lupa noudattaen soveltuvin osin, mitä rikoksen johdosta tapahtuvasta luovuttamisesta Suomen ja muiden Pohjoismaiden välillä annetussa laissa (1383/2007) säädetään. Jos pyyntö koskee edelleen luovuttamista muuhun valtioon kuin Pohjoismaahan, noudatetaan soveltuvin osin, mitä rikoksen johdosta tapahtuvasta luovuttamisesta Suomen ja muiden Euroopan unionin jäsenvaltioiden välillä annetussa laissa (1286/2003) ja rikoksen johdosta tapahtuvasta luovuttamisesta annetussa laissa (456/1970) säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/51">HE 51/2007</ref>
+                        </p>
+                        <p>LaVM 8/2007</p>
+                        <p>EV 101/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 21 päivänä joulukuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Tuija Brax</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

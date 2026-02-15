@@ -1,0 +1,148 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/59/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/59"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/59/alkup"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-01" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="59"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/59/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/59/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/59/alkup/swe"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-01" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/59/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/59/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/59/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2016-02-01" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>59/2016</docNumber>
+                <docTitle>Lag om ändring av betaltjänstlagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i betaltjänstlagen (<affectedDocument href="/akn/fi/act/statute/2010/290">290/2010</affectedDocument>) 85 § 1 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 1 § ett nytt 3 mom. och till lagen en ny 86 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Tillämpningsområde</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>
+                                Bestämmelser om betaltjänster där betalningstransaktioner genomförs med betalkort finns även i Europaparlamentets och rådets förordning (EU) 2015/751 om förmedlingsavgifter för kortbaserade betalningstransaktioner, nedan 
+                                <i>förordningen om förmedlingsavgifter för kortbaserade betalningstransaktioner</i>.
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>85 §</num>
+                    <heading>Meddelande av förbud i konsumentskyddsärenden</heading>
+                    <subsection>
+                        <content>
+                            <p>Om det är behövligt med hänsyn till konsumentskyddet, kan en näringsidkare förbjudas att fortsätta ett förfarande som riktar sig till konsumenter och som strider mot denna lag eller mot förordningen om förmedlingsavgifter för kortbaserade betalningstransaktioner, eller att upprepa ett sådant förfarande eller ett därmed jämförbart förfarande. Förbudet ska förenas med vite, om detta inte av särskilda skäl är obehövligt.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>86 a §</num>
+                    <heading>Avgörande av vissa tvister</heading>
+                    <subsection>
+                        <content>
+                            <p>Betalningsmottagarnas tjänsteleverantörer ska se till att enskilda meningsskiljaktigheter mellan betalningsmottagarna och deras tjänsteleverantörer om tillämpningen av förordningen om förmedlingsavgifter för kortbaserade betalningstransaktioner kan hänskjutas till ett oavhängigt organ som ger rekommendationer. Organets stadgar ska trygga en opartisk, sakkunnig, öppen, effektiv och rättvis behandling av meningsskiljaktigheter. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tjänsteleverantören ska meddela Finansinspektionen det i 1 mom. avsedda organets namn och kontaktuppgifter. På Finansinspektionens begäran ska tjänsteleverantören tillställa Finansinspektionen organets stadgar och annan för tillsynen över efterlevnaden av 1 mom. behövlig utredning enligt vad Finansinspektionen bestämmer.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 februari 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/115">RP 115/2015</ref>
+                        </p>
+                        <p>EkUB 14/2015</p>
+                        <p>RSv 70/2015</p>
+                        <p>Europaparlamentets och rådets förordning (EU) nr 751/2015 (32015R0751); EUT nr L 123, 19.5.2015, s. 1-15</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 januari 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommun- och reformminister</role>
+                                <person refersTo="">Anu Vehviläinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

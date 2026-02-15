@@ -1,0 +1,855 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/217/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/217"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/217/alkup"/>
+                    <FRBRdate date="2007-03-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="217"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/217/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/217/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/217/alkup/swe"/>
+                    <FRBRdate date="2007-03-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/217/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/217/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/217/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="36"/>
+                    <finlex:date date="2007-03-06"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>217/2007</docNumber>
+                <docTitle>Lag om taxitrafik</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut föreskrivs:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 kap.</num>
+                    <heading>Allmänna bestämmelser</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Lagens syfte</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Syftet med denna lag är att säkerställa tillgången på goda taxitrafiktjänster.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Definitioner</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <intro eId="chp_1__sec_2__subsec_1__intro">
+                                <p>I denna lag avses med</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>
+                                        <i>beställningstrafik</i>
+                                         trafik som förutsätter trafiktillstånd och som bedrivs på beställning på det sätt som beställaren bestämmer,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>
+                                        <i>köptrafik</i>
+                                         trafik som avses i 2 § 4 punkten i lagen om tillståndspliktig persontrafik på väg (343/1991),
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>
+                                        <i>taxitillstånd</i>
+                                         ett trafiktillstånd som beviljas på ansökan och som berättigar tillståndshavaren att i hela landet, med undantag för Åland, med en personbil eller med en personbil som uppfyller kraven på tillgänglighet bedriva beställningstrafik och köptrafik samt trafik som kompletterar buss-, spår-, vatten- eller flygtrafik och som kan utnyttjas allmänt,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>
+                                        <i>trafikansvarig</i>
+                                         en person som en juridisk person har föreslagit skall ansvara för trafiken och som godkänts av tillståndsmyndigheten och som i praktiken och varaktigt leder företagets trafikverksamhet och företräder företaget,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>
+                                        <i>stationsplats</i>
+                                         den plats eller kommun från vilken trafiken bedrivs eller kommer att bedrivas och dit en bil som använts i trafik förs efter att en körning eller ett uppdrag har avslutats,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>
+                                        <i>krav på fordonets tillgänglighet</i>
+                                         att utrustningen uppfyller kraven från rullstolsburna passagerare på det sätt 13 § i förordningen om fordons konstruktion och utrustning (1256/1992) föreskriver om invalidtaxi eller att rullstolsburna passagerare bekvämt och säkert kan komma in i och ut ur fordonet och få en bekväm och säker resa,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>
+                                        <i>landsbygdskommun</i>
+                                         en kommun där mindre än 60 procent av invånarna bor i tätorter och invånarantalet i den största tätorten understiger 15 000 och en kommun där minst 60 men under 90 procent av invånarna bor i tätorter och invånarantalet i den största tätorten understiger 4 000.
+                                    </p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <heading>Lagens tillämpningsområde</heading>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <content>
+                                <p>Denna lag tillämpas på yrkesmässig persontransport på väg med personbil.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_3__subsec_2">
+                            <content>
+                                <p>Med yrkesmässig persontransport avses transport av personer på väg med personbil mot vederlag i avsikt att idka näring eller förvärva utkomst eller annan inkomst såsom huvudsyssla eller bisyssla eller annars vid sidan om annan näring. Med yrkesmässig transport av personer jämställs transport mot vederlag, om transporten föregås av erbjudande om transport till allmänheten på offentlig plats.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_3__subsec_3">
+                            <content>
+                                <p>Lagens 18 § tillämpas på godstransport på väg med personbil.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 kap.</num>
+                    <heading>Taxitillstånd</heading>
+                    <section eId="chp_2__sec_4">
+                        <num>4 §</num>
+                        <heading>Tillståndspliktiga transporter</heading>
+                        <subsection eId="chp_2__sec_4__subsec_1">
+                            <content>
+                                <p>För yrkesmässig transport av personer krävs taxitillstånd.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_2">
+                            <intro eId="chp_2__sec_4__subsec_2__intro">
+                                <p>Utan taxitillstånd får</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_4__subsec_2__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>persontransporter utföras som en del av de kommunala social- och hälsovårdstjänsterna med en personbil som innehas av en kommun, en samkommun eller en sammanslutning där en kommun har bestämmande inflytande enligt 1 kap. 5 § i bokföringslagen (1336/1997) mot en fastslagen klientavgift som tas ut hos dem som får transporttjänster,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_4__subsec_2__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>persontransporter utföras med en personbil som innehas av en koncern eller en jämförbar sammanslutning, en kommun, en samkommun eller en sammanslutning där en kommun har bestämmande inflytande enligt 1 kap. 5 § i bokföringslagen, när transporterna är interna,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_4__subsec_2__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>persontransporter utföras med en personbil som innehas av ett tjänsteföretag, när transporten ansluter sig till hemservice eller turistservice och utgör en del av det servicepaket som företaget erbjuder,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_4__subsec_2__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>persontransporter utföras med museifordon.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Tillståndsmyndighet</heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <content>
+                                <p>Taxitillstånd beviljas på ansökan av länsstyrelsen i det län där den huvudsakliga stationsplatsen för trafiken finns.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Förutsättningar för beviljande av taxitillstånd</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <intro eId="chp_2__sec_6__subsec_1__intro">
+                                <p>Om inte något annat följer av 19 § beviljas taxitillstånd en sökande som</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>har rättshandlingsförmåga,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>har gott anseende,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>Fordonsförvaltningscentralen utfärdat ett intyg till över godkänt företagarprov för taxitrafik,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>har sammanlagt minst sex månaders erfarenhet som taxiförare eller av något annat serviceyrke,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>kan svara för sina ekonomiska förpliktelser, och</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>vars taxitillstånd inte har återkallats med stöd av 22 § 2 mom. under det senaste året.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_2">
+                            <content>
+                                <p>Fullgörande av den i 1 mom. 3 punkten nämnda företagarkursen krävs dock inte av den som har minst två års praktisk erfarenhet av ledande uppgifter i ett företag som bedriver persontrafik. Kursen krävs inte heller av den som har avlagt en yrkesexamen eller specialyrkesexamen i handel, förvaltning, teknik eller transport som ingår i en examensstruktur enligt lagen om yrkesinriktad vuxenutbildning (631/1998) eller någon annan motsvarande för branschen lämplig yrkesexamen eller specialyrkesexamen eller högskoleexamen. En person som avses i detta moment måste dock godkännas i det prov som avses i 8 § 2 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_3">
+                            <content>
+                                <p>Taxitillstånd beviljas en juridisk person som uppfyller kraven i 1 mom. 5 och 6 punkten och vars trafikansvarig uppfyller de villkor som anges i 1 mom. 1―6 punkten eller 1, 2, 5 och 6 punkten samt i 2 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_4">
+                            <content>
+                                <p>Om det bland de sökande inte finns någon som uppfyller kravet i 1 mom. 4 punkten, beviljas tillståndet en sökande som uppfyller de övriga kraven enligt denna paragraf.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Gott anseende</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <intro eId="chp_2__sec_7__subsec_1__intro">
+                                <p>Kravet på gott anseende enligt 6 § 1 mom. uppfylls inte av en person som ansöker om taxitillstånd eller en trafikansvarig, om personen</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_7__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>under de senaste tio åren har dömts till fängelsestraff på mer än två år,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>under de senaste fem åren har dömts till fängelsestraff på högst två år,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>under de senaste tre åren har dömts till bötesstraff för brott som riktats mot en kund eller för rattfylleri eller grovt rattfylleri i persontrafik som kräver trafiktillstånd eller för olovligt bedrivande av taxitrafik som är straffbart enligt 28 § 1 mom., eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_7__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>under de senaste två åren minst tre gånger har dömts till bötesstraff för brott mot bestämmelser och föreskrifter som gäller anställnings- eller löneförhållande, bokföring, skatter, skuldförhållande, iakttagande av arbets- och vilotider, trafikidkande eller trafik- eller fordonssäkerhet eller andra bestämmelser och föreskrifter som gäller utövande av yrke</p>
+                                </content>
+                            </paragraph>
+                            <wrapUp eId="chp_2__sec_7__subsec_1__wrapUp">
+                                <p>och gärningarna visar att personen är uppenbart olämplig att bedriva taxitrafik.</p>
+                            </wrapUp>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_8">
+                        <num>8 §</num>
+                        <heading>Företagarkurs</heading>
+                        <subsection eId="chp_2__sec_8__subsec_1">
+                            <content>
+                                <p>Syftet med företagarkursen är att ge den som avser att bedriva taxitrafik tillräcklig yrkeskompetens. Kursens omfattning är minst 120 timmar. Kursens undervisningsinnehåll skall omfatta åtminstone följande ämnesblock: den allmänna utvecklingen i taxibranschen och lagstiftningen om taxibranschen, kundservice, bilen som används i trafik och dess utrustning, bedrivande av trafik och ekonomi. Närmare bestämmelser om kursens undervisningsinnehåll och längd utfärdas genom förordning av kommunikationsministeriet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_8__subsec_2">
+                            <content>
+                                <p>Fordonsförvaltningscentralen svarar för det kursprov som visar att taxitrafiksföretagarna är yrkeskompetenta. Centralen kan anlita en utomstående expert för att utarbeta provuppgifterna och ordna provtillfället.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_8__subsec_3">
+                            <content>
+                                <p>Den som underkänns i provet kan söka rättelse hos Fordonsförvaltningscentralen. Rättelseyrkande skall framställas inom 30 dagar från delfåendet av beslutet. Bestämmelser om sökande av ändring i Fordonsförvaltningscentralens beslut finns i 27 §.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_9">
+                        <num>9 §</num>
+                        <heading>Förmåga att svara för ekonomiska förpliktelser</heading>
+                        <subsection eId="chp_2__sec_9__subsec_1">
+                            <content>
+                                <p>En sökande eller en trafikansvarig anses inte kunna svara för sina ekonomiska förpliktelser som sig bör i enlighet med 6 § 1 mom. 5 punkten, om han har försatts i konkurs eller om han med hänsyn till betalningsförmågan har mer än obetydliga förfallna skatteskulder eller mot honom riktade fordringar som indrivs genom utsökning.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_10">
+                        <num>10 §</num>
+                        <heading>Beviljande och ändring av taxitillstånd</heading>
+                        <subsection eId="chp_2__sec_10__subsec_1">
+                            <content>
+                                <p>Ett taxitillstånd gäller tills vidare. Stationsplatsen för trafiken samt den tidpunkt då trafiken senast skall inledas skall fastställas i taxitillståndet. Tillståndet kan vid behov förenas med villkor om fordonets tillgänglighet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_10__subsec_2">
+                            <content>
+                                <p>Ett taxitillstånd kan ändras på ansökan. Ett tillstånd kan också ändras temporärt.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_10__subsec_3">
+                            <content>
+                                <p>Om det finns fler sökande som uppfyller villkoren för erhållande av taxitillstånd enligt 6 § än det kan beviljas tillstånd, skall två tredjedelar av tillstånden beviljas genom att företräde ges enligt sökandens eller den trafikansvarigas arbetserfarenhet som taxiförare. Om det finns färre sådana sökande än det kan beviljas tillstånd, ges resten av tillstånden till sökande som har ett eller flera taxitillstånd. En tredjedel av tillstånden beviljas i första hand sökande som har ett eller flera taxitillstånd. Om det finns fler sådana sökande än det kan beviljas tillstånd, ges tillstånden till de sökande som har minsta antal tillstånd. Om det finns färre sökande som har ett eller flera taxitillstånd än det kan beviljas tillstånd, ges resten av tillstånden till sökande som har arbetat som taxiförare.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_11">
+                        <num>11 §</num>
+                        <heading>Förbud mot överlåtelse av taxitillstånd</heading>
+                        <subsection eId="chp_2__sec_11__subsec_1">
+                            <content>
+                                <p>Ett taxitillstånd får inte överlåtas för att användas av någon annan.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_11__subsec_2">
+                            <content>
+                                <p>Ett taxitillstånd får inte säljas eller annars överlåtas mot vederlag. Om ett taxitillstånd har beviljats en juridisk person och företaget i vars namn taxitillståndet är säljs eller annars överlåts mot vederlag, skall köparen eller mottagaren för att få fortsätta bedriva trafiken ansöka om ett nytt tillstånd inom sex månader från överlåtelsen. Tillståndsansökan avgörs med tillämpning av 6―10 §.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_11__subsec_3">
+                            <content>
+                                <p>Företaget anses ha överlåtits mot vederlag, om bestämmanderätten som grundar sig på delägarskap eller aktieinnehav i företaget har överförts.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 kap.</num>
+                    <heading>Bedrivande av taxitrafik</heading>
+                    <section eId="chp_3__sec_12">
+                        <num>12 §</num>
+                        <heading>Skyldighet att bedriva taxitrafik och avtal om jourskyldighet</heading>
+                        <subsection eId="chp_3__sec_12__subsec_1">
+                            <content>
+                                <p>Innehavaren av ett taxitillstånd är skyldig att bedriva trafik i enlighet med taxitillståndet. Tillståndshavaren kan med länsstyrelsens samtycke avbryta bedrivandet av trafik för högst tre månader, om tillståndshavarens sjukdom hindrar honom eller henne från att arbeta som taxiförare och om det inte finns andra förare tillgängliga. Länsstyrelsen kan på tillståndshavarens begäran av grundad anledning förlänga trafikavbrottet utöver tre månader, om tillståndshavaren är fortsatt sjuk och på grund av sin sjukdom eller av någon annan orsak inte förmått arbeta som taxiförare eller anställa en förare i sitt ställe.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_12__subsec_2">
+                            <content>
+                                <p>Innehavaren av ett taxitillstånd är skyldig att på begäran utföra en persontransport i enlighet med tillståndet inom sitt huvudsakliga verksamhetsområde, om inte transporten hindras av en annan körning, av att föraren har friskift, av överskridning av den tillåtna arbetstiden, av att tillståndshavaren eller en familjemedlem har insjuknat akut, av förarens sjukdom, av att fordonet har gått sönder eller av något annat särskilt skäl som kan jämföras med dessa. Dessutom har tillståndshavaren rätt att vägra utföra en transport i en situation där föraren i egenskap av arbetstagare kan vägra utföra arbete med hänvisning till arbetarskyddet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_12__subsec_3">
+                            <content>
+                                <p>I landsbygdskommuner skall innehavare av taxitillstånd som bedriver trafik komma överens om jourskyldigheten under sådana veckodagar och tider på dygnet då efterfrågan är liten.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_13">
+                        <num>13 §</num>
+                        <heading>Körschema</heading>
+                        <subsection eId="chp_3__sec_13__subsec_1">
+                            <content>
+                                <p>Syftet med körschemat är att säkerställa tillgången på taxitjänster under alla tider på dygnet och allmänt styra utbudet på ett sätt som variationerna i efterfrågan förutsätter.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_13__subsec_2">
+                            <content>
+                                <p>Länsstyrelsen fattar beslut om körschemat på förslag av innehavarna av taxitillstånden. Förslaget till körschema kan också göras av en sammanslutning som företräder innehavarna av taxitillstånd. När körschemat planeras och beslutet fattas skall tillståndshavarna behandlas opartiskt och så att deras rätt att bedriva trafik inte begränsas.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_13__subsec_3">
+                            <content>
+                                <p>Körschemat skall iakttas vid bedrivande av beställningstrafik. En tillståndshavare har rätt att köra också utanför ett körskift.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_14">
+                        <num>14 §</num>
+                        <heading>Samtrafik</heading>
+                        <subsection eId="chp_3__sec_14__subsec_1">
+                            <content>
+                                <p>I syfte att förbättra tillgången på taxitjänster kan länsstyrelsen på eget initiativ eller på initiativ av tillståndshavarna eller en sammanslutning som företräder innehavarna av taxitillstånd förenhetliga stationsplatserna för taxitillstånden i två eller flera kommuner så att stationsplatserna för samtliga taxitillstånd är antingen helt eller delvis gemensamma. Länsstyrelsen kan också bestämma att en beställningscentral skall förmedla beställningar också till sådana taxibilar som efter att de har fått en körning har avlägsnat sig från sin stationsplats och ännu inte hunnit återvända till den.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_15">
+                        <num>15 §</num>
+                        <heading>Beställningscentral</heading>
+                        <subsection eId="chp_3__sec_15__subsec_1">
+                            <content>
+                                <p>En beställningscentral skall göra en anmälan till länsstyrelsen innan verksamheten inleds.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_15__subsec_2">
+                            <intro eId="chp_3__sec_15__subsec_2__intro">
+                                <p>Anmälan skall innehålla en utredning över</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_15__subsec_2__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>hur förmedlingen av beställningar är ordnad dygnet runt,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_15__subsec_2__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>hur mottagandet av förbeställning har ordnats,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_15__subsec_2__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>de personer som svarar för beställningsförmedlingen.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_3__sec_15__subsec_3">
+                            <content>
+                                <p>Länsstyrelsen kan förbjuda inledandet av verksamheten eller verksamheten vid en beställningscentral, om beställningsförmedlingen inte har ordnats så att den fungerar dygnet runt eller om mottagande av förbeställningar inte har ordnats, om det har uppdagats allvarliga och väsentliga förseelser eller försummelser vid bedrivandet av beställningsförmedlingen, eller om beställningscentralen vägrar förmedla beställningar till innehavare av taxitillstånd som bedriver trafik utanför körskiftet, när detta är tekniskt möjligt. Förbudet gäller till dess bristerna har avhjälpts. Länsstyrelsen kan förena ett förbud med vite på det sätt som bestäms i viteslagen (1113/1990).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_16">
+                        <num>16 §</num>
+                        <heading>Taxitrafikens konsumentpriser</heading>
+                        <subsection eId="chp_3__sec_16__subsec_1">
+                            <content>
+                                <p>Det maximipris som i taxitrafiken tas ut hos konsumenterna består av en grundavgift, en avgift baserad på körsträckans längd och en väntetidsavgift. På natten och under veckoslut kan en förhöjd grundavgift tas ut. Vidare kan en förbeställningsavgift samt ett assistanstillägg, ett flygplatstillägg och ett godstransporttillägg tas ut.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_16__subsec_2">
+                            <content>
+                                <p>Maximipriserna, förbeställningsavgiften och de övriga tilläggsavgifterna skall vara kostnadsorienterade på så sätt att de innehåller en skälig vinst. Förändringarna i kostnadsnivån granskas med hjälp av ett kostnadsindex för taxitrafiken.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_16__subsec_3">
+                            <content>
+                                <p>Närmare bestämmelser om de maximpriser som tas ut hos konsumenterna i taxitrafiken och de tilläggsavgifter som tas ut utöver dem utfärdas genom förordning av statsrådet. Maximipriserna bestäms årligen genom en förordning av statsrådet som utfärdas senast den 30 juni.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_17">
+                        <num>17 §</num>
+                        <heading>Kvalitetsnormer för taxitjänster</heading>
+                        <subsection eId="chp_3__sec_17__subsec_1">
+                            <intro eId="chp_3__sec_17__subsec_1__intro">
+                                <p>Vid bedrivande av taxitrafik skall följande kvalitetsnormer iakttas:</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_17__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>fastställda körskift skall köras,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_17__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>den bil som används i trafik är lämplig i fråga om egenskaper, skick och utrustning,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_17__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>förarens klädsel är lämplig,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_17__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>föraren bemöter kunden korrekt och artigt och beaktar kundens särskilda behov,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_17__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>föraren väljer den väg som är mest förmånlig och ändamålsenlig för kunden, om kunden överlämnar valet av väg till föraren, eller kör den väg som kunden föreslår,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_17__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>föraren följer trafikreglerna samt iakttar även i övrigt av omständigheterna påkallad omsorg och försiktighet till förekommande av fara och skada,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_17__subsec_1__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>föraren iakttar tystnadsplikt till skydd för kundens personliga integritet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_17__subsec_1__para_8">
+                                <num>8)</num>
+                                <content>
+                                    <p>kunden har rätt att betala kontant eller med de vanligaste kredit- eller betalkorten,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_17__subsec_1__para_9">
+                                <num>9)</num>
+                                <content>
+                                    <p>den fastställda taxan eller de avtalade priserna följs,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_17__subsec_1__para_10">
+                                <num>10)</num>
+                                <content>
+                                    <p>föraren ser till att kunden säkert kan ta sig in i och ut ur bilen och erbjuder den hjälp som kunden behöver,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_17__subsec_1__para_11">
+                                <num>11)</num>
+                                <content>
+                                    <p>föraren erbjuder hjälp och hjälper vid in- och utlastning av bagage.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_3__sec_17__subsec_2">
+                            <intro eId="chp_3__sec_17__subsec_2__intro">
+                                <p>Närmare bestämmelser om innehållet i kvalitetsnormerna kan utfärdas genom förordning av kommunikationsministeriet. Bestämmelserna i förordningen kan särskilt gälla</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_17__subsec_2__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>egenskaper, skick och utrustning hos den bil som används i trafiken,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_17__subsec_2__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>valet av färdväg,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_17__subsec_2__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>beskrivning av kundens särskilda behov,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_17__subsec_2__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>tryggande av kundens säkerhet.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_18">
+                        <num>18 §</num>
+                        <heading>Godstransport</heading>
+                        <subsection eId="chp_3__sec_18__subsec_1">
+                            <content>
+                                <p>Utöver vad som är tillåtet enligt lagen om kommersiell godstransport på väg (693/2006) får i beställningstrafik som bedrivs med stöd av taxitillstånd transporteras godsförsändelser under 100 kg.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 kap.</num>
+                    <heading>Maximiantal taxitillstånd och uppföljning</heading>
+                    <section eId="chp_4__sec_19">
+                        <num>19 §</num>
+                        <heading>Maximiantal taxitillstånd</heading>
+                        <subsection eId="chp_4__sec_19__subsec_1">
+                            <content>
+                                <p>Länsstyrelsen fastställer årligen maximiantalet taxitillstånd per kommun. I beslutet om maximiantal bestäms också hur många tillstånd som skall förenas med krav på fordonets tillgänglighet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_19__subsec_2">
+                            <content>
+                                <p>Länsstyrelsen skall fastställa maximiantalen tillstånd till en sådan nivå att de inte heller vid tidpunkter när efterfrågan är som störst begränsar tillgången på taxitjänster eller försämrar kvaliteten på tjänsterna. Vid fastställandet av maximiantalen använder länsstyrelsen de uppgifter som den har skaffat och erhållit genom uppföljningen av efterfrågan och tillgång enligt 20 §. Länsstyrelsen kan också utnyttja uppgifterna för ett större område än för en kommun, om det behövs med tanke på tillgången på taxitjänster.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_20">
+                        <num>20 §</num>
+                        <heading>Uppföljning av efterfrågan och tillgång på taxitjänster</heading>
+                        <subsection eId="chp_4__sec_20__subsec_1">
+                            <content>
+                                <p>Länsstyrelsen har till uppgift att inom sitt område följa förändringar i efterfrågan och tillgång på taxitjänster samt hur lönsamheten i branschen utvecklas. Länsstyrelsen skall också följa responsen från konsumenterna i fråga om tillgång och kvalitet samt huruvida tillgången är tillräcklig med tanke på näringslivets och kommunernas transportbehov.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_20__subsec_2">
+                            <content>
+                                <p>Länsstyrelsen skall samla in och följa upp åtminstone följande uppgifter som inverkar på efterfrågan: befolkningsutvecklingen, invånarnas inkomstnivå, tätortsgrad, självförsörjningsgrad i fråga om arbetsplatser, gatu- och vägnätets längd, antalet vårdplatser, antalet serveringstillstånd, antalet passagerarterminaler samt kollektivtrafikens volym. Länsstyrelsen skall samla in och följa upp åtminstone följande uppgifter som inverkar på tillgången: antalet gällande taxitillstånd, taxitrafikens omsättning och körningar per bil uttryckt i kilometer, taxiföretagens storlek samt antalet beställningar som beställningscentralerna har förmedlat och inte förmedlat.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_5">
+                    <num>5 kap.</num>
+                    <heading>Tillsyn och återkallande av taxitillstånd</heading>
+                    <section eId="chp_5__sec_21">
+                        <num>21 §</num>
+                        <heading>Länsstyrelsens tillsynsuppgifter</heading>
+                        <subsection eId="chp_5__sec_21__subsec_1">
+                            <content>
+                                <p>Länsstyrelsen skall regelbundet och minst en gång om året kontrollera att en innehavare av ett taxitillstånd och den som är trafikansvarig hos en juridisk person fortfarande uppfyller de villkor för beviljandet av tillstånd som föreskrivs i 6 § 1 mom. 2 och 5 punkten.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_21__subsec_2">
+                            <content>
+                                <p>Länsstyrelsen skall minst en gång om året kontrollera att innehavaren av taxitillståndet bedriver trafik.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_22">
+                        <num>22 §</num>
+                        <heading>Återkallande av taxitillstånd</heading>
+                        <subsection eId="chp_5__sec_22__subsec_1">
+                            <content>
+                                <p>Länsstyrelsen skall återkalla ett taxitillstånd för viss tid eller helt och hållet, om tillståndshavaren inte längre uppfyller förutsättningarna för erhållande av tillstånd.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_22__subsec_2">
+                            <content>
+                                <p>Länsstyrelsen skall också återkalla ett taxitillstånd, om det vid bedrivandet av trafiken har uppdagats allvarliga och betydande förseelser eller försummelser som hänför sig till överlåtelse av taxitillståndet, tillgången på service, prissättningen eller prisinformationens korrekthet, brott mot tystnadsplikten eller behandling av kundresponsen eller någon med dessa jämförbar underlåtenhet att iaktta de kvalitetsnormer som föreskrivs i 17 §.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_22__subsec_3">
+                            <content>
+                                <p>Länsstyrelsen skall återkalla ett taxitillstånd, om trafiken inte har inletts senast vid den tidpunkt som fastställts i taxitillståndet eller om bedrivandet av trafik har upphört eller om tillståndshavaren anhåller om att tillståndet skall återkallas.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_22__subsec_4">
+                            <content>
+                                <p>En i 11 § 2 mom. avsedd överlåtares tillstånd skall återkallas, när beslutet om beviljande av tillstånd till förvärvaren har vunnit laga kraft, eller om det framgår att ansökan om tillstånd inte har gjorts inom den föreskrivna tiden på sex månader.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_22__subsec_5">
+                            <content>
+                                <p>Länsstyrelsen skall i de fall som avses i 1 och 2 mom. i stället för att återkalla taxitillståndet ge tillståndshavaren en varning, om ett återkallande av tillståndet skulle vara oskäligt och de brister, förseelser eller försummelser som har framkommit kan rättas till eller är ringa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_22__subsec_6">
+                            <content>
+                                <p>Om grunden för återkallande av tillståndet eller varningen är sådan att den kan rättas till, skall länsstyrelsen innan tillståndet återkallas eller varningen ges bereda tillståndshavaren möjlighet att inom en utsatt tid rätta till bristen eller försummelsen. Den utsatta tiden får inte vara kortare än tre månader.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_6">
+                    <num>6 kap.</num>
+                    <heading>Särskilda bestämmelser</heading>
+                    <section eId="chp_6__sec_23">
+                        <num>23 §</num>
+                        <heading>Dödsbons och konkursbons rätt att fortsätta trafiken</heading>
+                        <subsection eId="chp_6__sec_23__subsec_1">
+                            <content>
+                                <p>Avlider innehavaren av ett taxitillstånd får dödsboet fortsätta trafiken under högst 18 månader från dödsdagen, om det inom tre månader från dödsdagen gör en anmälan till tillståndsmyndigheten för godkännande av en person som ansvarar för tillståndshavarens förpliktelser och uppfyller de krav som föreskrivs i 6 § 1 mom. 1, 2, 5 och 6 punkten.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_23__subsec_2">
+                            <content>
+                                <p>Om innehavaren av ett taxitillstånd försätts i konkurs får konkursboet fortsätta trafiken i högst tre månader räknat från konkursens början. Konkursboet skall utan dröjsmål underrätta tillståndsmyndigheten om det vill utnyttja denna rätt. Under denna tid svarar de som förvaltar konkursboet för tillståndshavarens förpliktelser.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_24">
+                        <num>24 §</num>
+                        <heading>Tystnadsplikt</heading>
+                        <subsection eId="chp_6__sec_24__subsec_1">
+                            <content>
+                                <p>Innehavaren av ett taxitillstånd eller hans anställda får inte obehörigen röja eller i syfte att skaffa sig själv eller någon annan fördel eller i syfte att skada någon annan använda vad han i sin verksamhet fått veta om en kunds affärs- eller yrkeshemligheter eller omständigheter som hör till privatlivet, om inte något annat bestäms i lag. Tystnadsplikten gäller efter det att bedrivandet av trafiken eller tjänstgöringen som förare har upphört.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_25">
+                        <num>25 §</num>
+                        <heading>Utlämnande av uppgifter till länsstyrelsen</heading>
+                        <subsection eId="chp_6__sec_25__subsec_1">
+                            <content>
+                                <p>Innehavaren av ett taxitillstånd är skyldig att utan hinder av affärs- eller yrkeshemlighet på begäran av den länsstyrelse som avses i 5 § till länsstyrelsen lämna ut uppgifter om sin årliga omsättning och antalet körda kilometer samt uppgifter som behövs för beviljande och återkallande av trafiktillstånd och tillsynen över trafiken.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_25__subsec_2">
+                            <content>
+                                <p>En beställningscentral är skyldig att på begäran av länsstyrelsen samla in och utan hinder av yrkes- eller affärshemlighet till länsstyrelsen lämna ut uppgifter om antalet förmedlade beställningar och beställningar som inte förmedlats samt för tillsynen nödvändiga uppgifter om de innehavare av taxitillstånd som hör till beställningscentralen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_25__subsec_3">
+                            <content>
+                                <p>De uppgifter som avses i 1 och 2 mom. skall lämnas ut utan dröjsmål, i den form som myndigheten begär och avgiftsfritt. Om uppgifterna inte lämnas ut på begäran och inte trots uppmaning inom en skälig, minst en månad lång tid, kan länsstyrelsen ålägga innehavaren av taxitillståndet eller beställningscentralen att rätta till sin försummelse. Länsstyrelsen kan förena ett åläggande med vite på det sätt som bestäms i viteslagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_26">
+                        <num>26 §</num>
+                        <heading>Medförande av taxitillstånd och avbrytande av körning</heading>
+                        <subsection eId="chp_6__sec_26__subsec_1">
+                            <content>
+                                <p>Taxitillståndet i original skall medföras i bilen under bedrivandet av trafik. Föraren skall på begäran visa upp det för en polis-, tull- eller gränsbevakningsman.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_26__subsec_2">
+                            <content>
+                                <p>En polis-, tull- eller gränsbevakningsman kan avbryta transporten, om föraren inte kan visa upp tillståndet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_26__subsec_3">
+                            <content>
+                                <p>En tjänsteman som avbryter en transport har rätt att omhänderta bilens registerutdrag och registreringskyltar. De skall återlämnas när det inte längre finns grund för avbrytandet av transporten.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_27">
+                        <num>27 §</num>
+                        <heading>Sökande av ändring</heading>
+                        <subsection eId="chp_6__sec_27__subsec_1">
+                            <content>
+                                <p>Ändring i ett beslut som fattats med stöd av denna lag får sökas genom besvär på det sätt som bestäms i förvaltningsprocesslagen (586/1996). Beslutet skall iakttas trots att ändring har sökts, om inte besvärsmyndigheten beslutar något annat.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_28">
+                        <num>28 §</num>
+                        <heading>Straffbestämmelser</heading>
+                        <subsection eId="chp_6__sec_28__subsec_1">
+                            <content>
+                                <p>
+                                    Den som bedriver yrkesmässig persontrafik utan sådant taxitillstånd som förutsätts i denna lag, skall för 
+                                    <i>olovligt bedrivande av taxitrafik</i>
+                                     dömas till böter eller fängelse i högst sex månader.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_28__subsec_2">
+                            <content>
+                                <p>
+                                    Den som överlåter ett taxitillstånd för att användas av någon annan eller försummar skyldigheten att medföra eller visa upp taxitillståndet, skall för 
+                                    <i>trafiktillståndsförseelse</i>
+                                     dömas till böter.
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_29">
+                        <num>29 §</num>
+                        <heading>Uppgifter i personregister</heading>
+                        <subsection eId="chp_6__sec_29__subsec_1">
+                            <content>
+                                <p>Länsstyrelsen har rätt att utan hinder av sekretessbestämmelserna få uppgifter ur straffregistret, bötesregistret, fordonstrafikregistret, utsökningsregistret och skatteförvaltningens datasystem om de som ansöker om taxitillstånd, innehavare av taxitillstånd och trafikansvariga för behandlingen av ärenden som gäller beviljande och återkallande av taxitillstånd. Länsstyrelsen har dessutom rätt att få uppgifter ur dessa register för de kontroller som nämns i 21 § 1 mom.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_7">
+                    <num>7 kap.</num>
+                    <heading>Ikraftträdande- och övergångsbestämmelser</heading>
+                    <section eId="chp_7__sec_30">
+                        <num>30 §</num>
+                        <heading>Ikraftträdande</heading>
+                        <subsection eId="chp_7__sec_30__subsec_1">
+                            <content>
+                                <p>Denna lag träder i kraft den 1 augusti 2007.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_31">
+                        <num>31 §</num>
+                        <heading>Övergångsbestämmelser</heading>
+                        <subsection eId="chp_7__sec_31__subsec_1">
+                            <content>
+                                <p>Om taxitillstånd för första gången har beviljats en juridisk person före den 1 mars 1991, tillämpas på försäljning av tillståndet eller annan överlåtelse mot vederlag 11 § 2 mom. och på återkallande av tillstånd 22 § 4 mom. dock först från och med den 1 augusti 2017.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_31__subsec_2">
+                            <content>
+                                <p>Taxitillstånd som har beviljats innan denna lag träder i kraft gäller som sådana under den tid som anges i tillståndet. Därefter förnyas de på ansökan så att de gäller tills vidare. Den som har rätt att bedriva taxitrafik när denna lag träder i kraft anses uppfylla de krav på yrkeskompetens som anges i denna lag.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_31__subsec_3">
+                            <content>
+                                <p>Åren 2007―2011 beviljas taxitillstånd i första hand sökande som har erfarenhet som taxiförare.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_31__subsec_4">
+                            <content>
+                                <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft. Beredningen av de i 19 § nämnda maximiantalen skall skötas så att länsstyrelsen kan fastställa maximiantalet taxitillstånd så fort som möjligt efter det att lagen har trätt i kraft.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 38/2006</p>
+                        <p>KoUB 34/2006</p>
+                        <p>RSv 263/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 2 mars 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommunikationsminister </role>
+                                <person refersTo="">Susanna Huovinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

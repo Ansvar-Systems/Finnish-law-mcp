@@ -1,0 +1,242 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/678/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/678"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/678/alkup"/>
+                    <FRBRdate date="2005-08-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="678"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/678/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/678/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/678/alkup/fin"/>
+                    <FRBRdate date="2005-08-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/678/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/678/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/678/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="117"/>
+                    <finlex:date date="2005-09-06"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>678/2005</docNumber>
+                <docTitle>Laki työntekijäin eläkelain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         8 päivänä heinäkuuta 1961 annetun työntekijäin eläkelain (
+                        <affectedDocument href="/akn/fi/act/statute/1961/395">395/1961</affectedDocument>
+                        ) 19 c §:n 3 momentti, 19 e §:n 3 momentti, 20 ja 21 §, 21 a §:n 1―3, 5 ja 8 momentti, 21 b §:n 2 momentti, 21 c ja 21 d § sekä 22 §:n 1 ja 2 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 19 c §:n 3 momentti ja 19 e §:n 3 momentti laissa 885/2004, 20 § laissa 1319/2002, 21 § laeissa 878/1994, 1331/1999, 1169/2003 ja 1332/2003, 21 a §:n 1―3 momentti, 21 b §:n 2 momentti, 21 c ja 21 d § mainitussa laissa 878/1994, 21 a §:n 5 ja 8 momentti laissa 375/2001, 22 §:n 1 momentti laissa 1263/1999 ja 22 §:n 2 momentti laissa 707/1965, seuraavasti:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>19 c §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos työntekijä on väliaikaisesti saanut Kansaneläkelaitoksen maksamaa eläkettä kansaneläkelain 45 §:n 2 momentin mukaan samalta ajalta, jolta hänelle myönnetään 20 §:ssä tarkoitetun valituksen johdosta eläkettä takautuvasti, eläkelaitoksen on suoritettava takautuva eläke Kansaneläkelaitokselle siltä osin kuin se vastaa Kansaneläkelaitoksen samalta ajalta liikaa maksaman eläkkeen määrää. Samoin voidaan menetellä, jos eläkelaitos jatkaa 20 §:ssä tarkoitetun valituksen johdosta myönnettyä kuntoutustukea takautuvasti, tai silloin, kun työntekijä on saanut kansaneläkelain mukaista eläkettä samalta ajalta, jolta eläkelaitos 21 d §:n 2 momentin mukaisesti oikaisee aikaisemman päätöksen tai muutoin tarkistaa myönnetyn eläkkeen määrän tai oikaisupäätöksen jälkeen myöntää kuntoutustuelle jatkoa takautuvasti.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>19 e §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ennakkopäätökseen saa hakea muutosta niin kuin 20 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>20 §</num>
+                    <subsection>
+                        <content>
+                            <p>Muutoksenhakua varten on työeläkeasioiden muutoksenhakulautakunta ja vakuutusoikeus. Työeläkeasioiden muutoksenhakulautakunnasta ja sen jäsenistä säädetään laissa työeläkeasioiden muutoksenhakulautakunnasta (677/2005) ja vakuutusoikeudesta vakuutusoikeuslaissa (132/2003). Valtioneuvosto nimittää sosiaali- ja terveysministeriön esityksestä enintään viideksi vuodeksi kerrallaan työeläkeasioiden muutoksenhakulautakuntaan työelämän ja työmarkkinoiden olosuhteita tuntevia jäseniä, joista neljä on määrättävä työnantajayhdistysten edustavimpien keskusjärjestöjen ja neljä työntekijäin ja toimihenkilöiden ammattiyhdistysten edustavimpien keskusjärjestöjen ehdotuksesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Asianosainen, joka ei tyydy eläkelaitoksen eläkettä tai etuutta taikka työnantajalle tässä laissa säädettyjä velvollisuuksia koskevaan päätökseen, saa hakea siihen muutosta työeläkeasioiden muutoksenhakulautakunnalta kirjallisella valituksella viimeistään 30 päivänä sen päivän jälkeen, jona asianosainen on saanut tiedon päätöksestä. Sama valitusmenettely koskee päätöstä, jonka Eläketurvakeskus on tässä laissa säädettyjen tehtäviensä mukaisesti antanut asianosaiselle tai eläkelaitokselle.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Asianosainen, joka ei tyydy työeläkeasioiden muutoksenhakulautakunnan 2 momentissa tarkoitetussa asiassa antamaan päätökseen, saa hakea siihen muutosta vakuutusoikeudelta kirjallisella valituksella 2 momentissa säädetyssä määräajassa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>21 §</num>
+                    <subsection>
+                        <content>
+                            <p>Työeläkeasioiden muutoksenhakulautakunnan ja vakuutusoikeuden päätös annetaan tiedoksi lähettämällä se postitse kirjeellä vastaanottajalle hänen ilmoittamaansa postiosoitteeseen. Jos valituksen yhteydessä ei muuta näytetä, valittajan katsotaan saaneen päätöksestä tiedon seitsemäntenä päivänä sen päivän jälkeen, jolloin päätös on postitettu valittajan ilmoittamaan osoitteeseen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Yksityisten alojen eläkelaitoksen viimeisenä eläkelaitoksena antamaan päätösyhdistelmään haetaan muutosta ja valitusasia käsitellään siten kuin 20 §:n 2 ja 3 momentissa, tämän pykälän 1 momentissa ja 21 a §:n 5―8 momentissa säädetään. Julkisten alojen eläkelaitoksen viimeisenä eläkelaitoksena antamaan päätösyhdistelmään haetaan muutosta ja valitusasia käsitellään siten kuin 10 d §:n 2 momentissa tarkoitetuissa julkisten alojen eläkelaeissa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Asianosainen, joka on ollut vakuutettuna kahdessa tai useammassa EU-maassa ja joka ei tyydy eläkelaitoksen tämän lain nojalla antamaan päätökseen, voi hakea siihen muutosta saatuaan sosiaaliturvajärjestelmien soveltamisesta yhteisön alueella liikkuviin palkattuihin työntekijöihin ja heidän perheenjäseniinsä annetun asetuksen (ETY) N:o 1408/71 täytäntöönpanomenettelystä annetun neuvoston asetuksen (ETY) N:o 574/72 48 artiklassa tarkoitetun yhteenvedon, johon on liitetty kaikkien EU-maiden päätökset. Työkyvyttömyyseläkkeen saamisen edellytyksiä koskevaan eläkelaitoksen päätökseen haetaan kuitenkin muutosta siten kuin tässä laissa säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>21 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Asianosaisen on toimitettava 20 §:n 2 ja 3 momentissa tarkoitettu valituskirjelmänsä 20 §:n 2 momentissa säädetyssä määräajassa asianomaiselle eläkelaitokselle tai Eläketurvakeskukselle, jos se on ratkaissut asian ensimmäisenä päätöksentekoasteena.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos eläkelaitos tai Eläketurvakeskus hyväksyy kaikilta osin sille toimitetussa valituksessa esitetyt vaatimukset, sen on annettava asiasta oikaisupäätös. Oikaisupäätökseen saa hakea muutosta siten kuin 20 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos eläkelaitos tai Eläketurvakeskus ei voi oikaista valituksen kohteena olevaa päätöstä 2 momentissa mainituin tavoin, sen on 30 päivän kuluessa valitusajan päättymisestä toimitettava valituskirjelmä ja lausuntonsa työeläkeasioiden muutoksenhakulautakunnalle tai, jos valitus koskee työeläkeasioiden muutoksenhakulautakunnan päätöstä, vakuutusoikeudelle käsiteltäväksi. Eläkelaitos tai Eläketurvakeskus voi tällöin väliaikaisella päätöksellä oikaista aikaisemman päätöksensä siltä osin kuin se hyväksyy valituksessa esitetyn vaatimuksen. Jos valitus on toimitettu muutoksenhakuelimelle, eläkelaitoksen tai Eläketurvakeskuksen on ilmoitettava sille heti väliaikaisesta päätöksestä. Väliaikaiseen päätökseen ei saa hakea muutosta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Yksityisten alojen eläkelaitoksen viimeisenä eläkelaitoksena antamaa päätösyhdistelmää koskeva valituskirjelmä on toimitettava tälle eläkelaitokselle 20 §:n 2 momentissa säädetyssä määräajassa. Sen on pyydettävä valituksesta lausunto julkisten alojen eläkelaitoksilta siltä osin kuin valitus koskee näiden hoitamaa eläketurvaa. Lausuntoa ei kuitenkaan pyydetä, jos päätösyhdistelmästä tehty valitus koskee yksinomaan työkyvyn arviointia.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Kun päätösyhdistelmää koskeva valitusasia käsitellään työeläkeasioiden muutoksenhakulautakunnassa tai vakuutusoikeudessa tai kun on kysymys yksityisten alojen eläkelakien mukaisen lainvoimaisen päätösyhdistelmän poistamisesta tai oikaisemisesta vakuutetun eduksi taikka kun päätösyhdistelmässä on 21 e §:ssä tarkoitettu virhe, sovelletaan tämän lain säännöksiä, jollei vakuutusoikeuslaissa toisin säädetä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>21 b §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Eläkelaitoksen, Eläketurvakeskuksen ja työeläkeasioiden muutoksenhakulautakunnan lainvoimainen päätös saadaan panna täytäntöön niin kuin riita-asiassa annettu lainvoimainen tuomio.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>21 c §</num>
+                    <subsection>
+                        <content>
+                            <p>Jos työeläkeasioiden muutoksenhakulautakunnalle tai vakuutusoikeudelle annettava valitus on saapunut asianomaiselle eläkelaitokselle tai Eläketurvakeskukselle taikka asianomaiselle muutoksenhakuelimelle 20 tai 22 §:ssä säädetyn määräajan jälkeen, asianomainen muutoksenhakuelin voi tästä huolimatta ottaa valituksen tutkittavakseen, jos myöhästymiseen on ollut painavia syitä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>21 d §</num>
+                    <subsection>
+                        <content>
+                            <p>Jos 20 §:n 2 tai 3 momentissa tai 21 §:n 2 momentissa tarkoitetussa asiassa annettu lainvoimainen päätös perustuu väärään tai puutteelliseen selvitykseen taikka on ilmeisesti lain vastainen, vakuutusoikeus voi eläkelaitoksen esityksestä tai asianosaisen hakemuksesta, varattuaan muille asianosaisille tilaisuuden tulla kuulluksi, poistaa päätöksen ja määrätä asian uudelleen käsiteltäväksi. Tehtyään edellä sanotun esityksen eläkelaitos voi, kunnes asia on uudelleen ratkaistu, väliaikaisesti keskeyttää eläkkeen maksamisen tai maksaa sen esityksensä mukaisesti.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos asiassa, jossa on kysymys evätyn edun myöntämisestä tai myönnetyn edun lisäämisestä, ilmenee uutta selvitystä, eläkelaitoksen on tutkittava asia uudelleen. Eläkelaitos voi aikaisemman lainvoimaisen päätöksen estämättä myöntää evätyn edun tai myöntää edun aikaisempaa suurempana. Myös työeläkeasioiden muutoksenhakulautakunta ja vakuutusoikeus voivat menetellä vastaavasti muutoksenhakuasiaa käsitellessään. Päätökseen saa hakea muutosta siten kuin 20 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>22 §</num>
+                    <subsection>
+                        <content>
+                            <p>Joka katsoo, että eläkelaitoksen tai Eläketurvakeskuksen tämän lain perusteella määräämä maksuunpano on ollut lain tai sopimuksen vastainen, saa tehdä siitä kirjallisen perustevalituksen työeläkeasioiden muutoksenhakulautakunnalle viimeistään kahden vuoden kuluessa sitä seuraavan vuoden alusta lukien, jona saaminen on määrätty tai maksuunpantu. Sama koskee maksuunpanoa, joka perustuu 1 §:n 6 momenttiin. Jos sellainen perustevalitus tehdään ulosmittauksen johdosta, on lisäksi voimassa, mitä verojen ja maksujen ulosotossa perustevalituksesta säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Joka ei tyydy työeläkeasioiden muutoksenhakulautakunnan 1 momentissa mainitussa asiassa antamaan päätökseen, saa hakea siihen muutosta vakuutusoikeudelta kirjallisella valituksella 20 §:ssä säädetyssä määräajassa.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006. Ennen lain voimaantuloa voidaan ryhtyä sen täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2003/155">HE 155/2003</ref>
+                        </p>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/47">HE 47/2005</ref>
+                        </p>
+                        <p>StVM 11/2005</p>
+                        <p>EV 99/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 26 päivänä elokuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Sinikka Mönkäre</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

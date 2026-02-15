@@ -1,0 +1,172 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/326/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/326"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/326/alkup"/>
+                    <FRBRdate date="2016-04-29" name="dateIssued"/>
+                    <FRBRdate date="2016-05-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="326"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/326/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/326/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/326/alkup/swe"/>
+                    <FRBRdate date="2016-04-29" name="dateIssued"/>
+                    <FRBRdate date="2016-05-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/326/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/326/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/326/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-05-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>326/2016</docNumber>
+                <docTitle>Lag om ändring av 3 § i lagen om energicertifikat för byggnader</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om energicertifikat för byggnader (
+                        <affectedDocument href="/akn/fi/act/statute/2013/50">50/2013</affectedDocument>
+                        ) 3 § 1 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Byggnader som omfattas av skyldigheterna och byggnader som är befriade från dem</heading>
+                    <subsection>
+                        <intro>
+                            <p>Skyldigheterna enligt denna lag att skaffa energicertifikat och använda certifikatet omfattar byggnader där det används energi i syfte att upprätthålla ändamålsenliga förhållanden avseende inomhusklimat i byggnadens lokaler. Skyldigheterna gäller dock inte</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>byggnader med en yta på högst 50 kvadratmeter,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>byggnader som används som semesterbostäder och som inte används för bedrivande av inkvarteringsverksamhet,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3) </num>
+                            <content>
+                                <p>temporära byggnader som används högst två år,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4) </num>
+                            <content>
+                                <p>industribyggnader och verkstäder,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5) </num>
+                            <content>
+                                <p>jordbruksbyggnader som inte är avsedda för boende och som har ett lågt energibehov eller som används inom en sektor som omfattas av ett nationellt sektorsavtal om energiprestanda,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6) </num>
+                            <content>
+                                <p>byggnader som har skyddats i en plan enligt markanvändnings- och bygglagen (132/1999) eller genom ett beslut i enlighet med lagen om skyddande av byggnadsarvet (498/2010) eller bestämmelser som föregick den, eller byggnader som är belägna i ett objekt som tagits upp på världsarvslistan enligt konventionen om skydd för världens kultur- och naturarv (FördrS 19/1987) eller byggnader som omfattas av ett avtal mellan myndigheter om skyddande av byggnad, under förutsättning att byggnadens karaktär eller utseende på grund av kraven skulle ändras på ett sätt som inte kan godkännas,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7) </num>
+                            <content>
+                                <p>kyrkor eller andra av ett religionssamfund ägda byggnader vilka endast har utrymmen för samling eller andakt eller verksamhet som tjänar dessa, </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>8) </num>
+                            <content>
+                                <p>växthus, skyddsrum eller någon annan byggnad vars användning för sitt syfte försvåras oskäligt om bestämmelserna och föreskrifterna om byggnaders energiprestanda tillämpas på dem, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>9) </num>
+                            <content>
+                                <p>byggnader som används av försvarsförvaltningen och vilka som sådana eller vid användning har anknytning till sekretessbelagd information.</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juli 2016.</p>
+                    <p>Lagen tillämpas på byggnader och sådana lokaler i byggnader som tagits i bruk före lagens ikraftträdande dock först från och med den 1 januari 2017. Till dess tillämpas på sådana byggnader och lokaler i dem de bestämmelser som gällde vid ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/150">RP 150/2015</ref>
+                        </p>
+                        <p>MiUB 4/2016</p>
+                        <p>RSv 19/2016</p>
+                        <p>Europaparlamentets och rådets direktiv 2010/31/EU (32010L0031); EGT nr 18.6.2010, s. 13</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 april 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommun- och reformminister</role>
+                                <person refersTo="">Anu Vehviläinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

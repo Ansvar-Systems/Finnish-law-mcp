@@ -1,0 +1,122 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/278/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/278"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/278/alkup"/>
+                    <FRBRdate date="2024-05-30" name="dateIssued"/>
+                    <FRBRdate date="2024-05-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="278"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/278/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/278/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/278/alkup/fin"/>
+                    <FRBRdate date="2024-05-30" name="dateIssued"/>
+                    <FRBRdate date="2024-05-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/278/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/278/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/278/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2024-05-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>278/2024</docNumber>
+                <docTitle>Laki työttömyysturvalain 6 luvun 4 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         työttömyysturvalain (
+                        <affectedDocument href="/akn/fi/act/statute/2002/1290">1290/2002</affectedDocument>
+                        ) 6 luvun 4 §:n 3 momentti, sellaisena kuin se on laissa 1457/2016, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>6 luku</num>
+                    <heading>Työttömyyspäivärahan määrä ja kesto</heading>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Palkansaajan ansiopäivärahan perusteena oleva palkka</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Työkyvyttömyyseläkettä osaeläkkeenä tai osa-aikaeläkettä saavan tai saaneen henkilön ansiopäivärahan perusteena oleva palkka määräytyy eläkkeen alkamishetkellä vallinneen tilanteen mukaisesti. Jos henkilön 5 luvun 3 §:n mukainen työssäoloehto täyttyy kokonaisuudessaan eläkkeen päättymisen jälkeisenä aikana, ansiopäivärahan perusteena oleva palkka lasketaan kuitenkin tämän pykälän 1 momentin mukaisesti. Mitä edellä säädetään, koskee henkilöä, joka on saanut julkisesta työvoimapalvelusta annetussa laissa (1295/2002) tarkoitettua osa-aikalisää tai ollut osittaisella hoitovapaalla taikka jonka palkkaa on alennettu määräaikaisesti ja palkan alentaminen perustuu työsopimuslain 7 luvun 3 §:n mukaisiin irtisanomisperusteisiin tai työpaikalla tuotannollisista tai taloudellisista syistä tehtyyn henkilöstöä koskevaan kirjalliseen sopimukseen.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä elokuuta 2024. </p>
+                    <p>Jos vuorotteluvapaa on alkanut ennen tämän lain voimaantuloa, vuorotteluvapaaseen sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/8">HE 8/2024</ref>
+                        </p>
+                        <p>TyVM 5/2024</p>
+                        <p>EV 34/2024</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 30.5.2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Työministeri</role>
+                                <person refersTo="">Arto Satonen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

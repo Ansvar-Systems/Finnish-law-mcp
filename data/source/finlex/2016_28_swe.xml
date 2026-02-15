@@ -1,0 +1,208 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/28/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/28"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/28/alkup"/>
+                    <FRBRdate date="2016-01-08" name="dateIssued"/>
+                    <FRBRdate date="2016-01-13" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="28"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/28/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/28/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/28/alkup/swe"/>
+                    <FRBRdate date="2016-01-08" name="dateIssued"/>
+                    <FRBRdate date="2016-01-13" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/28/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/28/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/28/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-01-13" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>28/2016</docNumber>
+                <docTitle>Lag om ändring av markanvändnings- och bygglagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs </i>
+                        i markanvändnings- och bygglagen (
+                        <affectedDocument href="/akn/fi/act/statute/1999/132">132/1999</affectedDocument>
+                        ) 188 § 3 och 4 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras </i>
+                        17 § 1 mom., 31 §, 33 § 3 mom., 47 §, 66 § 1 mom, 188 § 1 mom., 191 § 4 mom., 198 § 2 mom. och 201 § 1 mom., 
+                    </block>
+                    <block name="substitutions-originals">av dem 47 § sådan den lyder delvis ändrad i lag 476/2004 samt 66 § 1 mom., 198 § 2 mom. och 201 § 1 mom. sådana de lyder i lag 1589/2009, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>17 §</num>
+                    <heading>Vederbörande ministeriums uppgifter</heading>
+                    <subsection>
+                        <content>
+                            <p>Vederbörande ministerium ska sköta den allmänna utvecklingen och styrningen av områdesplaneringen och byggnadsväsendet.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>31 §</num>
+                    <heading>Godkännande av landskapsplan</heading>
+                    <subsection>
+                        <content>
+                            <p>Landskapsplanen godkänns av det högsta beslutande organet för förbundet på landskapsnivå.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>33 §</num>
+                    <heading>Bygginskränkning</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Om det behövs för att trygga regleringen av markanvändningen, kan förbundet på landskapsnivå förbjuda att ett område där det enligt ett planförslag eller en godkänd plan råder bygginskränkning används för byggande som strider mot planförslaget eller planen. Inskränkningen gäller inte uppförande av en ekonomibyggnad som hör till en redan befintlig bostad och inte byggande som är behövligt för bedrivande av jord- och skogsbruk. Inskränkningen gäller högst två år.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>47 §</num>
+                    <heading>Utarbetande och godkännande av en gemensam generalplan</heading>
+                    <subsection>
+                        <content>
+                            <p>Kommunerna kan oberoende av vad som i 49 § i kommunallagen (410/2015) föreskrivs om formerna för samarbete mellan kommuner ge förbundet på landskapsnivå, en annan för uppgiften lämplig samkommun eller något annat av kommunernas gemensamma organ i uppdrag att utarbeta och godkänna en gemensam generalplan. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>På det organ som avses i 1 mom. tillämpas vad som i denna lag bestäms om kommuner.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>66 §</num>
+                    <heading>Myndigheternas samråd</heading>
+                    <subsection>
+                        <content>
+                            <p>När en landskapsplan utarbetas ska kontakt upprätthållas med närings-, trafik- och miljöcentralen och med de ministerier till vars ansvarsområde hör ärenden av nationell betydelse som behandlas i planen. Närings-, trafik- och miljöcentralen, de behöriga ministerierna samt förbundet på landskapsnivå ska samråda för att klarlägga de riksomfattande mål och övriga centrala mål som ansluter sig till utarbetandet av planen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>188 §</num>
+                    <heading>Sökande av ändring i beslut om godkännande av planer och byggnadsordningar</heading>
+                    <subsection>
+                        <content>
+                            <p>Ändring i beslut om godkännande av planer och byggnadsordningar får sökas hos förvaltningsdomstolen genom besvär på det sätt som föreskrivs i kommunallagen. Rättelseförfarandet enligt kommunallagen tillämpas dock inte i ärenden som gäller godkännande av en detaljplan ens när beslutanderätten har överförts på kommunstyrelsen eller en nämnd på det sätt som föreskrivs i 52 §.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>191 §</num>
+                    <heading>Besvärsrätt i fråga om beslut som gäller godkännande av planer och byggnadsordningar</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ingen annan än kommunen har rätt att söka ändring i ett beslut genom vilket förvaltningsdomstolen har upphävt en kommunal myndighets beslut att godkänna en plan eller en byggnadsordning. Om utarbetandet av en strandplan har skötts av markägaren, har denne dock rätt att överklaga förvaltningsdomstolens beslut. Ingen annan än förbundet på landskapsnivå eller kommunen har rätt att söka ändring i ett beslut genom vilket förvaltningsdomstolen har upphävt en landskapsplan. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>198 §</num>
+                    <heading>Delgivning av vissa beslut</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Förvaltningsdomstolens beslut i ärenden som avses i 188 § 1 mom. meddelas efter anslag. Förvaltningsdomstolens och en kommunal myndighets beslut i ett tillståndsärende samt en kommunal myndighets, närings-, trafik- och miljöcentralens och förvaltningsdomstolens beslut i ett ärende som gäller undantag enligt 171 § meddelas efter anslag. Miljöministeriets beslut enligt 177 § 1 mom. och 178 § samt närings-, trafik- och miljöcentralens beslut enligt 38 § 2 mom. och 179 § meddelas likaså efter anslag. </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>201 §</num>
+                    <heading>Verkställbarheten av ett planbeslut </heading>
+                    <subsection>
+                        <content>
+                            <p>Landskapsstyrelsen kan efter besvärstidens utgång bestämma att en landskapsplan ska träda i kraft innan den har vunnit laga kraft. Kommunstyrelsen kan efter besvärstidens utgång bestämma att en generalplan eller detaljplan innan den har vunnit laga kraft ska träda i kraft för den del av planområdet som besvären eller rättelseuppmaningen inte kan anses gälla. Kommunen ska utan dröjsmål delge ändringssökandena och besvärsinstansen samt, om beslutet gäller en plan som är föremål för rättelseuppmaning, även närings-, trafik- och miljöcentralen beslutet. Besvärsinstansen kan förbjuda att beslutet verkställs.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 februari 2016. </p>
+                    <p>På landskapsplaner och kommuners gemensamma generalplaner som godkänts innan denna lag har trätt i kraft tillämpas förfarandet för fastställelse och ändringssökande enligt de bestämmelser som var i kraft när denna lag träder i kraft endast om planen i enlighet med 200 § har bringats till allmän kännedom innan denna lag har trätt i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/114">RP 114/2015</ref>
+                        </p>
+                        <p>MiUB 2/2015</p>
+                        <p>RSv 96/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 8 januari 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Jordbruks- och miljöminister</role>
+                                <person refersTo="">Kimmo Tiilikainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

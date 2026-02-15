@@ -1,0 +1,133 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/572/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/572"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/572/alkup"/>
+                    <FRBRdate date="2005-07-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="572"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/572/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/572/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/572/alkup/swe"/>
+                    <FRBRdate date="2005-07-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/572/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/572/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/572/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="102"/>
+                    <finlex:date date="2005-07-25"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>572/2005</docNumber>
+                <docTitle>Lag om ändring av 1 a och 1 b § i lagen om bestridande av kostnaderna för försäkringsinspektionen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 14 juli 1944 om bestridande av kostnaderna för försäkringsinspektionen (
+                        <affectedDocument href="/akn/fi/act/statute/1944/479">479/1944</affectedDocument>
+                        ) 1 a § 1 mom. 9 punkten och 1 b § 3 mom., sådana de lyder i lag 916/2000, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 a §</num>
+                    <subsection>
+                        <intro>
+                            <p>Tillsynsavgiften fastställs gruppvis enligt följande:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>9)</num>
+                            <content>
+                                <p>i lagen om försäkringsförmedling (570/2005) avsedda ombud och försäkringsmäklare som separata grupper,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>1 b §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Den fasta grundavgiften bestäms gruppvis. Den proportionella avgiften bestäms för varje grupp, med undantag för grupperna 9, 9 a och 9 b, på basis av premieinkomsten, nettoavkastningen av placeringsverksamheten och den försäkringstekniska ansvarsskulden som anstalten bokfört under räkenskapsperioden före debiteringsåret, så som social- och hälsovårdsministeriet på framställning av Försäkringsinspektionen bestämmer. Den proportionella avgiften för grupp 9 bestäms enligt antalet ombud som tjänstgör i ombudsföretaget och antalet försäkringsmäklare som tjänstgör i försäkringsmäklarföretaget. Den proportionella avgiften för grupp 9 a bestäms enligt de influtna medlemsavgifterna.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 september 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 220/2004</p>
+                        <p>EkUB 12/2005</p>
+                        <p>RSv 82/2005</p>
+                        <p>Europaparlamentets och rådets direktiv 2002/92/EG (32002L0092); EGT nr L 9, 15.1.2003 s. 3</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 15 juli 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Sinikka Mönkäre</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

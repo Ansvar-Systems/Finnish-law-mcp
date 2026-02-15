@@ -1,0 +1,140 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1324/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1324"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1324/alkup"/>
+                    <FRBRdate date="2006-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1324"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1324/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1324/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1324/alkup/fin"/>
+                    <FRBRdate date="2006-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1324/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1324/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1324/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="200"/>
+                    <finlex:date date="2006-12-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1324/2006</docNumber>
+                <docTitle>Laki kaupparekisterilain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         2 päivänä helmikuuta 1979 annettuun kaupparekisterilakiin (
+                        <affectedDocument href="/akn/fi/act/statute/1979/129">129/1979</affectedDocument>
+                        ) siitä lailla 245/2001 kumotun 20 §:n tilalle uusi 20 § sekä 25 §:ään, sellaisena kuin se on laissa 636/2003, uusi 2 momentti ja 31 §:ään, sellaisena kuin se on mainitussa laissa 245/2001, uusi 2 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>20 §</num>
+                    <subsection>
+                        <content>
+                            <p>Osakeyhtiö voi toimittaa kaupparekisterissä julkistettavaksi tässä laissa tarkoitetut asiakirjat ja tiedot suomen- tai ruotsinkielisten asiakirjojen ja tietojen lisäksi myös muulla kielellä. Asiakirjasta on tällöin toimitettava kielilain (423/2003) 21 §:n 1 momentissa tarkoitettu virallinen käännös.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos rekisterin virallisilla kielillä julkistettujen asiakirjojen ja tietojen sekä vapaaehtoisesti julkistettujen käännösten välillä ilmenee ristiriitaisuuksia, julkistettuun käännökseen ei voi vedota ulkopuolista henkilöä kohtaan. Ulkopuolinen henkilö voi kuitenkin vedota vapaaehtoisesti julkistettuun käännökseen, jollei yhtiö osoita, että henkilö tiesi pakollisesti julkistetusta versiosta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>25 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Luonnollisen henkilön henkilötietoja ja elinkeinonharjoittajan osoite- ja yhteystietoja ei kuuluteta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>31 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Rekisterinpitoon liittyvistä teknisistä seikoista, kuten ilmoituksen tekemisen tavasta ja rekisterimerkintöjen julkaisemisen muodosta, voidaan määrätä rekisteriviranomaisen päätöksellä.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 31 päivänä joulukuuta 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/193">HE 193/2006</ref>
+                        </p>
+                        <p>TaVM 20/2006</p>
+                        <p>EV 222/2006</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2003/58/EY (32003L0058); EUVL N:o 221; 4.9.2003, s. 13</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 22 päivänä joulukuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kauppa- ja teollisuusministeri </role>
+                                <person refersTo="">Mauri Pekkarinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

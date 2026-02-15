@@ -1,0 +1,175 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/679/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/679"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/679/alkup"/>
+                    <FRBRdate date="2006-07-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="679"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/679/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/679/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/679/alkup/fin"/>
+                    <FRBRdate date="2006-07-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/679/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/679/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/679/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="105"/>
+                    <finlex:date date="2006-08-04"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>679/2006</docNumber>
+                <docTitle>Laki tekijänoikeuslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         8 päivänä heinäkuuta 1961 annetun tekijänoikeuslain (<affectedDocument href="/akn/fi/act/statute/1961/404">404/1961</affectedDocument>) 60 ja 60 c §, sellaisina kuin ne ovat laissa 821/2005, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 56 g ja 59 a § sekä kummankin edelle uusi väliotsikko seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <crossHeading eId="crossHeading">Loukkauksen kielto</crossHeading>
+                <section>
+                    <num>56 g §</num>
+                    <subsection>
+                        <content>
+                            <p>Jos joku loukkaa tekijänoikeutta, tuomioistuin voi kieltää häntä jatkamasta tai toistamasta tekoa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <crossHeading eId="crossHeading_2">Tuomion julkistaminen</crossHeading>
+                <section>
+                    <num>59 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Tuomioistuin voi tekijänoikeuden loukkausta koskevassa riita-asiassa kantajan vaatimuksesta määrätä, että vastaajan on korvattava kustannukset, jotka kantajalle aiheutuvat siitä, että hän soveltuvin toimin julkistaa tietoja lainvoimaisesta tuomiosta, jossa vastaajan on todettu loukanneen tekijänoikeutta. Määräystä ei saa antaa, jos tietojen levittämistä on muussa laissa rajoitettu. Harkitessaan määräyksen antamista ja määräyksen sisältöä tuomioistuimen tulee ottaa huomioon julkistamisen yleinen merkitys, loukkauksen laatu ja laajuus, julkistamisesta aiheutuvat kustannukset ja muut vastaavat seikat.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tuomioistuin määrää vastaajan korvattavien kohtuullisten julkistamiskustannusten enimmäismäärän. Kantajalla ei ole oikeutta korvaukseen, jos tietoja tuomiosta ei ole julkistettu tuomioistuimen määräämässä ajassa lainvoimaiseksi tulleen tuomion antamisesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>60 §</num>
+                    <subsection>
+                        <content>
+                            <p>Mitä 56 a, 56 e―56 g, 57―59 ja 59 a §:ssä säädetään, sovelletaan vastaavasti oikeuteen, jota suojataan 5 luvun säännösten mukaan.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>60 c §</num>
+                    <subsection>
+                        <content>
+                            <p>
+                                Tuomioistuin voi 60 b §:ssä tarkoitettua kannetta käsitellessään tekijän tai hänen edustajansa vaatimuksesta määrätä lähettimen, palvelimen tai muun sellaisen laitteen ylläpitäjän taikka muun välittäjänä toimivan palvelun tarjoajan sakon uhalla keskeyttämään tekijänoikeutta loukkaavaksi väitetyn aineiston saattamisen yleisön saataviin (<i>keskeyttämismääräys</i>), jollei sitä voida pitää kohtuuttomana ottaen huomioon aineistoa yleisön saataviin saattavan henkilön, välittäjän ja tekijän oikeudet.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ennen 60 b §:ssä tarkoitetun kanteen nostamista pykälässä tarkoitettu tuomioistuin voi tekijän tai hänen edustajansa vaatimuksesta antaa keskeyttämismääräyksen, jos sen antamiselle on 1 momentissa mainitut edellytykset ja jos on ilmeistä, että tekijän oikeuksien toteutuminen muutoin vakavasti vaarantuisi. Tuomioistuimen on varattava sekä sille, jolle määräystä on haettu annettavaksi, että sille, joka saattaa tekijänoikeutta loukkaavaksi väitettyä aineistoa yleisön saataviin, tilaisuus tulla kuulluksi. Tiedoksianto sille, jolle määräystä on haettu annettavaksi, voidaan toimittaa postitse taikka telekopiota tai sähköpostia käyttäen. Asian käsittelyyn sovelletaan muutoin, mitä oikeudenkäymiskaaren 8 luvussa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tuomioistuin voi pyynnöstä antaa 2 momentissa tarkoitetun keskeyttämismääräyksen väliaikaisena väitettyä loukkaajaa kuulematta, jos asian kiireellisyys sitä välttämättä vaatii. Määräys on voimassa, kunnes toisin määrätään. Väitetylle loukkaajalle on määräyksen antamisen jälkeen viipymättä varattava tilaisuus tulla kuulluksi. Kun väitettyä loukkaajaa on kuultu, tuomioistuimen on viipymättä päätettävä, pidetäänkö määräys voimassa vai peruutetaanko se.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tämän pykälän nojalla annettu keskeyttämismääräys ei saa vaarantaa kolmannen oikeutta lähettää ja vastaanottaa viestejä. Keskeyttämismääräys tulee voimaan, kun hakija asettaa ulosottomiehelle ulosottolain (37/1895) 7 luvun 16 §:ssä tarkoitetun vakuuden, jollei oikeudenkäymiskaaren 7 luvun 7 §:stä muuta johdu. Tämän pykälän 2 tai 3 momentin nojalla annettu keskeyttämismääräys raukeaa, jollei 60 b §:ssä tarkoitettua kannetta nosteta kuukauden kuluessa määräyksen antamisesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Keskeyttämismääräystä vaatineen on korvattava sille, jolle määräys on annettu, samoin kuin väitetylle loukkaajalle määräyksen täytäntöönpanosta aiheutunut vahinko sekä asiassa aiheutuneet kulut, jos 60 b §:ssä tarkoitettu kanne hylätään tai jätetään tutkimatta taikka jos asian käsittely jätetään sillensä sen vuoksi, että kantaja on peruuttanut kanteensa tai jäänyt saapumatta tuomioistuimeen. Sama on voimassa, jos keskeyttämismääräys 3 momentin nojalla peruutetaan tai 4 momentin nojalla raukeaa. Vahingon ja kulujen korvaamista koskevan kanteen nostamisessa noudatetaan, mitä oikeudenkäymiskaaren 7 luvun 12 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä syyskuuta 2006.</p>
+                    <p>Riita-asiaan, joka on tullut vireille ennen tämän lain voimaantuloa, sovelletaan tämän lain 56 g ja 59 a §:n sijasta tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                    <p>Tämän lain 60 ja 60 c §:ää sovelletaan myös riita-asiaan, joka on tullut vireille ennen tämän lain voimaantuloa. Siltä osalta kuin 60 § koskee 56 g ja 59 a §:n soveltamista sitä sovelletaan kuitenkin siten kuin 2 momentissa 56 g ja 59 a §:n soveltamisesta säädetään.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/26">HE 26/2006</ref>
+                        </p>
+                        <p>LaVM 6/2006</p>
+                        <p>EV 67/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Naantalissa 21 päivänä heinäkuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Tanja Saarela</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,141 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/27/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/27"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/27/alkup"/>
+                    <FRBRdate date="2016-01-08" name="dateIssued"/>
+                    <FRBRdate date="2016-01-13" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="27"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/27/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/27/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/27/alkup/swe"/>
+                    <FRBRdate date="2016-01-08" name="dateIssued"/>
+                    <FRBRdate date="2016-01-13" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/27/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/27/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/27/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-01-13" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>27/2016</docNumber>
+                <docTitle>Lag om ändring av 15 kap. 12 § och 49 kap. 2 § i strafflagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i strafflagen (
+                        <affectedDocument href="/akn/fi/act/statute/1889/39">39/1889</affectedDocument>
+                        ) 15 kap. 12 §, sådan den lyder i lag 563/1998, och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 49 kap. 2 §, sådan den lyder i lag 1281/2009, ett nytt 2 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>15 kap.</num>
+                    <heading>Om brott mot rättskipning</heading>
+                    <section>
+                        <num>12 §</num>
+                        <heading>Utomlands eller i en internationell domstol avgiven osann utsaga</heading>
+                        <subsection>
+                            <content>
+                                <p>Vid tillämpningen av bestämmelserna om osann utsaga avses med domstol också den genom Förenta Nationernas stadga inrättade Internationella domstolen och andra av organisationen inrättade domstolar, den enhetliga patentdomstol som avses i det i Bryssel den 19 februari 2013 ingångna avtalet om en enhetlig patentdomstol (2013/C 175/01), domstolar i Island och Norge, Europeiska unionens domstol och domstolar i Europeiska unionens medlemsländer samt även andra utländska domstolar då dessa ger en finsk domstol handräckning.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>49 kap.</num>
+                    <heading>Om kränkning av vissa immateriella rättigheter</heading>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Brott mot industriell rättighet</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>För brott mot industriell rättighet döms även den som i strid med bestämmelserna i avtalet om en enhetlig patentdomstol och så att gärningen är ägnad att åsamka innehavaren av den kränkta rätten betydande ekonomisk skada, gör intrång i den rätt som ett europeiskt patent som omfattas av avtalet medför.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft vid en tidpunkt som bestäms genom förordning av statsrådet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/45">RP 45/2015</ref>
+                        </p>
+                        <p>EkUB 12/2015</p>
+                        <p>RSv 68/2015</p>
+                        <p>Europaparlamentets och rådets förordning (EU) Nr 1257/2012 (32012R1257); EUT nr L 361, 31.12.2012, s. 1</p>
+                        <p>Rådets förordning (EU) Nr 1260/2012 (32012R1260); EUT Nr L 361, 31.12.2012, s. 89</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 8 januari 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitie- och arbetsminister</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

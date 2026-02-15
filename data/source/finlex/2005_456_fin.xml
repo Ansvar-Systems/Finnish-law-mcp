@@ -1,0 +1,197 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/456/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/456"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/456/alkup"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="456"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/456/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/456/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/456/alkup/fin"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/456/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/456/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/456/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="83"/>
+                    <finlex:date date="2005-06-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>456/2005</docNumber>
+                <docTitle>Laki työsopimuslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         26 päivänä tammikuuta 2001 annetun työsopimuslain (
+                        <affectedDocument href="/akn/fi/act/statute/2001/55">55/2001</affectedDocument>
+                        ) 9 luvun 3 §:n 1 momentti sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         7 lukuun uusi 12 § sekä 9 lukuun uusi 3 a ja 3 b § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>7 luku</num>
+                    <heading>Työsopimuksen irtisanomisperusteet</heading>
+                    <section>
+                        <num>12 §</num>
+                        <heading>Työntekijän oikeus työllistymisvapaaseen</heading>
+                        <subsection>
+                            <content>
+                                <p>Jolleivät työnantaja ja työntekijä työnantajan irtisanottua työsopimuksen 7 luvun 3 ja 4 tai 7 §:ssä tarkoitetuilla perusteilla ole sopineet muuta, työntekijällä on oikeus vapaaseen täydellä palkalla osallistuakseen irtisanomisaikanaan julkisesta työvoimapalvelusta annetussa laissa (1295/2002) tarkoitetun työllistymisohjelman laatimiseen, sen mukaiseen työvoimapoliittiseen aikuiskoulutukseen, harjoitteluun ja työssäoppimiseen tai oma-aloitteeseen tai viranomaisaloitteeseen työpaikan hakuun ja työhaastatteluun tai uudelleensijoitusvalmennukseen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Työllistymisvapaan pituus määräytyy irtisanomisajan pituuden mukaan seuraavasti:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>enintään yhteensä viisi työpäivää, jos irtisanomisaika on enintään yksi kuukausi;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>enintään yhteensä 10 työpäivää, jos irtisanomisaika on yhtä kuukautta pidempi mutta enintään neljä kuukautta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>enintään yhteensä 20 työpäivää, jos irtisanomisaika on yli neljä kuukautta.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Työntekijän on ennen työllistymisvapaan tai sen osan käyttämistä ilmoitettava siitä ja vapaan perusteesta työnantajalle niin hyvissä ajoin kuin mahdollista sekä pyydettäessä esitettävä luotettava selvitys kunkin vapaan perusteesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Työllistymisvapaan käyttämisestä ei saa aiheutua työnantajalle merkittävää haittaa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>9 luku</num>
+                    <heading>Työsopimuksen päättämismenettely</heading>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Työnantajan selvitysvelvollisuus</heading>
+                        <subsection>
+                            <content>
+                                <p>Ennen kuin työnantaja irtisanoo työsopimuksen 7 luvun 3 tai 7 §:n perusteella, työnantajan on selvitettävä irtisanottavalle työntekijälle irtisanomisen perusteet ja vaihtoehdot sekä työvoimatoimistolta saatavat työvoimapalvelut niin hyvissä ajoin kuin mahdollista. Jos työsopimus irtisanotaan 7 luvun 8 §:n perusteella, konkurssi- tai kuolinpesän on esitettävä selvitys irtisanomisen perusteesta työntekijöille niin pian kuin mahdollista. Työvoimaviranomaisten tehtävästä kartoittaa tarvittavat työvoimapalvelut yhteistyössä työnantajan ja henkilöstön edustajien kanssa säädetään julkisesta työvoimapalvelusta annetussa laissa.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>3 a §</num>
+                        <heading>Työnantajan ilmoitus työvoimatoimistolle</heading>
+                        <subsection>
+                            <content>
+                                <p>Työnantaja, joka irtisanoo 7 luvun 3, 4, 7 tai 8 §:ssä tarkoitetuilla taloudellisilla tai tuotannollisilla perusteilla työntekijän, jolle ennen irtisanomisajan päättymistä kertyisi yhteensä vähintään kolmen vuoden mittainen työhistoria saman työnantajan tai eri työnantajien työssä, on velvollinen ilmoittamaan viipymättä irtisanomisesta työvoimatoimistolle. Sama velvollisuus on työnantajalla, jonka työssä työntekijä on työsuhteen päättyessä ollut määräaikaisessa työsuhteessa keskeytyksittä vähintään kolme vuotta tai määräaikaisissa työsuhteissa yhteensä vähintään 36 kuukautta viimeksi kuluneen 42 kuukauden aikana.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Työnantajan on, työntekijän suostumuksella, liitettävä tähän 1 momentissa tarkoitettuun ilmoitukseen käytettävissään olevat tiedot työntekijän koulutuksesta, työtehtävistä ja työkokemuksesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>3 b §</num>
+                        <heading>Työnantajan tiedottamisvelvollisuus työllistymisohjelmasta ja työllistymisohjelmalisästä</heading>
+                        <subsection>
+                            <content>
+                                <p>Työnantajalla on 3 a §:ssä tarkoitetuissa tapauksissa velvollisuus tiedottaa työntekijälle tämän oikeudesta julkisesta työvoimapalvelusta annetussa laissa tarkoitettuun työllistymisohjelmaan sekä oikeudesta työttömyysturvalaissa (1290/2002) tarkoitettuun työllistymisohjelmalisään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä heinäkuuta 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/48">HE 48/2005</ref>
+                        </p>
+                        <p>TyVM 6/2005</p>
+                        <p>EV 79/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Naantalissa 23 päivänä kesäkuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Työministeri </role>
+                                <person refersTo="">Tarja Filatov</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

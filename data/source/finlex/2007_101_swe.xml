@@ -1,0 +1,183 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/101/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/101"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/101/alkup"/>
+                    <FRBRdate date="2007-02-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="101"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/101/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/101/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/101/alkup/swe"/>
+                    <FRBRdate date="2007-02-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/101/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/101/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/101/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="17"/>
+                    <finlex:date date="2007-02-08"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>101/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om privata säkerhetstjänster</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 12 april 2002 om privata säkerhetstjänster (<affectedDocument href="/akn/fi/act/statute/2002/282">282/2002</affectedDocument>) 20 § 1 mom. 2 punkten, 24 § 1 mom. 2 punkten, 25 § 1 mom., 29 § 2 mom. och 31 § 2 mom. 1 punkten som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>20 §</num>
+                    <heading>Godkännande som ansvarig föreståndare</heading>
+                    <subsection>
+                        <intro>
+                            <p>Som ansvarig föreståndare kan godkännas en person som idkar bevakningsrörelse eller som är anställd hos ett bevakningsföretag och som</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>
+                                    på ett godkänt sätt har fullgjort sådana avsnitt av en specialyrkesexamen för säkerhetsvakt eller motsvarande specialyrkesexamen enligt lagen om yrkesinriktad vuxenutbildning (631/1998) som uppfyller de krav som föreskrivs genom förordning av inrikesministeriet och som innefattar en utbildning i vilken åtminstone ingår ämnen med anknytning till bevakningsrörelse samt säkerhetslagstiftningen (<i>utbildning som ansvarig föreståndare</i>), samt
+                                </p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>24 §</num>
+                    <heading>Godkännande som väktare</heading>
+                    <subsection>
+                        <intro>
+                            <p>Som väktare kan godkännas en person som</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>
+                                    på ett godkänt sätt har fullgjort sådana avsnitt av en yrkesexamen för väktare eller motsvarande yrkesexamen enligt lagen om yrkesinriktad vuxenutbildning som uppfyller de krav som föreskrivs genom förordning av inrikesministeriet och som innefattar en utbildning i vilken åtminstone ingår ämnen med anknytning till bevakningsbranschen, bevakningsrörelse, väktares rättigheter och skyldigheter samt väktares uppgifter (<i>grundutbildning som väktare</i>), samt
+                                </p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>25 §</num>
+                    <heading>Godkännande som tillfällig väktare</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Den som inte har grundutbildning som väktare, men som uppfyller de villkor som föreskrivs i 24 § 1 mom. 1 och 3 punkten, kan godkännas som väktare för högst fyra månader under samma kalenderår (<i>tillfällig väktare</i>), om han eller hon på ett godkänt sätt har fullgjort sådana avsnitt av väktarexamen eller motsvarande yrkesexamen enligt lagen om yrkesinriktad vuxenutbildning som uppfyller de krav som föreskrivs genom förordning av inrikesministeriet och som åtminstone innefattar grundläggande insikter i de ämnen som avses i 24 § 1 mom. 2 punkten (<i>utbildning som tillfällig väktare</i>).
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>29 §</num>
+                    <heading>Att bära maktmedelsredskap</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Skjutvapen, gasspray och teleskopbatong får bäras endast av en väktare som har sådan specialutbildning i att använda maktmedel som uppfyller de krav som föreskrivs genom förordning av inrikesministeriet och som årligen har visat att han eller hon har tillräcklig skicklighet i hanteringen av skjutvapen och tillräcklig skjutskicklighet. En tillfällig väktare får inte bära skjutvapen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>31 §</num>
+                    <heading>Att medföra hund</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Om det är nödvändigt att i en bevakningsuppgift medföra hund, får väktaren i uppgifterna medföra högst en hund som</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>på godkänt sätt har genomgått lydnadskontroll motsvarande de krav som föreskrivs genom förordning av inrikesministeriet,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2007.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 72/2006</p>
+                        <p>FvUB 24/2006</p>
+                        <p>RSv 194/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 2 februari 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister </role>
+                                <person refersTo="">Kari Rajamäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

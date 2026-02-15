@@ -1,0 +1,160 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/522/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/522"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/522/alkup"/>
+                    <FRBRdate date="2005-07-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="522"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/522/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/522/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/522/alkup/fin"/>
+                    <FRBRdate date="2005-07-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/522/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/522/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/522/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="95"/>
+                    <finlex:date date="2005-07-19"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>522/2005</docNumber>
+                <docTitle>Laki puolustusvoimien virka-avusta poliisille annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan </i>
+                        puolustusvoimien virka-avusta poliisille 5 päivänä joulukuuta 1980 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1980/781">781/1980</affectedDocument>
+                        ) 4 § sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 4 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>4 §</num>
+                    <subsection>
+                        <content>
+                            <p>Poliisilla on oikeus saada puolustusvoimilta voimakeinojen käyttöä edellyttävää virka-apua rikoslain 34 a luvun 1 §:n 1 momentin 2―7 kohdassa tai 2 momentissa tarkoitetun rikoksen estämiseksi tai keskeyttämiseksi, jos estäminen tai keskeyttäminen ei ole mahdollista poliisin omalla välineistöllä ja henkilöstöllä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Virka-apu voi sisältää sotilaallisten voimakeinojen käyttöä, jos se on välttämätöntä suuren ihmismäärän henkeä tai terveyttä välittömästi uhkaavan vakavan vaaran torjumiseksi eikä vaaraa ole mahdollista torjua lievemmillä keinoilla.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Sotilaallisilla voimakeinoilla tarkoitetaan virkamiehen henkilökohtaisen aseen käyttöä voimakkaampaa sotavarustein tapahtuvaa sellaista asevoiman käyttöä, joka soveltuu poliisitehtävän suorittamiseen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Voimakeinojen on oltava puolustettavia suhteessa tehtävän tärkeyteen ja kiireellisyyteen, vastarinnan vaarallisuuteen, käytettävissä oleviin voimavaroihin sekä muihin tilanteen kokonaisarvosteluun vaikuttaviin seikkoihin. Erityisesti on otettava huomioon sivullisten oikeudet ja heidän turvallisuutensa. Ennen voimakeinojen käyttöä on niiden käytöstä mahdollisuuksien mukaan varoitettava.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Poliisi päättää tässä pykälässä tarkoitettujen voimakeinojen käyttämisestä ja johtaa niiden käyttöä. Voimakeinoja saa käyttää vain puolustusvoimien sotilasvirassa palveleva sekä se, joka on nimitetty puolustusvoimien virkamieheksi määräaikaiseen virkasuhteeseen määrättynä sotilastehtävään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>4 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Edellä 4 §:ssä tarkoitetussa tilanteessa virka-apua pyytää sisäasiainministeriö puolustusministeriöltä ja sen antamisesta päätetään valtioneuvoston yleisistunnossa. Jos valtioneuvostoa ei ole mahdollista saada riittävän nopeasti koolle, yhteiskunnan erittäin tärkeää toimintoa välittömästi ja vakavasti vaarantavassa kiireellisessä tapauksessa voi virka-apua pyytää sisäasiainministeriö puolustusministeriöltä, joka välittömästi päättää virka-avun antamisesta. Pyynnöstä ja päätöksestä on tällöin ilmoitettava viipymättä valtioneuvostolle ja tasavallan presidentille. Valtioneuvosto voi päättää jo aloitetun virka-avun antamisen jatkamisesta tai lopettamisesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Puolustusvoimia ei saa määrätä 4 §:ssä tarkoitettuihin toimiin ilman 1 momentissa edellytettyä virka-avun pyyntöä ja päätöstä sen antamisesta, ellei puolustusvoimien ylipäällikön toimivallasta muuta johdu.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Suomen alueellisen koskemattomuuden turvaamisesta säädetään aluevalvontalaissa (755/2000).</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 20 päivänä heinäkuuta 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/187">HE 187/2004</ref>
+                        </p>
+                        <p>HaVM 11/2005</p>
+                        <p>EV 86/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Naantalissa 15 päivänä heinäkuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

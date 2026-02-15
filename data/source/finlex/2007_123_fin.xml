@@ -1,0 +1,251 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/123/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/123"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/123/alkup"/>
+                    <FRBRdate date="2007-02-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="123"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/123/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/123/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/123/alkup/fin"/>
+                    <FRBRdate date="2007-02-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/123/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/123/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/123/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="21"/>
+                    <finlex:date date="2007-02-14"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>123/2007</docNumber>
+                <docTitle>Laki säästöpankkilain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         28 päivänä joulukuuta 2001 annetun säästöpankkilain (
+                        <affectedDocument href="/akn/fi/act/statute/2001/1502">1502/2001</affectedDocument>
+                        ) 1 §:n 2 momentti, 41 §:n 1 ja 2 momentti, 64 §:n 2 momentin 4 kohta, 75 §, 77 §:n 1 ja 3 momentti, 86 §:n 2 momentti, 91 §:n 3 momentti, 95 ja 106 §, 107 §:n 1 momentti ja 124 §:n 1 momentti, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Säästöpankki ja säästöpankkiosakeyhtiö ovat luottolaitostoiminnasta annetussa laissa (121/2007) tarkoitettuja talletuspankkeja, joiden erityistarkoituksena on säästämisen edistäminen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>41 §</num>
+                    <subsection>
+                        <content>
+                            <p>Säästöpankin voittona saadaan, jollei 40 §:n 2 momentista taikka luottolaitostoiminnasta annetun lain 88 §:stä muuta johdu, jakaa kantarahasto-osuuksille ja pääomalainoille enintään hallituksen esittämä määrä, joka ei ylitä viimeksi kuluneelta tilikaudelta vahvistetun taseen mukaisen voiton ja säästöpankin muun vapaan oman pääoman yhteenlaskettua määrää, vähennettynä taseen osoittamalla tappiolla, muilla 2 momentissa tarkoitetuilla jakokelvottomilla erillä, määrällä, jolla säästöpankin tilinpäätöksessä tehdyt, kirjanpitolain (1336/1997) 5 luvun 15 §:ssä tarkoitetut varaukset sekä tehtyjen ja suunnitelman mukaisten poistojen erotus on tilinpäätöksessä merkitty vapaaseen omaan pääomaan, sekä määrällä, joka lain tai sääntöjen mukaan on merkittävä vararahastoon tai muuten jätettävä jakamatta. Kantarahasto-osuuksille voidaan voitto-osuutena jakaa vain voittoa ja muuta vapaata omaa pääomaa, joka on syntynyt kantarahaston muodostamisen jälkeen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Siitä osasta säästöpankin voittoa, jota ei käytetä vararahaston korottamiseen, voiton jakamiseen kantarahasto-osuuksille tai pääomalainoille tai jätetä säästöpankin vapaaseen omaan pääomaan, voidaan varoja isäntien päätöksellä hallituksen esittämää määrää ylittämättä käyttää säästäväisyyden edistämiseen tai muihin yleishyödyllisiin tarkoituksiin. Voittovaroja ei kuitenkaan ilman rahoitustarkastuksen suostumusta saa käyttää tässä momentissa tarkoitettuihin säästäväisyyttä edistäviin tai yleishyödyllisiin tarkoituksiin ennen kuin säästöpankin luottolaitostoiminnasta annetun lain 113 §:ssä tarkoitetusta vakuusrahastosta saama avustuslaina on korkoineen maksettu takaisin.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>64 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Sulautumissuunnitelmassa on oltava:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>selvitys pääomalainoista sekä luottolaitostoiminnasta annetun lain 46 §:n 1 momentin 3 ja 4 kohdassa sekä 47 §:n 1 momentin 1 kohdassa tarkoitetuista sitoumuksista, joiden velkojat voivat vastustaa 73 §:ssä tarkoitetun luvan myöntämistä;</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>75 §</num>
+                    <subsection>
+                        <content>
+                            <p>Mitä edellä 73 ja 74 §:ssä säädetään velkojasta, ei sovelleta tallettajaan. Sulautuvan säästöpankin on kuitenkin ilmoitettava sulautumisesta tallettajalle viimeistään kolme kuukautta ennen rekisteriviranomaisen 74 §:n nojalla muille velkojille asettamaa määräaikaa. Ilmoituksessa on mainittava vastaanottavan säästöpankin toiminimi ja osoite.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitetusta ilmoituksesta on käytävä ilmi, että mikäli tallettajan sulautumiseen osallisissa säästöpankeissa olevien talletusten yhteenlaskettu määrä ylittää luottolaitostoiminnasta annetun lain 105 §:ssä säädetyn talletussuojan enimmäisrajan, talletussuojaan sovelletaan, mitä mainitun lain 112 §:ssä säädetään. Tallettajalla on oikeus kuuden kuukauden kuluessa ilmoituksen vastaanottamisesta irtisanoa alkuperäisten sopimusehtojen estämättä sellainen talletus, joka luottolaitostoiminnasta annetun lain 105 §:n nojalla jää kokonaan tai osittain talletussuojan ulkopuolelle. Mitä tässä momentissa säädetään, ei sovelleta, jos sulautuvia talletuspankkeja pidetään luottolaitostoiminnasta annetun lain 105 §:n 6 momentissa tarkoitetulla tavalla yhtenä talletuspankkina mainitun pykälän 1 momentissa tarkoitettua talletussuojan ylärajaa sovellettaessa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mitä edellä tässä pykälässä säädetään tallettajasta, sovelletaan vastaavasti vastaanottavan säästöpankin tallettajiin edellyttäen, että vastaanottavan säästöpankin velkojia on 74 §:n 1 momentin perusteella kuultava.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>77 §</num>
+                    <subsection>
+                        <content>
+                            <p>Sulautuvan säästöpankin varat ja velat, lukuun ottamatta luottolaitostoiminnasta annetun lain 167 §:ään ja tilintarkastuslain (936/1994) 44 §:ään perustuvaa vaatimusta, siirtyvät selvitysmenettelyttä vastaanottavalle säästöpankille, kun sulautumisen täytäntöönpano on rekisteröity. Samanaikaisesti sulautuva säästöpankki purkautuu.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Sulautuvan säästöpankin hallituksen ja toimitusjohtajan on annettava sulautuvan säästöpankin isäntien kokouksessa lopputilitys. Lopputilityksessä on oltava tilinpäätös ja konsernitilinpäätös ajalta, jolta tilinpäätöstä ei vielä ole esitetty ylimmän päättävän elimen kokouksessa sekä selvitys vastikkeen jaosta. Lopputilityksen tarkastamiseen sovelletaan soveltuvin osin, mitä tilinpäätöksen tilintarkastuksesta luottolaitostoiminnasta annetussa laissa säädetään. Isäntien kokoukseen sovelletaan, mitä isäntien kokouksesta tässä laissa säädetään. Vastikkeen jaon ja lopputilityksen moittimiseen, jako-osuuden nostamiseen sekä selvityksen jatkamiseen sulautuvan säästöpankin purkauduttua sovelletaan soveltuvin osin, mitä tämän lain 8 luvussa säädetään. Lopputilitys on ilmoitettava rekisteröitäväksi siten kuin luottolaitostoiminnasta annetun lain 156 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>86 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jakautumisessa vastaanottavat säästöpankit vastaavat yhteisvastuullisesti jakautuvan säästöpankin velasta, joka on syntynyt ennen kuin jakautumisen täytäntöönpano on rekisteröity. Sellaisista jakautuvan luottolaitoksen veloista, joista toinen yritys vastaa jakautumissuunnitelman mukaan, luottolaitoksen vastuun kokonaismäärä on kuitenkin enintään sille jäävän tai siirtyvän netto-omaisuuden arvo. Jakautumissuunnitelmassa mainitusta velasta velkoja voi vaatia suoritusta yhteisvastuun perusteella vasta, kun on todettu, ettei hän saa suoritusta velalliselta tai vakuudesta. Mitä edellä tässä momentissa säädetään velasta, ei sovelleta velkaan tai velan osaan, joka voidaan korvata luottolaitostoiminnasta annetun lain 95 §:ssä tarkoitetusta talletussuojarahastosta tai sijoituspalveluyrityksistä annetun lain (579/1996) 6 luvussa tarkoitetusta korvausrahastosta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>91 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Säästöpankin toimintaa jatkamaan perustettavan talletuspankin yhtiöjärjestykseen voidaan ottaa määräys, jonka mukaan pankin erityistarkoituksena on säästäväisyyden edistäminen. Tällaisesta pankista käytetään tässä laissa nimitystä säästöpankkiosakeyhtiö. Säästöpankkiosakeyhtiön on käytettävä pankin yhteisömuotoa osoittavan tunnuksen lisäksi toiminimessään sanaa tai yhdysosaa "säästöpankki".</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>95 §</num>
+                    <subsection>
+                        <content>
+                            <p>Säästöpankkitarkastuksen ja sen edustajan oikeuksista, vastuusta ja esteellisyydestä on niiden hoitaessa 93 §:n 1 momentin mukaista valvontatehtäväänsä voimassa, mitä Rahoitustarkastuksesta ja sen edustajasta säädetään Rahoitustarkastuksesta annetussa laissa (587/2003).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>106 §</num>
+                    <subsection>
+                        <content>
+                            <p>Tilintarkastajan tehtävä ei lakkaa säästöpankin joutuessa selvitystilaan. Mitä luottolaitostoiminnasta annetun lain 9 luvussa säädetään tilintarkastuksesta, on soveltuvin osin voimassa selvitystilan aikana. Tilintarkastuskertomuksen tulee lisäksi sisältää lausuma siitä, onko selvitystilaa tilintarkastajan mielestä aiheettomasti pitkitetty.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>107 §</num>
+                    <subsection>
+                        <content>
+                            <p>Kun säästöpankki on asetettu selvitystilaan, hallituksen ja toimitusjohtajan on viivytyksettä laadittava tilinpäätös ja konsernitilinpäätös sitä selvitystilaa edeltäneeltä ajalta, jolta tilinpäätöstä ei ole vielä esitetty säästöpankin isäntien kokouksessa. Tilinpäätös on esitettävä mahdollisimman pian säästöpankin isäntien kokouksessa. Tilinpäätökseen ja tilintarkastukseen on sovellettava luottolaitostoiminnasta annetun lain 9 luvun säännöksiä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>124 §</num>
+                    <subsection>
+                        <intro>
+                            <p>Säästöpankin lukuun luottolaitostoiminnasta annetun lain 167 §:n nojalla ajettavaa kannetta ei voida nostaa, ellei kanne perustu rangaistavaan tekoon:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>perustajaa vastaan kolmen vuoden kuluttua siitä, kun perustamiskokouksessa tehtiin päätös pankin perustamisesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>hallintoneuvoston tai hallituksen jäsentä, toimitusjohtajaa tai isäntää vastaan kolmen vuoden kuluttua sen tilikauden päättymisestä, jona se päätös tehtiin tai siihen toimenpiteeseen ryhdyttiin, johon kanne perustuu; eikä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>tilintarkastajaa taikka hallintoneuvoston tai hallituksen määräämää tarkastajaa vastaan kolmen vuoden kuluttua siitä, kun se tilintarkastuskertomus, lausunto tai todistus, johon kanne perustuu, esitettiin.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 15 päivänä helmikuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/21">HE 21/2006</ref>
+                        </p>
+                        <p>TaVM 25/2006</p>
+                        <p>EV 252/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 9 päivänä helmikuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Toinen valtiovarainministeri </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

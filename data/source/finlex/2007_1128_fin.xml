@@ -1,0 +1,218 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1128/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1128"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1128/alkup"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1128"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1128/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1128/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1128/alkup/fin"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1128/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1128/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1128/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="166"/>
+                    <finlex:date date="2007-12-11"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1128/2007</docNumber>
+                <docTitle>Laki henkilöstön edustuksesta yritysten hallinnossa annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         henkilöstön edustuksesta yritysten hallinnossa 24 päivänä elokuuta 1990 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1990/725">725/1990</affectedDocument>
+                        ) 2 ja 11 §, sellaisena kuin niistä on 11 § laissa 68/2001, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 9 a―9 f § ja niiden edelle uusi väliotsikko, 10 §:ään uusi 3 momentti ja 12 §:ään uusi 3 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Lain soveltamisala</heading>
+                    <subsection>
+                        <content>
+                            <p>Tätä lakia sovelletaan sellaiseen suomalaiseen osakeyhtiöön, osuuskuntaan ja muuhun taloudelliseen yhdistykseen, vakuutusyhtiöön, liikepankkiin, osuuspankkiin sekä säästöpankkiin, jonka työsuhteessa olevan henkilöstön määrä Suomessa säännöllisesti on vähintään 150. Tämän lain soveltamisesta henkilöstön osallistumisen järjestämiseen rajat ylittävässä sulautumisessa ja jakautumisessa säädetään 9 a―9 f §:ssä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <crossHeading eId="crossHeading">Henkilöstön osallistumisen järjestäminen rajat ylittävässä sulautumisessa ja jakautumisessa</crossHeading>
+                <section>
+                    <num>9 a §</num>
+                    <heading>Yhtiön kotipaikan lain soveltaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Henkilöstön osallistumisen järjestämiseen Euroopan talousalueella sijaitsevien yhtiöiden rajat ylittävän sulautumisen tuloksena muodostettavassa yhtiössä, jonka sääntömääräinen kotipaikka on Suomessa, sovelletaan tätä lakia, jollei 9 b―9 f §:stä muuta johdu.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 b §</num>
+                    <heading>Eurooppayhtiösääntelyn soveltaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos vähintään yhdessä rajat ylittävään sulautumiseen osallistuvassa yhtiössä on henkilöstöedustuksesta eurooppayhtiössä (SE) ja eurooppaosuuskunnassa (SCE) annetun lain (758/2004) 3 §:n 12 kohdassa tarkoitettu henkilöstön osallistumista koskeva järjestelmä, mainitun lain 4 §:n 2 momentissa tarkoitettu erityinen neuvotteluryhmä neuvottelee osallistuvien yhtiöiden toimivaltaisten elinten kanssa henkilöstön osallistumisen järjestämisestä. Tällöin henkilöstön osallistumisen järjestämiseen sovelletaan, mitä mainitun lain 2 §:n 1 momentissa, 4―12 ja 14 §:ssä, 16 §:n 1 momentin 1 ja 7―9 kohdassa sekä 2 momentissa, 18 §:n 1 momentissa, 19 §:ssä, 28 §:n 2 ja 3 momentissa sekä 29 ja 30 §:ssä säädetään. Lisäksi sovelletaan lain 18 §:n 2 momentin 2 kohtaa siten, että siinä säädetyn 25 prosentin sijasta edellytyksenä henkilöstön osallistumista koskevien lain 28―30 §:n soveltamiselle on 33 1/3 prosenttia. Henkilöstön osallistumisen järjestämiseen sovelletaan myös eurooppayhtiön (SE) säännöistä annetun neuvoston asetuksen (EY) N:o 2157/2001 12 artiklan 2―4 kohtaa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rajat ylittävään sulautumiseen osallistuvat yhtiöt voivat kuitenkin ilman henkilöstön kanssa käytäviä neuvotteluja päättää, että ne soveltavat henkilöstöedustuksesta eurooppayhtiössä (SE) ja eurooppaosuuskunnassa (SCE) annetun lain 28―30 §:ssä tarkoitettuja henkilöstön osallistumista koskevia toissijaisia säännöksiä välittömästi muodostettavan yhtiön rekisteröinnistä alkaen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos vähintään yhdessä sulautuvista yhtiöistä on henkilöstön osallistumista koskeva järjestelmä ja jos rajat ylittävän sulautumisen tuloksena muodostettavassa yhtiössä tulee sovellettavaksi tällainen järjestelmä 1 ja 2 momentin mukaisesti, kyseiselle yhtiölle on valittava sellainen yhtiömuoto, joka mahdollistaa henkilöstön osallistumisoikeudet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 c §</num>
+                    <heading>Päätös olla aloittamatta tai lopettaa neuvottelut</heading>
+                    <subsection>
+                        <content>
+                            <p>Edellä 9 b §:n 1 momentissa tarkoitettu erityinen neuvotteluryhmä voi päättää olla aloittamatta neuvotteluja tai lopettaa neuvottelut. Päätös edellyttää vähintään kahden kolmasosan enemmistöä niiden jäsenten äänistä, jotka edustavat vähintään kahta kolmasosaa henkilöstöstä, mukaan lukien niiden jäsenten äänet, jotka edustavat vähintään kahdessa jäsenvaltiossa työskentelevää henkilöstöä. Tällöin 9 b ja 9 d―9 f §:ää ei sovelleta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 d §</num>
+                    <heading>Henkilöstön osallistumisen rajoittaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos henkilöstön kanssa käytyjen neuvottelujen jälkeen tulisivat sovellettaviksi henkilöstöedustuksesta eurooppayhtiössä (SE) ja eurooppaosuuskunnassa (SCE) annetun lain 28―30 §:ssä tarkoitetut henkilöstön osallistumista koskevat toissijaiset säännökset, henkilöstön osallistumisen osuutta rajat ylittävän sulautumisen tuloksena muodostettavassa yhtiössä voidaan rajoittaa. Henkilöstön edustajien osuus muodostettavan yhtiön hallintoelimessä ei kuitenkaan saa olla vähemmän kuin yksi kolmasosa, jos yhdessäkin sulautumiseen osallistuvassa yhtiössä henkilöstön edustajien osuus on vähintään yksi kolmasosa hallituksen tai muun hallintoelimen jäsenistä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 e §</num>
+                    <heading>Henkilöstön osallistumisoikeuksien suoja</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos rajat ylittävän sulautumisen tuloksena muodostettu suomalainen yhtiö sulautuu toiseen suomalaiseen yhtiöön, henkilöstön osallistumisoikeuksia ei saa heikentää rajat ylittävän sulautumisen voimaantuloa seuraavien kolmen vuoden aikana.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 f §</num>
+                    <heading>Rajat ylittävä jakautuminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Mitä edellä säädetään henkilöstön osallistumisen järjestämisestä rajat ylittävässä sulautumisessa, koskee soveltuvin osin myös rajat ylittävää jakautumista.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 §</num>
+                    <heading>Vapautus työstä ja korvaukset</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Edellä 9 b §:n 1 momentissa tarkoitetun erityisen neuvotteluryhmän jäsenten vapauttamiseen työstä ja heille aiheutuvan ansionmenetyksen sekä neuvotteluryhmän kustannusten korvaamiseen sovelletaan, mitä henkilöstöedustuksesta eurooppayhtiössä (SE) ja eurooppaosuuskunnassa (SCE) annetun lain 34 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>11 §</num>
+                    <heading>Henkilöstön edustajan irtisanomissuoja</heading>
+                    <subsection>
+                        <content>
+                            <p>Henkilöstön edustajan ja varaedustajan sekä 9 b §:n 1 momentissa tarkoitetun erityisen neuvotteluryhmän jäsenen irtisanomissuojasta on voimassa, mitä työsopimuslain (55/2001) 7 luvun 10 §:ssä säädetään luottamusmiehen ja luottamusvaltuutetun työsopimuksen irtisanomisesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>12 §</num>
+                    <heading>Salassapitovelvollisuus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Edellä 9 b §:n 1 momentissa tarkoitetun erityisen neuvotteluryhmän jäsenten ja heitä avustavien asiantuntijoiden salassapitovelvollisuuteen sovelletaan, mitä henkilöstöedustuksesta eurooppayhtiössä (SE) ja eurooppaosuuskunnassa (SCE) annetun lain 31 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 15 päivänä joulukuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/124">HE 124/2007</ref>
+                        </p>
+                        <p>TyVM 4/2007</p>
+                        <p>EV 65/2007</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2005/56/EY, (32005L0056); EYVL N:o L 310, 25.11.2005, s. 1</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 7 päivänä joulukuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Työministeri </role>
+                                <person refersTo="">Tarja Cronberg</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

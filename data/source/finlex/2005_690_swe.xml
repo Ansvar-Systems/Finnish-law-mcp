@@ -1,0 +1,133 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/690/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/690"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/690/alkup"/>
+                    <FRBRdate date="2005-09-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="690"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/690/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/690/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/690/alkup/swe"/>
+                    <FRBRdate date="2005-09-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/690/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/690/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/690/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="118"/>
+                    <finlex:date date="2005-09-07"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>690/2005</docNumber>
+                <docTitle>Lag om ändring av 20 och 24 a § i lagen om yrkesutbildade personer inom hälso- och sjukvården</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 28 juni 1994 om yrkesutbildade personer inom hälso- och sjukvården (
+                        <affectedDocument href="/akn/fi/act/statute/1994/559">559/1994</affectedDocument>
+                        ) 20 § och 24 a § 2 mom. 1 punkten, av dem 24 a § 2 mom. 1 punkten sådan den lyder i lag 1030/2000, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>20 §</num>
+                    <heading>Anmälningsplikt</heading>
+                    <subsection>
+                        <content>
+                            <p>En yrkesutbildad person inom hälso- och sjukvården skall enligt vad som föreskrivs i lagen om privat hälso- och sjukvård (152/1990) innan han eller hon inleder sin verksamhet göra anmälan om självständig yrkesutövning hos länsstyrelsen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>24 a §</num>
+                    <heading>Innehållet i centralregistret över yrkesutbildade personer inom hälso- och sjukvården</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>I registret införs följande uppgifter om yrkesutbildade personer inom hälso- och sjukvården:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>namn, personbeteckning, hemadress, rätt att utöva yrke och begränsning eller fråntagande av denna rätt, tillstånd att utöva yrke och återkallelse av detta tillstånd eller rätt att använda yrkesbeteckning för yrkesutbildad person inom hälso- och sjukvården och förbud att använda denna samt uppgift om den utbildning som rätten eller tillståndet att utöva yrke eller använda den skyddade yrkesbeteckningen grundar sig på,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2006.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 34/2005</p>
+                        <p>ShUB 6/2005</p>
+                        <p>RSv 52/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 2 september 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Omsorgsminister </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

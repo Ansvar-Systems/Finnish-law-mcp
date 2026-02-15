@@ -1,0 +1,156 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/279/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/279"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/279/alkup"/>
+                    <FRBRdate date="2016-04-22" name="dateIssued"/>
+                    <FRBRdate date="2016-04-26" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="279"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/279/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/279/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/279/alkup/swe"/>
+                    <FRBRdate date="2016-04-22" name="dateIssued"/>
+                    <FRBRdate date="2016-04-26" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/279/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/279/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/279/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-04-26" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>279/2016</docNumber>
+                <docTitle>Lag om ändring av 8 och 9 § i lagen om antagningsregistret, högskolornas riksomfattande datalager och studentexamensregistret</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om antagningsregistret, högskolornas riksomfattande datalager och studentexamensregistret (
+                        <affectedDocument href="/akn/fi/act/statute/1998/1058">1058/1998</affectedDocument>
+                        ) 8 § 1 och 2 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 9 § ett nytt 3 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>8 §</num>
+                    <heading>Källor, datainnehåll och förvaringstid</heading>
+                    <subsection>
+                        <content>
+                            <p>Den registeransvarige inför uppgifter om avläggandet av studentexamen i registret. Anordnaren av gymnasieutbildning ska sända de andra uppgifter som avses i denna paragraf till registret.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>I studentexamensregistret införs</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>namn, personbeteckning, kön, modersmål och uppgifter om den genomförda utbildning som krävs för att delta i och avlägga studentexamen i fråga om dem som anmält sig till proven och deltagit i dem,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>provprestationerna och bedömningsanteckningarna samt de vitsord och poängtal som examinanderna fått i olika prov, </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3) </num>
+                            <content>
+                                <p>tidpunkten när examen har avlagts eller underkänts, när prov har tagits om efter examen samt när examen har kompletterats.</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <heading>Utlämnande av uppgifter</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>På utlämnande av uppgifter ur studentexamensregistret tillämpas i övrigt vad som föreskrivs i lagen om offentlighet i myndigheternas verksamhet.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 augusti 2016.</p>
+                    <p>Beträffande de studentexamenstillfällen som anordnas åren 2016—2018 införs de i 8 § 2 mom. avsedda provprestationerna och bedömningsanteckningarna i studentexamensregistret endast i fråga om sådana elektroniska prov som avses i 1 § 2 mom. i lagen om anordnande av studentexamen (672/2005).</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2016/12">RP 12/2016</ref>
+                        </p>
+                        <p>KuUB 3/2016</p>
+                        <p>RSv 21/2016</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 22 april 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister</role>
+                                <person refersTo="">Petteri Orpo</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

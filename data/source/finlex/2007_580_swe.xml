@@ -1,0 +1,232 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/580/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/580"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/580/alkup"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="580"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/580/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/580/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/580/alkup/swe"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/580/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/580/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/580/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="84"/>
+                    <finlex:date date="2007-05-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>580/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om bostadsbidrag</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 4 juni 1975 om bostadsbidrag (
+                        <affectedDocument href="/akn/fi/act/statute/1975/408">408/1975</affectedDocument>
+                        ) 2 § 2―4 punkten, 3 § 3 mom. och 25 a § 2 punkten, sådana de lyder, 2 § 2―4 punkten i lag 42/2000, 3 § 3 mom. i lag 195/1999 och 25 a § 2 punkten i lag 689/2002, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen nya 3 a och 16 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <subsection>
+                        <intro>
+                            <p>Bostadsbidrag enligt denna lag beviljas inte</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>hushåll bestående av en enda person, om sökanden uppfyller villkoren enligt 8 § i lagen om bostadsbidrag för pensionstagare (571/2007) för erhållande av bostadsbidrag för pensionstagare,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>hushåll bestående av två personer som är äkta makar eller stadigvarande bor i gemensamt hushåll under äktenskapsliknande förhållanden utan att äktenskap ingås, om någon av dem uppfyller villkoren enligt 8 § i lagen om bostadsbidrag för pensionstagare för erhållande av bostadsbidrag för pensionstagare, och inte heller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>hushåll, om någon av dess medlemmar får bostadsbidrag enligt lagen om bostadsbidrag för pensionstagare.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Till de i 1 mom. 2 punkten avsedda fasta månadsinkomsterna räknas femton procent av de till hushållet hörande personernas sammanlagda förmögenhet enligt 3 a §, dividerad med tolv till den del som den överstiger det belopp som årligen föreskrivs genom förordning av statsrådet i enlighet med hushållets storlek. Från förmögenheten avdras skulderna. I de fasta månadsinkomsterna inräknas inte de inkomster om vilka föreskrivs genom förordning av statsrådet, inte heller de i 6 § 4 mom. avsedda hyresinkomster som fås av en underhyresgäst. Ränteinkomster och utdelningar beaktas som inkomster, om ränteinkomsterna och utdelningarna för en medlem i hushållet sammanlagt överstiger fem euro i månaden. När ränteinkomsterna bedöms skall 2 000 euro dras av som disponibla medel från kontomedlen för varje medlem av hushållet. Som inkomst av skogsbruk beaktas den enligt 7 § 2 mom. i lagen om värdering av tillgångar vid beskattningen (1142/2005) fastställda genomsnittliga årliga avkastningen för skog multiplicerad med arealen skog. Då de fasta månadsinkomsterna fastställs används i brist på annan tillförlitlig utredning det totala beloppet av den berördes förtjänst- och kapitalinkomster vid den senast verkställda beskattningen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>3 a §</num>
+                    <subsection>
+                        <intro>
+                            <p>När de fasta månadsinkomsterna beräknas skall som förmögenhet beaktas följande tillgångar som en person som hör till hushållet äger:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>fastigheter,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>tillgångar som hänför sig till näringsverksamhet och jordbruk samt andelar i tillgångarna i sammanslutningar,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>skogsegendom,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>kontomedel, obligationer, masskuldebrev och andra motsvarande,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>offentligt noterade aktier och andelar i placeringsfonder, samt</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>försäkringsplaceringar.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Den förmögenhet som avses i 1 och 2 punkten beaktas till det värde som fastställts eller beräknats vid beskattningen. Som värdet på skogsegendom beaktas den inkomst av skogsbruk som avses i 3 § 3 mom. multiplicerad med talet 10. Obligationer och masskuldebrev beaktas till gängse värde. Som värdet på offentligt noterade aktier och andelar i placeringsfonder beaktas 70 procent av värdet den sista börsdagen under året före tidpunkten för beviljandet eller justeringen. Försäkringsplaceringar beaktas till återköpsvärde.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Från kontomedlen avdras 2 000 euro som disponibla medel. När det gäller medlemmarna i hushållet görs avdraget separat från varje medlems kontomedel.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Som förmögenhet beaktas dock inte en bostad som är i hushållets eget bruk eller hushållets andel i ett dödsbo.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>16 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Retroaktivt beviljat bostadsbidrag kan innehållas till Folkpensionsanstalten till den del som motsvarar det bostadsbidrag enligt lagen om bostadsbidrag för pensionstagare som den har betalat ut, om Folkpensionsanstalten retroaktivt beviljar bostadsbidrag för samma tid för vilken bidragstagaren eller en person som hör till samma hushåll har fått bostadsbidrag enligt lagen om bostadsbidrag för pensionstagare.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>25 a §</num>
+                    <subsection>
+                        <intro>
+                            <p>För verkställigheten av bostadsbidraget har Folkpensionsanstalten utan hinder av sekretessbestämmelserna och andra begränsningar i fråga om erhållande av uppgifter rätt att avgiftsfritt</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>av fängelser får uppgifter om när ett straff börjar, när en person friges samt när frihet på prov börjar och avbryts.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008. Den tillämpas på bidrag som beviljas eller justeras vid lagens ikraftträdande eller därefter.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 90/2006</p>
+                        <p>ShUB 56/2006</p>
+                        <p>RSv 283/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 11 maj 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

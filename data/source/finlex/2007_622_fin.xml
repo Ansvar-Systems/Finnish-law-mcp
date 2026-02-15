@@ -1,0 +1,135 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/622/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/622"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/622/alkup"/>
+                    <FRBRdate date="2007-05-25" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="622"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/622/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/622/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/622/alkup/fin"/>
+                    <FRBRdate date="2007-05-25" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/622/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/622/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/622/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="91"/>
+                    <finlex:date date="2007-05-31"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>622/2007</docNumber>
+                <docTitle>Laki kansaneläkelain 46 e §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         8 päivänä kesäkuuta 1956 annetun kansaneläkelain (
+                        <affectedDocument href="/akn/fi/act/statute/1956/347">347/1956</affectedDocument>
+                        ) 46 e §:n 2 kohta, sellaisena kuin se on laissa 682/2002, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         46 e §:ään, sellaisena kuin se on viimeksi mainitussa laissa, uusi 3 kohta seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>46 e §</num>
+                    <subsection>
+                        <intro>
+                            <p>Kansaneläkelaitoksella on oikeus sen lisäksi, mitä viranomaisten toiminnan julkisuudesta annetussa laissa (621/1999) säädetään, salassapitosäännösten ja muiden tiedon saantia koskevien rajoitusten estämättä antaa:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>Eläketurvakeskukselle ja eläkelaitoksille sekä Suomen kanssa sosiaaliturvasopimuksen tehneiden sekä sosiaaliturvajärjestelmien soveltamisesta yhteisön alueella liikkuviin palkattuihin työntekijöihin ja heidän perheenjäseniinsä annetun neuvoston asetuksen (ETY) N:o 1408/71 piiriin kuuluvien maiden viranomaisille ja laitoksille välttämättömiä tietoja sosiaaliturvasopimusten ja edellä mainitun asetuksen täytäntöönpanoa sekä niiden hoitamien muiden sosiaalietuuksien täytäntöönpanoa varten;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>Ulkomaalaisvirastolle välttämättömiä tietoja Kansaneläkelaitoksen toimeenpantavaksi säädetyistä etuuksista kansalaisuuslaissa (359/2003) ja ulkomaalaislaissa (301/2004) säädettyjen tehtävien hoitamista varten.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä kesäkuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/156">HE 156/2006</ref>
+                        </p>
+                        <p>HaVM 37/2006</p>
+                        <p>EV 311/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 25 päivänä toukokuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Maahanmuutto- ja eurooppaministeri </role>
+                                <person refersTo="">Astrid Thors</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

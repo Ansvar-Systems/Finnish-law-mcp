@@ -1,0 +1,130 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/127/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/127"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/127/alkup"/>
+                    <FRBRdate date="2024-03-22" name="dateIssued"/>
+                    <FRBRdate date="2024-03-26" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="127"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/127/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/127/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/127/alkup/swe"/>
+                    <FRBRdate date="2024-03-22" name="dateIssued"/>
+                    <FRBRdate date="2024-03-26" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/127/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/127/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/127/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2024-03-26" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>127/2024</docNumber>
+                <docTitle>Lag om ändring av 1 § i lagen om statens skadeståndsverksamhet</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om statens skadeståndsverksamhet (
+                        <affectedDocument href="/akn/fi/act/statute/2014/978">978/2014</affectedDocument>
+                        ) 1 § 1 mom. och 1 § 2 mom. 1 punkten som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Tillämpningsområde</heading>
+                    <subsection>
+                        <content>
+                            <p>Denna lag tillämpas på handläggning av skadeståndsanspråk mot staten, om anspråket grundas på ett fel eller en försummelse som en statlig myndighet har begått eller på verksamhet för vilken staten svarar oberoende av uppsåt eller vårdslöshet. Denna lag tillämpas också på av tredje parter ställda ersättningsanspråk som finska staten har förbundit sig att handlägga med stöd av ett för Finland bindande avtal om status för styrkor eller internationella militära högkvarter. När det är fråga om ersättning som grundas på en dom som Europeiska domstolen för de mänskliga rättigheterna har meddelat, på förlikning vid nämnda domstol enligt artikel 39 i den europeiska konventionen om skydd för de mänskliga rättigheterna och de grundläggande friheterna (FördrS 19/1990) eller på en dom eller ett beslut som något annat internationellt rättskipnings- eller undersökningsorgan har meddelat, tillämpas lagen dock bara på betalningen av ersättning av statsmedel.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Denna lag tillämpas inte på skadeståndsanspråk mot justitiekanslersämbetet eller riksdagens justitieombudsmans kansli och inte heller på handläggning av anspråk på ersättning som grundas på sak- eller förmögenhetsskada och gäller</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>sådana skador på fastigheter som uppkommit i Försvarsmaktens verksamhet eller skador som uppkommit vid militär krishantering eller skador som härrör från det internationella samarbete, den övningsverksamhet eller den övriga internationella verksamhet som Försvarsmakten har i utlandet,</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 april 2024.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2023/90">RP 90/2023</ref>
+                        </p>
+                        <p>UtUB 2/2024</p>
+                        <p>FsUU 1/2024</p>
+                        <p>GrUU 2/2024</p>
+                        <p>LaUU 2/2024</p>
+                        <p>RSv 10/2024</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 22 mars 2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Utrikesminister</role>
+                                <person refersTo="">Elina Valtonen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,841 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1122/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1122"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1122/alkup"/>
+                    <FRBRdate date="2005-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1122"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1122/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1122/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1122/alkup/fin"/>
+                    <FRBRdate date="2005-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1122/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1122/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1122/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="188"/>
+                    <finlex:date date="2005-12-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1122/2005</docNumber>
+                <docTitle>Väylämaksulaki</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 luku</num>
+                    <heading>Yleiset säännökset</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Lain soveltamisala</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Suomen vesialueella kauppamerenkulkua harjoittavasta aluksesta suoritetaan valtiolle väylämaksua sen mukaan kuin tässä laissa säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_1__subsec_2">
+                            <intro eId="chp_1__sec_1__subsec_2__intro">
+                                <p>Tätä lakia ei sovelleta alukseen:</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_1__subsec_2__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>jota käytetään yksinomaan sisävesiliikenteessä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_1__subsec_2__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>joka matkalla ulkomaisesta satamasta toiseen kulkee Suomen aluevesien kautta poikkeamatta Suomessa satamaan;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_1__subsec_2__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>joka saapuu Suomeen ja lähtee Suomesta Saimaan kanavan kautta poikkeamatta Suomen rannikon satamaan;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_1__subsec_2__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>jonka nettovetoisuus on alle 300 ja joka on 2 §:n 3 kohdassa määritelty risteilyalus tai 2 §:n 4 kohdassa määritelty lastialus; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_1__subsec_2__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>jonka nettovetoisuus on alle 600 ja joka on 2 §:n 1 kohdassa määritelty matkustaja-alus.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Määritelmät</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <intro eId="chp_1__sec_2__subsec_1__intro">
+                                <p>Tässä laissa tarkoitetaan:</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>
+                                        <i>matkustaja-aluksella</i>
+                                         alusta, joka voi kuljettaa vähintään 120 matkustajaa, mutta joka ei ole risteilyalus eikä suurnopeusalus;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>
+                                        <i>suurnopeusaluksella</i>
+                                         ihmishengen turvallisuudesta merellä vuonna 1974 tehdyn kansainvälisen yleissopimuksen (SopS 11/1981) liitteen X luvussa tarkoitettua suurnopeusalusta;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>
+                                        <i>risteilyaluksella</i>
+                                         alusta, joka voi kuljettaa yli 12 matkustajaa, joka harjoittaa risteilyliikennettä ja joka ei Suomessa käydessään ota tai jätä lastia lukuun ottamatta aluksen omia tarpeita varten tarvittavaa polttoainetta tai muonaa; risteilyliikenteellä tarkoitetaan merimatkoja, joissa alus, joka ei ole säännöllisessä linjaliikenteessä, käy samalla matkalla Suomessa olevan sataman lisäksi vähintään kahdessa ulkomaisessa satamassa;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>
+                                        <i>lastialuksella</i>
+                                         muita kuin 1―3 kohdassa määriteltyjä aluksia;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>
+                                        <i>nettovetoisuudella</i>
+                                         aluksen mittakirjassa ilmoitettua nettovetoisuutta, joka on määritetty käyttäen vuoden 1969 kansainvälisen aluksenmittausyleissopimuksen (SopS 31/1982) liitteessä I olevaa kaavaa;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>
+                                        <i>kauppamerenkululla</i>
+                                         aluksella ansiotarkoituksessa suoritettua toimintaa, kuten lastin ja matkustajien kuljettamista, hinausta, jäänmurtamista, pyyntiä tai pelastus- ja avustustoimintaa;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>
+                                        <i>laivanisännällä </i>
+                                        aluksen omistajaa, vuokraajaa tai sitä, joka käyttää tosiasiallista määräämisvaltaa aluksen liikennöintiin liittyvissä kysymyksissä;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_8">
+                                <num>8)</num>
+                                <content>
+                                    <p>
+                                        <i>jääluokalla</i>
+                                         alusten jääluokista ja jäänmurtaja-avustuksesta annetussa laissa (1121/2005) määriteltyjä jääluokkia I A Super, I A, I B, I C, II ja III;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_9">
+                                <num>9)</num>
+                                <content>
+                                    <p>
+                                        <i>kantavuudella</i>
+                                         ihmishengen turvallisuudesta merellä vuonna 1974 tehdyn kansainvälisen yleissopimuksen (SopS 11/1981) II-2 luvun 3 säännössä määriteltyä kantavuutta.
+                                    </p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <heading>Toimivaltaiset viranomaiset</heading>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <content>
+                                <p>Tullilaitos vastaa väylämaksatuksen toimittamisesta ja valvonnasta. Tullihallitus määrää tullilaitoksen sisäisestä toimivallan ja tehtävien jaosta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_3__subsec_2">
+                            <content>
+                                <p>Merenkulkulaitoksen on salassapitosäännösten estämättä annettava tulliviranomaiselle tämän lain soveltamisessa tarvittavia tietoja, selvityksiä, lausuntoja sekä muuta aineistoa. Merenkulkulaitoksen on tarvittaessa annettava tulliviranomaisille myös muuta virka-apua.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_4">
+                        <num>4 §</num>
+                        <heading>Maksuvelvollinen</heading>
+                        <subsection eId="chp_1__sec_4__subsec_1">
+                            <content>
+                                <p>Laivanisäntä ja tulliviranomaisen hyväksymä Suomessa asuva laivanisännän edustaja ovat yhteisvastuullisesti velvollisia maksamaan väylämaksun. Ulkomaille sijoittuneella laivanisännällä tulee olla tulliviranomaisen hyväksymä Suomessa asuva edustaja.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 luku</num>
+                    <heading>Väylämaksun perusteet</heading>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Väylämaksu</heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <content>
+                                <p>Väylämaksu suoritetaan, kun alus saapuu ulkomailta Suomeen tai suomalaisesta satamasta suomalaiseen satamaan.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_2">
+                            <content>
+                                <p>Jos alus saman matkan aikana purkaa ulkomailta tuomansa lastin tai jättää ulkomailta tuomansa matkustajat useampaan kuin yhteen suomalaiseen satamaan taikka ottaa ulkomaille vietävää lastia tai matkustajia useammasta kuin yhdestä suomalaisesta satamasta, suoritetaan väylämaksu vain kerran.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_3">
+                            <content>
+                                <p>Jos alus saman matkan aikana poikkeaa Suomessa tapahtuvien lastausten välillä täydentämään lastia lastaus- tai ahtausteknisistä syistä ulkomaan satamassa, suoritetaan väylämaksu vain kerran.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_4">
+                            <content>
+                                <p>Väylämaksua ei suoriteta aluksesta, joka pakottavista syistä ainoastaan saadakseen määräyksiä jatkettavaa matkaa varten, aluksen kuntoonpanoa tai sen tarpeellisuuden tutkimista varten taikka polttoaineen ottamista varten poikkeaa Suomen satamaan jättämättä tai ottamatta lastia tai matkustajia. </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Väylämaksun yksikköhinta</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>Väylämaksun yksikköhinta lastialuksesta ja matkustaja-aluksesta määräytyy aluksen jääluokan mukaan seuraavasti:</p>
+                                <table>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>Jääluokka </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>Lastialus </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>Matkustaja-alus </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p/>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>Yksikköhinta </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>Yksikköhinta </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p/>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>(euroa) </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>(euroa) </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>I A Super </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>1,340 </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>0,902 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>I A </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>2,500 </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>1,776 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>I B, I C </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>4,885 </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>2,959 </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>II, III </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>7,100 </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>5,048</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_2">
+                            <content>
+                                <p>Risteilyaluksen yksikköhinta on 1,060 euroa, suurnopeusaluksen yksikköhinta on 6,404 euroa ja sellaisen aluksen, jolla ei ole omaa kuljetuskoneistoa, yksikköhinta on 3,559 euroa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Väylämaksun määrä</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>Lastialuksesta ja matkustaja-aluksesta suoritettava väylämaksu saadaan kertomalla aluksen nettovetoisuus ja 6 §:n 1 momentissa säädetty väylämaksun yksikköhinta keskenään. Jos lastialuksen nettovetoisuus on suurempi kuin 25 000, ylittävä osuus nettovetoisuudesta kerrotaan kuitenkin luvulla, joka on puolet 6 §:n 1 momentissa säädetystä yksikköhinnasta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_7__subsec_2">
+                            <content>
+                                <p>Risteilyaluksesta ja suurnopeusaluksesta suoritettava väylämaksu saadaan kertomalla aluksen nettovetoisuus ja 6 §:n 2 momentissa säädetty yksikköhinta keskenään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_8">
+                        <num>8 §</num>
+                        <heading>Väylämaksun enimmäismäärä aluskäynniltä</heading>
+                        <subsection eId="chp_2__sec_8__subsec_1">
+                            <content>
+                                <p>Väylämaksu on enintään 109 000 euroa. Matkustaja-aluksen väylämaksu on kuitenkin enintään 34 000 euroa ja risteilyaluksen väylämaksu on enintään 45 000 euroa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_9">
+                        <num>9 §</num>
+                        <heading>Aluksen nettovetoisuuden vahvistaminen</heading>
+                        <subsection eId="chp_2__sec_9__subsec_1">
+                            <content>
+                                <p>Jos alukselta puuttuu mittakirja, mittakirjassa ilmoitettu vetoisuus ei vastaa aluksen todellista vetoisuutta tai alus ei ole oikeutettu voimassa olevien aluksenmittaussääntöjen mukaan käyttämään mittakirjassa ilmoitettua nettovetoisuutta, Merenkulkulaitos vahvistaa väylämaksun laskemisessa käytettävän aluksen nettovetoisuuden voimassa olevien aluksenmittaussääntöjen mukaisesti.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 luku</num>
+                    <heading>Maksuvapautus ja alennettu väylämaksu</heading>
+                    <section eId="chp_3__sec_10">
+                        <num>10 §</num>
+                        <heading>Väylämaksujen vuotuinen enimmäismäärä ja lisämaksu</heading>
+                        <subsection eId="chp_3__sec_10__subsec_1">
+                            <content>
+                                <p>Kun matkustaja-aluksesta tai suurnopeusaluksesta on suoritettu 30 väylämaksua ja lastialuksesta 10 väylämaksua, alus on vapautettu saman kalenterivuoden aikana enemmistä väylämaksuista.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_10__subsec_2">
+                            <content>
+                                <p>Jos väylämaksun suuruuteen vaikuttavat seikat muuttuvat kalenterivuoden aikana siten, että 7 §:n mukainen väylämaksu nousee, aluksesta on suoritettava lisää väylämaksua. Väylämaksua on tällöin suoritettava kalenterivuodelta määrä, joka vastaa matkustaja-aluksesta ja suurnopeusaluksesta kalenterivuodelta määräytyvää 30:tä suurinta ja lastialuksesta 10:tä suurinta väylämaksua.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_11">
+                        <num>11 §</num>
+                        <heading>Alennettu väylämaksu lastauskapasiteetinkäyttöasteen perusteella</heading>
+                        <subsection eId="chp_3__sec_11__subsec_1">
+                            <content>
+                                <p>Lastialuksen väylämaksu suoritetaan 75 prosentilla alennettuna, jos aluksen lastauskapasiteetin käyttöaste on enintään 15 prosenttia, ja 50 prosentilla alennettuna, jos lastauskapasiteetin käyttöaste on yli 15 prosenttia mutta enintään 30 prosenttia.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_11__subsec_2">
+                            <content>
+                                <p>Lastauskapasiteetin käyttöaste lasketaan vertaamalla Suomeen tuodun ja Suomesta viedyn lastin yhteenlaskettua määrää metrisinä tonneina osoittavaa lukua lukuun, joka on 90 prosenttia aluksen kantavuudesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_12">
+                        <num>12 §</num>
+                        <heading>Alennettu väylämaksu muilla perusteilla</heading>
+                        <subsection eId="chp_3__sec_12__subsec_1">
+                            <content>
+                                <p>Lastialuksen väylämaksu suoritetaan 50 prosentilla alennettuna, jos alus tuo Saimaan kanavalle suuntautuvan matkan yhteydessä samalla lastia ulkomailta Suomen rannikon satamaan tai jos alus vie Saimaan kanavalle suuntautuvan matkan yhteydessä samalla lastia ulkomaille Suomen rannikon satamasta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_12__subsec_2">
+                            <content>
+                                <p>Lastialuksen väylämaksu suoritetaan 75 prosentilla alennettuna, jos alus tuo ulkomailta lastia, joka sen suureen kokoon liittyvästä pakottavasta syystä johtuen joudutaan kuljettamaan muilla aluksilla tulosatamasta edelleen toiseen suomalaiseen satamaan.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_12__subsec_3">
+                            <content>
+                                <p>Suomalaisesta satamasta viennin kauttakulkutavaraa hakevan lastialuksen väylämaksu suoritetaan 50 prosentilla alennettuna, jos aluksen koko lasti on kauttakulkulastia.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 luku</num>
+                    <heading>Väylämaksun ilmoitusvelvollisuus, määrääminen ja kantaminen</heading>
+                    <section eId="chp_4__sec_13">
+                        <num>13 §</num>
+                        <heading>Väylämaksuilmoitus</heading>
+                        <subsection eId="chp_4__sec_13__subsec_1">
+                            <content>
+                                <p>Maksuvelvollisen on annettava tulliviranomaiselle ilmoitus maksun määräämistä varten. Väylämaksuilmoituksen tulee sisältää tarvittavat tiedot maksun määräämistä varten. </p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_13__subsec_2">
+                            <content>
+                                <p>Kun alus saapuu ulkomailta Suomeen, väylämaksuilmoitus annetaan siihen tullitoimipaikkaan, jossa aluksen tuloselvitys tapahtuu.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_13__subsec_3">
+                            <content>
+                                <p>Kun alus on kotimaanliikenteessä, väylämaksuilmoitus annetaan siihen tullitoimipaikkaan, jonka toimialueella olevaan satamaan alus saapuu.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_13__subsec_4">
+                            <content>
+                                <p>Väylämaksuilmoitus voidaan antaa myös sähköisesti tai muussa automaattiseen tietojenkäsittelyyn soveltuvassa muodossa. Tullihallitus voi antaa tarkempia määräyksiä väylämaksuilmoituksen sisällöstä ja muodosta sekä ilmoitusmenettelystä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_14">
+                        <num>14 §</num>
+                        <heading>Väylämaksun maksaminen</heading>
+                        <subsection eId="chp_4__sec_14__subsec_1">
+                            <content>
+                                <p>Väylämaksun maksamiseen sovelletaan, jollei tässä laissa toisin säädetä, mitä tullin maksamisesta tullilaissa (1466/1994) säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_15">
+                        <num>15 §</num>
+                        <heading>Väylämaksun maksaminen etukäteen</heading>
+                        <subsection eId="chp_4__sec_15__subsec_1">
+                            <content>
+                                <p>Edellä 10 §:n 1 momentissa tarkoitetut väylämaksut voidaan maksaa etukäteen yhdellä kertaa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_16">
+                        <num>16 §</num>
+                        <heading>Arviomaksatus</heading>
+                        <subsection eId="chp_4__sec_16__subsec_1">
+                            <content>
+                                <p>Jos maksuvelvollinen ei ole antanut 13 §:ssä tarkoitettua maksuilmoitusta tai ilmoitus on puutteellinen, tulliviranomaisen on kehotettava maksuvelvollista määräajassa arviomaksatuksen uhalla antamaan väylämaksuilmoitus tai täydentämään puutteellista ilmoitusta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_16__subsec_2">
+                            <content>
+                                <p>Jos maksuilmoitusta ei kehotuksesta huolimatta ole annettu tai väylämaksua ei voida periä täydennetynkään ilmoituksen perusteella, maksatus on toimitettava arvion mukaan. Maksupäätöksessä on tällöin mainittava arvion perusteet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_16__subsec_3">
+                            <content>
+                                <p>Ennen arviomaksatusta maksuvelvolliselle on varattava tilaisuus tulla kuulluksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_17">
+                        <num>17 §</num>
+                        <heading>Maksunkorotus</heading>
+                        <subsection eId="chp_4__sec_17__subsec_1">
+                            <intro eId="chp_4__sec_17__subsec_1__intro">
+                                <p>Väylämaksua voidaan korottaa:</p>
+                            </intro>
+                            <paragraph eId="chp_4__sec_17__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>enintään 30 prosentilla, jos maksuvelvollinen on antanut väylämaksun määräämistä varten tarvittavat tiedot puutteellisina tai virheellisinä taikka kokonaan tai osittain laiminlyönyt ilmoitusvelvollisuutensa; taikka</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_17__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>enintään 50 prosentilla, jos maksuvelvollinen on tahallaan tai törkeästä huolimattomuudesta antanut väylämaksun määräämistä varten puutteellisen, erehdyttävän tai väärän ilmoituksen tai muun tiedon tai asiakirjan, jättänyt antamatta tietoja väylämaksun määräämistä varten taikka muutoin laiminlyönyt tiedonantovelvollisuutensa ja menettely on ollut omiaan aiheuttamaan sen, että maksuvelvolliselle olisi jäänyt maksua määräämättä.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_4__sec_17__subsec_2">
+                            <content>
+                                <p>Jos 1 momentin 2 kohdassa tarkoitettua menettelyä on sillä saavutettavissa ollut hyöty ja muut asiaan vaikuttavat seikat huomioon ottaen pidettävä törkeänä, väylämaksua on korotettava vähintään 50 prosentilla ja enintään 100 prosentilla.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_18">
+                        <num>18 §</num>
+                        <heading>Virhemaksu</heading>
+                        <subsection eId="chp_4__sec_18__subsec_1">
+                            <content>
+                                <p>Jos 17 §:n 1 momentissa tarkoitetussa tilanteessa väylämaksua ei määrätä maksettavaksi, tai jos väylämaksun määrä on vähäinen eikä maksunkorotusta ole määrätty, virhemaksuna voidaan kantaa vähintään 10 ja enintään 2 500 euroa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_18__subsec_2">
+                            <content>
+                                <p>Virhemaksun suuruutta määrättäessä otetaan huomioon menettelyn moitittavuus, toistuvuus ja muut näihin rinnastettavat seikat.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_5">
+                    <num>5 luku</num>
+                    <heading>Maksunoikaisu maksunsaajan hyväksi ja jälkimaksatus</heading>
+                    <section eId="chp_5__sec_19">
+                        <num>19 §</num>
+                        <heading>Oikaisu maksunsaajan hyväksi</heading>
+                        <subsection eId="chp_5__sec_19__subsec_1">
+                            <content>
+                                <p>Jos väylämaksu on laskuvirheen tai siihen verrattavan erehdyksen vuoksi tai sen vuoksi, ettei tulliviranomainen ole tutkinut asiaa joltakin osin, jäänyt kokonaan tai osaksi määräämättä tai sitä on palautettu liikaa maksuvelvollisen sitä aiheuttamatta, tulliviranomaisen on oikaistava antamaansa päätöstä, jollei asia muutoin ole vireillä tai valitukseen annetulla päätöksellä ratkaistu.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_19__subsec_2">
+                            <content>
+                                <p>Oikaisu on tehtävä vuoden kuluessa sitä seuraavan kalenterivuoden alusta, jona väylämaksu tai sen palautus määrättiin tai olisi maksuvelvollisen ilmoituksen perusteella pitänyt määrätä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_20">
+                        <num>20 §</num>
+                        <heading>Jälkimaksatus</heading>
+                        <subsection eId="chp_5__sec_20__subsec_1">
+                            <content>
+                                <p>Jos väylämaksu on jäänyt kokonaan tai osaksi määräämättä sen vuoksi, että maksuvelvollinen on kokonaan tai osittain laiminlyönyt ilmoitusvelvollisuutensa tai antanut maksun määräämistä varten puutteellisen, erehdyttävän tai väärän ilmoituksen tai muun tiedon tai asiakirjan, taikka jos väylämaksua on sanotusta syystä palautettu liikaa, tulliviranomaisen on määrättävä määräämättä jäänyt väylämaksu maksuvelvollisen suoritettavaksi.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_20__subsec_2">
+                            <content>
+                                <p>Jälkimaksatus on toimitettava kolmen vuoden kuluessa sitä seuraavan kalenterivuoden alusta, jonka aikana väylämaksu tai sen palautus määrättiin tai olisi pitänyt määrätä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_20__subsec_3">
+                            <content>
+                                <p>Jos tulliviranomaisen hyväksymä Suomessa asuva laivanisännän edustaja ei tiennyt eikä hänen olisi pitänytkään tietää, että maksun määräämistä varten annettu ilmoitus, asiakirja tai muu tieto on puutteellinen, erehdyttävä tai väärä, jälkimaksatus tällaisen laivanisännän edustajan osalta on toimitettava kahdeksantoista kuukauden kuluessa saatavan syntymisestä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_21">
+                        <num>21 §</num>
+                        <heading>Maksuvelvollisen kuuleminen</heading>
+                        <subsection eId="chp_5__sec_21__subsec_1">
+                            <content>
+                                <p>Ennen oikaisua maksunsaajan hyväksi ja ennen väylämaksun perintää jälkikäteen maksuvelvolliselle on varattava tilaisuus tulla kuulluksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_6">
+                    <num>6 luku</num>
+                    <heading>Oikeussuojakeinot</heading>
+                    <section eId="chp_6__sec_22">
+                        <num>22 §</num>
+                        <heading>Ennakkoratkaisu</heading>
+                        <subsection eId="chp_6__sec_22__subsec_1">
+                            <content>
+                                <p>Tullihallitus voi antaa hakemuksesta ennakkoratkaisun väylämaksua koskevien säännösten soveltamisesta, jos asia on hakijalle erityisen tärkeä. Ennakkoratkaisua ei kuitenkaan anneta siitä, mikä on aluksen jääluokka tai nettovetoisuus eikä väylämaksun määrästä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_22__subsec_2">
+                            <content>
+                                <p>Hakemuksessa on ilmoitettava yksilöitynä kysymys, johon ennakkoratkaisua haetaan, ja esitettävä asian ratkaisemiseksi tarvittava selvitys.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_22__subsec_3">
+                            <content>
+                                <p>Ennakkoratkaisu annetaan määräajaksi. Lainvoiman saanutta ennakkoratkaisua on hakijan vaatimuksesta sitovana noudatettava siten kuin ennakkoratkaisussa määrätään.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_22__subsec_4">
+                            <content>
+                                <p>Ennakkoratkaisua koskeva asia on käsiteltävä kiireellisenä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_23">
+                        <num>23 §</num>
+                        <heading>Maksun huojentaminen ja maksunlykkäys</heading>
+                        <subsection eId="chp_6__sec_23__subsec_1">
+                            <content>
+                                <p>Jos väylämaksun periminen täysimääräisenä olisi olosuhteet huomioon ottaen ilmeisen kohtuutonta, Tullihallitus voi hakemuksesta alentaa suoritettua tai suoritettavaa väylämaksua, maksunlisäystä, viivekorkoa tai lykkäyksen vuoksi suoritettavaa korkoa tai poistaa sen kokonaan.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_23__subsec_2">
+                            <content>
+                                <p>Jos väylämaksun periminen täysimääräisenä olisi olosuhteet huomioon ottaen ilmeisen kohtuutonta, Tullihallitus voi hakemuksesta myöntää väylämaksun suorittamiseen lykkäystä. Lykkäys myönnetään ehdolla, että lykätyn määrän suorittamisesta annetaan lykättyä määrää vastaava vakuus. Lykkäys voidaan kuitenkin myöntää vakuutta vaatimatta maksettavan määrän vähäisyyden tai lykkäysajan lyhyyden vuoksi. Väylämaksulle, jonka maksamiselle on myönnetty lykkäystä, peritään lykkäysajalta korkoa, joka on määrältään kutakin kalenterivuotta edeltävän puolivuotiskauden korkolain (633/1982) 12 §:ssä tarkoitettu viitekorko lisättynä seitsemällä prosenttiyksiköllä, yhteensä kuitenkin vähintään 3 euroa. Erityisen painavista kohtuussyistä lykkäys voidaan kuitenkin myöntää ilman korkoa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_24">
+                        <num>24 §</num>
+                        <heading>Oikaisu maksuvelvollisen hyväksi</heading>
+                        <subsection eId="chp_6__sec_24__subsec_1">
+                            <content>
+                                <p>Jos tulliviranomainen oikaisuvaatimuksesta, valituksen johdosta tai muutoin toteaa, että väylämaksua on määrätty liikaa tai palautettu liian vähän, sen on oikaistava antamaansa päätöstä, jollei asiaa ole valitukseen annetulla päätöksellä ratkaistu.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_24__subsec_2">
+                            <content>
+                                <p>Oikaisu voidaan tehdä kolmen vuoden kuluessa väylämaksun tai sen palautuksen määräämistä seuraavan kalenterivuoden alusta tai mainitun ajan kuluessa tehdyn kirjallisen vaatimuksen perusteella myöhemminkin.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_25">
+                        <num>25 §</num>
+                        <heading>Muutoksenhaku</heading>
+                        <subsection eId="chp_6__sec_25__subsec_1">
+                            <content>
+                                <p>Väylämaksua tai sen palautusta koskevaan tai muuhun tämän lain nojalla annettuun tulliviranomaisen päätökseen haetaan muutosta valittamalla Helsingin hallinto-oikeuteen. Päätökseen, jolla on päätetty olla antamatta ennakkoratkaisua, ei kuitenkaan saa hakea muutosta valittamalla. Valtion puolesta valitusoikeus tullipiirin päätöksestä on tullipiirissä olevalla tulliasiamiehellä ja Tullihallituksen päätöksestä Tullihallituksessa olevalla tulliasiamiehellä. Muutosta on haettava kirjallisesti ja valituskirjelmä on toimitettava valitusajassa viranomaiselle, jonka päätöksestä valitetaan.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_25__subsec_2">
+                            <content>
+                                <p>Valitusaika on kolme vuotta väylämaksun määräämistä tai sen palauttamista seuraavan kalenterivuoden alusta, kuitenkin aina vähintään 60 päivää päätöksen tiedoksisaannista. Muusta kuin väylämaksun määräämistä koskevasta päätöksestä valitettaessa valitusaika on 30 päivää päätöksen tiedoksisaannista. Tulliasiamiehen valitusaika on 30 päivää päätöksen tekemisestä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_25__subsec_3">
+                            <content>
+                                <p>Merenkulkulaitoksen 9 §:n nojalla antamaan päätökseen haetaan muutosta siten kuin hallintolainkäyttölaissa (586/1996) säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_26">
+                        <num>26 §</num>
+                        <heading>Muutoksenhaku korkeimpaan hallinto-oikeuteen</heading>
+                        <subsection eId="chp_6__sec_26__subsec_1">
+                            <intro eId="chp_6__sec_26__subsec_1__intro">
+                                <p>Hallinto-oikeuden päätökseen saa hakea muutosta valittamalla korkeimpaan hallinto-oikeuteen, jos korkein hallinto-oikeus myöntää valitusluvan. Valitusluvan myöntämisen perusteet ovat:</p>
+                            </intro>
+                            <paragraph eId="chp_6__sec_26__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>lain soveltamisen kannalta muissa samanlaisissa tapauksissa tai oikeuskäytännön yhtenäisyyden vuoksi on tärkeää saattaa asia korkeimman hallinto-oikeuden ratkaistavaksi;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_6__sec_26__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>asian saattamiseen korkeimman hallinto-oikeuden ratkaistavaksi on erityistä aihetta asiassa tapahtuneen ilmeisen virheen vuoksi; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_6__sec_26__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>valitusluvan myöntämiseen on painava taloudellinen tai muu syy.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_6__sec_26__subsec_2">
+                            <content>
+                                <p>Valitus on tehtävä 60 päivän kuluessa hallinto-oikeuden päätöksen tiedoksisaannista. Valituskirjelmä on toimitettava valitusajassa korkeimmalla hallinto-oikeudelle tai Helsingin hallinto-oikeudelle. Valtion puolesta valitusoikeus on Tullihallituksessa olevalla tulliasiamiehellä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_26__subsec_3">
+                            <content>
+                                <p>Jos tässä laissa ei toisin säädetä, muutoksenhausta on muutoin voimassa, mitä hallintolainkäyttölaissa säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_27">
+                        <num>27 §</num>
+                        <heading>Väylämaksun suorittaminen muutoksenhausta riippumatta</heading>
+                        <subsection eId="chp_6__sec_27__subsec_1">
+                            <content>
+                                <p>Väylämaksu on valituksesta huolimatta maksettava säädetyssä ajassa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_28">
+                        <num>28 §</num>
+                        <heading>Palautettavalle määrälle suoritettava korko</heading>
+                        <subsection eId="chp_6__sec_28__subsec_1">
+                            <content>
+                                <p>Jos väylämaksua palautetaan maksunoikaisun tai valituksen johdosta, palautusmäärälle suoritetaan korko. Korko lasketaan vuotuisena korkona, joka on kutakin kalenterivuotta edeltävän puolivuotiskauden korkolain 12 §:ssä tarkoitettu viitekorko vähennettynä kahdella prosenttiyksiköllä. Korko lasketaan maksupäivästä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_28__subsec_2">
+                            <content>
+                                <p>Korkoa ei makseta 17 euroa pienemmälle palautettavalle määrälle. Palautukselle maksettu korko ei ole tuloverotuksessa veronalaista tuloa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_7">
+                    <num>7 luku</num>
+                    <heading>Erinäiset säännökset</heading>
+                    <section eId="chp_7__sec_29">
+                        <num>29 §</num>
+                        <heading>Muut väylämaksun kantamisessa sovellettavat säännökset</heading>
+                        <subsection eId="chp_7__sec_29__subsec_1">
+                            <content>
+                                <p>Väylämaksun maksamisen viivästysseuraamuksiin sovelletaan, jollei tässä laissa toisin säädetä, mitä veronlisäyksestä ja viivekorosta annetussa laissa (1556/1995) säädetään. Väylämaksun kannossa, perimisessä ja palauttamisessa noudatetaan soveltuvin osin, mitä veronkantolaissa (609/2005) tai sen nojalla säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_29__subsec_2">
+                            <content>
+                                <p>Väylämaksun perimiseen ulosottotoimin ja perimisen turvaamiseen sovelletaan, jollei tässä laissa toisin säädetä, mitä verojen ja maksujen perimisestä ulosottotoimin annetussa laissa (367/1961) säädetään sekä mitä verojen ja maksujen perimisen turvaamisesta annetussa laissa (395/1973) säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_30">
+                        <num>30 §</num>
+                        <heading>Pienin perittävä määrä</heading>
+                        <subsection eId="chp_7__sec_30__subsec_1">
+                            <content>
+                                <p>Pienin perittävä väylämaksun määrä on 10 euroa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_31">
+                        <num>31 §</num>
+                        <heading>Tietojenantovelvollisuus</heading>
+                        <subsection eId="chp_7__sec_31__subsec_1">
+                            <content>
+                                <p>Maksuvelvollisen on pyydettäessä annettava tulliviranomaiselle väylämaksun kantamista, valvontaa ja tarkastamista varten tarpeellisia tietoja ja asiakirjoja.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_32">
+                        <num>32 §</num>
+                        <heading>Maksunkierto</heading>
+                        <subsection eId="chp_7__sec_32__subsec_1">
+                            <content>
+                                <p>Jos jollekin olosuhteelle tai toimenpiteelle on annettu sellainen oikeudellinen muoto, joka ei vastaa asian varsinaista luonnetta tai tarkoitusta, on väylämaksatusta toimitettaessa meneteltävä niin kuin asiassa olisi käytetty oikeaa muotoa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_33">
+                        <num>33 §</num>
+                        <heading>Sähköinen tiedoksianto</heading>
+                        <subsection eId="chp_7__sec_33__subsec_1">
+                            <content>
+                                <p>Tulliviranomaisen päätös voidaan antaa tiedoksi myös sähköisesti käyttämällä maksuvelvollisen ilmoittamaa sähköistä asiointia koskevaa yhteystietoa. Päätöksen katsotaan tuolloin tulleen maksuvelvollisen tietoon sähköisen viestin lähettämispäivänä, jollei muuta näytetä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_34">
+                        <num>34 §</num>
+                        <heading>Rangaistussäännös</heading>
+                        <subsection eId="chp_7__sec_34__subsec_1">
+                            <content>
+                                <p>Rangaistus veropetoksesta, törkeästä veropetoksesta ja lievästä veropetoksesta säädetään rikoslain (39/1889) 29 luvun 1―3 §:ssä. </p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <section eId="sec_35">
+                    <num>35 §</num>
+                    <heading>Voimaantulo</heading>
+                    <subsection eId="sec_35__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_35__subsec_2">
+                        <content>
+                            <p>Tällä lailla kumotaan 16 päivänä elokuuta 2002 annettu väylämaksulaki (708/2002) ja väylämaksusta 22 päivänä elokuuta 2002 annettu valtioneuvoston asetus (719/2002).</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_35__subsec_3">
+                        <content>
+                            <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_36">
+                    <num>36 §</num>
+                    <heading>Siirtymäsäännökset</heading>
+                    <subsection eId="sec_36__subsec_1">
+                        <content>
+                            <p>Väylämaksuun, jonka peruste on syntynyt ennen tämän lain voimaantuloa, sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_36__subsec_2">
+                        <content>
+                            <p>Kumotun väylämaksulain 12 §:n 3 momentin nojalla annetut Merenkulkulaitoksen määräykset ja Merenkulkulaitoksen vahvistama luettelo jäävät edelleen voimaan, kunnes niistä määrätään toisin alusten jääluokista ja jäänmurtaja-avustuksesta annetun lain nojalla.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/150">HE 150/2005</ref>
+                        </p>
+                        <p>LiVM 24/2005</p>
+                        <p>EV 171/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 22 päivänä joulukuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Liikenne- ja viestintäministeri </role>
+                                <person refersTo="">Susanna Huovinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

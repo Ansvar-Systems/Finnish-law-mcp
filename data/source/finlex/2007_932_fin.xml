@@ -1,0 +1,143 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/932/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/932"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/932/alkup"/>
+                    <FRBRdate date="2007-10-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="932"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/932/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/932/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/932/alkup/fin"/>
+                    <FRBRdate date="2007-10-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/932/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/932/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/932/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="143"/>
+                    <finlex:date date="2007-10-31"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>932/2007</docNumber>
+                <docTitle>Laki ulkomaisen luotto- ja rahoituslaitoksen toiminnasta Suomessa annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         ulkomaisen luotto- ja rahoituslaitoksen toiminnasta Suomessa 30 päivänä joulukuuta 1993 annettuun lakiin (
+                        <affectedDocument href="/akn/fi/act/statute/1993/1608">1608/1993</affectedDocument>
+                        ) uusi 6 d ja 8 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>6 d §</num>
+                    <heading>Sijoituspalvelujen tarjoaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Ulkomaiseen luotto- ja rahoituslaitokseen, joka toimilupansa mukaan tarjoaa sijoituspalveluja ja jolla on Suomessa sivuliike, sovelletaan lisäksi, mitä arvopaperimarkkinalaissa (495/1989), lukuun ottamatta sen 4 luvun 7, 12, 14 ja 15 §:ää, sekä sijoituspalveluyrityksistä annetun lain (922/2007) 36 ja 37 §:ssä säädetään arvopaperinvälittäjän velvollisuuksista sijoituspalvelujen tarjoamisessa ja ulkomaisen sijoituspalveluyrityksen oikeudesta tarjota sijoituspalvelua Suomessa annetun lain 4 c §:n 2 momentissa oheispalvelun tarjoamisesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitettuun ulkomaiseen luotto- ja rahoituslaitokseen sovelletaan lisäksi, mitä ulkomaisen sijoituspalveluyrityksen oikeudesta tarjota sijoituspalvelua Suomessa annetussa laissa säädetään ulkomaisen sidonnaisasiamiehen käyttämisestä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ulkomaiseen luotto- ja rahoituslaitokseen, joka tarjoaa Suomeen sijoittuneille osapuolille suoran mahdollisuuden käydä kauppaa sijoituspalveluyrityksistä annetussa laissa tarkoitettua monenkeskistä kaupankäyntiä vastaavassa järjestelmässä, sovelletaan, mitä ulkomaisen sijoituspalveluyrityksen oikeudesta tarjota sijoituspalveluja Suomessa annetun lain 5 §:n 4 ja 5 momentissa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ulkomaisen luotto- ja rahoituslaitoksen sivuliikkeen toiminnan rajoittamiseen ja sijoituspalvelujen tarjoamisen vapauden rajoittamiseen sovelletaan, mitä ulkomaisen sijoituspalveluyrityksen oikeudesta tarjota sijoituspalveluja Suomessa annetun lain 6 ja 6 a §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>8 a §</num>
+                    <heading>Sijoituspalvelujen tarjoaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Ulkomaiseen luottolaitokseen, jolla on Suomessa sivuliike ja joka tarjoaa Suomessa sijoituspalveluja, sovelletaan lisäksi, mitä sijoituspalvelun tarjoamisesta liiketoimintana ja arvopaperimarkkinalaissa tarkoitetun arvopaperinvälittäjän velvollisuuksista laissa säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä marraskuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/43">HE 43/2007</ref>
+                        </p>
+                        <p>TaVM 4/2007</p>
+                        <p>EV 39/2007</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2004/39/EY (32004L0039); EYVL N:o L 145, 30.4.2004, s. 1</p>
+                        <p>Komission direktiivi 2006/73/EY (32006L0073); EYVL N:o L 241, 2.9.2006, s. 26</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 26 päivänä lokakuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Hallinto- ja kuntaministeri </role>
+                                <person refersTo="">Mari Kiviniemi</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

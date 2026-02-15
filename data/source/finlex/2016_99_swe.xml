@@ -1,0 +1,170 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/99/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/99"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/99/alkup"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="99"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/99/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/99/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/99/alkup/swe"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/99/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/99/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/99/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>99/2016</docNumber>
+                <docTitle>Lag om ändring av lagen om beräkning av solvensgränsen för pensionsanstalter och om diversifiering av placeringar</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om beräkning av solvensgränsen för pensionsanstalter och om diversifiering av placeringar (
+                        <affectedDocument href="/akn/fi/act/statute/2015/315">315/2015</affectedDocument>
+                        ) 1 § 2 mom. och 17 § 1 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 7 a § och till 8 § ett nytt 2 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Tillämpningsområde</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>På Lantbruksföretagarnas pensionsanstalt tillämpas 4—7, 7 a, 26 och 27 § i denna lag.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 a §</num>
+                    <heading>Aktieplaceringarnas maximibelopp</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Av en pensionsanstalts placeringar får högst 65 procent vara aktieplaceringar. Med 
+                                <i>aktieplaceringar</i>
+                                 avses det sammanlagda beloppet av placeringar som exponerats för riskklasserna 1—5 enligt 11 § 1 mom. Om den underliggande tillgången i ett derivatavtal är en aktieplacering, avses med det belopp som exponerats för aktierisken i derivatavtalet derivatavtalets deltaekvivalent som avses i 19 § 3 mom.
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>8 §</num>
+                    <heading>Överskridning av gränserna för diversifiering</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Om den gräns som nämns i 7 a § och som gäller aktieplaceringar överskrids, läggs till den solvensgräns som avses i 23 § ett belopp som är 100 procent av det belopp som överskrider gränsen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>17 §</num>
+                    <heading>Risk avseende avkastningskrav och försäkringsrisk</heading>
+                    <subsection>
+                        <content>
+                            <p>Trots bestämmelserna i 12 § beräknas riskvärdet för klassen för risk avseende avkastningskrav enligt formeln</p>
+                            <foreign>
+                                <finlex:latex>$  V_j = (k + bC - \lambda S_j) A_j ,  $</finlex:latex>
+                            </foreign>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>
+                                där k är den diskonteringsränta som används vid beräkningen av ansvarsskulden eller pensionsansvaret, b är den avsättningskoefficient för pensionsansvaret som avses i 171 § 1 mom. i lagen om pension för arbetstagare (395/2006) som gäller dagen efter beräkningstidpunkten, S
+                                <sub>j</sub>
+                                 är den förväntade förlust som fastställts för risk avseende avkastningskrav och A
+                                <sub>j</sub>
+                                 är ansvarsskulden eller pensionsansvaret, med avdrag för ofördelat och fördelat tilläggsförsäkringsansvar enligt 14 § 2 mom. i lagen om arbetspensionsförsäkringsbolag, tilläggsförsäkringsansvar enligt 43 § 2 mom. i lagen om pensionsstiftelser och 79 § 2 mom. i lagen om försäkringskassor samt de poster som enligt 139 § 2 mom. i lagen om pension för företagare (1272/2006) inte beaktas i premieansvaret.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2017</p>
+                    <p>Vid tillämpning av 17 § 1 mom. dras från Ömsesidiga Pensionsförsäkringsbolaget Eteras ansvarsskuld av även den del av utjämningsbeloppet enligt 4 mom. i ikraftträdandebestämmelsen i lagen om ändring av lagen om arbetspensionsförsäkringsbolag (96/2016) som hänförs till solvenskapitalet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/16">RP 16/2015</ref>
+                        </p>
+                        <p>ShUB 5/2015</p>
+                        <p>RSv 37/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 januari 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister</role>
+                                <person refersTo="">Hanna Mäntylä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

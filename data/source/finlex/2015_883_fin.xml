@@ -1,0 +1,174 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/883/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/883"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/883/alkup"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-10" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="883"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/883/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/883/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/883/alkup/fin"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-10" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/883/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/883/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/883/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2015-08-10" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>883/2015</docNumber>
+                <docTitle>Laki työttömyysturvalain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         työttömyysturvalain (<affectedDocument href="/akn/fi/act/statute/2002/1290">1290/2002</affectedDocument>) 4 luvun 7 §:n 1 momentin 3 ja 11 kohta, 6 luvun 11 §:n 3 momentin 3 kohta ja 11 luvun 14 §:n 1 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 4 luvun 7 §:n 1 momentin 3 ja 11 kohta laissa 1188/2009, 6 luvun 11 §:n 3 momentin 3 kohta laissa 1252/2006 ja 11 luvun 14 §:n 1 momentti laissa 707/2010, seuraavasti:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>4 luku</num>
+                    <heading>Soviteltu ja vähennetty työttömyysetuus</heading>
+                    <section>
+                        <num>7 §</num>
+                        <heading>Sosiaalietuuksien vaikutus työttömyysetuuteen</heading>
+                        <subsection>
+                            <intro>
+                                <p>
+                                    Jos henkilö saa muuta kuin 3 luvun 4 §:ssä tarkoitettua lakisääteistä etuutta tai saa työkyvyttömyyseläkettä toisen valtion lainsäädännön mukaan taikka kansaneläkettä kansaneläkelain 12 §:n 4 momentin perusteella, hänen täysimääräisestä työttömyysetuudestaan vähennetään sosiaalietuus. Tällöin ei kuitenkaan seuraavia eläkkeitä ja sosiaalietuuksia oteta huomioon (<i>etuoikeutetut tulot</i>):
+                                </p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>työtapaturma- ja ammattitautilain (459/2015) ja maatalousyrittäjän työtapaturma- ja ammattitautilain (873/2015) mukainen haittaraha;</p>
+                                </content>
+                            </paragraph>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>11)</num>
+                                <content>
+                                    <p>työtapaturma- ja ammattitautilain, maatalousyrittäjän työtapaturma- ja ammattitautilain sekä sotilasvammalain mukaiset kustannusten korvaukset.</p>
+                                </content>
+                            </paragraph>
+                            <hcontainer name="omission"/>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>6 luku</num>
+                    <heading>Työttömyyspäivärahan määrä ja kesto</heading>
+                    <section>
+                        <num>11 §</num>
+                        <heading>Työssäoloajan laskeminen</heading>
+                        <subsection>
+                            <intro>
+                                <p>Edellä 3 a §:ssä tarkoitettua työssäoloaikaa laskettaessa työhön rinnastettavana aikana otetaan lisäksi huomioon sellainen täysi kalenterikuukausi:</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>jona henkilö on ollut työkyvytön saaden työntekijän eläkelain 3 §:ssä mainittujen lakien perusteella eläkettä, kuntoutustukea tai työtapaturma- ja ammattitautilain tai maatalousyrittäjän työtapaturma- ja ammattitautilain mukaista tapaturmaeläkettä.</p>
+                                </content>
+                            </paragraph>
+                            <hcontainer name="omission"/>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>11 luku</num>
+                    <heading>Toimeenpanoa koskevat säännökset</heading>
+                    <section>
+                        <num>14 §</num>
+                        <heading>Työttömyysetuuden periminen eräissä tapauksissa</heading>
+                        <subsection>
+                            <content>
+                                <p>Jos henkilö on saanut työttömyysetuutta samalta ajalta, jolta hänelle myönnetään takautuvasti kansaneläkettä, kansaneläkelain mukaista lapsikorotusta, takuueläkettä tai eläkettä työ- tai virkasuhteen taikka yrittäjätoiminnan perusteella, luopumistukea taikka sairausvakuutuslain mukaista päivärahaa, kuntoutusrahalain mukaista kuntoutusrahaa, työtapaturma- ja ammattitautilain tai maatalousyrittäjän työtapaturma- ja ammattitautilain mukaista päivärahaa tai tapaturmaeläkettä, työttömyyskassa tai Kansaneläkelaitos saa periä tältä ajalta perusteettomasti maksetun työttömyysetuuden määrän takautuvasti suoritettavasta eläkkeestä, luopumistuesta, päivärahasta tai tapaturmaeläkkeestä.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                    <p>Mitä tässä laissa säädetään työtapaturma- ja ammattitautilain tai maatalousyrittäjän työtapaturma- ja ammattitautilain mukaisesta etuudesta, sovelletaan tapaturmavakuutuslain (608/1948) tai maatalousyrittäjien tapaturmavakuutuslain (1026/1981) mukaiseen vastaavaan etuuteen.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/278">HE 278/2014</ref>
+                        </p>
+                        <p>StVM 50/2014</p>
+                        <p>MmVL 47/2014</p>
+                        <p>TyVL 17/2014</p>
+                        <p>EV 320/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>  Naantalissa 7 päivänä elokuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Perhe- ja peruspalveluministeri</role>
+                                <person refersTo="">Juha Rehula</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

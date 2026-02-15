@@ -1,0 +1,612 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/448/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/448"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/448/alkup"/>
+                    <FRBRdate date="2024-06-28" name="dateIssued"/>
+                    <FRBRdate date="2024-07-02" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="448"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/448/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/448/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/448/alkup/fin"/>
+                    <FRBRdate date="2024-06-28" name="dateIssued"/>
+                    <FRBRdate date="2024-07-02" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/448/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/448/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/448/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-05" name="dateProduced"/>
+                    <FRBRdate date="2024-07-02" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>448/2024</docNumber>
+                <docTitle>Laki arvonlisäverolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti </p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         arvonlisäverolain (<affectedDocument href="/akn/fi/act/statute/1993/1501">1501/1993</affectedDocument>) 14 a luku, sellaisena kuin se on laissa 1301/2003,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         3 §, 123 §:n 2 momentti, 137 §:n 1, 4 ja 5 momentti, 173 §:n 2 momentti sekä 216 §,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 3 § laeissa 1301/2003, 961/2020, 623/2021 ja 1113/2021, 123 §:n 2 momentti laissa 1359/2009, 137 §:n 1, 4 ja 5 momentti laissa 1152/2016, 173 §:n 2 momentti laissa 1061/2007 ja 216 § laissa 773/2016, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 3 a §, 131 §:ään, sellaisena kuin se on laeissa 1486/1994, 505/2014, 507/2014 ja 1113/2021, uusi 2 momentti, jolloin nykyinen 2 momentti siirtyy 3 momentiksi, lakiin siitä lailla 784/2020 kumotun 14 luvun tilalle uusi 14 luku ja 173 §:ään, sellaisena kuin se on laeissa 377/1994, 1061/2007 ja 529/2010, uusi 2 momentti, jolloin muutettu 2 momentti ja nykyinen 3 momentti siirtyvät 3 ja 4 momentiksi, seuraavasti: 
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <crossHeading eId="crossHeading">Vähäinen toiminta</crossHeading>
+                <section>
+                    <num>3 §</num>
+                    <subsection>
+                        <content>
+                            <p>Myyjä ei ole verovelvollinen, jos kuluvan kalenterivuoden ja sitä edeltäneen kalenterivuoden liikevaihto on enintään 20 000 euroa, ellei häntä ole oman ilmoituksensa perusteella merkitty verovelvolliseksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitettuun liikevaihtoon luetaan verollisten myyntien, 38 d, 56, 58, 70, 70 b, 71, 72 ja 72 a–72 e §:n perusteella verottomien myyntien, kiinteistön tai siihen kohdistuvien oikeuksien luovutusten sekä 41 §:ssä tarkoitettujen rahoituspalvelujen ja 44 §:ssä tarkoitettujen vakuutuspalvelujen myyntien yhteismäärä. Liikevaihtoon ei lueta liitännäisluonteisten rahoitus- ja vakuutuspalvelujen eikä käyttöomaisuuden myyntejä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitettuun liikevaihtoon luetaan 2 momentissa tarkoitettujen myyntien arvonlisäveroton arvo.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Mitä 1 momentissa säädetään, ei sovelleta:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>ulkomaalaiseen, jonka liiketoiminnan kotipaikka on Yhteisön ulkopuolella;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>hyvinvointialueeseen; eikä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3) </num>
+                            <content>
+                                <p>kuntaan.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Mitä 3 §:ssä säädetään, sovelletaan ulkomaalaiseen, jonka liiketoiminnan kotipaikka on muussa jäsenvaltiossa kuin Suomessa vain, jos kuluvan kalenterivuoden ja sitä edeltäneen kalenterivuoden liikevaihto unionissa on enintään 100 000 euroa, ellei häntä ole oman ilmoituksensa perusteella merkitty verovelvolliseksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>
+                                Edellä 1 momentissa tarkoitettuun liikevaihtoon unionissa lasketaan Yhteisön alueella tapahtuvien yhteisestä arvonlisäverojärjestelmästä annetun neuvoston direktiivin 2006/112/EY (<i>arvonlisäverodirektiivi</i>) 288 artiklan 1 kohdassa tarkoitettujen liiketoimien arvo. Liikevaihtoon ei lueta mainitun kohdan e alakohdassa tarkoitettuja liitännäisiä rahoitus-, vakuutus- ja jälleenvakuutuspalveluja eikä 288 artiklan 2 kohdassa tarkoitettuja aineellisten tai aineettomien tuotantohyödykkeiden luovutuksia.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitettuun liikevaihtoon luetaan 2 momentissa tarkoitettujen myyntien arvonlisäveroton arvo.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>123 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos elinkeinonharjoittaja suorittaa sijoittautumisvaltiossa sekä vähennykseen oikeuttavia että vähennykseen oikeuttamattomia liiketoimia, hän saa 122 ja 122 a §:n mukaisesta palautettavasta verosta enintään vähennykseen oikeuttaviin liiketoimiin liittyvän osuuden. Vähennyskelpoinen osuus määritetään toiseen jäsenvaltioon sijoittautuneen elinkeinonharjoittajan osalta arvonlisäverodirektiivin 173 artiklaan perustuvan sijoittautumisvaltion lainsäädännön mukaisesti.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>131 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Mitä 1 momentin 4 kohdassa säädetään, ei sovelleta toisessa jäsenvaltiossa tapahtuvaan myyntiin, joka on veroton 3 ja 3 a §:ää vastaavien säännösten perusteella.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>137 §</num>
+                    <subsection>
+                        <content>
+                            <p>Verovelvollinen, jonka kalenterivuoden liikevaihto on enintään 500 000 euroa taikka verovelvollinen, johon ei sovelleta kirjanpitolakia tai jolla on oikeus laatia maksuperusteinen tilinpäätös tai olla laatimatta tilinpäätöstä, saa kohdistaa myynnistä suoritettavan veron 15 §:n 1 momentin 1 kohdassa mainituissa tilanteissa sille kalenterikuukaudelle, jonka aikana myyntihinta tai sen osa on kertynyt.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos 1 momentissa tarkoitettua menettelyä soveltavan verovelvollisen, joka ei ole oikeutettu laatimaan maksuperusteista tilinpäätöstä tai olemaan laatimatta tilinpäätöstä, kalenterivuoden liikevaihto ylittää 500 000 euroa ja ylitys johtuu ennakoimattomasta tai yllättävästä syystä, verovelvollinen voi jatkaa menettelyn soveltamista tilikauden loppuun.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 ja 4 momentissa tarkoitettu kalenterivuoden liikevaihto lasketaan 3 §:n mukaisesti.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <chapter>
+                    <num>14 luku</num>
+                    <heading>Vähäisen toiminnan harjoittamista Yhteisössä koskeva erityisjärjestelmä</heading>
+                    <section>
+                        <num>149 §</num>
+                        <subsection>
+                            <content>
+                                <p>Suomeen sijoittautuneella elinkeinonharjoittajalla tarkoitetaan tätä lukua sovellettaessa elinkeinonharjoittajaa, jonka 149 a §:ssä tarkoitettu sijoittautumisjäsenvaltio on Suomi ja joka on oikeutettu soveltamaan 3 ja 3 a §:ää vastaaviin säännöksiin perustuvaa verottomuutta muussa jäsenvaltiossa kuin Suomessa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Toiseen jäsenvaltioon sijoittautuneella elinkeinonharjoittajalla tarkoitetaan tätä lukua sovellettaessa elinkeinonharjoittajaa, jonka 149 a §:ssä tarkoitettu sijoittautumisjäsenvaltio on muu jäsenvaltio kuin Suomi ja joka on oikeutettu soveltamaan 3 §:ssä tarkoitettua vähäistä toimintaa koskevaa verottomuutta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>149 a §</num>
+                        <subsection>
+                            <content>
+                                <p>Sijoittautumisjäsenvaltiolla tarkoitetaan tätä lukua sovellettaessa jäsenvaltiota, jossa elinkeinonharjoittajalla on liiketoiminnan kotipaikka.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Verottomuuden myöntävällä jäsenvaltiolla tarkoitetaan tätä lukua sovellettaessa sellaista muuta kuin 1 momentissa tarkoitettua jäsenvaltiota, jossa 3 ja 3 a §:ää vastaaviin säännöksiin perustuvaa verottomuutta sovelletaan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>149 b §</num>
+                        <subsection>
+                            <content>
+                                <p>Suomeen sijoittautuneen elinkeinonharjoittajan, joka aikoo soveltaa verottomuutta muussa jäsenvaltiossa, on annettava ennakkoilmoitus.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Ennakkoilmoituksessa on ilmoitettava: </p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>elinkeinonharjoittajan nimi, toimiala, oikeudellinen muoto ja osoite;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>jäsenvaltiot, joissa verottomuutta aiotaan soveltaa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>kuluvaa kalenterivuotta edeltäneen kalenterivuoden aikana Suomessa ja muissa jäsenvaltioissa tehtyjen 3 §:n 2 momentissa ja 3 a §:n 2 momentissa tarkoitettujen tavaroiden ja palvelujen myyntien yhteismäärä eriteltynä jäsenvaltioittain; ja</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>kuluvan kalenterivuoden aikana Suomessa ja muissa jäsenvaltioissa tehtyjen 3 §:n 2 momentissa ja 3 a §:n 2 momentissa tarkoitettujen tavaroiden ja palvelujen myyntien yhteismäärä eriteltynä jäsenvaltioittain.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Niiden jäsenvaltioiden osalta, joissa verottomuuden edellytyksenä on, ettei 3 §:n 1 momenttia vastaavaan säännökseen perustuva liikevaihdon raja-arvo ylity kahtena kuluvaa kalenterivuotta edeltäneenä kalenterivuonna, 2 momentin 3 ja 4 kohdassa tarkoitetut tiedot on annettava kuluvalta ja kultakin kahdelta sitä edeltäneeltä kalenterivuodelta eriteltynä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Niiden jäsenvaltioiden osalta, joissa sovelletaan eri raja-arvoja eri liiketoiminnan aloille, 2 momentin 3 ja 4 kohdassa tarkoitetut tiedot on ilmoitettava erikseen kunkin raja-arvon osalta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Verohallinto antaa tarkemmat määräykset 2–4 momentissa tarkoitetuista tiedoista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>149 c §</num>
+                        <subsection>
+                            <content>
+                                <p>Suomeen sijoittautuneen elinkeinonharjoittajan on ilmoitettava etukäteen 149 b §:n 2 momentissa tarkoitettujen tietojen muutoksista.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Edellä 1 momentissa tarkoitetussa ilmoituksessa on oltava 149 d §:ssä tarkoitettu yksilöllinen tunniste ja seuraavat tiedot:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>uudet jäsenvaltiot, joissa verottomuutta aiotaan soveltaa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>jäsenvaltiot, joissa verottomuuden soveltaminen lopetetaan;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>149 b §:n 2 momentin 3 ja 4 kohdassa tarkoitetut tiedot.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 momentissa tarkoitetussa ilmoituksessa saadaan ilmoittaa 2 momentin 3 kohdassa tarkoitetut tiedot vain siltä osin kuin ne eivät sisälly 149 e §:ssä tarkoitettuun neljänneskalenterivuosi-ilmoitukseen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 3 §:ssä tarkoitetun verottomuuden soveltamisen katsotaan päättyvän tässä pykälässä säädettyä ilmoitusta vastaavan toiseen jäsenvaltioon sijoittautuneen elinkeinonharjoittajan ilmoituksen vastaanottamista seuraavan neljänneskalenterivuoden alusta. Jos ilmoitus vastaanotetaan neljänneskalenterivuoden viimeisen kuukauden aikana, verottomuuden soveltamisen katsotaan kuitenkin päättyvän ilmoituksen vastaanottamista seuraavan kalenterivuoden neljänneksen toisen kuukauden alusta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Verohallinto antaa tarkemmat määräykset 2 ja 3 momentissa tarkoitetuista tiedoista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>149 d §</num>
+                        <subsection>
+                            <content>
+                                <p>Suomeen sijoittautunut elinkeinonharjoittaja merkitään erilliseen tunnistamisrekisteriin ja hänelle annetaan yksilöllinen tunniste verottomuuden soveltamista varten.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 momentissa tarkoitettu yksilöllinen tunniste on elinkeinonharjoittajalle Suomessa myönnetty arvonlisäverotunniste tai arvonlisäverotunnistetta vastaava tunniste, johon on lisätty pääte "EX".</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Verohallinto antaa tarkemmat määräykset 1 momentissa tarkoitetusta tunnisteesta ja tunnisteen tiedoksiantotavasta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>149 e §</num>
+                        <subsection>
+                            <content>
+                                <p>Suomeen sijoittautuneen elinkeinonharjoittajan on annettava kultakin kalenterivuoden neljännekseltä neljänneskalenterivuosi-ilmoitus.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Neljänneskalenterivuosi-ilmoituksessa on oltava 149 d §:ssä tarkoitettu yksilöllinen tunniste ja seuraavat tiedot:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>neljänneskalenterivuoden aikana Suomessa tehtyjen 3 §:n 2 momentissa tarkoitettujen tavaroiden ja palvelujen myyntien yhteismäärä; ja</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>neljänneskalenterivuoden aikana muissa jäsenvaltioissa kuin Suomessa tehtyjen 3 a §:n 2 momentissa tarkoitettujen tavaroiden ja palvelujen myyntien yhteismäärä jäsenvaltioittain eriteltynä.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos 2 momentin 1 tai 2 kohdassa tarkoitettuja myyntejä ei ole tehty, myyntien arvoksi ilmoitetaan nolla.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Niiden jäsenvaltioiden osalta, joissa sovelletaan eri raja-arvoja eri liiketoiminnan aloille, 2 momentin 1 ja 2 kohdassa tarkoitetut tiedot on ilmoitettava erikseen kunkin raja-arvon osalta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Neljänneskalenterivuosi-ilmoitus on annettava viimeistään sitä kalenterivuoden neljännestä seuraavan kuukauden viimeisenä päivänä, jota se koskee.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Verohallinto antaa tarkemmat määräykset 2–4 momentissa tarkoitetuista tiedoista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>149 f §</num>
+                        <subsection>
+                            <content>
+                                <p>Suomeen sijoittautuneen elinkeinonharjoittajan on korjattava 149 e §:ssä tarkoitetussa ilmoituksessa oleva virhe antamalla kyseiseltä neljänneskalenterivuodelta oikaisuilmoitus.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Oikaisuilmoituksessa on oltava 149 e §:n 2 momentissa tarkoitetut korjatut tiedot jäsenvaltioittain eriteltynä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Verohallinto antaa tarkemmat määräykset virheen korjaamisessa noudatettavasta menettelystä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>149 g §</num>
+                        <subsection>
+                            <content>
+                                <p>Suomeen sijoittautuneen elinkeinonharjoittajan on ilmoitettava 3 a §:n 1 momentissa tarkoitetun unionin liikevaihdon raja-arvon ylittymisestä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 momentissa tarkoitetussa ilmoituksessa on ilmoitettava 149 e §:n 2 momentissa tarkoitettujen myyntien arvo neljänneskalenterivuoden alusta siihen päivään, jona raja-arvo ylittyi.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 momentissa tarkoitettu ilmoitus on annettava viimeistään 15 työpäivän kuluessa raja-arvon ylittymisestä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Verohallinto antaa tarkemmat määräykset 2 momentissa tarkoitetuista tiedoista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>149 h §</num>
+                        <subsection>
+                            <content>
+                                <p>Edellä 149 b, 149 c, 149 e, 149 f ja 149 g §:ssä tarkoitettujen ilmoitusten tiedot on ilmoitettava euromääräisinä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos 1 momentissa tarkoitetussa ilmoituksessa ilmoitettava myynti on tapahtunut muuna valuuttana kuin euroina, elinkeinonharjoittajan on käytettävä kalenterivuoden ensimmäisenä päivänä sovellettavaa muuntokurssia. Muuntamisessa on käytettävä Euroopan keskuspankin kyseiselle päivälle julkaisemaa muuntokurssia tai, jos kurssia ei ole julkaistu kyseisenä päivänä, seuraavana julkaisupäivänä julkaistua kurssia.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 momentissa tarkoitetut ilmoitukset annetaan sähköisesti Verohallinnolle.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Verohallinto antaa tarkemmat säännökset 1 momentissa tarkoitettujen ilmoitusten antotavasta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>149 i §</num>
+                        <subsection>
+                            <intro>
+                                <p>Verohallinnon on viipymättä poistettava käytöstä Suomeen sijoittautuneen elinkeinonharjoittajan 149 d §:ssä tarkoitettu yksilöllinen tunniste, jos:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>elinkeinonharjoittajan ilmoittama 3 a §:n 1 momentissa tarkoitettu unionin liikevaihdon raja-arvo ylittyy;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>verottomuuden myöntävä jäsenvaltio ilmoittaa, että elinkeinonharjoittaja ei ole oikeutettu verottomuuteen tai että sen soveltaminen on muutoin päättynyt;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>elinkeinonharjoittaja ilmoittaa lopettavansa verottomuuden soveltamisen; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>elinkeinonharjoittajan toiminta on päättynyt.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos 1 momentin 2–4 kohdassa tarkoitetuissa tilanteissa elinkeinonharjoittaja jatkaa verottomuuden soveltamista jossakin muussa kuin ilmoituksessa tarkoitetussa jäsenvaltiossa, Verohallinnon on tunnisteen poistamisen sijasta muutettava 149 b §:n 2 momentissa tarkoitettuja tietoja uusia tietoja vastaaviksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>149 j §</num>
+                        <subsection>
+                            <intro>
+                                <p>Toiseen jäsenvaltioon sijoittautuneen elinkeinonharjoittajan 3 §:ssä tarkoitetun verottomuuden soveltamisen katsotaan alkavan siitä päivästä, jona sijoittautumisjäsenvaltio:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>ilmoittaa elinkeinonharjoittajalle yksilöllisen tunnisteen; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>vahvistaa elinkeinonharjoittajalle yksilöllisen tunnisteen 149 c §:ssä tarkoitettua ilmoitusta vastaavan ilmoituksen johdosta.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 momentissa tarkoitetun verottomuuden soveltamisen katsotaan kuitenkin alkavan viimeistään 35 työpäivän kuluttua ennakkoilmoituksen tai ennakkoilmoituksen muutosilmoituksen vastaanottamisesta, lukuun ottamatta tilanteita, joissa Verohallinto tai sijoittautumisjäsenvaltion viranomainen tarvitsee lisäaikaa veropetosten tai veronkierron estämiseksi tarvittavia tarkastuksia varten.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>149 k §</num>
+                        <subsection>
+                            <content>
+                                <p>Verohallinto antaa Suomeen sijoittautuneelle elinkeinonharjoittajalle päätöksen 149 d §:ssä tarkoitettuun erilliseen rekisteriin merkitsemisestä ja rekisteristä poistamisesta sekä siitä, ettei tätä ole ilmoituksestaan poiketen merkitty rekisteriin tai poistettu siitä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Verohallinto antaa toiseen jäsenvaltioon sijoittautuneelle elinkeinonharjoittajalle päätöksen siitä, että 3 §:ssä säädetty liikevaihdon raja-arvo on ylittynyt.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Verohallinto antaa 1 momentissa tarkoitetun päätöksen asianomaiselle tiedoksi sähköisesti. Verohallinto voi antaa päätöksen tiedoksi Verohallinnon sähköisessä asiointipalvelussa. Elinkeinonharjoittajalle lähetetään tiedoksiannosta tieto tämän ilmoittamaan sähköiseen osoitteeseen. Asiakirja katsotaan annetun tiedoksi kolmantena päivänä siitä, kun elinkeinonharjoittajalle on lähetetty tieto tiedoksiannosta. Jos tiedoksiantoa koskevan tiedon vastaanottamisessa tai pääsyssä Verohallinnon sähköiseen asiointipalveluun tänä aikana on ollut tekninen este, asiakirja katsotaan annetun tiedoksi kolmantena päivänä siitä, kun tekninen este on poistunut.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 ja 2 momentissa tarkoitettujen päätösten tiedoksiantoon Veronsaajien oikeudenvalvontayksikölle sovelletaan, mitä oma-aloitteisten verojen verotusmenettelystä annetun lain 57 §:ssä säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>149 l §</num>
+                        <subsection>
+                            <content>
+                                <p>Mitä oma-aloitteisten verojen verotusmenettelystä annetun lain 59 §:ssä säädetään verovelvollisesta, sovelletaan myös Suomeen sijoittautuneeseen elinkeinonharjoittajaan.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Mitä oma-aloitteisten verojen verotusmenettelystä annetun lain 59 §:ssä säädetään verovelvollisesta, sovelletaan myös toiseen jäsenvaltioon sijoittautuneeseen elinkeinonharjoittajaan siltä osin kuin kyse on 149 k §:n 2 momentissa tarkoitetusta päätöksestä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 149 k §:ssä tarkoitettuun päätökseen haetaan muutosta siten kuin oma-aloitteisten verojen verotusmenettelystä annetun lain 62 §:n 5 momentissa säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>149 m §</num>
+                        <subsection>
+                            <content>
+                                <p>Edellä 149 b, 149 c, 149 e ja 149 g §:ssä tarkoitetun ilmoittamisvelvollisuuden laiminlyönnin seuraamuksesta säädetään oma-aloitteisten verojen verotusmenettelystä annetun lain 39 §:ssä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>173 §</num>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Verohallinto merkitsee verovelvollisen rekisteriin siitä lukien, kun 3 §:ssä tarkoitettu liikevaihto ylittää mainitun pykälän 1 momentissa säädetyn raja-arvon tai 3 a §:ssä tarkoitettu liikevaihto ylittää mainitun pykälän 1 momentissa säädetyn raja-arvon.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Sen estämättä, mitä 2 momentissa säädetään, 12, 26 f ja 30 §:n perusteella verovelvollinen merkitään rekisteriin aikaisintaan hakemuksen tekemisestä. Jos 30 §:ssä tarkoitettu elinkeinonharjoittaja voi tehdä 106 §:ssä säädetyn vähennyksen tai soveltaa 106 §:n 3 momenttia ja hakemus on tehty 30 §:ssä tarkoitetun toiminnan alkamisen jälkeen, hän on kuitenkin verovelvollinen mainitun toiminnan alkamisesta.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>216 §</num>
+                        <subsection>
+                            <content>
+                                <p>Niiden verovelvollisten, jotka eivät ole kirjanpitovelvollisia, tilikautena pidetään kalenterivuotta. Paliskuntaryhmän tilikausi on poronhoitovuosi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2025.</p>
+                    <p>Tätä lakia sovelletaan tämän lain voimaantulopäivänä tai sen jälkeen alkavaan tilikauteen taikka lain voimaantulon jälkeiseen tilikauden osaan, jos tilikausi on alkanut ennen lain voimaantuloa.</p>
+                    <p>Tämän lain voimaantuloa edeltävään tilikauden osaan sovelletaan lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                    <p>Verovelvollisella on oikeus saada tämän lain voimaan tullessa voimassa olleessa 149 a §:ssä tarkoitettu huojennus tämän lain voimaantuloa edeltävään tilikauden osaan kuuluvilta kalenterikuukausilta tilitettävästä verosta. Huojennukseen sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä. Huojennuksen laskemista ja määrää koskevat tiedot annetaan vuoden 2024 viimeiseltä verokaudelta annettavan oma-aloitteisten verojen verotusmenettelystä annetun lain (768/2016) 16 §:ssä tarkoitetun veroilmoituksen yhteydessä.</p>
+                    <p>Edellä 3 ja 4 momenttia sovellettaessa tilikautena pidetään 1 päivää tammikuuta 2025 edeltäviä kirjanpitolain (1336/1997) mukaiseen tilikauteen kuuluvia kalenterikuukausia.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/50">HE 50/2024</ref>
+                        </p>
+                        <p>VaVM 9/2024</p>
+                        <p>EV 53/2024</p>
+                        <p>Neuvoston direktiivi (EU) 2020/285 (32020L0285); EUVL L 62, 2.3.2020, s. 13</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 28.6.2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Valtiovarainministeri</role>
+                                <person refersTo="">Riikka Purra</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

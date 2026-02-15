@@ -1,0 +1,154 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/97/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/97"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/97/alkup"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="97"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/97/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/97/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/97/alkup/fin"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/97/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/97/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/97/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>97/2016</docNumber>
+                <docTitle>Laki vakuutuskassalain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         vakuutuskassalain (
+                        <affectedDocument href="/akn/fi/act/statute/1992/1164">1164/1992</affectedDocument>
+                        ) 83 b §:n 2 momentin 7 kohta, sellaisena kuin se on laissa 444/2012, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         79 §:n 3 momentti, 83 b §:n 1 momentti, 83 d §:n 2 momentti ja 111 §:n 3 momentti, 
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 79 §:n 3 momentti ja 83 b §:n 1 momentti laissa 444/2012, 83 d §:n 2 momentti laissa 323/2015 ja 111 §:n 3 momentti laissa 420/2003, seuraavasti:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>79 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Korvausvastuu vastaa sattuneiden vakuutustapahtumien johdosta suoritettavia, maksamatta olevia korvaus- ja muita määriä siltä osin kuin eläkekassalle on syntynyt työntekijän eläkelain tai yrittäjän eläkelain mukaista vastuuta ja muuta kuin lakisääteistä eläkevakuutusta harjoittavan eläkekassan runsasvahinkoisten vuosien varalta vastuuopillisesti laskettavaa tasoitusmäärää.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>83 b §</num>
+                    <subsection>
+                        <content>
+                            <p>Eläkekassan työntekijän eläkelain mukaista toimintaa koskevalla vakavaraisuuspääomalla tarkoitetaan sitä määrää, jolla eläkekassan tämän toiminnan varat ja muut niihin rinnastettavat sitoumukset ja vakuudet ylittävät eläkekassan sanotusta vakuutustoiminnasta johtuvat velat ja muut näihin rinnastettavat sitoumukset ottaen huomioon, mitä 2—7 momentissa säädetään ja 7 momentin nojalla tarkemmin määrätään. Vastuuvelkaa laskettaessa ei oteta huomioon 79 §:n 2 momentissa tarkoitettua lisävakuutusvastuuta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>83 d §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Eläkekassan vakavaraisuuspääoman enimmäismäärä on vakavaraisuusrajan kolminkertainen määrä, kuitenkin vähintään 50 prosenttia vastuuvelasta, josta on vähennetty lisävakuutusvastuu ja erät, joita yrittäjän eläkelain 139 §:n 2 momentin mukaan ei oteta huomioon vakuutusmaksuvastuussa. Lisävakuutusvastuuta voidaan kartuttaa vakuutusmaksuilla vakavaraisuuspääoman enimmäismäärään saakka.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>111 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Kassankokous voi sen lisäksi, mitä 1 momentissa säädetään, päättää kassan asettamisesta selvitystilaan ja sen purkamisesta. Eläkekassan osalta tässä tarkoitetun päätöksen saa kuitenkin toimeenpanna vain, jos kassa on luovuttanut koko vastuunsa toiselle eläkekassalle, eläkesäätiölle tai vakuutusyhtiölle.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2017.</p>
+                    <p>Lakisääteistä eläkevakuutusta harjoittavan eläkekassan 31 päivänä joulukuuta 2016 mennessä kertynyt tasoitusmäärä siirretään 1 päivänä tammikuuta 2017 lisävakuutusvastuuseen.</p>
+                    <p>Sen lisäksi, mitä 72 §:n 2 momentissa säädetään, indeksikorotusvastuuta saa käyttää myös työntekijän eläkelain muuttamisesta annetussa laissa (69/2016) säädetyistä alimman vanhuuseläkeiän muutoksista aiheutuvan vastuuvelan kasvun peittämiseen. Indeksikorotusvastuun ylärajaa määrättäessä voidaan tällöin ottaa huomioon vastuuvelan kasvu 31 päivästä joulukuuta 2016. Finanssivalvonta voi antaa tarkempia määräyksiä tässä momentissa tarkoitetun indeksikorotusvastuun kartuttamisesta ja käyttämisestä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/16">HE 16/2015</ref>
+                        </p>
+                        <p>StVM 5/2015</p>
+                        <p>EV 37/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 29 päivänä tammikuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri</role>
+                                <person refersTo="">Hanna Mäntylä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

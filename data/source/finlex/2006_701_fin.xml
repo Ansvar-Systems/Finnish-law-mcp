@@ -1,0 +1,225 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/701/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/701"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/701/alkup"/>
+                    <FRBRdate date="2006-08-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="701"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/701/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/701/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/701/alkup/fin"/>
+                    <FRBRdate date="2006-08-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/701/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/701/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/701/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="108"/>
+                    <finlex:date date="2006-08-16"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>701/2006</docNumber>
+                <docTitle>Laki työsuojelun valvonnasta ja työpaikan työsuojeluyhteistoiminnasta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         työsuojelun valvonnasta ja työpaikan työsuojeluyhteistoiminnasta 20 päivänä tammikuuta 2006 annetun lain (<affectedDocument href="/akn/fi/act/statute/2006/44">44/2006</affectedDocument>) 42 § sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 5 a luku seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <part>
+                    <num>II OSA</num>
+                    <heading>TYÖSUOJELUN YHTEISTOIMINTA</heading>
+                    <chapter>
+                        <num>5 a luku</num>
+                        <heading>Työsuojelun yhteistoiminta yhteisellä työpaikalla ja yhteisten vaarojen torjunnassa</heading>
+                        <section>
+                            <num>43 a §</num>
+                            <heading>Yhteistoiminnan järjestäminen yhteisellä työpaikalla</heading>
+                            <subsection>
+                                <content>
+                                    <p>
+                                        Työturvallisuuslain 49 §:ssä tarkoitetulla yhteisellä työpaikalla (<i>yhteinen työpaikka</i>) pääasiallista määräysvaltaa käyttävän työnantajan on ryhdyttävä tarpeellisiin toimenpiteisiin, jotta mainitun lain 51 §:stä johtuvat 26 §:n mukaiset yhteistoiminta-asiat käsitellään 27 §:n mukaisesti.
+                                    </p>
+                                </content>
+                            </subsection>
+                        </section>
+                        <section>
+                            <num>43 b §</num>
+                            <heading>Sopimisoikeus</heading>
+                            <subsection>
+                                <content>
+                                    <p>Tässä luvussa tarkoitetusta yhteistoiminnan järjestämisestä yhteisellä työpaikalla voidaan sopia toisin siten kuin 23 §:ssä soveltuvin osin säädetään. Työsuojeluvaltuutetun yhteistoiminta-asioiden hoitamiseksi yhteisellä työpaikalla on tällöin otettava huomioon, mitä sopimisoikeuden rajoituksista säädetään 24 §:ssä.</p>
+                                </content>
+                            </subsection>
+                            <subsection>
+                                <content>
+                                    <p>Pääasiallista määräysvaltaa käyttävän työnantajan palveluksessa olevan työsuojeluvaltuutetun oikeutta toimia työsuojeluvaltuutettuna työturvallisuuslain 51 §:stä johtuvissa työsuojelun yhteistoiminta-asioissa ei voida rajoittaa 23 §:n 3 momentissa tarkoitetulla sopimuksella.</p>
+                                </content>
+                            </subsection>
+                            <subsection>
+                                <content>
+                                    <p>Siitä, että yhteinen työpaikka on 25 §:ssä tarkoitettu työpaikka ei voida sopia toisin 23 §:ssä tarkoitetuilla sopimuksilla.</p>
+                                </content>
+                            </subsection>
+                        </section>
+                        <section>
+                            <num>43 c §</num>
+                            <heading>Yhteistoiminnan osapuolet yhteisellä työpaikalla</heading>
+                            <subsection>
+                                <content>
+                                    <p>Yhteisellä työpaikalla yhteistoiminnan osapuolina ovat työturvallisuuslain 51 §:stä johtuvissa 26 §:n mukaisissa yhteistoiminta-asioissa pääasiallista määräysvaltaa käyttävä työnantaja tai tämän edustaja ja pääasiallista määräysvaltaa käyttävän työnantajan palveluksessa oleva työsuojeluvaltuutettu. Muut työsuojelun yhteistoiminta-asiat käsitellään asianomaisen työnantajan ja hänen palveluksessaan olevan työsuojeluvaltuutetun kesken.</p>
+                                </content>
+                            </subsection>
+                            <subsection>
+                                <content>
+                                    <p>Jos yhteinen työpaikka on rakennustyömaa, siellä työskentelevillä, eri työnantajien palveluksessa olevilla työntekijöillä on oikeus valita yhteinen työmaakohtainen työsuojeluvaltuutettu ja kaksi varavaltuutettua edustamaan heitä työsuojelun yhteistoiminnassa kyseisen työmaan kaikkien työnantajien ja itsenäisten työnsuorittajien kanssa sekä suhteessa työsuojeluviranomaisiin.</p>
+                                </content>
+                            </subsection>
+                        </section>
+                        <section>
+                            <num>43 d §</num>
+                            <heading>Yhteinen työsuojelupäällikkö</heading>
+                            <subsection>
+                                <content>
+                                    <p>Jos työnantajat eivät ole nimenneet yhteistä työsuojelupäällikköä, yhteisellä työpaikalla pääasiallista määräysvaltaa käyttävä tai pääurakoitsijan asemassa oleva työnantaja huolehtii 28 §:n mukaisista työsuojelupäällikön tehtävistä.</p>
+                                </content>
+                            </subsection>
+                        </section>
+                        <section>
+                            <num>43 e §</num>
+                            <heading>Työsuojeluvaltuutetun oikeudet yhteisellä työpaikalla</heading>
+                            <subsection>
+                                <content>
+                                    <p>Työsuojeluvaltuutetun oikeuksista yhteisellä työpaikalla on soveltuvin osin voimassa mitä 31―35 §:ssä säädetään. Tässä luvussa tarkoitettujen tehtävien hoitamiseksi työsuojeluvaltuutetulla on oikeus seurata ja selvittää työturvallisuuslain 51 §:ssä tarkoitettujen seikkojen toteutumista yhteisellä työpaikalla. Tämä oikeus kohdistuu kaikkiin työpaikalla toimiviin työnantajiin, työntekijöihin ja itsenäisiin työnsuorittajiin.</p>
+                                </content>
+                            </subsection>
+                            <subsection>
+                                <content>
+                                    <p>Työmaakohtaisen työsuojeluvaltuutetun oikeuksista yhteisellä rakennustyömaalla on voimassa, mitä työsuojeluvaltuutetusta säädetään 29―37 §:ssä.</p>
+                                </content>
+                            </subsection>
+                        </section>
+                        <section>
+                            <num>43 f §</num>
+                            <heading>Ulkopuolisen työnantajan palveluksessa olevan työsuojeluvaltuutetun kulkuoikeudet yhteisellä työpaikalla</heading>
+                            <subsection>
+                                <content>
+                                    <p>Työturvallisuuslain 50 §:ssä tarkoitetun ulkopuolisen työnantajan palveluksessa olevalla työsuojeluvaltuutetulla on tehtävänsä hoitamiseksi oikeus päästä yhteiselle työpaikalle samoilla edellytyksillä kuin hänen edustamillaan työntekijöillä ottaen huomioon työpaikan yleiset kulku- ja turvallisuusmääräykset.</p>
+                                </content>
+                            </subsection>
+                        </section>
+                        <section>
+                            <num>43 g §</num>
+                            <heading>Työsuojelutoimikunnassa käsiteltävät yhteisen työpaikan työsuojeluasiat</heading>
+                            <subsection>
+                                <content>
+                                    <p>Työsuojelutoimikunnan tehtävistä työturvallisuuslain 51 §:stä johtuvien 26 §:n mukaisten yhteistoiminta-asioiden käsittelyssä yhteisellä työpaikalla on soveltuvin osin voimassa, mitä 27 §:ssä säädetään.</p>
+                                </content>
+                            </subsection>
+                            <subsection>
+                                <content>
+                                    <p>Pääasiallista määräysvaltaa käyttävän työnantajan tulee tarpeen mukaan varata yhteisellä työpaikalla työtä teettäville ulkopuolisille työnantajille ja itsenäisille työnsuorittajille sekä tarpeen mukaan asian käsittelyn sitä edellyttäessä ulkopuolisen työnantajan työsuojeluvaltuutetulle mahdollisuus osallistua työturvallisuuslain 51 §:stä johtuvien 26 §:n mukaisten yhteistoiminta-asioiden käsittelyyn 38 §:ssä säädetyssä työsuojelutoimikunnassa tai sitä vastaavassa yhteistoimintaelimessä.</p>
+                                </content>
+                            </subsection>
+                        </section>
+                        <section>
+                            <num>43 h §</num>
+                            <heading>Työsuojelun yhteistoiminta yhteisten vaarojen torjunnassa</heading>
+                            <subsection>
+                                <content>
+                                    <p>Työturvallisuuslain 54 §:ssä tarkoitetusta työpaikkojen yhteisten vaarojen torjunnasta johtuvat 26 §:n mukaiset yhteistoiminta-asiat käsitellään 27 §:n mukaisesti.</p>
+                                </content>
+                            </subsection>
+                            <subsection>
+                                <content>
+                                    <p>Työturvallisuuslain 54 §:ssä tarkoitetulla työpaikalla toimivilla työnantajilla on oikeus sopia yhteisen työsuojelupäällikön nimeämisestä.</p>
+                                </content>
+                            </subsection>
+                        </section>
+                    </chapter>
+                </part>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä syyskuuta 2006.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/43">HE 43/2006</ref>
+                        </p>
+                        <p>TyVM 6/2006</p>
+                        <p>EV 64/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Naantalissa 11 päivänä elokuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

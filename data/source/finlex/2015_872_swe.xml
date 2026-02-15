@@ -1,0 +1,175 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/872/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/872"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/872/alkup"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-10" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="872"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/872/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/872/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/872/alkup/swe"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-10" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/872/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/872/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/872/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2015-08-10" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>872/2015</docNumber>
+                <docTitle>Lag om ändring av 9 kap. 5 § i sjölagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i sjölagen (<affectedDocument href="/akn/fi/act/statute/1994/674">674/1994</affectedDocument>) 9 kap. 5 § 1 mom., sådant det lyder i lag 771/2000, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>9 kap. </num>
+                    <heading>Allmänna stadganden om ansvarsbegränsning</heading>
+                    <section>
+                        <num>5 § </num>
+                        <heading>Ansvarsbeloppen</heading>
+                        <subsection>
+                            <intro>
+                                <p>Om det finns en rätt till ansvarsbegränsning, ska ansvarsbeloppen bestämmas på följande sätt:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>
+                                        för fordringar med anledning av personskada som har orsakats fartygets passagerare är ansvarsgränsen 175 000 särskilda dragningsrätter (<i>Special Drawing Right</i>, 
+                                        <i>SDR</i>) multiplicerat med det antal passagerare som fartyget enligt sitt certifikat har tillstånd att befordra,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <intro>
+                                    <p>för andra fordringar med anledning av personskada än sådana som avses i 1 punkten är ansvarsgränsen 3,02 miljoner SDR, om fartygets bruttodräktighet inte överstiger 2 000; om bruttodräktigheten överstiger 2 000, höjs ansvarsgränsen</p>
+                                </intro>
+                                <subparagraph>
+                                    <num>a)</num>
+                                    <content>
+                                        <p>för varje dräktighetstal från 2 001 till 30 000 med 1208 SDR, </p>
+                                    </content>
+                                </subparagraph>
+                                <subparagraph>
+                                    <num>b)</num>
+                                    <content>
+                                        <p>för varje dräktighetstal från 30 001 till 70 000 med 906 SDR, </p>
+                                    </content>
+                                </subparagraph>
+                                <subparagraph>
+                                    <num>c)</num>
+                                    <content>
+                                        <p>för varje dräktighetstal över 70 000 med 604 SDR, </p>
+                                    </content>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <intro>
+                                    <p>för andra fordringar än sådana som avses i 1 och 2 punkten samt fordringar, i den mån de inte tillgodoses med de belopp som nämns i 2 punkten, är ansvarsgränsen 1,51 miljoner SDR, om fartygets dräktighet inte överstiger 2 000; om dräktigheten överstiger 2 000, höjs ansvarsgränsen </p>
+                                </intro>
+                                <subparagraph>
+                                    <num>a)</num>
+                                    <content>
+                                        <p>för varje dräktighetstal från 2 001 till 30 000 med 604 SDR,</p>
+                                    </content>
+                                </subparagraph>
+                                <subparagraph>
+                                    <num>b)</num>
+                                    <content>
+                                        <p>för varje dräktighetstal från 30 001 till 70 000 med 453 SDR,</p>
+                                    </content>
+                                </subparagraph>
+                                <subparagraph>
+                                    <num>c)</num>
+                                    <content>
+                                        <p>för varje dräktighetstal över 70 000 med 302 SDR.</p>
+                                    </content>
+                                </subparagraph>
+                            </paragraph>
+                            <hcontainer name="omission"/>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 20 augusti 2015.</p>
+                    <p>Syftet med denna lag är att sätta i kraft de ändringar av bestämmelserna i 1996 års ändringsprotokoll till 1976 års konvention om begränsning av sjörättsligt skadeståndsansvar som gjordes i London den 9 juni 2012, sådana Finland har förbundit sig till dem. </p>
+                    <p>På skadefall som har inträffat före denna lags ikraftträdande tillämpas de bestämmelser i 9 kap. 5 § 1 mom. som gällde vid ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 7/2015</p>
+                        <p>KoUB 2/2015</p>
+                        <p>RSv 6/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 7 augusti 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommunikationsminister</role>
+                                <person refersTo="">Anne Berner</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

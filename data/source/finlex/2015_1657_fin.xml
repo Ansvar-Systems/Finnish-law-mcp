@@ -1,0 +1,242 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1657/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1657"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1657/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1657"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1657/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1657/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1657/alkup/fin"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1657/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1657/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1657/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1657/2015</docNumber>
+                <docTitle>Laki apteekkimaksusta annetun lain 2 §:n väliaikaisesta muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         väliaikaisesti apteekkimaksusta annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1946/148">148/1946</affectedDocument>
+                        ) 2 §:n 4 momentti, sellaisena kuin se on laissa 977/2013, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Apteekkimaksu määrätään liikevaihtoryhmittäin seuraavasti:</p>
+                            <table>
+                                <tr>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>Liikevaihto €</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>Apteekkimaksu liikevaihdon alarajan kohdalla €</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>Maksuprosentti alarajan yli menevästä liikevaihdosta</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>871 393 – 1 016 139</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>0</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>6,10 %</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>1 016 139 – 1 306 607</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>8 830</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>7,15 %</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>1 306 607 – 1 596 749</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>29 598</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>8,15 %</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>1 596 749 – 2 033 572</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>53 245</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>9,25 %</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>2 033 572 – 2 613 212</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>93 651</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>9,75 %</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>2 613 212 – 3 194 464</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>150 166</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>10,30 %</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>3 194 464 – 3 775 394</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>210 035</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>10,55 %</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>3 775 394 – 4 792 503</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>271 323</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>10,90 %</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>4 792 503 – 6 243 857</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>382 188</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>11,15 %</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>6 243 857 – </p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>544 014</p>
+                                    </td>
+                                    <td class="colsep-1 rowsep-1">
+                                        <p>11,40 %</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016 ja on voimassa 31 päivään joulukuuta 2016. Tätä lakia sovelletaan apteekkimaksuun, joka määrätään apteekkiliikkeen vuoden 2015 liikevaihdon perusteella.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/106">HE 106/2015</ref>
+                        </p>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/128">HE 128/2015</ref>
+                        </p>
+                        <p>StVM 13/2015</p>
+                        <p>EV 111/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 30 päivänä joulukuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri</role>
+                                <person refersTo="">Hanna Mäntylä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

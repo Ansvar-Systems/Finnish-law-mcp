@@ -1,0 +1,190 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/886/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/886"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/886/alkup"/>
+                    <FRBRdate date="2005-11-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="886"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/886/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/886/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/886/alkup/swe"/>
+                    <FRBRdate date="2005-11-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/886/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/886/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/886/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="150"/>
+                    <finlex:date date="2005-11-17"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>886/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om posttjänster</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 6 april 2001 om posttjänster (
+                        <affectedDocument href="/akn/fi/act/statute/2001/313">313/2001</affectedDocument>
+                        ) 31 §, sådan den lyder i lag 1017/2001, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen nya 31 a―31 c § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>31 §</num>
+                    <heading>Tillsynsavgift för postverksamhet</heading>
+                    <subsection>
+                        <content>
+                            <p>Postföretagen skall årligen erlägga en tillsynsavgift för postverksamhet till Kommunikationsverket. Det sammanlagda beloppet av de tillsynsavgifter som tas ut hos postföretagen motsvarar de totalkostnader som Kommunikationsverket orsakas för skötseln av sådana uppgifter enligt denna lag som gäller postföretag.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>31 a §</num>
+                    <heading>Storleken av tillsynsavgiften för postverksamhet</heading>
+                    <subsection>
+                        <content>
+                            <p>Tillsynsavgiften för postverksamhet utgör 0,0024 procent av omsättningen för den koncessionspliktiga postverksamhet som ett postföretag utövat i Finland under den räkenskapsperiod som löpt ut två år innan tillsynsavgiften tas ut, dock minst 2 000 euro.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Den tillsynsavgift för postverksamhet som tas ut hos ett nytt postföretag är 2 000 euro under det första verksamhetsåret och 10 000 euro under det andra året. Avgiften för det tredje verksamhetsåret och de därpå följande åren bestäms på det sätt som föreskrivs i 1 mom.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om räkenskapsperioden avviker från kalenderåret, omvandlas omsättningen att motsvara omsättningen för ett år genom att den multipliceras med talet 12 och divideras med antalet månader i räkenskapsperioden.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om den i 1 mom. avsedda postverksamheten helt och hållet upphör under en faktureringsperiod, skall Kommunikationsverket bestämma avgiftens storlek för den tid enligt 1 mom. under vilken postverksamhet utövats. Om den i 1 mom. avsedda postverksamheten under tiden mellan den avgiftsgrundande räkenskapsperioden och avgiftens förfallodag har överlåtits till ett annat företag, skall Kommunikationsverket bestämma hur stor avgiften skall vara för det företag som utövar verksamheten på avgiftens förfallodag med beaktande av den fastställda omsättningen för den överlåtna postverksamheten enligt 1 mom. under den räkenskapsperiod som ligger till grund för avgiften.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om det under tiden mellan utgången av den avgiftsgrundande räkenskapsperioden och avgiftens förfallodag har inträffat förändringar i företagets koncernförhållanden, bestäms avgiftens storlek utgående från vilken företagets andel har varit av den avgiftsgrundande räkenskapsperiodens omsättning för den i 1 mom. avsedda postverksamheten.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En avgift som tagits ut återbetalas inte även om företaget upphör med den i 1 mom. avsedda postverksamheten eller dess koncession återkallas under faktureringsperioden.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>31 b §</num>
+                    <heading>Omsättningen i en koncern såsom grund för bestämmande av avgiften</heading>
+                    <subsection>
+                        <content>
+                            <p>Om ett postföretag ingår i en i 1 kap. 6 § i bokföringslagen (1336/1997) avsedd koncern, är grunden för postföretagets avgift företagets andel av den gemensamma omsättningen för den postverksamhet som de avgiftsskyldiga postföretagen i samma kon cern utövar i Finland, minskad med företagens inbördes omsättning av denna verksamhet. Avgiften bestäms på samma sätt också i sådana fall då moderbolaget inte är finskt.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Genom förordning av kommunikationsministeriet kan utfärdas närmare bestämmelser om hur de uppgifter som behövs för bestämmande av avgiften skall anmälas till Kommunikationsverket.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>31 c §</num>
+                    <heading>Bestämmande och uttagande av tillsynsavgift för postverksamhet</heading>
+                    <subsection>
+                        <content>
+                            <p>Tillsynsavgiften för postverksamhet tas årligen ut i fyra poster. Tillsynsavgiften för postverksamhet påförs av Kommunikationsverket. Närmare bestämmelser om verkställigheten av avgiften kan utfärdas genom förordning av kommunikationsministeriet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>För bestämmande av avgiften har Kommunikationsverket rätt att av ett postföretag få uppgifter om omsättningen för den i 31 a § avsedda postverksamhet som utövats av företaget i Finland under den räkenskapsperiod som gått ut två år före det år avgiften tas ut. De postföretag som ingår i en koncern skall dessutom lämna Kommunikationsverket en utredning om vilka poster i koncernföretagens inbördes postverksamhet som i enlighet med 31 b § 1 mom. har dragits av från postverksamhetens omsättning. Postföretaget skall ge in uppgifterna till Kommunikationsverket inom en månad efter det bokslutet har fastställts. En kopia av det fastställda bokslutet och koncernbokslutet skall ges in som bilaga.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tillsynsavgiften för postverksamhet får drivas in utan dom eller utslag i den ordning som bestäms i lagen om indrivning av skatter och avgifter i utsökningsväg (367/1961). Om avgiften inte betalas senast på förfallodagen, tas på det obetalda beloppet ut en årlig dröjsmålsränta enligt den räntefot som avses i 4 § i räntelagen (633/1982). I stället för dröjsmålsränta kan myndigheten ta ut en dröjsmålsavgift om fem euro i sådana fall då dröjsmålsräntan skulle understiga detta belopp.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2006. </p>
+                    <p>Genom denna lag upphävs 19 § i kommunikationsministeriets förordning av den 11 december 2002 om Kommunikationsverkets avgifter (1126/2002).</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 67/2005</p>
+                        <p>KoUB 20/2005</p>
+                        <p>RSv 113/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 11 november 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommunikationsminister </role>
+                                <person refersTo="">Susanna Huovinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,376 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/356/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/356"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/356/alkup"/>
+                    <FRBRdate date="2016-05-20" name="dateIssued"/>
+                    <FRBRdate date="2016-05-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="356"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/356/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/356/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/356/alkup/fin"/>
+                    <FRBRdate date="2016-05-20" name="dateIssued"/>
+                    <FRBRdate date="2016-05-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/356/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/356/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/356/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2016-05-23" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>356/2016</docNumber>
+                <docTitle>Laki rikoslain 10 luvun muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         rikoslain (<affectedDocument href="/akn/fi/act/statute/1889/39">39/1889</affectedDocument>) 10 luvun 5 §:n 3 momentti, sellaisena kuin se on laissa 875/2001,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         10 luvun 2 ja 3 §, 6 §:n 1 momentti sekä 9 ja 11 §, 
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 2 § ja 6 §:n 1 momentti laissa 875/2001, 3 § laeissa 875/2001 ja 641/2009, 9 § laeissa 875/2001 ja 650/2003 ja 11 § laeissa 875/2001 ja 347/2013, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         10 luvun 1 §:ään, sellaisena kuin se on laeissa 875/2001 ja 515/2003, uusi 3 momentti ja lukuun uusi 5 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>10 luku</num>
+                    <heading>Menettämisseuraamuksista</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Menettämisseuraamuksen yleiset edellytykset</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Jos menettämisseuraamuksen perustavasta rikoksesta tai rangaistavaksi säädetystä teosta esitetään rikoksesta tuomitsemiseen riittävä näyttö, menettämisseuraamus voidaan määrätä, vaikka rikoksen tai teon tekijää ei saada selville tai häntä vastaan ei nosteta syytettä tai tuomita rangaistukseen. </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Hyödyn menettäminen</heading>
+                        <subsection>
+                            <intro>
+                                <p>Valtiolle on tuomittava menetetyksi rikoksen tuottama taloudellinen hyöty, jolla tarkoitetaan:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>rikoksella välittömästi saatua omaisuutta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>1 kohdassa tarkoitetun omaisuuden sijaan tullutta omaisuutta; </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>1 ja 2 kohdassa tarkoitetun omaisuuden tuottoa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>1—3 kohdassa tarkoitetun omaisuuden ja tuoton arvoa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5) </num>
+                                <content>
+                                    <p>rikoksella saadun säästön arvoa.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos hyödyn määrästä ei ole saatavissa selvitystä tai se on vain vaikeuksin esitettävissä, hyöty on arvioitava ottaen huomioon rikoksen laatu, rikollisen toiminnan laajuus ja muut olosuhteet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Menettämisseuraamukseen tuomitaan rikoksesta hyötynyt tekijä, osallinen tai se, jonka puolesta tai hyväksi rikos on tehty. </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Menettämisseuraamukseen voidaan tuomita myös se, jolle menettämisseuraamuksen tai korvausvelvollisuuden välttämiseksi on siirtynyt 1 momentin 1—3 kohdassa tarkoitettua hyötyä taikka muuta omaisuutta, jos tämä on tiennyt omaisuuden siirtymisen tarkoituksena olleen menettämisseuraamuksen tai korvausvelvollisuuden välttäminen tai jos tällä on ollut perusteltu syy sitä epäillä taikka jos tämä on saanut omaisuuden lahjana tai muuten vastikkeetta. Tällöin menetetyksi voidaan tuomita siirtynyt omaisuus siltä osin kuin se on tai vastaa rikoksella saatua hyötyä taikka tällaisen omaisuuden arvo.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos samaa hyötyä koskevaan menettämisseuraamukseen tuomitaan 3 ja 4 momentissa tarkoitetut, nämä vastaavat siitä yhteisvastuullisesti.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Hyötyä ei tuomita menetetyksi siltä osin kuin se on palautettu tai tuomittu taikka tuomitaan suoritettavaksi loukatulle vahingonkorvauksena tai edunpalautuksena. Jos korvaus- tai edunpalautusvaatimusta ei ole esitetty tai se on vielä ratkaisematta silloin, kun menettämisvaatimuksesta annetaan ratkaisu, menettämisseuraamus on tuomittava. </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Sen estämättä, mitä 6 momentissa säädetään, tuomioistuimen on korvaus- tai edunpalautusvaatimuksen esittäjän pyynnöstä ratkaistava menettämisvaatimus ja siirrettävä korvaus- tai edunpalautusvaatimus käsiteltäväksi riita-asioiden oikeudenkäynnistä säädetyssä järjestyksessä, jos vieraassa valtiossa on omaisuutta jäädytettynä tai siihen rinnastettavan toimenpiteen kohteena Suomessa tuomittavan menettämisvaatimuksen turvaamiseksi. Tuomioistuimen on tällöin myös korvaus- tai edunpalautusvaatimuksen esittäjän pyynnöstä ratkaistava välituomiolla kysymys korvaus- tai edunpalautusvelvollisuudesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Laajennettu hyödyn menettäminen</heading>
+                        <subsection>
+                            <intro>
+                                <p>Jos on tehty </p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>rikos, josta säädetty ankarin rangaistus on vähintään neljä vuotta vankeutta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>kätkemisrikos tai rahanpesu;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>salakuljetus;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>huumausainerikos tai huumausainerikoksen edistäminen;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5) </num>
+                                <content>
+                                    <p>lahjuksen antaminen tai lahjuksen ottaminen taikka lahjominen elinkeinotoiminnassa tai lahjuksen ottaminen elinkeinotoiminnassa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6) </num>
+                                <content>
+                                    <p>järjestäytyneen rikollisryhmän toimintaan osallistuminen;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7) </num>
+                                <content>
+                                    <p>sukupuolisiveellisyyttä loukkaavan kuvan levittäminen, 20 luvun 8 b §:n 2 momentissa tarkoitettu lapsen houkutteleminen seksuaalisiin tarkoituksiin taikka paritus;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>8) </num>
+                                <content>
+                                    <p>vaaran aiheuttaminen tietojenkäsittelylle; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>9) </num>
+                                <content>
+                                    <p>1—8 kohdassa tarkoitetun rikoksen rangaistava yritys</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>ja jos rikos on luonteeltaan sellainen, että se voi tuottaa taloudellista hyötyä, valtiolle menetetyksi voidaan tuomita omaisuus, joka on peräisin rikollisesta toiminnasta; menetetyksi tuomitsemista harkittaessa on muiden seikkojen ohella otettava erityisesti huomioon, onko omaisuus ilmeisesti peräisin muusta kuin vähäisenä pidettävästä rikollisesta toiminnasta ja onko menettämisseuraamuksen tuomitseminen tarpeen uusien rikosten ehkäisemiseksi sekä saadaanko rikollisella toiminnalla toistuvasti merkittävä osa asianomaisen tuloista.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Menettämisseuraamukseen voidaan tuomita 1 momentissa tarkoitettuun rikokseen syyllistynyt tai siihen osallinen taikka se, jonka puolesta tai hyväksi rikos on tehty.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Edellä 1 momentissa mainittu omaisuus voidaan tuomita kokonaan tai osaksi valtiolle menetetyksi myös</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>
+                                        siltä, joka on tämän pykälän 2 momentissa tarkoitettuun henkilöön sellaisessa suhteessa, jota tarkoitetaan takaisinsaannista konkurssipesään annetun lain (758/1991) 3 §:n 1 momentissa (<i>läheinen</i>), sekä 
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>yksityiseltä elinkeinonharjoittajalta, yhtiöltä, muulta yhteisöltä tai säätiöltä, joka on tämän pykälän 2 momentissa tarkoitettuun henkilöön tai hänen läheiseensä sellaisessa suhteessa, jota tarkoitetaan takaisinsaannista konkurssipesään annetun lain 3 §:n 2 momentin 1 tai 2 kohdassa, </p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>jos on syytä olettaa, että omaisuus on menettämisseuraamuksen tai korvausvelvollisuuden välttämiseksi siirtynyt edellä mainituille. </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 3 momentissa tarkoitettua menettämisseuraamusta ei tuomita, jos omaisuus on siirtynyt yli viisi vuotta aikaisemmin kuin 1 momentissa tarkoitettu rikos on tehty. </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos kaksi tai useampi tuomitaan samaan menettämisseuraamukseen, nämä vastaavat siitä yhteisvastuullisesti.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>5 a §</num>
+                        <heading>Säilytysvälineen menettäminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Astia, päällys tai muu väline, jota on käytetty 4 tai 5 §:ssä taikka muussa vastaavassa lainkohdassa tarkoitetun menetetyksi tuomittavan rikoksentekovälineen taikka rikoksella tuotetun, valmistetun tai aikaansaadun taikka rikoksen kohteena olleen esineen tai omaisuuden säilyttämiseen, voidaan tuomita menetetyksi, jos menettämisseuraamusta ei muuten ole hankaluuksitta mahdollista panna täytäntöön. </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Menettämisen rajoitukset</heading>
+                        <subsection>
+                            <content>
+                                <p>Menetetyksi ei tuomita 4 tai 5 §:ssä tarkoitettua esinettä tai muuta omaisuutta, joka kokonaan tai osaksi kuuluu muulle kuin rikoksentekijälle, rikokseen osalliselle tai sille, jonka puolesta tai suostumuksin rikos on tehty. Esine tai omaisuus voidaan kuitenkin tuomita menetetyksi siltä, jolle se on rikoksen tekemisen jälkeen siirretty, jos tämä sen vastaanottaessaan on tiennyt esineen tai omaisuuden liittymisestä rikokseen tai tällä on ollut perusteltu syy sitä epäillä taikka jos tämä on saanut sen lahjana tai muuten vastikkeetta.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Menettämisseuraamusasian käsittely</heading>
+                        <subsection>
+                            <content>
+                                <p>Menettämisseuraamusta koskeva asia käsitellään sen syytteen yhteydessä, jossa tarkoitettuun rikokseen menettämisvaatimus perustuu. Menettämisseuraamusta koskeva asia voidaan käsitellä myös erikseen. </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Menettämisseuraamusta koskeva asia voidaan tutkia ja ratkaista vastaajan poissaolosta huolimatta noudattaen, mitä oikeudenkäynnistä rikosasioissa annetun lain 8 luvun 11 ja 12 §:ssä säädetään. Ainoastaan menettämisseuraamusta koskeva asia voidaan myös tutkia ja ratkaista, jos vastaaja on saanut tiedoksi menettämisvaatimuksen ja oikeudenkäyntiin kutsuttuna jäänyt pois ja jos poissaolo ilmeisesti johtuu oikeudenkäynnin karttamisesta. Tällöin tuomioistuimen on viran puolesta määrättävä vastaajalle edunvalvoja, johon sovelletaan oikeudenkäymiskaaren 12 luvun 4 a §:ää. Edunvalvojan palkkioon ja korvaukseen sovelletaan kuitenkin, mitä oikeudenkäynnistä rikosasioissa annetun lain 2 luvun 10 ja 11 §:ssä säädetään puolustajan palkkiosta ja korvauksesta. Edunvalvojan määräämisestä asianosaisen sairauden, henkisen toiminnan häiriintymisen, heikentyneen terveydentilan tai muun vastaavan syyn vuoksi säädetään oikeudenkäymiskaaren 12 luvun 4 a §:ssä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Menettämisseuraamus määrätään syyttäjän tai rangaistusmääräysmenettelystä annetun lain 3 §:ssä tarkoitetun virkamiehen vaatimuksesta. Oikeudenkäynnistä rikosasioissa annetun lain 1 luvun 8 b §:ssä säädetään perusteista, joiden nojalla syyttäjä saa jättää menettämisvaatimuksen esittämättä. Myös asianomistaja voi esittää menettämisvaatimuksen ajaessaan yksin syytettä mainitun lain 7 luvun mukaisesti.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Kantajan on vedottava niihin seikkoihin, joihin hänen vaatimuksensa perustuu, sekä näytettävä ne toteen. Kantajalla ei kuitenkaan ole todistustaakkaa 3 §:ssä tarkoitetun omaisuuden alkuperästä. Tällainen omaisuus voidaan tuomita menetetyksi, jollei vastaaja saata todennäköiseksi, että omaisuus on peräisin muusta kuin rikollisesta toiminnasta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tuomioistuimen on menettämisseuraamuksen määrätessään tarvittaessa annettava tarkemmat määräykset sen täytäntöönpanosta, jos menettämisseuraamus koskee pakkokeinolain 7 luvun 1 §:ssä tarkoitettua dataa tai jos se on erityisestä syystä muuten tarpeen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>11 §</num>
+                        <heading>Erinäisiä säännöksiä</heading>
+                        <subsection>
+                            <content>
+                                <p>Tutkittaessa esitutkinnassa tai oikeudenkäynnissä muun kuin rikoksesta epäillyn tai rikoksesta syytetyn vastuuta menettämisseuraamuksesta noudatetaan, mitä rikoksesta epäillystä tai rikosasian vastaajasta säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos korvausta taikka edunpalautusta on suoritettu tai tuomittu suoritettavaksi 2 §:n 6 momentissa tarkoitetun menettämisseuraamusta koskevan ratkaisun antamisen jälkeen, menettämisseuraamus voidaan panna täytäntöön vastaavalla määrällä vähennettynä. Jos menettämisseuraamus on jo pantu täytäntöön, Oikeusrekisterikeskus voi asianomaisen henkilön kirjallisesta hakemuksesta päättää, että vastaava määrä suoritetaan valtion varoista. Sen estämättä, mitä muualla laissa säädetään salassapitovelvollisuudesta, asianomaisella henkilöllä on oikeus saada hakemuksen tekemistä varten Oikeusrekisterikeskukselta tietoja edellä tarkoitetun menettämisseuraamuksen täytäntöönpanosta. Jos samaan rikokseen perustuvia hakemuksia tehdään useampia kuin yksi, hakemukset on ratkaistava samalla kertaa, jollei siitä aiheudu kohtuutonta haittaa hakijoille. Jollei täytäntöönpantu menettämisseuraamus riitä kaikkien saatavien maksamiseen, maksu suoritetaan saatavien suuruuden mukaisessa suhteessa
+noudattaen, mitä konkurssilain (120/2004) 17 ja 18 luvussa säädetään. Oikeusrekisterikeskuksen päätökseen tyytymättömällä on oikeus ajaa kannetta kantajan kotipaikan tai Helsingin käräjäoikeudessa. Kanne on nostettava kuukauden kuluessa Oikeusrekisterikeskuksen päätöksestä. Jos samaan rikokseen perustuvien hakemusten johdosta nostetaan useampi kanne, kanteet tutkitaan siinä käräjäoikeudessa, jossa ensimmäinen kanne tuli vireille. Muun kuin mainitun käräjäoikeuden on siirrettävä kanne asianomaisen käräjäoikeuden käsiteltäväksi. Vastaajana asiassa on valtio, jota edustaa Oikeusrekisterikeskus.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vilpittömässä mielessä panttioikeuden tai muun vakuusoikeuden 4 tai 5 §:ssä tarkoitettuun, menetetyksi tuomittuun esineeseen tai omaisuuteen saanut voi saada maksun sen arvosta saamisen erääntymisestä riippumatta. Kanne siitä on nostettava kantajan kotipaikan tai Helsingin käräjäoikeudessa viiden vuoden kuluessa siitä päivästä, jona menettämisseuraamusta koskeva tuomio sai lainvoiman. Muussa tapauksessa vakuusoikeus raukeaa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä syyskuuta 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2016/4">HE 4/2016</ref>
+                        </p>
+                        <p>LaVM 4/2016</p>
+                        <p>EV 44/2016</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2014/42/EU (32014L0042), EUVL L 127, 29.4.2014, s. 39</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 20 päivänä toukokuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeus- ja työministeri</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,110 @@
+name: Daily Data Freshness Check
+
+on:
+  schedule:
+    # Daily at 05:00 UTC
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check-updates:
+    name: Check Finlex updates and open PR
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Build free-tier database
+        run: npm run build:db
+
+      - name: Build TypeScript
+        run: npm run build
+
+      - name: Run update checker
+        id: check
+        shell: bash
+        run: |
+          set +e
+          npm run check-updates > check-updates.log 2>&1
+          EXIT_CODE=$?
+          set -e
+
+          cat check-updates.log
+
+          if [ "$EXIT_CODE" -ne 0 ]; then
+            echo "updates_found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "updates_found=false" >> "$GITHUB_OUTPUT"
+          fi
+
+          UPDATE_COUNT=$(grep -c "UPDATE AVAILABLE" check-updates.log || true)
+          ERROR_COUNT=$(grep -c "error:" check-updates.log || true)
+
+          echo "update_count=${UPDATE_COUNT}" >> "$GITHUB_OUTPUT"
+          echo "error_count=${ERROR_COUNT}" >> "$GITHUB_OUTPUT"
+
+      - name: Upload checker log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: check-updates-log
+          path: check-updates.log
+          retention-days: 14
+
+      - name: Prepare update report
+        if: steps.check.outputs.updates_found == 'true'
+        run: |
+          mkdir -p reports/check-updates
+          {
+            echo "# Finlex updates detected"
+            echo
+            echo "- Date (UTC): $(date -u +'%Y-%m-%d %H:%M:%S')"
+            echo "- Updates: ${{ steps.check.outputs.update_count }}"
+            echo "- Errors: ${{ steps.check.outputs.error_count }}"
+            echo
+            echo "## Raw output"
+            echo
+            echo '```text'
+            cat check-updates.log
+            echo '```'
+            echo
+            echo "## Suggested next commands"
+            echo
+            echo '```bash'
+            echo 'npm run check-updates'
+            echo 'npm run ingest:current'
+            echo 'npm run build:db'
+            echo 'npm test'
+            echo '```'
+          } > reports/check-updates/latest.md
+
+      - name: Create Pull Request
+        if: steps.check.outputs.updates_found == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(data): record detected Finlex updates"
+          title: "chore(data): Finlex updates detected"
+          body: |
+            Daily `check-updates` run detected statute updates in Finlex.
+
+            - Updates found: `${{ steps.check.outputs.update_count }}`
+            - Errors during check: `${{ steps.check.outputs.error_count }}`
+
+            This PR only records the detection report.
+            Ingestion/rebuild should be performed separately before release.
+          branch: automation/finlex-update-report
+          delete-branch: true
+          add-paths: |
+            reports/check-updates/latest.md

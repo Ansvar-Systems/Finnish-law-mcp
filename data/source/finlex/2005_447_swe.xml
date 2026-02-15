@@ -1,0 +1,293 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/447/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/447"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/447/alkup"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="447"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/447/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/447/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/447/alkup/swe"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/447/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/447/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/447/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="82"/>
+                    <finlex:date date="2005-06-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>447/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om accis på elström och vissa bränslen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i lagen av den 30 december 1996 om accis på elström och vissa bränslen (
+                        <affectedDocument href="/akn/fi/act/statute/1996/1260">1260/1996</affectedDocument>
+                        ) 2 § 3 punkten, 8 § 1 mom. 7 punkten och 15 § 1 mom.,
+                    </block>
+                    <block name="repeals-originals">av dem 8 § 1 mom. 7 punkten och 15 § 1 mom. sådana de lyder i lag 1168/2002, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         1 § 1 mom., 16 §, 23 § 1 mom. och den accistabell som utgör bilaga till lagen,
+                    </block>
+                    <block name="substitutions-originals">av dem 16 § och accistabellen sådana de lyder i sistnämnda lag, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <subsection>
+                        <content>
+                            <p>För elström, stenkol, naturgas och tallolja skall till staten i accis betalas grundaccis och tilläggsaccis enligt denna lag.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>16 §</num>
+                    <subsection>
+                        <content>
+                            <p>Accis på tallolja påförs för varje skatteperiod enligt de bestämmelser som är i kraft den dag då tallolja använts för i 15 § avsett ändamål. En i 15 § avsedd användare skall avge accisdeklaration separat för varje anläggning till tulldistriktet på den ort där anläggningen är belägen. Med skatteperiod avses en kalendermånad.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>23 §</num>
+                    <subsection>
+                        <content>
+                            <p>Till den del något annat inte bestäms i denna lag, gäller om accisskyldighet för elström, stenkol och tallolja liksom även om tillstånd och säkerheter som gäller accisskyldiga, accisplikt för produkter, beskattning av produkter som importeras från ett område utanför gemenskapen, tidpunkten för påförande av accis, beskattningsbara mängder, produkter som återsänts till skattefria lager, avgivande av accisdeklaration, fastställande, betalning och debitering av accis, ändringssökande, accisåterbäring, den accisskyldiges bokföringsskyldighet, granskning och skyldighet att lämna uppgifter samt även i övrigt i tillämpliga delar vad som bestäms eller föreskrivs i lagen om påförande av accis eller med stöd av den.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juli 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 37/2005</p>
+                        <p>FiUB 12/2005</p>
+                        <p>RSv 62/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 23 juni 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Finansminister </role>
+                                <person refersTo="">Antti Kalliomäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+            <hcontainer name="attachments">
+                <hcontainer name="attachment">
+                    <content>
+                        <p>
+                            <i>Bilaga</i>
+                        </p>
+                        <p>
+                            <b>ACCISTABELL</b>
+                        </p>
+                        <table>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Produkt </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Produktgrupp </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Grundaccis </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Tilläggsaccis </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Försörjnings beredskapsavgift </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Elström snt/kWh </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p/>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p/>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p/>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>― accisklass I </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>1 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>― </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>0,73 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>0,013 </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>― accisklass II </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>2 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>― </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>0,44 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>0,013 </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Stenkol, stenkolsbriketter och fasta bränslen </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p/>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p/>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p/>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>av stenkol euro/t </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>3 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>― </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>43,52 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>1,18 </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>
+                                        Naturgas, i gasform snt/nm
+                                        <sup>3</sup>
+                                    </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>5 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>― </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>1,82 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>0,084 </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Tallolja snt/kg </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>6 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>5,68 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>― </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>―</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

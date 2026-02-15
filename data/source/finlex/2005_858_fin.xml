@@ -1,0 +1,156 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/858/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/858"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/858/alkup"/>
+                    <FRBRdate date="2005-11-04" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="858"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/858/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/858/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/858/alkup/fin"/>
+                    <FRBRdate date="2005-11-04" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/858/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/858/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/858/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="144"/>
+                    <finlex:date date="2005-11-09"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>858/2005</docNumber>
+                <docTitle>Laki tuloverolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         30 päivänä joulukuuta 1992 annetun tuloverolain (
+                        <affectedDocument href="/akn/fi/act/statute/1992/1535">1535/1992</affectedDocument>
+                        ) 107 §,
+                    </block>
+                    <block name="repeals-originals">sellaisena kuin se on osaksi laeissa 1502/1993 ja 772/2004, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         97 §:n 1 momentti, 98 §:n 1 momentti, 106 § ja 126 §:n 1 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 98 §:n 1 momentti, 106 § ja 126 §:n 1 momentti laissa 896/2001, seuraavasti:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>97 §</num>
+                    <heading>Merityötulovähennys</heading>
+                    <subsection>
+                        <content>
+                            <p>Puhtaasta ansiotulosta valtion- ja kunnallisverotuksessa myönnetään jäljempänä säädetyin edellytyksin merityötulovähennys 74 §:ssä tarkoitetun merityötulon saajalle.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>98 §</num>
+                    <heading>Veronmaksukyvyn alentumisvähennys</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos verovelvollisen veronmaksukyky hänen ja hänen perheensä käytettävissä olevat tulot ja varallisuus huomioon ottaen on erityisistä syistä, kuten elatusvelvollisuuden, työttömyyden tai sairauden johdosta olennaisesti alentunut, vähennetään hänen puhtaasta ansiotulostaan kohtuullinen määrä, ei kuitenkaan enempää kuin 1 400 euroa. Vähennys myönnetään täysin sadoin euroin.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>106 §</num>
+                    <heading>Kunnallisverotuksen perusvähennys</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos verovelvollisen luonnollisen henkilön puhdas ansiotulo edellä mainittujen vähennysten jälkeen ei ole 1 480 euron määrää suurempi, on siitä vähennettävä tämän tulon määrä. Jos puhtaan ansiotulon määrä mainittujen vähennysten jälkeen ylittää täyden perusvähennyksen määrän, vähennystä pienennetään 20 prosentilla yli menevän tulon määrästä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>126 §</num>
+                    <heading>Valtionverotuksen invalidivähennys</heading>
+                    <subsection>
+                        <content>
+                            <p>Verovelvollisen ansiotulosta valtiolle suoritettavasta tuloverosta vähennetään 115 euroa, jos hänellä on sairaudesta, viasta tai vammasta aiheutunut pysyvä haitta, jonka haitta-aste esitetyn selvityksen mukaan on 100 prosenttia tai, jos prosenttimäärä on pienempi, mutta kuitenkin vähintään 30 prosenttia, prosenttimäärän osoittama osuus 115 eurosta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006.</p>
+                    <p>Lakia sovelletaan ensimmäisen kerran vuodelta 2006 toimitettavassa verotuksessa.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/104">HE 104/2005</ref>
+                        </p>
+                        <p>VaVM 20/2005</p>
+                        <p>EV 122/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 4 päivänä marraskuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Valtiovarainministeri </role>
+                                <person refersTo="">Eero Heinäluoma</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

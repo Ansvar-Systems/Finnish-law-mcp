@@ -1,0 +1,154 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/858/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/858"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/858/alkup"/>
+                    <FRBRdate date="2005-11-04" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="858"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/858/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/858/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/858/alkup/swe"/>
+                    <FRBRdate date="2005-11-04" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/858/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/858/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/858/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="144"/>
+                    <finlex:date date="2005-11-09"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>858/2005</docNumber>
+                <docTitle>Lag om ändring av inkomstskattelagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i inkomstskattelagen av den 30 december 1992 (
+                        <affectedDocument href="/akn/fi/act/statute/1992/1535">1535/1992</affectedDocument>
+                        ) 107 §,
+                    </block>
+                    <block name="repeals-originals">sådan den lyder delvis ändrad i lagarna 1502/1993 och 772/2004, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         97 § 1 mom., 98 § 1 mom., 106 § och 126 § 1 mom.,
+                    </block>
+                    <block name="substitutions-originals">av dem 98 § 1 mom., 106 § och 126 § 1 mom. sådana de lyder i lag 896/2001, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>97 §</num>
+                    <heading>Avdrag för sjöarbetsinkomst</heading>
+                    <subsection>
+                        <content>
+                            <p>Vid stats- och kommunalbeskattningen beviljas under de förutsättningar om vilka föreskrivs nedan de som erhåller sjöarbetsinkomst enligt 74 § avdrag för sjöarbetsinkomst från nettoförvärvsinkomsten.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>98 §</num>
+                    <heading>Avdrag för nedsatt skattebetalningsförmåga</heading>
+                    <subsection>
+                        <content>
+                            <p>Har en skattskyldigs skattebetalningsförmåga med beaktande av de inkomster och den förmögenhet som står till hans och hans familjs förfogande, av någon särskild orsak, såsom försörjningsplikt, arbetslöshet eller sjukdom, nedgått väsentligt, avdras från nettoförvärvsinkomsten ett skäligt belopp, dock inte mera än 1 400 euro. Avdraget beviljas i hela hundra euro.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>106 §</num>
+                    <heading>Grundavdrag vid kommunalbeskattningen</heading>
+                    <subsection>
+                        <content>
+                            <p>Om en skattskyldig fysisk person har en nettoförvärvsinkomst som efter de ovan nämnda avdragen inte överstiger 1 480 euro, skall från denna dras av detta inkomstbelopp. Om nettoförvärvsinkomstens belopp efter de nämnda avdragen överstiger fullt grundavdrag, skall avdraget minskas med 20 procent av den överskjutande inkomsten.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>126 §</num>
+                    <heading>Invalidavdrag vid statsbeskattningen</heading>
+                    <subsection>
+                        <content>
+                            <p>Från inkomstskatten till staten på förvärvsinkomst för en skattskyldig avdras 115 euro, om han genom sjukdom, lyte eller kroppsskada har åsamkats bestående men, på grund av vilket hans invaliditetsgrad enligt lämnade uppgifter är 100 procent eller, om procenttalet är lägre, dock minst 30 procent, en mot procenttalet svarande del av 115 euro.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2006.</p>
+                    <p>Lagen tillämpas första gången vid beskattningen för år 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 104/2005</p>
+                        <p>FiUB 20/2005</p>
+                        <p>RSv 122/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 4 november 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Finansminister </role>
+                                <person refersTo="">Eero Heinäluoma</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

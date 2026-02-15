@@ -1,0 +1,184 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/743/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/743"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/743/alkup"/>
+                    <FRBRdate date="2006-08-25" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="743"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/743/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/743/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/743/alkup/swe"/>
+                    <FRBRdate date="2006-08-25" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/743/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/743/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/743/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="115"/>
+                    <finlex:date date="2006-08-31"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>743/2006</docNumber>
+                <docTitle>Lag om ändring av 1 och 20 kap. i strafflagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i strafflagen av den 19 december 1889 (
+                        <affectedDocument href="/akn/fi/act/statute/1889/39">39/1889</affectedDocument>
+                        ) 1 kap. 11 § 2 mom. 6 punkten och 20 kap. 8 §, sådana de lyder i lag 650/2004, och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 20 kap. en ny 8 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>1 kap.</num>
+                    <heading>Om tillämpningsområdet för finsk straffrätt</heading>
+                    <section>
+                        <num>11 §</num>
+                        <heading>Kravet på dubbel straffbarhet</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <intro>
+                                <p>Även om lagen på gärningsorten inte föreskriver något straff för gärningen, tillämpas finsk lag på gärningen om den har begåtts av en finsk medborgare eller en i 6 § 3 mom. 1 punkten avsedd person och straff för gärningen föreskrivs</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>i 20 kap. 6, 7 och 8 a §,</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>20 kap.</num>
+                    <heading>Om sexualbrott</heading>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Utnyttjande av person som är föremål för sexhandel</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Den som genom att utlova eller ge en ersättning som representerar ett direkt ekonomiskt värde får någon som är föremål för ett brott som avses i 9 eller 9 a § eller i 25 kap. 3 eller 3 a § att ha samlag eller företa en därmed jämförlig sexuell handling skall, om gärningen inte utgör brott enligt 8 a §, för 
+                                    <i>utnyttjande av person som är föremål för sexhandel</i>
+                                     dömas till böter eller fängelse i högst sex månader.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>För utnyttjande av person som är föremål för sexhandel döms också den som drar fördel av en ersättning enligt 1 mom. som utlovats eller getts av en tredje part genom att ha samlag eller företa en därmed jämförlig sexuell handling med en person som är föremål för ett brott som avses i nämnda moment.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Försök är straffbart.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 a §</num>
+                        <heading>Köp av sexuella tjänster av ung person</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Den som genom att utlova eller ge en ersättning får någon som är under 18 år att ha samlag eller företa någon annan sexuell handling, skall för 
+                                    <i>köp av sexuella tjänster av ung person</i>
+                                     dömas till böter eller fängelse i högst ett år.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>För köp av sexuella tjänster av ung person döms även den som använder i 1 mom. avsedda sexuella tjänster, för vilka någon annan har utlovat eller givit ersättning.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Försök är straffbart.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 oktober 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 221/2005</p>
+                        <p>LaUB 10/2006</p>
+                        <p>RSv 93/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 25 augusti 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

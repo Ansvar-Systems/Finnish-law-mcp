@@ -1,0 +1,133 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/729/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/729"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/729/alkup"/>
+                    <FRBRdate date="2005-09-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="729"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/729/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/729/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/729/alkup/swe"/>
+                    <FRBRdate date="2005-09-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/729/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/729/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/729/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="120"/>
+                    <finlex:date date="2005-09-09"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>729/2005</docNumber>
+                <docTitle>Lag om ändring av 66 och 67 § i avfallslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i avfallslagen av den 3 december 1993 (
+                        <affectedDocument href="/akn/fi/act/statute/1993/1072">1072/1993</affectedDocument>
+                        ) 67 §, sådan den lyder i lag 91/2000, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 66 § ett nytt 3 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>66 §</num>
+                    <heading>Ändringssökande</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>I förvaltningsdomstolens beslut i ett ärende som gäller betalning av avfallsavgift enligt 33 §, inklusive i 8 § i lagen om indrivning av skatter och avgifter i utsökningsväg (367/1961) avsedda ärenden som gäller grundbesvär i fråga om avfallsavgift, får ändring sökas genom besvär endast om högsta förvaltningsdomstolen beviljar besvärstillstånd.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>67 §</num>
+                    <heading>Verkställighet</heading>
+                    <subsection>
+                        <content>
+                            <p>I beslut som fattas med stöd av avfallstransportförordningen och 21, 31, 50, 57 och 58 § i denna lag samt av särskilda skäl i beslut som fattas med stöd av 50 a § i denna lag kan det föreskrivas att beslutet skall följas trots att ändring söks, om inte besvärsmyndigheten bestämmer något annat. Över ett sådant beslut av förvaltningsdomstolen som enbart gäller verkställighet och genom vilket verkställigheten av det överklagade beslutet förbjuds eller avbryts får besvär anföras hos högsta förvaltningsdomstolen endast i samband med huvudsaken.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 oktober 2005.</p>
+                    <p>På sökande av ändring i ett beslut som meddelats av en förvaltningsmyndighet före denna lags ikraftträdande tillämpas de bestämmelser som gällde vid ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 112/2004</p>
+                        <p>RP 5/2005</p>
+                        <p>FvUB 13/2005</p>
+                        <p>RSv 91/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 2 september 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Johannes Koskinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

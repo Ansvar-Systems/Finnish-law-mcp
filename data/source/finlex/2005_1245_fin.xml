@@ -1,0 +1,325 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1245/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1245"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1245/alkup"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1245"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1245/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1245/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1245/alkup/fin"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1245/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1245/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1245/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="204"/>
+                    <finlex:date date="2005-12-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1245/2005</docNumber>
+                <docTitle>Laki Ilmailulaitoksesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section eId="sec_1">
+                    <num>1 §</num>
+                    <heading>Hallinnollinen asema</heading>
+                    <subsection eId="sec_1__subsec_1">
+                        <content>
+                            <p>Ilmailulaitos on liikenne- ja viestintäministeriön hallinnonalalla toimiva valtion liikelaitos.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_1__subsec_2">
+                        <content>
+                            <p>
+                                Ilmailulaitokseen sovelletaan valtion liikelaitoksista annettua lakia (1185/2002, jäljempänä 
+                                <i>liikelaitoslaki</i>), jollei tässä laissa toisin säädetä.
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_2">
+                    <num>2 §</num>
+                    <heading>Toimiala</heading>
+                    <subsection eId="sec_2__subsec_1">
+                        <intro eId="sec_2__subsec_1__intro">
+                            <p>Ilmailulaitoksen toimialana ovat:</p>
+                        </intro>
+                        <paragraph eId="sec_2__subsec_1__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>lentoasemat ja niiden palvelut;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>lennonvarmistuspalvelut ja lennonvarmistusjärjestelmät;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>muu lentoasemiin ja lentoliikenteeseen liittyvä toiminta.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_3">
+                    <num>3 §</num>
+                    <heading>Liiketaloudellisesti hoidettavat tehtävät</heading>
+                    <subsection eId="sec_3__subsec_1">
+                        <intro eId="sec_3__subsec_1__intro">
+                            <p>Ilmailulaitoksen tehtävänä on liiketoiminnan harjoittaminen 2 §:ssä tarkoitetulla toimialalla. Erityisesti Ilmailulaitoksen tehtävänä on ilmailun edistämiseksi:</p>
+                        </intro>
+                        <paragraph eId="sec_3__subsec_1__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>ylläpitää ja kehittää valtion lentoasemaverkostoa ja Suomen lennonvarmistusjärjestelmää siviili- ja sotilasilmailun tarpeita varten;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_1__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>antaa lennonvarmistuspalveluja Suomen vastuulla olevassa ilmatilassa.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_2">
+                        <content>
+                            <p>Lennonvarmistuksesta säädetään ilmailulain (1242/2005) 12 luvussa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_4">
+                    <num>4 §</num>
+                    <heading>Ilmailulaitoksen julkiset palvelutehtävät</heading>
+                    <subsection eId="sec_4__subsec_1">
+                        <content>
+                            <p>Ilmailulaitoksen erityisenä tehtävänä on tarjoutua järjestämään 2 momentissa tarkoitettuja toimialaan liittyviä julkisia palvelutehtäviä.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_2">
+                        <intro eId="sec_4__subsec_2__intro">
+                            <p>Ilmailulaitos voi toimialaan liittyvänä julkisena palvelutehtävänä hoitaa:</p>
+                        </intro>
+                        <paragraph eId="sec_4__subsec_2__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>valtion lentoasemaverkoston liiketaloudellisesti kannattamattomien osien ylläpitoa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_4__subsec_2__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>lentoasema- ja lennonvarmistuspalvelujen tuottamista ilmailun koulutustoiminnan erityisiä tarpeita varten;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_4__subsec_2__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>aluevalvonnan ja meripelastustoiminnan lentoasemilta ja lennonvarmistukselta edellyttämiä erityisiä tehtäviä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_4__subsec_2__para_4">
+                            <num>4)</num>
+                            <content>
+                                <p>valmiuslainsäädännön edellyttämiä erityisiä valmiustehtäviä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_4__subsec_2__para_5">
+                            <num>5)</num>
+                            <content>
+                                <p>pelastustoimeen liittyviä erityisiä tehtäviä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_4__subsec_2__para_6">
+                            <num>6)</num>
+                            <content>
+                                <p>muita sille soveltuvia eduskunnan päättämiä julkisia palvelutehtäviä.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_5">
+                    <num>5 §</num>
+                    <heading>Varautumisvelvollisuus</heading>
+                    <subsection eId="sec_5__subsec_1">
+                        <content>
+                            <p>Ilmailulaitos varautuu hoitamaan tehtäviä myös poikkeusoloissa sen mukaan kuin liikenne- ja viestintäministeriö erikseen määrää.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_6">
+                    <num>6 §</num>
+                    <heading>Hinnoittelu</heading>
+                    <subsection eId="sec_6__subsec_1">
+                        <content>
+                            <p>Ilmailulaitos rahoittaa liiketoimintansa liiketaloudellisin periaattein määräämillään maksuilla ja muilla liiketoimintansa tuotoilla. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_6__subsec_2">
+                        <content>
+                            <p>Edellä 1 momentissa säädetystä poiketen Ilmailulaitos määrää 4 §:ssä tarkoitetuista julkisista palvelutehtävistä perittävät maksut niiden tuottamisesta aiheutuneiden kustannusten mukaisiksi. Näiden tehtävien hoitamiseen perustuvista menoista ja tuloista sekä varoista ja vastuista laaditaan tilikausittain erillinen laskelma.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_7">
+                    <num>7 §</num>
+                    <heading>Vakuuttamisen rajaaminen</heading>
+                    <subsection eId="sec_7__subsec_1">
+                        <content>
+                            <p>Valtioneuvosto voi päättää Ilmailulaitoksen lentoasema- ja lennonvarmistustoiminnan vakuuttamisen rajaamisesta. Valtioneuvoston tulee päätöstä tehdessään ottaa huomioon vakuutuksesta mahdollisesti korvattavien vahinkojen suuruus, vakuuttamisen rajaamisen vaikutukset valtion riskeihin ja kustannuksiin sekä kilpailuneutraliteettiin.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_8">
+                    <num>8 §</num>
+                    <heading>Henkilöstö ja johto</heading>
+                    <subsection eId="sec_8__subsec_1">
+                        <content>
+                            <p>Ilmailulaitoksessa voi olla sekä virka- että työsuhteista henkilöstöä.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_8__subsec_2">
+                        <content>
+                            <p>Ilmailulaitoksen toimitusjohtajasta säädetään liikelaitoslain 11 §:ssä. Ilmailulaitoksessa voi olla varatoimitusjohtaja.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_9">
+                    <num>9 §</num>
+                    <heading>Tarkemmat säännökset</heading>
+                    <subsection eId="sec_9__subsec_1">
+                        <intro eId="sec_9__subsec_1__intro">
+                            <p>Valtioneuvoston asetuksella voidaan antaa tarkempia säännöksiä:</p>
+                        </intro>
+                        <paragraph eId="sec_9__subsec_1__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>liikelaitoslain 9 §:n mukaisesta hallituksesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_9__subsec_1__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>liikelaitoslain 10 §:ssä tarkoitetuista hallituksen tehtävistä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_9__subsec_1__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>liikelaitoslain 11 §:n mukaisesta toimitusjohtajasta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_9__subsec_1__para_4">
+                            <num>4)</num>
+                            <content>
+                                <p>Ilmailulaitoksen varatoimitusjohtajasta.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_10">
+                    <num>10 §</num>
+                    <heading>Voimaantulo</heading>
+                    <subsection eId="sec_10__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_10__subsec_2">
+                        <content>
+                            <p>
+                                Tällä lailla kumotaan Ilmailulaitoksesta 14 päivänä joulukuuta 1990 annettu laki (1123/1990), jäljempänä 
+                                <i>kumottava laki</i>, siihen myöhemmin tehtyine muutoksineen.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_10__subsec_3">
+                        <content>
+                            <p>Toimenpiteisiin tämän lain täytäntöönpanemiseksi voidaan ryhtyä ennen sen voimaantuloa.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_10__subsec_4">
+                        <content>
+                            <p>Kumottavaan lakiin perustuvat oikeudet ja velvollisuudet säilyvät tämän lain mukaisella Ilmailulaitoksella, jollei lailla toisin säädetä.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_10__subsec_5">
+                        <content>
+                            <p>Ilmailulaitoksen henkilöstö säilyttää siirtymähetkellä aikaisempiin palvelussuhteisiinsa liittyvät oikeudet ja velvollisuudet, jollei lailla toisin säädetä.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/138">HE 138/2005</ref>
+                        </p>
+                        <p>LiVM 25/2005</p>
+                        <p>EV 182/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 29 päivänä joulukuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,156 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/808/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/808"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/808/alkup"/>
+                    <FRBRdate date="2007-08-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="808"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/808/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/808/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/808/alkup/swe"/>
+                    <FRBRdate date="2007-08-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/808/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/808/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/808/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="125"/>
+                    <finlex:date date="2007-08-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>808/2007</docNumber>
+                <docTitle>Lag om ändring av 2 a kap. 2 § och 16 kap. 6 § i strafflagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i strafflagen av den 19 december 1889 (
+                        <affectedDocument href="/akn/fi/act/statute/1889/39">39/1889</affectedDocument>
+                        ) 2 a kap. 2 § och 16 kap. 6 §, sådana de lyder, den förstnämnda i lag 550/1999 och den sistnämnda i lag 563/1998, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>2 a kap.</num>
+                    <heading>Om böter, förvandlingsstraff och ordningsbot</heading>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Dagsbotens belopp</heading>
+                        <subsection>
+                            <content>
+                                <p>Dagsbotsbeloppet skall fastställas så att det är skäligt i förhållande till den bötfälldes betalningsförmåga.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Som ett skäligt dagsbotsbelopp skall anses en sextiondedel av den bötfälldes genomsnittliga månadsinkomst, från vilken har avdragits de skatter och avgifter som bestäms genom förordning av statsrådet samt ett fast baskonsumtionsavdrag. Dagsbotsbeloppet kan sänkas på grund av den bötfälldes försörjningsplikt.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Till grund för månadsinkomsten skall i första hand läggas den bötfälldes inkomst enligt den senast verkställda beskattningen. Om den bötfälldes inkomster inte på ett tillförlitligt sätt kan utredas på basis av beskattningsuppgifterna eller om de väsentligt har förändrats efter den senast verkställda beskattningen, kan de beräknas enligt andra tillgängliga utredningar.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Dagsboten bestäms i domstol enligt de uppgifter som gäller under rättegången och i strafforderförfarande enligt de uppgifter som gäller när straffanspråket framställs. Åklagaren bestämmer dock böterna enligt de uppgifter som gäller när straffordern utfärdas, om det har framkommit att betalningsförmågan hos den som mottagit straffanspråket har förändrats väsentligt jämfört med de uppgifter som gällde då anspråket framställdes.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av statsrådet bestäms närmare hur den genomsnittliga månadsinkomsten skall beräknas och hur dagsbotsbeloppet skall avrundas, om baskonsumtionsavdragets belopp, om beaktande av försörjningsplikt och om dagsbotens minimibelopp.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>16 kap.</num>
+                    <heading>Om brott mot myndigheter</heading>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Bötesfusk</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Den som i syfte att bereda sig ekonomisk vinning ger en myndighet för fastställande av böter väsentligt osanna eller vilseledande uppgifter om sina inkomster, sin försörjningsplikt eller om någon annan omständighet som inverkar på betalningsförmågan, skall för 
+                                    <i>bötesfusk</i>
+                                     dömas till böter eller fängelse i högst tre månader.
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 november 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 25/2007</p>
+                        <p>LaUB 1/2007</p>
+                        <p>RSv 18/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 17 augusti 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Tuija Brax</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

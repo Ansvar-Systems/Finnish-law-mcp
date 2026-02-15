@@ -1,0 +1,177 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/840/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/840"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/840/alkup"/>
+                    <FRBRdate date="2005-10-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="840"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/840/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/840/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/840/alkup/swe"/>
+                    <FRBRdate date="2005-10-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/840/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/840/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/840/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="140"/>
+                    <finlex:date date="2005-10-31"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>840/2005</docNumber>
+                <docTitle>Lag om ändring av 13 kap. i sjukförsäkringslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i sjukförsäkringslagen av den 21 december 2004 (
+                        <affectedDocument href="/akn/fi/act/statute/2004/1224">1224/2004</affectedDocument>
+                        ) 13 kap. 11 § och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas </i>
+                        till 13 kap. nya 12―14 § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>13 kap.</num>
+                    <heading>Ersättningar som hänför sig till företagshälsovård</heading>
+                    <section>
+                        <num>11 §</num>
+                        <heading>Universitetsstuderandes hälsovård</heading>
+                        <subsection>
+                            <content>
+                                <p>Folkpensionsanstalten kan till Studenternas hälsovårdsstiftelse betala en skälig ersättning för kostnaderna för den primärvård stiftelsen anordnar.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Med primärvård avses verksamhet som är nödvändig med tanke på främjande av de studerandes hälsa samt förebyggande och behandling av sjukdomar, tjänster inom öppenvård på allmän- och specialläkarnivå, mentalvårdsarbete samt mun- och tandvård med undantag av kostnader för regleringsvård samt protetiska och tandtekniska åtgärder.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>12 §</num>
+                        <heading>Godtagbara kostnader</heading>
+                        <subsection>
+                            <content>
+                                <p>Godtagbara kostnader är de nödvändiga och skäliga drifts- och anläggningskostnader som föranleds av primärvård för studerande då stiftelsen har anordnat tjänsterna vid en egen hälsostation eller motsvarande avgifter och arvoden som en serviceproducent eller yrkesutövare som har rätt att tillhandahålla hälso- och sjukvårdstjänster tar ut.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 §</num>
+                        <heading>Fastställande av ersättningen</heading>
+                        <subsection>
+                            <content>
+                                <p>Ersättning betalas på basis av ett kalkylerat maximibelopp per studerande för de kostnader som föranletts av användningen av sådana resurser som behövs för att verksamheten skall kunna genomföras.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Folkpensionsanstalten fastställer det kalkylerade maximibeloppet per studerande utifrån de resursfaktorer som behövs för att hälso- och sjukvården skall kunna genomföras och på det sätt som bestäms närmare genom förordning av statsrådet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Den slutliga totala ersättningen är det kalkylerade maximibeloppet per studerande multiplicerat med antalet studerande, dock högst 63 procent av den totala finansieringen för stiftelsens räkenskaps- och verksamhetsperiod. Vid beräknandet av den slutliga totala ersättningen avses med antal studerande det antal studerande som uppgetts i ansökan om förskottsersättning för räkenskapsperioden och som har betalat hälsovårdsavgiften.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>14 §</num>
+                        <heading>Rätt att få uppgifter och meddela närmare anvisningar om fastställandet av ersättningen</heading>
+                        <subsection>
+                            <content>
+                                <p>Folkpensionsanstalten har rätt att av Studenternas hälsovårdsstiftelse få de uppgifter som Folkpensionsanstalten behöver för att kunna följa och utvärdera om hälso- och sjukvårdsresurserna använts på ett effektivt och resultatrikt sätt samt för uppföljning och utvärdering av verksamhetens lönsamhet och kontinuerliga utveckling.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Folkpensionsanstalten har dessutom rätt att granska stiftelsens bokföring och meddela närmare anvisningar om sökande och fastställande av ersättningen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av statsrådet utfärdas närmare bestämmelser om fastställandet av ersättningen, godtagbara kostnader, nödvändiga resursfaktorer, fastställandet av maximibeloppet per studerande samt ersättningsförfarandet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 november 2005. Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft. </p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 113/2005</p>
+                        <p>ShUB 12/2005</p>
+                        <p>RSv 104/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 21 oktober 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

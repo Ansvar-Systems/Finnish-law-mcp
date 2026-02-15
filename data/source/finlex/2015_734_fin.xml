@@ -1,0 +1,146 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/734/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/734"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/734/alkup"/>
+                    <FRBRdate date="2015-06-12" name="dateIssued"/>
+                    <FRBRdate date="2015-06-17" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="734"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/734/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/734/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/734/alkup/fin"/>
+                    <FRBRdate date="2015-06-12" name="dateIssued"/>
+                    <FRBRdate date="2015-06-17" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/734/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/734/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/734/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-06-17" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>734/2015</docNumber>
+                <docTitle>Laki oikeustoimen ja toimituksen todistajan esteellisyydestä</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section eId="sec_1">
+                    <num>1 §</num>
+                    <subsection eId="sec_1__subsec_1">
+                        <intro eId="sec_1__subsec_1__intro">
+                            <p>Jos lain mukaan oikeustoimi on esteettömän todistajan todistettava tai esteettömän todistajan on oltava läsnä toimituksessa, todistaja on esteellinen, jos:</p>
+                        </intro>
+                        <paragraph eId="sec_1__subsec_1__para_1">
+                            <num>1) </num>
+                            <content>
+                                <p>hän on oikeustoimeen osallinen tai oikeustoimi tehdään hänen hyväkseen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_1__subsec_1__para_2">
+                            <num>2) </num>
+                            <content>
+                                <p>hän on toimituksen asianosainen tai toimitus koskee hänen oikeuttaan;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_1__subsec_1__para_3">
+                            <num>3) </num>
+                            <content>
+                                <p>hän on 1 tai 2 kohdassa tarkoitetun henkilön nykyinen tai entinen aviopuoliso taikka nykyinen avopuoliso, sisarus, sukulainen suoraan ylenevässä tai alenevassa polvessa taikka hänellä on 1 tai 2 kohdassa tarkoitettuun henkilöön vastaavanlainen parisuhteeseen tai sukulaisuuteen rinnastuva läheinen suhde;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_1__subsec_1__para_4">
+                            <num>4) </num>
+                            <content>
+                                <p>hän on 3 kohdassa tarkoitetussa suhteessa siihen, jonka tehtäviin toimitus tai oikeustoimen tekemiseen myötävaikuttaminen kuuluu;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_1__subsec_1__para_5">
+                            <num>5) </num>
+                            <content>
+                                <p>hän ei ole täyttänyt 15 vuotta tai hänen henkinen toimintansa on häiriintynyt niin, ettei hän ilmeisesti ymmärrä todistamisen merkitystä.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_2">
+                    <num>2 §</num>
+                    <subsection eId="sec_2__subsec_1">
+                        <content>
+                            <p>Tätä lakia noudetaan, jollei oikeustoimen tai toimituksen todistajan esteellisyydestä muualla toisin säädetä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_3">
+                    <num>3 §</num>
+                    <subsection eId="sec_3__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/46">HE 46/2014</ref>
+                        </p>
+                        <p>LaVM 19/2014</p>
+                        <p>EV 274/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>  Helsingissä 12 päivänä kesäkuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeus- ja työministeri</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,151 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/216/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/216"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/216/alkup"/>
+                    <FRBRdate date="2024-05-03" name="dateIssued"/>
+                    <FRBRdate date="2024-05-07" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="216"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/216/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/216/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/216/alkup/swe"/>
+                    <FRBRdate date="2024-05-03" name="dateIssued"/>
+                    <FRBRdate date="2024-05-07" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/216/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/216/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/216/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2024-05-07" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>216/2024</docNumber>
+                <docTitle>Lag om ändring av 3 och 8 kap. i kyrkolagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>På förslag av kyrkomötet och i enlighet med riksdagens beslut </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i kyrkolagen (
+                        <affectedDocument href="/akn/fi/act/statute/2023/652">652/2023</affectedDocument>
+                        ) 3 kap. 16 § 2 mom. och 17 § samt 8 kap. 1 § 2 mom. 1 punkten som följer:                 
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>3 kap.</num>
+                    <heading>Församlingar och kyrkliga samfälligheter</heading>
+                    <section>
+                        <num>16 §</num>
+                        <heading>Den kyrkliga samfällighetens organ och beslutanderätt</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Den kyrkliga samfällighetens beslutanderätt utövas av gemensamma kyrkofullmäktige. Det kan i en förvaltningsstadga överföra beslutanderätt till gemensamma kyrkorådet eller någon av dess sektioner, till en direktion i den kyrkliga samfälligheten eller till en tjänsteinnehavare i den kyrkliga samfälligheten samt genom sitt beslut till församlingsrådet. Beslutanderätt får inte överföras i ärenden som avses i 6 § eller 15 § 1 mom. Beslutanderätt i ärenden som avses i 15 § 1 mom. 4 och 5 punkten kan dock överföras till gemensamma kyrkorådet.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>17 §</num>
+                        <heading>Förutsättningar för beslutsfattande i gemensamma kyrkofullmäktige</heading>
+                        <subsection>
+                            <content>
+                                <p>På beslutsfattandet i gemensamma kyrkofullmäktige tillämpas 9 §. Kvalificerad majoritet krävs också om ett beslut gäller en sådan ändring av grundstadgan som avses i 13 § 3 mom. eller upplösning av en sådan kyrklig samfällighet som bildats frivilligt. </p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>8 kap.</num>
+                    <heading>Behandling av personuppgifter samt kyrkobokföring</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Förhållande till annan lagstiftning</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <intro>
+                                <p>Utöver vad som föreskrivs i denna lag tillämpas </p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>på behandlingen av personuppgifter inom diakoniarbete 4–7, 9–15 och 17 §, 19 § 1 mom., 22, 24, 37–42, 44, 45, 50–52, 62 och 63 § i lagen om behandling av kunduppgifter inom social- och hälsovården (703/2023),</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juni 2024.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/18">RP 18/2024</ref>
+                        </p>
+                        <p>FvUB 7/2024</p>
+                        <p>RSv 26/2024</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 3 maj 2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Undervisningsminister</role>
+                                <person refersTo="">Anna-Maja Henriksson</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

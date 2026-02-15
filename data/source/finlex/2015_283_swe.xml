@@ -1,0 +1,394 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/283/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/283"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/283/alkup"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-25" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="283"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/283/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/283/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/283/alkup/swe"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-25" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/283/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/283/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/283/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-03-25" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>283/2015</docNumber>
+                <docTitle>Lag om ändring av statstjänstemannalagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i statstjänstemannalagen (
+                        <affectedDocument href="/akn/fi/act/statute/1994/750">750/1994</affectedDocument>
+                        ) 9 § 4 mom.,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         rubriken för 3 kap., 8 och 8 a §, 23 § 4 mom., 40 § 1 mom., 52 §, 57 § 1 mom. och 70 §,
+                    </block>
+                    <block name="substitutions-originals">av dem 8 § sådan den lyder delvis ändrad i lag 281/2000, 8 a § sådan den lyder i lag 604/1997, 40 § 1 mom. och 57 § 1 mom. sådana de lyder i lag 177/2013 och 52 § sådan den lyder delvis ändrad i lag 604/1997, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen nya 6 a—6 d, 8 d, 9 a och 9 b §, till 18 §, sådan den lyder delvis ändrad i lag 387/2001, ett nytt 6 mom., till lagen en ny 58 §, i stället för den 58 § som upphävts genom lag 177/2013, samt till 65 §, sådan den lyder i lagarna 604/2007 och 1088/2007, ett nytt 2 mom., varvid det nuvarande 2 och 3 mom. blir 3 och 4 mom., som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>3 kap.</num>
+                    <heading>Ansökningsförfarande för tjänster och tjänsteförhållanden för viss tid, utnämning och behörighetsvillkor</heading>
+                    <section>
+                        <num>6 a §</num>
+                        <subsection>
+                            <content>
+                                <p>En tjänst ska förklaras ledig att sökas innan den tillsätts.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Ett meddelande om att en tjänst är ledig att sökas ska offentliggöras på riksnivå, om inte något annat föreskrivs i denna lag. Ansökningstiden är minst 14 kalenderdagar.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av statsrådet utfärdas närmare bestämmelser om hur tjänster och tjänsteförhållanden för viss tid ska förklaras lediga att sökas.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 b §</num>
+                        <subsection>
+                            <content>
+                                <p>En tjänst som inrättats i stället för en uppgift i arbetsavtalsförhållande eller ett tjänsteförhållande för viss tid som överstiger ett år kan första gången tillsättas utan att tjänsten förklaras ledig, om den arbetstagare som sköter uppgiften eller den tjänsteman som är anställd i tjänsteförhållandet för viss tid utnämns till tjänsten.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelser om att i vissa situationer tillsätta tjänster utan att de förklaras lediga finns i 5 c § 1 mom., 9 b § 1 mom., 27 § 4 mom. och 32 § 1 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tjänsten som statssekreterare tillsätts utan att den förklaras ledig eller utan att det kungörs att den är vakant. På samma sätt sker utnämningen till ett tjänsteförhållande för viss tid som en ministers specialmedarbetare.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Genom lag föreskrivs särskilt om tillsättande av tjänster inom försvarsmakten, gränsbevakningsväsendet, polisväsendet och utrikesförvaltningen, domartjänster och forskartjänster vid Finlands Akademi utan att tjänsterna har förklarats lediga.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 c §</num>
+                        <subsection>
+                            <content>
+                                <p>I ett meddelande enligt 6 a § ska anges de uppgifter som hör till tjänsten samt de föreskrivna behörighetsvillkoren, dagen då ansökningstiden går ut och den myndighet till vilken ansökan ska riktas. I meddelandet ska nämnas huruvida tjänsten har inrättats vid en särskild enhet eller om den är gemensam för ämbetsverket.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Av grundade skäl kan man vid behov ledigförklara en tjänst eller ett tjänsteförhållande på nytt eller förlänga ansökningstiden. De som tidigare har sökt tjänsten eller tjänsteförhållandet beaktas då utan en ny ansökan.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Till ansökan ska behövliga redogörelser fogas. Ansökningar som inte har kommit in före utgången av den ansökningstid som anges i meddelandet beaktas inte.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av statsrådet utfärdas närmare bestämmelser om myndigheter till vilka ansökningarna ska riktas.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 d §</num>
+                        <subsection>
+                            <content>
+                                <p>Med undantag för de fall som avses i 6 b § kan till en tjänst utnämnas endast den som har sökt tjänsten. När utnämning till en tjänst sker enligt 6 b § 1—3 mom., kan till den utnämnas även en person som har samtyckt till utnämningen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Den myndighet som har fattat utnämningsbeslutet ska utan dröjsmål lämna dem som har sökt tjänsten eller tjänsteförhållandet ett meddelande om utnämningen. I meddelandet ska nämnas den tjänst eller det tjänsteförhållande som ska tillsättas, vilken myndighet som har fattat beslutet, datum för utnämningen samt vem som har utnämnts till tjänsten eller tjänsteförhållandet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>På ansökan av den som har utnämnts till en tjänst kan den utnämnande myndigheten återkalla utnämningen före den tidpunkt från och med vilken personen har utnämnts till tjänsten. Om en utnämning har återkallats, får någon annan som sökt tjänsten utnämnas till den utan att tjänsten förklaras ledig att sökas på nytt.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Ett tjänsteförhållande börjar vid den tidpunkt från och med vilken personen har utnämnts till en tjänst eller ett tjänsteförhållande.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 §</num>
+                        <subsection>
+                            <content>
+                                <p>Den som utnämns till tjänsteman ska ha fyllt 18 år. Till tjänsteman kan dock utnämnas den som har fyllt 15 år och fullgjort sin läroplikt, om utnämningen kan anses vara lämplig med tanke på skötseln av tjänstemannens uppgifter.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Utöver bestämmelserna om allmänna behörighetsvillkor är särskilda behörighetsvillkor för de tjänster som avses i 26 § 3 och 4 punkten, med undantag av statssekreterare, högre högskoleexamen, sådan mångsidig erfarenhet som uppgiften förutsätter samt i praktiken visad ledarförmåga och erfarenhet av ledarskap.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Särskilda bestämmelser om den examen eller andra särskilda behörighetsvillkor som krävs för en enskild tjänst enligt 2 mom. kan vid behov utfärdas i en sådan förordning av statsrådet som gäller det aktuella ämbetsverket.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om det inte i lag finns bestämmelser om examina och om andra särskilda behörighetsvillkor som krävs för en statlig tjänst, kan bestämmelser om dem utfärdas genom förordning av statsrådet, ifall detta är motiverat för skötseln av de uppgifter som hör till tjänsten.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Statsrådet kan bevilja dispens från behörighetsvillkoren enligt 2 mom. för den som söker tjänsten som riksförlikningsman. Av särskilda skäl kan statsrådet dessutom bevilja dispens från behörighetsvillkor som anges i förordning av statsrådet, dock inte för en tjänst som domare.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 a §</num>
+                        <subsection>
+                            <content>
+                                <p>En person som föreslås bli utnämnd till en tjänst som avses i 26 § 1—4 punkten ska före utnämningen lämna en redogörelse för sin näringsverksamhet, sitt ägande i företag och annan förmögenhet samt för sina uppgifter utanför tjänsten, sina bisysslor enligt 18 § och för sina andra bindningar som kan vara av betydelse vid bedömningen av hans eller hennes förutsättningar att sköta de uppgifter som hör till den tjänst som ska tillsättas. Anmälan ska när det gäller bisysslor som kräver bisysslotillstånd enligt 18 § innehålla uppgifter om inkomsten från bisysslorna.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vad som föreskrivs i 1 mom. tillämpas också när en person med stöd av 9 § 1 mom. utnämns till att sköta de uppgifter som hör till en tjänst som avses i 1 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>De tjänstemän som har blivit utnämnda till tjänster och uppgifter enligt 1 och 2 mom. ska utan dröjsmål anmäla ändringar och bristfälligheter i de uppgifter som avses i 1 mom. samt även annars lämna motsvarande redogörelse när den behöriga myndigheten begär en sådan. Dessutom ska tjänstemän informera den behöriga myndigheten om de arbetsuppgifter utanför tjänsten som följer av tjänsteställningen samt om den eventuella inkomsten från dessa arbetsuppgifter.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Uppgifter om en persons ekonomiska ställning som har getts en myndighet ska hemlighållas. Finansministeriet har trots sekretessbestämmelserna rätt att av myndigheten få uppgifter om bisysslor som kräver bisysslotillstånd enligt 18 § för de tjänstemän som utnämnts till tjänster och uppgifter enligt 1 och 2 mom., samt om den inkomst som de fått från bisysslorna samt om de arbetsuppgifter utanför tjänsten som följer av tjänsteställningen och om den eventuella inkomsten från dessa uppgifter.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av statsrådet utfärdas närmare bestämmelser om att lämna anmälningar enligt denna paragraf.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 d §</num>
+                        <subsection>
+                            <content>
+                                <p>Trots vad som föreskrivs i 16 § 3 mom. i lagen om offentlighet i myndigheternas verksamhet (621/1999) får den behöriga myndigheten offentliggöra de anmälningar om bindningar samt tillstånd för och anmälningar om bisysslor som avses i 8 a § 1 och 2 mom. över ett allmänt datanät, om inte något annat följer av sekretessbestämmelserna.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Den behöriga myndigheten svarar för att de uppgifter som avses i 1 mom. är uppdaterade. Uppgifterna om bindningar samt om tillstånd för och anmälningar om bisysslor ska tas bort från det allmänna datanätet när bindningen eller bisysslan har upphört.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av statsrådet får närmare bestämmelser utfärdas om att offentliggöra uppgifter om bindningar samt om tillstånd för och anmälningar om bisysslor.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 a §</num>
+                        <subsection>
+                            <content>
+                                <p>Utöver bestämmelserna i 9 § om grunderna för utnämning för viss tid sker utnämning till de tjänster som avses i 26 § 3 och 4 punkten för en tid av fem år, om det inte av särskilda skäl finns grund för att utnämna för kortare tid.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelserna i 1 mom. gäller dock inte tjänster inom utrikesförvaltningen, gränsbevakningsväsendet eller polisförvaltningen och inte heller tjänsterna som statssekreterare, riksåklagare, överdirektör vid Energimyndigheten eller riksförlikningsman.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Den tid som avses i 1 mom. kan förlängas med högst ett år på initiativ av den utnämnande myndigheten, om det till detta finns en grundad anledning som hänför sig till ämbetsverkets verksamhet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 b §</num>
+                        <subsection>
+                            <content>
+                                <p>Den som utnämnts för viss tid till en tjänst enligt 9 a § får efter den föreskrivna tiden utnämnas till en annan tjänst eller ett annat tjänsteförhållande inom statsförvaltningen eller anställas i ett arbetsavtalsförhållande för viss tid om högst två år utan ett ansökningsförfarande.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om personen inte kan utnämnas till eller anställas i en tjänst eller uppgift som avses i 1 mom., upphör anställningsförhållandet till staten när den bestämda tiden går ut.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelserna i 1 och 2 mom. tillämpas inte på en tjänsteman som är tjänstledig från en annan statlig tjänst till vilken tjänstemannen har utnämnts tills vidare.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>18 §</num>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av statsrådet utfärdas närmare bestämmelser om myndigheter som beviljar tillstånd för bisyssla.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>23 §</num>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av statsrådet utfärdas närmare bestämmelser om myndigheter som beviljar tjänstledighet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>40 §</num>
+                        <subsection>
+                            <content>
+                                <p>När en tjänsteman sägs upp på grundval av 25, 26 eller 26 a § ska tjänstemannen avstängas från tjänsteutövning, om beslutet om uppsägning inte vunnit laga kraft vid uppsägningstidens utgång. När en tjänsteman sägs upp på grundval av 27 § ska han eller hon avstängas från tjänsteutövning vid utgången av uppsägningstiden tills beslutet om uppsägning har vunnit laga kraft. Förvaltningsdomstolen, eller om förvaltningsdomstolens beslut har överklagats hos högsta förvaltningsdomstolen, högsta förvaltningsdomstolen kan av särskilda skäl besluta något annat. Har en tjänsteman avsatts eller tjänsteförhållandet upplösts, ska denne omedelbart avstängas från tjänsteutövning även om beslutet inte har vunnit laga kraft.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>52 §</num>
+                        <subsection>
+                            <content>
+                                <p>En tjänsteman som anser att myndigheten inte betalat en ekonomisk förmån på grundval av tjänsteförhållandet till det belopp som han eller hon har rätt till, får skriftligen begära omprövning hos den behöriga myndigheten, om inte något annat föreskrivs i lag. Myndigheten ska meddela ett beslut i ärendet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>I myndighetens beslut med anledning av begäran om prövning får ändring sökas på det sätt som föreskrivs i förvaltningsprocesslagen (586/1996).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>57 §</num>
+                        <subsection>
+                            <content>
+                                <p>I ett beslut som gäller en tjänsteman och som statsrådet eller ett ämbetsverk har fattat får tjänstemannen söka ändring på det sätt som föreskrivs i förvaltningsprocesslagen. Ändring i ett beslut som en domstol fattat om en tjänstemans bisyssla söks dock genom besvär hos högsta förvaltningsdomstolen. Besvärstiden när det gäller beslut om uppsägning enligt 27 § 1 mom. börjar dock löpa först från uppsägningstidens utgång. Beslutet ska iakttas trots besvär, om inte besvärsinstansen beslutar något annat. Ärenden enligt 53 § ska förvaltningsdomstolen och högsta förvaltningsdomstolen behandla skyndsamt.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>58 §</num>
+                        <subsection>
+                            <content>
+                                <p>En tjänsteman får inte begära omprövning enligt 52 § eller söka ändring i ett beslut på det sätt som föreskrivs i 57 § eller föra ärendet till behandling såsom förvaltningstvistemål, om tjänstemannen eller en tjänstemannaförening har rätt att inleda ärendet vid arbetsdomstolen, om inte arbetsdomstolen med stöd av 1 § 2 mom. i lagen om arbetsdomstolen (646/1974) har beslutat att den inte avgör ärendet. Bestämmelserna i denna paragraf tillämpas endast på en tjänsteman som är medlem i en sådan tjänstemannaförening som har rätt att inleda ärendet vid arbetsdomstolen, eller i dess underförening.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>65 §</num>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>En tjänsteman anses dock ha avgått från sin tidigare tjänst vid den tidpunkt då denne för andra gången har utnämnts till en tjänst enligt 9 a § 1 mom. för viss tid, om inte myndigheten av särskilda skäl bestämmer något annat.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>70 §</num>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av statsrådet utfärdas närmare bestämmelser om tjänsteed och tjänsteförsäkran.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 maj 2015.</p>
+                    <p>De tjänster och tjänsteförhållanden för viss tid som innan denna lag trädde i kraft förklarats vakanta och som motsvarar tjänsterna enligt 9 a § tillsätts med iakttagande av de bestämmelser som gällde vid ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 298/2014</p>
+                        <p>FvUB 50/2014</p>
+                        <p>RSv 323/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 20 mars 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Trafik- och kommunminister</role>
+                                <person refersTo="">Paula Risikko</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,150 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1425/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1425"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1425/alkup"/>
+                    <FRBRdate date="2006-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1425"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1425/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1425/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1425/alkup/fin"/>
+                    <FRBRdate date="2006-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1425/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1425/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1425/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="216"/>
+                    <finlex:date date="2006-12-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1425/2006</docNumber>
+                <docTitle>Laki tuloverolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         30 päivänä joulukuuta 1992 annetun tuloverolain (
+                        <affectedDocument href="/akn/fi/act/statute/1992/1535">1535/1992</affectedDocument>
+                        ) 123 §:n 1 momentti ja 123 a §,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 123 §:n 1 momentti laissa 1143/2005 sekä 123 a § laissa 927/1996, ja</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 123 b § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>123 §</num>
+                    <heading>Sulautumisen ja jakautumisen vaikutus tappioiden vähentämiseen</heading>
+                    <subsection>
+                        <content>
+                            <p>Yhteisön jakauduttua jakautuvan yhteisön tappiot siirtyvät vastaanottavalle yhteisölle siltä osin kuin on ilmeistä, että tappiot ovat syntyneet vastaanottavalle yhteisölle siirtyneessä toiminnassa. Muilta osin tappiot siirtyvät samassa suhteessa kuin jakautuvan yhteisön varojen arvostamisesta verotuksessa annetun lain 2 luvussa tarkoitettu nettovarallisuus siirtyy vastaanottaville yhteisöille. Jos jakautuvan yhteisön verotuksessa on useita tulolähteitä, tulolähteen vahvistetut tappiot siirtyvät niille vastaanottaville yhtiöille, joilla on vastaava tulolähde.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>123 a §</num>
+                    <heading>Yritysjärjestelyjen vaikutus ulkomaisen yhteisön kiinteän toimipaikan tappioiden vähentämiseen</heading>
+                    <subsection>
+                        <content>
+                            <p>Yhteisöllä, joka on jakautumisen tai elinkeinotulon verottamisesta annetun lain 52 d §:ssä tarkoitetun liiketoimintasiirron yhteydessä perustettu jatkamaan toisessa Euroopan unionin jäsenvaltiossa asuvan yhteisön Suomessa olevassa kiinteässä toimipaikassa harjoittamaa toimintaa, on oikeus vähentää tulostaan kiinteän toimipaikan verotuksessa vahvistettu tappio 119 ja 122 §:ssä säädetyllä tavalla.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos sulautumisen, jakautumisen tai liiketoimintasiirron yhteydessä toisessa Euroopan unionin jäsenvaltiossa asuvan yhteisön Suomessa sijaitsevasta kiinteästä toimipaikasta muodostuu tässä toisessa tai kolmannessa Euroopan unionin jäsenvaltiossa asuvan toisen yhteisön kiinteä toimipaikka, on tällä yhteisöllä tämän kiinteän toimipaikan verotuksessa oikeus vähentää tulostaan kiinteän toimipaikan verotuksessa vahvistettu tappio 1 momentissa säädetyllä tavalla.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>123 b §</num>
+                    <heading>Yritysjärjestelyjen vaikutus suomalaisen yhteisön kiinteän toimipaikan tappioiden käsittelyyn</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos sulautumisen, jakautumisen, elinkeinotulon verottamisesta annetun lain 52 d §:ssä tarkoitetun liiketoimintasiirron tai saman lain 52 g §:ssä tarkoitetun eurooppayhtiön tai eurooppaosuuskunnan sääntömääräisen kotipaikan siirron yhteydessä toiseen jäsenvaltioon siirtyviin varoihin kuuluu siirtävän yhteisön kiinteä toimipaikka, joka sijaitsee tässä toisessa tai kolmannessa Euroopan unionin jäsenvaltiossa, varat luovuttaneen yhteisön verotettavaan tuloon lisätään kiinteän toimipaikan sellaiset tappiot, jotka on vähennetty Suomessa sijaitsevan yhteisön verotuksessa ja joita ei ole katettu mainitun kiinteän toimipaikan myöhempien verovuosien voitoilla. Tappiot lisätään Suomessa sijaitsevan yhteisön tuloon 10 edeltävän verovuoden ajalta.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2007.</p>
+                    <p>Lakia sovelletaan ensimmäisen kerran vuodelta 2007 toimitettavassa verotuksessa. Lakia sovelletaan jakautumiseen, joka on tapahtunut 1 päivänä tammikuuta 2007 tai sen jälkeen. Niihin jakautumisiin, joissa jakautumissuunnitelma on merkitty kaupparekisteriin ennen 1 päivää tammikuuta 2007, sovelletaan tämän lain voimaan tullessa voimassa ollutta tuloverolain 123 §:n 1 momentin säännöstä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/247">HE 247/2006</ref>
+                        </p>
+                        <p>VaVM 42/2006</p>
+                        <p>EV 250/2006</p>
+                        <p>Neuvoston direktiivi 2005/19/EY, (32005L0019); EYVL N:o L 58, 4.3.2005, s. 19</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 29 päivänä joulukuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Toinen valtiovarainministeri </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

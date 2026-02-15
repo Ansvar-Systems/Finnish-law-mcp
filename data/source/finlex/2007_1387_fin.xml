@@ -1,0 +1,143 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1387/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1387"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1387/alkup"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1387"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1387/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1387/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1387/alkup/fin"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1387/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1387/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1387/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="204"/>
+                    <finlex:date date="2007-12-31"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1387/2007</docNumber>
+                <docTitle>Laki pakkokeinolain 1 luvun 8 §:n ja 4 luvun 15 a §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         30 päivänä huhtikuuta 1987 annetun pakkokeinolain (
+                        <affectedDocument href="/akn/fi/act/statute/1987/450">450/1987</affectedDocument>
+                        ) 4 luvun 15 a §:n 2 momentti, sellaisena kuin se on laissa 10/1994, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         1 luvun 8 §:ään siitä lailla 213/1995 kumotun 3 momentin tilalle uusi 3 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>1 luku</num>
+                    <heading>Kiinniottaminen, pidättäminen ja vangitseminen</heading>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Vangitsemisen edellytykset</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Rikoksesta todennäköisin syin epäilty, jonka luovuttamista Suomeen tullaan pyytämään, saadaan vangita, jos rikoksesta säädetty ankarin rangaistus on vähintään vuosi vankeutta ja jos epäillyn henkilökohtaisten olosuhteiden, luovuttamispyyntöön sisällytettävien rikosten määrän tai laadun taikka muiden vastaavien seikkojen perusteella on syytä epäillä, ettei hän saavu vapaaehtoisesti Suomeen syytetoimenpiteitä varten.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>4 luku</num>
+                    <heading>Takavarikko</heading>
+                    <section>
+                        <num>15 a §</num>
+                        <heading>Takavarikosta päättäminen vieraan valtion oikeusapupyynnön johdosta</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Takavarikoimisesta päättäneen viranomaisen on viikon kuluessa saatettava takavarikoimista koskeva päätös sen paikkakunnan käräjäoikeuden vahvistettavaksi, missä takavarikointi on toimitettu. Päättäessään vahvistaa takavarikon on tuomioistuimen samalla asetettava määräaika, jonka takavarikko on voimassa. Tuomioistuin saa takavarikoimisesta päättäneen viranomaisen ennen määräajan päättymistä tekemästä pyynnöstä pidentäätätä määräaikaa. Takavarikosta voi päättää myös rikoksen johdosta tapahtuvasta luovuttamisesta Euroopan unionin jäsenvaltioiden välillä annetun lain (1286/2003) 66 §:n 2 momentissa tai rikoksen johdosta tapahtuvasta luovuttamisesta Suomen ja muiden Pohjoismaiden välillä annetun lain (1383/ 2007) 63 §:n 2 momentissa tarkoitettua asiaa käsittelevä tuomioistuin. Syyttäjän on tarvittaessa ilmoitettava takavarikkoa koskevasta päätöksestä takavarikkoasiaa aiemmin käsitelleelle viranomaiselle.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/51">HE 51/2007</ref>
+                        </p>
+                        <p>LaVM 8/2007</p>
+                        <p>EV 101/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 21 päivänä joulukuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Tuija Brax </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,163 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/139/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/139"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/139/alkup"/>
+                    <FRBRdate date="2005-03-04" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="139"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/139/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/139/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/139/alkup/swe"/>
+                    <FRBRdate date="2005-03-04" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/139/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/139/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/139/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="27"/>
+                    <finlex:date date="2005-03-10"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>139/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om samarbete inom företag</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 22 september 1978 om samarbete inom företag (
+                        <affectedDocument href="/akn/fi/act/statute/1978/725">725/1978</affectedDocument>
+                        ) 5 § 1 mom., 11 § 3 mom., den finska språkdräkten i rubriken för 14 § samt 14 § 1 mom.,
+                    </block>
+                    <block name="substitutions-originals">av dem 5 § 1 mom. sådant det lyder i lag 906/1996, 11 § 3 mom. sådant det lyder i lag 236/1993 och 14 § 1 mom. sådant det lyder i lag 723/1997, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>5 §</num>
+                    <heading>Val av företrädare för personalen i vissa fall</heading>
+                    <subsection>
+                        <content>
+                            <p>När någon personalgrupp saknar förtroendeman, förbindelseman eller kontaktperson eller har denna blivit utsedd genom val där förutsättningen för deltagande har varit medlemskap i en facklig förening, och utgör de arbetstagare eller funktionärer som inte hör till föreningen majoritet i personalgruppen, har dessa arbetstagare eller funktionärer, när majoriteten av dem fordrar det, rätt att bland sig välja en företrädare för samarbete som avses i denna lag för ett år i sänder. Vid uppsägning av arbetsavtalet för en ovan avsedd företrädare för personalen skall utöver vad som bestäms i 7 kap. 1―4 § i arbetsavtalslagen även iakttas 7 kap. 10 § 1 mom. i arbetsavtalslagen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>11 §</num>
+                    <heading>Arbetsgivares informationsskyldighet</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Överlåtaren och mottagaren av rörelsen skall meddela företrädarna för de av sina arbetstagare som överlåtelsen berör</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>tidpunkten eller den planerade tidpunkten för överlåtelsen,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>orsakerna till överlåtelsen,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>de juridiska, ekonomiska och sociala verkningarna av överlåtelsen för arbetstagarna, samt</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>de planerade åtgärder som berör arbetstagarna.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>14 §</num>
+                    <heading>Rätt att ingå avtal</heading>
+                    <subsection>
+                        <content>
+                            <p>Arbetsgivar-, arbetstagar- och funktionärsföreningar vilkas verksamhet omfattar hela landet kan genom avtal avvika från vad som i 3 och 4 § bestäms om samarbetsparter, i 6 § om ärenden som hör till området för samarbetsförfarandet, i 6 a § om konstaterande av förhandlingsskyldighet efter överlåtelse, delning eller fusionering av en rörelse, i 6 b § om personal- och utbildningsplaner, i 7 § om samarbetsförfarandet, i 7 a § om förhandlingsframställning, i 8 § om förhandlingsskyldighetens innehåll och dess fullgörande, i 8 a § om anteckning om förhandlingar, i 11 § om arbetsgivares informationsskyldighet, i 11 b―11 e § om koncernsamarbete samt i 13 § om befrielse för företrädare för personalen från arbete och om de ersättningar som skall betalas för detta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 23 mars 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 201/2004</p>
+                        <p>AjUB 1/2005</p>
+                        <p>RSv 4/2005</p>
+                        <p>Europaparlamentets och rådets direktiv 2002/14/EG; EGT nr L 80, 23.3.2002, s. 29</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 4 mars 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Arbetsminister </role>
+                                <person refersTo="">Tarja Filatov</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,330 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1595/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1595"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1595/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1595"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1595/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1595/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1595/alkup/fin"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1595/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1595/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1595/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1595/2015</docNumber>
+                <docTitle>Laki perintökaaren muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         perintökaareen (
+                        <affectedDocument href="/akn/fi/act/statute/1965/40">40/1965</affectedDocument>
+                        ) uusi 23 a luku seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>23 a luku</num>
+                    <heading>Perinnönjaon oikaisusta ja omaisuuden palautusvelvollisuudesta</heading>
+                    <section>
+                        <num>1 §</num>
+                        <subsection>
+                            <content>
+                                <p>Perillinen tai yleistestamentin saaja, joka ei ole ollut osapuolena toimitetussa perinnönjaossa, voi vaatia perinnönjaon oikaisua, jos hänen oikeutensa perintöön ei ole vanhentunut.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>2 §</num>
+                        <subsection>
+                            <intro>
+                                <p>Jollei 3 §:stä muuta johdu, se, joka on saanut omaisuutta jäämistöstä, on velvollinen perinnönjaon oikaisua varten palauttamaan omaisuutta kuolinpesälle seuraavasti:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>omaisuutta perintönä tai yleistestamentin nojalla taikka 5 luvun 2 §:n perusteella saanut saamansa omaisuuden;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>omaisuutta erityisjälkisäädöksen nojalla saanut saamansa omaisuuden, jos jälkisäädöksen täyttäminen loukkaa oikaisua vaativan lakiosaa tai muuta oikeutta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>omaisuutta 8 luvussa tarkoitettuna avustuksena tai hyvityksenä taikka 18 luvun 6 §:n 2 momentissa tarkoitettuna elatuksena saanut saamansa omaisuuden siltä osin kuin hän on saanut huomattavasti enemmän kuin mihin hän olisi ollut oikeutettu.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 momentissa tarkoitettua palautusvelvollisuutta ei kuitenkaan ole, jos on ilmeistä, että omaisuuden palauttaminen ei ole tarpeen oikaisua vaativan oikeuden turvaamiseksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>3 §</num>
+                        <subsection>
+                            <content>
+                                <p>Jos oikaisua vaativa on tullut perillisen asemaan vasta perinnönjaon toimittamisen jälkeen, palautusvelvollinen voi omaisuuden palauttamisen sijasta maksaa kuolinpesälle korvauksena rahamäärän, joka vastaa hänen liikaa saamansa omaisuuden arvoa. Laskettaessa palautettavaa rahamäärää omaisuudelle on pantava se arvo, joka sillä vastaanotettaessa oli, jollei tästä ole erityistä syytä poiketa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 §</num>
+                        <subsection>
+                            <content>
+                                <p>Jos palautettava omaisuus ei ole tallella tai muuten palautettavissa, sen arvo on korvattava. Omaisuuden arvo määritetään siten kuin 3 §:ssä säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos omaisuus on palautettavissa, mutta palautusvelvollinen osoittaa, että sen palauttamisesta aiheutuisi hänelle huomattavaa haittaa, palautusvelvollinen voi omaisuuden palauttamisen sijasta maksaa kuolinpesälle korvauksena rahamäärän, joka vastaa omaisuuden arvoa vastaanottohetkellä. Jos omaisuuden arvo korvauksen määräämishetkellä on vastaanottohetken arvoa korkeampi eikä arvonnousu ole seurausta palautusvelvollisen omasta toiminnasta, korvaus on kuitenkin suoritettava määräämishetken arvon mukaan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>5 §</num>
+                        <subsection>
+                            <content>
+                                <p>Jos palautettavan omaisuuden arvo on alentunut merkittävästi kulumisen tai vahingoittumisen vuoksi, palautusvelvollisen on korvattava arvon aleneminen. Jos omaisuuden arvo on alentunut muusta syystä, palautusvelvollisen on suoritettava kohtuullinen korvaus omaisuuden arvon alenemisesta, jos siihen katsotaan olevan erityistä syytä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <subsection>
+                            <content>
+                                <p>Palautusvelvollisen on maksettava palautettavalle rahamäärälle korkolain 3 §:n 2 momentin mukaista korkoa siitä lähtien, kun hän sai omaisuuden haltuunsa. Muusta palautettavasta omaisuudesta saatu tuotto tai sen arvo on korvattava ja omaisuudesta saadusta hyödystä on suoritettava kohtuullinen korvaus. Korvausta hyödystä ei kuitenkaan tarvitse suorittaa, jos korvauksen voidaan katsoa sisältyvän omaisuuden arvon alenemisesta suoritettavaan korvaukseen. </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 momentissa tarkoitettua korkoa tai korvausta on kuitenkin maksettava aikaisintaan siitä lähtien, kun palautusvelvollinen tuli tai hänen olisi pitänyt tulla tietoiseksi oikaisua vaativan oikeudesta jäämistöön.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Palautusvelvollisen on maksettava palautettavalle rahamäärälle viivästyskorkoa korkolain 4 §:n 1 momentin mukaisesti palautusvaatimuksen esittämisestä lähtien.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>7 §</num>
+                        <subsection>
+                            <content>
+                                <p>Palautusvelvollisella on oikeus saada kuolinpesän varoista korvaus palautettavaan omaisuuteen panemistaan tarpeellisista kustannuksista ja, jos se harkitaan kohtuulliseksi, muista kustannuksista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 §</num>
+                        <subsection>
+                            <content>
+                                <p>Jos 2—6 §:n mukainen palautusvelvollisuus olisi kohtuuton, sitä voidaan sovitella.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Palautusvelvollisuuden sovittelua harkittaessa on otettava huomioon:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>onko palautusvelvollinen omaisuuden saadessaan tiennyt tai olisiko hänen pitänyt tietää oikaisua vaativan oikeudesta jäämistöön;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>omaisuuden saamisesta palautusvaatimuksen esittämiseen kulunut aika;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>palautusvelvollisen ja oikaisua vaativan taloudelliset olosuhteet ja palautusvelvollisuuden vaikutukset heidän toimeentuloonsa; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>muut näihin verrattavat seikat.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Harkittaessa 4 §:n 1 momentin ja 5 §:n mukaisen korvausvelvollisuuden sovittelua on lisäksi otettava huomioon, mistä on aiheutunut, että omaisuus ei ole palautettavissa tai sen arvo on alentunut.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <subsection>
+                            <content>
+                                <p>Omaisuuden palauttamisesta voidaan sopia. Sopimus on tehtävä kirjallisesti.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tuomioistuin voi oikaisua vaativan hakemuksesta määrätä pesänselvittäjän huolehtimaan omaisuuden palauttamisesta kuolinpesälle perinnönjaon oikaisua varten.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Pesänselvittäjän on pyrittävä saamaan aikaan sopimus omaisuuden palauttamisesta jäämistöstä omaisuutta saaneiden kanssa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Pesänselvittäjään sovelletaan muutoin, mitä 19 luvussa säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>10 §</num>
+                        <subsection>
+                            <content>
+                                <p>Jos pesänselvittäjä ei pääse omaisuutta saaneen kanssa sopimukseen omaisuuden palauttamisesta tai omaisuutta saanut ei palauta omaisuutta sopimuksen mukaisesti, pesänselvittäjän on ajettava häntä vastaan palautusvelvollisuutta koskevaa kannetta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tuomioistuimen on asiaa käsitellessään varattava oikaisua vaativalle tilaisuus tulla kuulluksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>11 §</num>
+                        <subsection>
+                            <content>
+                                <p>Perinnönjaon oikaisua varten on toimitettava uusi perinnönjako.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Se, joka ei ole 2 §:n 2 momentin nojalla palauttanut omaisuutta tai joka on 3 §:ssä säädetyllä tavalla maksanut kuolinpesälle liikaa saamansa omaisuuden arvoa vastaavan rahamäärän, ei osallistu oikaisujakoon.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos omaisuutta saaneen palautusvelvollisuutta on soviteltu, oikaisujaossa otetaan hänen jo saamanaan perintöosuutena huomioon se määrä, jolla hänen palautusvelvollisuuttaan on sovittelun vuoksi alennettu.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Oikaisujaosta laadittavassa jakokirjassa on mainittava, että se korvaa oikaisujakoon osallistuneiden osalta aikaisemman jakokirjan.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Oikaisujakoon sovelletaan muutoin, mitä 23 luvussa perinnönjaosta säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>12 §</num>
+                        <subsection>
+                            <content>
+                                <p>Jos kuolinpesä on perittävän kuoleman jälkeen toimitetussa osituksessa tai omaisuuden erottelussa taikka suorittamalla avopuolisoiden yhteistalouden purkamisesta annetun lain (26/2011) 8 §:ssä tarkoitettua hyvitystä luovuttanut perittävän avio- tai avopuolisolle taikka tämän perillisille omaisuutta huomattavasti enemmän kuin se olisi ollut velvollinen luovuttamaan, perillinen tai yleistestamentin saaja, joka ei ole ollut toimituksessa osapuolena, voi vaatia osituksen, omaisuuden erottelun tai hyvityksen oikaisua, jos hänen oikeutensa perintöön ei ole vanhentunut.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Perittävän avio- tai avopuoliso taikka tämän perillinen on velvollinen osituksen, omaisuuden erottelun tai hyvityksen oikaisua varten palauttamaan saamansa omaisuuden kuolinpesälle siltä osin kuin hän on saanut huomattavasti enemmän kuin mihin hän olisi ollut oikeutettu. Palautusvelvollisuuteen sovelletaan, mitä 3—8 §:ssä säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Mitä 9—11 §:ssä säädetään perinnönjaon oikaisusta, sovelletaan myös osituksen, omaisuuden erottelun tai hyvityksen oikaisuun.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                    <p>Tätä lakia sovelletaan myös ennen sen voimaantuloa toimitettuun perinnönjakoon, ositukseen, omaisuuden erotteluun sekä suoritettuun hyvitykseen.</p>
+                    <p>Tämä laki ei vaikuta sellaisten sopimusten pätevyyteen, jotka on ennen tämän lain voimaantuloa tehty perinnönjaon taikka osituksen, omaisuuden erottelun tai hyvityksen oikaisemiseksi.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/72">HE 72/2015</ref>
+                        </p>
+                        <p>LaVM 5/2015</p>
+                        <p>EV 84/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 30 päivänä joulukuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Liikenne- ja viestintäministeri</role>
+                                <person refersTo="">Anne Berner</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

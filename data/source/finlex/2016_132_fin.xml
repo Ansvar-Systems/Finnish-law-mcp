@@ -1,0 +1,197 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/132/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/132"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/132/alkup"/>
+                    <FRBRdate date="2016-02-19" name="dateIssued"/>
+                    <FRBRdate date="2016-02-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="132"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/132/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/132/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/132/alkup/fin"/>
+                    <FRBRdate date="2016-02-19" name="dateIssued"/>
+                    <FRBRdate date="2016-02-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/132/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/132/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/132/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-23" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>132/2016</docNumber>
+                <docTitle>Laki ulkomaalaislain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti </p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         ulkomaalaislain (
+                        <affectedDocument href="/akn/fi/act/statute/2004/301">301/2004</affectedDocument>
+                        ) 191 §:n 6 kohta ja 191 a §, sellaisina kuin ne ovat, 191 §:n 6 kohta laissa 1218/2013 ja 191 a § laissa 266/2011, 
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         191 §:n 1 kohta ja 204 a §:n 2 momentti, sellaisina kuin ne ovat, 191 §:n 1 kohta laissa 1218/2013 ja 204 a §:n 2 momentti laissa 266/2011, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään </i>
+                        190 §:ään, sellaisena kuin se on laeissa 516/2008 ja 1214/2013, uusi 3 momentti, lakiin uusi 190 a ja 190 b § sekä 196 §:ään uusi 2 momentti, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>190 §</num>
+                    <heading>Valitus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Muutoksenhausta viisumiasioissa säädetään 190 a §:ssä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>190 a §</num>
+                    <heading>Muutoksenhaku viisumiasioissa</heading>
+                    <subsection>
+                        <content>
+                            <p>Suomen edustuston viisumisäännöstön nojalla tekemään viisumin epäämis- ja mitätöintipäätökseen sekä sellaiseen viisumin kumoamispäätökseen, jota ei ole tehty viisuminhaltijan pyynnöstä, saa vaatia oikaisua päätöksen tehneeltä edustustolta siten kuin hallintolain 7 a luvussa säädetään. Kun kyse on unionin kansalaisen tai häneen rinnastettavan perheenjäsentä koskevasta viisumin epäämis-, mitätöinti- tai kumoamispäätöksestä, johon sovelletaan 10 lukua, haetaan muutosta valittamalla hallinto-oikeuteen siten kuin hallintolainkäyttölaissa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Suomen edustuston oikaisuvaatimukseen tekemään päätökseen saa hakea muutosta valittamalla hallinto-oikeuteen siten kuin hallintolainkäyttölaissa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rajatarkastusviranomaisen, poliisin tai Maahanmuuttoviraston viisumisäännöstön nojalla tekemään viisumin epäämis- ja mitätöintipäätökseen sekä sellaiseen viisumin kumoamispäätökseen, jota ei ole tehty viisuminhaltijan pyynnöstä, saa hakea muutosta valittamalla hallinto-oikeuteen siten kuin hallintolainkäyttölaissa säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>190 b §</num>
+                    <heading>Oikaisuvaatimuksen käsittely</heading>
+                    <subsection>
+                        <content>
+                            <p>Viisumin epäämis-, mitätöinti- ja kumoamispäätöstä koskeva oikaisuvaatimus on käsiteltävä ilman aiheetonta viivytystä. Oikaisuvaatimusta koskevan asian saa ratkaista asianosaista kuulematta, jollei kuuleminen ole erityisestä syystä tarpeen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Oikaisuvaatimukseen annettavan päätöksen perustelut voidaan jättää esittämättä siltä osin kuin kyse on viisumin epäämis-, mitätöinti- tai kumoamispäätöksen perusteena olevasta toisen Schengen-valtion tai kolmannen maan viranomaiselta saadusta viisuminhakijaa tai viisuminhaltijaa koskevasta tiedosta taikka tiedosta, jonka mukaan viisuminhakija tai viisuminhaltija saattaa vaarantaa Schengen-valtion yleistä järjestystä tai turvallisuutta taikka sen kansallista turvallisuutta tai suhteita vieraaseen valtioon.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>191 § </num>
+                    <heading>Valituskiellot</heading>
+                    <subsection>
+                        <intro>
+                            <p>Seuraaviin tämän lain nojalla tehtyihin päätöksiin ei saa hakea muutosta valittamalla:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>viisumisäännöstön mukaista viisumihakemuksen jättämiseen liittyvää velvollisuutta, Suomen edustuston toimivaltaa, viisumihakemuksen tutkittavaksi ottamista, hakemuksen käsittelyn keskeyttämistä, hakemuksen siirtämistä edustetun Schengen-valtion viranomaiselle ja viisumin jatkamista koskeva päätös sekä päätös, jolla viisumi on myönnetty;</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>196 §</num>
+                    <heading>Valitus korkeimpaan hallinto-oikeuteen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Hallinto-oikeuden päätökseen, joka koskee viisumin epäämistä, mitätöimistä tai kumoamista, ei saa hakea muutosta valittamalla korkeimmalta hallinto-oikeudelta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>204 a §</num>
+                    <heading>Tiedoksianto viisumiasiassa</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Edellä 190 a §:n 1 momentissa tarkoitettuun oikaisuvaatimukseen annettua päätöstä koskeva tiedoksianto saadaan toimittaa lähettämällä päätös postitse ulkomaalaisen ilmoittamaan osoitteeseen taikka luovuttamalla päätös ulkomaalaiselle päätöksen tehneen viranomaisen luona. Päätös katsotaan annetuksi tiedoksi seitsemäntenä päivänä päätökseen merkitystä päiväyksestä, jollei muuta näytetä.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä huhtikuuta 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/54">HE 54/2015</ref>
+                        </p>
+                        <p>HaVM 9/2015</p>
+                        <p>EV 41/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 19 päivänä helmikuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ulkoasiainministeri</role>
+                                <person refersTo="">Timo Soini</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

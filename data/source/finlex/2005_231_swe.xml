@@ -1,0 +1,174 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/231/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/231"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/231/alkup"/>
+                    <FRBRdate date="2005-04-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="231"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/231/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/231/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/231/alkup/swe"/>
+                    <FRBRdate date="2005-04-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/231/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/231/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/231/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="45"/>
+                    <finlex:date date="2005-04-21"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>231/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om andelsbanker och andra kreditinstitut i andelslagsform</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 28 december 2001 om andelsbanker och andra kreditinstitut i andelslagsform (
+                        <affectedDocument href="/akn/fi/act/statute/2001/1504">1504/2001</affectedDocument>
+                        ) 3 § 3 mom., 5 §, 10 § 1 mom. 1 punkten samt 11 § 1 mom. 1 punkten och 2 mom., av dem 3 § 3 mom. och 5 § sådana de lyder i lag 704/2004, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 9 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Centralinstitutet har ett förvaltningsråd. Om den affärsbank som avses i 1 mom. 3 punkten har ett förvaltningsråd, skall ledamöterna i centralinstitutets förvaltningsråd utgöra majoriteten i affärsbankens förvaltningsråd. Ordföranden för centralinstitutets styrelse är ordförande för affärsbankens styrelse.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <subsection>
+                        <content>
+                            <p>Centralinstitutet eller ett medlemskreditinstitut eller en sammanslutning som hör till deras konsolideringsgrupp får inte i sin verksamhet ta så stora risker att centralinstitutets eller medlemskreditinstitutets eller hela sammanslutningens kapitaltäckning eller likviditet äventyras väsentligt. Centralinstitutet skall ha intern kontroll och riskkontrollsystem som är tillräckliga för hela sammanslutningen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Om ett medlemskreditinstitut eller ett medlemskreditinstituts moderföretag är ett sådant moderföretag till ett konglomerat som avses i lagen om tillsyn över finans- och försäkringskonglomerat (699/2004), kan den tillsynsmyndighet som med stöd av 7 § i nämnda lag är samordnande tillsynsmyndighet för konglomeratet, på ansökan av medlemskreditinstitutet eller dess moderföretag för viss tid bevilja dispens från kravet att tillämpa nämnda lag på konglomeratet. Tillstånd kan beviljas om en tillämpning av lagen på konglomeratet endast skulle ha ringa betydelse med tanke på lagens syfte.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 §</num>
+                    <subsection>
+                        <intro>
+                            <p>Utöver vad som föreskrivs i 2 kap. 3 § lagen om andelslag skall i centralinstitutets stadgar bestämmas att</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>centralinstitutet, den affärsbank som är centralt finansiellt institut för andelsbankerna, de övriga sammanslutningar som hör till centralinstitutets konsolideringsgrupp, medlemskreditinstituten, de sammanslutningar som hör till medlemskreditinstitutens konsolideringsgrupper samt sådana kreditinstitut, finansiella institut och tjänsteföretag, varav de ovan nämnda sammanslutningarna ensamma eller tillsammans äger över hälften, utgör den sammanslutning av andelsbanker som avses i 3 §,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>11 §</num>
+                    <subsection>
+                        <intro>
+                            <p>Utöver vad som föreskrivs på något annat ställe i lag skall i ett medlemskreditinstituts stadgar eller bolagsordning bestämmas att</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>centralinstitutet, den affärsbank som är centralt finansiellt institut för andelsbankerna, de övriga sammanslutningar som hör till centralinstitutets konsolideringsgrupp, medlemskreditinstituten, de sammanslutningar som hör till medlemskreditinstitutens konsolideringsgrupper samt sådana kreditinstitut, finansiella institut och tjänsteföretag, varav de ovan nämnda sammanslutningarna ensamma eller tillsammans äger över hälften, utgör den sammanslutning av andelsbanker som avses i 3 §,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En sådan ändring i ett medlemskreditinstituts stadgar eller bolagsordning som avser något annat än utträde ur centralinstitutet enligt 14 § får inte antecknas i handelsregistret om inte centralinstitutet har godkänt ändringen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 maj 2005.</p>
+                    <p>I stället för de bestämmelser i centralinstitutets eller ett medlemskreditinstituts stadgar eller bolagsordning som strider mot 10 och 11 § i denna lag skall bestämmelserna i denna lag iakttas. De ändringar som görs i stadgar eller bolagsordningar för att dessa skall stämma överens med lagen skall anmälas för registrering samtidigt som andra ändringar i stadgarna eller bolagsordningarna anmäls för registrering, dock senast fem år efter det att lagen har trätt i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 1/2005</p>
+                        <p>EkUB 3/2005</p>
+                        <p>RSv 16/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 15 april 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Andra finansminister </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,484 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/276/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/276"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/276/alkup"/>
+                    <FRBRdate date="2016-04-22" name="dateIssued"/>
+                    <FRBRdate date="2016-04-25" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="276"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/276/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/276/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/276/alkup/fin"/>
+                    <FRBRdate date="2016-04-22" name="dateIssued"/>
+                    <FRBRdate date="2016-04-25" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/276/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/276/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/276/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-04-25" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>276/2016</docNumber>
+                <docTitle>Laki  verkkoinfrastruktuurin yhteisrakentamisesta ja -käytöstä</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section eId="sec_1">
+                    <num>1 §</num>
+                    <heading>Soveltamisala</heading>
+                    <subsection eId="sec_1__subsec_1">
+                        <content>
+                            <p>Tässä laissa säädetään viestintäverkkojen sekä energia-, liikenne- ja vesihuoltoverkkojen yhteisrakentamisesta ja -käytöstä. Lakia sovelletaan vain, jos yhteistoiminnan osapuolena on viestintäverkko. Lisäksi tässä laissa säädetään tietojen toimittamisesta keskitettyyn tietopisteeseen.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_1__subsec_2">
+                        <content>
+                            <p>Jos tietoyhteiskuntakaaressa (917/2014) tai laajakaistarakentamisen tuesta haja-asutusalueilla annetussa laissa (1186/2009) on tästä laista poikkeavia säännöksiä, niitä sovelletaan tämän lain asemesta. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_1__subsec_3">
+                        <content>
+                            <p>Tätä lakia ei sovelleta niihin verkkotoimijoihin, joiden toiminta kohdistuu vähäiseen käyttäjämäärään, on alueellisesti suppeaa ja taloudellisesti vähämerkityksellistä. Tätä lakia ei myöskään sovelleta  julkisen hallinnon  turvallisuusverkkotoiminnasta annetun  lain (10/2015) soveltamisalaan kuuluvaan turvallisuusverkkotoimintaan.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_2">
+                    <num>2 §</num>
+                    <heading>Määritelmät</heading>
+                    <subsection eId="sec_2__subsec_1">
+                        <intro eId="sec_2__subsec_1__intro">
+                            <p>Tässä laissa tarkoitetaan:</p>
+                        </intro>
+                        <paragraph eId="sec_2__subsec_1__para_1">
+                            <num>1) </num>
+                            <content>
+                                <p>
+                                    <i>viestintäverkolla</i>
+                                     tietoyhteiskuntakaaren 3 §:n 39 kohdassa tarkoitettua verkkoa;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_2">
+                            <num>2) </num>
+                            <content>
+                                <p>
+                                    <i>energiaverkolla</i>
+                                     kaasu-, lämpö-, jäähdytys- ja sähköverkkoja sekä muita näihin verrattavia verkkoja; 
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_3">
+                            <num>3) </num>
+                            <content>
+                                <p>
+                                    <i>liikenneverkolla</i>
+                                     maanteitä, katuja, yksityisteitä, rautateitä, satamia ja lentoasemia tai muita näihin verrattavia liikennealueita;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_4">
+                            <num>4) </num>
+                            <content>
+                                <p>
+                                    <i>vesihuoltoverkolla</i>
+                                     jätevesiviemäriverkkoa ja hulevesiviemäriverkkoa;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_5">
+                            <num>5) </num>
+                            <content>
+                                <p>
+                                    <i>fyysisellä infrastruktuurilla</i>
+                                     rakennetta, rakennelmaa, rakennusta tai niiden osaa, johon on tarkoitus sijoittaa muita verkon osia ilman, että siitä itsestään tulee aktiivinen verkon osa;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_6">
+                            <num>6) </num>
+                            <content>
+                                <p>
+                                    <i>verkkotoimijalla</i>
+                                     lain soveltamisalaan kuuluvan verkon tai siihen liittyvän fyysisen infrastruktuurin omistajaa tai haltijaa taikka teleyritystä, ei kuitenkaan asunto-osakeyhtiötä, keskinäistä kiinteistöosakeyhtiötä tai niihin verrattavaa yhteisöä;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_2__subsec_1__para_7">
+                            <num>7) </num>
+                            <content>
+                                <p>
+                                    <i>kriittisellä infrastruktuurilla</i>
+                                     fyysistä infrastruktuuria tai verkkoa taikka näiden osaa, jonka vaarantuminen olisi omiaan aiheuttamaan merkittävää yleistä vaaraa tai kansallisen turvallisuuden heikentymistä.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_3">
+                    <num>3 §</num>
+                    <heading>Yhteiskäyttö</heading>
+                    <subsection eId="sec_3__subsec_1">
+                        <intro eId="sec_3__subsec_1__intro">
+                            <p>Verkkotoimija on velvollinen luovuttamaan käyttöoikeuden fyysiseen  infrastruktuu-riinsa oikeudenmukaisin ja kohtuullisin ehdoin toisen verkkotoimijan kirjallisesta pyynnöstä. Verkkotoimijan on pyynnössä määriteltävä hanke aikatauluineen sekä tarvitsemansa verkon osat. Jos pyyntö ei ole riittävän yksilöity, verkkotoimijan on viipymättä pyydettävä pyynnön esittänyttä verkkotoimijaa täydentämään pyyntöään. Verkkotoimija voi kieltäytyä myöntämästä käyttöoikeuden fyysiseen infrastruktuuriinsa vain, jos kieltäytymiselle on jokin seuraavista perusteista: </p>
+                        </intro>
+                        <paragraph eId="sec_3__subsec_1__para_1">
+                            <num>1) </num>
+                            <content>
+                                <p>fyysisen infrastruktuurin tekninen soveltumattomuus yhteiskäyttöön; </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_1__para_2">
+                            <num>2) </num>
+                            <content>
+                                <p>verkkotoimijan oma käyttö ja kohtuullinen tuleva tarve;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_1__para_3">
+                            <num>3) </num>
+                            <content>
+                                <p>yleisen tai kansallisen turvallisuuden vaarantuminen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_1__para_4">
+                            <num>4) </num>
+                            <content>
+                                <p>muiden samassa fyysisessä infrastruktuurissa tarjottavien palvelujen vaarantuminen.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_2">
+                        <content>
+                            <p>Verkkotoimijan on vastattava kirjallisesti 1 momentissa tarkoitettuun pyyntöön kuukauden kuluessa pyynnön vastaanottamisesta sekä perusteltava mahdollinen kieltäytymisensä. Jos verkkotoimija kieltäytyy myöntämästä käyttöoikeuden fyysiseen infrastruktuuriinsa, jättää vastaamatta käyttöoikeuspyyntöön edellä mainitussa määräajassa tai jos käyttöoikeuden ehdoista ei päästä sopimukseen kahden kuukauden kuluessa käyttöoikeuspyynnön vastaanottamisesta, verkkotoimija voi saattaa asian Viestintäviraston ratkaistavaksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_3">
+                        <content>
+                            <p>Jos käyttöoikeuspyyntö kohdistuu kolmannen osapuolen alueelle sijoitettuun fyysiseen infrastruktuuriin, pyynnön esittäjä vastaa tarpeellisen käyttöoikeuden hankinnasta. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_4">
+                    <num>4 § </num>
+                    <heading>Yhteisrakentaminen</heading>
+                    <subsection eId="sec_4__subsec_1">
+                        <intro eId="sec_4__subsec_1__intro">
+                            <p>Verkkotoimijan on suostuttava toisen verkkotoimijan fyysisen infrastruktuurin yhteisrakentamista ja verkkojen yhteisrakentamista koskevaan pyyntöön oikeudenmukaisin ja kohtuullisin ehdoin. Pyyntö on esitettävä kirjallisena ja yksilöitynä. Kohtuulliseen pyyntöön on  suostuttava, jollei yhteisrakentaminen:</p>
+                        </intro>
+                        <paragraph eId="sec_4__subsec_1__para_1">
+                            <num>1) </num>
+                            <content>
+                                <p>lisää verkkotoimijoiden kustannuksia erillisrakentamiseen verrattuna;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_4__subsec_1__para_2">
+                            <num>2) </num>
+                            <content>
+                                <p>koske vähäistä rakennushanketta; tai </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_4__subsec_1__para_3">
+                            <num>3) </num>
+                            <content>
+                                <p>vaaranna verkon turvallisuutta tai verkon käyttöä aiottuun tarkoitukseen.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_2">
+                        <content>
+                            <p>Yhteisrakentamista koskeva pyyntö on jätettävä mahdollisimman aikaisessa vaiheessa ja viimeistään kuukautta ennen kuin hankkeeseen haetaan lupaa toimivaltaiselta viranomaiselta. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_3">
+                        <content>
+                            <p>Jollei toisin sovita, yhteisrakentamisesta aiheutuvat kustannukset jaetaan verkkotoimijoiden kesken erillisrakentamisesta aiheutuvien arvioitujen kustannusten suhteessa.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_4">
+                        <content>
+                            <p>Jos verkkotoimija kieltäytyy täyttämästä toisen verkkotoimijan yhteisrakentamista koskevaa pyyntöä tai jos ehdoista ei päästä sopimukseen kuukauden kuluessa yhteisrakentamista koskevan pyynnön vastaanottamisesta, verkkotoimija voi saattaa asian Viestintäviraston ratkaistavaksi.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_5">
+                    <num>5 § </num>
+                    <heading>Keskitetty tietopiste</heading>
+                    <subsection eId="sec_5__subsec_1">
+                        <intro eId="sec_5__subsec_1__intro">
+                            <p>Viestintäviraston tehtävänä on huolehtia, että tarjolla on helppokäyttöinen ja tietoturvallinen keskitetty tietopiste, jonka kautta annetaan ilman aiheetonta viivytystä digitaalisessa muodossa tiedot:</p>
+                        </intro>
+                        <paragraph eId="sec_5__subsec_1__para_1">
+                            <num>1) </num>
+                            <content>
+                                <p>verkkojen fyysisestä infrastruktuurista; </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_1__para_2">
+                            <num>2) </num>
+                            <content>
+                                <p>suunnitelluista rakennustöistä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_1__para_3">
+                            <num>3) </num>
+                            <content>
+                                <p>rakentamiseen liittyvistä lupamenettelyistä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_1__para_4">
+                            <num>4) </num>
+                            <content>
+                                <p>kaapeleiden, putkien ja niihin verrattavien aktiivisten verkon osien sijainneista. </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_2">
+                        <intro eId="sec_5__subsec_2__intro">
+                            <p>Tietoja ei kuitenkaan tarvitse antaa siltä osin kuin tietojen antamisen voidaan katsoa vaarantavan:</p>
+                        </intro>
+                        <paragraph eId="sec_5__subsec_2__para_1">
+                            <num>1) </num>
+                            <content>
+                                <p>verkkojen tietoturvallisuutta; </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_2__para_2">
+                            <num>2) </num>
+                            <content>
+                                <p>yleistä tai kansallista turvallisuutta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_2__para_3">
+                            <num>3) </num>
+                            <content>
+                                <p>yritys- ja liikesalaisuuksia. </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_3">
+                        <content>
+                            <p>Edellä 1 momentin 1—3 kohdassa tarkoitettujen tietojen antamisesta perittävistä maksuista säädetään valtion maksuperustelaissa (150/1992).</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_4">
+                        <content>
+                            <p>Edellä 2 momentissa tarkoitettuun päätökseen saa vaatia oikaisua Viestintävirastolta. Oikaisumenettelystä säädetään hallintolaissa (434/2003).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_6">
+                    <num>6 § </num>
+                    <heading>Keskitetyn tietopisteen toiminnan järjestäminen</heading>
+                    <subsection eId="sec_6__subsec_1">
+                        <content>
+                            <p>Viestintävirasto voi hoitaa 5 §:n 1 momentissa tarkoitetun tehtävän itse tai hankkia sen palveluna ulkopuoliselta palveluntuottajalta edellyttäen, että palveluntuottajalle siirrettävät tehtävät ovat luonteeltaan teknisiä ja avustavia. Palveluntuottaja ei saa käyttää tehtävää hoitaessaan saamiaan tietoja hyväksi muussa liiketoiminnassaan.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_6__subsec_2">
+                        <content>
+                            <p>Palveluntuottajan palveluksessa olevaan henkilöön sovelletaan rikosoikeudellista virkavastuuta koskevia säännöksiä hänen suorittaessaan 5 §:n 1 momentin mukaisia tehtäviä. Palveluntuottajan palveluksessa olevan henkilön on 5 §:n 1 momentissa tarkoitettuja tehtäviä hoitaessaan noudatettava, mitä viranomaisten toiminnan julkisuudesta annetussa laissa (621/1999), hallintolaissa, arkistolaissa (831/1994), kielilaissa (423/2003) ja saamen kielilaissa (1086/2003) säädetään. Vahingonkorvausvastuusta säädetään vahingonkorvauslaissa (412/1974).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_7">
+                    <num>7 §</num>
+                    <heading>Tiedonantovelvollisuus</heading>
+                    <subsection eId="sec_7__subsec_1">
+                        <content>
+                            <p>Verkkotoimijan on annettava keskitetyn tietopisteen kautta saataville 5 §:n 1 momentissa tarkoitetut tiedot ja niitä koskevat muutokset digitaalisessa muodossa ja ilman aiheetonta viivytystä. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_7__subsec_2">
+                        <content>
+                            <p>Verkkotoimijan on tarvittaessa annettava omaa toimintaansa koskevat 5 §:n 1 momentissa tarkoitetut tiedot suoraan toisen verkkotoimijan kirjallisesta pyynnöstä. Tiedot on luovutettava kahden kuukauden kuluessa kirjallisen pyynnön vastaanottopäivästä oikeudenmukaisin ja kohtuullisin ehdoin. Verkkotoimija voi kieltäytyä tietojen antamisesta 5 §:n 2 momentissa tarkoitetuilla perusteilla. Julkisyhteisöllä ei ole velvollisuutta muuttaa 5 §:n 1 momentissa tarkoitettuja tietoja digitaaliseen muotoon.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_7__subsec_3">
+                        <content>
+                            <p>Julkisyhteisön, jolla on hallussaan digitaalisessa muodossa 5 §:n 1 momentissa tarkoitettuja tietoja, on annettava nämä tiedot ja niitä koskevat muutokset keskitetyn tietopisteen kautta saataville kahden kuukauden kuluessa tietojen vastaanottopäivästä, jos tiedot eivät ole muutoin saatavilla keskitetyn tietopisteen kautta. Määräaikaa voidaan pidentää enintään yhdellä kuukaudella, jos se on tarpeen toimitettujen tietojen luotettavuuden varmistamiseksi. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_7__subsec_4">
+                        <content>
+                            <p>Jos tässä pykälässä säädetyistä velvollisuuksista syntyy riitaa, se jonka oikeutta tai etua asia koskee, voi saattaa asian Viestintäviraston ratkaistavaksi.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_8">
+                    <num>8 §</num>
+                    <heading>Poikkeukset tiedonantovelvollisuuteen</heading>
+                    <subsection eId="sec_8__subsec_1">
+                        <content>
+                            <p>Edellä 7 §:ssä säädetty tiedonantovelvollisuus ei koske fyysistä infrastruktuuria, joka ei teknisesti sovellu yhteiskäyttöön, eikä kriittistä infrastruktuuria. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_9">
+                    <num>9 § </num>
+                    <heading>Paikan päällä tehtävät selvitykset </heading>
+                    <subsection eId="sec_9__subsec_1">
+                        <content>
+                            <p>Verkkotoimijan on toisen verkkotoimijan kirjallisesta pyynnöstä tarvittaessa sallittava paikan päällä tehtävät selvitykset, jotka kohdistuvat sen fyysisen infrastruktuurin yksittäisiin osiin. Verkkotoimija voi kieltäytyä paikan päällä tehtävistä selvityksistä 5 §:n 2 momentissa tarkoitetuilla perusteilla. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_9__subsec_2">
+                        <content>
+                            <p>Pyyntöön on annettava kirjallinen vastaus kuukauden kuluessa 1 momentissa tarkoitetun pyynnön vastaanottopäivästä.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_9__subsec_3">
+                        <content>
+                            <p>Jos tässä pykälässä säädetyistä velvollisuuksista syntyy riitaa, se, jonka oikeutta tai etua asia koskee, voi saattaa asian Viestintäviraston ratkaistavaksi. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_10">
+                    <num>10 §</num>
+                    <heading>Valvonta ja erimielisyyksien ratkaiseminen</heading>
+                    <subsection eId="sec_10__subsec_1">
+                        <content>
+                            <p>Viestintäviraston tehtävänä on valvoa tämän lain sekä sen nojalla annettujen säännösten ja päätösten noudattamista, jollei tässä laissa muuta säädetä. Viestintäviraston on edistettävä verkkotoimijoiden yhteistyötä sekä pyrittävä ratkaisemaan verkkotoimijoiden väliset erimielisyydet ensisijaisesti sovittelemalla. Viestintäviraston on poikkeuksellisia olosuhteita lukuun ottamatta tehtävä päätös neljän kuukauden kuluessa asian vireille tulosta 3 §:ssä tarkoitetussa asiassa ja kahden kuukauden kuluessa asian vireille tulosta 4, 7 ja 9 §:ssä tarkoitetussa asiassa. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_10__subsec_2">
+                        <content>
+                            <p>Jos joku rikkoo tätä lakia tai sen nojalla annettuja määräyksiä, Viestintävirasto voi velvoittaa hänet korjaamaan virheensä tai laiminlyöntinsä kohtuullisessa määräajassa. Päätöksen tehosteeksi voidaan asettaa uhkasakko tai uhka, että toiminta keskeytetään osaksi tai kokonaan taikka että tekemättä  jätetty  toimenpide  teetetään asianomaisen kustannuksella. Uhkasakosta, keskeyttämisuhasta ja teettämisuhasta säädetään uhkasakkolaissa (1113/1990).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_11">
+                    <num>11 § </num>
+                    <heading>Riidanratkaisua tukeva asiantuntijaryhmä</heading>
+                    <subsection eId="sec_11__subsec_1">
+                        <content>
+                            <p>Viestintävirasto asettaa asiantuntijaryhmän, jonka tehtävänä on avustaa Viestintävirastoa erimielisyyksien ratkaisemisessa. Työryhmässä ovat edustettuina 1 §:n 1 momentissa tarkoitettujen verkkojen ja tämän lain soveltamisen kannalta keskeiset toimialat sekä niillä toimivat viranomaiset. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_11__subsec_2">
+                        <content>
+                            <p>Sen lisäksi mitä viranomaisten toiminnan julkisuudesta annetussa laissa säädetään, Viestintävirastolla on oikeus salassapitosäännösten estämättä luovuttaa työryhmän jäsenelle tarvittavia tietoja, jos tiedot ovat välttämättömiä ryhmän tehtävien hoitamiseksi eivätkä sisällä luottamuksellisia viestejä tai välitystietoja. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_11__subsec_3">
+                        <content>
+                            <p>Työryhmän jäseneen sovelletaan tämän pykälän mukaisissa tehtävissä rikosoikeudellista virkavastuuta koskevia säännöksiä. Vahingonkorvausvastuusta säädetään vahingonkorvauslaissa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_12">
+                    <num>12 §</num>
+                    <heading>Viestintäviraston tiedonsaantioikeus</heading>
+                    <subsection eId="sec_12__subsec_1">
+                        <content>
+                            <p>Viestintävirastolla on tämän lain mukaisia tehtäviä suorittaessaan oikeus saada tehtäviensä suorittamiseksi tarvittavat tiedot salassapitosäännösten estämättä niiltä, joiden oikeuksista ja velvollisuuksista tässä laissa säädetään tai jotka toimivat näiden lukuun. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_12__subsec_2">
+                        <content>
+                            <p>Tiedot on luovutettava maksutta ja ilman aiheetonta viivytystä ja viranomaisen pyytämässä muodossa. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_13">
+                    <num>13 § </num>
+                    <heading>Viestintäviraston oikeus antaa määräyksiä </heading>
+                    <subsection eId="sec_13__subsec_1">
+                        <content>
+                            <p>Viestintävirasto voi antaa tarkempia teknisiä määräyksiä 7 §:ssä tarkoitettujen tietojen vähimmäissisällöstä, digitaalisesta muodosta sekä niiden käsittelyssä ja siirtämisessä tarvittavien järjestelmien yhteentoimivuudesta ja tietoturvasta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_14">
+                    <num>14 §</num>
+                    <heading>Valitus</heading>
+                    <subsection eId="sec_14__subsec_1">
+                        <content>
+                            <p>Viestintäviraston oikaisuvaatimukseen antamaan ja muuhun päätökseen saa hakea muutosta valittamalla hallinto-oikeuteen siten kuin hallintolainkäyttölaissa (586/1996) säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_14__subsec_2">
+                        <content>
+                            <p>Viestintävirastolla on oikeus hakea valittamalla muutosta hallinto-oikeuden päätökseen, jolla hallinto-oikeus on kumonnut Viestintäviraston 1 momentissa tarkoitetun päätöksen tai muuttanut sitä. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_14__subsec_3">
+                        <content>
+                            <p>Hallinto-oikeuden  päätökseen  saa  hakea muutosta valittamalla vain,  jos  korkein  hallinto-oikeus myöntää valitusluvan.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_15">
+                    <num>15 § </num>
+                    <heading>Voimaantulo</heading>
+                    <subsection eId="sec_15__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 1 päivänä heinäkuuta 2016. Sen 5 §:n 1 momentissa tarkoitettujen tietojen on kuitenkin oltava saatavilla keskitetyn tietopisteen kautta vasta 1 päivänä tammikuuta 2017.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/116">HE 116/2015</ref>
+                        </p>
+                        <p>LiVM 3/2016</p>
+                        <p>EV 22/2016</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 22 päivänä huhtikuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Liikenne- ja viestintäministeri</role>
+                                <person refersTo="">Anne Berner</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

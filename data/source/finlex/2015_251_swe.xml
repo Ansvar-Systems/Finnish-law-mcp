@@ -1,0 +1,153 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/251/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/251"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/251/alkup"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-25" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="251"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/251/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/251/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/251/alkup/swe"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-25" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/251/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/251/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/251/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-03-25" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>251/2015</docNumber>
+                <docTitle>Lag om ändring av 70 b och 133 § i mervärdesskattelagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i mervärdesskattelagen (
+                        <affectedDocument href="/akn/fi/act/statute/1993/1501">1501/1993</affectedDocument>
+                        ) 70 b § 1 och 3 mom. och 133 § 5 mom.,
+                    </block>
+                    <block name="substitutions-originals">sådana de lyder, 70 b § 1 och 3 mom. i lag 505/2014 samt 133 § 5 mom. i lagarna 940/1999, 761/2013 och 507/2014, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>70 b §</num>
+                    <subsection>
+                        <content>
+                            <p>Skatt betalas inte på försäljning av varor som medförs som personligt bagage till en resande som inte är bosatt eller stadigvarande vistas inom gemenskapen eller i Norge, om det utreds att resanden har fört ut varorna oanvända från gemenskapen under de tre följande månaderna efter försäljningsmånaden och om det vederlag som tagits ut hos resanden är minst 40 euro. Genom förordning av statsrådet utfärdas närmare bestämmelser om hur utredningen ska ges.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Skatt betalas inte på försäljning i ett på en flygplats beläget tullager enligt artikel 99 i tullkodexen eller på försäljning i ett lager enligt 72 j § av varor för att medföras som personligt bagage till dem som reser utanför gemenskapen. Till en person som är bosatt eller stadigvarande vistas i Norge får dock skattefritt säljas endast alkoholdrycker, tobaksprodukter, choklad- och konfektyrvaror, parfymer, kosmetiska preparat och toalettmedel.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>133 §</num>
+                    <subsection>
+                        <intro>
+                            <p>En person som i Finland inte bedriver annan försäljning än sådan som berättigar till återbäring enligt 131 § och som inte vill använda sin rätt till återbäring, omfattas av bestämmelsen i 4 mom. endast om det är fråga om följande försäljningar:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>försäljning av investeringsguld som avses i 43 b §,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>försäljning som avses i 72 a §,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>försäljning av en tjänst som beskattas enligt en bestämmelse som motsvarar 65 § där köparen, då denne är en näringsidkare eller en juridisk person som finns upptagen i registret över mervärdesskattskyldiga men inte är näringsidkare, är skyldig att betala skatt i en annan medlemstat enligt en bestämmelse som motsvarar 9 § 1 mom., eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>försäljning av en vara eller en tjänst för vilken köparen är skattskyldig enligt 8 b—8 d §.</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juli 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 267/2014</p>
+                        <p>FiUB 42/2014</p>
+                        <p>RSv 302/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 20 mars 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Trafik- och kommunminister</role>
+                                <person refersTo="">Paula Risikko</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

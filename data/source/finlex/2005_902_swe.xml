@@ -1,0 +1,110 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/902/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/902"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/902/alkup"/>
+                    <FRBRdate date="2005-11-18" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="902"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/902/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/902/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/902/alkup/swe"/>
+                    <FRBRdate date="2005-11-18" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/902/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/902/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/902/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="153"/>
+                    <finlex:date date="2005-11-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>902/2005</docNumber>
+                <docTitle>Lag om ändring av 18 § i lagen om Folkpensionsanstaltens rehabiliteringsförmåner och rehabiliteringspenningförmåner</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras </i>
+                        i lagen av den 15 juli 2005 om Folkpensionsanstaltens rehabiliteringsförmåner och rehabiliteringspenningförmåner (
+                        <affectedDocument href="/akn/fi/act/statute/2005/566">566/2005</affectedDocument>
+                        ) 18 § 4 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>18 §</num>
+                    <heading>Rehabiliteringspenning för lagstadgad rehabilitering</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>För tiden för individuell rehabilitering vid inrättning som ges med stöd av lagen om missbrukarvård beviljas rehabiliteringspenning under förutsättning att rehabiliteringen baserar sig på en vårdplan som upprättats på grundval av socialvårdslagen (710/1982) eller på en rehabiliteringsplan som upprättats på grundval av lagen om missbrukarvård och av vilken skall framgå hur man med hjälp av missbrukarrehabiliteringen försöker påverka de problem med arbets- eller förvärvsförmågan som missbruksproblemet förorsakat så att rehabiliteringen främjar den försäkrades möjligheter att komma ut i arbetslivet, att hålla sig kvar i arbetslivet eller återvända till arbetslivet. Beslut om rehabiliteringspenning som betalas för tiden för individuell rehabilitering enligt lagen om missbrukarvård fattas för högst 75 vardagar åt gången. Ett nytt beslut förutsätter alltid en ny vårdplan eller rehabiliteringsplan. En förutsättning för beviljande av rehabiliteringspenning är dessutom att rehabiliteringen genomförs i en av Folkpensionsanstalten godkänd rehabiliteringsinrättning för missbrukarvård. En rehabiliteringsinrättning som tillhandahåller rehabiliteringstjänster inom missbrukarvården skall ha ett i 4 § i lagen om privat hälso- och sjukvårdsservice (152/1990) avsett tillstånd av länsstyrelsen att tillhandahålla hälso- och sjukvårdstjänster eller ett i 5 § i lagen om tillsyn över privat socialservice (603/1996) avsett tillstånd av länsstyrelsen att tillhandahålla socialservice dygnet runt. Rehabiliteringsinrättningen skall dessutom ha lokaler och anordningar som är lämpliga för missbrukarrehabilitering samt en sådan personal som verksamheten kräver. Genom förordning av statsrådet kan utfärdas närmare bestämmelser om de förutsättningar som skall vara uppfyllda för att en rehabiliteringsinrättning för missbrukarvård skall kunna godkännas som en rehabiliteringsinrättning enligt detta moment.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2006.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 18 november 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

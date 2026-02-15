@@ -1,0 +1,251 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/314/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/314"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/314/alkup"/>
+                    <FRBRdate date="2005-05-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="314"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/314/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/314/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/314/alkup/fin"/>
+                    <FRBRdate date="2005-05-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/314/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/314/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/314/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="60"/>
+                    <finlex:date date="2005-05-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>314/2005</docNumber>
+                <docTitle>Laki metsästyslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan </i>
+                        28 päivänä kesäkuuta 1993 annetun metsästyslain (<affectedDocument href="/akn/fi/act/statute/1993/615">615/1993</affectedDocument>) 10 §:n 1 momentti, 21 ja 34 §, 62 §:n 2 momentti, 69, 87, 89 ja 90 §, sellaisina kuin niistä ovat 62 §:n 2 momentti laissa 1009/2002, 87 § laissa 1236/1999 ja 89 § laissa 692/1999, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         30 §:ään uusi 2 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>10 §</num>
+                    <heading>Pyyntilupa</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Kuusipeuran, saksanhirven, japaninpeuran, hirven, valkohäntäpeuran ja metsäpeuran metsästykseen on saatava lupa (<i>hirvieläimen pyyntilupa</i>). Tarkempia säännöksiä luvasta on 26 ja 27 §:ssä.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>21 §</num>
+                    <heading>Ampumakoe</heading>
+                    <subsection>
+                        <content>
+                            <p>Kuusipeuraa, saksanhirveä, japaninpeuraa, metsäkaurista, hirveä, valkohäntäpeuraa, metsäpeuraa tai karhua rihlatulla luotiaseella metsästettäessä ampujana saa toimia ainoastaan se, joka on suorittanut 2 momentissa tarkoitetun ampumakokeen. Mainittuja riistaeläimiä metsästettäessä ampujana saa toimia myös se, jolla on voimassa oleva todistus muussa maassa suoritetusta vastaavasta ampumakokeesta tai joka antaa riistanhoitoyhdistykselle selvityksen siitä, että hänellä on kotimaassaan oikeus metsästää vastaavan kokoisia riistaeläimiä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Riistanhoitoyhdistys järjestää ampumakokeen ja antaa sen hyväksytystä suorittamisesta maa- ja metsätalousministeriön vahvistaman kaavan mukaisen todistuksen sekä pyynnöstä jäljennöksen siitä. Todistus on voimassa kolme vuotta kokeen suorittamisesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ahvenanmaalla suoritettu ampumakoe vastaa 1 momentissa tarkoitettua ampumakoetta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Maa- ja metsätalousministeriön asetuksella säädetään:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>ampumakokeen sisällöstä ja suorittamistavasta sekä ampumakokeen hyväksymisen edellytyksistä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>ampumakokeen suorittamispaikkaa koskevista vaatimuksista;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>ampumakokeessa käytettäviä ampuma-aseita ja patruunoita koskevista vaatimuksista.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>30 §</num>
+                    <heading>Hirvieläinmetsästystä koskeva asetuksenantovaltuus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Maa- ja metsätalousministeriö voi asetuksella velvoittaa metsästäjät antamaan riistanhoitopiirille saalistietoja metsäkauriin pyynnistä, jos tiedot ovat tarpeen kannan kehityksen seuraamista varten.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>34 §</num>
+                    <heading>Pyyntivälineitä ja pyyntimenetelmiä koskevat tarkemmat säännökset</heading>
+                    <subsection>
+                        <content>
+                            <p>Valtioneuvoston asetuksella annetaan tarkempia säännöksiä aseiden ja muiden sallittujen pyyntivälineiden ominaisuuksista ja käytöstä sekä sallituissa pyyntimenetelmissä noudatettavista menettelytavoista.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valtioneuvoston asetuksella voidaan rajoittaa sallittujen pyyntivälineiden ja pyyntimenetelmien käyttöä siten, että jotakin pyyntivälinettä tai pyyntimenetelmää saa käyttää vain tietyillä alueilla tai vain tiettynä aikana taikka vain tiettyjen riistaeläinten metsästyksessä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>62 §</num>
+                    <heading>Riistanhoitopiirin hallitus ja riistapäällikkö</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Riistanhoitopiirin kokous valitsee hallitukseen vähintään neljä ja enintään seitsemän jäsentä ja heille henkilökohtaiset varajäsenet riistanhoitoyhdistysten asettamista ehdokkaista. Riistanhoitopiirin kokous valitsee hallitukseen lisäksi yhden jäsenen ja tälle henkilökohtaisen varajäsenen alueellisesti merkityksellisten maanomistajajärjestöjen asettamista ehdokkaista. Riistanhoitopiirin kokous valitsee ensin hallituksen puheenjohtajan ja hänen varajäsenensä riistanhoitoyhdistysten asettamista ehdokkaista. Sen jälkeen valitaan muut hallituksen jäsenet ja heille henkilökohtaiset varajäsenet. Hallitus valitsee varapuheenjohtajan niiden hallituksen jäsenten keskuudesta, jotka on valittu riistanhoitoyhdistysten asettamista ehdokkaista.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>69 §</num>
+                    <heading>Yhteisössä käytettävä kieli</heading>
+                    <subsection>
+                        <content>
+                            <p>Metsästäjäin keskusjärjestössä, riistanhoitopiireissä ja riistanhoitoyhdistyksissä käytettävästä kielestä on voimassa, mitä kielilain (423/2003) 25 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>87 §</num>
+                    <heading>Eläinten aiheuttamien vahinkojen korvaaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Kuusipeuran, saksanhirven, japaninpeuran, hirven, valkohäntäpeuran, metsäpeuran, karhun, suden, ahman, ilveksen, hallin ja itämeren norpan maataloudelle, metsätaloudelle, kalastukselle, liikenteelle, kotieläimille ja viljellyille eläimille aiheuttamat vahingot korvataan talousarvion rajoissa valtion varoista. Karhun, suden, ahman ja ilveksen aiheuttamat henkilövahingot ja muullekin kuin edellä tarkoitettuun omaisuuteen sisältyvälle irtaimistolle aiheuttamat vahingot korvataan niin ikään talousarvion rajoissa valtion varoista. Erityisestä syystä voidaan valtioneuvoston asetuksella säätää, että muunkin kuin edellä mainitun riistaeläimen aiheuttamat vahingot korvataan valtion varoista.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valtioneuvoston asetuksella annetaan tarkempia säännöksiä 1 momentissa tarkoitettujen korvausten maksamisen perusteista ja niiden myöntämisessä noudatettavasta menettelystä sekä perusteettomasti maksettujen korvausten takaisin perimisestä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>89 §</num>
+                    <heading>Käsittely- ja julkisuussäännösten soveltaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Hallintolakia (434/2003) sovelletaan Metsästäjäin keskusjärjestön, riistanhoitopiirien ja riistanhoitoyhdistysten toimintaan niiden hoitaessa julkista hallintotehtävää. Metsästäjäin keskusjärjestön, riistanhoitopiirien ja riistanhoitoyhdistysten toimintaan sovelletaan myös viranomaisten toiminnan julkisuudesta annettua lakia (621/1999) ja sähköisestä asioinnista viranomaistoiminnassa annettua lakia (13/2003).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>90 §</num>
+                    <heading>Muutoksenhaku</heading>
+                    <subsection>
+                        <content>
+                            <p>Tässä laissa tarkoitetuissa hallintoasioissa tehtyihin riistanhoitopiirin ja riistanhoitoyhdistyksen päätöksiin saa hakea muutosta valittamalla maaseutuelinkeinojen valituslautakuntaan 30 päivän kuluessa päätöksen tiedoksi saamisesta. Muutoksenhakuun sovelletaan muutoin, mitä hallintolainkäyttölaissa (586/1996) säädetään muutoksenhausta hallintoviranomaisen päätökseen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Maaseutuelinkeinojen valituslautakunta käsittelee riistanhoitopiirin ja riistanhoitoyhdistyksen päätöksistä tehdyt hallintolainkäyttölain 58 §:ssä tarkoitetut kantelut. Muutoin ylimääräisestä muutoksenhausta kyseisiin päätöksiin on voimassa, mitä hallintolainkäyttölaissa säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä elokuuta 2005.</p>
+                    <p>Vuonna 2004 myönnettyihin metsäkauriin pyyntilupiin ja niistä perittäviin maksuihin sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                    <p>Metsäkauriiden aiheuttamien vahinkojen korvaamista koskeviin, viimeistään vuonna 2005 vireille tulleisiin korvaushakemuksiin sovelletaan lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/278">HE 278/2004</ref>
+                        </p>
+                        <p>LA 16/2005</p>
+                        <p>MmVM 2/2005</p>
+                        <p>EV 31/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 13 päivänä toukokuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Maa- ja metsätalousministeri </role>
+                                <person refersTo="">Juha Korkeaoja</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,151 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/12/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/12"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/12/alkup"/>
+                    <FRBRdate date="2015-01-13" name="dateIssued"/>
+                    <FRBRdate date="2015-01-16" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="12"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/12/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/12/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/12/alkup/swe"/>
+                    <FRBRdate date="2015-01-13" name="dateIssued"/>
+                    <FRBRdate date="2015-01-16" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/12/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/12/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/12/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2015-01-16" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>12/2015</docNumber>
+                <docTitle>Lag om ändring av lagen om rättsgenetisk faderskapsundersökning</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om rättsgenetisk faderskapsundersökning (<affectedDocument href="/akn/fi/act/statute/2005/378">378/2005</affectedDocument>) 2 och 3 §, 11 § 3 mom. och 13 § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Initiativ till undersökning</heading>
+                    <subsection>
+                        <content>
+                            <p>I samband med ett mål om fastställande eller upphävande av faderskap som domstolen behandlar kan den förordna om undersökning, om en part kräver en undersökning eller om domstolen i övrigt anser att en sådan behövs för att saken skall kunna utredas. Barnatillsyningsmannen kan beställa en undersökning, om förutsättningarna enligt 9 § i faderskapslagen (11/2015) är uppfyllda.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <heading>Undersökningsmyndigheter</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Undersökningarna utförs av Institutet för hälsa och välfärd eller Hjelt-institutet vid Helsingfors universitet (<i>undersökningsmyndighet</i>).
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>11 §</num>
+                    <heading>Förordnande om undersökning</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Intyg utfärdas av en för provtagningen ansvarig yrkesutbildad person inom hälso- och sjukvården eller av en sådan tjänsteman vid en finsk beskickning som avses i 18 § 2 mom. i faderskapslagen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>13 §</num>
+                    <heading>Provtagning</heading>
+                    <subsection>
+                        <content>
+                            <p>För undersökningen tas det på levande personer ett cellprov från munnens slemhinna, om det inte finns särskilda skäl att ta ett blodprov.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Provet på avlidna tas från sådan vävnad som finns att tillgå.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Blodprov tas vid en verksamhetsenhet inom hälso- och sjukvården av en legitimerad yrkesutbildad person inom hälso- och sjukvården som har fått behövlig utbildning för att ta blodprov. Cellprov från munnens slemhinna kan även tas under uppsikt av barnatillsyningsmannen eller en sådan tjänsteman vid en finsk beskickning som avses i 18 § 2 mom. i faderskapslagen. Innan provet tas ska provgivaren styrka sin identitet för provtagaren eller för den som övervakar provtagningen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 91/2014</p>
+                        <p>LaUB 16/2014</p>
+                        <p>RSv 235/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 13 januari 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister</role>
+                                <person refersTo="">Anna-Maja Henriksson</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

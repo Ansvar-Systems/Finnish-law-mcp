@@ -1,0 +1,166 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/182/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/182"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/182/alkup"/>
+                    <FRBRdate date="2016-03-18" name="dateIssued"/>
+                    <FRBRdate date="2016-03-22" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="182"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/182/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/182/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/182/alkup/fin"/>
+                    <FRBRdate date="2016-03-18" name="dateIssued"/>
+                    <FRBRdate date="2016-03-22" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/182/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/182/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/182/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-03-22" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>182/2016</docNumber>
+                <docTitle>Laki vuosilomalain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         vuosilomalain (
+                        <affectedDocument href="/akn/fi/act/statute/2005/162">162/2005</affectedDocument>
+                        ) 7 §:n 2 momentin 1 kohta ja 3 momentti, 25 § ja 30 §:n 1 momentti, sellaisena kuin niistä on 25 § laissa 276/2013, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>7 §</num>
+                    <heading>Työssäolon veroinen aika</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Työssäolopäivien veroisina pidetään myös niitä työpäiviä tai työtunteja, jolloin työntekijä työsuhteen kestäessä on estynyt tekemästä työtä:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>työsopimuslain (55/2001) 4 luvun 1 §:ssä säädetyn erityisäitiysvapaan, 6 §:ssä säädetyn tilapäisen hoitovapaan ja 7 §:ssä säädetyn pakottavista perhesyistä johtuvan poissaolon aikana taikka yhtä synnytyskertaa tai adoptiota kohden yhteensä enintään 156 äitiys- ja vanhempainvapaapäivän ja vastaavasti 156 isyys- ja vanhempainvapaapäivän aikana;</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <content>
+                                <p>Sovellettaessa 2 momenttia 6 §:n 2 momentissa tarkoitetun työntekijän työssäolon veroisena aikana pidetään 1 kohdassa tarkoitetuissa tapauksissa enintään 182 kalenteripäivän, 2 ja 3 kohdassa tarkoitetuissa tapauksissa enintään 105 kalenteripäivän sekä 5 ja 7 kohdassa tarkoitetuissa tapauksissa 42 kalenteripäivän jaksoa. Poissaoloaikaa laskettaessa poissaolon katsotaan alkaneen ensimmäisenä päivänä, jona työntekijä on ollut poissa työstä ja päättyneen poissaoloperusteen lakkaamispäivänä, jos päivästä on ennalta sovittu tai määrätty, ja muussa tapauksessa työhön paluuta edeltäneenä poissaolopäivänä. Työssäolon veroisiksi tunneiksi lasketaan tällöin ne tunnit, jotka työntekijä sopimuksen mukaan ilman poissaoloa olisi ollut työssä.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>25 §</num>
+                    <heading>Työkyvyttömyys vuosiloman alkaessa ja aikana</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos työntekijä on vuosilomansa tai sen osan alkaessa synnytyksen, sairauden tai tapaturman vuoksi työkyvytön, loma on työntekijän pyynnöstä siirrettävä myöhempään ajankohtaan. Työntekijällä on pyynnöstään oikeus loman tai sen osan siirtämiseen myös, jos tiedetään, että työntekijä joutuu lomansa aikana sellaiseen sairaanhoitoon tai muuhun siihen rinnastettavaan hoitoon, jonka aikana hän on työkyvytön.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos synnytyksestä, sairaudesta tai tapaturmasta johtuva työkyvyttömyys alkaa vuosiloman tai sen osan aikana, työntekijällä on oikeus pyynnöstään saada siirretyksi vuosilomaan sisältyvät kuusi lomapäivää ylittävät työkyvyttömyyspäivät.  Edellä tarkoitetut omavastuupäivät eivät saa vähentää työntekijän oikeutta neljän viikon vuosilomaan. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Oikeutta loman siirtämiseen ei kuitenkaan ole silloin, kun työntekijä on aiheuttanut työkyvyttömyytensä tahallaan tai törkeällä huolimattomuudella. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Työntekijän on viivytyksettä pyydettävä työnantajalta vuosiloman siirtoa sekä työnantajan pyynnöstä esitettävä luotettava selvitys työkyvyttömyydestään.   </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>30 § </num>
+                    <heading>Poikkeaminen työehtosopimuksella</heading>
+                    <subsection>
+                        <content>
+                            <p>Työnantajien ja työntekijöiden valtakunnallisilla yhdistyksillä on oikeus sopia toisin lomakaudesta, vuosilomapalkan ja lomakorvauksen laskemisesta ja maksamisesta, talviloman sijoittamisesta muuhun keskenään sopimaansa työajan lyhennykseen, säästövapaasta sekä siitä, mitä 8 §:n 2 momentissa säädetään. Näiden yhdistysten välisellä työehtosopimuksella saadaan lisäksi sopia 12 arkipäivää ylittävän vuosiloman jakamisesta pidettäväksi yhdessä tai useammassa jaksossa sekä 7 §:ssä säädetystä työssäolon veroisesta ajasta siten, että sovittu järjestely turvaa työntekijöille tässä laissa säädettyjä vastaavan pituiset vuosilomat. Siitä, mitä 7 §:n 2 momentin 1 kohdassa säädetään, ei kuitenkaan saa sopimuksin poiketa työntekijän vahingoksi. Lisäksi valtakunnallisella virkaehtosopimuksella saadaan sopia virkamiehen tai viranhaltijan vuosiloman siirtämisessä ja keskeyttämisessä noudatettavasta ilmoitusajasta ja loman keskeyttämisen perusteista tilanteissa, joissa siirtäminen
+tai keskeyttäminen on julkisen vallan käyttöön liittyvistä painavista syistä tarpeen taikka välttämätöntä julkisyhteisön laissa säädettyjen terveyteen tai turvallisuuteen liittyvien tehtävien hoitamiseksi.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä huhtikuuta 2016. </p>
+                    <p>Ennen tämän lain voimaantuloa 7 §:n 2 momentin 1 kohdan nojalla ansaittuihin vuosilomiin, joita ei ole pidetty tämän lain voimaan tullessa, sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä. </p>
+                    <p>Jos ensimmäinen saman lapsen perusteella pidettävä äitiys-, isyys- tai vanhempainvapaapäivä oli ennen tämän lain voimaantuloa, 7 §:n 2 momentin 1 kohdassa tarkoitettu työssäolon veroinen aika määräytyy tämän lain voimaan tullessa voimassa olleiden säännösten mukaan siltäkin osin kuin vapaa ajoittuu tämän lain voimaantulon jälkeiseen aikaan.</p>
+                    <p>Työntekijän oikeuteen siirtää vuosilomansa loman aikana alkaneen työkyvyttömyyden johdosta sovelletaan 25 §:ää sellaisena kuin se oli työnantajan päättäessä loman siirrosta.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/145">HE 145/2015</ref>
+                        </p>
+                        <p>TyVM 1/2016</p>
+                        <p>EV 11/2016</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 18 päivänä maaliskuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeus- ja työministeri</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

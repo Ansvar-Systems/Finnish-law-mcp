@@ -1,0 +1,219 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/224/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/224"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/224/alkup"/>
+                    <FRBRdate date="2005-04-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="224"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/224/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/224/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/224/alkup/fin"/>
+                    <FRBRdate date="2005-04-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/224/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/224/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/224/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="44"/>
+                    <finlex:date date="2005-04-20"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>224/2005</docNumber>
+                <docTitle>Laki väestötietolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         11 päivänä kesäkuuta 1993 annetun väestötietolain (
+                        <affectedDocument href="/akn/fi/act/statute/1993/507">507/1993</affectedDocument>
+                        ) 10 §:ään uusi 3 momentti, lakiin uusi 10 a ja 10 b § sekä 5 a luku seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>10 §</num>
+                    <heading>Ulkomaalaisen ilmoitusvelvollisuus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 ja 2 momentissa tarkoitettua ilmoitusvelvollisuutta täytettäessä esitettävistä asiakirjoista säädetään valtioneuvoston asetuksella.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 a §</num>
+                    <heading>Ulkomaalaisen ilmoitus</heading>
+                    <subsection>
+                        <content>
+                            <p>Edellä 10 §:n 2 momentissa tarkoitetun ulkomaalaisen on ilmoitettava 4 §:ssä säädetyt tiedot henkilökohtaisesti sille maistraatille, jonka virka-alueella hän asuu.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Muu kuin 10 §:n 2 momentissa tarkoitettu, laillisesti Suomessa oleskeleva ulkomaalainen voi pyytää tietojensa tallettamista väestötietojärjestelmään. Pyynnön sisältävä ilmoitus väestötietojärjestelmää varten on tehtävä henkilökohtaisesti maistraatille tai verotoimistolle. Ilmoituksen tehdessään ulkomaalaisen on esitettävä voimassa oleva matkustusasiakirja, jonka avulla hänet voidaan luotettavasti tunnistaa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 2 momentissa tarkoitetulla ilmoituksella väestötietojärjestelmää varten annettavat tiedot ovat nimi, syntymäaika, sukupuoli, äidinkieli, kansalaisuus, osoite Suomessa sekä tilapäisen oleskelun alkamis- ja päättymispäivä. Ulkomaalaisen on ilmoitettava myös maahanmuuttopäivä, oleskelun kesto ja syy tietojen tallettamiselle väestötietojärjestelmään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 2 momentissa tarkoitetun ilmoituksen vastaanottaneen viranomaisen on lähetettävä ilmoitus viipymättä sille maistraatille, jonka alueella ulkomaalainen ilmoittaa asuvansa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tarkemmat säännökset viranomaisen tehtävistä ulkomaalaisten ilmoituksia vastaanotettaessa annetaan valtioneuvoston asetuksella.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 b §</num>
+                    <heading>Ulkomaalaisen ilmoituksen vastaanottaminen Kansaneläkelaitoksen toimistossa</heading>
+                    <subsection>
+                        <content>
+                            <p>Edellä 10 a §:n 2 momentissa tarkoitettu ilmoitus voidaan jättää myös Kansaneläkelaitoksen toimistoon, jos tästä on sovittu Kansaneläkelaitoksen kanssa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Väestörekisterikeskus voi maistraattia kuultuaan tehdä sopimuksen Kansaneläkelaitoksen kanssa ilmoitusten vastaanottamisesta ja niiden toimittamisesta maistraatille.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ilmoitusten vastaanottamista koskevassa sopimuksessa on sovittava ainakin ilmoitusten vastaanottamiseen liittyvistä tehtävistä, henkilötietojen suojaamisesta ja tietoturvasta, henkilöstön perehdyttämisestä ja kouluttamisesta, kustannusten jaosta sekä sopimuksen voimassaolosta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <chapter>
+                    <num>5 a luku</num>
+                    <heading>Väestörekisterikeskuksen tietojenkäsittelypalvelut</heading>
+                    <section>
+                        <num>23 a §</num>
+                        <heading>Tietojenkäsittelypalvelu</heading>
+                        <subsection>
+                            <content>
+                                <p>Väestörekisterikeskus voi antaa tietojenkäsittelypalvelua, jossa käsitellään myös muita tietoja kuin 2 luvussa säädettyjä väestötieto-järjestelmään merkittäviä tietoja. Palvelua voidaan antaa sellaisten tietojen ylläpitämiseksi, joiden käsittelyyn 23 b §:ssä tarkoitetulla palvelun saajalla on lain mukaan oikeus ja jotka liittyvät väestötietojärjestelmään merkittyyn henkilöön tai rakennukseen. Palvelusta peritään maksu sen mukaan kuin valtion maksuperustelaissa (150/1992) säädetään liiketaloudellisin perustein hinnoiteltavista suoritteista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>23 b §</num>
+                        <heading>Tietojenkäsittelypalvelun osapuolet</heading>
+                        <subsection>
+                            <content>
+                                <p>Väestörekisterikeskus voi antaa tietojenkäsittelypalveluja valtion tai kunnan viranomaiselle tai muulle julkisoikeudelliselle yhteisölle, julkista hallintotehtävää hoitavalle yhteisölle tai rekisteröidylle uskonnolliselle yhdyskunnalle tämän laissa säädettyjen tehtävien hoitamiseksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>23 c §</num>
+                        <heading>Sopimus tietojenkäsittelypalvelusta</heading>
+                        <subsection>
+                            <content>
+                                <p>Tietojenkäsittelypalvelusta on sovittava kirjallisesti. Sopimuksessa on sovittava ainakin Väestörekisterikeskuksen ja 23 b §:ssä tarkoitetun palvelun saajan vastuista ja tehtävistä, sopimukseen kuuluvista henkilötietojen käsittelyn vaiheista ja menettelytavoista, henkilötietojen suojaamisesta ja tietoturvasta, palveluun kuuluvista tiedoista ja niiden yllä-pidosta, säilyttämisestä ja hävittämisestä, palvelun hinnoittelusta sekä sopimuksen voimassaolosta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>23 d §</num>
+                        <heading>Tietojenkäsittelypalveluun kuuluvien tietojen käsittely</heading>
+                        <subsection>
+                            <content>
+                                <p>Tietojenkäsittelypalveluun kuuluvien tietojen käsittelystä ja luovuttamisesta päättää rekisterinpitäjänä 23 b §:ssä tarkoitettu palvelun saaja.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Maistraatti voi luovuttaa tietojenkäsittely-palvelussa ylläpidettäviä, avioliiton esteiden tutkinnassa tarvittavia tietoja sille, jonka avioliiton esteet tutkitaan.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Väestötietojärjestelmän henkilötietoja ja muita tietoja sekä niissä tapahtuneita muutoksia voidaan luovuttaa palvelunsaajalle siltä osin kuin Väestörekisterikeskuksella on oikeus luovuttaa näitä tietoja tämän lain tai muun lain nojalla.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä toukokuuta 2005.</p>
+                    <p>Tällä lailla kumotaan väestötietolain muuttamisesta 21 päivänä elokuuta 1998 annetun lain (615/1998) voimaantulosäännöksen 3 momentti, sellaisena kuin se on laissa 589/2004.</p>
+                    <p>Väestötietojärjestelmästä poistetaan kirkollisia toimituksia koskevat tiedot tämän lain tullessa voimaan.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/277">HE 277/2004</ref>
+                        </p>
+                        <p>HaVM 5/2005</p>
+                        <p>EV 26/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 15 päivänä huhtikuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sisäasiainministeri </role>
+                                <person refersTo="">Kari Rajamäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

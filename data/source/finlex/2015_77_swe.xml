@@ -1,0 +1,146 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/77/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/77"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/77/alkup"/>
+                    <FRBRdate date="2015-02-06" name="dateIssued"/>
+                    <FRBRdate date="2015-02-09" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="77"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/77/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/77/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/77/alkup/swe"/>
+                    <FRBRdate date="2015-02-06" name="dateIssued"/>
+                    <FRBRdate date="2015-02-09" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/77/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/77/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/77/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-02-09" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>77/2015</docNumber>
+                <docTitle>Lag om ändring av 15 kap. i sjölagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i sjölagen (
+                        <affectedDocument href="/akn/fi/act/statute/1994/674">674/1994</affectedDocument>
+                        ) 15 kap. 26 §, sådan den lyder i lag 264/2013, och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 15 kap. nya 27 och 28 § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>15 kap.</num>
+                    <heading>Befordran av passagerare och resgods</heading>
+                    <section>
+                        <num>26 §</num>
+                        <heading>Tillsyn över passagerarnas rättigheter</heading>
+                        <subsection>
+                            <content>
+                                <p>Trafiksäkerhetsverket är behörigt organ enligt artikel 25.1 i Europaparlamentets och rådets förordning (EU) nr 1177/2010 om passagerares rättigheter vid resor till sjöss och på inre vattenvägar och om ändring av förordning (EG) nr 2006/2004. I fråga om behörigheten för konsumentombudsmannen, konsumenttvistenämnden och den nämnd som avses i 30 § 10 punkten i självstyrelselagen för Åland (1144/1991) att utöva tillsyn över efterlevnaden av konsumentskyddslagstiftningen gäller vad som föreskrivs särskilt.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>27 §</num>
+                        <heading>Sanktioner vid tillsynen över passagerarnas rättigheter</heading>
+                        <subsection>
+                            <content>
+                                <p>Utöver vad som annanstans i lag föreskrivs om konsumentmyndigheternas rätt att bestämma påföljder kan Trafiksäkerhetsverket förbjuda transportörer, terminaloperatörer, researrangörer, resebyråer och biljettutfärdare att handla i strid med bestämmelserna i Europaparlamentets och rådets förordning (EU) nr 1177/2010 om passagerares rättigheter vid resor till sjöss och på inre vattenvägar och om ändring av förordning (EG) nr 2006/2004, eller ålägga den som handlat i strid med förordningen att ändra eller rätta till bristerna i sin verksamhet så att den överensstämmer med kraven i förordningen. Förbudet och åläggandet gäller till dess bristerna har avhjälpts. Trafiksäkerhetsverket kan förena ett förbud eller ett åläggande med vite. Bestämmelser om vite finns i viteslagen (1113/1990).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>28 §</num>
+                        <heading>Sökande av ändring i Trafiksäkerhetsverkets beslut</heading>
+                        <subsection>
+                            <content>
+                                <p>I Trafiksäkerhetsverkets beslut enligt 27 § får ändring sökas genom besvär på det sätt som anges i förvaltningsprocesslagen (586/1996).</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Beslutet får verkställas genast även om det inte har vunnit laga kraft, om inte något annat har bestämts i beslutet eller om inte den myndighet där ändring sökts bestämmer något annat.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 270/2014</p>
+                        <p>KoUB 29/2014</p>
+                        <p>RSv 238/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 6 februari 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Trafik- och kommunminister</role>
+                                <person refersTo="">Paula Risikko</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

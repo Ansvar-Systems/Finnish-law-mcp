@@ -1,0 +1,190 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/83/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/83"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/83/alkup"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="83"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/83/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/83/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/83/alkup/fin"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/83/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/83/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/83/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>83/2016</docNumber>
+                <docTitle>Laki valtion varoista suoritettavasta eläkkeen korvaamisesta alle kolmivuotiaan lapsen hoidon tai opiskelun ajalta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         valtion varoista suoritettavasta eläkkeen korvaamisesta alle kolmivuotiaan lapsen hoidon tai opiskelun ajalta annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2003/644">644/2003</affectedDocument>
+                        ) 1 §, 4 §:n 2 momentti, 5 §:n 2 momentti ja 7 §:n 2 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 1 § ja 7 §:n 2 momentti laissa 1190/2007, 4 §:n 2 momentti laissa 895/2004 ja 5 §:n 2 momentti laissa 473/2010, seuraavasti:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <subsection>
+                        <intro>
+                            <p>Tässä laissa säädetään alle kolmivuotiaan lapsen hoidon ja opintojen ajalta karttuvasta etuudesta. Etuus maksetaan myönnettäessä eläkettä alla mainittujen lakien ja eläkesääntöjen nojalla:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>työntekijän eläkelaki (395/2006);</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>merimieseläkelaki (1290/2006);</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3) </num>
+                            <content>
+                                <p>yrittäjän eläkelaki (1272/2006);</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4) </num>
+                            <content>
+                                <p>maatalousyrittäjän eläkelaki (1280/ 2006);</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5) </num>
+                            <content>
+                                <p>julkisten alojen eläkelaki (81/2016);</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6) </num>
+                            <content>
+                                <p>ortodoksisesta kirkosta annettu laki (985/2006);</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7) </num>
+                            <content>
+                                <p>Suomen Pankista annetun lain (214/1998) 11 §:n 2 momentin 6 kohdan nojalla annettu eläkesääntö; tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>8) </num>
+                            <content>
+                                <p>eräiden valtakunnassa voimassa olevien valtion eläkkeitä koskevien säännösten soveltamisesta Ahvenanmaan maakunnassa annettu maakuntalaki (ÅFS 54/2007).</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>4 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Etuutta ei kuitenkaan kerry sellaiselle henkilölle, joka saa 1 §:ssä mainitussa laissa tai eläkesäännössä tarkoitettua työkyvyttömyys-, työura- tai vanhuuseläkettä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos hakijan eläkeoikeus on siirretty Euroopan unionin eläkejärjestelmään eläkeoikeuden siirtämisestä Suomen työeläkejärjestelmän ja Euroopan yhteisöjen eläkejärjestelmän välillä annetun lain (165/1999) perusteella, tämän lain mukaisen etuuden laskee ja suorittaa etuuden saajan hakemuksesta Keva. Etuus suoritetaan siitä ajankohdasta lukien, josta henkilöllä on oikeus saada eläkettä Euroopan unionin henkilöstösääntöjen perusteella.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Eläketurvakeskus antaa tämän lain nojalla hakijalle pyynnöstä päätöksen 2―4 §:ssä tarkoitetuista edellytyksistä, jos eläkelaitos ei ole antanut asiasta päätöstä työntekijän eläkelain 75 b §:n 3 momentin, merimieseläkelain 81 b §:n 3 momentin, yrittäjän eläkelain 69 b §:n 3 momentin tai maatalousyrittäjän eläkelain 75 b §:n 3 momentin perusteella. Eläketurvakeskuksen päätöksen osalta sovelletaan, mitä työntekijän eläkelaissa säädetään Eläketurvakeskuksen osalta asian käsittelystä, päätöksen antamisesta, tietojen saannista ja luovutuksesta sekä muutoksenhakumenettelystä ja lainvoimaisen päätöksen poistamisesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2017.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/16">HE 16/2015</ref>
+                        </p>
+                        <p>StVM 5/2015</p>
+                        <p>EV 37/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 29 päivänä tammikuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri</role>
+                                <person refersTo="">Hanna Mäntylä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

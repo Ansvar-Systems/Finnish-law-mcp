@@ -1,0 +1,118 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/79/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/79"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/79/alkup"/>
+                    <FRBRdate date="2007-02-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="79"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/79/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/79/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/79/alkup/fin"/>
+                    <FRBRdate date="2007-02-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/79/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/79/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/79/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="15"/>
+                    <finlex:date date="2007-02-07"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>79/2007</docNumber>
+                <docTitle>Laki pakkohuutokaupalla myytävien kiinteistöjen lunastamisesta valtiolle annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         pakkohuutokaupalla myytävien kiinteistöjen lunastamisesta valtiolle 14 päivänä tammikuuta 1938 annettuun lakiin (
+                        <affectedDocument href="/akn/fi/act/statute/1938/23">23/1938</affectedDocument>
+                        ) uusi 11 b § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>11 b §</num>
+                    <subsection>
+                        <content>
+                            <p>Sen estämättä, mitä tässä laissa tai sen nojalla säädetään tai on määrätty taikka siinä laissa tai sen nojalla säädetään, jota soveltaen valtio on tämän lain nojalla myynyt maata, sovelletaan valtion myyntihintasaamisiin kauppakirjan ehdoista poiketen, mitä eräiden maa- ja metsätalousministeriön hallinnonalan lainojen ja saamisten siirtämisestä Valtiokonttorin hoidettavaksi annetussa laissa (78/2007) säädetään. Mainittua lakia sovelletaan myös kauppoihin, joilla valtio myy maata tämän lain nojalla.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 15 päivänä helmikuuta 2007.</p>
+                    <p>Tätä lakia sovelletaan 1 päivästä tammikuuta 2008. Tätä lakia sovelletaan kuitenkin eräiden maa- ja metsätalousministeriön hallinnonalan lainojen ja saamisten siirtämisestä Valtiokonttorin hoidettavaksi annetun lain 27 §:n 3 ja 4 momentissa tarkoitettuihin asioihin jo 1 päivästä toukokuuta 2007 noudattaen, mitä mainitun lain 23 §:ssä säädetään. Tätä lakia ei sovelleta myyntihintasaamista koskevaan asiaan, joka on vireillä 31 päivänä joulukuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/148">HE 148/2006</ref>
+                        </p>
+                        <p>MmVM 12/2006</p>
+                        <p>PeVL 39/2006</p>
+                        <p>EV 191/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 2 päivänä helmikuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Maa- ja metsätalousministeri </role>
+                                <person refersTo="">Juha Korkeaoja</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

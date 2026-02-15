@@ -1,0 +1,217 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/224/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/224"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/224/alkup"/>
+                    <FRBRdate date="2005-04-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="224"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/224/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/224/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/224/alkup/swe"/>
+                    <FRBRdate date="2005-04-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/224/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/224/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/224/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="44"/>
+                    <finlex:date date="2005-04-20"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>224/2005</docNumber>
+                <docTitle>Lag om ändring av befolkningsdatalagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 10 § i befolkningsdatalagen av den 11 juni 1993 (
+                        <affectedDocument href="/akn/fi/act/statute/1993/507">507/1993</affectedDocument>
+                        ) ett nytt 3 mom., till lagen nya 10 a och 10 b § samt ett nytt 5 a kap. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>10 §</num>
+                    <heading>Utlänningars anmälningsskyldighet</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelser om de handlingar som skall läggas fram vid fullgörande av anmälningsskyldigheten enligt 1 och 2 mom. utfärdas genom förordning av statsrådet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 a §</num>
+                    <heading>Utlänningars anmälan</heading>
+                    <subsection>
+                        <content>
+                            <p>En utlänning som avses i 10 § 2 mom. skall personligen anmäla de uppgifter som avses i 4 § till den magistrat inom vars ämbetsdistrikt han eller hon bor.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Andra utlänningar än de som avses i 10 § 2 mom. och som lagligen vistas i Finland kan be att få sina uppgifter registrerade i befolkningsdatasystemet. Anmälan för befolkningsdatasystemet som innehåller begäran skall göras personligen till en magistrat eller en skattebyrå. Utlänningen skall när han eller hon gör anmälan lägga fram ett giltigt resedokument med vilket en tillförlitlig identifiering kan göras.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Genom en i 2 mom. nämnd anmälan för befolkningsdatasystemet skall lämnas uppgifter om namn, födelsetid, kön, modersmål, medborgarskap, adress i Finland samt datum när den tillfälliga vistelsen inletts och upphör. Utlänningen skall dessutom uppge datum för inflyttning till landet, vistelsens längd och orsaken till att uppgifterna registreras i befolkningsdatasystemet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Den myndighet som tagit emot en anmälan enligt 2 mom. skall utan dröjsmål sända anmälan till den magistrat inom vars område utlänningen uppger sig bo.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Närmare bestämmelser om myndigheternas uppgifter vid mottagande av utlänningars anmälningar utfärdas genom förordning av statsrådet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 b §</num>
+                    <heading>Mottagande av utlänningars anmälningar vid Folkpensionsanstaltens byråer</heading>
+                    <subsection>
+                        <content>
+                            <p>Anmälningar enligt 10 a § 2 mom. kan lämnas även till Folkpensionsanstaltens byråer enligt avtal med Folkpensionsanstalten.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Befolkningsregistercentralen kan efter att ha hört magistraten ingå avtal med Folkpensionsanstalten om att dess byråer tar emot anmälningar och vidarebefordrar dem till magistraten.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>I ett avtal om mottagande av anmälningar skall överenskommas åtminstone om vilka åligganden som ansluter sig till mottagandet, om skydd för personuppgifter och datasäkerhet, om introduktion och utbildning av personalen, fördelning av kostnaderna samt om avtalets giltighet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <chapter>
+                    <num>5 a kap.</num>
+                    <heading>Befolkningsregistercentralens databehandlingstjänster</heading>
+                    <section>
+                        <num>23 a §</num>
+                        <heading>Databehandlingstjänster</heading>
+                        <subsection>
+                            <content>
+                                <p>Befolkningsregistercentralen kan tillhandahålla databehandlingstjänster där även andra uppgifter behandlas än de som enligt 2 kap. registreras i befolkningsdatasystemet. Tjänster kan tillhandahållas för att upprätthålla sådana uppgifter som en servicemottagare som avses i 23 b § enligt lag har rätt att behandla och som hänför sig till en person eller byggnad som registrerats i befolkningsdatasystemet. För tjänsterna tas ut en avgift i enlighet med bestämmelserna om prestationer som prissätts på företagsekonomiska grunder i lagen om grunderna för avgifter till staten (150/1992).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>23 b §</num>
+                        <heading>Parter</heading>
+                        <subsection>
+                            <content>
+                                <p>Befolkningsregistercentralen kan tillhandahålla statliga eller kommunala myndigheter, andra offentligrättsliga samfund, samfund som handhar offentliga förvaltningsuppgifter eller registrerade religiösa samfund databehandlingstjänster för skötseln av dessas lagstadgade uppgifter.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>23 c §</num>
+                        <heading>Avtal om databehandlingstjänster</heading>
+                        <subsection>
+                            <content>
+                                <p>Avtal om databehandlingstjänster skall ingås skriftligen. I avtalet skall åtminstone regleras det ansvar och de uppgifter som Befolkningsregistercentralen och de servicemottagare som avses i 23 b § har, de behandlingsskeden och förfaranden i fråga om personuppgifter som avtalet omfattar, skydd för personuppgifter och datasäkerhet, de uppgifter som omfattas av tjänsterna och hur de upprätthålls, lagras och utplånas, prissättningen av tjänsterna samt avtalets giltighet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>23 d §</num>
+                        <heading>Behandling av uppgifter som omfattas av databehandlingstjänster</heading>
+                        <subsection>
+                            <content>
+                                <p>Beslut om behandling och utlämnande av uppgifter som omfattas av databehandlingstjänster fattas i egenskap av registeransvarig av den servicemottagare som avses i 23 b §.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Magistraten kan lämna ut uppgifter som upprätthålls genom databehandlingstjänster och som krävs vid prövning av äktenskapshinder till den vars äktenskapshinder prövas.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Personuppgifter och andra uppgifter i befolkningsdatasystemet samt ändringar i dem kan utlämnas till servicemottagaren till den del Befolkningsregistercentralen med stöd av denna lag eller någon annan lag har rätt att lämna ut uppgifterna.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 maj 2005.</p>
+                    <p>Genom denna lag upphävs 3 mom. i ikraftträdandebestämmelsen i lagen av den 21 augusti 1998 om ändring av befolkningsdatalagen (615/1998), sådant detta moment lyder i lag 589/2004.</p>
+                    <p>Vid denna lags ikraftträdande utplånas uppgifterna om kyrkliga förrättningar ur befolkningsdatasystemet.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 277/2004</p>
+                        <p>FvUB 5/2005</p>
+                        <p>RSv 26/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 15 april 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister </role>
+                                <person refersTo="">Kari Rajamäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

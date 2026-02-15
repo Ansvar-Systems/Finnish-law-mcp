@@ -1,0 +1,234 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/105/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/105"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/105/alkup"/>
+                    <FRBRdate date="2007-02-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="105"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/105/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/105/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/105/alkup/swe"/>
+                    <FRBRdate date="2007-02-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/105/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/105/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/105/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="17"/>
+                    <finlex:date date="2007-02-08"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>105/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om privata säkerhetstjänster</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 12 april 2002 om privata säkerhetstjänster (<affectedDocument href="/akn/fi/act/statute/2002/282">282/2002</affectedDocument>) 7 § 1 mom. 1 punkten, 27 §, 28 § 4 mom., 34 § 1 mom., 39 §, 40 § 1 mom., 44 § samt 45 § 1 mom. 2 och 3 punkten,
+                    </block>
+                    <block name="substitutions-originals">av dem 28 § 4 mom. sådant det lyder i lag 540/2003 och 44 § sådan den lyder i lag 765/2003, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 50 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>7 §</num>
+                    <heading>Ändringsanmälningar</heading>
+                    <subsection>
+                        <intro>
+                            <p>
+                                Ett bevakningsföretag skall skriftligen (<i>ändringsanmälan</i>) underrätta inrikesministeriet
+                            </p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>när bevakningsföretaget ändrar namn eller bolagsform, inrättar eller drar in ett verksamhetsställe eller ett verksamhetsställes adress förändras,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>27 §</num>
+                    <heading>Ansökan och beslut om godkännande som väktare</heading>
+                    <subsection>
+                        <content>
+                            <p>En ansökan om att bli godkänd som väktare skall lämnas in personligen. Ansökan kan lämnas in också till någon annan polisinrättning än polisinrättningen i sökandens hemkommun.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>När ett godkännande som väktare meddelas i enlighet med ansökan får sökanden inte något separat beslut eller någon besvärsanvisning.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>28 §</num>
+                    <heading>Väktares rättigheter</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Om den som skall avlägsnas, gripas eller säkerhetsvisiteras genom att göra motstånd försöker undgå att bli avlägsnad, gripen eller säkerhetsvisiterad eller flyr gripandet, har väktaren rätt att använda sådana maktmedel som är nödvändiga för att avlägsna, gripa eller säkerhetsvisitera personen i fråga och som kan anses försvarliga med beaktande av personens uppträdande samt övriga omständigheter. I 4 kap. 6 § 3 mom. och 7 § i strafflagen föreskrivs om grunder för ansvarsfrihet och lindring av straffansvar vid excess i samband med användning av maktmedel.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>34 §</num>
+                    <heading>Väktarkort</heading>
+                    <subsection>
+                        <content>
+                            <p>Den som har godkänts som väktare får ett väktarkort av polisinrättningen i sin hemkommun. Väktaren skall bära med sig kortet i bevakningsuppgifter och på begäran visa upp det. Ett intyg som polisen vid behov ger över godkännandet som väktare fungerar som väktarkort innan det egentliga väktarkortet ges till väktaren.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>39 §</num>
+                    <heading>Ansökan och beslut om godkännande som utförare av säkerhetsskyddsuppgifter</heading>
+                    <subsection>
+                        <content>
+                            <p>En ansökan om att bli godkänd som utförare av säkerhetsskyddsuppgifter skall lämnas in personligen. Ansökan kan lämnas in också till någon annan polisinrättning än polisinrättningen i sökandens hemkommun.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>När ett godkännande som utförare av säkerhetsskyddsuppgifter meddelas i enlighet med ansökan får sökanden inte något separat beslut eller någon besvärsanvisning.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>40 §</num>
+                    <heading>Kort för utförare av säkerhetsskyddsuppgifter</heading>
+                    <subsection>
+                        <content>
+                            <p>Den som har godkänts som utförare av säkerhetsskyddsuppgifter får av polisinrättningen i sin hemkommun ett kort för utförare av säkerhetsskyddsuppgifter. Den som fått ett sådant kort skall bära med sig kortet i säkerhetsskyddsuppgifter som förutsätter godkännande och på begäran visa upp det. Ett intyg som polisen vid behov ger över godkännandet som utförare av säkerhetsskyddsuppgifter fungerar som kort för utförare av säkerhetsskyddsuppgifter innan det egentliga kortet ges till utföraren av säkerhetsskyddsuppgifter.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <chapter>
+                    <num>4 kap.</num>
+                    <heading>Tillsyn över privata säkerhetstjänster</heading>
+                    <section>
+                        <num>44 §</num>
+                        <heading>Uppgifter för tillsynen över säkerhetsbranschen</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Polisen förvarar uppgifter om bevakningsföretagen och om deras i 4 § 2 mom. 2 punkten avsedda ansvarspersoner och ansvariga föreståndare samt om väktare, utförare av säkerhetsskyddsuppgifter, dem som anordnar sådan utbildning i användningen av maktmedel som avses i 29 § 2 mom. samt ordningsvakter och utbildare av ordningsvakter som avses i 1 och 18 § i lagen om ordningsvakter (<i>uppgifter för tillsynen över säkerhetsbranschen</i>). Närmare bestämmelser om uppgifter för tillsynen över säkerhetsbranschen finns i lagen om behandling av personuppgifter i polisens verksamhet (761/2003).
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>45 §</num>
+                        <heading>Årsanmälan</heading>
+                        <subsection>
+                            <intro>
+                                <p>Ett bevakningsföretag skall för varje kalenderår före utgången av januari påföljande år skriftligen meddela inrikesministeriet</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>antalet verksamhetsställen och adresserna till dem samt personalens antal,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>uppgifter om vem som under kalenderåret varit ansvarig föreståndare, väktare och tillfälliga väktare särskilt för varje verksamhetsställe,</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>50 a §</num>
+                        <heading>Polisundersökning</heading>
+                        <subsection>
+                            <content>
+                                <p>I ett ärende som gäller återkallande av auktorisation eller godkännande som meddelats med stöd av denna lag kan vid behov verkställas sådan polisundersökning som avses i 4 kap. i polislagen (493/1995).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 265/2004</p>
+                        <p>FvUB 22/2006</p>
+                        <p>RSv 182/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 2 februari 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister </role>
+                                <person refersTo="">Kari Rajamäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

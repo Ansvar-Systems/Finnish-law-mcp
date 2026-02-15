@@ -1,0 +1,156 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1005/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1005"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1005/alkup"/>
+                    <FRBRdate date="2007-11-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1005"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1005/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1005/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1005/alkup/swe"/>
+                    <FRBRdate date="2007-11-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1005/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1005/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1005/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="149"/>
+                    <finlex:date date="2007-11-15"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1005/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om Kommunernas garanticentral</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 28 juni 1996 om Kommunernas garanticentral (
+                        <affectedDocument href="/akn/fi/act/statute/1996/487">487/1996</affectedDocument>
+                        ) 3 §, 8 § 3 mom. och 13 § 2 mom., sådana de lyder i lag 944/2006, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Tillsyn</heading>
+                    <subsection>
+                        <content>
+                            <p>Iakttagandet av denna lag och de bestämmelser som givits med stöd av den ska övervakas av en garanticentralsinspektör. Finansministeriet förordnar garanticentralsinspektören för högst fyra kalenderår i sänder på framställning av garanticentralens styrelse.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>8 §</num>
+                    <heading>Beviljande av garantier</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Garanticentralen kan bevilja garantier endast mot tillräcklig säkerhet. För arrangemang som ett kreditinstitut som avses i 1 § vidtagit för att trygga sin likviditet och skydda sig mot risker kan garantier dock beviljas utan någon separat motsäkerhet. Av särskilda skäl kan garantier även annars beviljas utan säkerhet, om finansministeriet ger tillstånd till detta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>13 §</num>
+                    <heading>Garanticentralsinspektör</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Garanticentralsinspektören ska för varje räkenskapsperiod avge en berättelse om garanticentralens verksamhet och ekonomi till finansministeriet och garanticentralens styrelse. Inspektören ska utan dröjsmål underrätta ministeriet och styrelsen om en omständighet eller ett beslut beträffande garanticentralen som inspektören fått kännedom om i sitt uppdrag och som kan anses</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>bryta mot lagar, förordningar eller administrativa föreskrifter om garanticentralen eller dess verksamhet i väsentlig grad,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>äventyra garanticentralens fortsatta verksamhet, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>leda till en anmärkning i revisionsberättelsen eller ett negativt utlåtande om fastställande av bokslutet.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 56/2007</p>
+                        <p>FvUB 5/2007</p>
+                        <p>RSv 51/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 9 november 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Mauri Pekkarinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

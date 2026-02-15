@@ -1,0 +1,195 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/921/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/921"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/921/alkup"/>
+                    <FRBRdate date="2005-11-25" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="921"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/921/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/921/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/921/alkup/swe"/>
+                    <FRBRdate date="2005-11-25" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/921/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/921/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/921/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="157"/>
+                    <finlex:date date="2005-11-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>921/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om mätteknikcentralen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 14 december 1990 om mätteknikcentralen (
+                        <affectedDocument href="/akn/fi/act/statute/1990/1149">1149/1990</affectedDocument>
+                        ) 1 § 2 mom. samt 2, 4 och 5 § samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 1 § ett nytt 3 mom., varvid de nuvarande 3 och 4 mom. blir 4 och 5 mom., och till lagen en ny 2 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Centralen skall sköta organiserandet av det nationella mätnormalsystemet och den nationella kalibreringsservicen i enlighet med vad som föreskrivs särskilt.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Centralen skall dessutom sköta uppgifter i anslutning till bedömning av kompetensen hos bedömningsorgan och ackreditering av bedömningsorgan i enlighet med vad som föreskrivs särskilt. För detta ändamål har centralen en ackrediteringsenhet.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>2 §</num>
+                    <subsection>
+                        <content>
+                            <p>Verksamheten vid mätteknikcentralen styrs och övervakas av en direktion. Verksamheten vid ackrediteringsenheten styrs och övervakas dock av en delegation för ackrediteringsärenden.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mätteknikcentralens direktion består av centralens överdirektör samt av högst sex andra medlemmar med kännedom om centralens verksamhetsområde. Delegationen för ackrediteringsärenden består av chefen för ackrediteringsenheten samt av högst sex andra medlemmar som representerar intressentgrupper som är viktiga för enhetens verksamhet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Genom förordning av statsrådet föreskrivs närmare om uppgifterna för samt sammansättningen och tillsättandet av direktionen och av delegationen för ackrediteringsärenden och om de arvoden som betalas till medlemmarna.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>2 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Mätteknikcentralen leds av en överdirektör.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Överdirektören fastställer mätteknikcentralens arbetsordning efter att ha hört delegationen för ackrediteringsärenden.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Överdirektören avgör de ärenden som inte skall avgöras av direktionen, delegationen för ackrediteringsärenden eller chefen för ackrediteringsenheten eller som enligt arbetsordningen inte skall avgöras av någon annan tjänsteman.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Chefen för ackrediteringsenheten avgör andra ärenden som anknyter till ackrediteringssystemet eller gäller ackrediteringarna än de som avses i 2 § 1 mom.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>4 §</num>
+                    <subsection>
+                        <content>
+                            <p>Mätteknikcentralen har rätt att ta ut avgifter för sina prestationer. Avgifterna bestäms enligt lagen om grunderna för avgifter till staten (150/1992).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <subsection>
+                        <content>
+                            <p>Genom förordning av statsrådet föreskrivs om personalen och tillsättandet av tjänster vid mätteknikcentralen samt om förordnande av ställföreträdare för överdirektören.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Närmare bestämmelser om mätteknikcentralens förvaltning samt om de uppgifter som överdirektören och andra tjänstemän i chefsställning har i anslutning till sin chefsställning kan utfärdas genom förordning av statsrådet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>I mätteknikcentralens arbetsordning bestäms om andra vikariat, den interna ledningen och andra ärenden inom den interna förvaltningen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2006.</p>
+                    <p>Mätteknikcentralens direktion, som tillsatts för tiden mellan 16 juni 2005 och 15 juni 2009, fortsätter sin verksamhet till utgången av sin mandatperiod.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 140/2005</p>
+                        <p>EkUB 15/2005</p>
+                        <p>RSv 126/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 25 november 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Handels- och industriminister </role>
+                                <person refersTo="">Mauri Pekkarinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

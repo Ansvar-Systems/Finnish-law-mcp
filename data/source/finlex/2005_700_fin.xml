@@ -1,0 +1,170 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/700/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/700"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/700/alkup"/>
+                    <FRBRdate date="2005-09-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="700"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/700/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/700/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/700/alkup/fin"/>
+                    <FRBRdate date="2005-09-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/700/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/700/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/700/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="120"/>
+                    <finlex:date date="2005-09-09"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>700/2005</docNumber>
+                <docTitle>Laki Korkeimmasta hallinto-oikeudesta annetun lain 2 a ja 8 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         Korkeimmasta hallinto-oikeudesta 22 päivänä heinäkuuta 1918 annetun lain (<affectedDocument href="/akn/fi/act/statute/1918/74">74/1918</affectedDocument>) 2 a §:n 1 momentti ja 8 §:n 2 momentti, sellaisena kuin ne ovat laissa 107/2000, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         8 §:ään, sellaisena kuin se on osaksi viimeksi mainitussa laissa, uusi 3 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 a §</num>
+                    <subsection>
+                        <content>
+                            <p>
+                                Korkeimmassa hallinto-oikeudessa osallistuu vesilain (264/1961), ympäristönsuojelulain (86/2000) ja vesienhoidon järjestämisestä annetun lain (1299/2004) mukaisten asioiden käsittelyyn lainoppineiden jäsenten lisäksi kaksi sivutoimista jäsentä (<i>ympäristöasiantuntijaneuvos</i>).
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>8 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Korkein hallinto-oikeus voi käsitellä ja ratkaista kolmijäsenisenä:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>valituslupaa koskevan asian ja siihen liittyvän vaatimuksen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>täytäntöönpanon kieltämistä tai keskeyttämistä taikka muuta täytäntöönpanosta annettavaa määräystä koskevan asian;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>oikeusapua koskevan asian;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>asian, jossa valitus tai hakemus on peruutettu taikka jossa on kysymys siitä, onko muutoksenhaku tehty määräajassa tai säädettyä muotoa noudattaen taikka valituskiellosta huolimatta, ja tällaiseen asiaan liittyvän vaatimuksen; sekä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>ylimääräistä muutoksenhakua koskevan asian, jos hakemus yksimielisesti hylätään tai jätetään tutkimatta, ja tällaiseen asiaan liittyvän vaatimuksen.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 2 momentin 1―4 kohdassa tarkoitetussa tapauksessa asia voidaan käsitellä ja ratkaista ilman säännönmukaiseen ratkaisukokoonpanoon tämän tai muun lain nojalla kuuluvia asiantuntijajäseniä.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä lokakuuta 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/112">HE 112/2004</ref>
+                        </p>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/5">HE 5/2005</ref>
+                        </p>
+                        <p>HaVM 13/2005</p>
+                        <p>EV 91/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 2 päivänä syyskuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Johannes Koskinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

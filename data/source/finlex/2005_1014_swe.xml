@@ -1,0 +1,148 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1014/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1014"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1014/alkup"/>
+                    <FRBRdate date="2005-12-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1014"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1014/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1014/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1014/alkup/swe"/>
+                    <FRBRdate date="2005-12-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1014/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1014/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1014/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="171"/>
+                    <finlex:date date="2005-12-16"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1014/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om finansiering av undervisnings- och kulturverksamhet</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 21 augusti 1998 om finansiering av undervisnings- och kulturverksamhet (
+                        <affectedDocument href="/akn/fi/act/statute/1998/635">635/1998</affectedDocument>
+                        ) 1 § 4 mom. och 48 § 1 mom., sådana de lyder, 1 § 4 mom. i lag 1211/2000 och 48 § 1 mom. i lag 1137/2003, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 43 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Tillämpningsområde</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>I fråga om finansiering av utbildning som förbereder för en yrkesinriktad grundexamen som avläggs genom en fristående examen enligt lagen om yrkesinriktad vuxenutbildning och finansieringen av den examen som avläggs i samband med utbildningen gäller vad som i denna lag bestäms om finansiering av grundläggande yrkesutbildning. Om en yrkesinriktad grundexamen avläggs utan förberedande utbildning, gäller i fråga om finansieringen av examen vad som i denna lag bestäms om finansiering av fristående examina som avläggs utan förberedande utbildning.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <chapter>
+                    <num>6 kap.</num>
+                    <heading>Särskilda statsunderstöd</heading>
+                    <section>
+                        <num>43 a §</num>
+                        <heading>Statsunderstöd för ordnande av fristående examina som avläggs utan förberedande utbildning</heading>
+                        <subsection>
+                            <content>
+                                <p>En sammanslutning eller stiftelse som med en examenskommission har ingått ett sådant avtal om ordnande av fristående examina som avses i 7 § 3 mom. i lagen om yrkesinriktad vuxenutbildning, men som inte får statsandel för ordnande av examina, kan beviljas statsunderstöd för ordnande av i lagens 8 § avsedda fristående examina som avläggs utan förberedande utbildning. Närmare bestämmelser om statsunderstödet utfärdas genom förordning av statsrådet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>48 §</num>
+                        <heading>Fastställande av antalet prestationer som används vid beräkning av finansieringen</heading>
+                        <subsection>
+                            <content>
+                                <p>Undervisningsministeriet fastställer årligen inom ramen för statsbudgeten det antal studerandeårsverken, läroavtal i tilläggsutbildning som ordnas i form av läroavtalsutbildning, studieveckor, undervisningstimmar, ledda timmar och årsverken som skall läggas till grund för finansieringen för det följande finansåret. Undervisningsministeriet fastställer antalet studerandeårsverken och läroavtal i tilläggsutbildningen så att de utgår från de antal studerandeårsverken och läroavtal som bestämts i tillståndet att ordna utbildning enligt 5 § 2 mom. i lagen om yrkesinriktad vuxenutbildning.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2006.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                    <p>Utan hinder av 48 § i denna lag tillämpas de bestämmelser som gällde vid denna lags ikraftträdande på fastställandet av antalet studerandeårsverken och läroavtal inom den yrkesinriktade tilläggsutbildningen för 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 40/2005</p>
+                        <p>KuUB 11/2005</p>
+                        <p>RSv 160/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 9 december 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Undervisningsminister </role>
+                                <person refersTo="">Antti Kalliomäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

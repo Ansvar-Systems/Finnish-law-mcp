@@ -1,0 +1,198 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/715/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/715"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/715/alkup"/>
+                    <FRBRdate date="2006-08-18" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="715"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/715/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/715/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/715/alkup/swe"/>
+                    <FRBRdate date="2006-08-18" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/715/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/715/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/715/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="111"/>
+                    <finlex:date date="2006-08-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>715/2006</docNumber>
+                <docTitle>Lag om ändring av aravalagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i aravalagen av den 17 december 1993 (
+                        <affectedDocument href="/akn/fi/act/statute/1993/1189">1189/1993</affectedDocument>
+                        ) 5 § 1 mom., 15 § 4 punkten, det inledande stycket i 15 a § 1 mom., det inledande stycket i 15 e § 1 mom. samt 22 § 1 mom. 3 punkten och 2 mom.,
+                    </block>
+                    <block name="substitutions-originals">sådana de lyder, 5 § 1 mom. i lag 728/1998, 15 § 4 punkten, det inledande stycket i 15 a § 1 mom. samt 22 § 1 mom. 3 punkten och 2 mom. i lag 571/1999 och det inledande stycket i 15 e § 1 mom. i lag 734/2004, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 7 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>5 §</num>
+                    <heading>Allmänna villkor för beviljande av aravalån</heading>
+                    <subsection>
+                        <content>
+                            <p>Aravalån beviljas för utvecklande av bostadsförhållandena på basis av social ändamålsenlighet och ekonomiskt behov.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>7 a §</num>
+                    <heading>Grunderna för beviljande av stöd för ägarbostadsaravalån</heading>
+                    <subsection>
+                        <content>
+                            <p>Beviljandet av stöd för ägarbostadsaravalån grundar sig på social ändamålsenlighet och ekonomiskt behov, vilka bedöms på grundval av hushållets bostadsbehov, förmögenhet och inkomster.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>När ägarbostadsaravalån enligt 7 § 1 mom. 1 och 5 punkten beviljas ges de hushåll företräde som har det mest brådskande behovet av bostad, är minst bemedlade och har de lägsta inkomsterna. Undantag från företrädesordningen kan göras i enskilda fall, om detta är motiverat med beaktande av ett hushålls speciella förhållanden och bostadssituationen på orten.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Genom förordning av statsrådet kan närmare bestämmelser utfärdas om grunderna för beviljande av stöd för ägarbostadsaravalån.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>15 §</num>
+                    <heading>Hyresbostadsaravalåntagare</heading>
+                    <subsection>
+                        <intro>
+                            <p>Hyresbostadsaravalån kan beviljas</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>aktiebolag eller bostadsaktiebolag i vilket något eller några i 1―3 punkten avsedda samfund har sådant direkt bestämmande inflytande som avses i 1 kap. 5 § 1 mom. 1 punkten i bokföringslagen (1336/1997).</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>15 a §</num>
+                    <heading>Allmännyttighet</heading>
+                    <subsection>
+                        <intro>
+                            <p>Ett i 15 § 3 punkten avsett samfund och ett bolag i vilket samfundet har i 1 kap. 5 § 1 mom. 1 punkten i bokföringslagen avsett bestämmande inflytande skall uppfylla följande krav och iaktta dem i sin verksamhet:</p>
+                        </intro>
+                    </subsection>
+                </section>
+                <section>
+                    <num>15 e §</num>
+                    <heading>Avkastning som skall gottskrivas kommunen och andra offentliga samfund</heading>
+                    <subsection>
+                        <intro>
+                            <p>Ett i 15 § 4 punkten avsett samfund i vilket ett i 15 § 1 punkten avsett samfund har sådant bestämmande inflytande som avses i 1 kap. 5 § 1 mom. 1 punkten i bokföringslagen får inte gottskriva ägaren med mer än den avkastning som bestäms enligt 15 a § 1 mom. 3 punkten, om samfundet äger</p>
+                        </intro>
+                    </subsection>
+                </section>
+                <section>
+                    <num>22 §</num>
+                    <heading>Mottagare av aravalån för bostadsrättshus</heading>
+                    <subsection>
+                        <intro>
+                            <p>Aravalån för ett bostadsrättshus kan beviljas</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>aktiebolag eller bostadsaktiebolag i vilket någon eller några i 1 eller 2 punkten avsedda samfund har sådant direkt bestämmande inflytande som avses i 1 kap. 5 § 1 mom. 1 punkten i bokföringslagen.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>På låntagare som avses i 1 mom. 2 punkten och på bolag i vilka de har i 1 kap. 5 § 1 mom. 1 punkten i bokföringslagen avsett bestämmande inflytande tillämpas 15 a―15 d §.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 september 2006.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 47/2006</p>
+                        <p>MiUB 4/2006</p>
+                        <p>RSv 65/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 18 augusti 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Miljöminister </role>
+                                <person refersTo="">Jan-Erik Enestam</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

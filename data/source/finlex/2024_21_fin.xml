@@ -1,0 +1,146 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/21/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/21"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/21/alkup"/>
+                    <FRBRdate date="2024-01-12" name="dateIssued"/>
+                    <FRBRdate date="2024-01-16" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="21"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/21/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/21/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/21/alkup/fin"/>
+                    <FRBRdate date="2024-01-12" name="dateIssued"/>
+                    <FRBRdate date="2024-01-16" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/21/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/21/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/21/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2024-01-16" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>21/2024</docNumber>
+                <docTitle>Laki  Liikenne- ja viestintävirastosta annetun lain muuttamisesta </docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         Liikenne- ja viestintävirastosta annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2018/935">935/2018</affectedDocument>
+                        ) 7 §:n 1 momentti ja
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 7 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>7 §</num>
+                    <heading>Ratkaisuvalta</heading>
+                    <subsection>
+                        <content>
+                            <p>Pääjohtaja ratkaisee virastolle kuuluvat asiat, joita ei ole säädetty tai viraston työjärjestyksellä määrätty muun virkamiehen ratkaistavaksi. Pääjohtaja voi myös ottaa yksittäistapauksessa ratkaistavakseen asian, joka muutoin olisi hänen alaisensa ratkaistava. Pääjohtaja ei voi kuitenkaan ottaa ratkaistavakseen asiaa, joka lain tai työjärjestyksen mukaan kuuluu rautatiealan sääntelyelimen toimivaltaan, Kyberturvallisuuskeskuksen kansainvälistä tietoturvavelvoitetta, viranomaisen tietojärjestelmän tai tietoliikennejärjestelyn arviointia tai tietoturvallisuuden arviointilaitoksen hyväksyntää koskevaan toimivaltaan taikka Liikenne- ja viestintäviraston seuraamuskollegion ratkaisuvaltaan.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>7 a §</num>
+                    <heading>Ratkaisuvalta eräissä seuraamusasioissa</heading>
+                    <subsection>
+                        <content>
+                            <p>Liikenne- ja viestintävirastossa on seuraamuskollegio, jonka tehtävänä on määrätä viraston toimivaltaan kuuluva seuraamusmaksu silloin, kun se on suuruudeltaan yli 100 000 euroa. Seuraamuskollegio tekee päätöksensä esittelystä. Liikenne- ja viestintäviraston toimivallasta määrätä seuraamusmaksu säädetään muualla laissa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Liikenne- ja viestintävirasto nimeää seuraamuskollegioon puheenjohtajan, varapuheenjohtajan ja kolme jäsentä. Seuraamuskollegion puheenjohtajan, varapuheenjohtajan ja jäsenten tulee olla sen tehtävissä sovellettavaan sääntelyyn hyvin perehtyneitä Liikenne- ja viestintäviraston virkamiehiä. Seuraamuskollegion puheenjohtajalla ja varapuheenjohtajalla tulee lisäksi olla tehtävän edellyttämä riittävä oikeudellinen asiantuntemus. Seuraamuskollegion toimikausi on kolme vuotta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Seuraamuskollegion puheenjohtaja, varapuheenjohtaja ja jäsen toimivat tehtävässään riippumattomasti ja puolueettomasti.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Seuraamuskollegio on päätösvaltainen kolmijäsenisenä. Yhden läsnä olevista on oltava puheenjohtaja tai varapuheenjohtaja. Päätökseksi tulee se kanta, jota enemmistö on kannattanut. Äänten mennessä tasan päätökseksi tulee se kanta, joka on lievempi sille, johon seuraamus kohdistuu.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 17 päivänä helmikuuta 2024.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2023/70">HE 70/2023</ref>
+                        </p>
+                        <p>LiVM 9/2023</p>
+                        <p>EV 73/2023</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 12.1.2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Liikenne- ja viestintäministeri</role>
+                                <person refersTo="">Lulu Ranne</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

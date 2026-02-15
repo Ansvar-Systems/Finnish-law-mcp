@@ -1,0 +1,119 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/155/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/155"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/155/alkup"/>
+                    <FRBRdate date="2015-02-20" name="dateIssued"/>
+                    <FRBRdate date="2015-02-25" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="155"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/155/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/155/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/155/alkup/swe"/>
+                    <FRBRdate date="2015-02-20" name="dateIssued"/>
+                    <FRBRdate date="2015-02-25" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/155/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/155/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/155/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2015-02-25" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>155/2015</docNumber>
+                <docTitle>Lag om ändring av lagen om beskattningsförfarande</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen om beskattningsförfarande (<affectedDocument href="/akn/fi/act/statute/1995/1558">1558/1995</affectedDocument>) en ny 17 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>17 a §</num>
+                    <heading>Utomståendes allmänna skyldighet att lämna uppgifter med anledning av genomförandet av FATCA-avtalet</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Ett sådant rapporterande finskt finansinstitut som avses i avtalet med Amerikas förenta stater för att förbättra internationell efterlevnad av skatteregler och för att genomföra FATCA, (FördrS    /    , 
+                                <i>FATCA-avtalet</i>), ska lämna Skatteförvaltningen de uppgifter som behövs för tillämpningen av avtalet. Ett rapporterande finskt finansinstitut är skyldigt att iaktta de förpliktelser som i avtalet och dess tillägg åläggs finska rapporterande finansinstitut samt den aktsamhetsprocedur som anges i avtalets tillägg I för identifiering av amerikanska rapporteringspliktiga konton och konton som innehas av ickedeltagande finansinstitut.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Skatteförvaltningen meddelar närmare föreskrifter om hur rapporterande finska finansinstitut i enlighet med artikel 4 stycke 7 i FATCA-avtalet samt paragraf 1 stycke C, paragraf II stycke A, paragraf III stycke A, paragraf IV stycke A och paragraf V stycke A i tillägg I till FATCA-avtalet kan använda de procedurer eller definitioner som beskrivs i Amerikas förenta staters relevanta bestämmelser, eller begränsa skyldigheten att lämna uppgifter. Dessutom får Skatteförvaltningen meddela närmare föreskrifter om tillämpningen av FATCA-avtalets aktsamhetsprocedur, om de uppgifter som ska lämnas, om tidpunkten och sättet för lämnande av uppgifter, eller begränsa skyldigheten att lämna uppgifter.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Om ikraftträdandet av denna lag bestäms genom förordning av statsrådet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 301/2014</p>
+                        <p>FiUB 40/2014</p>
+                        <p>RSv 284/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 20 februari 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Undervisnings- och kommunikationsminister</role>
+                                <person refersTo="">Krista Kiuru</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

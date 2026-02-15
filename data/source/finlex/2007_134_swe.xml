@@ -1,0 +1,160 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/134/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/134"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/134/alkup"/>
+                    <FRBRdate date="2007-02-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="134"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/134/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/134/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/134/alkup/swe"/>
+                    <FRBRdate date="2007-02-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/134/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/134/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/134/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="21"/>
+                    <finlex:date date="2007-02-14"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>134/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om placeringsfonder</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i lagen av den 29 januari 1999 om placeringsfonder (
+                        <affectedDocument href="/akn/fi/act/statute/1999/48">48/1999</affectedDocument>
+                        ) 35 §,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         6 § 5 mom., 30 c § 4 mom. och 39 §, av dem 6 § 5 mom. och 30 c § sådana de lyder i lag 224/2004, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>6 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Om fondbolaget bedriver verksamhet som avses i 5 § 2 mom. skall det alltid oberoende av 1―4 mom. dessutom uppfylla de krav som föreskrivs i 31 § i lagen om värdepappersföretag.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>30 c §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Vid beräkning av fondbolagets kapitalbas tillämpas 45―48 § i kreditinstitutslagen (121/2007).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>39 §</num>
+                    <subsection>
+                        <content>
+                            <p>För varje räkenskapsperiod skall för fondbolaget och varje placeringsfond upprättas separata bokslut som innehåller resultaträkning, balansräkning och uppgifter som skall lämnas i noter till resultaträkningen och balansräkningen. Till bokslutet skall fogas en verksamhetsberättelse.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>På ett fondbolags bokslut tillämpas 146 och 148―155 § i kreditinstitutslagen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Genom förordning av finansministeriet föreskrivs om scheman för fondbolags och placeringsfonders resultaträkning och balansräkning, om noterna till resultaträkningen och balansräkningen samt om uppgifter som skall lämnas i verksamhetsberättelsen. Finansministeriet skall innan det utfärdar beslutet begära yttrande av Finansinspektionen och bokföringsnämnden.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Finansinspektionen utfärdar närmare föreskrifter om upprättande av bokslut enligt 1 mom. Finansinspektionen skall innan den utfärdar föreskrifterna begära yttrande av finansministeriet och bokföringsnämnden. Om Finansinspektionens anvisningar eller yttrande om hur denna paragraf eller finansministeriets med stöd av den utfärdade förordning skall tillämpas är av betydelse för den allmänna tillämpningen av bokföringslagen, bokföringsförordningen eller aktiebolagslagen skall Finansinspektionen begära ett yttrande av bokföringsnämnden innan den ger anvisningar eller yttrar sig.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Finansinspektionen kan på ansökan av ett fondbolag av särskilda skäl för viss tid bevilja tillstånd till undantag från de i 4 mom. angivna bestämmelserna, om det är befogat för att ge en rättvisande bild av sökandens eller placeringsfondens verksamhetsresultat och finansiella ställning. Om ett ärende är av betydelse för den allmänna tillämpningen av bestämmelserna om bokslut i bokföringslagen, bokföringsförordningen eller aktiebolagslagen, skall Finansinspektionen innan den avgör ärendet begära yttrande av bokföringsnämnden om tillståndsansökan.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 15 februari 2007.</p>
+                    <p>På fondbolag tillämpas 184 § i kreditinstitutslagen. På fondbolag som bedriver verksamhet som avses i 5 § 2 mom. tillämpas dessutom 177―181 och 183 § i kreditinstitutslagen.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 21/2006</p>
+                        <p>EkUB 25/2006</p>
+                        <p>RSv 252/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 9 februari 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Andra finansminister </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,140 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/255/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/255"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/255/alkup"/>
+                    <FRBRdate date="2016-04-08" name="dateIssued"/>
+                    <FRBRdate date="2016-04-13" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="255"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/255/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/255/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/255/alkup/swe"/>
+                    <FRBRdate date="2016-04-08" name="dateIssued"/>
+                    <FRBRdate date="2016-04-13" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/255/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/255/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/255/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-04-13" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>255/2016</docNumber>
+                <docTitle>Lag om ändring av lagen om offentligt understödda export- och fartygskrediter samt ränteutjämning</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p> I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om offentligt understödda export- och fartygskrediter samt ränteutjämning (
+                        <affectedDocument href="/akn/fi/act/statute/2011/1543">1543/2011</affectedDocument>
+                        ) 4 § 1 mom., 8 § 1 mom. och 12 §, sådana de lyder i lag 486/2014, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>4 §</num>
+                    <heading>Beviljande av export- och fartygskrediter</heading>
+                    <subsection>
+                        <content>
+                            <p>Bolaget kan bevilja export- och fartygskrediter med fast eller rörlig ränta som baserar sig på Finnvera Abp:s medelanskaffning till ett kapitalvärde av högst 13 miljarder euro.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>8 §</num>
+                    <heading>Fullmakt att ingå ränteutjämningsavtal</heading>
+                    <subsection>
+                        <content>
+                            <p>Bolaget får med kreditinstitut och finansiella institut ingå ränteutjämningsavtal om ränteutjämningskrediter eller fatta motsvarande ränteutjämningsbeslut enligt 6 § till ett kapitalvärde av högst 13 miljarder euro.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>12 §</num>
+                    <heading>Uträkning av kapitalvärden</heading>
+                    <subsection>
+                        <content>
+                            <p>När kapitalvärdet av de export- och fartygskrediter som beviljats med stöd av 4 § och de ränteutjämningskrediter som upprättats med stöd av 8 § räknas ut, beaktas kapitalet i sin helhet nklusive det olyfta kapitalet från det att kreditavtalen undertecknades till den första återbetalningsdagen. Från och med den första återbetalningen beaktas det oamorterade kapitalet i sin helhet inklusive det olyfta kapitalet. Av kapitalet för anbuden beaktas 50 procent.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>När kapitalvärdet räknas ut, omvandlas avtalsvalutan till euro enligt den kurs Europeiska centralbanken har meddelat för den valuta som omvandlas för den dag krediterna beviljades.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 15 april 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/144">RP 144/2015</ref>
+                        </p>
+                        <p>EkUB 1/2016</p>
+                        <p>RSv 4/2016</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 8 april 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Näringsminister</role>
+                                <person refersTo="">Olli Rehn</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

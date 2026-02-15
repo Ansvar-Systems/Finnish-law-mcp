@@ -1,0 +1,157 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1112/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1112"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1112/alkup"/>
+                    <FRBRdate date="2007-11-30" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1112"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1112/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1112/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1112/alkup/swe"/>
+                    <FRBRdate date="2007-11-30" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1112/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1112/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1112/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="163"/>
+                    <finlex:date date="2007-12-10"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1112/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om pension för arbetstagare</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras </i>
+                        i lagen av den 19 maj 2006 om pension för arbetstagare (
+                        <affectedDocument href="/akn/fi/act/statute/2006/395">395/2006</affectedDocument>
+                        ) 168 § 1 mom., 169 § 2 mom., 180 §, 182 § 3 mom. och 202 § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>168 §</num>
+                    <heading>Uppgörande av beräkningsgrunder</heading>
+                    <subsection>
+                        <content>
+                            <p>Grunderna för beräkning av försäkringsavgifterna, ansvarsskulden och pensionsansvaret ska uppgöras i första hand med tanke på tryggandet av arbetstagarnas och pensionstagarnas enligt denna lag försäkrade förmåner samt med beaktande av vad som i 174― 182 § samt i 5 § i lagen om Pensionsskyddscentralen bestäms om fördelningen av ansvaret och de övriga kostnaderna för pensionerna. För betalning av de i 178―181 § och i 5 § i lagen om Pensionsskyddscentralen avsedda kostnaderna som ska bekostas gemensamt kan ett system med fondering på förhand tillämpas.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>169 §</num>
+                    <heading>Beräkningsgrunderna för försäkringsavgifter som betalas till arbetspensionsförsäkringsbolag</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Vid fastställandet av storleken av arbetspensionsförsäkringsbolagens försäkringsavgifter beaktas årligen respektive arbetspensionsförsäkringsbolags andel av de i 178―181 § och i 5 § i lagen om Pensionsskyddscentralen nämnda kostnaderna som ska bekostas gemensamt.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>180 §</num>
+                    <heading>Pensionsanstalternas ansvar för Pensionsskyddscentralens kostnader</heading>
+                    <subsection>
+                        <content>
+                            <p>För Pensionsskyddscentralens kostnader svarar de pensionsanstalter som sköter det i 3 § i lagen om pension för arbetstagare avsedda pensionsskyddet enligt arbetspensionslagarna för den privata och den offentliga sektorn i enlighet med vad som bestäms i 5 § i lagen om Pensionsskyddscentralen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>182 §</num>
+                    <heading>Arbetslöshetsförsäkringsfondens avgift</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Arbetslöshetsförsäkringsfonden ska årligen betala avgiften till Pensionsskyddscentralen inom den tid som anges i ansvarsfördelningsgrunderna. De medel som erhållits i avgift gottgör Pensionsskyddscentralen de i 1 mom. nämnda pensionsanstalterna i förhållande till de i respektive pensionsanstalt försäkrade arbetsinkomsterna så att pensionsanstalternas andel av ansvaret för Pensionsskyddscentralens kostnadsandel avdras från de fördelade medlen före gottgörelsen. Närmare bestämmelser om gottgörelse av avgiften ingår i de ansvarsfördelningsgrunder som avses i 183 § 2 mom.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>202 §</num>
+                    <heading>Avgiftsfrihet</heading>
+                    <subsection>
+                        <content>
+                            <p>Pensionsanstalterna, Pensionsskyddscentralen och en besvärsinstans enligt denna lag har rätt att avgiftsfritt få de uppgifter som de enligt denna lag har rätt att få. Om uppgifterna behövs i en viss form och detta orsakar den som lämnar ut uppgifterna betydande merkostnader, ska kostnaderna dock ersättas. Bestämmelser om Pensionsskyddscentralens rätt att ta ut verksamhetsbaserade serviceavgifter för sina tjänster finns i 5 § 1 mom. i lagen om Pensionsskyddscentralen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 53/2007</p>
+                        <p>ShUB 13/2007</p>
+                        <p>RSv 69/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 30 november 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

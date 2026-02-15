@@ -1,0 +1,219 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1068/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1068"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1068/alkup"/>
+                    <FRBRdate date="2007-11-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1068"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1068/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1068/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1068/alkup/swe"/>
+                    <FRBRdate date="2007-11-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1068/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1068/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1068/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="158"/>
+                    <finlex:date date="2007-11-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1068/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om televisions- och radioverksamhet</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 9 oktober 1998 om televisions- och radioverksamhet (
+                        <affectedDocument href="/akn/fi/act/statute/1998/744">744/1998</affectedDocument>
+                        ) 40 § 1 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 3 §, sådan den lyder delvis ändrad i lag 394/2003, ett nytt 2 mom., varvid de nuvarande 2 och 3 mom. blir 3 och 4 mom., samt till lagen nya 35 a―35 d § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Tillämpningsområde</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelserna i 1 och 2 samt i 5―7 kap. tillämpas på televisionsverksamhet som utövas av någon annan än i Finland etablerad fysisk person, sammanslutning eller stiftelse, om verksamheten utövas med stöd av en koncession som beviljats enligt 7 § 1 mom.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <chapter>
+                    <num>5 kap.</num>
+                    <heading>Styrning och tillsyn</heading>
+                    <section>
+                        <num>35 a §</num>
+                        <heading>Tillsynsavgift</heading>
+                        <subsection>
+                            <content>
+                                <p>För att täcka de kostnader som tillsynen över televisions- och radioverksamheten medför tas det för Kommunikationsverket ut en tillsynsavgift för televisions- och radioverksamhet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>35 b §</num>
+                        <heading>Betalningsskyldighet</heading>
+                        <subsection>
+                            <content>
+                                <p>Rundradion Ab och utövare av televisions- eller radioverksamhet som har en koncession som avses i 7 § 1 mom. är skyldiga att betala tillsynsavgift.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Betalningsskyldigheten börjar det kalenderår under vilket koncessionen för utövaren av televisions- eller radioverksamhet börjar gälla. Tillsynsavgiften för televisions- och radioverksamhet återbetalas inte, om utövaren av televisions- eller radioverksamhet upphör med sin verksamhet under kalenderåret.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>35 c §</num>
+                        <heading>Tillsynsavgiftens storlek</heading>
+                        <subsection>
+                            <intro>
+                                <p>De årliga tillsynsavgifterna för televisions- och radioverksamhet är följande:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>Rundradion Ab, 165 000 euro,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>utövare av annan än regional televisionsverksamhet, 16 000 euro för varje koncessionsenligt televisionsprogramutbud,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>utövare av regional televisionsverksamhet, 800 euro för varje koncessionsenligt televisionsprogramutbud,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>utövare av radioverksamhet som utövar radioverksamhet på frekvenser för rikstäckande eller därmed jämförbar koncessionsberoende användning, 8 000 euro för varje koncessionsenligt radioprogramutbud,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>utövare av radioverksamhet som utövar radioverksamhet på frekvenser för regional eller lokal koncessionsberoende användning, 800 euro för varje koncessionsenligt radioprogramutbud,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>utövare av radioverksamhet som är verksamma endast i televisionsnät, 8 000 euro för varje koncessionsenligt radioprogramutbud.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>35 d §</num>
+                        <heading>Påförande och uttagande av tillsynsavgiften</heading>
+                        <subsection>
+                            <content>
+                                <p>Tillsynsavgiften för televisions- och radioverksamhet tas årligen ut i två poster. Avgiften påförs av Kommunikationsverket. I Kommunikationsverkets beslut om påförande av avgift får ändring sökas enligt 40 §.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tillsynsavgiften får drivas in utan dom eller beslut på det sätt som bestäms i lagen om indrivning av skatter och avgifter i utsökningsväg (367/1961). Om avgiften inte betalas senast på förfallodagen, tas på det obetalda beloppet ut en årlig dröjsmålsränta enligt den räntefot som avses i 4 § i räntelagen (633/1982). I stället för dröjsmålsränta kan myndigheten ta ut en dröjsmålsavgift om fem euro, om dröjsmålsräntan understiger detta belopp.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>40 §</num>
+                        <heading>Ändringssökande</heading>
+                        <subsection>
+                            <content>
+                                <p>Statsrådets, kommunikationsministeriets eller Kommunikationsverkets beslut får överklagas så som bestäms i förvaltningsprocesslagen (586/1996). Statsrådet, kommunikationsministeriet, Kommunikationsverket och konsumentombudsmannen kan i sina beslut bestämma att besluten ska iakttas även om de överklagas.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008. </p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 49/2007</p>
+                        <p>KoUB 6/2007</p>
+                        <p>RSv 53/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 23 november 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommunikationsminister </role>
+                                <person refersTo="">Suvi Lindén</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

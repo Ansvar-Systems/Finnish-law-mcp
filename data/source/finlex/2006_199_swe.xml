@@ -1,0 +1,134 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/199/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/199"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/199/alkup"/>
+                    <FRBRdate date="2006-03-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="199"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/199/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/199/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/199/alkup/swe"/>
+                    <FRBRdate date="2006-03-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/199/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/199/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/199/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="34"/>
+                    <finlex:date date="2006-03-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>199/2006</docNumber>
+                <docTitle>Lag om ändring av 2 kap. 6 § och 15 kap. 2 § i sjukförsäkringslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 2 kap. 6 § i sjukförsäkringslagen av den 21 december 2004 (
+                        <affectedDocument href="/akn/fi/act/statute/2004/1224">1224/2004</affectedDocument>
+                        ) ett nytt 4 mom. och till 15 kap. 2 § ett nytt 3 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>2 kap.</num>
+                    <heading>Gemensamma bestämmelser om sjukvårdsersättningar</heading>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Vård som getts utomlands</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>En förutsättning för att ersättning skall kunna betalas för kostnader som uppkommit utomlands är att undersökningen utförts eller vården getts av en läkare eller en tandläkare eller, på ordination av en läkare eller en tandläkare, av en i 1 kap. 4 § 1 mom. 2 punkten nämnd yrkesutbildad person inom hälso- och sjukvården, som i den stat där vården getts har rätt att utöva sitt yrke som legitimerad yrkesutbildad person. För kostnader som uppkommit utomlands kan ersättning betalas också om en åtgärd på ordination av en läkare eller en tandläkare har vidtagits i en sådan verksamhetsenhet inom hälso- och sjukvården som uppfyller de krav som anges i lagstiftningen i staten i fråga.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>15 kap.</num>
+                    <heading>Verkställighet</heading>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Ansökan om ersättningar och förmåner samt skyldighet att lämna uppgifter</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Om en försäkrad på grund av sjukdom eller av någon annan liknande orsak inte själv kan söka en förmån som avses i denna lag eller annars se till att han eller hon kommer i åtnjutande av de förmåner och rättigheter som hänför sig till lagen och inte heller har någon intressebevakare enligt lagen om förmyndarverksamhet (442/1999), kan Folkpensionsanstalten godkänna att en anhörig eller någon annan person som i huvudsak sköter om den försäkrade för hans eller hennes talan i ärenden som gäller förmåner enligt denna lag.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 maj 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 217/2005</p>
+                        <p>ShUB 4/2006</p>
+                        <p>RSv 13/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 17 mars 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Omsorgsminister </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

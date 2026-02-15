@@ -1,0 +1,179 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1622/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1622"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1622/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1622"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1622/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1622/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1622/alkup/fin"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1622/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1622/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1622/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1622/2015</docNumber>
+                <docTitle>Laki osakeyhtiölain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         osakeyhtiölain (
+                        <affectedDocument href="/akn/fi/act/statute/2006/624">624/2006</affectedDocument>
+                        ) 8 luvun 5 ja 9 § sekä 13 luvun 5 §, sellaisena kuin niistä on 8 luvun 9 § osaksi laissa 1214/2009, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>8 luku</num>
+                    <heading>Oma pääoma, tilinpäätös, toimintakertomus ja konserni</heading>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Toimintakertomus</heading>
+                        <subsection>
+                            <content>
+                                <p>Toimintakertomuksessa on aina ilmoitettava tässä laissa edellytetyt tiedot, jollei osakeyhtiö ole kirjanpitolain 1 luvun 4 a §:ssä tarkoitettu pienyritys tai 4 b §:ssä tarkoitettu mikroyritys. Tällaisen yrityksen toimintakertomuksessa ja tilinpäätöksessä esitettävistä tiedoista säädetään kirjanpitolaissa ja sen nojalla annettavissa säännöksissä. </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Toimintakertomuksessa on oltava hallituksen esitys yhtiön voittoa koskeviksi toimenpiteiksi sekä esitys mahdollisesta muun vapaan oman pääoman jakamisesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Toimintakertomuksessa on ilmoitettava:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>yhtiön osakkeiden määrä osakelajeittain ja kutakin osakelajia koskevat yhtiöjärjestyksen pääasialliset määräykset; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>pääomalainoista pääasialliset lainaehdot ja lainoille kertynyt kuluksi kirjaamaton korko.</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <content>
+                                    <p>Toimintakertomuksessa on ilmoitettava yhtiön ulkomaiset sivuliikkeet.</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <content>
+                                    <p>Tässä laissa edellytetyt tiedot voidaan toimintakertomuksen sijasta ilmoittaa tilinpäätöksen liitetietoina, jollei kirjanpitolaissa toisin säädetä.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Konsernitilinpäätös</heading>
+                        <subsection>
+                            <content>
+                                <p>Konsernitilinpäätöksen laatimisessa on sen lisäksi, mitä muualla säädetään, noudatettava tämän luvun säännöksiä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Emoyhtiön on aina laadittava konsernitilinpäätös, jos se jakaa varoja osakkeenomistajille tai on julkinen osakeyhtiö. Konsernitilinpäätöstä ei kuitenkaan tarvitse laatia kirjanpitolain 1 luvun 6 a §:ssä tarkoitetusta pienkonsernista eikä silloin, kun yhtiö on vapautettu konsernitilinpäätöksen laatimisvelvollisuudesta mainitun lain 6 luvun 1 §:n 4 momentin perusteella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>13 luku</num>
+                    <heading>Varojen jakaminen</heading>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Jaettava määrä</heading>
+                        <subsection>
+                            <content>
+                                <p>Jollei yhtiön maksukykyä koskevasta 2 §:stä muuta johdu, yhtiö saa jakaa vapaan oman pääoman, josta on vähennetty yhtiöjärjestyksen mukaan jakamatta jätettävät varat sekä määrä, joka on kehitysmenona merkitty taseeseen kirjanpitolain mukaisesti.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016. Lakia sovelletaan ensimmäisen kerran siltä tilikaudelta, joka alkaa 1 päivänä tammikuuta 2016 tai sen jälkeen. Osakeyhtiö saa kuitenkin soveltaa tätä lakia tilikaudella, joka alkaa lain voimaantulon jälkeen.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/89">HE 89/2015</ref>
+                        </p>
+                        <p>TaVM 16/2015</p>
+                        <p>EV 95/2015</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2013/34/EU (32013L0034); EYVL N:o L 182, 29.6.2013, s. 19.</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 30 päivänä joulukuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ulkomaankauppa- ja kehitysministeri</role>
+                                <person refersTo="">Lenita Toivakka</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

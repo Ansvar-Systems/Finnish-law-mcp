@@ -1,0 +1,230 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/628/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/628"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/628/alkup"/>
+                    <FRBRdate date="2007-06-01" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="628"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/628/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/628/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/628/alkup/fin"/>
+                    <FRBRdate date="2007-06-01" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/628/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/628/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/628/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="93"/>
+                    <finlex:date date="2007-06-01"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>628/2007</docNumber>
+                <docTitle>Laki kemikaalilain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         14 päivänä elokuuta 1989 annetun kemikaalilain (<affectedDocument href="/akn/fi/act/statute/1989/744">744/1989</affectedDocument>) 17 §:n 3 ja 4 momentti sekä 19 §:n 3 momentti, sellaisina kuin ne ovat, 17 §:n 3 ja 4 momentti laissa 1412/1992 ja 19 §:n 3 momentti laissa 12/1997,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan </i>
+                        8 a §:n otsikko, 48 a §:n 2 momentti ja 52 §:n 1 momentin 1 kohta, sellaisina kuin ne ovat, 8 a §:n otsikko ja 52 §:n 1 momentin 1 kohta laissa 136/2006 ja 48 a §:n 2 momentti laissa 368/1998, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään </i>
+                        2 §:ään, sellaisena kuin se on mainitussa laissa 1412/1992 ja laeissa 1198/1999 ja 391/2005, uusi 3 momentti, jolloin nykyinen 3 ja 4 momentti siirtyvät 4 ja 5 momentiksi, 8 a §:ään, sellaisena kuin se on mainitussa laissa 136/2006, uusi 4 momentti, lakiin uusi 8 b §, 52 §:ään, sellaisena kuin se on laissa 404/2002 ja mainitussa laissa 136/2006, uusi 2 momentti, jolloin nykyinen 2 momentti siirtyy 3 momentiksi, sekä lakiin uusi 62 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Lain soveltamisala</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>
+                                Tätä lakia sovelletaan lisäksi kemikaalien rekisteröinnistä, arvioinnista, lupamenettelyistä ja rajoituksista (REACH), Euroopan kemikaaliviraston perustamisesta, direktiivin 1999/45/EY muuttamisesta sekä neuvoston asetuksen (ETY) N:o 793/93, komission asetuksen (EY) N:o 1488/94, neuvoston direktiivin 76/769/ETY ja komission direktiivien 91/155/ETY, 93/67/ETY, 93/105/EY ja 2000/21/EY kumoamisesta annetun Euroopan parlamentin ja neuvoston asetuksen (EY) N:o 1907/2006, jäljempänä 
+                                <i>REACH-asetus</i>, ja sen nojalla annettujen Euroopan yhteisöjen säännösten täytäntöönpanoon.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>8 a §</num>
+                    <heading>Toimivaltaiset viranomaiset</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Sosiaali- ja terveydenhuollon tuotevalvontakeskus ja Suomen ympäristökeskus toimivat REACH-asetuksen 121 artiklassa tarkoitettuina toimivaltaisina viranomaisina kumpikin omalla toimialallaan.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>8 b §</num>
+                    <heading>Kansallinen neuvontapalvelu</heading>
+                    <subsection>
+                        <content>
+                            <p>Sosiaali- ja terveydenhuollon tuotevalvontakeskus ja Suomen ympäristökeskus vastaavat kansallisen neuvontapalvelun järjestämisestä REACH-asetuksen 124 artiklan mukaisen neuvonnan antamiseksi valmistajille, maahantuojille, jatkokäyttäjille, jakelijoille ja muille asianosaisille. Neuvontapalvelun järjestämisestä ja toteuttamisesta voidaan säätää tarkemmin valtioneuvoston asetuksella.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>48 a §</num>
+                    <heading>Tietojen toimittaminen kemikaalista</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Kemikaalien valmistajan, maahantuojan, jakelijan tai muun toiminnanharjoittajan, joka vastaa kemikaalin saattamisesta markkinoille tai käyttöön Suomessa, on toimitettava tiedot REACH-asetuksen 31 artiklassa tarkoitetusta kemikaalista Sosiaali- ja terveydenhuollon tuotevalvontakeskukselle.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>52 §</num>
+                    <heading>Kemikaalirikkomus</heading>
+                    <subsection>
+                        <intro>
+                            <p>Joka tahallaan tai huolimattomuudesta</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <intro>
+                                <p>laiminlyö 18 a §:ssä tarkoitetun tietojentoimittamisvelvollisuuden, 20 §:ssä tarkoitetun ilmoituksen tekemisen, 25 §:ssä tarkoitetun hyväksymisen hakemisen, 30 c §:ssä tarkoitetun rekisteröinnin hakemisen taikka 30 e §:ssä tarkoitetun luvan hakemisen tai ilmoituksen tekemisen tai</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <subparagraph>
+                                <content>
+                                    <p>
+                                        on tuomittava, jollei teosta muualla laissa säädetä ankarampaa rangaistusta, 
+                                        <i>kemikaalirikkomuksesta</i>
+                                         sakkoon.
+                                    </p>
+                                </content>
+                            </subparagraph>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Jollei teosta muualla laissa säädetä ankarampaa rangaistusta, kemikaalirikkomuksesta tuomitaan myös se, joka tahallaan tai huolimattomuudesta rikkoo REACH-asetuksen:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>31 artiklan velvollisuutta, joka koskee käyttöturvallisuustiedotetta ja siltä edellytettävien tietojen toimittamista vastaanottajalle;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>32 artiklan mukaista aineita tai valmisteita koskevaa tiedottamisvelvollisuutta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>33 tai 34 artiklan tiedottamisvelvollisuutta taikka 35 artiklan mukaista työntekijöiden tiedonsaantimahdollisuutta; tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>36 artiklan mukaista velvollisuutta säilyttää tietoja tai toimittaa niitä toimivaltaiselle viranomaiselle tai Euroopan kemikaalivirastolle.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <chapter>
+                    <num>12 luku</num>
+                    <heading>Erinäisiä säännöksiä</heading>
+                    <section>
+                        <num>62 a §</num>
+                        <heading>Maanpuolustusta koskevat poikkeukset</heading>
+                        <subsection>
+                            <content>
+                                <p>Valtioneuvoston asetuksella voidaan säätää maanpuolustuksen kannalta välttämättömiä poikkeuksia tämän lain ja REACH-asetuksen noudattamisesta sen mukaan, mitä REACH-asetuksen 2 artiklan 3 kohdassa säädetään. Valtioneuvoston asetuksella voidaan tällöin antaa terveyden ja ympäristön suojelemiseksi tarpeellisia säännöksiä kemikaalien aiheuttamien terveys- ja ympäristöhaittojen ehkäisemiseksi ja torjumiseksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 2 päivänä kesäkuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/3">HE 3/2007</ref>
+                        </p>
+                        <p>YmVM 1/2007</p>
+                        <p>EV 3/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 1 päivänä kesäkuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Peruspalveluministeri </role>
+                                <person refersTo="">Paula Risikko</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

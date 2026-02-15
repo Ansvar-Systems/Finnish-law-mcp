@@ -1,0 +1,290 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1027/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1027"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1027/alkup"/>
+                    <FRBRdate date="2007-11-16" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1027"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1027/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1027/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1027/alkup/fin"/>
+                    <FRBRdate date="2007-11-16" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1027/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1027/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1027/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="151"/>
+                    <finlex:date date="2007-11-16"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1027/2007</docNumber>
+                <docTitle>Laki potilasturvallisuuden varmistamisesta terveydenhuollon työtaistelun aikana</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section eId="sec_1">
+                    <num>1 §</num>
+                    <heading>Lain tarkoitus</heading>
+                    <subsection eId="sec_1__subsec_1">
+                        <content>
+                            <p>Lain tarkoituksena on varmistaa potilasturvallisuus niissä tilanteissa, joissa kunnallista terveydenhuoltoa koskeva työtaistelu uhkaa välittömästi vaarantaa potilaiden hengen tai aiheuttaa pysyvän vakavan vammautumisen hoitohenkilökunnan riittämättömyyden vuoksi.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_2">
+                    <num>2 §</num>
+                    <heading>Työtehtävien muuttaminen</heading>
+                    <subsection eId="sec_2__subsec_1">
+                        <content>
+                            <p>Työtaistelun piiriin kuulumattoman terveydenhuollon ammattihenkilön on, sen estämättä, mitä muualla säädetään tai työsopimuksessa on sovittu, tavanomaisten työtehtäviensä lisäksi suoritettava työnantajan määräämiä muita ammattitaitoaan vastaavia tehtäviä, jos se on välttämätöntä potilaan hengen tai terveyden vaarantumisen ehkäisemiseksi.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_3">
+                    <num>3 §</num>
+                    <heading>Potilasturvatyö</heading>
+                    <subsection eId="sec_3__subsec_1">
+                        <content>
+                            <p>
+                                Jos kunnan tai kuntayhtymän ylläpitämä terveydenhuollon toimintayksikkö ei pysty työtaistelun vuoksi järjestämään potilaiden hengen turvaamiseksi tai pysyvän vakavan vammautumisen estämiseksi välttämättä tarvittavaa hoitoa, lääninhallitus voi määrätä terveydenhuollon ammattihenkilön työskentelemään tällaisessa terveydenhuollon toimintayksikössä ammattitaitoaan vastaavissa tehtävissä (<i>potilasturvatyö</i>). Määräys voidaan antaa kerrallaan enintään viikon ajaksi ja se voidaan työtaistelun piiriin kuulumattoman osalta uudistaa enintään neljä kertaa. Potilasturvatyöhön ilman henkilön suostumusta tulee ensisijaisesti määrätä työtaistelun vuoksi irtisanoutuneita henkilöitä. Muu terveydenhuollon ammattihenkilö voidaan ilman henkilön suostumusta määrätä potilasturvatyöhön vain erityisen painavista syistä.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_2">
+                        <intro eId="sec_3__subsec_2__intro">
+                            <p>Edellä 1 momentissa tarkoitettuja välttämättömiä hoitoja ovat:</p>
+                        </intro>
+                        <paragraph eId="sec_3__subsec_2__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>tehohoito, mukaan lukien keskosten ja vastasyntyneiden tehohoito;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_2__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>päivystys ja siihen välittömästi liittyvä hoito;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_2__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>synnytykset;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_2__para_4">
+                            <num>4)</num>
+                            <content>
+                                <p>välitöntä hoitoa edellyttävät syöpätapaukset;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_2__para_5">
+                            <num>5)</num>
+                            <content>
+                                <p>dialyysihoito;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_2__para_6">
+                            <num>6)</num>
+                            <content>
+                                <p>välitön tahdosta riippumaton psykiatrinen hoito;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_2__para_7">
+                            <num>7)</num>
+                            <content>
+                                <p>edellä mainittuihin hoitoihin liittyvät kiireelliset anestesiapalvelut sekä laboratorio- ja kuvantamispalvelut; sekä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_2__para_8">
+                            <num>8)</num>
+                            <content>
+                                <p>muu näihin verrattava, potilaiden hengen turvaamiseksi tai pysyvän vakavan vammautumisen estämiseksi välttämättä tarvittava hoito.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_3">
+                        <content>
+                            <p>Määräys voidaan antaa siitä riippumatta, onko terveydenhuollon ammattihenkilö työ- tai virkasuhteessa muuhun työnantajaan. Määräystä ei voida antaa, jos se vaikeuttaisi huomattavasti määrättäväksi aiotun henkilön perheen tai omaisten hyvinvointia, hänen työnantajansa toimintaa tai jos määräyksestä aiheutuisi muusta syystä erityisen suurta haittaa määrättäväksi aiotulle henkilölle.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_4">
+                    <num>4 §</num>
+                    <heading>Menettely potilasturvatyöhön määrättäessä</heading>
+                    <subsection eId="sec_4__subsec_1">
+                        <content>
+                            <p>Henkilö voidaan määrätä potilasturvatyöhön vain terveydenhuollon toimintayksikköä ylläpitävän kunnan tai kuntayhtymän esityksen perusteella. Esityksessä on oltava selvitys niistä toimenpiteistä, joita kunta tai kuntayhtymä on toteuttanut, jotta vältettäisiin välitön vaara potilaiden hengelle tai vakavaan pysyvään vammautumiseen sekä perustelut sille, miksi pysyvän lainsäädännön mahdollistamat toimet ovat riittämättömiä. Lisäksi esityksessä tulee olla tieto siitä, mihin tehtäviin, kuinka paljon ja miksi ajaksi terveydenhuollon ammattihenkilöitä tulisi määrätä potilasturvatyöhön. Kunnan tai kuntayhtymän on esitystä laatiessaan varattava työtaisteluun ryhtyneen ammattijärjestön kyseisessä terveydenhuollon toimintayksikössä toimivalle ammattiosastolle mahdollisuus lausunnon antamiseen ja esitykseen tulee liittää osaston mahdollisesti antama lausunto.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_2">
+                        <content>
+                            <p>Ennen määräyksen antamista lääninhallituksen on varattava potilasturvatyöhön määrättävälle mahdollisuus tulla kuulluksi asiassa. Kuultavan on ilmoitettava näkemyksensä asiasta lääninhallituksen määräämässä ajassa, joka ei saa olla 24 tuntia lyhyempi. Jos kuultava on työ- tai virkasuhteessa, on lääninhallituksen varattava myös työnantajalle mahdollisuus tulla kuulluksi samassa ajassa.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_3">
+                        <content>
+                            <p>Määräys voidaan antaa, vaikka kuultava vastustaisi määräystä. Määräyksessä lääninhallituksen on määriteltävä potilasturvatyön alkamisen ajankohta, kesto, toimintayksikkö, jossa se suoritetaan, ja pääasialliset työtehtävät. Jos kuultava on vastustanut määräystä 3 §:n 3 momentissa mainituilla perusteilla ja lääninhallitus katsoo, että hänet voidaan siitä huolimatta määrätä potilasturvatyöhön, on päätöksessä perusteltava syy potilasturvatyöhön määräämiselle.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_4">
+                        <content>
+                            <p>Sosiaali- ja terveysministeriön asetuksella voidaan tarvittaessa antaa tarkemmat säännökset niistä 1 momentin mukaisista tiedoista ja selvityksistä, jotka tulee sisällyttää kunnan tai kuntayhtymän esitykseen, sekä tiedoista, jotka lääninhallituksen tulee sisällyttää potilasturvatyötä koskevaan määräykseen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_5">
+                    <num>5 §</num>
+                    <heading>Potilasturvatyöhön määrätyn oikeudet</heading>
+                    <subsection eId="sec_5__subsec_1">
+                        <content>
+                            <p>Potilasturvatyöhön määrätyllä on oikeus saada kunnalta tai kuntayhtymältä potilasturvatyöstä korvaus, joka on vähintään 1,3 kertaa vastaavasta työstä asianomaisessa terveydenhuollon toimintayksikössä säännölliseltä työajalta tavallisesti maksettava palkka. Jos potilasturvatyöhön määrätty on työssä muualla, hänelle suoritettavan korvauksen tulee olla vähintään 1,2 kertaa hänelle tuosta muusta säännölliseltä työajalta työstä maksettava palkka. Lisäksi potilasturvatyöhön määrätyllä on oikeus saada korvaus hänelle määräyksestä aiheutuvista poikkeuksellisista kustannuksista.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_2">
+                        <content>
+                            <p>Potilasturvatyössä sovelletaan työaikalakia (605/1996), vuosilomalakia (162/2005), työturvallisuuslakia (738/2002), työterveyshuoltolakia (1383/2001), tapaturmavakuutuslakia (608/1948), ammattitautilakia (1343/1988) ja kunnallista eläkelakia (549/2003) sekä soveltuvin osin työsopimuslain (55/2001) säännöksiä työntekijän ja työnantajan oikeuksista ja velvollisuuksista.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_3">
+                        <content>
+                            <p>Jos potilasturvatyöhön määrätty on hoitanut alle kouluikäistä lastaan kotonaan, on kunnan järjestettävä lapselle hänen tarvitsemansa päivähoitopaikka potilasturvatyön alkamisesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_4">
+                        <content>
+                            <p>Potilasturvatyöhön määrätyn työnantaja ei saa päättää työ- tai virkasuhdetta potilasturvatyön takia. Potilasturvatyöhön määrätyllä työntekijällä on oikeus palata aikaisempaan työhönsä potilasturvatyön päätyttyä. Potilasturvatyöhön määrätyn on palattava työhönsä kohtuullisen ajan kuluessa potilasturvatyön aiheuttaman esteen lakattua.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_6">
+                    <num>6 §</num>
+                    <heading>Poikkeaminen työaikasäännöksistä</heading>
+                    <subsection eId="sec_6__subsec_1">
+                        <content>
+                            <p>Jos terveydenhuollon työtaistelu vakavasti uhkaa johtaa 3 §:n 1 momentissa tarkoitettuun hengen tai terveyden vaarantumiseen, säädetyt tai sovitut työajat saa sen estämättä, mitä työaikalaissa säädetään, ylittää siinä määrin kuin välttämättömän hoidon turvaaminen sitä edellyttää, kuitenkin enintään kahden viikon ajan.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_6__subsec_2">
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitettua työtä ei lueta työaikalain 17 §:ssä tarkoitettuun ylityöhön. Sellaisessa työssä saa myös poiketa työaikalain 26―31 §:n sekä 33 §:n 1 momentin säännöksistä.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_6__subsec_3">
+                        <content>
+                            <p>Työnantajan on viivytyksettä tehtävä työsuojeluviranomaiselle kirjallinen ilmoitus tässä pykälässä tarkoitetun työn syystä, laajuudesta ja todennäköisestä kestosta. Työnantajan on varattava tällaista työtä tekeviä työntekijöitä edustavalle luottamusmiehelle tai jos luottamusmiestä ei ole valittu, työsopimuslain 13 luvun 3 §:ssä tarkoitetulle luottamusvaltuutetulle tai jos luottamusvaltuutettuakaan ei ole valittu, työsuojeluvaltuutetulle tilaisuus liittää ilmoitukseen lausuntonsa. Työsuojeluviranomainen voi tutkittuaan asian joko jättää sen saamansa ilmoituksen varaan tai ryhtyä toimenpiteisiin tässä pykälässä tarkoitetun työn rajoittamiseksi tai lopettamiseksi.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_7">
+                    <num>7 §</num>
+                    <heading>Uhkasakko</heading>
+                    <subsection eId="sec_7__subsec_1">
+                        <content>
+                            <p>Lääninhallitus voi tehostaa tämän lain 4 §:ssä tarkoitettua päätöstä potilasturvatyöhön määräämisestä uhkasakolla.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_7__subsec_2">
+                        <content>
+                            <p>Uhkasakon asettamiseen ja tuomitsemiseen sovelletaan, mitä uhkasakkolaissa (1113/1990) säädetään. Lääninhallitus tuomitsee uhkasakon potilasturvatyömääräystä hakeneen kunnan tai kuntayhtymän hakemuksesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_8">
+                    <num>8 §</num>
+                    <heading>Muutoksenhaku</heading>
+                    <subsection eId="sec_8__subsec_1">
+                        <content>
+                            <p>Lääninhallituksen päätökseen saa hakea valittamalla muutosta siten kuin hallintolainkäyttölaissa (586/1996) säädetään. Lääninhallituksen päätöstä potilasturvatyöhön määräämisestä on noudatettava muutoksenhausta huolimatta, jollei muutoksenhakuviranomainen toisin määrää.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_8__subsec_2">
+                        <content>
+                            <p>Valitus, joka koskee potilasturvatyöhön määräämistä tai määräyksen täytäntööpanon kieltämistä, on käsiteltävä muutoksenhakuviranomaisessa kiireellisenä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_9">
+                    <num>9 §</num>
+                    <heading>Voimaantulo</heading>
+                    <subsection eId="sec_9__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 17 päivänä marraskuuta 2007 ja se on voimassa 31 päivään maaliskuuta 2008. Lakia ei saa soveltaa enää 1 §:ssä tarkoitetun uhan päätyttyä.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_9__subsec_2">
+                        <content>
+                            <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/153">HE 153/2007</ref>
+                        </p>
+                        <p>StVM 17/2007</p>
+                        <p>EV 80/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 16 päivänä marraskuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Peruspalveluministeri </role>
+                                <person refersTo="">Paula Risikko </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

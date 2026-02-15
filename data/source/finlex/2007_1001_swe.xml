@@ -1,0 +1,143 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1001/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1001"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1001/alkup"/>
+                    <FRBRdate date="2007-11-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1001"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1001/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1001/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1001/alkup/swe"/>
+                    <FRBRdate date="2007-11-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1001/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1001/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1001/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="149"/>
+                    <finlex:date date="2007-11-15"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1001/2007</docNumber>
+                <docTitle>Lag om ändring av kommunindelningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i kommunindelningslagen av den 19 december 1997 (
+                        <affectedDocument href="/akn/fi/act/statute/1997/1196">1196/1997</affectedDocument>
+                        ) 9 § 2 mom., 38 § 5 mom. samt 41 § 1 och 3 mom.,
+                    </block>
+                    <block name="substitutions-originals">sådana de lyder, 9 § 2 mom. i lag 167/2005 och 38 § 5 mom. samt 41 § 1 och 3 mom. i lag 170/2007, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>9 §</num>
+                    <heading>Avtal om ordnande av förvaltning och service</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Avtalet om ordnande av förvaltningen och servicen samt planen ska bifogas berörda kommuners framställningar enligt 6 § 1 mom. om ändringar i kommunindelningen. Verkställs ändringen i kommunindelningen med stöd av 4 § 2 mom., ska berörda kommuner innan kommunindelningen träder i kraft göra upp ett avtal och en plan enligt 1 mom. och lämna dessa till finansministeriet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>38 §</num>
+                    <heading>Sammanslagningsunderstöd</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Finansministeriet betalar understödet årligen före utgången av juni. När flera kommuner än en får understöd fördelas understödet mellan kommunerna i förhållande till antalet invånare som överförs till respektive kommun. Respektive kommuns andel beräknas på det eurobelopp som kommunen skulle ha betalts i sammanslagningsunderstöd, om den kommun som upplöses skulle ha anslutits helt och hållet till kommunen i fråga. Som kommunens invånarantal används invånarantalet enligt 18 § i befolkningsdatalagen (507/1993) vid ingången av året före det år då ändringen i kommunindelningen träder i kraft.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>41 §</num>
+                    <heading>Ersättande av minskning av statsandelar</heading>
+                    <subsection>
+                        <content>
+                            <p>Om en i 38 § avsedd ändring i kommunindelningen minskar de berörda kommunernas statsandelar beviljas kommunerna på grund av minskningen under det år då ändringen i kommunindelningen träder i kraft och de därpå följande fyra åren ersättning för minskningen av statsandelarna. Beloppet av den årliga ersättningen fås genom att den allmänna statsandel, den på skatteinkomster baserade utjämning av statsandelarna och de uppgiftsbaserade statsandelar för driftskostnader som de kommuner som berörs av ändringen i kommunindelningen beviljats året före det år ändringen träder i kraft jämförs med de motsvarande statsandelar som skulle betalas till de kommuner som är verksamma efter ändringen på basis av en sådan ändring i kommunindelningen som hade verkställts samma år. Om bestämningsgrunderna för statsandelen ändras från och med det år då ändringen i kommunindelningen träder i kraft, beräknas ersättningen i enlighet med de nya bestämningsgrunder som ska tillämpas från och med nämnda år. Finansministeriet räknar ut ersättningsbeloppet utifrån uppgifter som lämnats av de vederbörande ministerier som avses i lagen om statsandelar till kommunerna.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Finansministeriet betalar ersättningarna i samband med sammanslagningsunderstödet.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 56/2007</p>
+                        <p>FvUB 5/2007</p>
+                        <p>RSv 51/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 9 november 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Mauri Pekkarinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

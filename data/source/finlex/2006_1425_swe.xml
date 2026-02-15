@@ -1,0 +1,148 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1425/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1425"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1425/alkup"/>
+                    <FRBRdate date="2006-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1425"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1425/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1425/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1425/alkup/swe"/>
+                    <FRBRdate date="2006-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1425/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1425/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1425/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="216"/>
+                    <finlex:date date="2006-12-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1425/2006</docNumber>
+                <docTitle>Lag om ändring av inkomstskattelagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i inkomstskattelagen av den 30 december 1992 (
+                        <affectedDocument href="/akn/fi/act/statute/1992/1535">1535/1992</affectedDocument>
+                        ) 123 § 1 mom. och 123 a §,
+                    </block>
+                    <block name="substitutions-originals">sådana de lyder, 123 § 1 mom. i lag 1143/2005 samt 123 a § i lag 927/1996, och</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 123 b § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>123 §</num>
+                    <heading>Fusioners och fissioners inverkan på rätten att dra av förluster</heading>
+                    <subsection>
+                        <content>
+                            <p>Vid fission av samfund överförs det överlåtande samfundets förluster till det övertagande samfundet till den del det är uppenbart att förlusterna har uppstått i den verksamhet som överförts till det övertagande samfundet. Till övriga delar överförs förlusterna i samma proportion som det överlåtande samfundets nettoförmögenhet enligt 2 kap. i lagen om värdering av tillgångar vid beskattningen överförs till de övertagande samfunden. Om det i det överlåtande samfundets beskattning finns flera inkomstkällor, överförs de förluster som har fastställts för en viss inkomstkälla till de övertagande bolag som har motsvarande inkomstkälla.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>123 a §</num>
+                    <heading>Företagsomstruktureringars inverkan på avdrag för ett utländskt samfunds fasta driftställes förluster</heading>
+                    <subsection>
+                        <content>
+                            <p>Ett samfund som i samband med fission eller en verksamhetsöverlåtelse som avses i 52 d § i lagen om beskattning av inkomst av näringsverksamhet har bildats för att fortsätta den verksamhet som ett samfund med hemort i någon annan av Europeiska unionens medlemsstater har bedrivit vid ett fast driftställe i Finland, har rätt att från sin inkomst så som bestäms i 119 och 122 § dra av en förlust som fastställts vid beskattningen av det fasta driftstället.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om det fasta driftstället i Finland för ett samfund med hemort i en annan medlemsstat i Europeiska unionen i samband med fusion, fission eller verksamhetsöverlåtelse blir fast driftställe för ett annat samfund med hemort i denna andra eller i en tredje medlemsstat i Europeiska unionen, har detta samfund vid beskattningen av det fasta driftstället rätt att från sin inkomst avdra den förlust som fastställts i beskattningen för det fasta driftstället på det sätt som föreskrivs i 1 mom.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>123 b §</num>
+                    <heading>Företagsomstruktureringars inverkan på behandlingen av ett finskt samfunds fasta driftställes förluster</heading>
+                    <subsection>
+                        <content>
+                            <p>Om i samband med fusion, fission, verksamhetsöverlåtelse som avses i 52 d § i lagen om beskattning av inkomst av näringsverksamhet eller i samband med flyttning av ett europabolags eller en europeisk kooperativ förenings stadgeenliga hemort i enlighet med 52 g § i samma lag till tillgångar som överförs till en annan medlemsstat hör det överlåtande samfundets fasta driftställe i den andra medlemsstaten eller i en tredje medlemsstat i Europeiska unionen, läggs till den beskattningsbara inkomsten för det samfund som överfört tillgångarna sådana till det fasta driftstället hörande förluster som har avdragits vid beskattningen av det i Finland belägna samfundet och som inte har täckts med det fasta driftställets vinster under senare skatteår. Förlusterna läggs till det i Finland belägna samfundets inkomster under de 10 föregående skatteåren.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2007.</p>
+                    <p>Lagen tillämpas första gången vid beskattningen för 2007. Lagen tillämpas på de fissioner som genomförs den 1 januari 2007 eller därefter. Det 123 § 1 mom. som gällde när denna lag trädde i kraft tillämpas, om delningsplanen vid en fission har antecknats i handelsregistret före den 1 januari 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 247/2006</p>
+                        <p>FiUB 42/2006</p>
+                        <p>RSv 250/2006</p>
+                        <p>Rådets direktiv 2005/19/EG, (32005L0019); EUT nr L 58, 4.3.2005, s. 19</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 december 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Andra finansminister </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

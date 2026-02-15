@@ -1,0 +1,778 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2025/125/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/125"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/125/alkup"/>
+                    <FRBRdate date="2025-04-04" name="dateIssued"/>
+                    <FRBRdate date="2025-04-07" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="125"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2025/125/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/125/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/125/alkup/swe"/>
+                    <FRBRdate date="2025-04-04" name="dateIssued"/>
+                    <FRBRdate date="2025-04-07" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2025/125/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/125/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/125/alkup/swe/xml"/>
+                    <FRBRdate date="2025-12-09" name="dateProduced"/>
+                    <FRBRdate date="2025-04-07" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2025</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>125/2025</docNumber>
+                <docTitle>Lag om ändring av lagen om informationshantering inom den offentliga förvaltningen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om informationshantering inom den offentliga förvaltningen (<affectedDocument href="/akn/fi/act/statute/2019/906">906/2019</affectedDocument>) 2 § 16 punkten, 3 § och 10 § 1 mom. 2 punkten, av dem 2 § 16 punkten sådan den lyder i lag 488/2023 och 3 § sådan den lyder delvis ändrad i lagarna 653/2021 och 488/2023, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 1 § ett nytt 2 mom., i stället för det 2 mom. som upphävts genom lag 710/2021, och till 2 §, sådan den lyder delvis ändrad i lag 488/2023, nya 17–25 punkter samt till lagen ett nytt 4 a kap. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section eId="sec_1">
+                    <num>1 §</num>
+                    <heading>Lagens syfte</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>
+                                Genom denna lag genomförs bestämmelserna om skyldigheter för aktörer, om tillsynen över fullgörandet av dem och om påföljder i Europaparlamentets och rådets direktiv (EU) 2022/2555 om åtgärder för en hög gemensam cybersäkerhetsnivå i hela unionen, om ändring av förordning (EU) nr 910/2014 och direktiv (EU) 2018/1972 och om upphävande av direktiv (EU) 2016/1148 (NIS 2-direktivet) inom sektorn för offentlig förvaltning som avses i punkt 10 i bilaga I till NIS 2-direktivet (<i>den offentliga förvaltningen</i>). Bestämmelser om genomförande av NIS 2-direktivet till övriga delar finns i cybersäkerhetslagen (124/2025).
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_2">
+                    <num>2 §</num>
+                    <heading>Definitioner</heading>
+                    <subsection eId="sec_2__subsec_1">
+                        <intro eId="sec_2__subsec_1__intro">
+                            <p>I denna lag avses med</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>16) </num>
+                            <content>
+                                <p>
+                                    <i>behandlingsregler</i>
+                                     av en fysisk person på förhand utarbetade regler avsedda att styra automatisk databehandling,
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>17) </num>
+                            <content>
+                                <p>
+                                    <i>kommunikationsnät och informationssystem</i>
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>a)</num>
+                            <content>
+                                <p>ett elektroniskt kommunikationsnät som avses i artikel 2.1 i Europaparlamentets och rådets direktiv (EU) 2018/1972 om inrättande av en europeisk kodex för elektronisk kommunikation,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>b)</num>
+                            <content>
+                                <p>en enhet eller en grupp enheter som är sammankopplade eller hör samman med varandra, av vilka en eller flera genom ett program utför automatisk behandling av digitala uppgifter, och</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>c)</num>
+                            <content>
+                                <p>digitala uppgifter som lagras, behandlas, hämtas eller överförs i sådana system som avses i underpunkt a och b för att dessa system ska kunna drivas, användas, skyddas eller underhållas,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>18) </num>
+                            <content>
+                                <p>
+                                    <i>säkerhet i kommunikationsnät och informationssystem</i>
+                                     kommunikationsnäts och informationssystems förmåga att med en viss tillförlitlighetsnivå motstå händelser som kan äventyra tillgängligheten, autenticiteten, riktigheten eller konfidentialiteten hos lagrade, överförda eller behandlade uppgifter eller hos de tjänster som erbjuds genom eller är tillgängliga via dessa nät och system,
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>19) </num>
+                            <content>
+                                <p>
+                                    <i>cybersäkerhet</i>
+                                     åtgärder som behövs för att skydda kommunikationsnät och informationssystem, deras användare och andra berörda personer mot cyberhot,
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>20) </num>
+                            <content>
+                                <p>
+                                    <i>cyberhot</i>
+                                     en omständighet, händelse eller handling som när den förverkligas kan skada, störa eller på annat negativt sätt påverka kommunikationsnät och informationssystem, användare av dessa system och andra personer,
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>21) </num>
+                            <content>
+                                <p>
+                                    <i>betydande cyberhot</i>
+                                     ett cyberhot som, på grund av dess tekniska egenskaper, kan antas ha potential att ha en allvarlig påverkan på en myndighets nätverks- och informationssystem eller användarna av dess tjänster genom att orsaka betydande materiell eller immateriell skada,
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>22) </num>
+                            <content>
+                                <p>
+                                    <i>cyberrisk</i>
+                                     risk för förlust eller störning orsakad av en incident, som ska uttryckas som en kombination av omfattningen av förlusten eller störningen och sannolikheten för att en incident inträffar,
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>23) </num>
+                            <content>
+                                <p>
+                                    <i>incident</i>
+                                     en händelse som undergräver tillgängligheten, autenticiteten, riktigheten eller konfidentialiteten hos lagrade, överförda eller behandlade uppgifter eller hos de tjänster som erbjuds genom eller är tillgängliga via kommunikationsnät och informationssystem,
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>24) </num>
+                            <content>
+                                <p>
+                                    <i>betydande incident</i>
+                                     en incident som
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>a)</num>
+                            <content>
+                                <p>har orsakat eller kan orsaka allvarliga driftsstörningar för tjänsterna eller betydande ekonomiska förluster för en myndighet, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>b)</num>
+                            <content>
+                                <p>har påverkat eller kan påverka fysiska eller juridiska personer genom att orsaka betydande materiell eller immateriell skada,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>25) </num>
+                            <content>
+                                <p>
+                                    <i>incidenthantering</i>
+                                     åtgärder och förfaranden som syftar till att förebygga, upptäcka, analysera, begränsa eller reagera på och återhämta sig från en incident.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_3">
+                    <num>3 §</num>
+                    <heading>Lagens tillämpningsområde och avgränsningar av det</heading>
+                    <subsection eId="sec_3__subsec_1">
+                        <content>
+                            <p>
+                                Denna lag ska tillämpas på informationshantering och på användning av informationssystem, då myndigheter behandlar informationsmaterial, om inte något annat föreskrivs någon annanstans i lag. Bestämmelserna i 6 a kap. i denna lag ska tillämpas på införande och användning av 
+                                <i>automatiserat beslutsförfarande</i>. Vad som i denna lag föreskrivs om myndigheter ska också tillämpas på universitet som avses i universitetslagen (558/2009) och på yrkeshögskolor som avses i yrkeshögskolelagen (932/2014).
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_2">
+                        <content>
+                            <p>Det föreskrivs särskilt om förfaranden som ska iakttas vid ärendehantering och tjänsteproduktion, om sekretessbeläggning och om rätten till information om myndighetshandlingar samt om arkivering av handlingar. I kyrkolagen (652/2023) föreskrivs om informationshantering och användning av informationssystem inom Finlands evangelisk-lutherska kyrka.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_3">
+                        <intro eId="sec_3__subsec_3__intro">
+                            <p>Bestämmelserna i 4 a kap. tillämpas inte på följande myndigheter och myndighetsverksamheter:</p>
+                        </intro>
+                        <paragraph eId="sec_3__subsec_3__para_1">
+                            <num>1) </num>
+                            <content>
+                                <p>republikens presidents kansli, riksdagens ämbetsverk, Försvarsmakten, polisenheter som avses i polisförvaltningslagen (110/1992), Gränsbevakningsväsendet, Åklagarmyndigheten och Tullens brottsbekämpning,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_3__para_2">
+                            <num>2) </num>
+                            <content>
+                                <p>domstolar och nämnder som har inrättats för att behandla besvärsärenden,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_3__para_3">
+                            <num>3) </num>
+                            <content>
+                                <p>Försvarsfastigheter,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_3__para_4">
+                            <num>4) </num>
+                            <content>
+                                <p>kommunala myndigheter med undantag för Helsingfors stad på vilken 4 a kap. tillämpas när staden sköter uppgifter som enligt lag hör till välfärdsområdenas organiseringsansvar,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_3__para_5">
+                            <num>5) </num>
+                            <content>
+                                <p>Finlands Bank,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_3__para_6">
+                            <num>6) </num>
+                            <content>
+                                <p>universitet som avses i universitetslagen, yrkeshögskolor som avses i yrkeshögskolelagen, Räddningsinstitutet och övriga statliga utbildningsinstitutioner,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_3__para_7">
+                            <num>7) </num>
+                            <content>
+                                <p>sådan tjänsteproduktion i säkerhetsnätet och användning av dess tjänster som avses i lagen om verksamheten i den offentliga förvaltningens säkerhetsnät (10/2015),</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_3__subsec_3__para_8">
+                            <num>8) </num>
+                            <content>
+                                <p>myndigheter som har inrättats tillsammans med ett land som inte hör till Europeiska ekonomiska samarbetsområdet i enlighet med en internationell överenskommelse och diplomatiska eller konsulära beskickningar i dessa länder och deras nätverks- och informationssystem, till den del dessa system finns i beskickningens lokaler eller upprätthålls för användare i ett av dessa länder.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_4">
+                        <content>
+                            <p>Bestämmelserna i 19, 20, 26 och 27 § ska inte tillämpas på rättskipningen vid domstolar eller nämnder som har inrättats för att behandla besvärsärenden. Bestämmelserna i 3 kap. ska inte tillämpas på riksdagens justitieombudsmans, justitiekanslerns i statsrådet eller domstolarnas verksamhet eller verksamheten vid nämnder som har inrättats för att behandla besvärsärenden och inte heller på republikens presidents kansli, riksdagens ämbetsverk, Folkpensionsanstalten, Finlands Bank, övriga självständiga offentligrättsliga inrättningar, universitet som avses i universitetslagen eller på yrkeshögskolor som avses i yrkeshögskolelagen. Bestämmelserna i 3 kap. ska tillämpas på välfärdsområden, välfärdssammanslutningar, kommuner och samkommuner då de sköter lagstadgade uppgifter. Bestämmelserna i 18 g § 3 mom. och 18 h–18 l § ska inte tillämpas på riksdagens justitieombudsmans eller justitiekanslerns i statsrådet verksamhet.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_5">
+                        <content>
+                            <p>Vad som i 4 kap., 22–24 och 25–27 § samt 6 a kap. föreskrivs om informationshanteringsenheter och myndigheter ska tillämpas på privatpersoner och privaträttsliga sammanslutningar samt sådana offentligrättsliga samfund som inte är myndigheter till den del dessa sköter offentliga förvaltningsuppgifter. På privatpersoner, privaträttsliga sammanslutningar och sådana offentligrättsliga samfund som inte är myndigheter tillämpas dessutom vad som i 4 och 28 § föreskrivs om informationshanteringsenheter när de utövar offentlig makt på det sätt som avses i 4 § 2 mom. i lagen om offentlighet i myndigheternas verksamhet eller när det särskilt föreskrivs att den lagen ska tillämpas på deras verksamhet. Vidare tillämpas vad som i 19 § 2 mom. samt i 24 a och 24 b § föreskrivs om myndigheter på privaträttsliga sammanslutningar och sådana offentligrättsliga samfund som inte är myndigheter när de utövar offentlig makt på det sätt som avses i 4 § 2 mom. i lagen om offentlighet
+i myndigheternas verksamhet.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_6">
+                        <content>
+                            <p>Denna lag ska inte tillämpas på statliga myndigheter i landskapet Åland. Lagens 13 a § och 6 a kap. ska dock tillämpas på statliga myndigheter på Åland när de sköter sådana myndighetsuppgifter som hör till rikets lagstiftningsbehörighet och som innebär automatiserat avgörande av ärenden enligt 53 e § i förvaltningslagen. Även 4 a kap. ska tillämpas på statliga myndigheter i landskapet Åland, om inte något annat följer av 3 mom.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_10">
+                    <num>10 §</num>
+                    <heading>Den offentliga förvaltningens informationshanteringsnämnd</heading>
+                    <subsection eId="sec_10__subsec_1">
+                        <intro eId="sec_10__subsec_1__intro">
+                            <p>
+                                I anslutning till finansministeriet finns en informationshanteringsnämnd för den offentliga förvaltningen (<i>informationshanteringsnämnden</i>) med uppgift att
+                            </p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>främja förfarandena i fråga om informationshantering och informationssäkerhet samt genomförandet av de krav som föreskrivs i denna lag, med undantag för vad som föreskrivs i 4 a kap.</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <chapter eId="chp_4a">
+                    <num>4 a kap.</num>
+                    <heading>Skyldigheter som gäller cybersäkerhet och tillsynen över att de fullgörs</heading>
+                    <section eId="chp_4a__sec_18a">
+                        <num>18 a §</num>
+                        <heading>Aktörsindelning och anmälan om verksamhet</heading>
+                        <subsection eId="chp_4a__sec_18a__subsec_1">
+                            <content>
+                                <p>De informationshanteringsenheter som omfattas av tillämpningsområdet för detta kapitel är väsentliga aktörer inom den offentliga förvaltningen. Välfärdsområdena och välfärdssammanslutningarna samt Helsingfors stad är dock viktiga aktörer.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18a__subsec_2">
+                            <intro eId="chp_4a__sec_18a__subsec_2__intro">
+                                <p>En informationshanteringsenhet ska till tillsynsmyndigheten anmäla</p>
+                            </intro>
+                            <paragraph eId="chp_4a__sec_18a__subsec_2__para_1">
+                                <num>1) </num>
+                                <content>
+                                    <p>sitt namn,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18a__subsec_2__para_2">
+                                <num>2) </num>
+                                <content>
+                                    <p>sin adress, sin e-postadress, sitt telefonnummer och sina andra aktuella kontaktuppgifter,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18a__subsec_2__para_3">
+                                <num>3) </num>
+                                <content>
+                                    <p>sina IP-adressintervall,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18a__subsec_2__para_4">
+                                <num>4) </num>
+                                <content>
+                                    <p>uppgift om huruvida den är en väsentlig eller en viktig aktör inom den offentliga förvaltningen,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18a__subsec_2__para_5">
+                                <num>5) </num>
+                                <content>
+                                    <p>en förteckning över övriga medlemsstater i Europeiska unionen där enheten tillhandahåller sina tjänster,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18a__subsec_2__para_6">
+                                <num>6)</num>
+                                <intro eId="chp_4a__sec_18a__subsec_2__para_6__intro">
+                                    <p>sitt deltagande i frivilliga arrangemang för informationsutbyte om cybersäkerhet enligt 23 § i cybersäkerhetslagen. </p>
+                                </intro>
+                                <subparagraph eId="chp_4a__sec_18a__subsec_2__para_6__subpara_1">
+                                    <content>
+                                        <p>Informationshanteringsenheten ska utan dröjsmål, senast inom två veckor från en ändring, anmäla alla ändringar i de uppgifter som avses i 2 mom.</p>
+                                    </content>
+                                </subparagraph>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4a__sec_18b">
+                        <num>18 b §</num>
+                        <heading>Skyldighet att hantera cybersäkerhetsrisker och handlingsmodell för hantering av cybersäkerhetsrisker</heading>
+                        <subsection eId="chp_4a__sec_18b__subsec_1">
+                            <content>
+                                <p>En informationshanteringsenhet ska identifiera, utvärdera och hantera cyberrisker som hänför sig till säkerheten i de kommunikationsnät och informationssystem som den använder i sina funktioner eller för att tillhandahålla sina tjänster. Hanteringen av cybersäkerhetsrisker ska förhindra eller minimera incidenters inverkan på verksamheten, driftskontinuiteten, tjänstemottagarna och andra tjänster. Informationshanteringsenheten ska vidta de åtgärder för hantering av cybersäkerhetsrisker som avses i 18 c §.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18b__subsec_2">
+                            <content>
+                                <p>Informationshanteringsenheten ska ha en uppdaterad handlingsmodell för hantering av cybersäkerhetsrisker för att skydda kommunikationsnät och informationssystem och deras fysiska miljö mot incidenter och deras verkningar. I handlingsmodellen för hantering av cybersäkerhetsrisker ska de risker som hänför sig till kommunikationsnät och informationssystem och deras fysiska miljö identifieras med beaktande av ett tillvägagångssätt som beaktar alla riskfaktorer. I handlingsmodellen ska målen, förfarandena och ansvaren för hanteringen av cybersäkerhetsrisker samt de åtgärder enligt 18 c § genom vilka kommunikationsnät och informationssystem och deras fysiska miljö skyddas mot cyberhot och incidenter fastställas och beskrivas.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18b__subsec_3">
+                            <content>
+                                <p>Informationshanteringsenhetens ledning svarar för genomförandet av och tillsynen över hanteringen av cybersäkerhetsrisker samt godkänner handlingsmodellen för hantering av risker och utövar tillsyn över genomförandet av den. Informationshanteringsenhetens ledning ska ha tillräcklig förtrogenhet med hantering av cybersäkerhetsrisker.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4a__sec_18c">
+                        <num>18 c §</num>
+                        <heading>Åtgärder för hantering av cybersäkerhetsrisker</heading>
+                        <subsection eId="chp_4a__sec_18c__subsec_1">
+                            <intro eId="chp_4a__sec_18c__subsec_1__intro">
+                                <p>En informationshanteringsenhet ska vidta proportionella tekniska, driftsrelaterade och organisatoriska åtgärder för hantering av cybersäkerhetsrisker för att hantera sådana cyberrisker hänför sig till säkerheten i de kommunikationsnät och informationssystem som enheten använder och för att förhindra eller minimera skadliga verkningar. I handlingsmodellen för hantering av cybersäkerhetsrisker och de åtgärder för hantering av cybersäkerhetsrisker som baserar sig på den ska åtminstone följande beaktas och hållas uppdaterat:</p>
+                            </intro>
+                            <paragraph eId="chp_4a__sec_18c__subsec_1__para_1">
+                                <num>1) </num>
+                                <content>
+                                    <p>riktlinjerna för hantering av cybersäkerhetsrisker samt bedömningen av effektiviteten i fråga om åtgärderna för hantering av cybersäkerhetsrisker,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18c__subsec_1__para_2">
+                                <num>2) </num>
+                                <content>
+                                    <p>de riktlinjer som gäller säkerheten i kommunikationsnät och informationssystem,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18c__subsec_1__para_3">
+                                <num>3) </num>
+                                <content>
+                                    <p>säkerheten vid förvärv, utveckling och underhåll av kommunikationsnät och informationssystem samt behövliga förfaranden för hantering av sårbarheter och delgivning av information om sårbarheter,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18c__subsec_1__para_4">
+                                <num>4) </num>
+                                <content>
+                                    <p>den övergripande kvaliteten och resiliensen i leveranskedjan i fråga om direkta leverantörers produkter och tjänsteleverantörers tjänster, de åtgärder för hantering av cybersäkerhetsrisker som är inbyggda i dem och cybersäkerhetspraxis hos direkta leverantörer och tjänsteleverantörer samt resultatet av de samordnade riskbedömningar av kritiska leveranskedjor som avses i artikel 22.1 i NIS 2-direktivet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18c__subsec_1__para_5">
+                                <num>5) </num>
+                                <content>
+                                    <p>tillgångsförvaltningen och identifieringen av funktioner som är viktiga med tanke på dess säkerhet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18c__subsec_1__para_6">
+                                <num>6) </num>
+                                <content>
+                                    <p>personalsäkerheten och utbildningen i cybersäkerhet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18c__subsec_1__para_7">
+                                <num>7) </num>
+                                <content>
+                                    <p>förfarandena för åtkomsthantering och autentisering,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18c__subsec_1__para_8">
+                                <num>8) </num>
+                                <content>
+                                    <p>riktlinjerna och förfarandena för användning av krypteringsmetoder samt vid behov åtgärderna för användning av säker elektronisk kommunikation,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18c__subsec_1__para_9">
+                                <num>9) </num>
+                                <content>
+                                    <p>upptäckandet och hanteringen av incidenter i syfte att upprätthålla och återställa säkerheten och driftssäkerheten,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18c__subsec_1__para_10">
+                                <num>10) </num>
+                                <content>
+                                    <p>säkerhetskopieringen, katastrofhanteringen, krishanteringen och den övriga driftskontinuiteten samt vid behov användningen av säkrade reservkommunikationssystem,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18c__subsec_1__para_11">
+                                <num>11) </num>
+                                <content>
+                                    <p>grundläggande praxis för informationssäkerhet för att säkerställa verksamheten samt säkerheten i datakommunikationen, maskinvaran, programvaran och datamaterialet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18c__subsec_1__para_12">
+                                <num>12) </num>
+                                <content>
+                                    <p>åtgärderna för att skydda den fysiska miljön i fråga om kommunikationsnät och informationssystem samt säkerställa lokalsäkerheten och nödvändiga resurser.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18c__subsec_2">
+                            <content>
+                                <p>Åtgärderna ska vara aktuella, lämpliga och proportionella i förhållande till riskexponeringen när det gäller de kommunikationsnät och informationssystem som informationshanteringsenheten använder, kommunikationsnätets eller informationssystemets betydelse för informationshanteringsenhetens verksamhet samt de direkta konsekvenser som en incident i dessa rimligtvis kan förutses ha. Vid dimensioneringen av åtgärderna ska informationshanteringsenhetens storlek, arten av dess verksamhet, sannolikheten för att incidenter inträffar och deras allvarlighetsgrad, kostnaderna för åtgärderna samt de tekniska medel för att avvärja cyberhot som med beaktande av den aktuella utvecklingen är tillgängliga dessutom beaktas.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18c__subsec_3">
+                            <content>
+                                <p>I riskhanteringen, i handlingsmodellen för hantering av risker och vid genomförandet av riskhanteringsåtgärder ska dessutom Europeiska kommissionens genomförandeakter som eventuellt antas med stöd av artikel 21.5 i NIS 2-direktivet iakttas.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4a__sec_18d">
+                        <num>18 d §</num>
+                        <heading>Skyldighet att anmäla betydande incidenter</heading>
+                        <subsection eId="chp_4a__sec_18d__subsec_1">
+                            <content>
+                                <p>Myndigheten ska utan dröjsmål, senast inom 24 timmar från upptäckten av en betydande incident lämna tillsynsmyndigheten en första anmälan om incidenten, i vilken det ska anges om incidenten misstänks ha orsakats av ett brott eller av andra olagliga eller avsiktligt skadliga handlingar och om incidenten kan ha gränsöverskridande verkningar samt sannolikheten för sådana verkningar.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18d__subsec_2">
+                            <content>
+                                <p>Myndigheten ska utan dröjsmål, senast inom 72 timmar från upptäckten av en betydande incident lämna tillsynsmyndigheten en uppföljande anmälan om incidenten, i vilken den information som avses i 1 mom. ska uppdateras och det ska anges en inledande bedömning av den betydande incidentens art, allvarlighetsgrad och konsekvenser samt, i förekommande fall, angreppsindikatorer.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18d__subsec_3">
+                            <intro eId="chp_4a__sec_18d__subsec_3__intro">
+                                <p>Myndigheten ska inom en månad från det att den uppföljande anmälan lämnades in lämna tillsynsmyndigheten en slutrapport om den betydande incidenten. Slutrapporten ska innehålla</p>
+                            </intro>
+                            <paragraph eId="chp_4a__sec_18d__subsec_3__para_1">
+                                <num>1) </num>
+                                <content>
+                                    <p>en detaljerad beskrivning av incidenten, dess allvarlighetsgrad och konsekvenser,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18d__subsec_3__para_2">
+                                <num>2) </num>
+                                <content>
+                                    <p>en redogörelse för den typ av hot eller grundorsak som sannolikt har utlöst incidenten,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18d__subsec_3__para_3">
+                                <num>3) </num>
+                                <content>
+                                    <p>en redogörelse för tillämpade och pågående åtgärder för att begränsa konsekvenserna av incidenten, och</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18d__subsec_3__para_4">
+                                <num>4)</num>
+                                <intro eId="chp_4a__sec_18d__subsec_3__para_4__intro">
+                                    <p>en redogörelse för eventuella gränsöverskridande konsekvenser. </p>
+                                </intro>
+                                <subparagraph eId="chp_4a__sec_18d__subsec_3__para_4__subpara_1">
+                                    <content>
+                                        <p>Om incidenten fortfarande fortgår när den slutrapport som avses i 3 mom. ska lämnas in, ska en delrapport om hur hanteringen av incidenten framskrider lämnas i stället för slutrapporten. Slutrapporten ska då lämnas in inom en månad från det att myndigheten har hanterat incidenten. När incidenten fortgår har tillsynsmyndigheten rätt att av myndigheten få ytterligare information eller en delrapport.</p>
+                                    </content>
+                                </subparagraph>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18d__subsec_4">
+                            <content>
+                                <p>Vid anmälan av en betydande incident ska dessutom iakttas Europeiska kommissionens genomförandeakter som eventuellt antas med stöd av artikel 23.11 i NIS 2-direktivet och som gäller typen av information i och formatet och förfarandet för anmälan samt en närmare definition av betydande incidenter.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4a__sec_18e">
+                        <num>18 e §</num>
+                        <heading>Mottagande av incidentanmälan</heading>
+                        <subsection eId="chp_4a__sec_18e__subsec_1">
+                            <content>
+                                <p>Tillsynsmyndigheten ska utan dröjsmål, om möjligt inom 24 timmar från mottagandet av den första anmälan som avses i 18 d § 1 mom., lämna ett svar till myndigheten. Svaret ska innehålla initial återkoppling om den betydande incidenten och, på myndighetens begäran, vägledning eller operativa råd om hanteringen av incidenten samt vägledning om hur den betydande incidenten ska anmälas till förundersökningsmyndigheten, om brott misstänks i ärendet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18e__subsec_2">
+                            <content>
+                                <p>Tillsynsmyndigheten ska när den ger vägledning och operativa råd som avses i 1 mom. samarbeta med den CSIRT-enhet som avses i cybersäkerhetslagen. Vägledning och operativa råd kan ges av CSIRT-enheten i stället för av tillsynsmyndigheten.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4a__sec_18f">
+                        <num>18 f §</num>
+                        <heading>Frivillig underrättelse</heading>
+                        <subsection eId="chp_4a__sec_18f__subsec_1">
+                            <content>
+                                <p>En myndighet kan underrätta tillsynsmyndigheten också om andra än betydande incidenter samt om cyberhot och tillbud. Även de som avses i 3 §, på vilka detta kapitel inte tillämpas, kan göra en sådan underrättelse.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18f__subsec_2">
+                            <content>
+                                <p>Tillsynsmyndigheten ska behandla frivilliga underrättelser som avses i 1 mom. med iakttagande av det förfarande som anges i 18 e §. Tillsynsmyndigheten får prioritera behandlingen av anmälningar som avses i 18 d § i förhållande till behandlingen av frivilliga underrättelser.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18f__subsec_3">
+                            <content>
+                                <p>Myndigheter och andra som avses i 3 § kan i samband med en frivillig underrättelse lämna ut sådan information till tillsynsmyndigheten som tillsynsmyndigheten har rätt att få med stöd av 18 i §.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18f__subsec_4">
+                            <content>
+                                <p>I samband med en frivillig underrättelse ska dessutom Europeiska kommissionens genomförandeakter som eventuellt antas med stöd av artikel 23.11 i NIS 2-direktivet och som gäller typen av information i och formatet och förfarandet för underrättelser iakttas.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4a__sec_18g">
+                        <num>18 g §</num>
+                        <heading>Informationsskyldighet om betydande cyberhot och incidenter</heading>
+                        <subsection eId="chp_4a__sec_18g__subsec_1">
+                            <content>
+                                <p>En myndighet ska utan dröjsmål underrätta mottagarna av sina tjänster om en betydande incident, om den betydande incidenten sannolikt inverkar negativt på tillhandahållandet av dess tjänster.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18g__subsec_2">
+                            <content>
+                                <p>En myndighet ska utan dröjsmål underrätta de mottagare av sina tjänster som kan påverkas av ett betydande cyberhot om ett betydande cyberhot och om de åtgärder som står till buds för att hantera cyberhotet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18g__subsec_3">
+                            <content>
+                                <p>Om det ligger i allmänt intresse att det informeras om en betydande incident, kan tillsynsmyndigheten ålägga myndigheten att informera om den betydande incidenten eller själv informera om saken.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18g__subsec_4">
+                            <content>
+                                <p>I den informering som avses i 1 och 2 mom. ska dessutom Europeiska kommissionens genomförandeakter som eventuellt antas med stöd av artikel 23.11 i NIS 2-direktivet och som gäller typen av information i och formatet och förfarandet för underrättelser samt en närmare definition av betydande incidenter iakttas.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4a__sec_18h">
+                        <num>18 h §</num>
+                        <heading>Tillsynsmyndighet</heading>
+                        <subsection eId="chp_4a__sec_18h__subsec_1">
+                            <content>
+                                <p>Transport- och kommunikationsverket är den tillsynsmyndighet som avses i detta kapitel och den behöriga myndigheten inom den offentliga förvaltningen som avses i artikel 8.1 i NIS 2-direktivet. Utöver vad som föreskrivs i detta kapitel ska tillsynsmyndigheten utöva tillsyn över att de skyldigheter som föreskrivs i detta kapitel och i bestämmelser som antagits med stöd av NIS 2-direktivet fullgörs inom den offentliga förvaltningen samt föra en förteckning över aktörerna inom den offentliga förvaltningen med de uppgifter som lämnats med stöd av 18 a §. Transport- och kommunikationsverket är självständigt och oberoende i sin verksamhet som tillsynsmyndighet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18h__subsec_2">
+                            <content>
+                                <p>Tillsynsmyndigheten kan ställa de tillsynsuppgifter som anges i denna lag i prioritetsordning enligt en riskbaserad bedömning. Tillsynsmyndigheten ska när den inriktar tillsynen och fattar ett tillsynsbeslut enligt 18 l § beakta de omständigheter som avses i 27 § 3 mom. och 37 § i cybersäkerhetslagen. Tillsynsmyndigheten kan inrikta tillsynen gentemot ett välfärdsområde, en välfärdssammanslutning eller Helsingfors stad endast om det finns en grundad anledning att misstänka att området, sammanslutningen eller staden inte har iakttagit bestämmelserna i detta kapitel eller i rättsakter som antagits med stöd av NIS 2-direktivet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18h__subsec_3">
+                            <content>
+                                <p>Om inte något annat föreskrivs i detta kapitel ska tillsynsmyndigheten vid behandlingen av sådana anmälningar om verksamhet som avses i 18 a §, av sådana anmälningar och underrättelser om incidenter som avses i 18 d och 18 f § och av annan information som erhållits i samband med tillsynsuppgiften samt i samarbetet med andra myndigheter och Europeiska unionens institutioner, decentraliserade byråer och samarbetsorgan samt vid utlämnandet av information till dem iaktta vad som i 6 § 4 mom., 15 § 3 mom., 17 §, 18 § 3 mom., 26 § 2 mom., 28 § 4 och 5 mom., 33 §, 41 § 5 mom. och 45 § i cybersäkerhetslagen föreskrivs om behandling av information vid tillsynsmyndigheten, om tillsynsmyndighetens samarbete med andra myndigheter och Europeiska unionens institutioner, decentraliserade byråer och samarbetsorgan samt om utlämnandet av information till dem.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18h__subsec_4">
+                            <content>
+                                <p>Bestämmelser om Transport- och kommunikationsverkets uppgifter som gemensam kontaktpunkt och CSIRT-enhet enligt NIS 2-direktivet finns i cybersäkerhetslagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4a__sec_18i">
+                        <num>18 i §</num>
+                        <heading>Tillsynsmyndighetens rätt att få information</heading>
+                        <subsection eId="chp_4a__sec_18i__subsec_1">
+                            <content>
+                                <p>Tillsynsmyndigheten har när den utför uppgifter enligt detta kapitel trots sekretessbestämmelserna och andra begränsningar som gäller utlämnande av information rätt att få information om hanteringen av cybersäkerhetsrisker, handlingsmodellen för riskhantering, hanteringsåtgärderna och betydande incidenter samt annan information som direkt anknyter till ovannämnda information och som är nödvändig för tillsynen över fullgörandet av den skyldighet som gäller hantering av cybersäkerhetsrisker och över anmälan och rapporteringen av betydande incidenter. Myndigheten ska lämna ut informationen utan dröjsmål och avgiftsfritt.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18i__subsec_2">
+                            <content>
+                                <p>Tillsynsmyndigheten har trots sekretessbestämmelserna och andra begränsningar som gäller utlämnande av information rätt att av en myndighet få förmedlingsuppgifter, lokaliseringsuppgifter och information om meddelanden som innehåller ett skadligt datorprogram eller ett skadligt kommando, om det är nödvändigt för tillsynen över fullgörandet av den skyldighet som gäller hantering av cybersäkerhetsrisker eller över anmälan och rapporteringen av betydande incidenter. Den information som tillsynsmyndigheten fått med stöd av detta moment är sekretessbelagd.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18i__subsec_3">
+                            <content>
+                                <p>Rätten till information enligt denna paragraf gäller inte sekretessbelagd information om sådan tjänsteproduktion eller användning av tjänster i säkerhetsnätet som avses i lagen om verksamheten i den offentliga förvaltningens säkerhetsnät eller information vars utlämnande skulle äventyra försvaret eller den nationella säkerheten eller strida mot ett viktigt intresse i samband därmed.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18i__subsec_4">
+                            <content>
+                                <p>Bestämmelser om de förpliktelser som gäller hantering av särskilt känsligt informationsmaterial finns i lagen om internationella förpliktelser som gäller informationssäkerhet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4a__sec_18j">
+                        <num>18 j §</num>
+                        <heading>Tillsynsmyndighetens rätt att förrätta inspektioner</heading>
+                        <subsection eId="chp_4a__sec_18j__subsec_1">
+                            <content>
+                                <p>Tillsynsmyndigheten har rätt att i den omfattning som det behövs förrätta inspektion av en myndighet för tillsynen över att de skyldigheter som föreskrivs i detta kapitel eller i bestämmelser som antagits med stöd av NIS 2-direktivet fullgörs.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18j__subsec_2">
+                            <content>
+                                <p>Den som förrättar inspektionen ska ha tillräcklig utbildning och erfarenhet med hänsyn till inspektionens art och omfattning.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18j__subsec_3">
+                            <content>
+                                <p>Myndigheten ska i den omfattning som inspektionen förutsätter ge den som förrättar inspektion tillträde till det kommunikationsnät eller informationssystem som inspektionen gäller och till andra utrymmen än sådana som är avsedda för boende av permanent natur. För förrättande av inspektionen har den som förrättar inspektionen trots sekretessbestämmelserna eller andra begränsningar som gäller utlämnande av information rätt att få granska den information och de handlingar, maskinvaror och programvaror som är nödvändiga för tillsynsuppgiften, utföra behövliga tester och mätningar samt granska de säkerhetsarrangemang som myndigheten har genomfört. På inspektionsförrättarens rätt att förrätta inspektion och få information tillämpas vad som i 18 i § 3 mom. föreskrivs om begränsningar i rätten att få information.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18j__subsec_4">
+                            <content>
+                                <p>På förfarandet vid inspektionen tillämpas vad som i 39 § i förvaltningslagen föreskrivs om inspektion.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4a__sec_18k">
+                        <num>18 k §</num>
+                        <heading>Tilldelande av biträdande uppgift till bedömningsorgan för informationssäkerhet samt att låta utföra bedömning</heading>
+                        <subsection eId="chp_4a__sec_18k__subsec_1">
+                            <content>
+                                <p>Tillsynsmyndigheten kan tilldela ett godkänt bedömningsorgan för informationssäkerhet som avses i lagen om bedömningsorgan för informationssäkerhet (1405/2011) en biträdande uppgift i anslutning till ett inspektionsuppdrag enligt 18 j §.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18k__subsec_2">
+                            <intro eId="chp_4a__sec_18k__subsec_2__intro">
+                                <p>Tillsynsmyndigheten kan för tillsynen ålägga en myndighet att låta ett bedömningsorgan för informationssäkerhet utföra en bedömning av hanteringen av cybersäkerhetsrisker, om</p>
+                            </intro>
+                            <paragraph eId="chp_4a__sec_18k__subsec_2__para_1">
+                                <num>1) </num>
+                                <content>
+                                    <p>myndigheten har drabbats av en betydande incident som har orsakat en allvarlig driftsstörning för tjänsterna eller orsakat betydande materiell eller immateriell skada, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4a__sec_18k__subsec_2__para_2">
+                                <num>2) </num>
+                                <content>
+                                    <p>myndigheten väsentligt och allvarligt har försummat att iaktta skyldigheterna att hantera cybersäkerhetsrisker enligt 18 b eller 18 c §.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18k__subsec_3">
+                            <content>
+                                <p>På den som är anställd vid ett bedömningsorgan för informationssäkerhet och som bistår vid en inspektion och på en person som utför en bedömning tillämpas vad som i 18 j § 2–4 mom. föreskrivs om inspektionsförrättares erfarenhet och utbildning samt inspektionsförrättares rättigheter. Om inte något annat föreskrivs i detta kapitel, tillämpas lagen om bedömningsorgan för informationssäkerhet på bedömningsorganet för informationssäkerhet. På den som är anställd vid ett bedömningsorgan för informationssäkerhet tillämpas bestämmelserna om straffrättsligt tjänsteansvar för tjänstemän, med undantag för bestämmelserna om avsättningspåföljd, när han eller hon sköter uppgifter som avses i denna paragraf. Bestämmelser om skadeståndsansvar finns i skadeståndslagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4a__sec_18l">
+                        <num>18 l §</num>
+                        <heading>Påföljder</heading>
+                        <subsection eId="chp_4a__sec_18l__subsec_1">
+                            <content>
+                                <p>Tillsynsmyndigheten kan ålägga en myndighet att inom utsatt tid avhjälpa bristerna i fullgörandet av skyldigheterna enligt detta kapitel eller bestämmelser som antagits med stöd av NIS 2-direktivet. Tillsynsmyndigheten kan ålägga myndigheten att offentliggöra dessa brister eller andra omständigheter som har samband med överträdelser av de nämnda skyldigheterna.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18l__subsec_2">
+                            <content>
+                                <p>Tillsynsmyndigheten kan ge myndigheten en varning, om den inte har fullgjort de skyldigheter som föreskrivs i detta kapitel eller i bestämmelser som antagits med stöd av NIS 2-direktivet. I varningen ska den brist eller försummelse som varningen gäller specificeras. Varningen ska ges skriftligen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18l__subsec_3">
+                            <content>
+                                <p>Tillsynsmyndigheten kan förena ett beslut som avses i 1 mom. med vite.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4a__sec_18m">
+                        <num>18 m §</num>
+                        <heading>Sökande av ändring</heading>
+                        <subsection eId="chp_4a__sec_18m__subsec_1">
+                            <content>
+                                <p>Bestämmelser om sökande av ändring i förvaltningsdomstol finns i lagen om rättegång i förvaltningsärenden (808/2019).</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4a__sec_18m__subsec_2">
+                            <content>
+                                <p>Bestämmelser om sökande av ändring i beslut som gäller föreläggande och utdömande av vite finns i viteslagen (1113/1990).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 8 april 2025.</p>
+                    <p>Den anmälan som avses i 18 a § 2 mom. ska göras senast inom en månad från det att denna lag trätt i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/57">RP 57/2024</ref>
+                        </p>
+                        <p>KoUB 1/2025 </p>
+                        <p>RSv 15/2025</p>
+                        <p>Europaparlamentets och rådets direktiv (EU) 2022/2555 (32022L2555), EUT L 333, 27.12.2022, s. 80</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 4 april 2025</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommunikationsminister</role>
+                                <person refersTo="">Lulu Ranne</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,139 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/82/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/82"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/82/alkup"/>
+                    <FRBRdate date="2007-02-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="82"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/82/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/82/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/82/alkup/swe"/>
+                    <FRBRdate date="2007-02-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/82/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/82/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/82/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="15"/>
+                    <finlex:date date="2007-02-07"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>82/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om stödjande av grundtorrläggning</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 24 oktober 1997 om stödjande av grundtorrläggning (
+                        <affectedDocument href="/akn/fi/act/statute/1997/947">947/1997</affectedDocument>
+                        ) 18 § 5 mom., 23 § och 29 § 3 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>18 §</num>
+                    <heading>Återkrav av understöd och uppsägning av lån</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>I denna paragraf avsett beslut om återkrav av understöd eller uppsägning av lån fattas av arbetskrafts- och näringscentralen. I det fall som avses i 4 mom. 3 punkten fattas dock beslut om uppsägning av lån av Statskontoret. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>23 §</num>
+                    <heading>Verkställighetsmyndigheter</heading>
+                    <subsection>
+                        <content>
+                            <p>Verkställigheten av denna lag handhas av jord- och skogsbruksministeriet, arbetskrafts- och näringscentralerna, de regionala miljöcentralerna samt Statskontoret enligt vad som bestäms i denna lag och med stöd av den.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>29 §</num>
+                    <heading>Ikraftträdelse- och övergångsstadganden</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Den lag och de paragrafer som nämns i 2 mom. tillämpas på sådana projekt som avses i dem och för vilka beslut om finansiering har fattats före denna lags ikraftträdande. De behövliga medel kan dock anvisas ur gårdsbrukets utvecklingsfonds medel. Lån och understöd som beviljats med stöd av de paragrafer som nämns i 2 mom. återkrävs av Statskontoret med iakttagande av lagen om överföring av skötseln av lån och fordringar inom jord- och skogsbruksministeriets förvaltningsområde på Statskontoret (78/2007).</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 15 februari 2007.</p>
+                    <p>Denna lag tillämpas från och med den 1 januari 2008. Denna lag tillämpas också på lån enligt lagen om stödjande av grundtorrläggning (947/1997) som har beviljats före denna lags ikraftträdande. På lån enligt denna lag tillämpas dock 27 § 3 och 4 mom. i den i 29 § 3 mom. nämnda lagen från och med den 1 maj 2007.</p>
+                    <p>Denna lag tillämpas inte på ett ärende som gäller uppsägning av ett lån och som är anhängigt den 30 april 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 148/2006</p>
+                        <p>JsUB 12/2006</p>
+                        <p>GrUU 39/2006</p>
+                        <p>RSv 191/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 2 februari 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Jord- och skogsbruksminister </role>
+                                <person refersTo="">Juha Korkeaoja </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

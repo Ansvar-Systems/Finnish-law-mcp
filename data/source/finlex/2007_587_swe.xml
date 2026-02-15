@@ -1,0 +1,153 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/587/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/587"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/587/alkup"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="587"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/587/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/587/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/587/alkup/swe"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/587/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/587/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/587/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="84"/>
+                    <finlex:date date="2007-05-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>587/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om Folkpensionsanstalten</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen av den 17 augusti 2001 om Folkpensionsanstalten (
+                        <affectedDocument href="/akn/fi/act/statute/2001/731">731/2001</affectedDocument>
+                        ) ett nytt 3 a kap. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>3 a kap.</num>
+                    <heading>Fonder</heading>
+                    <section>
+                        <num>12 a §</num>
+                        <heading>Folkpensionsanstaltens fonder</heading>
+                        <subsection>
+                            <content>
+                                <p>Folkpensionsanstaltens fonder är folkpensionsfonden, sjukförsäkringsfonden och pensionsansvarsfonden. Bestämmelser om folkpensionsfonden finns i folkpensionslagen (568/2007) och bestämmelser om sjukförsäkringsfonden i sjukförsäkringslagen (1224/2004).</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Folkpensionsanstaltens fonder har rätt att av särskilda skäl och på de villkor som fonderna iakttar i sin kreditgivning låna varandra medel utan att kräva säkerhet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>12 b §</num>
+                        <heading>Pensionsansvarsfonden</heading>
+                        <subsection>
+                            <content>
+                                <p>Pensionsansvarsfondens tillgångar utgör täckning för det pensionsskydd för Folkpensionsanstaltens personal som grundar sig på ett anställningsförhållande till pensionsanstalten. Av fondens medel betalas pensionerna och familjepensionerna enligt 13 §.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>12 c §</num>
+                        <heading>Täckning av pensionsansvaret</heading>
+                        <subsection>
+                            <content>
+                                <p>För täckning av pensionsansvaret och betalning av pensioner skall bidrag betalas ur folkpensions- och sjukförsäkringsfonden. Beloppet ur pensionsansvarsfonden är minst 19 procent och högst 41 procent av det fulla pensionsansvaret. Genom bidrag får denna nivå inte överskridas annat än tillfälligt.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>När det fulla pensionsansvaret beräknas iakttas i tillämpliga delar grunderna enligt 6 kap. i lagen om pensionsstiftelser (1774/1995). Försäkringsinspektionen meddelar närmare föreskrifter om grunderna.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om folkpensionsfondens och sjukförsäkringsfondens investerings- eller anläggningstillgångar används till betalning av bidraget, uppdelas verksamhetskostnaderna till denna del inte enligt 97 § i folkpensionslagen eller 18 kap. 1 § i sjukförsäkringslagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                    <p>Den nivå om 41 procent för pensionsansvarsfonden som föreskrivs i 12 c § 1 mom. skall uppnås före utgången av 2010. Till pensionsansvarsfonden kan betalas mera bidrag än ett balanserat uppnående av täckningsnivån förutsätter, om detta sker genom överföringar av Folkpensionsanstaltens investerings- och anläggningstillgångar och genom värdeuppskrivningar som gäller dem.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 90/2006</p>
+                        <p>ShUB 56/2006</p>
+                        <p>RSv 283/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 11 maj 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Liisa Hyssälä </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

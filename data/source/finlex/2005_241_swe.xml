@@ -1,0 +1,373 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/241/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/241"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/241/alkup"/>
+                    <FRBRdate date="2005-04-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="241"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/241/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/241/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/241/alkup/swe"/>
+                    <FRBRdate date="2005-04-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/241/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/241/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/241/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="47"/>
+                    <finlex:date date="2005-04-27"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>241/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om domännamn</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i lagen av den 13 mars 2003 om domännamn (<affectedDocument href="/akn/fi/act/statute/2003/228">228/2003</affectedDocument>) 4 § 2 mom. 2 punkten,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         3 §, 4 § 3 mom., 5 § 1 och 3 mom., 11 § 1 mom. 4 och 5 punkten, 12 § 1 mom. 4 och 8 punkten samt 15 § 1 mom. 2 punkten, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 11 § 1 mom. en ny 6 och en ny 7 punkt, till 12 § 1 mom. en ny 3 a-punkt, till 15 § nya 2 och 3 mom., varvid det nuvarande 2 mom. blir 4 mom., samt till lagen en ny 15 a och en ny 17 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Definitioner</heading>
+                    <subsection>
+                        <intro>
+                            <p>I denna lag avses med</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>
+                                    <i>domännamn</i>
+                                     en adressuppgift strax under landskoden fi i datornätet Internet i form av ett namn som består av bokstäver, siffror eller andra tecken eller en kombination av dem,
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>
+                                    fi-
+                                    <i>roten</i>
+                                     en databas i vilken giltiga domännamn införs,
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>
+                                    <i>skyddat namn eller märke</i>
+                                     ett namn eller märke som är infört i handels-, varumärkes-, förenings-, stiftelse- eller partiregistret eller en inarbetad firma, ett sekundärt kännetecken eller varumärke som avses i firmalagen (128/1979) och varumärkeslagen (7/1964) samt namnet på ett offentligt samfund, ett statligt affärsverk, en självständig offentligrättslig inrättning, en offentligrättslig förening samt på en främmande stats beskickning eller på ett organ i dem,
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>
+                                    <i>domännamnstjänster</i>
+                                     service som inbegriper förmedlingen av en ansökan om domännamn till Kommunikationsverket och den konfiguration av domännamnsystemen som domännamnets användning kräver,
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>
+                                    <i>en fysisk persons namn</i>
+                                     en persons officiella namn, som består av förnamn och släktnamn i enlighet med namnlagen (694/1985).
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>4 §</num>
+                    <heading>Domännamnets form och innehåll</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ett domännamn får inte rättsstridigt basera sig på någon annans skyddade namn eller märke eller på en fysisk persons namn.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <heading>Ansökan om domännamn</heading>
+                    <subsection>
+                        <content>
+                            <p>Ett domännamn som slutar med Finlands landskod och som används inom datornätet Internet söks skriftligen på en av Kommunikationsverket fastställd blankett, där de uppgifter som behövs för behandlingen av ansökan läggs fram. Uppgifter som behövs för handläggningen av en fysisk persons ansökan är åtminstone namn, personbeteckning, postadress och e-postadress samt uppgifter om namnservrar som är anknutna till domännamnet.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>En i Finland registrerad juridisk person eller privat näringsidkare, ett finländskt offentligt samfund, ett statligt affärsverk, en självständig offentligrättslig inrättning, en offentligrättslig förening och en främmande stats beskickning eller den som fyllt 15 år och som har i lagen om hemkommun (201/1994) avsedd hemkommun i Finland och finländsk personbeteckning kan ansöka om domännamn. Sökanden kan ansöka om ett eller flera domännamn. Om samma domännamn ansöks av flera än en sökande, beviljas namnet till den som först ansökt om det.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>11 §</num>
+                    <heading>Avstängning av domännamn</heading>
+                    <subsection>
+                        <intro>
+                            <p>Kommunikationsverket kan stänga av ett domännamn för högst ett år, om</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>det finns sannolika skäl att misstänka att domännamnet är ett skyddat namn eller märke, innehavaren av namnet eller märket begär att domännamnet stängs av och domännamnets innehavare inte visar en godtagbar grund för sin rätt inom två veckor,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>det finns sannolika skäl att misstänka att domännamnet är härlett från ett skyddat namn eller märke eller från en fysisk persons namn och har skaffats i uppenbart vinnings- eller skadesyfte och innehavaren av namnet eller märket begär att domännamnet stängs av samt domännamnets innehavare inte visar en godtagbar grund för sin rätt inom två veckor,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>det finns sannolika skäl att misstänka att ett domännamn som baserar sig på en fysisk persons namn innehas av en fysisk person med ett annat namn och domännamnets innehavare inte visar en godtagbar grund för sin rätt inom två veckor, eller om</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>det finns sannolika skäl att misstänka att ett domännamn som baserar sig på en fysisk persons namn innehas av en juridisk person som inte innehar rätten till det skyddade namn eller märke som motsvarar personens namn och domännamnets innehavare inte visar en godtagbar grund för sin rätt inom två veckor.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>12 §</num>
+                    <heading>Återkallande av domännamn</heading>
+                    <subsection>
+                        <intro>
+                            <p>Kommunikationsverket kan återkalla ett domännamn, om</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3 a)</num>
+                            <content>
+                                <p>det finns vägande skäl att misstänka att ett domännamn som baserar sig på en fysisk persons namn innehas av en fysisk person med ett annat namn eller av en juridisk person som inte innehar rätten till det skyddade namn eller märke som motsvarar personens namn och domännamnets innehavare inte visar en godtagbar grund för sin rätt inom två veckor,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>det finns vägande skäl att misstänka att domännamnet är härlett från ett skyddat namn eller märke eller från en fysisk persons namn och har skaffats i uppenbart vinnings- eller skadesyfte och innehavaren av namnet eller märket begär att domännamnet återkallas samt domännamnets innehavare inte visar en godtagbar grund för sin rätt inom två veckor,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>8)</num>
+                            <content>
+                                <p>det efter att domännamnet har beviljats framgår att namnet innehåller kränkande uttryck eller uttryck som uppmanar till brottslig verksamhet eller att det har bildats i strid med 4 § 3 mom., eller om</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>15 §</num>
+                    <heading>Domännamnsregistret</heading>
+                    <subsection>
+                        <intro>
+                            <p>Kommunikationsverket för ett offentligt register över beviljade domännamn för ansökande om domännamn och för annat allmänt bruk. I registret införs följande uppgifter på basis av ansökningar och anmälningar:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>domännamnsinnehavarens offentliga kontaktuppgifter, vilka för en fysisk persons del är namn, postadress och telefonnummer,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En fysisk person kan förbjuda att andra i 1 mom. 2 punkten avsedda kontaktuppgifter än namnet införs i domännamnsregistret.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Uppgifter i domännamnsregistret kan bevaras så länge det domännamn som anknyter till uppgifterna är giltigt.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>15 a §</num>
+                    <heading>Kundregister</heading>
+                    <subsection>
+                        <intro>
+                            <p>
+                                Kommunikationsverket för utöver domännamnsregistret också ett separat personregister (<i>kundregister</i>) som är nödvändigt för att särskilja fysiska personer och som utnyttjas i Kommunikationsverkets kundförvaltning, i samband med förnyande av domännamn, i situationer då domännamn stängs av eller återkallas samt för att utreda tekniska problem som anknyter till domännamn. I kundregistret kan utöver de uppgifter som avses i 15 § 1 och 2 mom. registreras också följande uppgifter om den som ansöker om eller innehar ett domännamn:
+                            </p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>personbeteckning,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>kontaktspråk,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>e-postadress,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>användarnamn,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>kundnummer,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>andra motsvarande uppgifter som är väsentliga och nödvändiga för förvaltningen av kundrelationen.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Uppgifter i kundregistret kan bevaras så länge det domännamn som anknyter till uppgifterna är giltigt. Om personens registrering som användare av systemet inte leder till beviljande av ett domännamn eller om domännamnsinnehavaren säger upp sitt domännamn, skall uppgifterna för den som registrerats som användare av systemet bevaras i ett år från registreringstidpunkten eller uppsägningen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ur kundregistret får inte lämnas ut uppgifter om personbeteckning, användarnamn eller auktoriseringskod. Andra uppgifter i registret får lämnas ut, om det är nödvändigt för att trygga det användningssyfte som avses i 1 mom.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>På behandlingen av personuppgifter i kundregistret tillämpas i övrigt personuppgiftslagen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>17 a §</num>
+                    <heading>Elektronisk delgivning av beslut om domännamn</heading>
+                    <subsection>
+                        <content>
+                            <p>Ett beslut som gäller domännamn kan med samtycke av sökanden av domännamnet eller innehavaren av namnet delges per e-post. Beslutet anses delgivet då sökanden eller innehavaren sänt en kvittering av mottagandet till Kommunikationsverket.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om den som ansöker om domännamn eller domännamnsinnehavaren har lämnat väsentligt bristfälliga eller felaktiga kontaktuppgifter eller underlåtit att lämna väsentliga kontaktuppgifter till Kommunikationsverket och dessa inte heller senare har korrigerats eller kompletterats och delgivningen av beslutet på grund av detta inte är möjlig på annat sätt, skall Kommunikationsverket delge beslutet om domännamn genom att i en månads tid hålla ett meddelande om detta offentligt framlagt på sina webbsidor. I ett meddelande som finns offentligt framlagt skall konstateras att beslutet anses vara delgett en månad efter att meddelandet har publicerats.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>I det förvaltningsförfarande som gäller domännamn iakttas i övrigt förvaltningslagen (434/2003) och lagen om elektronisk kommunikation i myndigheternas verksamhet (13/2003).</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 125/2004</p>
+                        <p>KoUB 5/2005</p>
+                        <p>RSv 21/2005</p>
+                        <p>Anmäld enligt Europaparlamentets och rådets direktiv 98/34/EG, ändr. 98/48/EG</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 21 april 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommunikationsminister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

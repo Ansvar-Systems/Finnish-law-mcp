@@ -1,0 +1,394 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/856/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/856"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/856/alkup"/>
+                    <FRBRdate date="2005-11-04" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="856"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/856/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/856/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/856/alkup/fin"/>
+                    <FRBRdate date="2005-11-04" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/856/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/856/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/856/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="144"/>
+                    <finlex:date date="2005-11-09"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>856/2005</docNumber>
+                <docTitle>Laki rajoitetusti verovelvollisen tulon ja varallisuuden verottamisesta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         rajoitetusti verovelvollisen tulon ja varallisuuden verottamisesta 11 päivänä elokuuta 1978 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1978/627">627/1978</affectedDocument>
+                        ) 1 §:n 1 momentti, 2 §:n 2 momentti, 3 §:n 1 ja 2 momentti, 5―7 §, 9 §:n 3 momentti, 11 §:n 2 momentti, 12 a §:n 1, 2 ja 4 momentti, 13 ja 15 §, 16 §:n 2 ja 4 momentti sekä 17 ja 21 §,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 1 §:n 1 momentti laissa 1120/1996, 2 §:n 2 momentti, 5 §, 16 §:n 2 momentti ja 17 § laissa 1550/1995, 3 §:n 1 momentti laissa 1179/2004, 3 §:n 2 momentti laissa 1384/1997, 6 § laeissa 1022/1990 ja 902/2001 sekä mainituissa laeissa 1550/1995 ja 1120/1996, 7 § laissa 719/2004, 9 §:n 3 momentti mainitussa laissa 1022/1990, 11 §:n 2 momentti laissa 616/1989, 12 a §:n 1, 2 ja 4 momentti laissa 538/1996, 13 § laissa 1544/1992 ja mainitussa laissa 719/2004, 15 § mainitussa laissa 902/2001 ja 21 § laissa 1563/1995 sekä mainituissa laeissa 538/1996 ja 1120/1996, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 13 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <subsection>
+                        <content>
+                            <p>Rajoitetusti verovelvollisen on suoritettava tuloveroa ja varallisuusveroa valtiolle sekä kunnalle tämän lain mukaan.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>2 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos tässä laissa ei toisin säädetä, noudatetaan vastaavasti, mitä muualla verolainsäädännössä säädetään rajoitetusti verovelvollisen tulojen ja varojen veronalaisuudesta sekä niistä tehtävistä vähennyksistä. Lähdeveroa perittäessä tulosta tehdään ainoastaan 6 §:ssä tarkoitettu vähennys.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <subsection>
+                        <content>
+                            <p>Lähdevero on suoritettava, jollei muualla toisin säädetä, osingosta, korosta ja rojaltista, palkasta, henkilöstörahaston maksamasta rahasto-osuudesta ja jäsenilleen jakamasta ylijäämästä sekä muusta suorituksesta, josta ennakkoperintälain mukaan on toimitettava ennakonpidätys. Lähdevero on suoritettava myös taiteilijan tai urheilijan henkilökohtaiseen toimintaan perustuvasta korvauksesta riippumatta siitä, onko korvausta pidettävä palkkana, sekä siitä, maksetaanko se taiteilijalle tai urheilijalle itselleen vai jollekulle toiselle. Lähdevero suoritetaan aina osingon kokonaismäärästä sen estämättä, mitä muualla verolainsäädännössä säädetään osingon veronalaisuudesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Osuuspääoman korosta, sijoitusrahaston voitto-osuudesta, tuloverolain 31 §:n 5 momentissa tarkoitetusta sijaisosingosta ja verotusmenettelystä annetun lain 29 §:ssä tarkoitetusta peitellystä osingosta sekä mainitun lain 31 §:ssä tarkoitetusta peitellystä voitonsiirrosta osakkaan hyväksi on vastaavasti voimassa, mitä tässä laissa säädetään osingosta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <subsection>
+                        <content>
+                            <p>Verovirasto antaa rajoitetusti verovelvolliselle lähdeveroa koskevien säännösten soveltamista varten hakemuksesta lähdeverokortin. Verohallitus määrää hakemuksen tekemisessä noudatettavasta menettelystä sekä tiedoista, jotka hakemuksesta on ilmettävä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>6 §</num>
+                    <subsection>
+                        <content>
+                            <p>Lähdeveroa perittäessä vähennetään 510 euroa kuukaudelta sellaisen tulon yhteismäärästä, josta perittävä lähdevero on 35 prosenttia. Alle kuukauden ajalta kertyneen tulon yhteismäärästä vähennetään 17 euroa päivältä. Vähennyksen määrä on kuitenkin enintään tulon määrä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vähennystä ei myönnetä henkilöstörahaston maksamasta rahasto-osuudesta tai jäsenilleen jakamasta ylijäämästä eikä tuloverolain 10 §:n 4 a kohdassa tarkoitetusta palkkiosta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vähennyksen saaminen edellyttää, että verovelvollinen esittää suorituksen maksajalle lähdeverokortin.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 §</num>
+                    <subsection>
+                        <content>
+                            <p>Lähdevero on 28 prosenttia osingosta, korosta ja rojaltista sekä vakuutussuorituksesta ja muusta suorituksesta, jota tuloverolain mukaan verotetaan pääomatulona. Lähdevero on 35 prosenttia palkasta, henkilöstörahaston rahasto-osuudesta ja ylijäämästä sekä luonnollisen henkilön saamasta peitellystä osingosta samoin kuin muusta suorituksesta, jota tuloverolain mukaan verotetaan ansiotulona. Lähdevero on kuitenkin 19 prosenttia puun myyntitulosta ja 15 prosenttia 3 §:n 1 momentissa tarkoitetusta taiteilijan tai urheilijan toimintaan perustuvasta korvauksesta. Lähdevero tilitetään kokonaisuudessaan valtiolle.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos tulon saajalle kalenterikuukauden aikana samalta maksajalta tulevasta lähdeveron alaisesta tulosta perittävän veron määrä on enintään kymmenen euroa, veroa ei peritä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>11 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos verovelvollinen katsoo, että lähdeveroa on peritty enemmän kuin kansainvälinen sopimus edellyttää tai että veron periminen muutoin on ollut virheellinen eikä veron perimiseen velvollinen ole perintää oikaissut, verovelvollinen voi saattaa kysymyksen sen veroviraston ratkaistavaksi, jonka virkaalueella perimiseen velvollisen kotikunta on, tai, jollei hänellä ole täällä kotikuntaa, Uudenmaan veroviraston ratkaistavaksi. Jos verovirasto havaitsee lähdeveroa perityn liikaa, sen on määrättävä liikaa peritty määrä maksettavaksi takaisin verovelvolliselle. Oikaisuvaatimus tulee tehdä viimeistään veron perimistä lähinnä seuraavien viiden kalenterivuoden aikana.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>12 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Verovirasto antaa verovelvollisen tai veron perimiseen velvollisen kirjallisesta hakemuksesta ennakkoratkaisun 1 §:n 3 momentin kansainvälistä sopimusta koskevien säännösten soveltamisesta lähdeveron perimisessä sekä siitä, onko lähdevero perittävä tai mitä lähdeveron perimisessä muutoin on noudatettava. Ennakkoratkaisua ei anneta, jos asia on keskusverolautakunnan päätöksellä ratkaistu tai sitä koskeva hakemus on vireillä keskusverolautakunnassa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ennakkoratkaisun antaa lähdeveron perimiseen velvollisen kotipaikan verovirasto tai, jos tällä ei ole Suomessa kotipaikkaa, Uudenmaan verovirasto.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ennakkoratkaisua koskeva asia on käsiteltävä verovirastossa, hallinto-oikeudessa ja korkeimmassa hallinto-oikeudessa kiireellisenä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>13 §</num>
+                    <subsection>
+                        <intro>
+                            <p>Verotusmenettelystä annetun lain mukaisessa järjestyksessä verotetaan:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>muut kuin 3 §:ssä mainitut lähdeverotuksen piiriin kuluvat tulot;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>eläke;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>Euroopan talousalueeseen kuuluvassa valtiossa asuvan rajoitetusti verovelvollisen vaatimuksesta muukin ansiotulo, jos verovelvollisen verovuonna Suomesta saama puhdas ansiotulo on vähintään 75 prosenttia hänen Suomesta ja muualta verovuonna yhteensä saamastaan puhtaasta ansiotulosta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>elokuvafilmin käyttämisestä tai käyttöoikeudesta saatu korvaus.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Sovellettaessa 1 momentin 3 kohtaa:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>Suomesta saaduksi tuloksi katsotaan myös tuloverolain 13 §:ssä tarkoitettu tulo;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>Suomesta saatuna tulona ei oteta huomioon tuloa, jonka verottamisen Suomessa kansainvälinen sopimus estää;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>tulona ei oteta huomioon osinkoa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>muualta saaduksi puhtaaksi ansiotuloksi katsotaan palkka ja eläke sekä sosiaaliturvaan perustuvat suoritukset, jotka ovat verovelvollisen asuinvaltiossa veronalaisia tuloja, vähennettyinä niiden hankkimisesta ja säilyttämisestä aiheutuneilla menoilla.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vain osan verovuotta rajoitetusti verovelvollisena olleen kaikki verovuoden aikana saamat ansiotulot otetaan huomioon 1 momentin 3 kohdassa tarkoitettuja osuuksia laskettaessa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos rajoitetusti verovelvollinen on harjoittanut liikettä tai ammattia Suomessa olevasta kiinteästä toimipaikasta, määrätään vero myös 3 §:ssä tarkoitetusta tulosta tämän pykälän 1 momentin mukaan, jos tulo on luettava kiinteän toimipaikan tuloksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Verovelvollisen on esitettävä verovirastolle selvityksenä 2 momentin 4 kohdassa tarkoitetuista tuloista ja niistä tehtävistä vähennyksistä asuinvaltionsa veroviranomaisen antama todistus.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>13 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Edellä 13 §:ssä tarkoitetuissa tapauksissa verotus toimitetaan yleisesti verovelvollisen tuloverotusta koskevia säännöksiä soveltaen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Veronalaiseen tuloon luetaan tulo, joka on saatu Suomesta tai joka on tuloverolain 13 §:ssä tarkoitettua tuloa. Lisäksi tulon on oltava sellaista, jota Suomi voi kansainvälisen sopimuksen nojalla verottaa ja jota verotetaan verotusmenettelystä annetun lain mukaisesti.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>15 §</num>
+                    <subsection>
+                        <content>
+                            <p>Pääomatulosta veron määrä on 28 prosenttia.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valtionverotuksen verotettavasta ansiotulosta suoritetaan veroa progressiivisen tuloveroasteikon mukaan. Koko verovuodelta rajoitetusti verovelvollinen suorittaa lisäksi kunnallisverotuksen verotettavasta tulosta veroa kuntien keskimääräisen tuloveroprosentin mukaan. Kuntien keskimääräinen tuloveroprosentti on kuntien viimeksi vahvistettujen tuloveroprosenttien viimeksi toimitetun verotuksen kunkin kunnan kunnallisverotuksen verotettavalla tulolla painotettu keskiarvo neljännesprosenttiyksikön tarkkuudella ilmoitettuna. Vero tilitetään kokonaisuudessaan valtiolle. Tuloveroprosentti julkaistaan säädöskokoelmassa kuntien ja seurakuntien tuloveroprosenteista vuosittain annettavassa Verohallituksen luettelossa. Osan verovuotta Suomessa asunut verovelvollinen suorittaa kunnallisverotuksessa verotettavasta tulosta veroa koko verovuodelta tuloverolain 130 §:n mukaisesti, ja vero tilitetään verovelvollisen kotikunnalle.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rajoitetusti verovelvollisen yhteisön on suoritettava Suomesta saadusta muusta kuin 3 §:ssä tarkoitetusta tulosta yhteisön tuloveroa 26 prosenttia.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>16 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos lähdevero muutoin kuin veron perimiseen velvollisen laiminlyönnin johdosta tai muussa kuin 9 §:n 3 momentissa tarkoitetussa tapauksessa on jäänyt perimättä, sovelletaan vastaavasti, mitä tämän pykälän 1 momentissa säädetään, kuitenkin niin, että Uudenmaan verovirasto vahvistaa viipymättä verovelvollisen verotettavan tulon sekä maksuunpanee siitä menevän veron.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitettujen verojen suorittamiseksi toimitetaan ennakonkanto siten kuin ennakkoperintälaissa säädetään. Ennakkoperintälakia sovelletaan myös eläketulon ennakonpidätykseen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>17 §</num>
+                    <subsection>
+                        <content>
+                            <p>Vastuusta veron ja ennakon suorittamisesta on vastaavasti voimassa, mitä siitä säädetään verotusmenettelystä annetussa laissa ja ennakkoperintälaissa. Rajoitetusti verovelvollisen palkasta 16 §:n 2 momentin mukaisesti määrätystä verosta ovat vastuussa rajoitetusti verovelvollinen, hänen työnantajansa ja ulkomaisen työnantajan Suomessa oleva edustaja.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Uudenmaan verovirasto tekee päätöksen työnantajan tai 1 momentissa tarkoitetun edustajan määräämisestä vastuuseen verosta. Päätös voidaan tehdä, jos verovelvollinen ei ole kehotuksesta huolimatta maksanut veroa eikä sen perimiseen voida käyttää Euroopan yhteisöjen neuvoston keskinäisestä avunannosta tiettyihin maksuihin, tulleihin, veroihin ja muihin toimenpiteisiin liittyvien saatavien perinnässä antamaan direktiiviin (76/308/ETY) tai Suomea sitovaan kansainväliseen sopimukseen perustuvaa virka-apua.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Työnantaja ja 1 momentissa tarkoitettu edustaja eivät kuitenkaan ole vastuussa lähdeverosta, jos työnantaja tai edustaja on noudattanut verovelvolliselle myönnettyyn, ennakkoperintälaissa tarkoitettuun verokorttiin merkittyä ennakonpidätystä koskevaa määräystä eikä tämä ole tiennyt eikä tämän olisi pitänyt tietää, että palkansaaja on rajoitetusti verovelvollinen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>21 §</num>
+                    <subsection>
+                        <content>
+                            <p>Veroviraston 12 a §:n nojalla antamaan ennakkoratkaisuun saa hakea muutosta valittamalla Helsingin hallinto-oikeuteen 30 päivän kuluessa päätöksen tiedoksisaannista. Päätökseen, jolla verovirasto on päättänyt olla antamatta ennakkoratkaisua, ei saa hakea muutosta valittamalla. Valituskirjelmä on toimitettava valitusajassa verovirastoon tai Helsingin hallinto-oikeuteen. Valtion puolesta valitusoikeus on veroasiamiehellä. Veroasiamiehen valitusaika lasketaan päätöksen tekemisestä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Muutoksen hakemiseen 13 §:ssä tarkoitetun tulon ja 14 §:n 1 momentissa tarkoitetun varallisuuden osalta toimitettuun verotukseen samoin kuin 13 §:n 1 momentin 3 kohdassa tarkoitetun osuuden määrittämiseen sovelletaan, mitä verotusmenettelystä annetussa laissa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Muutoksen hakemiseen veroviraston 11 §:n 2 momentin mukaiseen päätökseen ja ratkaisuun, joka koskee perimättä jääneen lähdeveron määräämistä sen perimiseen velvollisen maksettavaksi, samoin kuin veroviraston lähdeverokorttia koskevaan päätökseen sovelletaan, mitä ennakkoperintälaissa säädetään muutoksen hakemisesta vastaavissa asioissa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Muutoksen hakemiseen Uudenmaan veroviraston 16 §:n 2 momentin ja 17 §:n mukaiseen päätökseen sovelletaan, mitä ennakkoperintälaissa säädetään muutoksen hakemisesta mainitun lain 38 §:ssä tarkoitettuun päätökseen. Veroviraston oikaisuvaatimukseen antamaan päätökseen haetaan muutosta valittamalla Helsingin hallinto-oikeuteen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Hallinto-oikeuden päätökseen saa hakea muutosta valittamalla korkeimpaan hallinto-oikeuteen, jos korkein hallinto-oikeus myöntää valitusluvan. Muutoksenhaussa noudatetaan tällöin, mitä verotusmenettelystä annetun lain 70 ja 71 §:ssä säädetään. Valitusaika hallinto-oikeuden ennakkoratkaisua koskevasta päätöksestä on kuitenkin 30 päivää päätöksen tiedoksisaamisesta. Valtion puolesta valitusoikeus on veroasiamiehellä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valituksesta huolimatta veroviraston 12 a §:n nojalla antamaa ratkaisua on noudatettava. Veron perimiseen velvollisen on noudatettava ratkaisusta tehdyn valituksen johdosta annettua päätöstä siitä lukien, kun hän sai päätöksestä tiedon.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 15 päivänä marraskuuta 2005. Tämän lain voimaan tullessa voimassa olleita säännöksiä sovelletaan kuitenkin verotuksen toimittamiseen koko vuodelta 2005.</p>
+                    <p>Lakia sovelletaan ensimmäisen kerran vuodelta 2006 toimitettavassa verotuksessa. Lähdeveron perimistä koskevia säännöksiä sovelletaan ensimmäisen kerran tuloon, joka saadaan 1 päivänä tammikuuta 2006 tai sen jälkeen.</p>
+                    <p>Lain 16 §:n 4 momentin mukainen ennakonpidätys toimitetaan ensimmäisen kerran 1 päivänä helmikuuta 2006 maksetusta eläkkeestä. Ennen 1 päivää helmikuuta 2006 maksetusta eläkkeestä lähdeveron perimiseen sovelletaan ennen tämän lain voimaantuloa voimassa olleita säännöksiä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/104">HE 104/2005</ref>
+                        </p>
+                        <p>VaVM 20/2005</p>
+                        <p>EV 122/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 4 päivänä marraskuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Valtiovarainministeri </role>
+                                <person refersTo="">Eero Heinäluoma</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

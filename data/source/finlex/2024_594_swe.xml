@@ -1,0 +1,162 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/594/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/594"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/594/alkup"/>
+                    <FRBRdate date="2024-11-08" name="dateIssued"/>
+                    <FRBRdate date="2024-11-12" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="594"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/594/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/594/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/594/alkup/swe"/>
+                    <FRBRdate date="2024-11-08" name="dateIssued"/>
+                    <FRBRdate date="2024-11-12" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/594/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/594/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/594/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2024-11-12" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>594/2024</docNumber>
+                <docTitle>Lag om ändring av brottsskadelagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i brottsskadelagen (
+                        <affectedDocument href="/akn/fi/act/statute/2005/1204">1204/2005</affectedDocument>
+                        ) 45 och 47 §,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         rubriken för 7 kap. samt 38 § 1 och 3 mom. och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 38 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>7 kap.</num>
+                    <heading>Ändringssökande, självrättelse och återkrav</heading>
+                    <section>
+                        <num>38 §</num>
+                        <heading>Ändringssökande</heading>
+                        <subsection>
+                            <content>
+                                <p>Beslut som Statskontoret har meddelat med stöd av denna lag överklagas genom besvär hos försäkringsdomstolen inom 30 dagar från delfåendet av beslutet. Besvärsskriften ska lämnas in till Statskontoret inom tiden för sökande av ändring. Beslut om förskottsersättning får dock inte överklagas genom besvär.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Har besvären anlänt efter den tid som föreskrivs i 1 mom., kan besvären trots detta tas upp till prövning om det har funnits vägande skäl till förseningen.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>38 a §</num>
+                        <heading>Självrättelse och överföring av besvär till försäkringsdomstolen</heading>
+                        <subsection>
+                            <content>
+                                <p>Om Statskontoret till alla delar bifaller de yrkanden som framförts i besvären, ska Statskontoret meddela ett nytt beslut i ärendet. Det nya beslutet får överklagas i enlighet med 38 §.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om Statskontoret inte kan ändra det överklagade beslutet enligt vad som anges i 1 mom., ska Statskontoret inom 30 dagar efter det att besvärstiden har gått ut sända besvärsskriften, de handlingar som gäller besvärsärendet och sitt yttrande till försäkringsdomstolen. Statskontoret kan då genom ett interimistiskt beslut ändra sitt tidigare beslut till den del Statskontoret bifaller ett yrkande som framförts i besvären. Statskontoret ska underrätta den ändringssökande om att besvären överförts till behandling i försäkringsdomstolen och ge den ändringssökande tillfälle att inom 30 dagar bemöta Statskontorets yttrande till försäkringsdomstolen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om Statskontoret godkänner yrkandet i besvären helt eller delvis efter det att besvärsskriften redan har lämnats till försäkringsdomstolen, kan Statskontoret också meddela ett interimistiskt beslut i ärendet. Försäkringsdomstolen ska utan dröjsmål underrättas om det interimistiska beslutet. Ett interimistiskt beslut av Statskontoret får inte överklagas.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>En avvikelse från den frist som anges i 2 mom. får göras, om det finns ett behov av att inhämta behövlig tilläggsutredning med anledning av besvären. Ändringssökanden ska då utan dröjsmål underrättas om att tilläggsutredning inhämtas. Besvärsskriften och yttrandet ska dock ges in till försäkringsdomstolen senast 60 dagar efter det att besvärstiden har gått ut.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2025.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/79">RP 79/2024</ref>
+                        </p>
+                        <p>FvUB 18/2024</p>
+                        <p>RSv 82/2024</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 8 november 2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommun- och regionminister</role>
+                                <person refersTo="">Anna-Kaisa Ikonen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

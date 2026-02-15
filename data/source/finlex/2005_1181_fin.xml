@@ -1,0 +1,254 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1181/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1181"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1181/alkup"/>
+                    <FRBRdate date="2005-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1181"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1181/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1181/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1181/alkup/fin"/>
+                    <FRBRdate date="2005-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1181/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1181/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1181/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="194"/>
+                    <finlex:date date="2005-12-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1181/2005</docNumber>
+                <docTitle>Laki työttömyysetuuksien rahoituksesta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         työttömyysetuuksien rahoituksesta 24 päivänä heinäkuuta 1998 annetun lain (<affectedDocument href="/akn/fi/act/statute/1998/555">555/1998</affectedDocument>) 19, 19 a ja 20 § sekä 21 §:n 1 momentti, sellaisina kuin niistä ovat, 19 § laissa 1301/2002 ja 19 a § viimeksi mainitussa laissa sekä laissa 940/2004, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>19 §</num>
+                    <heading>Palkansaajan työttömyysvakuutusmaksun peruste</heading>
+                    <subsection>
+                        <intro>
+                            <p>
+                                Palkansaajan työttömyysvakuutusmaksun perusteena olevana palkkana pidetään työ- tai virkasuhteessa saatua palkkaa, tulospalkkiota tai muuta vastiketta, joka on maksettu tai sovittu maksettavaksi korvauksena työstä. Tällainen vastike katsotaan palkaksi myös silloin, kun sen maksaa työntekijälle työnantajan sijasta konkurssipesä, palkkaturvalaissa (866/1998) tarkoitettu palkkaturvasta huolehtiva viranomainen tai muu maksaja (<i>sijaismaksaja</i>). Palkkaan luetaan myös työstä maksettava vastike, joka on sovittu osaksi tai kokonaan hyvitettäväksi:
+                            </p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>yleisöltä saatavilla palvelu- tai lahjarahoilla;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>vakuutuskassalaissa (1164/1992) tarkoitetun sairauskassan maksamalla päivärahalla, jota työntekijä saa laissa säädetyn tai työehto- tai muussa sopimuksessa sovitun palkan sijasta; taikka</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>lasten kotihoidon ja yksityisen hoidon tuesta annetun lain (1128/1996) mukaisella yksityisen hoidon tuella tai vastaavalla muulla valtion tai kunnan maksamalla tuella.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Palkansaajan työttömyysvakuutusmaksun perusteena olevana palkkana ei kuitenkaan pidetä muun muassa:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>työnantajalta saatua henkilökuntaetua;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>korkoetua työsuhteen perusteella saadusta lainasta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>etua työsuhteeseen perustuvasta oikeudesta merkitä yhteisön osakkeita tai osuuksia käypää alempaan hintaan, jos etu on henkilöstön enemmistön käytettävissä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>tuloverolain 66 §:ssä tarkoitettua työsuhdeoption käyttämisestä syntyvää etua tai sellaista työsuhteeseen perustuvaa suoritusta, joka määräytyy yhtiön osakkeen arvon muutoksen perusteella;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>palkkiota, joka annetaan työnantajayhtiön tai sen kanssa samaan konserniin tai muuhun vastaavaan taloudelliseen yhteenliittymään kuuluvan yhtiön viranomaisen valvonnan alaisessa arvopaperipörssissä noteerattuina osakkeina, sijoitustalletuksena tai muulla vastaavalla tavalla, taikka osakkeiden sijasta osin tai kokonaan rahana, edellyttäen, että tällaisen palkkiona saatavan edun arvo riippuu kyseisten osakkeiden arvon kehityksestä palkkion lupaamisen jälkeisenä, vähintään vuoden mittaisena aikana;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>työmatkasta saatua päivärahaa tai muuta kustannusten korvausta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>työsopimuslain (55/2001) 2 luvun 14 §:n 1 momentissa tarkoitettua odotusajan palkkaa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>8)</num>
+                            <content>
+                                <p>työsopimuksen tai virkasuhteen päättämisestä maksettavaa korvausta tai muuta vahingonkorvausta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>9)</num>
+                            <content>
+                                <p>henkilöstörahastolaissa (814/1989) tarkoitettuja voittopalkkioeriä, jotka on siirretty henkilöstörahastoon tai nostettu käteisenä tai henkilöstörahastosta nostettua rahasto-osuutta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>10)</num>
+                            <content>
+                                <p>eriä, jotka maksetaan työntekijälle yhtiökokouksen päätöksen perusteella voitonjakona tai käteisenä voittopalkkiona edellyttäen, että käteinen voittopalkkio maksetaan koko henkilöstölle eikä sillä pyritä korvaamaan työehtosopimuksen tai työsopimuksen edellyttämää palkkausjärjestelmää ja että käteisen voittopalkkion määräytymisperusteet ovat henkilöstörahastolain 2 §:n 2 momentin mukaiset ja että yhtiön vapaan pääoman määrä on suurempi kuin yhtiökokouksessa päätettävän käteisen voittopalkkion ja osakkeen-omistajille maksettavien osinkojen yhteismäärä; eikä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>11)</num>
+                            <content>
+                                <p>yhtiön osakkaan nostamaa voitto-osuutta tai osinkoa.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 2 momentin 10 kohdassa tarkoitetussa tilanteessa edellytetään lisäksi, että voittopalkkion maksamisesta ei ole tehty työnantajaa velvoittavaa sopimusta, että omistajat tekevät sitovan päätöksen käteisen voittopalkkion maksamisesta yhtiökokouksessa tilikauden päätyttyä ja että voittopalkkiot maksetaan tämän jälkeen. Lisäksi edellytyksenä on, että asia käsitellään yhteistoiminnasta yrityksissä annetun lain (725/1978) mukaisella tai muulla vastaavalla tavalla.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ulkomaan työstä työansiona on 1 ja 2 momentista poiketen pidettävä sitä palkkaa, jota vastaavasta työstä Suomessa olisi maksettava. Jos vastaavaa työtä ei Suomessa ole, työansiona pidetään sitä palkkaa, jonka muutoin voidaan katsoa vastaavan mainittua työtä. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valtioneuvoston asetuksella voidaan antaa tarkempia säännöksiä siitä, mitä pidetään tässä pykälässä säädettynä palkkana.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>19 a §</num>
+                    <heading>Työnantajan työttömyysvakuutusmaksun peruste</heading>
+                    <subsection>
+                        <content>
+                            <p>Työnantajan työttömyysvakuutusmaksun perusteena on se yhteenlaskettu palkkasumma, joka muodostuu työnantajan taikka muun sijaismaksajan kuin palkkaturvalaissa tarkoitetun palkkaturvasta huolehtivan viranomaisen maksamista, 19 §:ssä tarkoitetuista palkansaajan työttömyysvakuutusmaksun perusteena olevista tuloeristä, ellei 12 §:stä muuta johdu.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valtion liikelaitoksen työttömyysvakuutusmaksu määrätään liikelaitoksen maksamien ennakkoperintälain (1118/1996) 13 §:ssä tarkoitettujen palkkojen määrän perusteella.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>20 §</num>
+                    <heading>Palkansaajan työttömyysvakuutusmaksun maksamismenettely</heading>
+                    <subsection>
+                        <content>
+                            <p>Työnantaja pidättää palkansaajan työttömyysvakuutusmaksun 15 §:ssä määritellyltä vakuutusmaksuvelvolliselta työntekijältä jokaisen palkanmaksun yhteydessä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>21 §</num>
+                    <heading>Maksujen perintä ja tilitys</heading>
+                    <subsection>
+                        <content>
+                            <p>Tapaturmavakuutuslain 29 §:ssä tarkoitetut vakuutuslaitokset perivät työnantajalta työnantajan työttömyysvakuutusmaksun ja palkansaajan työttömyysvakuutusmaksun 19 a §:n 1 momentin mukaisen palkkasumman perusteella. Työnantaja vastaa vakuutuslaitokselle myös palkansaajan työttömyysvakuutusmaksun suorittamisesta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/213">HE 213/2005</ref>
+                        </p>
+                        <p>StVM 38/2005</p>
+                        <p>EV 212/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 22 päivänä joulukuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

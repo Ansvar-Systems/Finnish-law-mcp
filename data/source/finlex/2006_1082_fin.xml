@@ -1,0 +1,405 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1082/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1082"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1082/alkup"/>
+                    <FRBRdate date="2006-12-08" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1082"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1082/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1082/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1082/alkup/fin"/>
+                    <FRBRdate date="2006-12-08" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1082/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1082/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1082/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="162"/>
+                    <finlex:date date="2006-12-12"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1082/2006</docNumber>
+                <docTitle>Laki sähköntuotannon eräiden tehoreservien käytettävyyden varmistamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 luku</num>
+                    <heading>Yleiset säännökset</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Lain tarkoitus</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Tämän lain tavoitteena on sähkön toimitusvarmuuden turvaamiseksi luoda edellytykset toimenpiteille, joilla mahdollistetaan sähköntuotannon ja -kulutuksen välistä tasapainoa varmistavan sähköntuotannon tehoreservin ylläpitäminen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 luku</num>
+                    <heading>Toimenpiteet tehoreservin ylläpitämiseksi</heading>
+                    <section eId="chp_2__sec_2">
+                        <num>2 §</num>
+                        <heading>Tehoreservin ylläpitoa koskeva järjestelmä</heading>
+                        <subsection eId="chp_2__sec_2__subsec_1">
+                            <content>
+                                <p>Sähkömarkkinalain (386/1995) 16 §:n nojalla järjestelmävastuuseen määrätyn kantaverkonhaltijan tehtävänä on tämän lain mukaisesti ylläpitää järjestelmää sähköntuotannon tehoreservin käytettävyyden varmistamiseksi. Voimalaitosten haltijat voivat tarjota järjestelmään sähköntuotannon tehoreservissä olevia voimalaitosyksiköitä, joiden käyttövalmiuden ne sitoutuvat varmistamaan ja joita ne sitoutuvat käyttämään ennalta määritettyjen käyttöperiaatteiden mukaisesti järjestelmävastuuseen määrätyn kantaverkonhaltijan kanssa tekemänsä tehoreservin käyttösopimuksen nojalla.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_2__subsec_2">
+                            <content>
+                                <p>Tehoreservin ylläpitoa koskevan järjestelmän tavoitteena on varmistaa, että järjestelmään kuuluvat voimalaitosyksiköt ovat enintään 12 tunnin käynnistysvalmiudessa 1.12. ja 28.2. välisenä aikana ja enintään yhden kuukauden käynnistysvalmiudessa muuna aikana sekä tuottavat tarvittaessa sähköä markkinoille järjestelmän sääntöjen mukaisella tavalla.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_2__subsec_3">
+                            <content>
+                                <p>Järjestelmävastuuseen määrätty kantaverkonhaltija maksaa voimalaitoksen haltijoille korvauksen järjestelmän mukaisen julkisen palvelun velvoitteen täyttämisestä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_3">
+                        <num>3 §</num>
+                        <heading>Voimalaitoksille asetettavat vaatimukset</heading>
+                        <subsection eId="chp_2__sec_3__subsec_1">
+                            <intro eId="chp_2__sec_3__subsec_1__intro">
+                                <p>Voimalaitoksen haltija voi tarjota järjestelmään Suomen sähköjärjestelmään liitettyä erillistä lauhdutusvoimalaitosyksikköä, joka täyttää seuraavat vaatimukset:</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_3__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>yksikön käyttöaika 1.6.2004 ja 31.5.2006 välisenä aikana on ollut keskimäärin enintään 200 tuntia vuodessa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_3__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>yksikön käynnistysaika on enintään 12 tuntia 1.12. ja 28.2. välisenä aikana ja enintään yksi kuukausi muuna aikana;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_3__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>yksikkö kykenee käynnissä ollessaan vähintään 10 megawatin suuruiseen tehonlisäykseen 10 minuutin kuluessa kehotuksesta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_3__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>yksikköön kohdistuvat ympäristöluvat ja -vaatimukset eivät estä yksikön käyttämistä täydellä teholla vähintään 200 tuntia 1.12. ja 28.2. välisenä aikana.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_4">
+                        <num>4 §</num>
+                        <heading>Tehoreservin hankinta</heading>
+                        <subsection eId="chp_2__sec_4__subsec_1">
+                            <content>
+                                <p>Tehoreservin hankinnan on perustuttava julkistettujen perusteiden pohjalta tapahtuvaan avoimeen ja syrjimättömään menettelyyn.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_2">
+                            <intro eId="chp_2__sec_4__subsec_2__intro">
+                                <p>Voimalaitoksen haltijan tekemä tarjous voidaan hylätä, jos:</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_4__subsec_2__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>tarjottu voimalaitosyksikkö ei täytä asetettuja vaatimuksia;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_4__subsec_2__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>on syytä epäillä, että tarjotun kapasiteetin hinta johtaa tilanteeseen, jossa voimalaitoksen haltijan saama korvaus ylittäisi tässä laissa tarkoitetun julkisen palvelun velvoitteen täyttämisestä aiheutuvat hyväksyttävät kustannukset;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_4__subsec_2__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>tarjous ei muutoin vastaa tarjouspyynnön tai -menettelyn ehtoja.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_3">
+                            <content>
+                                <p>Mikäli järjestelmävastuuseen määrätty kantaverkonhaltija katsoo, ettei tarjousta voida hyväksyä, sen on siirrettävä asia Energiamarkkinaviraston ratkaistavaksi. Siirtoilmoituksessa on ilmoitettava esteen syyt. Energiamarkkinaviraston tehtävänä on tässä tapauksessa päättää, onko tarjous hylättävä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Tehoreservin käyttösopimus</heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <content>
+                                <p>Järjestelmävastuuseen määrätty kantaverkonhaltija tekee voimalaitoksen haltijan kanssa sopimuksen järjestelmään hyväksytyn voimalaitosyksikön käytöstä. Tehoreservin käyttösopimuksessa määrätään säännöt voimalaitosyksikön käyttövalmiuden ylläpidolle, yksikön käytölle sekä sen tuottaman sähkön tarjoamiseen markkinoille. Säännöt tulee julkaista.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_2">
+                            <content>
+                                <p>Voimalaitoksen haltija on velvollinen pitämään voimalaitosyksikön käyttösopimuksen edellyttämässä käyttövalmiudessa sekä käyttämään yksikköä ja tarjoamaan yksikön tuottaman sähkön markkinoille käyttösopimuksen edellyttämällä tavalla.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Voimalaitosyksikön tuottaman sähkön tarjoaminen markkinoille</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>Voimalaitosyksikön tuottama sähkö on tarjottava markkinoille hinnalla, joka ei saa alittaa raskasta polttoöljyä polttoaineenaan käyttävän lauhdutusvoimalaitoksen muuttuvia kustannuksia, joihin on lisätty tuotantoon tarvittavien päästöoikeuksien arvo.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_2">
+                            <content>
+                                <p>Järjestelmävastuuseen määrätty kantaverkonhaltija asettaa säännöt, joilla järjestelmään kuuluvien voimalaitosyksiköiden tuottama sähkö tulee tarjota markkinoille. Säännöt tulee asettaa siten, ettei niillä perusteettomasti vaikuteta sähkön tarjontaan ja sähkön hinnan määräytymiseen markkinoilla.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Voimalaitoksen haltijalle maksettava korvaus</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>Järjestelmään kuuluvan voimalaitosyksikön haltijalle maksettava korvaus ei saa ylittää sitä, mikä on tarpeen tehoreservin käyttösopimuksessa asetettujen velvoitteiden täyttämisestä aiheutuvien kustannusten kattamiseksi, kun otetaan huomioon tähän liittyvät tulot ja velvoitteen täyttämisestä saatava kohtuullinen tuotto.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_8">
+                        <num>8 §</num>
+                        <heading>Järjestelmän rahoitus</heading>
+                        <subsection eId="chp_2__sec_8__subsec_1">
+                            <content>
+                                <p>Tehoreservin ylläpitoa koskeva järjestelmä rahoitetaan sähköjärjestelmän ja kantaverkon hyödyntämiseen perustuvilla erillisillä maksuilla, joita järjestelmävastuuseen määrätty kantaverkonhaltija on oikeutettu keräämään siirtopalveluiden käyttäjiltä siirto- ja rajasiirtopalvelusta perittävien maksujen yhteydessä. Maksuilla voidaan kattaa järjestelmävastuuseen määrätylle kantaverkonhaltijalle tästä laista johtuvien velvoitteiden hoitamisesta aiheutuneet kohtuulliset kustannukset sekä kohtuullinen korvaus järjestelmän hoitamisesta. Maksujen tulee perustua siihen epätasapainoon, jonka siirtopalvelun käyttäjä aiheuttaa sähköjärjestelmässä sähkönhankinnan ja -kulutuksen välille. Maksujen määräytymisperusteiden tulee olla tasapuolisia ja syrjimättömiä. Määräytymisperusteet tulee julkaista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 luku</num>
+                    <heading>Valvonta ja seuraamukset</heading>
+                    <section eId="chp_3__sec_9">
+                        <num>9 §</num>
+                        <heading>Valvonta</heading>
+                        <subsection eId="chp_3__sec_9__subsec_1">
+                            <content>
+                                <p>Kauppa- ja teollisuusministeriön tehtävänä on lain täytäntöönpanon yleinen ohjaus ja seuranta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_9__subsec_2">
+                            <content>
+                                <p>Energiamarkkinaviraston tehtävänä on valvoa lain ja sen nojalla annettujen säännösten noudattamista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_10">
+                        <num>10 §</num>
+                        <heading>Energiamarkkinaviraston vahvistamat säännöt ja ehdot</heading>
+                        <subsection eId="chp_3__sec_10__subsec_1">
+                            <intro eId="chp_3__sec_10__subsec_1__intro">
+                                <p>Energiamarkkinaviraston tulee päätöksellään vahvistaa ennen käyttöönottamista:</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_10__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>säännöt tehoreservin ylläpitoa koskevaan järjestelmään kuuluvien voimalaitosyksiköiden käyttövalmiuden ylläpidolle, yksiköiden käytölle sekä niiden tuottaman sähkön tarjoamiseen markkinoille;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_10__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>tehoreservin ylläpitoa koskevan järjestelmän rahoittamiseksi perittävien maksujen määräytymisperusteet.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_11">
+                        <num>11 §</num>
+                        <heading>Pakkokeinot</heading>
+                        <subsection eId="chp_3__sec_11__subsec_1">
+                            <content>
+                                <p>Jos joku rikkoo tai laiminlyö tässä laissa tai sen nojalla annetuissa säännöksissä säädettyjä velvoitteitaan, Energiamarkkinaviraston on velvoitettava hänet korjaamaan virheensä tai laiminlyöntinsä. Velvoitepäätöksessä voidaan määrätä, millä tavoin virhe tai laiminlyönti tulee korjata.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_11__subsec_2">
+                            <content>
+                                <p>Energiamarkkinavirasto voi asettaa 1 momentissa tarkoitetun velvoitepäätöksensä taikka tässä laissa säädettyä tietojenantovelvoitetta koskevan päätöksensä tehosteeksi uhkasakon. Uhkasakon asettamisessa ja sen tuomitsemisessa maksettavaksi noudatetaan uhkasakkolaissa (1113/1990) säädettyä menettelyä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_12">
+                        <num>12 §</num>
+                        <heading>Julkisen palvelun velvoitteen rikkominen</heading>
+                        <subsection eId="chp_3__sec_12__subsec_1">
+                            <intro eId="chp_3__sec_12__subsec_1__intro">
+                                <p>Energiamarkkinavirasto voi neljän kuukauden kuluessa rikkomuksen havaitsemisesta määrätä tehoreservin käyttösopimuksen purettavaksi, jos voimalaitoksen haltija:</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_12__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>on tahallaan rikkonut julkisen palvelun velvoitetta, johon hän on sitoutunut tehoreservin käyttösopimuksessa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_12__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>on julkisen palvelun velvoitetta täyttäessään tarjonnut järjestelmään kuuluvan voimalaitosyksikön tuottamaa sähköä markkinoille sellaisella hinnalla, jonka ilmeisenä tarkoituksena on sähkön markkinahinnan nostaminen kyseisen ajankohdan yleistä hintatasoa selvästi korkeammalle tasolle.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_3__sec_12__subsec_2">
+                            <content>
+                                <p>Energiamarkkinavirasto voi velvoittaa voimalaitoksen haltijan palauttamaan korvaukset, jotka järjestelmävastuuseen määrätty kantaverkonhaltija on käyttösopimuksen perusteella maksanut voimalaitoksen haltijalle, jos tehoreservin käyttösopimus on purettu 1 momentin mukaisesti tai jos voimalaitoksen haltija on muutoin rikkonut tehoreservin käyttösopimusta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_13">
+                        <num>13 §</num>
+                        <heading>Korvauksen palauttaminen ja takaisinperintä</heading>
+                        <subsection eId="chp_3__sec_13__subsec_1">
+                            <content>
+                                <p>Virheellisesti, liikaa tai ilmeisen perusteettomasti maksetun korvauksen johdosta sekä tehoreservin käyttösopimuksen purkamisen tai rikkomisen johdosta tapahtuvaan korvauksen palauttamiseen ja takaisinperintään sovelletaan, mitä valtionavustuslaissa (688/2001) säädetään valtionavustuksen palauttamisesta ja takaisinperinnästä, ellei tässä laissa toisin säädetä. Palautus ja viivästysseuraamus tuloutetaan tehoreservin ylläpitoa koskevaan järjestelmään.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_13__subsec_2">
+                            <content>
+                                <p>Energiamarkkinavirasto hoitaa korvauksen palauttamista ja takaisinperintää koskevissa asioissa valtionavustuslaissa valtionapuviranomaiselle säädettyjä tehtäviä sekä tekee päätöksen korvauksen takaisinperinnästä ja viivästysseuraamuksesta. Palautus ja viivästysseuraamus pannaan täytäntöön ilman erillistä tuomiota tai päätöstä siten kuin verojen ja maksujen perimisestä ulosottotoimin annetussa laissa (367/1961) säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_13__subsec_3">
+                            <content>
+                                <p>Järjestelmävastuuseen määrätyn kantaverkonhaltijan tehtävänä on huolehtia palautuksen ja viivästysseuraamuksen perimisestä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_14">
+                        <num>14 §</num>
+                        <heading>Tietojen antaminen Energiamarkkinavirastolle</heading>
+                        <subsection eId="chp_3__sec_14__subsec_1">
+                            <content>
+                                <p>Järjestelmävastuuseen määrätyn kantaverkonhaltijan ja voimalaitoksen haltijan on annettava Energiamarkkinavirastolle tässä laissa tarkoitettujen valvontatehtävien hoitamiseksi tarpeelliset tiedot. Energiamarkkinavirastolla on oikeus tarkastaa tietojen oikeellisuus valvottavan hallinnassa olevissa tiloissa, jotka eivät kuulu kotirauhan piiriin.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 luku</num>
+                    <heading>Täydentävät säännökset ja voimassaolo</heading>
+                    <section eId="chp_4__sec_15">
+                        <num>15 §</num>
+                        <heading>Järjestelmään liittyvien toimintojen eriyttäminen</heading>
+                        <subsection eId="chp_4__sec_15__subsec_1">
+                            <content>
+                                <p>Järjestelmävastuuseen määrätyn kantaverkonhaltijan tulee eriyttää tehoreservin ylläpitoa koskevan järjestelmän hoitaminen muista yrityksen harjoittamista liiketoiminnoista siten kuin sähkömarkkinalain 28―34 §:ssä säädetään. Järjestelmän hoitaminen voidaan antaa myös järjestelmävastuuseen määrätyn kantaverkonhaltijan kokonaan omistaman tytäryhtiön tehtäväksi.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_15__subsec_2">
+                            <content>
+                                <p>Järjestelmävastuuseen määrätyllä kantaverkonhaltijalla on oikeus harjoittaa sähkönhankintaa ja -myyntiä järjestelmän hoidon edellyttämässä laajuudessa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_16">
+                        <num>16 §</num>
+                        <heading>Muutoksenhaku</heading>
+                        <subsection eId="chp_4__sec_16__subsec_1">
+                            <content>
+                                <p>Energiamarkkinaviraston tämän lain nojalla antamaan päätökseen haetaan muutosta valittamalla siten kuin hallintolainkäyttölaissa (586/1996) säädetään. Energiamarkkinaviraston 10 §:n nojalla tekemä päätös voidaan panna täytäntöön muutoksenhausta huolimatta, jollei valitusviranomainen toisin määrää.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_17">
+                        <num>17 §</num>
+                        <heading>Asetuksenantovaltuus</heading>
+                        <subsection eId="chp_4__sec_17__subsec_1">
+                            <content>
+                                <p>Tarkemmat säännökset tämän lain täytäntöönpanosta annetaan tarvittaessa valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <section eId="sec_18">
+                    <num>18 §</num>
+                    <heading>Voimassaolo</heading>
+                    <subsection eId="sec_18__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 15 päivänä joulukuuta 2006 ja on voimassa 28 päivään helmikuuta 2011.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_18__subsec_2">
+                        <content>
+                            <p>Ennen lain voimaantuloa voidaan ryhtyä sen täytäntöönpanon edellyttämiin toimiin.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/228">HE 228/2006</ref>
+                        </p>
+                        <p>TaVM 16/2006</p>
+                        <p>EV 170/2006</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2003/54/EY (32003L0054); EYVL N:o L 176, 15.7.2003, s. 37</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2005/89/EY (32005L0089); EYVL N:o L 33, 4.2.2006, s. 22</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 8 päivänä joulukuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Paula Lehtomäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

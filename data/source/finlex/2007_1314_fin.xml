@@ -1,0 +1,187 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1314/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1314"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1314/alkup"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1314"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1314/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1314/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1314/alkup/fin"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1314/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1314/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1314/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="196"/>
+                    <finlex:date date="2007-12-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1314/2007</docNumber>
+                <docTitle>Laki väestötietolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         11 päivänä kesäkuuta 1993 annetun väestötietolain (
+                        <affectedDocument href="/akn/fi/act/statute/1993/507">507/1993</affectedDocument>
+                        ) 4 §:n 1 momentin 3 kohta sekä 31 §:n 1 ja 2 momentti, sellaisina kuin ne ovat, 4 §:n 1 momentin 3 kohta laissa 957/2005 ja 31 §:n 1 ja 2 momentti laissa 527/1999, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         4 §:n 1 momenttiin, sellaisena kuin se on mainitussa laissa 957/2005, uusi 3 a kohta sekä lakiin uusi 27 a ja 31 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>4 §</num>
+                    <heading>Väestötietojärjestelmään talletettavat henkilötiedot</heading>
+                    <subsection>
+                        <intro>
+                            <p>Suomen kansalaisesta talletetaan:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3)</num>
+                            <intro>
+                                <p>kansalaisuutta ja kuolinaikaa koskevat tiedot;</p>
+                            </intro>
+                            <subparagraph>
+                                <num>3 a)</num>
+                                <content>
+                                    <p>toimintakelpoisuuden rajoittamista, edunvalvontaa ja taloudellisissa asioissa edustamista varten vahvistettua edunvalvontavaltuutusta koskevat tiedot sekä edunvalvojan tai valtuutetun yksilöintitiedot;</p>
+                                </content>
+                            </subparagraph>
+                            <hcontainer name="omission"/>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>27 a §</num>
+                    <heading>Tietojen luovuttaminen osoitepalveluna</heading>
+                    <subsection>
+                        <content>
+                            <p>Osoitepalveluna voidaan luovuttaa tiedot yksittäisen henkilön nykyisistä nimistä, osoitteesta ja muusta yhteystiedosta sekä elossaolosta taikka tieto 25 §:ssä tarkoitetusta tietojenluovutuskiellosta. Tiedot voidaan luovuttaa vain, jos henkilö voidaan luotettavasti yksilöidä hakijan antamien tietojen perusteella.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Osoitepalvelutehtävän hoitamiseen osallistuvista maistraateista säädetään valtiovarainministeriön asetuksella.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>31 §</num>
+                    <heading>Tietojen luovuttamisesta päättävä viranomainen</heading>
+                    <subsection>
+                        <content>
+                            <p>Väestörekisterikeskus ja maistraatit päättävät väestötietojärjestelmän tietojen luovuttamisesta. Väestörekisterikeskus päättää kuitenkin tietojen luovuttamisesta, kun kysymyksessä ovat teknisen käyttöyhteyden välityksellä tai muutoin sähköisesti taikka ulkomaille muutoin kuin yksittäin luovutettavat tiedot.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Maistraatti päättää yksittäin annettavien tietojen luovuttamisesta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>31 a §</num>
+                    <heading>Sopimus osoitepalvelutehtävän hoitamisesta</heading>
+                    <subsection>
+                        <content>
+                            <p>Edellä 27 a §:ssä tarkoitetun osoitepalvelun hoitaminen voidaan antaa myös muulle viranomaiselle tai yhteisölle kuin maistraatille, jos se on tarpeen palvelujen saatavuuden turvaamiseksi tai toiminnan tehostamiseksi. Väestörekisterikeskus tekee asianomaisia maistraatteja kuultuaan sopimuksen muun viranomaisen tai yhteisön kanssa asiasta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Osoitepalvelutehtävän antaminen muulle kuin viranomaiselle edellyttää lisäksi, että tehtävää hoitavalla yhteisöllä on riittävät voimavarat ja tehtävää hoitavilla henkilöillä riittävä asiantuntemus ja pätevyys tehtävän hoitamiseen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Osoitepalvelua hoitavaan henkilöön sovelletaan rikosoikeudellista virkavastuuta koskevia säännöksiä. Tehtävää hoidettaessa on noudatettava, mitä hallintolaissa (434/2003), kielilaissa (423/2003), saamen kielilaissa (1086/2003) ja viranomaisten toiminnan julkisuudesta annetussa laissa (621/1999) säädetään. Väestörekisterikeskus on vastuussa sopimukseen perustuvan osoitepalvelutehtävän hoitamisessa sattuneesta vahingosta siten kuin vahingonkorvauslain (412/1974) 3 luvussa säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                    <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                    <p>Ennen tämän lain voimaantuloa vahvistettuja edunvalvontavaltuutuksia koskevat tiedot talletetaan väestötietojärjestelmään kuukauden kuluessa lain voimaantulosta.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/106">HE 106/2007</ref>
+                        </p>
+                        <p>HaVM 15/2007</p>
+                        <p>EV 136/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 21 päivänä joulukuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Mari Kiviniemi</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

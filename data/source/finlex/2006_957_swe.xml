@@ -1,0 +1,133 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/957/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/957"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/957/alkup"/>
+                    <FRBRdate date="2006-11-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="957"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/957/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/957/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/957/alkup/swe"/>
+                    <FRBRdate date="2006-11-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/957/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/957/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/957/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="143"/>
+                    <finlex:date date="2006-11-14"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>957/2006</docNumber>
+                <docTitle>Lag om ändring av 7 e och 9 § i lagen om hemkommun</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 11 mars 1994 om hemkommun (
+                        <affectedDocument href="/akn/fi/act/statute/1994/201">201/1994</affectedDocument>
+                        ) 7 e § 1 mom., sådant det lyder i lag 624/2004, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 9 §, sådan den lyder i lag 1650/1995 och i nämnda lag 624/2004, ett nytt 4 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>7 e §</num>
+                    <heading>Åligganden i samband med mottagandet av flyttningsanmälan och anmälan om flyttning till utlandet</heading>
+                    <subsection>
+                        <content>
+                            <p>Den som tar emot en anmälan skall kontrollera att den innehåller de uppgifter som anges i 7 a § 3―5 mom. Om anmälan görs per telefon skall den som tar emot anmälan dessutom se till att anmälan uppfyller kraven i 7 a § 2 mom. Den som tar emot anmälan skall utan dröjsmål tillställa den magistrat som avses i 7 b § 1 mom. uppgifterna i anmälan med undantag för de anmälningar som avses i 9 § 4 mom.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <heading>Anteckning om hemkommun och folkbokföringskommun</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Med avvikelse från 1 mom. kan också en annan magistrat som tagit emot en anmälan göra de anteckningar som med anledning av anmälan krävs i befolkningsdatasystemet, om anteckningarna kan göras utan tilläggsutredningar. Närmare bestämmelser om dessa anmälningar, som magistraten kan göra anteckningarna om, och om de magistrater som får göra anteckningarna, utfärdas genom förordning av inrikesministeriet. Den magistrat som gjort en anteckning svarar för denna.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2007.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 229/2005</p>
+                        <p>FvUB 16/2006</p>
+                        <p>RSv 118/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 10 november 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Seppo Kääriäinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

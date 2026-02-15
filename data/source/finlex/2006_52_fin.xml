@@ -1,0 +1,136 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/52/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/52"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/52/alkup"/>
+                    <FRBRdate date="2006-01-20" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="52"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/52/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/52/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/52/alkup/fin"/>
+                    <FRBRdate date="2006-01-20" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/52/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/52/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/52/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="9"/>
+                    <finlex:date date="2006-01-26"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>52/2006</docNumber>
+                <docTitle>Laki työterveyslaitoksen toiminnasta ja rahoituksesta annetun lain 2 a §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         24 päivänä helmikuuta 1978 työterveyslaitoksen toiminnasta ja rahoituksesta annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1978/159">159/1978</affectedDocument>
+                        ) 2 a §, sellaisena kuin se on laissa 1287/2001, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Työterveyslaitos voi muodostaa 2 §:ssä säädettyjen mittaus- ja laboratoriotoimintojen hoitamisessa syntyvistä työntekijöiden altistumistiedoista työhygieenisten altistusmittausten rekisterin ja biologisten altistumismittausten rekisterin. Edellä mainittuihin rekistereihin voidaan merkitä altistuneen henkilön nimi ja henkilötunnus sekä tiedot työnantajasta, työpaikasta, altistumisen laadusta ja kestosta, tilaajasta sekä altistumismittauksista ja niistä annetuista lausunnoista. Lisäksi biologisten altistumismittausten rekisteriin voidaan merkitä tiedot näyteanalyyseistä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Työterveyslaitos ylläpitää työperäisten sairauksien rekisteriä ammattitautien ja muiden työstä johtuvien sairauksien tutkimusta, selvittelyä ja ehkäisyä sekä diagnosoinnin ja hoidon kehittämistä varten. Rekisteriin voidaan tallettaa sairastuneen henkilön nimi, henkilötunnus, ammatti, tiedot työnantajasta ja työpaikasta, altistumisen laadusta ja kestosta, sairauden toteamisesta ja laadusta sekä sen aiheuttamasta haitasta ja sairauslomasta, vakuutuslaitoksen päätös ammattitaudiksi hyväksymisestä ja korvauksesta sekä ammattitaudin aiheuttamasta kuolemasta. Työterveyslaitoksen oikeudesta saada tietoja työperäisten sairauksien rekisteriä varten säädetään työsuojelun valvonnasta ja työpaikan työsuojeluyhteistoiminnasta annetun lain (44/2006) 46 §:ssä, tapaturmavakuutuslain (608/1948) 64 d §:ssä ja maatalousyrittäjien tapaturmavakuutuslain (1026/1981) 23 §:n 3 momentissa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Työterveyslaitos voi käyttää altistumismittausten rekistereiden ja työperäisten sairauksien rekisterin tietoja alansa tutkimus- ja selvitystoimintaan ja luovuttaa niistä tietoja toimialansa yksilöityä tieteellistä tutkimusta varten siten kuin viranomaisten toiminnan julkisuudesta annetun lain (621/1999) 28 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tutkimus- ja selvitystoiminnan lähdeaineistona arvokkaat altistumismittausten rekistereiden sekä työperäisten sairauksien rekisterin tiedot säilytetään pysyvästi siten kuin arkistolaitos erikseen määrää.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Työterveyslaitos voi 2 §:ssä säädettyjen toimintojen lisäksi tuottaa yksinomaan toisen lukuun terveydenhuoltopalveluja, tehdä toimialaansa liittyviä tutkimuksia, henkilöarviointitoimintaa ja muita toimialaansa liittyviä selvityksiä ja mittauksia sekä rekisteröidyn henkilön suostumuksen mukaisesti säilyttää ja käyttää niiden tietoja alansa tutkimus- ja selvitystehtävissä.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä helmikuuta 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/94">HE 94/2005</ref>
+                        </p>
+                        <p>TyVM 7/2005</p>
+                        <p>EV 178/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 20 päivänä tammikuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Peruspalveluministeri </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

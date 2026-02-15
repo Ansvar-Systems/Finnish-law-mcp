@@ -1,0 +1,206 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/306/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/306"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/306/alkup"/>
+                    <FRBRdate date="2005-05-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="306"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/306/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/306/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/306/alkup/fin"/>
+                    <FRBRdate date="2005-05-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/306/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/306/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/306/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="57"/>
+                    <finlex:date date="2005-05-18"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>306/2005</docNumber>
+                <docTitle>Laki kasvinjalostajanoikeudesta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         kasvinjalostajanoikeudesta 21 päivänä elokuuta 1992 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1992/789">789/1992</affectedDocument>
+                        ) 38 § sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 6 f, 6 g ja 34 b § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>6 f §</num>
+                    <heading>Oikeus saada suojattua lajiketta koskevia viljelytietoja</heading>
+                    <subsection>
+                        <intro>
+                            <p>Lajikkeen omistajalla on oikeus saada 6 c §:ssä säädetyn maksuvelvollisuuden toteuttamiseksi tarvittavat tiedot maaseutuelinkeinorekisteristä annetussa laissa (1515/1994) tarkoitetusta maaseutuelinkeinorekisteristä. Tällaisina tietoina voidaan luovuttaa seuraavat viljelijää koskevat tiedot:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>viljelijän nimi, osoite ja puhelinnumero;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>tilatunnus;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>kielikoodi;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>tieto siitä, onko viljelijän hallinnassa oleva peltopinta-ala alle 10 hehtaaria, suojatun perunalajikkeen osalta yli 2 hehtaaria tai varhaisperunan katteenalaisen viljelyn osalta yli 1 hehtaari;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>tieto siitä, ylittääkö Euroopan yhteisön kasvinjalostajanoikeudella suojattujen kasvilajikkeiden viljelyala alan, joka laskennallisesti tarvittaisiin 92 viljatonnin tuottamiseen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>tieto siitä, ylittääkö Euroopan yhteisön kasvinjalostajanoikeudella suojattujen perunalajikkeiden viljelyala alan, joka laskennallisesti tarvittaisiin 185 perunatonnin tuottamiseen; sekä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>suojattujen lajikkeiden omalla tilalla tuotettua siementä koskevat viljelypinta-alat kasvilajikkeittain.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Lajikkeen omistaja saa käyttää 1 momentin mukaisesti luovutettuja tietoja vain 6 c §:ssä tarkoitetun maksunsaantioikeutensa toteuttamiseksi. Lajikkeen omistajalla ei ole oikeutta luovuttaa tietoja edelleen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellytyksenä 1 momentin mukaiselle tietojenluovutukselle on, että lajikkeen omistaja ja viljelijä tai heitä edustavat järjestöt ovat sopineet 6 c §:n mukaisesti lajikkeen omistajalle maksettavasta korvauksesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>6 g §</num>
+                    <heading>Suojattua lajiketta koskevien viljelytietojen hävittäminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Lajikkeen omistajan on hävitettävä 6 f §:n nojalla luovutetut tiedot yhden vuoden kuluttua sen kalenterivuoden päättymisestä, jota koskevan 6 c §:ssä tarkoitetun maksuvelvollisuuden toteuttamiseksi tiedot on luovutettu.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>34 b §</num>
+                    <heading>Suojattua lajiketta koskevien viljelytietojen väärinkäyttö</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Joka tahallaan tai huolimattomuudesta luovuttaa tai käyttää 6 f §:n nojalla luovutettuja tietoja vastoin 6 f §:n 2 momentissa mainittua käyttötarkoitusta, on tuomittava 
+                                <i>suojattua lajiketta koskevien viljelytietojen väärinkäytöstä</i>
+                                 sakkoon.
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>38 §</num>
+                    <heading>Oikeuspaikka</heading>
+                    <subsection>
+                        <content>
+                            <p>Laillinen tuomioistuin tämän lain nojalla käsiteltävissä asioissa on Helsingin käräjäoikeus.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä kesäkuuta 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/258">HE 258/2004</ref>
+                        </p>
+                        <p>MmVM 1/2005</p>
+                        <p>EV 29/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 13 päivänä toukokuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Maa- ja metsätalousministeri </role>
+                                <person refersTo="">Juha Korkeaoja</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

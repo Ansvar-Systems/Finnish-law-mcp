@@ -1,0 +1,169 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1066/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1066"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1066/alkup"/>
+                    <FRBRdate date="2007-11-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1066"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1066/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1066/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1066/alkup/swe"/>
+                    <FRBRdate date="2007-11-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1066/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1066/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1066/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="158"/>
+                    <finlex:date date="2007-11-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1066/2007</docNumber>
+                <docTitle>Lag om ändring av teater- och orkesterlagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i teater- och orkesterlagen av den 3 augusti 1992 (
+                        <affectedDocument href="/akn/fi/act/statute/1992/730">730/1992</affectedDocument>
+                        ) rubriken för 1 kap. och 2 § samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 1 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>1 kap.</num>
+                    <heading>Målsättningar och statsandel</heading>
+                    <section>
+                        <num>1 a §</num>
+                        <subsection>
+                            <content>
+                                <p>Syftet med den statsandel som beviljas för teater- och orkesterverksamhet är att utgående från konstnärliga utgångspunkter producera teater- och orkestertjänster samt att främja tjänsternas regionala tillgänglighet och åtkomst för olika befolkningsgrupper.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>2 §</num>
+                        <subsection>
+                            <intro>
+                                <p>En förutsättning för att erhålla statsandel är att</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>teatern eller orkestern ägs av en kommun eller en samkommun eller av en privat sammanslutning eller stiftelse, till vars stadgeenliga uppgifter hör att bedriva teater- eller orkesterverksamhet eller att svara för en orkester eller en teater,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>teatern eller orkestern uppträder regelbundet och yrkesmässigt,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>teatern eller orkestern har åtminstone en heltidsanställd arbetstagare och som ansvarig för den konstnärliga verksamheten en person med utbildning på området eller med tillräcklig förtrogenhet med området,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>ekonomiska förutsättningar finns för teaterns eller orkesterns verksamhet, men dock så att teatern eller orkestern inte verkar i syfte att uppnå ekonomisk vinst,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>teatern eller orkestern har en verksamhets- och ekonomiplan,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>det är nödvändigt att producera teaterns eller orkesterns tjänster.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                    <p>En teater och en orkester som erhåller statsandel vid lagens ikraftträdande ska uppfylla kraven för att erhålla statsandel enligt 2 § från ingången av år 2009 för att alltjämt kunna erhålla statsandel.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 45/2007</p>
+                        <p>KuUB 4/2007</p>
+                        <p>RSv 46/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 23 november 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kultur- och idrottsminister </role>
+                                <person refersTo="">Stefan Wallin</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

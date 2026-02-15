@@ -1,0 +1,125 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/492/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/492"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/492/alkup"/>
+                    <FRBRdate date="2015-04-24" name="dateIssued"/>
+                    <FRBRdate date="2015-04-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="492"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/492/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/492/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/492/alkup/swe"/>
+                    <FRBRdate date="2015-04-24" name="dateIssued"/>
+                    <FRBRdate date="2015-04-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/492/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/492/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/492/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-04-28" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>492/2015</docNumber>
+                <docTitle>Lag om ändring av 11 och 27 § i företagsinteckningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i företagsinteckningslagen (
+                        <affectedDocument href="/akn/fi/act/statute/1984/634">634/1984</affectedDocument>
+                        ) 11 § 2 mom. och 27 § 2 mom.,
+                    </block>
+                    <block name="substitutions-originals">sådana de lyder, 11 § 2 mom. i lag 1493/2001 och 27 § 2 mom. i lag 431/2013, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>11 §</num>
+                    <heading>Förändringar som gäller näringsidkare</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>I samband med fusion av ett samfund eller en stiftelse eller delning av ett aktiebolag eller andelslag gäller beträffande företagsinteckningens bestånd och den förmånsrätt som inteckningen medför det som bestäms i lagen om samfundet eller stiftelsen i fråga.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>27 §</num>
+                    <heading>Avförande av företagsinteckning ur registret</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Registermyndigheten kan avföra en företagsinteckning ur registret, om anteckningarna om den näringsidkare i vars egendom företagsinteckningen har fastställts avförs ur handelsregistret på det sätt som avses i 24 § i handelsregisterlagen (129/1979). En företagsinteckning som har fastställts i ett aktiebolags eller andelslags egendom kan avföras sedan tio år förflutit från det att bolaget eller andelslaget har avregistrerats på basis av 20 kap. 2 § i aktiebolagslagen eller 23 kap. 2 § i lagen om andelslag. En företagsinteckning som har fastställts i en stiftelses egendom kan avföras sedan tio år har förflutit från det att stiftelsen har avregistrerats ur stiftelseregistret på basis av 12 kap. 2 § i stiftelselagen (487/2015). Innan inteckningen av den orsak som avses i detta moment avförs ur registret ska registermyndigheten bereda kända inteckningshavare tillfälle att bli hörda.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 december 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 166/2014</p>
+                        <p>LaUB 20/2014</p>
+                        <p>RSv 276/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 24 april 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister</role>
+                                <person refersTo="">Anna-Maja Henriksson</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

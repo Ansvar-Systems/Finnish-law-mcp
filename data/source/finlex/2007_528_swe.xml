@@ -1,0 +1,153 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/528/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/528"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/528/alkup"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="528"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/528/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/528/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/528/alkup/swe"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/528/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/528/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/528/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="78"/>
+                    <finlex:date date="2007-05-15"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>528/2007</docNumber>
+                <docTitle>Lag om ändring av personuppgiftslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i personuppgiftslagen av den 22 april 1999 (
+                        <affectedDocument href="/akn/fi/act/statute/1999/523">523/1999</affectedDocument>
+                        ) 3 § 8 och 9 punkten, 20 och 21 §, 25 § 1 och 2 mom. samt 26 § 2 mom. och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         3 § 7 punkten, 32 § 2 mom. och 36 § 3 mom., som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Definitioner</heading>
+                    <subsection>
+                        <intro>
+                            <p>I denna lag avses med</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>
+                                    <i>samtycke</i>
+                                     varje slag av frivillig, särskild och på information baserad viljeyttring genom vilken den registrerade godtar behandling av personuppgifter som gäller honom.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>32 §</num>
+                    <heading>Skydd av uppgifterna</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Den som i egenskap av självständig näringsidkare handlar för den registeransvariges räkning eller till vilken den registeransvarige lämnar ut uppgifter genom teknisk anslutning, skall innan behandlingen av uppgifterna inleds ge den registeransvarige tillbörliga utredningar och förbindelser och i övrigt tillräckliga garantier för att personuppgifterna skyddas på det sätt som avses i 1 mom.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>36 §</num>
+                    <heading>Anmälningsplikt</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Den som i form av näring bedriver indrivningsverksamhet eller utför marknads- eller opinionsundersökningar eller för någon annans räkning utför uppgifter som gäller val av och lämplighet i fråga om personal eller utför databehandlingsuppgifter, och som i denna verksamhet använder eller behandlar personregister och uppgifter i dem, är skyldig att göra en anmälan om sin verksamhet till dataombudsmannen. I kreditupplysningslagen (527/2007) föreskrivs om skyldigheten att göra anmälan om kreditupplysningsverksamhet.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 november 2007.</p>
+                    <p>Bestämmelserna i det upphävda 20 § 4 mom. skall dock tillämpas när personkreditupplysningar om en arbetssökande eller arbetstagare lämnas till arbetsgivaren.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 241/2006</p>
+                        <p>LaUB 32/2006</p>
+                        <p>RSv 315/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 11 maj 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Tuija Brax</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

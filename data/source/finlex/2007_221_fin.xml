@@ -1,0 +1,149 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/221/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/221"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/221/alkup"/>
+                    <FRBRdate date="2007-03-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="221"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/221/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/221/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/221/alkup/fin"/>
+                    <FRBRdate date="2007-03-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/221/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/221/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/221/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="37"/>
+                    <finlex:date date="2007-03-07"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>221/2007</docNumber>
+                <docTitle>Laki rajavartiolaitoksen hallinnosta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         rajavartiolaitoksen hallinnosta 15 päivänä heinäkuuta 2005 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2005/577">577/2005</affectedDocument>
+                        ) 5 §:n 2 momentti sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 20 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>5 §</num>
+                    <heading>Sisäasiainministeriön tehtävät rajavartiolaitoksessa</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Sisäasiainministeri ratkaisee rajavartiolaitoksen alueellisten ja paikallisten yksikköjen ja toimintojen lakkauttamista tai supistamista koskevat asiat. Jollei toisin säädetä, rajavartiolaitoksen päälliköllä on oikeus esittelystä ratkaista muut rajavartiolaitosta ja sen toimialaa koskevat sisäasiainministeriön päätettäviksi säädetyt hallintoasiat, jotka eivät ole yhteiskunnallisesti tai taloudellisesti merkittäviä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>20 a §</num>
+                    <heading>Rajavartiomiehen määräaikainen virantoimituksesta erottaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Rajavartiomiehelle, joka toimii vastoin virkavelvollisuuksiaan tai laiminlyö niitä, voidaan kurinpitorangaistuksena määrätä virantoimituksesta erottaminen vähintään yhdeksi ja enintään kuudeksi kuukaudeksi, jollei varoitusta ole pidettävä riittävänä. Palkanmaksu keskeytetään virantoimituksesta erottamisen ajaksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Virantoimituksesta erottamisesta päättää nimittävä viranomainen. Jos nimittävä viranomainen on valtioneuvosto, virantoimituksesta erottamisesta päättää sisäasiainministeriö. Virantoimituksesta erottamisesta päättävän viranomaisen tulee panna virantoimituksesta erottaminen vireille viimeistään kolmen kuukauden kuluessa siitä, kun viranomainen sai tiedon seikasta, joka saattaa aiheuttaa virantoimituksesta erottamisen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ennen kuin rajavartiomiehen virantoimituksesta erottamisesta tehdään päätös, hänelle on varattava tilaisuus tulla kuulluksi asiassa. Viranomaisen on varattava myös pääluottamusmiehelle tai luottamusmiehelle tilaisuus tulla kuulluksi, jos rajavartiomies sitä pyytää ja jos virantoimituksesta erottamista ei asian laadun vuoksi ole saatettava voimaan välittömästi. Viranomaisen on ennen päätöksen tekemistä ilmoitettava rajavartiomiehelle mahdollisuudesta pyytää pääluottamusmiehen tai luottamusmiehen kuulemista.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Muutoksenhausta päätökseen, joka koskee rajavartiomiehen määräaikaista virantoimituksesta erottamista, säädetään valtion virkamieslaissa.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 15 päivänä maaliskuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/204">HE 204/2006</ref>
+                        </p>
+                        <p>HaVM 33/2006</p>
+                        <p>EV 273/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 2 päivänä maaliskuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sisäasiainministeri </role>
+                                <person refersTo="">Kari Rajamäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

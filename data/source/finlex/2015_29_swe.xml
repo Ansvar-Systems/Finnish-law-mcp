@@ -1,0 +1,138 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/29/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/29"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/29/alkup"/>
+                    <FRBRdate date="2015-01-23" name="dateIssued"/>
+                    <FRBRdate date="2015-01-26" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="29"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/29/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/29/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/29/alkup/swe"/>
+                    <FRBRdate date="2015-01-23" name="dateIssued"/>
+                    <FRBRdate date="2015-01-26" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/29/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/29/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/29/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-01-26" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>29/2015</docNumber>
+                <docTitle>Lag om ändring av 13 § i lagen om behandling av personuppgifter i polisens verksamhet</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om behandling av personuppgifter i polisens verksamhet (
+                        <affectedDocument href="/akn/fi/act/statute/2003/761">761/2003</affectedDocument>
+                        ) 13 § 1 mom. 15 punkten, sådan den lyder i lag 1181/2013, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 13 § 1 mom., sådant det lyder i lagarna 1181/2013 och 427/2014, en ny 16 punkt och till 13 §, sådan den lyder i lagarna 1181/2013 och 427/2014, ett nytt 2 mom., varvid det nuvarande 2 och 3 mom. blir 3 och 4 mom., som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>13 §</num>
+                    <heading>Polisens rätt att få uppgifter ur vissa register och informationssystem</heading>
+                    <subsection>
+                        <intro>
+                            <p>Utöver vad som föreskrivs i någon annan lag har polisen trots sekretessbestämmelserna rätt att i enlighet med vad som avtalas om saken med den registeransvarige i fråga ur vissa register genom en teknisk anslutning eller som en datamängd få sådan information som polisen behöver för att utföra sina uppdrag och föra sina personregister, enligt följande:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>15)</num>
+                            <content>
+                                <p>ur det register över laddare som avses i 3 § i lagen om laddare (219/2000) uppgifter för övervaknings- och larmuppdrag samt för förhindrande, utredning och avslöjande av brott,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>16)</num>
+                            <content>
+                                <p>av samfund och sammanslutningar uppgifter ur register som gäller passagerare och fordons personal, för förhindrande, avslöjande och utredning av brott, för överlämnande till åtalsprövning samt för att nå efterlysta personer.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Polisen kan ålägga den av vilken polisen har rätt att få uppgifter som avses i 1 mom. 16 punkten att lämna uppgifterna inom en skälig tid. Polisen kan förena åläggandet med vite. Beslutet om föreläggande av vite ska iakttas även om ändring i beslutet söks. Vite får dock inte föreläggas om det finns skäl att misstänka någon för brott och det begärda materialet har samband med brottsmisstanken. Bestämmelser i övrigt om vite finns i viteslagen (1113/1990).</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 27 januari 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 168/2014</p>
+                        <p>FvUB 36/2014</p>
+                        <p>RSv 242/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 23 januari 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister</role>
+                                <person refersTo="">Päivi Räsänen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

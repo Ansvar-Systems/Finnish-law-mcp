@@ -1,0 +1,124 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2025/98/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/98"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/98/alkup"/>
+                    <FRBRdate date="2025-03-14" name="dateIssued"/>
+                    <FRBRdate date="2025-03-19" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="98"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2025/98/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/98/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/98/alkup/swe"/>
+                    <FRBRdate date="2025-03-14" name="dateIssued"/>
+                    <FRBRdate date="2025-03-19" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2025/98/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/98/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/98/alkup/swe/xml"/>
+                    <FRBRdate date="2025-12-09" name="dateProduced"/>
+                    <FRBRdate date="2025-03-19" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2025</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>98/2025</docNumber>
+                <docTitle>Lag om ändring av 3 § i lagen om behandling av personuppgifter vid Brottspåföljdsmyndigheten</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om behandling av personuppgifter vid Brottspåföljdsmyndigheten (<affectedDocument href="/akn/fi/act/statute/2021/1301">1301/2021</affectedDocument>) 3 § 3 punkten som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section eId="sec_3">
+                    <num>3 §</num>
+                    <heading>Definitioner</heading>
+                    <subsection eId="sec_3__subsec_1">
+                        <intro eId="sec_3__subsec_1__intro">
+                            <p>I denna lag avses med </p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3) </num>
+                            <content>
+                                <p>
+                                    <i>fånge</i>
+                                     den som avtjänar fängelsestraff, kombinationsstraff, förvandlingsstraff för böter eller arrest i fängelse med stöd av 74 § 4 mom. i lagen om militär disciplin och brottsbekämpning inom Försvarsmakten (89/2025) eller den som förpassats till fängelse på det sätt som avses i 26 § i lagen om övervakad frihet på prov (629/2013) eller den som tagits i förvar med stöd av 24 § i lagen om verkställighet av kombinationsstraff (801/2017),
+                                </p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 december 2025.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2023/82">RP 82/2023</ref>
+                        </p>
+                        <p>FsUB 2/2025</p>
+                        <p>RSv 2/2025</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 14 mars 2025</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Försvarsminister</role>
+                                <person refersTo="">Antti Häkkänen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

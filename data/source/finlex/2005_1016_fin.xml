@@ -1,0 +1,142 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1016/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1016"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1016/alkup"/>
+                    <FRBRdate date="2005-12-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1016"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1016/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1016/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1016/alkup/fin"/>
+                    <FRBRdate date="2005-12-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1016/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1016/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1016/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="171"/>
+                    <finlex:date date="2005-12-16"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1016/2005</docNumber>
+                <docTitle>Laki vakuutuskassalain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         27 päivänä marraskuuta 1992 annetun vakuutuskassalain (
+                        <affectedDocument href="/akn/fi/act/statute/1992/1164">1164/1992</affectedDocument>
+                        ) 168 ja 169 §, sellaisina kuin ne ovat, 168 § laissa 210/2004 ja 169 § osaksi viimeksi mainitussa laissa, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         165 c §:n 1 momentin 3 kohta, sellaisena kuin se on laissa 287/2000, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>165 c §</num>
+                    <subsection>
+                        <intro>
+                            <p>Sen estämättä, mitä 165 §:ssä säädetään, vakuutuskassalla on oikeus luovuttaa vaitiolovelvollisuuden piiriin kuuluvia tietoja:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>vakuutusalan lautakunnan tai vastaavan toimielimen palveluksessa tai sen jäsenenä olevalle sinne käsiteltäväksi saatetun asian hoitamista varten;</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 31 päivänä joulukuuta 2005.</p>
+                    <p>Lain täytäntöönpanon edellyttämiin toimenpiteisiin voidaan ryhtyä ennen lain voimaantuloa.</p>
+                    <p>Vakuutuskassojen yhdistys on selvitystilassa 1 päivästä tammikuuta 2006 alkaen.</p>
+                    <p>Yhdistyksen johdon tehtävät ja toiminta päättyvät lain voimaantulopäivänä. Yhdistyksen yhdistyskokouksen ja tilintarkastajien tehtävät eivät pääty yhdistyksen toiminnan päättyessä.</p>
+                    <p>Yhdistyksen yhdistyskokous valitsee hallituksen tilalle selvitysmiehen hoitamaan yhdistyksen asioita 1 päivästä tammikuuta 2006 lukien ja määrää hänen palkkionsa. Selvitysmiehen palkkio ja muut yhdistyksen toiminnan lopettamiseen liittyvät kustannukset maksetaan yhdistyksen varoista.</p>
+                    <p>Selvitysmies edustaa yhdistystä selvitystilan aikana. Yhdistyksen selvitys on hoidettava viipymättä. Selvitysmiehen on viipymättä haettava julkinen haaste yhdistyksen velkojille. Julkisen haasteen määräpäivän jälkeen selvitysmiehen on maksettava kaikki yhdistyksen tiedossa oleva velka.</p>
+                    <p>Selvitysmiehen on laadittava yhdistyksen tilinpäätös ja toimintakertomus vuodelta 2005 ja sen jälkeisiltä tilikausilta sekä lopputilitys selvityksen päätyttyä. Tilinpäätöksen ja lopputilityksen hyväksyy yhdistyskokous.</p>
+                    <p>Yhdistys katsotaan puretuksi, kun yhdistyskokous on hyväksynyt lopputilityksen. Yhdistyksen arkisto on säilytettävä Vakuutusvalvontaviraston hyväksymällä tavalla.</p>
+                    <p>Yhdistyksen purkautuessa jäljelle jäävä omaisuus on jaettava yhdistyksen sääntöjen mukaisesti.</p>
+                    <p>Kumotussa 169 §:ssä tarkoitetun vakuutuskassalautakunnan toiminta lopetetaan, kun lautakunnassa 30 päivänä kesäkuuta 2006 vireillä olevat asiat on käsitelty.</p>
+                    <p>Lautakunnan toiminnasta aiheutuvat kustannukset maksetaan vakuutuskassojen yhdistyksen varoista yhdistyksen selvitystilan aikana.</p>
+                    <p>Lautakunnan arkisto luovutetaan sosiaali- ja terveysministeriölle.</p>
+                    <p>Vakuutusvalvontaviraston tämän lain nojalla antamasta päätöksestä voidaan valittaa Helsingin hallinto-oikeuteen siten kuin Vakuutusvalvontavirastosta annetun lain (78/1999) 6 §:ssä säädetään.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/157">HE 157/2005</ref>
+                        </p>
+                        <p>StVM 25/2005</p>
+                        <p>EV 148/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 9 päivänä joulukuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

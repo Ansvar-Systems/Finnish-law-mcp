@@ -1,0 +1,163 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2025/64/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/64"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/64/alkup"/>
+                    <FRBRdate date="2025-02-28" name="dateIssued"/>
+                    <FRBRdate date="2025-03-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="64"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2025/64/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/64/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/64/alkup/swe"/>
+                    <FRBRdate date="2025-02-28" name="dateIssued"/>
+                    <FRBRdate date="2025-03-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2025/64/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/64/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/64/alkup/swe/xml"/>
+                    <FRBRdate date="2025-12-09" name="dateProduced"/>
+                    <FRBRdate date="2025-03-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2025</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>64/2025</docNumber>
+                <docTitle>Lag om ändring av utlänningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i utlänningslagen (<affectedDocument href="/akn/fi/act/statute/2004/301">301/2004</affectedDocument>) 35 § 3 mom., 109 §, 110 § 1 mom. och 113 § 2 mom.,
+                    </block>
+                    <block name="substitutions-originals">av dem 35 § 3 mom. sådant det lyder i lag 472/2024, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 110 § ett nytt 4 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section eId="sec_35">
+                    <num>35 §</num>
+                    <heading>Identifiering som villkor för beviljande av uppehållstillstånd</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Om sökanden har beviljats ett tidsbegränsat uppehållstillstånd med stöd av 87 eller 88 §, kan ett permanent uppehållstillstånd beviljas på dessa villkor trots att ett giltigt resedokument saknas.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section eId="sec_109">
+                    <num>109 §</num>
+                    <heading>Tillfälligt skydd </heading>
+                    <subsection eId="sec_109__subsec_1">
+                        <content>
+                            <p>Tillfälligt skydd kan ges en utlänning som är i behov av internationellt skydd och som inte tryggt kan återvända till sitt hemland eller sitt permanenta bosättningsland på grund av att en väpnad konflikt eller någon annan våldssituation eller en miljökatastrof har lett till massflykt från landet eller dess närområden. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_109__subsec_2">
+                        <content>
+                            <p>Statsrådet avgör vid sitt allmänna sammanträde vilken befolkningsgrupp som kan ges tillfälligt skydd och för vilken tid uppehållstillstånd kan beviljas på grund av tillfälligt skydd. Statsrådet kan ändra sitt beslut, om det inte längre finns behov av tillfälligt skydd.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_110">
+                    <num>110 §</num>
+                    <heading>Beviljande av uppehållstillstånd på grund av tillfälligt skydd</heading>
+                    <subsection eId="sec_110__subsec_1">
+                        <content>
+                            <p>En utlänning som är i behov av tillfälligt skydd beviljas tillfälligt uppehållstillstånd. Uppehållstillståndet gäller så länge det vid den aktuella tidpunkten tillämpliga statsrådsbeslut som avses i 109 § 2 mom. gäller. </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Det uppehållstillståndskort som utfärdats som intyg på uppehållstillstånd är giltigt under den tid uppehållstillståndet är i kraft. Som intyg på ett gällande uppehållstillstånd utfärdas på ansökan ett nytt uppehållstillståndskort. Ansökan om uppehållstillståndskort ska göras hos Migrationsverket. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_113">
+                    <num>113 §</num>
+                    <heading>Beviljande av kontinuerligt uppehållstillstånd</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>En utlänning som har beviljats uppehållstillstånd med stöd av 112 § 1 mom. 2 punkten beviljas kontinuerligt uppehållstillstånd efter tre års oavbruten vistelse i landet, om grunderna för beviljande av tillstånd fortfarande föreligger.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 5 mars 2025.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/199">RP 199/2024</ref>
+                        </p>
+                        <p>FvUB 1/2025</p>
+                        <p>RSv 5/2025</p>
+                        <p>rådets direktiv 2001/55/EG (32001L0055); EGT L 212, 7.8.2001, s. 12</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 28 februari 2025</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister</role>
+                                <person refersTo="">Mari Rantanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

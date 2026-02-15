@@ -1,0 +1,154 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/710/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/710"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/710/alkup"/>
+                    <FRBRdate date="2007-06-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="710"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/710/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/710/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/710/alkup/swe"/>
+                    <FRBRdate date="2007-06-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/710/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/710/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/710/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="107"/>
+                    <finlex:date date="2007-06-26"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>710/2007</docNumber>
+                <docTitle>Lag om ändring av ärvdabalken</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i ärvdabalken av den 5 februari 1965 (
+                        <affectedDocument href="/akn/fi/act/statute/1965/40">40/1965</affectedDocument>
+                        ) 17 kap. 2 a §, 20 kap. 4 § 1 mom. samt 21 kap. 1 § 1 mom. och 9 § 1 mom.,
+                    </block>
+                    <block name="substitutions-originals">sådana de lyder, 17 kap. 2 a § i lag 768/1991, 20 kap. 4 § 1 mom. och 21 kap. 1 § 1 mom. i lag 783/2004 samt 21 kap. 9 § 1 mom. i lag 471/2006, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>17 kap.</num>
+                    <heading>Om arvsavsägelse och överlåtelse av arvslott</heading>
+                    <section>
+                        <num>2 a §</num>
+                        <subsection>
+                            <content>
+                                <p>En arvinge och en testamentstagare har rätt att avsäga sig sitt arv efter arvlåtarens död, om de inte redan har tagit sådan befattning med boet att de skall anses ha tillträtt arvet. Avsägelsen skall ske skriftligen. Bestämmelser om avsägelsens bindande verkan mot arvingens och testamentstagarens borgenärer finns i konkurslagen (120/2004) och utsökningsbalken (705/2007).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>20 kap.</num>
+                    <heading>Om bouppteckning</heading>
+                    <section>
+                        <num>4 §</num>
+                        <subsection>
+                            <content>
+                                <p>Boets tillgångar och skulder skall antecknas i bouppteckningsinstrumentet sådana de var vid dödsfallet. I bouppteckningsinstrumentet skall också tillgångarnas värde anges.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>21 kap.</num>
+                    <heading>Om död persons och dödsbos gäld</heading>
+                    <section>
+                        <num>1 §</num>
+                        <subsection>
+                            <content>
+                                <p>Dödsboets och den avlidnes skulder betalas av boets medel.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <subsection>
+                            <content>
+                                <p>Innan det har gått en månad från bouppteckningen eller, om egendomen har överlåtits till förvaltning av boutredningsman, innan ett avtal har ingåtts eller ett beslut fattats av boutredningsmannen om betalning av skulderna enligt 19 kap. 12 a §, får en skuld efter den avlidne betalas med boets medel endast om det finns giltigt skäl att anta att betalningen inte orsakar övriga borgenärer skada. Bestämmelser om slutförande av utmätning av boets egendom finns i 4 kap. 76 § och 6 kap. 16 § 1 mom. i utsökningsbalken.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 83/2006</p>
+                        <p>LaUB 26/2006</p>
+                        <p>RSv 275/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 15 juni 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Tuija Brax </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

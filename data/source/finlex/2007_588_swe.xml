@@ -1,0 +1,175 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/588/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/588"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/588/alkup"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="588"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/588/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/588/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/588/alkup/swe"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/588/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/588/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/588/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="85"/>
+                    <finlex:date date="2007-05-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>588/2007</docNumber>
+                <docTitle>Lag om ändring av alkohollagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i alkohollagen av den 8 december 1994 (
+                        <affectedDocument href="/akn/fi/act/statute/1994/1143">1143/1994</affectedDocument>
+                        ) rubriken för 5 kap. och den finska språkdräkten i rubriken för 33 § samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 33 § 2 mom. en ny 1 a-punkt samt till lagen nya 33 a och 33 b § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>5 kap.</num>
+                    <heading>Reklam, prissättning och varningstexter</heading>
+                    <section>
+                        <num>33 §</num>
+                        <heading>Reglering av reklamen</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <intro>
+                                <p>Reklam och indirekt reklam för svaga alkoholdrycker och drycker som innehåller minst 1,2 volymprocent etylalkohol samt på konsumenterna inriktad annan verksamhet för främjande av försäljningen av sådana alkoholdrycker samt sammankoppling av sådant säljfrämjande med reklam eller säljfrämjande verksamhet för en annan produkt eller tjänst är förbjuden, om</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>1 a)</num>
+                                <content>
+                                    <p>den äger rum mellan klockan 7 och 21 i samband med televisionsverksamhet enligt lagen om televisions- och radioverksamhet (744/1998) eller i samband med offentlig visning i biografer av bildprogram som enligt lagen om granskning av bildprogram (775/2000) får visas för personer under 18 år,</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>33 a §</num>
+                        <heading>Prissättning och prisinformation</heading>
+                        <subsection>
+                            <content>
+                                <p>Det är förbjudet att i detaljhandeln eller vid servering erbjuda två eller flera förpackningar eller portioner alkoholdryck till ett nedsatt totalpris.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Det är förbjudet att utanför detaljhandelsställen och serveringsställen i fråga om förpackningar eller portioner alkoholdryck utannonsera priserbjudanden som varar kortare tid än två månader.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>33 b §</num>
+                        <heading>Varningstexter</heading>
+                        <subsection>
+                            <content>
+                                <p>En tillverkare, importör eller distributör av alkoholdrycker eller annan verksamhetsutövare som släpper ut en alkoholdryck på marknaden i Finland eller överlåter en sådan för användning i Finland skall se till att förpackningen är försedd med en allmän varningstext om produktens skadliga effekter på hälsan och en kompletterande varningstext om risken för fosterskada. Varningstexten skall vara avfattad på både finska och svenska.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Närmare bestämmelser om varningstextens innehåll, placering och storlek utfärdas genom förordning av social- och hälsovårdsministeriet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>I övrigt gäller för förpackningstexterna vad som särskilt bestäms om dem.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Förpackningar för alkoholdrycker behöver inte förses med varningstexter om dryckerna säljs ombord på finska fartyg eller luftfartyg i internationell trafik.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                    <p>Lagens 33 b § träder dock i kraft den 1 januari 2009.</p>
+                    <p>Alkoholdrycker som har tillverkats och förpackats före 33 b § träder i kraft får slutförsäljas.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 232/2006</p>
+                        <p>ShUB 58/2006</p>
+                        <p>RSv 294/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 11 maj 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Omsorgsminister </role>
+                                <person refersTo="">Paula Risikko</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,384 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/663/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/663"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/663/alkup"/>
+                    <FRBRdate date="2005-08-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="663"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/663/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/663/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/663/alkup/fin"/>
+                    <FRBRdate date="2005-08-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/663/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/663/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/663/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="115"/>
+                    <finlex:date date="2005-09-01"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>663/2005</docNumber>
+                <docTitle>Laki riita-asioiden sovittelusta yleisissä tuomioistuimissa</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 luku</num>
+                    <heading>Yleiset säännökset</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Soveltamisala</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Yleisissä tuomioistuimissa käsiteltäviä riita-asioita ja riitaisia hakemusasioita voidaan sovitella sen mukaan kuin tässä laissa säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Sovittelun tavoite</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <content>
+                                <p>Sovittelulla pyritään asian sovinnolliseen ratkaisuun.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <heading>Sovittelun edellytykset</heading>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <content>
+                                <p>Sovittelun edellytyksenä on, että asia soveltuu soviteltavaksi ja sovittelu on muuten tarkoituksenmukaista osapuolten vaatimuksiin nähden.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 luku</num>
+                    <heading>Menettely</heading>
+                    <section eId="chp_2__sec_4">
+                        <num>4 §</num>
+                        <heading>Sovittelun aloittaminen</heading>
+                        <subsection eId="chp_2__sec_4__subsec_1">
+                            <content>
+                                <p>Asia, joka ei ole tuomioistuimessa oikeudenkäyntiasiana käsiteltävänä, voidaan ottaa soviteltavaksi riidan osapuolen tai osapuolten hakemuksesta. Hakemus on tehtävä kirjallisesti ja siinä on selostettava, mitä riita koskee ja miten osapuolten näkemykset eroavat toisistaan. Lisäksi tulee ilmoittaa perusteet, joilla asia soveltuisi soviteltavaksi. Hakemuksessa on ilmoitettava osapuolet ja heidän yhteystietonsa noudattaen soveltuvin osin, mitä oikeudenkäymiskaaren 5 luvun 2 §:n 2 momentissa säädetään haastehakemuksesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_2">
+                            <content>
+                                <p>Asia, joka on tuomioistuimessa oikeudenkäyntiasiana käsiteltävänä, voidaan osoittaa soviteltavaksi asianosaisen tai asianosaisten pyynnöstä. Pyyntö on vapaamuotoinen, ja se on tehtävä ennen kuin asian valmistelu on todettu päättyneeksi.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_3">
+                            <content>
+                                <p>Sovittelun aloittaminen edellyttää kaikkien osapuolten suostumusta. Sovittelua koskeva pyyntö tai hakemus, jota eivät ole tehneet osapuolet yhdessä, on soveltuvalla tavalla annettava tiedoksi muille osapuolille ja heille on varattava tilaisuus tulla kuulluiksi pyynnön tai hakemuksen johdosta. Kuuleminen voi tapahtua suullisesti tai kirjallisesti.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_4">
+                            <content>
+                                <p>Tuomioistuin päättää sovittelun aloittamisesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Sovittelija ja sovittelijan avustaja</heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <content>
+                                <p>Asiaa sovittelemaan määrätään sovittelija. Sovittelijana toimii asiaa käsittelevän tuomioistuimen tuomari.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_2">
+                            <content>
+                                <p>Sovittelun kohteena olevassa asiassa tarvittavan asiantuntemuksen turvaamiseksi tai sovittelun edistämiseksi muuten sovittelija voi osapuolten suostumuksella käyttää avustajaa. Sovittelija nimeää avustajan saatuaan valinnalle osapuolten hyväksymisen. Avustajan palkkion ja korvauksen hänen kuluistaan suorittavat osapuolet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Sovittelun toteutus</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>Sovittelu on toteutettava joutuisasti sekä tasapuolisuutta ja puolueettomuutta noudattaen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_2">
+                            <content>
+                                <p>Sovittelijan tulee kuulla osapuolia ja neuvotella heidän kanssaan. Osapuolten suostumuksella voidaan kuulla muitakin henkilöitä ja esittää muuta selvitystä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_3">
+                            <content>
+                                <p>Sovittelija voi neuvotella osapuolen kanssa muiden osapuolten läsnä olematta, jos osapuolet tähän suostuvat.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_4">
+                            <content>
+                                <p>Menettelyn lähemmästä järjestämisestä sovittelija päättää osapuolten kanssa neuvoteltuaan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Sovinnon aikaansaaminen</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>Sovittelijan tulee auttaa osapuolia heidän pyrkimyksessään päästä yhteisymmärrykseen ja sovinnolliseen ratkaisuun.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_7__subsec_2">
+                            <content>
+                                <p>Osapuolten pyynnöstä tai suostumuksella sovittelija voi tehdä ehdotuksen asian sovinnolliseksi ratkaisemiseksi. Ehdotus voidaan perustaa siihen, minkä sovittelija harkitsee kohtuulliseksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_8">
+                        <num>8 §</num>
+                        <heading>Sovinnon vahvistaminen</heading>
+                        <subsection eId="chp_2__sec_8__subsec_1">
+                            <content>
+                                <p>Sovittelussa voidaan vahvistaa ratkaisuksi osapuolten hyväksymä sovinto.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_8__subsec_2">
+                            <content>
+                                <p>Sovinnon vahvistamisesta ja sovinnosta on vastaavasti voimassa, mitä laissa säädetään sovinnosta oikeudenkäynnissä. Sovittelussa vahvistettava sovinto voi kuitenkin koskea myös muuta kuin osapuolten alkuperäiset vaatimukset.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_9">
+                        <num>9 §</num>
+                        <heading>Sovittelun päättyminen</heading>
+                        <subsection eId="chp_2__sec_9__subsec_1">
+                            <intro eId="chp_2__sec_9__subsec_1__intro">
+                                <p>Sovittelu päättyy, kun:</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_9__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>asiassa vahvistetaan sovinto tai osapuolet ilmoittavat sovittelijalle muuten sopineensa asian;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_9__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>osapuoli ilmoittaa sovittelijalle, että ei halua asiaa enää soviteltavan; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_9__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>sovittelija päättää osapuolia kuultuaan, että sovittelun jatkaminen ei ole enää perusteltua.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_2__sec_9__subsec_2">
+                            <content>
+                                <p>Sovittelun päättymisestä 1 momentin 2 ja 3 kohdan mukaisesti sovittelijan on ilmoitettava osapuolille.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_9__subsec_3">
+                            <content>
+                                <p>Sovittelun päättyessä tuomioistuimessa myös oikeudenkäyntiasiana käsiteltävänä olevassa asiassa 1 momentin 2 tai 3 kohdan mukaisesti asian käsittelyä jatketaan riita-asian käsittelystä säädetyssä järjestyksessä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 luku</num>
+                    <heading>Erinäisiä säännöksiä</heading>
+                    <section eId="chp_3__sec_10">
+                        <num>10 §</num>
+                        <heading>Toimivaltainen tuomioistuin</heading>
+                        <subsection eId="chp_3__sec_10__subsec_1">
+                            <content>
+                                <p>Asiaa sovittelemaan toimivaltainen on se tuomioistuin, joka on toimivaltainen käsittelemään asian oikeudenkäynnissä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_10__subsec_2">
+                            <content>
+                                <p>Tuomioistuin on päätösvaltainen sovittelun aloittamista ja sovittelua koskevassa asiassa siinä kokoonpanossa, jossa tuomioistuin päättää asian valmisteluun liittyvistä toimista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_11">
+                        <num>11 §</num>
+                        <heading>Osapuolten edustaminen</heading>
+                        <subsection eId="chp_3__sec_11__subsec_1">
+                            <content>
+                                <p>Osapuolten edustamisesta sovittelussa on voimassa, mitä laissa säädetään asianosaisen puhevallan käyttämisestä oikeudenkäynnissä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_11__subsec_2">
+                            <content>
+                                <p>Osapuolen oikeudesta käyttää sovittelussa avustajaa ja asiamiestä sekä avustajan ja asiamiehen kelpoisuudesta on voimassa, mitä laissa säädetään oikeudenkäyntiavustajasta ja -asiamiehestä riita-asiassa. Sovittelun edistämiseksi sovittelija voi osapuolen esittämästä perustellusta syystä kuitenkin hyväksyä tämän avustajaksi tai asiamieheksi muunkin kuin oikeudenkäymiskaaren 15 luvun 2 §:ssä tarkoitetun tutkinnon suorittaneen henkilön, joka ei ole konkurssissa ja jonka toimintakelpoisuutta ei ole rajoitettu.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_12">
+                        <num>12 §</num>
+                        <heading>Menettelyn julkisuus</heading>
+                        <subsection eId="chp_3__sec_12__subsec_1">
+                            <content>
+                                <p>Sovittelun, siinä käsiteltävien asiakirjojen ja sovinnon julkisuudesta on soveltuvin osin voimassa, mitä oikeudenkäynnin julkisuudesta annetussa laissa (945/1984) säädetään. Yleisö ei kuitenkaan saa olla läsnä 6 §:n 3 momentissa tarkoitetussa tilaisuudessa, jossa sovittelija neuvottelee vain toisen osapuolen kanssa. Osapuolen pyynnöstä myös jokin muu osa sovittelusta on toimitettava yleisön läsnä olematta, jos sovinnon saavuttaminen muutoin voisi vaarantua eikä luottamus sovittelun asianmukaisuuteen tai muu painava syy edellytä asian julkista käsittelyä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_13">
+                        <num>13 §</num>
+                        <heading>Vetoamiskielto</heading>
+                        <subsection eId="chp_3__sec_13__subsec_1">
+                            <content>
+                                <p>Osapuoli ei saa asian myöhemmässä käsittelyssä ilman vastapuolen suostumusta vedota siihen, mitä tämä on sovintoon pääsemiseksi esittänyt sovittelussa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_14">
+                        <num>14 §</num>
+                        <heading>Sovittelun kustannukset</heading>
+                        <subsection eId="chp_3__sec_14__subsec_1">
+                            <content>
+                                <p>Osapuoli vastaa sovittelusta hänelle aiheutuvista kustannuksista itse.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_14__subsec_2">
+                            <content>
+                                <p>Osapuoli ei voi oikeudenkäynnissä vaatia vastapuolelta korvausta hänelle sovittelusta aiheutuneista kustannuksista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_15">
+                        <num>15 §</num>
+                        <heading>Sovittelijan esteellisyys</heading>
+                        <subsection eId="chp_3__sec_15__subsec_1">
+                            <content>
+                                <p>Sovittelijan ja hänen avustajansa esteellisyydestä on voimassa, mitä tuomarin esteellisyydestä säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_15__subsec_2">
+                            <content>
+                                <p>Sovittelija ei saa käsitellä tuomarina oikeudenkäynnissä asiaa, jossa hän on toiminut sovittelijana.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_16">
+                        <num>16 §</num>
+                        <heading>Muutoksenhakukielto</heading>
+                        <subsection eId="chp_3__sec_16__subsec_1">
+                            <content>
+                                <p>Päätökseen, jolla sovittelu aloitetaan, sovittelua koskeva pyyntö hylätään tai sovittelu todetaan päättyneeksi, ei saa hakea muutosta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_17">
+                        <num>17 §</num>
+                        <heading>Maksut</heading>
+                        <subsection eId="chp_3__sec_17__subsec_1">
+                            <content>
+                                <p>Asian sovittelemista tämän lain mukaisesti tarkoittavan hakemuksen tai pyynnön käsittelemisestä perittävistä maksuista säädetään tuomioistuinten ja eräiden oikeushallintoviranomaisten suoritteista perittävistä maksuista annetussa laissa (701/1993) ja sen nojalla annetussa asetuksessa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_18">
+                        <num>18 §</num>
+                        <heading>Lapsen asemaa ja oikeutta koskevat asiat</heading>
+                        <subsection eId="chp_3__sec_18__subsec_1">
+                            <content>
+                                <p>Lapsen asemaa ja oikeutta koskevista asioista voidaan tämän lain mukaisesti sovitella niitä, jotka koskevat lapsen elatusta tai lapsen huoltoa ja tapaamisoikeutta. Sovittelu on toteutettava siten, että lapsen etu turvataan. Harkitessaan, voidaanko sovinto vahvistaa, tuomioistuimen on otettava huomioon lapsen huollosta ja tapaamisoikeudesta annetun lain (361/1983) sekä lapsen elatuksesta annetun lain (704/1975) säännökset.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_18__subsec_2">
+                            <content>
+                                <p>Sovinto, joka vahvistetaan 1 momentin mukaisesti sovitellussa asiassa, rinnastetaan tuomioistuimen päätökseen tai tuomioon näissä asioissa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_19">
+                        <num>19 §</num>
+                        <heading>Suhde muihin säännöksiin</heading>
+                        <subsection eId="chp_3__sec_19__subsec_1">
+                            <content>
+                                <p>Tämän lain estämättä noudatetaan, mitä muualla laissa säädetään sovinnon aikaansaamisesta ja vahvistamisesta oikeudenkäynnissä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <section eId="sec_20">
+                    <num>20 §</num>
+                    <heading>Voimaantulo</heading>
+                    <subsection eId="sec_20__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/114">HE 114/2004</ref>
+                        </p>
+                        <p>LaVM 4/2005</p>
+                        <p>EV 64/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 26 päivänä elokuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Johannes Koskinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

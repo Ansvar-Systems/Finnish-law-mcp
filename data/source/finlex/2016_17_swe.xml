@@ -1,0 +1,146 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/17/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/17"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/17/alkup"/>
+                    <FRBRdate date="2016-01-08" name="dateIssued"/>
+                    <FRBRdate date="2016-01-12" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="17"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/17/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/17/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/17/alkup/swe"/>
+                    <FRBRdate date="2016-01-08" name="dateIssued"/>
+                    <FRBRdate date="2016-01-12" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/17/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/17/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/17/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-01-12" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>17/2016</docNumber>
+                <docTitle>Lag om ändring av 7 och 31 § i lagen om behandling av personuppgifter vid Brottspåföljdsmyndigheten</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om behandling av personuppgifter vid Brottspåföljdsmyndigheten (
+                        <affectedDocument href="/akn/fi/act/statute/2015/1069">1069/2015</affectedDocument>
+                        ) 7 § 1 mom. 9 punkten och 31 § 1 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 7 § 1 mom. en ny 10 punkt som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>7 §</num>
+                    <heading>Övervaknings- och verksamhetsregistret</heading>
+                    <subsection>
+                        <intro>
+                            <p>Övervaknings- och verksamhetsregistret innehåller uppgifter som behövs för upprätthållandet av anstaltsordningen samt för övervakningen av fångar och intagna i en enhet vid Brottspåföljdsmyndigheten och för deras deltagande i verksamheten. Dessa uppgifter i fråga om fångar och intagna i en enhet vid Brottspåföljdsmyndigheten är</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>9) </num>
+                            <content>
+                                <p>uppgifter om rymning och otillåten avvikelse från öppen anstalt samt om brott mot villkoren för tillstånd att avlägsna sig, mot tillstånd till studier och tillstånd till civilt arbete samt om brott mot villkoren för placering i en anstalt utanför en enhet vid Brottspåföljdsmyndigheten,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>10) </num>
+                            <content>
+                                <p>uppgifter om en anmälan till målsäganden om att en fånge eller en intagen har frigivits eller avlägsnat sig från fängelset eller någon annan förvaringslokal samt om målsägandens begäran om detta och målsägandens kontaktinformation. </p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>31 §</num>
+                    <heading>Inskränkningar i rätten till insyn</heading>
+                    <subsection>
+                        <content>
+                            <p>Utöver vad som föreskrivs i personuppgiftslagen kan den registrerades rätt till insyn begränsas, om utövande av rätten till insyn på sannolika grunder kan leda till ett allvarligt hot mot ordningen och säkerheten i en enhet vid Brottspåföljdsmyndigheten eller mot säkerheten för en anställd vid Brottspåföljdsmyndigheten eller för någon annan. Den registrerade har inte rätt till insyn i uppgifter i säkerhetsregistret eller i de uppgifter om målsägande enligt 7 § 1 mom. 10 punkten i denna lag som ingår i övervaknings- och verksamhetsregistret. </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/66">RP 66/2015</ref>
+                        </p>
+                        <p>LaUB 4/2015</p>
+                        <p>RSv 83/2015</p>
+                        <p>Europaparlamentets och rådets direktiv 2012/29/EU (32012L0029); EUT L 315, 14.11.2012, s. 57</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 8 januari 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitie- och arbetsminister</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

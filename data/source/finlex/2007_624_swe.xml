@@ -1,0 +1,171 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/624/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/624"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/624/alkup"/>
+                    <FRBRdate date="2007-05-25" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="624"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/624/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/624/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/624/alkup/swe"/>
+                    <FRBRdate date="2007-05-25" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/624/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/624/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/624/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="91"/>
+                    <finlex:date date="2007-05-31"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>624/2007</docNumber>
+                <docTitle>Lag om ändring av elmarknadslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i elmarknadslagen av den 17 mars 1995 (
+                        <affectedDocument href="/akn/fi/act/statute/1995/386">386/1995</affectedDocument>
+                        ) 17 § 3 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 3 §, sådan den lyder delvis ändrad i lagarna 332/1998, 466/1999, 444/2003 och 1172/2004, en ny 10 punkt, i stället för den 10 punkt som upphävts genom nämnda lag 444/2003, samt till lagen en ny 14 b §, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Definitioner</heading>
+                    <subsection>
+                        <intro>
+                            <p>I denna lag avses med</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>10)</num>
+                            <content>
+                                <p>
+                                    <i>småskalig elproduktion</i>
+                                     en helhet som utgörs av en eller flera elproduktionsanläggningar och som ansluts till ett elnät med en nominell spänning på högst 20 kilovolt,
+                                </p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>14 b §</num>
+                    <heading>Specialbestämmelser som gäller nättjänsteavgifter för elproduktion</heading>
+                    <subsection>
+                        <intro>
+                            <p>På prissättningen av de nättjänster som elproduktionen använder tillämpas utan hinder av övriga bestämmelser i detta kapitel följande:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>i den avgift som tas ut för anslutning av småskalig elproduktion till ett elnät får inte inbegripas kostnader som föranleds av att elnätet förstärks,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>med de överföringsavgifter som tas ut för elproduktionen i distributionsnätet skall en relativt sett mindre andel av kostnaderna för elnätet täckas än med de överföringsavgifter som tas ut för elförbrukning.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Genom förordning av statsrådet kan närmare bestämmelser utfärdas, i vilka föreskrivs om överföringsavgifterna för elproduktionen och om hur de bestäms i distributionsnätet samt om de till den överförda energimängden relaterade gränsvärden som skall ställas för överföringsavgifterna för elproduktionen och som skall följas av distributionsnätsinnehavaren.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>17 §</num>
+                    <heading>Byggande av distributionsnät</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>De nät som avses i 2 mom. skall med rimliga anslutningsvillkor anslutas till nätinnehavarens nät, om de uppfyller de rimliga tekniska krav som nätinnehavaren har ställt. Nätinnehavaren har rätt att uppbära en skälig ersättning för att täcka kostnaderna för anslutandet av nätet och för användningen av det på det sätt som föreskrivs i 3 kap.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 februari 2008.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 181/2006</p>
+                        <p>EkUB 35/2006</p>
+                        <p>RSv 305/2006</p>
+                        <p>Europaparlamentets och rådets direktiv 2001/77/EG, (32001L0077); EGT nr L 283, 27.10.2001, s. 33</p>
+                        <p>Europaparlamentets och rådets direktiv 2003/54/EG, (32003L0054); EGT nr L 176, 15.7.2003, s. 37</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 25 maj 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Mari Kiviniemi</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

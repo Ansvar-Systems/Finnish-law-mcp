@@ -1,0 +1,228 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/659/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/659"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/659/alkup"/>
+                    <FRBRdate date="2015-05-22" name="dateIssued"/>
+                    <FRBRdate date="2015-05-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="659"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/659/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/659/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/659/alkup/swe"/>
+                    <FRBRdate date="2015-05-22" name="dateIssued"/>
+                    <FRBRdate date="2015-05-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/659/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/659/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/659/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-05-28" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>659/2015</docNumber>
+                <docTitle>Lag om ändring av lagen om utlämning för brott mellan Finland och de övriga nordiska länderna</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om utlämning för brott mellan Finland och de övriga nordiska länderna (
+                        <affectedDocument href="/akn/fi/act/statute/2007/1383">1383/2007</affectedDocument>
+                        ) 8 och 9 §, 25 § 2 mom., 26 § 1 mom. samt 34—39 §, av dem 8 § sådan den lyder i lag 290/2013 och 9 § sådan den lyder i lag 1761/2009, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 27 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>8 §</num>
+                    <heading>Behörig domstol</heading>
+                    <subsection>
+                        <content>
+                            <p>Beslut om utlämning och fortsatt förvar fattas av Helsingfors tingsrätt.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <heading>Behöriga åklagare</heading>
+                    <subsection>
+                        <content>
+                            <p>Om inte något annat föreskrivs i denna lag, är häradsåklagarna inom domkretsen för Helsingfors tingsrätt behöriga att sköta de åklagaruppgifter som avses i denna lag.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Av särskilda skäl kan också någon annan åklagare än en sådan som avses i 1 mom. vara behörig åklagare.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>25 §</num>
+                    <heading>Närvaro vid sammanträdet</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Om den som begärs utlämnad har tagits i förvar, ska han eller hon höras vid tingsrättens sammanträde med anledning av innehållet i åklagarens framställning.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>26 §</num>
+                    <heading>Samtycke</heading>
+                    <subsection>
+                        <content>
+                            <p>Den som begärs utlämnad ska vid tingsrättens sammanträde meddela om han eller hon samtycker till utlämningen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>27 a §</num>
+                    <heading>Hörande via videoförbindelse</heading>
+                    <subsection>
+                        <content>
+                            <p>Om tingsrätten anser att det är lämpligt, kan videokonferens eller någon annan lämplig teknisk metod för dataöverföring där de som deltar i behandlingen har sådan kontakt att de kan tala med och se varandra användas vid behandlingen av ett utlämningsärende. Om tingsrätten anser att det behövs, ska den som begärs utlämnad ändå hämtas till domstolen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>34 §</num>
+                    <heading>Rätt att söka ändring</heading>
+                    <subsection>
+                        <content>
+                            <p>Ett beslut om utlämning som tingsrätten har fattat får överklagas genom besvär hos högsta domstolen, om högsta domstolen meddelar besvärstillstånd med stöd av 30 kap. 3 § i rättegångsbalken.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>35 §</num>
+                    <heading>Ändringsansökan</heading>
+                    <subsection>
+                        <content>
+                            <p>Den som vill söka ändring i tingsrättens beslut om utlämning ska inom sju dagar från beslutet tillställa tingsrätten en till högsta domstolen riktad fullföljdsskrift, som ska innehålla tillståndsansökan och de besvär som anförs. En ändringsansökan som inte har gjorts inom den föreskrivna tiden tas inte upp till prövning.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>36 §</num>
+                    <heading>Bemötande av ändringsansökan</heading>
+                    <subsection>
+                        <content>
+                            <p>Ändringssökandens motpart har rätt att skriftligen bemöta ändringsansökan. För avgivande av bemötande får motparten från tingsrätten kopior av fullföljdsskriften och av de handlingar som fogats till den. Tiden för inlämnande av bemötande är sju dagar från den dag då besvärstiden löper ut. Motparten ska inom denna tid tillställa tingsrätten ett skriftligt bemötande. Ändringssökanden får från tingsrätten en kopia av bemötandet och av de handlingar som fogats till det.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>37 §</num>
+                    <heading>Översändande av handlingarna till högsta domstolen</heading>
+                    <subsection>
+                        <content>
+                            <p>Utan dröjsmål efter det att fullföljdsskriften med bilagor har inkommit till tingsrätten ska tingsrätten sända dessa till högsta domstolen tillsammans med akten i ärendet och en kopia av tingsrättens beslut. Likaså ska bemötandet med bilagor sändas till högsta domstolen utan dröjsmål efter det att de har inkommit.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>38 §</num>
+                    <heading>Domförhet och skyndsam behandling</heading>
+                    <subsection>
+                        <content>
+                            <p>Högsta domstolen kan behandla och avgöra ett utlämningsärende på en avdelning med tre ledamöter.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Högsta domstolen ska behandla utlämningsärendet skyndsamt. Ärendet ska avgöras inom sju dagar från det att tiden för ingivande av bemötande har löpt ut.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om tidsfristen i 2 mom. av särskilda skäl inte kan iakttas, ska ärendet avgöras så snart som möjligt.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>39 §</num>
+                    <heading>Övriga bestämmelser</heading>
+                    <subsection>
+                        <content>
+                            <p>Om inte något annat följer av annan lagstiftning, tillämpas på ändringssökandet i övrigt de bestämmelser i 30 kap. i rättegångsbalken som gäller fullföljd i ett ärende som hovrätten handlagt i andra instans. På behandlingen av ett ärende i högsta domstolen tillämpas också i tillämpliga delar de bestämmelser i denna lag som gäller behandlingen av ärenden i tingsrätten.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016.</p>
+                    <p>På ärenden där den som begärs utlämnad har gripits eller annars påträffats före ikraftträdandet av denna lag tillämpas de bestämmelser som gällde vid ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 231/2014</p>
+                        <p>LaUB 34/2014</p>
+                        <p>RSv 340/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 22 maj 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister</role>
+                                <person refersTo="">Anna-Maja Henriksson</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

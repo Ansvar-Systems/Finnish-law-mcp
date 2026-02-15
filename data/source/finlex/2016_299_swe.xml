@@ -1,0 +1,115 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/299/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/299"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/299/alkup"/>
+                    <FRBRdate date="2016-04-22" name="dateIssued"/>
+                    <FRBRdate date="2016-04-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="299"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/299/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/299/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/299/alkup/swe"/>
+                    <FRBRdate date="2016-04-22" name="dateIssued"/>
+                    <FRBRdate date="2016-04-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/299/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/299/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/299/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-04-28" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>299/2016</docNumber>
+                <docTitle>Lag om ändring av 14 e § i en lag om ändring av lagen om utkomststöd</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om ändring av lagen om utkomststöd (
+                        <affectedDocument href="/akn/fi/act/statute/2015/815">815/2015</affectedDocument>
+                        ) 14 e § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>14 e § </num>
+                    <heading>En utkomststödsklients rätt till personligt samtal</heading>
+                    <subsection>
+                        <content>
+                            <p>En utkomststödsklient ska ges tillfälle till ett personligt samtal med en socialarbetare eller socionom i kommunen eller, när det gäller beviljande av grundläggande utkomststöd, med en tjänsteman vid Folkpensionsanstalten senast den sjunde vardagen efter det att klienten har begärt detta av kommunen eller, när ärendet gäller grundläggande utkomststöd, av Folkpensionsanstalten. När kommunen eller Folkpensionsanstalten behandlar ett ärende som gäller utkomststöd ska den meddela utkomststödsklienten om rätten till personligt samtal och vid behov ge klienten handledning i hur rätten utövas.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2017.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2016/14">RP 14/2016</ref>
+                        </p>
+                        <p>ShUB 3/2016</p>
+                        <p>RSv 26/2016</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 22 april 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Familje- och omsorgsminister</role>
+                                <person refersTo="">Juha Rehula</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

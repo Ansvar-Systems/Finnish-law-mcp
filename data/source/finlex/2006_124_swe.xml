@@ -1,0 +1,130 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/124/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/124"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/124/alkup"/>
+                    <FRBRdate date="2006-02-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="124"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/124/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/124/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/124/alkup/swe"/>
+                    <FRBRdate date="2006-02-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/124/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/124/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/124/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="21"/>
+                    <finlex:date date="2006-02-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>124/2006</docNumber>
+                <docTitle>Lag om ändring av 7 § och 9 § i lagen om parkeringsbot</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 3 april 1970 om parkeringsbot (
+                        <affectedDocument href="/akn/fi/act/statute/1970/248">248/1970</affectedDocument>
+                        ) 7 § 1 mom. och 9 §, av dem 7 § 1 mom. sådant det lyder i lag 969/2001, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>7 §</num>
+                    <subsection>
+                        <content>
+                            <p>Parkeringsboten är oberoende av felets art 10 euro. Genom förordning av inrikesministeriet kan botens belopp dock höjas till högst 40 euro, om detta anses nödvändigt av trafikskäl. Förhöjningen kan även avse en kommun eller ett visst område i en kommun. Har en kommun delat in sitt område i zoner eller delar inom vilka parkeringsavgifter av olika storlek tas ut, kan maximibeloppet av den förhöjda parkeringsboten inom den zon eller den del som har den högsta avgiften genom förordning av inrikesministeriet överskridas med högst 10 euro.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <subsection>
+                        <content>
+                            <p>Fordons förare skall meddelas skriftlig anmaning att betala boten inom två veckor från det anmaningen gavs. Anträffas föraren inte, kan betalningsanmaningen anbringas på ett synligt ställe på fordonet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Har betalningsanmaning inte kunnat tillställas fordonets förare på det sätt som anges i 1 mom., skall parkeringsövervakaren utan dröjsmål delge fordonets ägare eller innehavare, som är ansvarig för betalningen av boten, anmaning att erlägga boten inom två veckor från delfåendet.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juni 2006.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft. </p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 168/2005</p>
+                        <p>LM 119/2003</p>
+                        <p>KoUB 29/2005</p>
+                        <p>RSv 205/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 17 februari 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

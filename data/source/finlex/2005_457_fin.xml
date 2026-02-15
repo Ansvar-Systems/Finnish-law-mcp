@@ -1,0 +1,341 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/457/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/457"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/457/alkup"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="457"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/457/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/457/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/457/alkup/fin"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/457/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/457/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/457/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="83"/>
+                    <finlex:date date="2005-06-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>457/2005</docNumber>
+                <docTitle>Laki yhteistoiminnasta yrityksissä annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         yhteistoiminnasta yrityksissä 22 päivänä syyskuuta 1978 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1978/725">725/1978</affectedDocument>
+                        ) 2 §:n 2 momentti, 7, 7 a ja 7 b §, 8 §:n 1―3 ja 5 momentti, 14 §:n 1 momentti, 15 a §:n 1 momentti ja 16 §:n 1 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 2 §:n 2 momentti ja 7 b § laissa 236/1993, 7 § osaksi laissa 906/1996, 7 a § laeissa 724/1988 ja 723/1997 sekä mainitussa laissa 906/1996, 8 §:n 1―3 ja 5 momentti ja 15 a §:n 1 momentti mainitussa laissa 906/1996, 14 §:n 1 momentti laissa 139/2005 ja 16 §:n 1 momentti laissa 614/1996, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         6 b §:ään sellaisena kuin se on mainituissa laeissa 724/1988 ja 723/1997, uusi 3 momentti, jolloin nykyinen 3 ja 4 momentti siirtyvät 4 ja 5 momentiksi, ja lakiin uusi 7 c ja 7 d §, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Soveltamisala</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Tätä lakia, lukuun ottamatta 6 b §:n 3 momenttia, 7 d §:n 3 momenttia, 8 ja 15 a §:ää, sovelletaan 6 §:n 3 b kohdassa tarkoitettuihin tuotannollisista ja taloudellisista syistä toimeenpantaviin irtisanomisiin sekä niihin liittyviin koulutus- ja uudelleensijoitusratkaisuihin myös yrityksessä, jonka työsuhteessa olevan henkilöstön määrä säännöllisesti on vähemmän kuin 30 mutta vähintään 20, milloin työnantaja harkitsee vähintään 10 työntekijän irtisanomista.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>6 b §</num>
+                    <heading>Henkilöstö- ja koulutussuunnitelmat</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos työnantaja irtisanoo työntekijöitä taloudellisin tai tuotannollisin perustein, on henkilöstö- ja koulutussuunnitelmaan tehtävä tarvittavat muutokset irtisanomisia koskevan yhteistoimintamenettelyn yhteydessä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>7 §</num>
+                    <heading>Yhteistoimintamenettely</heading>
+                    <subsection>
+                        <content>
+                            <p>Ennen kuin työnantaja ratkaisee 6 §:ssä tarkoitetun asian, hänen on neuvoteltava toimenpiteen perusteista, vaikutuksista ja vaihtoehdoista niiden työntekijöiden ja toimihenkilöiden tai henkilöstön edustajien kanssa, joita asia koskee.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Määrättyä työntekijää tai toimihenkilöä koskeva asia käsitellään ensisijaisesti työnantajan ja tämän henkilön välillä. Milloin työnantaja taikka työntekijä tai toimihenkilö häntä koskevassa kysymyksessä sitä vaatii, on asiasta neuvoteltava myös työnantajan ja asianomaisen henkilöstön edustajan kesken.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Milloin yhteistoimintamenettelyn piiriin kuuluva kysymys koskee yrityksen jonkin toimintayksikön tai työosaston työntekijöitä tai toimihenkilöitä yleisesti, käsitellään asia asianomaisen henkilöstön edustajan kanssa. Jos tällainen asia koskee yhtä useampaa henkilöstöryhmää, tulee 1 momentissa tarkoitettu neuvottelu järjestää yhteisessä kokouksessa, johon osallistuu edustaja kustakin henkilöstöryhmästä. Tällaista kokousta ei kuitenkaan järjestetä silloin, kun asia käsitellään 4 §:ssä tarkoitetussa neuvottelukunnassa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Sen lisäksi, mitä edellä tässä pykälässä säädetään, kuuluu yhteistoimintamenettelyyn, että:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>edellä 6 §:n 10 kohdassa tarkoitetut työsäännöt ja niihin verrattavat muut määräykset tulevat noudatettaviksi vasta sen jälkeen, kun niistä on sovittu tämän lain mukaisessa yhteistoimintamenettelyssä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>edellä 6 §:n 12 kohdassa tarkoitetun yhteistyökoulutuksen sisältöä ja määrää koskevat toimenpiteet suoritetaan sen mukaisesti kuin niistä on tämän lain mukaisessa yhteistoimintamenettelyssä sovittu; sekä että</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>edellä 6 §:n 14 kohdassa tarkoitetuissa sosiaalitoiminnan alaan kuuluvissa asioissa päätös tehdään, jollei sen sisällöstä sovita, sen mukaan, mitä henkilöstön edustajat tai, milloin päätös koskee vain jotakin henkilöstöryhmää, tämän ryhmän edustajat asiasta päättävät.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Yhteistoimintamenettelyn yhteydessä on 4 §:ssä tarkoitetulla neuvottelukunnalla ja 3 momentissa tarkoitetulla yhteisellä kokouksella sekä henkilöstön edustajalla oikeus kuulla asiantuntijana asianomaisessa toimintayksikössä työskentelevää henkilöä ja saada tietoja muiltakin yrityksen asiantuntijoilta, jos tämä on muutoin mahdollista. Henkilöstön edustajilla, jos siitä on sovittu työnantajan kanssa, on sama oikeus heidän valmistautuessaan 3 momentissa tarkoitettuun yhteiseen kokoukseen taikka 4 §:ssä tarkoitettuun neuvottelukunnan kokoukseen. Tällaisille asiantuntijoille annetaan vapautusta työstä ja maksetaan korvaus ansionmenetyksestä siten kuin 13 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 a §</num>
+                    <heading>Neuvotteluesitys</heading>
+                    <subsection>
+                        <content>
+                            <p>Työnantajan on annettava 6 §:n 1―5 kohdassa tarkoitetussa asiassa kirjallinen neuvotteluesitys vähintään kolme päivää ennen neuvottelujen alkamista, jollei toisin sovita.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos yhteistoimintamenettelyssä käsiteltävä 6 §:n 1―5 kohdassa tarkoitettu toimenpide ilmeisesti johtaa yhden tai useamman työntekijän tai toimihenkilön irtisanomiseen, lomauttamiseen tai osa-aikaistamiseen, työnantajan on annettava neuvotteluesitys vähintään viisi päivää ennen neuvottelujen alkamista.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Neuvotteluesityksestä tulee käydä ilmi neuvottelujen alkamisajan ja -paikan lisäksi tiedot siitä, mitä asioita neuvotteluissa on tarkoitus käsitellä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kun henkilöstön edustaja pyytää yhteistoimintamenettelyn aloittamista 6 §:n 1―5 kohdassa tarkoitetussa asiassa, työnantajan on annettava 1―3 momentissa tarkoitettu neuvotteluesitys tai kirjallinen ilmoitus siitä, millä perusteella yhteistoimintamenettelyä ei pidetä tarpeellisena.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 6 a §:ssä tarkoitetussa asiassa neuvotteluesitys on tehtävä viikon kuluessa luovutuksesta, jakautumisesta tai sulautumisesta, jollei neuvotteluja ole aloitettu tätä ennen. Neuvotteluesityksen tekemisestä ja neuvottelujen aloittamisesta on muutoin voimassa, mitä 1―3 momentissa säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 b §</num>
+                    <heading>Työnantajan annettavat tiedot</heading>
+                    <subsection>
+                        <content>
+                            <p>Työnantajan on ennen yhteistoimintamenettelyn aloittamista annettava neuvotteluissa käsiteltävien asioiden kannalta tarpeelliset tiedot asianomaisille työntekijöille tai toimihenkilöille sekä asianomaisille henkilöstön edustajille.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Työnantajan on annettava harkitessaan työvoiman vähentämistä asianomaisille henkilöstön edustajille aiottujen toimenpiteiden käsittelemiseksi tarpeelliset tiedot, kuten tiedot toimenpiteiden perusteista, arvio irtisanottavien, lomautettavien tai osa-aikaistettavien työntekijöiden ja toimihenkilöiden lukumäärästä eri ryhmissä, arvio ajasta, jonka kuluessa juuri mainitut, suunnitellut toimenpiteet aiotaan toteuttaa, sekä tiedot periaatteista, joiden mukaan näiden toimenpiteiden kohteena olevat työntekijät määräytyvät. Tiedot on annettava kirjallisesti, jos työnantaja harkitsee vähintään kymmenen työntekijän tai toimihenkilön irtisanomista, lomauttamista yli 90 päiväksi tai osa-aikaistamista taloudellisilla tai tuotannollisilla perusteilla.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 ja 2 momentissa tarkoitetut tiedot tulee liittää neuvotteluesitykseen tai ne voidaan antaa erikseen ennen neuvottelujen alkamista.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 c §</num>
+                    <heading>Ilmoitus työvoimatoimistolle</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos työnantaja esittää yhteistoimintamenettelyssä käsiteltäväksi toimenpiteitä työvoiman vähentämiseksi, on neuvotteluesitys tai siitä ilmenevät tiedot toimitettava yhteistoimintaneuvottelujen alkaessa kirjallisesti työvoimatoimiston tietoon, jollei näitä tietoja ole toimitettu sille aikaisemmin muussa yhteydessä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 d §</num>
+                    <heading>Toimintasuunnitelma ja toimintaperiaatteet</heading>
+                    <subsection>
+                        <content>
+                            <p>Työnantajan tehtyä neuvotteluesityksen tarkoituksestaan irtisanoa vähintään kymmenen työntekijää tai toimihenkilöä taloudellisin tai tuotannollisin perustein hänen on yhteistoimintaneuvottelujen alussa annettava työntekijöiden tai toimihenkilöiden edustajille esitys työllistymistä edistäväksi toimintasuunnitelmaksi. Toimintasuunnitelmaa valmistellessaan työnantajan on viipymättä selvitettävä yhdessä työvoimaviranomaisten kanssa työllistymistä tukevat julkiset työvoimapalvelut.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Toimintasuunnitelmasta, jota laadittaessa on otettava huomioon, mitä työvoiman vähentämisestä on säädetty tai työehtosopimuksin sovittu, tulee käydä ilmi yhteistoimintaneuvottelujen suunniteltu aikataulu, neuvotteluissa noudatettavat menettelytavat ja suunnitellut irtisanomisaikana noudatettavat toimintaperiaatteet julkisesta työvoimapalvelusta annetussa laissa (1295/2002) tarkoitettuja palveluja käytettäessä sekä työnhaun ja koulutuksen edistämiseksi. Toimintasuunnitelmasta neuvotellaan henkilöstön edustajien kanssa 8 §:n 3 momentissa säädetyn seitsemän päivän pituisen määräajan estämättä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos työnantajan harkitsemat irtisanomiset koskevat alle kymmentä työntekijää, työnantajan on yhteistoimintamenettelyssä esitettävä toimintaperiaatteet, joiden mukaisesti irtisanomisajan kuluessa tuetaan työntekijöiden oma-aloitteista hakeutumista muuhun työhön tai koulutukseen sekä heidän työllistymistään julkisesta työvoimapalvelusta annetussa laissa tarkoitetuilla palveluilla.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Työntekijän oikeudesta työllistymisvapaaseen irtisanomisaikana säädetään työsopimuslain 7 luvun 12 §:ssä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>8 §</num>
+                    <heading>Neuvotteluvelvoitteen sisältö ja sen täyttyminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Jollei työnantajan ja henkilöstön edustajan kesken ole sovittu muusta menettelystä eikä 2 tai 3 momentista muuta johdu, työnantajan katsotaan täyttäneen 7 §:ssä tarkoitetun neuvotteluvelvoitteensa, kun asia on käsitelty 7, 7 b ja 7 d §:ssä tarkoitetulla tavalla tai 4 §:ssä tarkoitetussa neuvottelukunnassa. Erimielisiksi jääneiden asioiden toteuttamisen työnantaja saa aloittaa tiedotettuaan asiassa päätetyistä toimenpiteistä yhteistoimintamenettelyyn osallistuneille.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Jos 6 §:n 1―5 kohdan mukainen neuvoteltava toimenpide ilmeisesti johtaa yhden tai useamman työntekijän tai toimihenkilön irtisanomiseen, lomauttamiseen tai osa-aikaistamiseen, työnantajan ei katsota täyttäneen neuvotteluvelvoitettaan ennen kuin</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>sopimukseen pääsemiseksi on ensin neuvoteltu toimenpiteen perusteista ja vaikutuksista ja tämän jälkeen erikseen vaihtoehdoista vähentämisen kohteena olevan henkilöpiirin rajoittamiseksi sekä vähentämisestä aiheutuvien seurausten lieventämisestä, ja neuvottelujen alkamisesta on kulunut vähintään seitsemän päivää; tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>yhteistoimintamenettelyssä on sovittu irtisanomisista, lomauttamisista tai osa-aikaistamisista tai neuvotteluvelvoitteen täyttymisestä.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos 2 momentissa tarkoitettu toimenpide ilmeisesti johtaa vähintään kymmenen työntekijän tai toimihenkilön irtisanomiseen, lomauttamiseen yli 90 päiväksi tai osa-aikaistamiseen, on neuvotteluaika kuitenkin vähintään kuusi viikkoa neuvottelujen alkamisesta, ja vaihtoehtojen käsittely saadaan alkaa aikaisintaan seitsemän päivän kuluttua perusteiden ja vaikutusten käsittelystä, jollei toisin sovita.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Mitä 2 ja 3 momentissa säädetään, ei sovelleta silloin, kun yritys on selvitystilassa tai konkurssissa. Yrityksen ollessa yrityksen saneerauksesta annetussa laissa (47/1993) tarkoitetun saneerausmenettelyn kohteena on neuvotteluaika seitsemän päivää neuvottelujen alkamisesta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>14 §</num>
+                    <heading>Sopimisoikeus</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Työnantajien, työntekijöiden ja toimihenkilöiden yhdistykset, joiden toimintapiiri käsittää koko maan, voivat sopimuksin poiketa siitä, mitä säädetään 3 ja 4 §:ssä yhteistoiminnan osapuolista, 6 §:ssä yhteistoimintamenettelyn piiriin kuuluvista asioista, 6 a §:ssä neuvotteluvelvoitteen toteamisesta liikkeen luovutuksen, jakautumisen tai sulautumisen jälkeen, 6 b §:ssä henkilöstö- ja koulutussuunnitelmista, 7 §:ssä yhteistoimintamenettelystä, 7 a §:ssä neuvotteluesityksestä, 7 b §:ssä työnantajan annettavista tiedoista, 7 d §:ssä toimintasuunnitelmasta ja toimintaperiaatteista
+                                <i>,</i>
+                                 8 §:ssä neuvotteluvelvoitteen sisällöstä ja sen täyttymisestä, 8 a §:ssä neuvottelujen kirjaamisesta, 11 §:ssä työnantajan tiedottamisvelvollisuudesta, 11 b―11 e §:ssä konserniyhteistyöstä sekä 13 §:ssä henkilöstön edustajien vapautuksesta työstä ja maksettavista korvauksista.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>15 a §</num>
+                    <heading>Hyvitys</heading>
+                    <subsection>
+                        <content>
+                            <p>Milloin 6 §:n 1―5 kohdassa tarkoitettu asia on tahallisesti tai ilmeisestä huolimattomuudesta ratkaistu noudattamatta, mitä 7 §:n 1―3 momentissa, 7 a §:ssä, 7 b §:n 3 momentissa tai 8 §:ssä säädetään, ja työntekijä tai toimihenkilö on ratkaisuun liittyvistä syistä osa-aikaistettu, lomautettu tai irtisanottu, on työntekijällä tai toimihenkilöllä oikeus saada työnantajalta hyvityksenä enintään 20 kuukauden palkka.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>16 §</num>
+                    <heading>Rangaistussäännökset</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Konsernin johtoon kuuluva, työnantaja tai näiden edustaja, joka tahallaan tai huolimattomuudesta jättää noudattamatta, mitä 7 §:ssä, 7 b §:n 1 ja 2 momentissa, 9, 11 tai 11 d §:ssä säädetään taikka 13 §:ssä säädetään muusta kuin maksuvelvollisuudesta tai olennaisesti laiminlyö noudattaa, mitä 11 c §:n 1 tai 3 momentissa tarkoitetussa sopimuksessa sovitaan, on tuomittava 
+                                <i>yhteistoimintavelvoitteen rikkomisesta</i>
+                                 sakkoon. Vastuu työnantajan ja tämän edustajien kesken määräytyy rikoslain 47 luvun 7 §:ssä säädettyjen perusteiden mukaan.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä heinäkuuta 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/48">HE 48/2005</ref>
+                        </p>
+                        <p>TyVM 6/2005</p>
+                        <p>EV 79/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Naantalissa 23 päivänä kesäkuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Työministeri </role>
+                                <person refersTo="">Tarja Filatov</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,141 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1155/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1155"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1155/alkup"/>
+                    <FRBRdate date="2005-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1155"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1155/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1155/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1155/alkup/fin"/>
+                    <FRBRdate date="2005-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1155/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1155/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1155/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="190"/>
+                    <finlex:date date="2005-12-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1155/2005</docNumber>
+                <docTitle>Laki tuloverolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         30 päivänä joulukuuta 1992 annetun tuloverolain (<affectedDocument href="/akn/fi/act/statute/1992/1535">1535/1992</affectedDocument>) 61 §:n 3 momentti ja
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         43 §:n 1 ja 2 momentti sekä 140 §:n otsikko ja 6 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>43 §</num>
+                    <heading>Metsätalouden pääomatulo</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Veronalaista pääomatuloa on verovelvollisen omassa metsässä kasvavan runkopuun hakkuuoikeuden ensimmäisestä vastikkeellisesta luovutuksesta (<i>pystykauppa</i>) saatu tulo ja hankintakaupalla myydystä runkopuusta valmistettavasta tai valmistetusta puutavarasta, kuten tukeista, pylväistä, kuitupuusta tai haloista sekä hakkeesta saadun tulon pääomatulo-osuus. Hankintakaupalla saadun tulon pääomatulo-osuutena pidetään puun myyntituloa vähennettynä hankintatyön arvolla. Metsätalouden pääomatuloa on myös muusta kuin runkopuusta saatu metsätalouden tulo, kuten tulo hakkuutähteiden, kantojen, muun metsäenergiapuun, koristehavujen, tienvarsikeppien, joulupuiden tai vastaavien luovutuksesta. Mitä edellä tässä momentissa säädetään, sovelletaan myös puun myyntituloon, joka on saatu kiinteistön luovutuksesta pidätetyn hakkuuoikeuden nojalla.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Metsätalouden pääomatulona pidetään myös metsästä saatua vakuutuskorvausta tai muuta korvausta samoin kuin yksityistalouden käyttöön otetun tai toiseen tulolähteeseen siirretyn puutavaran kantoraha-arvoa tai käypää arvoa. Metsätalouden pääomatuloksi luetaan myös metsätalouteen saadut tuet ja avustukset. Hakkuuoikeuden vastikkeetonta luovutusta ilman maapohjaa pidetään veronalaisena omaan käyttöön ottona kantoraha-arvon mukaan.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>140 §</num>
+                    <heading>Metsäverotuksen siirtymäkausi ja siirtymäkauden päättyminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Metsätalouden pääomatulosta tämän lain mukaan verotettavan verovelvollisen sellaisten ennen tämän lain voimaantuloa metsätaloudessa käytettyjen koneiden, kaluston, rakennusten ja muiden hyödykkeiden, joita ei ole voitu lukea kuuluvaksi maatalouteen tai elinkeinotoimintaan, hankintamenoksi katsotaan niiden käypä arvo tämän lain voimaantulovuonna. Vuoden 2006 alusta pääomatuloverotukseen siirtyvien osalta edellä mainittujen hyödykkeiden hankintamenoksi katsotaan niiden käypä arvo vuonna 2006.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006.</p>
+                    <p>Lakia sovelletaan ensimmäisen kerran vuodelta 2006 toimitettavassa verotuksessa.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/212">HE 212/2005</ref>
+                        </p>
+                        <p>VaVM 43/2005</p>
+                        <p>EV 215/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 22 päivänä joulukuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Toinen valtiovarainministeri </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

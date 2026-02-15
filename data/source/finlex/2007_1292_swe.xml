@@ -1,0 +1,383 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1292/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1292"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1292/alkup"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1292"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1292/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1292/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1292/alkup/swe"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1292/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1292/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1292/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="192"/>
+                    <finlex:date date="2007-12-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1292/2007</docNumber>
+                <docTitle>Lag om ändring av bilskattelagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i bilskattelagen av den 29 december 1994 (
+                        <affectedDocument href="/akn/fi/act/statute/1994/1482">1482/1994</affectedDocument>
+                        ) 6 och 6 a §, sådana de lyder, 6 § i lagarna 266/2003 och 1450/2006 samt 6 a § i nämnda lag 266/2003, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 5 a § och en bilaga som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>3 kap.</num>
+                    <heading>Beloppet av skatten</heading>
+                    <section>
+                        <num>5 a §</num>
+                        <subsection>
+                            <content>
+                                <p>För personbilar vars egenmassa är under 4 500 kilogram är skatten den procentuella andel av bilens beskattningsvärde som framgår av skattetabellen i bilagan till denna lag. Skattesatsen bestäms utifrån de koldioxidutsläpp vid blandad körning som har införts eller borde införas i fordonstrafikregistret som tekniska uppgifter om bilen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om det inte finns sådana uppgifter om de koldioxidutsläpp som avses i 1 mom., bestäms skattesatsen enligt skattetabellen utifrån de beräknade koldioxidutsläppen för bilen enligt bilens totalmassa och drivkraft. Om kvoten av bilens effekt (i kilowatt) och totalmassa (i kilogram) är 0,15 eller större, ökas de beräknade koldioxidutsläppen genom att de multipliceras med talet 1,5. Mängden koldioxidutsläpp avrundas till hela gram.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Skattesatsen för en personbil som ska beskattas bestäms inte enligt de beräknade koldioxidutsläpp som avses i 2 mom. utan enligt bilens koldioxidutsläpp vid blandad körning, om den skattskyldige lämnar uppgifter om dem vid den första beskattningen och om de har</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>fastställts i samband med EG-typgodkännandet enligt kraven i kommissionens direktiv 93/116/EG om anpassning till den tekniska utvecklingen av rådets direktiv 80/1268/EG om motorfordons bränsleförbrukning eller i gemenskapens bestämmelser som ersätter direktivet, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>definierats enligt kraven i den gemenskapslagstiftning som gäller vid tidpunkten för beskattningen.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <subsection>
+                            <content>
+                                <p>Skatten på en buss som beskattas som nytt fordon eller som begagnat fordon tillverkat efter 2002 och som har en egenmassa under 1 875 kilogram är 26 procent av fordonets beskattningsvärde.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Skatten på en motorcykel och andra skattepliktiga fordon i kategori L som beskattas som nya fordon eller som begagnade fordon tillverkade efter 2002 är, enligt motorns slagvolym eller drivkraft och utgående från fordonets beskattningsvärde, som följer:</p>
+                                <table>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                <b>Slagvolym</b>
+                                            </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                <b>Skattesats</b>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                högst 130 cm
+                                                <sup>3</sup>
+                                            </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>8</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                131–255 cm
+                                                <sup>3</sup>
+                                            </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>10</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                256–355 cm
+                                                <sup>3</sup>
+                                            </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>13</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                356–505 cm
+                                                <sup>3</sup>
+                                            </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>16</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                506–755 cm
+                                                <sup>3</sup>
+                                            </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>18</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                756 cm
+                                                <sup>3</sup>
+                                                 eller mera 
+                                            </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>20</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>eldrivet fordon i kategori L </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>10</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 a §</num>
+                        <subsection>
+                            <content>
+                                <p>Skatten på en buss som beskattas som begagnat fordon tillverkat före 2003 och som har en egenmassa under 1 875 kilogram, samt skatten på motorcyklar och andra skattepliktiga fordon i kategori L är den andel skatt av beskattningsvärdet som ingick i likadana fordons allmänna värde i detaljhandeln när de var nya. Skattens andel beräknas utifrån de allmänna skattegrunderna i den bilskattelag som gällde när fordonen var nya. Skattens andel kan beräknas utifrån andelarna skatt i det allmänna värdet i detaljhandeln på fler än en fordonsmodell, med beaktande av beskattningsuppgifterna och prissättningen beträffande samma bilmärke.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tullstyrelsen fastställer skattens andel i en tabell som den publicerar. Andelen i tabellen tillämpas vid beskattning som blir anhängig 14 dagar efter publiceringen av tabellen. Andelen enligt tabellen kan dock tillämpas från och med den dag tabellen publiceras, om skattens andel är mindre än den andel som beräknas enligt 3 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Om skattens andel inte anges i tabellen eller om det förflutit en kortare tid än 14 dagar sedan tabellen publicerades, är skattens andel</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>för en buss vars egenmassa är under 1 875 kilogram, 26 procent av beskattningsvärdet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>för en motorcykel och andra skattepliktiga fordon i kategori L, enligt motorns slagvolym eller drivkraft och utgående från fordonets beskattningsvärde, som följer:</p>
+                                    <table>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    <b>Slagvolym</b>
+                                                </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    <b>Skattesats</b>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    högst 130 cm
+                                                    <sup>3</sup>
+                                                </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>9</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    131–255 cm
+                                                    <sup>3</sup>
+                                                </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>12</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    256–355 cm
+                                                    <sup>3</sup>
+                                                </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>15</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    356–505 cm
+                                                    <sup>3</sup>
+                                                </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>19</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    506–755 cm
+                                                    <sup>3</sup>
+                                                </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>21</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    756 cm
+                                                    <sup>3</sup>
+                                                     eller mera 
+                                                </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>23</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>eldrivet fordon i kategori L </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>12</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om skattebeloppet enligt 3 mom. är större än den skatt som ingår i restvärdet på ett motsvarande fordon på marknaden, uppbärs inte det belopp som överstiger skatten.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                    <p>Lagen tillämpas på den beskattning av fordon som blir anhängig den dag lagen träder i kraft eller därefter. Om beskattningen av ett fordon har anhängiggjorts före den 2 november 2007 men återkallas med stöd av 43 § 1 mom., tas inte avgifter enligt 35 a § 2 mom. och 43 § 2 mom. ut hos den skattskyldige. Om beskattningen av ett fordon har anhängiggjorts före den 2 november 2007 och återkallas på det sätt som föreskrivs i 43 § 3 mom., höjs inte skatten på det sätt som föreskrivs i nämnda lagrum, om fordonet på ansökan beskattas enligt denna lag efter lagens ikraftträdande. Ansökan ska göras inom en månad från denna lags ikraftträdande.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 147/2007</p>
+                        <p>FiUB 23/2007</p>
+                        <p>RSv 125/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 21 december 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Finansminister </role>
+                                <person refersTo="">Jyrki Katainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+            <hcontainer name="attachments">
+                <hcontainer name="attachment">
+                    <content>
+                        <p>
+                            <a href="media/5479.pdf">Bilaga</a>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

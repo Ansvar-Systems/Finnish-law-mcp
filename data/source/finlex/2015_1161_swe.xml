@@ -1,0 +1,123 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1161/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1161"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1161/alkup"/>
+                    <FRBRdate date="2015-09-18" name="dateIssued"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1161"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1161/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1161/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1161/alkup/swe"/>
+                    <FRBRdate date="2015-09-18" name="dateIssued"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1161/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1161/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1161/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1161/2015</docNumber>
+                <docTitle>Lag om ändring av 27 och 39 § i lagen om verkställighet av jordbruksstöd</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om verkställighet av jordbruksstöd (
+                        <affectedDocument href="/akn/fi/act/statute/2013/192">192/2013</affectedDocument>
+                        ) 27 § 1 mom. och 39 §, av dem 39 § sådan den lyder i lag 501/2014, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>27 §</num>
+                    <heading>Sakkunniga som anlitas vid inspektioner</heading>
+                    <subsection>
+                        <content>
+                            <p>Vid en inspektion kan en revisor som avses i revisionslagen (1141/2015) anlitas, om ett behörigt utförande av inspektionen förutsätter det. En revisionssammanslutning ska utse en ansvarig revisor för inspektionen. Vid utförande av inspektionsuppdrag tillämpas förvaltningslagen (434/2003), språklagen (423/2003), samiska språklagen (1086/2003) och lagen om offentlighet i myndigheternas verksamhet (621/1999).</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>39 §</num>
+                    <heading>Attesterande organ</heading>
+                    <subsection>
+                        <content>
+                            <p>Jord- och skogsbruksministeriet utser det attesterande organ som avses i artikel 9 i den horisontella förordningen. En myndighet eller en revisor som avses i revisionslagen kan utses till attesterande organ.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 254/2014</p>
+                        <p>EkUB 34/2014</p>
+                        <p>RSv 371/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 18 september 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitie- och arbetsminister</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

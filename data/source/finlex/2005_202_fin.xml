@@ -1,0 +1,137 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/202/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/202"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/202/alkup"/>
+                    <FRBRdate date="2005-04-08" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="202"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/202/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/202/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/202/alkup/fin"/>
+                    <FRBRdate date="2005-04-08" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/202/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/202/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/202/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="38"/>
+                    <finlex:date date="2005-04-12"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>202/2005</docNumber>
+                <docTitle>Laki maankäyttö- ja rakennuslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         5 päivänä helmikuuta 1999 annetun maankäyttö- ja rakennuslain (
+                        <affectedDocument href="/akn/fi/act/statute/1999/132">132/1999</affectedDocument>
+                        ) 9 ja 23 § sekä 63 §:n 2 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>9 §</num>
+                    <heading>Vaikutusten selvittäminen kaavaa laadittaessa</heading>
+                    <subsection>
+                        <content>
+                            <p>Kaavan tulee perustua riittäviin tutkimuksiin ja selvityksiin. Kaavaa laadittaessa on tarpeellisessa määrin selvitettävä suunnitelman ja tarkasteltavien vaihtoehtojen toteuttamisen ympäristövaikutukset, mukaan lukien yhdyskuntataloudelliset, sosiaaliset, kulttuuriset ja muut vaikutukset. Selvitykset on tehtävä koko siltä alueelta, jolla kaavalla voidaan arvioida olevan olennaisia vaikutuksia.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>23 §</num>
+                    <heading>Tavoitteiden valmistelu</heading>
+                    <subsection>
+                        <content>
+                            <p>Valtakunnallisten alueidenkäyttötavoitteiden valmistelusta huolehtii ympäristöministeriö yhteistyössä niiden muiden ministeriöiden, maakuntien liittojen ja muiden viranomaisten ja tahojen kanssa, joita asia koskee. Tavoitteiden valmistelun on perustuttava eri tahojen vuorovaikutukseen. Tavoitteiden valmistelusta säädetään tarkemmin valtioneuvoston asetuksella.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>63 §</num>
+                    <heading>Osallistumis- ja arviointisuunnitelma</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Kaavoituksen vireilletulosta tulee ilmoittaa sillä tavoin, että osallisilla on mahdollisuus saada tietoja kaavoituksen lähtökohdista ja osallistumis- ja arviointimenettelystä. Ilmoittaminen on järjestettävä kaavan tarkoituksen ja merkityksen kannalta sopivalla tavalla. Ilmoittaminen voi tapahtua myös kaavoituskatsauksesta tiedottamisen yhteydessä. Vireilletulosta tiedottamisesta säädetään tarkemmin valtioneuvoston asetuksella.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä kesäkuuta 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/243">HE 243/2004</ref>
+                        </p>
+                        <p>YmVM 1/2005</p>
+                        <p>EV 7/2005</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2001/42/EY; EUVL N:o L 197, 21.7.2001, s. 30</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 8 päivänä huhtikuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ympäristöministeri </role>
+                                <person refersTo="">Jan-Erik Enestam </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

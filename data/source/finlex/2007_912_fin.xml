@@ -1,0 +1,219 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/912/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/912"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/912/alkup"/>
+                    <FRBRdate date="2007-10-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="912"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/912/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/912/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/912/alkup/fin"/>
+                    <FRBRdate date="2007-10-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/912/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/912/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/912/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="142"/>
+                    <finlex:date date="2007-10-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>912/2007</docNumber>
+                <docTitle>Laki sairausvakuutuslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         21 päivänä joulukuuta 2004 annetun sairausvakuutuslain (
+                        <affectedDocument href="/akn/fi/act/statute/2004/1224">1224/2004</affectedDocument>
+                        ) 4 luvun 1 §:n 3 momentti ja 8 §:n 2 momentti, 6 luvun 11 §:n 1 momentti ja 14 §, 8 luvun 1 §:n 3 ja 4 momentti sekä 9 luvun 12 §:n 1 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 6 luvun 11 §:n 1 momentti laissa 885/2005, 6 luvun 14 § osaksi viimeksi mainitussa laissa ja 9 luvun 12 §:n 1 momentti laissa 1342/2006, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         11 lukuun uusi 10 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>4 luku</num>
+                    <heading>Matkakustannusten korvaaminen</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Vakuutetun tekemä matka</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Ulkomailla ja ulkomaille tehdyn matkan aiheuttamia kustannuksia ei korvata tämän lain perusteella. Jos vakuutettu on joutunut hoidon tarpeeseen vastavuoroisesta sairaan- ja terveydenhoidosta rajaseudulla annetun lain (307/1961) 1 §:ssä tarkoitetulla rajaseudulla tai vakuutetulle kansanterveyslain (66/1972) tai erikoissairaanhoitolain (1062/1989) mukaan järjestettäväksi tarkoitettu hoito on annettu mainitussa laissa tarkoitetulla rajaseudulla asuvalle, vakuutetulla on oikeus saada korvausta matkakustannuksista siten kuin tässä laissa säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Matkakustannuksen korvauksen peruste ja korvaustaksan vahvistaminen</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Sairaankuljetusajoneuvojen käytön korvausperusteena käytetään luvanvaraisesta henkilöliikenteestä tiellä annetun lain (343/1991) 11 §:ssä tarkoitettua sairaankuljetustaksaa. Taksien käytön korvausperusteena käytetään taksiliikennelain (217/2007) 16 §:ssä tarkoitettua kuluttajilta perittävää enimmäishintaa, jollei Kansaneläkelaitos ole sopinut kuljetuspalvelujen tuottajan kanssa enimmäishintaa edullisemmasta hinnoittelusta.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>6 luku</num>
+                    <heading>Lääkkeiden hintalautakunta</heading>
+                    <section>
+                        <num>11 §</num>
+                        <heading>Hakemuksen käsittelyaika</heading>
+                        <subsection>
+                            <content>
+                                <p>Lääkkeiden hintalautakunnan päätös myyntiluvan saaneen lääkevalmisteen korvausperusteeksi vahvistetusta kohtuullisesta tukkuhinnasta ja lääkevalmisteen peruskorvattavuudesta sekä lääkevalmisteen erityiskorvattavuudesta on toimitettava hakijalle 180 päivän kuluessa hakemuksen saapumisesta. Jos ratkaistavana on aikaisemmin vahvistetun tukkuhinnan korottaminen ilman lääkevalmisteen korvattavuutta koskevan asian ratkaisemista, päätös on toimitettava hakijalle 90 päivän kuluessa hakemuksen saapumisesta. Jos hakemuksen tueksi esitettävät tiedot ovat riittämättömät, lautakunta tai tarvittaessa lautakunnan johtaja keskeyttää hakemuksen käsittelyn ja ilmoittaa viipymättä hakijalle, mitä yksilöityjä lisätietoja edellytetään. Lopullinen päätös on tällöin toimitettava hakijalle 180 päivän kuluessa lisäselvityksen vastaanottamisesta. Jos ratkaistavana on aikaisemmin vahvistetun tukkuhinnan korottaminen ilman lääkevalmisteen korvattavuutta koskevan asian ratkaisemista, lopullinen päätös on toimitettava hakijalle 90 päivän kuluessa lisäselvityksen vastaanottamisesta.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>14 §</num>
+                        <heading>Päätösvallan siirtäminen johtajalle</heading>
+                        <subsection>
+                            <content>
+                                <p>Lääkkeiden hintalautakunta voi siirtää lääkevalmisteen peruskorvattavuuden ja kohtuullisen tukkuhinnan vahvistamisen johtajan ratkaistavaksi, kun kysymyksessä on valmisteen määräaikaisesti voimassa olevan peruskorvattavuuden ja tukkuhinnan uudelleen vahvistaminen, korvattavaksi hyväksytyn valmisteen uusi pakkauskoko, vahvuus tai lääkemuoto taikka tällaista lääkevalmistetta vastaavan rinnakkaisvalmisteen taikka rinnakkaistuontivalmisteen peruskorvattavuuden ja kohtuullisen tukkuhinnan vahvistaminen. Lääkkeiden hintalautakunta voi siirtää johtajan ratkaistavaksi myös lääkelain 21 §:n 4 momentin mukaisen erityisluvalla toimitettavan lääkevalmisteen peruskorvattavuuden ja kohtuullisen tukkuhinnan vahvistamisen sekä lääkkeiden ulkomaille vientiä varten kohtuullista tukkuhintaa koskevan todistuksen antamisen myyntiluvan haltijalle.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Lisäksi lääkkeiden hintalautakunta voi tarvittaessa siirtää lääkkeiden erityiskorvattavuutta koskevan ratkaisun tekemisen johtajalle silloin, kun samaa lääkeainetta sisältävä valmiste on hyväksytty erityiskorvattavaksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>8 luku</num>
+                    <heading>Sairauspäiväraha ja osasairauspäiväraha</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Sairauspäiväraha</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Henkilöllä on 2 momentissa tarkoitetun päivärahan lisäksi oikeus saada tartuntatautilain 27 §:n 2 momentissa tarkoitettua korvausta hänelle aiheutuneesta ansion menetyksestä. Korvaus määrätään sen työtulon perusteella, jonka henkilö olisi saanut, jollei häntä olisi määrätty tartuntatautilain nojalla olemaan poissa ansiotyöstään, eristettäväksi tai karanteeniin. Korvaus ansionmenetyksestä on työtulon ja päivärahan erotus. Ansionmenetyskorvausta määrättäessä 2 momentissa tarkoitettu päiväraha otetaan vähennyksenä huomioon.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos 2 momentissa tarkoitettu tartuntatautilain mukainen päiväraha on 7 luvun 4 §:n 1 momentin säännöksen nojalla maksettu työnantajalle, eikä päiväraha peitä työnantajan suorittamaa palkkaa tai sitä vastaavaa korvausta siltä ajalta, jonka poissaolo työstä, eristäminen tai karanteeni on kestänyt, on työnantajalla oikeus saada puuttuvalta osalta 3 momentissa tarkoitettu korvaus.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>9 luku</num>
+                    <heading>Vanhempainpäivärahat</heading>
+                    <section>
+                        <num>12 §</num>
+                        <heading>Ottovanhemman vanhempainrahakausi</heading>
+                        <subsection>
+                            <content>
+                                <p>Ottolapsen hoidon johdosta ottovanhemmalle tai hänen aviopuolisolleen maksetaan vanhempainrahaa tai osittaista vanhempainrahaa ajalta, jonka lapsen hoito jatkuu, kunnes lapsen syntymästä on kulunut 234 arkipäivää. Vanhempainrahaa maksetaan kuitenkin aina vähintään 200 arkipäivää. Jos lapsi otetaan hoitoon myöhemmin kuin 54 arkipäivän kuluttua lapsen syntymästä, vanhempainrahaa maksetaan 200 arkipäivältä. Vanhempainrahakautta pidennetään siten kuin 10 §:n 3 momentissa säädetään, jos samalla kertaa on otettu hoidettavaksi useampia ottolapsia.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>11 luku</num>
+                    <heading>Päivärahaetuuksien määrä</heading>
+                    <section>
+                        <num>10 a §</num>
+                        <heading>Äidin vanhempainpäivärahan tarkistaminen</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Äidille maksettava vanhempainpäiväraha on samasta lapsesta koko vanhempainpäivärahakauden ajan saman suuruinen, jollei 1 §:n 2 momentin 1 ja 2 kohdasta tai 8 §:n 1 momentista muuta johdu
+                                    <i>.</i>
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä marraskuuta 2007.</p>
+                    <p>Tämän lain 11 luvun 10 a §:ää sovelletaan vanhempainpäivärahoihin, jotka ovat alkaneet lain voimaantulon jälkeen.</p>
+                    <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/41">HE 41/2007</ref>
+                        </p>
+                        <p>StVM 4/2007</p>
+                        <p>EV 24/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 26 päivänä lokakuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

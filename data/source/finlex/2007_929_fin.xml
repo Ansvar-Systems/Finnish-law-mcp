@@ -1,0 +1,338 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/929/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/929"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/929/alkup"/>
+                    <FRBRdate date="2007-10-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="929"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/929/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/929/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/929/alkup/fin"/>
+                    <FRBRdate date="2007-10-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/929/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/929/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/929/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="143"/>
+                    <finlex:date date="2007-10-31"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>929/2007</docNumber>
+                <docTitle>Laki luottolaitostoiminnasta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         luottolaitostoiminnasta 9 päivänä helmikuuta 2007 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2007/121">121/2007</affectedDocument>
+                        ) 2 §:n 3 momentti, 20 §:n 1 momentti, 30 §:n 3 momentti, 31 §:n 2 momentti, 36 ja 40 §, 49 §:n 2 momentti, 105 §:n 1 momentti ja 161 §:n 1 momentti sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         2 §:ään uusi 5 momentti, lakiin uusi 16 a §, 24 §:ään uusi 2 ja 3 momentti, lakiin uusi 36 a ja 36 b §, 160 §:ään, sellaisena kuin se on laissa 467/2007, uusi 2 momentti ja 164 §:ään uusi 3 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>1 luku</num>
+                    <heading>Yleiset säännökset</heading>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Muu luottolaitostoimintaa koskeva lainsäädäntö</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Luottolaitoksen velvollisuudesta kuulua sijoittajien korvausrahastoon säädetään sijoituspalveluyrityksistä annetussa laissa (922/2007).</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Luottolaitokseen, joka tarjoaa sijoituspalveluja, sovelletaan näiden palvelujen tarjonnan osalta, mitä sijoituspalveluyrityksistä annetun lain 29―31 §:ssä, 32 §:n 1―3, 5 ja 6 momentissa sekä 33―38 §:ssä säädetään sekä mitä arvopaperimarkkinalaissa (495/1989) säädetään arvopaperinvälittäjän velvollisuuksista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>16 a §</num>
+                        <heading>Ulkoistaminen</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    <i>Ulkoistamisella</i>
+                                     tarkoitetaan luottolaitoksen toimintaan liittyvää järjestelyä, jonka perusteella muu palvelun tarjoaja tuottaa luottolaitokselle toiminnon tai palvelun, jonka luottolaitos olisi muuten itse suorittanut.
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>20 §</num>
+                        <heading>Luottolaitoksen yksinoikeutta takaisinmaksettavien varojen vastaanottamiseen koskevat poikkeukset</heading>
+                        <subsection>
+                            <content>
+                                <p>Mitä 19 §:ssä säädetään, ei rajoita Suomen Pankin oikeutta ottaa vastaan takaisinmaksettavia varoja yleisöltä, rahastoyhtiön oikeutta harjoittaa sijoitusrahastolaissa (48/1999) tarkoitettua sijoitusrahastotoimintaa eikä vakuutuslaitoksen oikeutta harjoittaa vakuutusyhtiölaissa tarkoitettua vakuutusliikettä. Mitä 19 §:ssä säädetään, ei myöskään rajoita sellaisten maksuvälineiden myyntiä, jotka eivät ole sähköistä rahaa.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>24 §</num>
+                        <heading>Toimiluvan myöntämisen edellytykset</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Toimiluvan myöntämisen edellytyksenä on lisäksi, että saadun selvityksen perusteella luottolaitoksen perustaja ja osakkeenomistaja, joka omistaa vähintään yhden kymmenesosan luottolaitoksen osakkeista tai osuuden, joka tuottaa vähintään 10 prosenttia sen osakkeiden äänivallasta, on luotettava.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Henkilöä ei pidetä luotettavana, jos hänet on lainvoiman saaneella tuomiolla viiden arviota edeltäneen vuoden aikana tuomittu vankeusrangaistukseen tai kolmen arviota edeltäneen vuoden aikana sakkorangaistukseen rikoksesta, jonka voidaan katsoa osoittavan hänen olevan ilmeisen sopimaton perustamaan tai omistamaan luottolaitosta, taikka jos hän on muutoin aikaisemmalla toiminnallaan osoittanut olevansa ilmeisen sopimaton perustamaan tai omistamaan luottolaitosta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>30 §</num>
+                        <heading>Talletuspankille sallittu liiketoiminta</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Talletuspankin yhtiöjärjestyksessä tai säännöissä on mainittava, tarjoaako talletuspankki sijoituspalveluyrityksistä annetun lain 5 §:n mukaisia sijoituspalveluja sekä mainitun lain 15 §:n 1 momentin 1 kohdassa tarkoitettua säilytys- ja hoitopalvelua.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>31 §</num>
+                        <heading>Luottoyhteisölle sallittu liiketoiminta</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Luottoyhteisön yhtiöjärjestyksessä tai säännöissä on mainittava, tarjoaako luottoyhteisö sijoituspalveluyrityksistä annetun lain 5 §:n mukaisia sijoituspalveluja sekä mainitun lain 15 §:n 1 momentin 1 kohdassa tarkoitettua säilytys- ja hoitopalvelua.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>36 §</num>
+                        <heading>Toimipaikat</heading>
+                        <subsection>
+                            <content>
+                                <p>Luottolaitoksella on oltava Suomessa pääkonttori ja vähintään yksi kiinteä toimipaikka. Luottolaitos voi harjoittaa toimintaansa lisäksi sivuliikkeissä ja muissa toimipaikoissa. Sivuliikkeen perustamisesta ulkomaille säädetään 10 luvussa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>36 a §</num>
+                        <heading>Asiamiehen käyttäminen ja muu merkittävän toiminnon ulkoistaminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Luottolaitos voi harjoittaa liiketoimintaansa asiamiehen välityksellä tai muuten ulkoistaa liiketoimintansa kannalta merkittäviä toimintojaan, jos se ei haittaa luottolaitoksen riskien hallintaa, sisäistä valvontaa eikä muuten merkittävästi luottolaitoksen liiketoiminnan hoitamista.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Toiminto on luottolaitoksen liiketoiminnan kannalta merkittävä, jos virhe tai puute sen suorittamisessa voi haitata olennaisesti luottolaitoksen toimintaa koskevien lakien tai niiden nojalla annettujen säännösten tai määräysten taikka luottolaitoksen toimiluvan ehtojen noudattamista, luottolaitoksen taloudellista asemaa tai liiketoiminnan jatkuvuutta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Merkittävän toiminnon ulkoistamisesta on tehtävä kirjallinen sopimus, josta käy ilmi toimeksiannon sisältö ja sopimuksen voimassaoloaika.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Luottolaitoksen, joka toimiluvan myöntämisen jälkeen aikoo harjoittaa liiketoimintaa asiamiehen välityksellä tai muuten ulkoistaa liiketoimintansa kannalta merkittävän toiminnon muulle kuin samaan konsolidointiryhmään tai osuuspankkien yhteenliittymään kuuluvalle, on ilmoitettava ulkoistamisesta etukäteen Rahoitustarkastukselle. Luottolaitoksen ja ulkoistettua toimintaa hoitavan välisessä sopimussuhteessa tapahtuvista merkittävistä muutoksista on ilmoitettava Rahoitustarkastukselle. Rahoitustarkastus antaa tarvittavat tarkemmat määräykset ilmoituksen sisällöstä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 4 momentissa tarkoitettua ilmoitusta ei kuitenkaan tarvitse tehdä, jos asiamies tai muu ulkoistettua toimintaa hoitava kuuluu luottolaitoksen kanssa samaan konsolidointiryhmään tai osuuspankeista ja muista osuuskuntamuotoisista luottolaitoksista annetussa laissa tarkoitettuun yhteenliittymään.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Luottolaitoksen tarjoamien sijoituspalvelujen ulkoistamiseen sovelletaan 1―4 momentista poiketen, mitä sijoituspalveluyrityksistä annetun lain 29―31 §:ssä sekä 32 §:n 1―3, 5 ja 6 momentissa säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>36 b §</num>
+                        <heading>Ulkoistamisen edellytykset</heading>
+                        <subsection>
+                            <content>
+                                <p>Luottolaitoksen on huolehdittava siitä, että se saa ulkoistettua toimintaa hoitavalta jatkuvasti luottolaitoksen viranomaisvalvonnan, riskien hallinnan ja sisäisen valvonnan edellyttämät tarpeelliset tiedot, sekä siitä, että sillä on oikeus luovuttaa tiedot edelleen Rahoitustarkastukselle ja lisäksi säästöpankkitarkastukselle, jos luottolaitos on säästöpankkitarkastuksen valvonnassa, tai osuuspankkien yhteenliittymän keskusyhteisölle, jos luottolaitos on keskusyhteisön valvonnassa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>40 §</num>
+                        <heading>Luottolaitoksen ja omistusyhteisön johtaminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Luottolaitoksen hallituksen, toimitusjohtajan ja muun ylimmän johdon tulee johtaa luottolaitosta ammattitaitoisesti sekä terveiden ja varovaisten liikeperiaatteiden mukaisesti. Hallituksen jäsenten ja varajäsenten, toimitusjohtajan ja toimitusjohtajan sijaisen sekä muun ylimpään johtoon kuuluvan on oltava luotettavia henkilöitä, jotka eivät ole konkurssissa ja joiden toimintakelpoisuutta ei ole rajoitettu. Näillä henkilöillä on lisäksi oltava sellainen yleinen luottolaitostoiminnan tuntemus kuin luottolaitoksen toiminnan luonteeseen ja laajuuteen katsoen on tarpeen. </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 momentissa tarkoitettua henkilöä ei pidetä luotettavana, jos hänet on lainvoiman saaneella tuomiolla viiden arviota edeltäneen vuoden aikana tuomittu vankeusrangaistukseen tai kolmen arviota edeltäneen vuoden aikana sakkorangaistukseen rikoksesta, jonka voidaan katsoa osoittavan hänen olevan ilmeisen sopimaton luottolaitoksen hallituksen jäseneksi tai varajäseneksi taikka toimitusjohtajaksi tai toimitusjohtajan sijaiseksi, taikka jos hän muutoin aikaisemmalla toiminnallaan osoittanut olevansa ilmeisen sopimaton edellä tarkoitettuun tehtävään.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Rahoitustarkastus voi määräajaksi, enintään viideksi vuodeksi, kieltää henkilöä toimimasta luottolaitoksen hallituksen jäsenenä tai varajäsenenä, toimitusjohtajana tai toimitusjohtajan sijaisena taikka muuna ylimpään johtoon kuuluvana, jos:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>tämä on osoittanut tehtävänsä hoidossa ilmeistä taitamattomuutta tai varomattomuutta ja on ilmeistä, että se voi vakavasti vahingoittaa luottolaitoksen vakaata toimintaa, tallettajien tai sijoittajien asemaa taikka velkojien etua; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>hän ei täytä 1 momentissa säädettyjä vaatimuksia.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Luottolaitoksen on ilmoitettava 1 momentissa tarkoitettujen hallintohenkilöidensä muutoksista viipymättä Rahoitustarkastukselle.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Mitä 1―4 momentissa säädetään, sovelletaan vastaavasti omistusyhteisöön.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>49 §</num>
+                        <heading>Yleissäännös riskien hallinnasta</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Luottolaitoksen riskienhallintaan ja muuhun sisäiseen valvontaan liittyvien tehtävien siirtämiseen sellaisen yrityksen hoidettaviksi, joka ei kuulu luottolaitoksen kanssa samaan konsolidointiryhmään tai osuuspankeista ja muista osuuskuntamuotoisista luottolaitoksista annetussa laissa tarkoitettuun yhteenliittymään, sovelletaan, mitä 36 a ja 36 b §:ssä säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>105 §</num>
+                        <heading>Korvattavat saamiset</heading>
+                        <subsection>
+                            <content>
+                                <p>Talletussuojarahaston varoista korvataan talletuspankissa tilillä olevat ja tilille vielä kirjautumattomat maksujenvälityksessä olevat tallettajan samassa talletuspankissa olevat saamiset, kuitenkin enintään 25 000 euron määrään asti. Jos tiliä käytetään sijoituspalveluun siten kuin sijoituspalveluyrityksistä annetun lain 55 §:n 2 momentissa säädetään, korvaus maksetaan kuitenkin mainitussa laissa tarkoitetusta korvausrahastosta siten kuin mainitun lain 6 luvussa säädetään.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>160 §</num>
+                        <heading>Rahoitustarkastuksen velvollisuus määrätä tilintarkastaja sekä erityinen tarkastus ja tarkastaja</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Sijoituspalveluja tarjoavan luottolaitoksen tilintarkastajan tulee antaa ja toimittaa Rahoitustarkastukselle vähintään kerran vuodessa lausunto siitä, vastaavatko luottolaitoksen asiakasvarojen säilyttämistä koskevat järjestelyt arvopaperimarkkinalain 4 luvun 14 ja 15 §:ssä säädettyjä vaatimuksia.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>161 §</num>
+                        <heading>Sivuliikkeen perustaminen ETA-valtioon</heading>
+                        <subsection>
+                            <content>
+                                <p>Luottolaitoksen, joka aikoo perustaa sivuliikkeen muuhun ETA-valtioon, on ilmoitettava siitä etukäteen Rahoitustarkastukselle. Ilmoitukseen on liitettävä tiedot harjoitettavaksi aiotusta toiminnasta sekä sivuliikkeen hallintoon liittyvät tiedot. Sijoituspalveluja tarjoavan luottolaitoksen on ilmoitettava, miten sen muualla kuin Suomessa olevan sivuliikkeen asiakkaina olevien sijoittajien saamiset on turvattu.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>164 §</num>
+                        <heading>Palveluiden tarjoaminen</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Luottolaitokseen, joka aikoo tarjota toiseen ETA-valtioon sijoittautuneelle sijoituspalveluyritykselle, luottolaitokselle tai muulle henkilölle suoran mahdollisuuden käydä kauppaa sijoituspalveluyrityksistä annetun lain 5 §:n 8 kohdassa tarkoitetussa monenkeskisessä kaupankäynnissä, sovelletaan, mitä edellä mainitun lain 76 §:n 3 ja 4 momentissa säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä marraskuuta 2007.</p>
+                    <p>Luottolaitoksen on muutettava yhtiöjärjestyksensä ja sääntönsä tämän lain mukaiseksi yhdeksän kuukauden kuluessa lain voimaantulosta.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/43">HE 43/2007</ref>
+                        </p>
+                        <p>TaVM 4/2007</p>
+                        <p>EV 39/2007</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2004/39/EY (32004L0039); EYVL N:o L 145, 30.4.2004, s. 1</p>
+                        <p>Komission direktiivi 2006/73/EY (32006L0073); EYVL N:o L 241, 2.9.2006, s. 26</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 26 päivänä lokakuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Hallinto- ja kuntaministeri </role>
+                                <person refersTo="">Mari Kiviniemi</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

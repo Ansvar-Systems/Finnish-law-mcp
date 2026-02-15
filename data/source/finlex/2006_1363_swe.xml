@@ -1,0 +1,592 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1363/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1363"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1363/alkup"/>
+                    <FRBRdate date="2006-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1363"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1363/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1363/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1363/alkup/swe"/>
+                    <FRBRdate date="2006-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1363/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1363/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1363/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="205"/>
+                    <finlex:date date="2006-12-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1363/2006</docNumber>
+                <docTitle>Lag om ändring av sjölagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i sjölagen av den 15 juli 1994 (<affectedDocument href="/akn/fi/act/statute/1994/674">674/1994</affectedDocument>) 9 kap. 3 § 1 punkten, 14 kap. 66 § 2 mom., 16 kap. och 19 kap. 1 § 1 punkten, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 21 kap. en ny 3 b § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>9 kap.</num>
+                    <heading>Allmänna stadganden om ansvarsbegränsning</heading>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Fordringar som ansvarsbegränsningen inte gäller</heading>
+                        <subsection>
+                            <intro>
+                                <p>Rätt till ansvarsbegränsning gäller inte</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>en fordran på bärgarlön inklusive sådan särskild ersättning som avses i 16 kap. 9 §, bidrag till gemensamt haveri eller på avtal grundad ersättning för åtgärder som avses i 2 § 1 mom. 4, 5 eller 6 punkten,</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>14 kap.</num>
+                    <heading>Befraktning av fartyg</heading>
+                    <section>
+                        <num>66 §</num>
+                        <heading>Gemensamt haveri och bärgning</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Tidsbortfraktaren får utan tidsbefraktarens samtycke rädda personer. Han får även bärga fartyg eller annan egendom, om det inte är oskäligt för tidsbefraktaren. Av tidsbortfraktarens andel av den nettobärgarlön som avses i 16 kap. 11 § 2 mom. samt på motsvarande sätt av den särskilda ersättning som avses 16 kap. 9 § tillfaller en tredjedel tidsbefraktaren.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>16 kap.</num>
+                    <heading>Bärgning</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Definitioner</heading>
+                        <subsection>
+                            <intro>
+                                <p>I detta kapitel avses med</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>
+                                        <i>bärgning</i>
+                                         en åtgärd som vidtas i farvatten för att bistå ett fartyg eller någon annan egendom som har förolyckats eller är i fara,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>
+                                        <i>fartyg</i>
+                                         en farkost samt en anordning som kan navigeras,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>
+                                        <i>egendom</i>
+                                         sådan egendom som inte är stadigvarande och avsiktligt fastgjord vid strandlinjen,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>
+                                        <i>miljöskada</i>
+                                         väsentlig fysisk skada på mänsklig hälsa eller marint liv eller på naturtillgångar i kustfarvatten, i inre farvatten eller till sådana farvatten anslutna områden, orsakad av förorening, kontaminering, brand, explosion eller liknande allvarliga händelser.
+                                    </p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Tillämpningsområde</heading>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelserna i detta kapitel tillämpas när tvistemål som gäller bärgning behandlas i en finsk domstol eller genom skiljeförfarande som äger rum i Finland.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelserna i detta kapitel tillämpas också om det bärgade fartyget och det fartyg som utförde bärgningen har samma ägare.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelserna i detta kapitel tillämpas på bärgning som genomförs eller kontrolleras av myndigheter endast till den del bestämmelser eller föreskrifter därom inte finns någon annanstans. Bärgare som har deltagit i sådana bärgning har dock rätt till bärgarlön eller särskild ersättning enligt detta kapitel.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelserna i detta kapitel tillämpas inte på fast förankrade eller flytande plattformar eller på flyttbara havsborrningsenheter, när plattformarna eller enheterna finns på en plats där de används för undersökning, utvinning eller produktion som avser havsbottnens mineraltillgångar.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelserna i detta kapitel tillämpas inte heller på fartyg eller egendom som avses i lagen om fornminnen (295/1963), om inte något annat har överenskommits särskilt.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Avtalsfrihet, behörighet att ingå avtal och jämkning av avtal</heading>
+                        <subsection>
+                            <content>
+                                <p>Genom avtal kan avvikas från bestämmelserna i detta kapitel. Genom avtal är det dock inte möjligt att inskränka den skyldighet att hindra eller begränsa miljöskada som enligt detta kapitel ankommer på bärgaren, befälhavaren, redaren eller ägaren till fartyget eller till någon annan egendom. I 11 § 5 mom. bestäms om giltigheten hos vissa avtal om fördelning av bärgarlön.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Befälhavaren är behörig att på fartygsägarens vägnar ingå avtal om bärgning. Fartygets ägare, redare och befälhavare är var för sig behöriga att ingå avtal om bärgning för den som äger egendom som finns eller har funnits ombord.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Ett avtal om bärgning eller ett villkor i ett sådant avtal får jämkas eller lämnas utan avseende, om avtalet ingicks under påtryckning eller hot om fara och avtalet eller villkoret är oskäligt, eller om bärgarlönen eller den särskilda ersättningen enligt avtalet inte står i rimligt förhållande till det utförda bärgningsarbetet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vad som bestäms i 10 § 3 mom. skall iakttas också när avtal om bärgning har ingåtts.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Bärgarens, ägarens, redarens och befälhavarens skyldigheter</heading>
+                        <subsection>
+                            <intro>
+                                <p>I förhållande till fartygets ägare och redare samt ägaren till någon annan egendom som bärgningen avser är bärgaren skyldig att</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>utföra bärgningsarbetet med tillbörlig omsorg,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>visa tillbörlig omsorg vid bärgningsarbetet för att hindra eller begränsa miljöskada,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>alltid söka bistånd av andra bärgare när omständigheterna skäligen kräver det, och att </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>tillåta att andra bärgare medverkar vid bärgningen, om fartygets ägare, redare eller befälhavare eller ägaren till någon annan egendom som är i fara begär detta och begäran skall anses skälig; om det visar sig att begäran var oskälig skall storleken av bärgarlönen inte påverkas av att andra bärgare medverkat.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>I förhållande till bärgaren är fartygets ägare, redare och befälhavare samt ägaren till någon annan egendom som omfattas av bärgningen skyldiga att</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>samarbeta fullt ut med bärgaren under bärgningen,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>visa tillbörlig omsorg vid bärgningen för att hindra eller begränsa miljöskada, samt att</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>återta det bärgade fartyget eller annan bärgad egendom när det som bärgats har förts i säkerhet och bärgaren med fog begär att så skall ske.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Rätt till bärgarlön</heading>
+                        <subsection>
+                            <content>
+                                <p>Bärgaren har rätt till bärgarlön, om bärgningen har lett till ett nyttigt resultat. Bärgarlönen får inte bestämmas till högre belopp än värdet av det bärgade fartyget och annan bärgad egendom. Ränta och rättegångskostnader skall inte räknas in i bärgarlönen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Räddning av människor ger inte som sådan rätt till bärgarlön. Den som i samband med bärgningen har räddat människor har dock rätt till en skälig andel av den bärgarlön eller den särskilda ersättning som tillkommer bärgaren.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Utan hinder av 1 mom. får krav framställas på särskild ersättning enligt 9 §.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Bestämmande av bärgarlön</heading>
+                        <subsection>
+                            <intro>
+                                <p>Bärgarlönen skall bestämmas så att den uppmuntrar till bärgning och med beaktande av följande omständigheter:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>värdet av det bärgade fartyget och annan bärgad egendom,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>bärgarnas skicklighet och ansträngningar vid bärgningen av fartyget och annan egendom samt vid räddning av människor,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>bärgarnas skicklighet och ansträngningar i fråga om att hindra eller begränsa miljöskada,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>bärgarnas framgång,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>farans art och grad,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>den tid som bärgarna använde och de kostnader och förluster som bärgarna ådrog sig,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7)</num>
+                                <content>
+                                    <p>bärgarnas risk att bli ersättningsskyldiga och de andra risker som bärgarna och deras utrustning utsattes för,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>8)</num>
+                                <content>
+                                    <p>den snabbhet med vilken tjänsterna utfördes,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>9)</num>
+                                <content>
+                                    <p>tillgängligheten och användningen av fartyg eller annan utrustning avsedd för bärgning,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>10)</num>
+                                <content>
+                                    <p>graden av beredskap och effektivitet i fråga om bärgarnas utrustning samt utrustningens värde.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>7 §</num>
+                        <heading>Ansvar för bärgarlön</heading>
+                        <subsection>
+                            <content>
+                                <p>Bärgarlönen skall betalas av fartygsägaren och ägaren till annan egendom i förhållande till värdet av det som bärgades för var och en av dem.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Fördelning av bärgarlön mellan flera bärgare</heading>
+                        <subsection>
+                            <content>
+                                <p>Vid fördelningen av bärgarlön mellan flera bärgare skall de omständigheter som anges i 6 § beaktas.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Särskild ersättning</heading>
+                        <subsection>
+                            <content>
+                                <p>Om bärgaren har utfört bärgningsarbete avseende ett fartyg som självt eller genom sin last har hotat att orsaka miljöskada, har bärgaren rätt till särskild ersättning för sina kostnader av fartygsägaren och redaren. Särskild ersättning skall dock betalas endast i den mån ersättningen överstiger den bärgarlön som bestäms enligt 6 §.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om bärgaren under sådana omständigheter som avses i 1 mom. har hindrat eller begränsat miljöskada, kan den särskilda ersättningen höjas med ett belopp som motsvarar högst 30 procent av bärgarens kostnader. Ersättningen kan dock höjas med högst 100 procent av bärgarens kostnader, om det anses skäligt. De omständigheter som anges i 6 § skall härvid beaktas.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Med bärgarens kostnader avses de skäliga utgifter som bärgaren har haft för bärgningsarbetet samt en rimlig ersättning för utrustning och personal som med fog har använts under arbetet. Vid bestämmandet av ersättningen skall omständigheterna i 6 § 8―10 punkten beaktas.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om bärgaren av vårdslöshet har låtit bli att hindra eller begränsa miljöskada, kan den särskilda ersättningen förvägras honom helt eller delvis.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>10 §</num>
+                        <heading>Rätt till ersättning i vissa fall</heading>
+                        <subsection>
+                            <content>
+                                <p>Den som handlar enligt ett avtal som har ingåtts innan fara uppstod har rätt till bärgarlön eller särskild ersättning endast om de vidtagna åtgärderna har gått utöver vad som skäligen kan anses omfatta fullgörelse av avtalet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Den som medverkat vid bärgningen trots uttryckligt och befogat förbud av fartygets ägare, redare eller befälhavare har inte rätt till bärgarlön eller särskild ersättning. Rätt till bärgarlön eller särskild ersättning finns inte heller, om ägaren till annan egendom som är i fara och inte finns eller har funnits på fartyget, uttryckligen och befogat förbjudit deltagande i bärgningen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Bärgarlönen eller den särskilda ersättningen kan förvägras helt eller delvis, om bärgningen har orsakats eller försvårats av fel eller försummelse från bärgarens sida eller om bärgaren vid bärgningen har gjort sig skyldig till bedrägeri eller någon annan ohederlig handling.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>11 §</num>
+                        <heading>Fördelning av bärgarlön mellan redare och besättning</heading>
+                        <subsection>
+                            <content>
+                                <p>Om ett fartyg som är registrerat i Finland har bärgat något under en resa, skall av bärgarlönen först betalas ersättning för skada som genom bärgningen orsakats fartyget, lasten eller någon annan egendom ombord, ersättning för sådana utgifter för bränsle samt för löner och kost till befälhavaren och besättningen som uppkommit på grund av bärgningen, samt ersättning enligt 3 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Av återstoden av bärgarlönen (<i>nettobärgarlönen</i>) skall redaren få tre femtedelar. Av resten skall en tredjedel tillfalla befälhavaren och två tredjedelar den egentliga besättningen. Besättningens andel fördelas i förhållande till besättningsmedlemmarnas löner. Befälhavarens andel skall dock alltid vara minst dubbelt så stor som den högst avlönade sjömannens andel. En lots på fartyget har rätt till en andel av bärgarlönen som om han eller hon tillhörde besättningen och, om lotsen inte är anställd hos redaren, hade rätt till en lika stor lön som den främste av styrmännen.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om en sjöman vid bärgningen har gjort en synnerligen förtjänstfull insats eller utsatt sig för synnerlig fara, kan han eller hon beviljas ersättning utöver det som bestäms i 2 mom. En sjöman som framställer krav på sådan ersättning skall inom tre månader efter det att bärgningen har slutförts anmäla detta hos redaren eller befälhavaren.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om det finns särskilda skäl, såsom ändamålet med fartygets resa eller sättet att beräkna lön eller ersättning till dem som arbetar i fartygets tjänst, får bärgarlönen fördelas på något annat sätt än det som anges i 1―3 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Ett avtal om att en mindre del än vad som föreskrivs i denna paragraf av den bärgarlön som eventuellt kan förtjänas med fartyget skall tillfalla befälhavaren eller besättningen är ogiltigt, om det inte är fråga om ett fartyg som bedriver bärgningsverksamhet och är särskilt utrustat för detta eller om det inte är fråga om ett avtal som gäller en viss bärgning och som har ingåtts i samband med påmönstring.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelserna i denna paragraf tillämpas på fördelningen av bärgarlön som tillkommer ett finskt statsfartyg också när fartyget används uteslutande för statsändamål och inte för affärsdrift. Befälhavarens andel av bärgarlönen betalas dock till befälhavarens förman eller någon som jämställs med förmannen, om denne när bärgningen inletts har övertagit befälet ombord. Fartygets ordinarie befälhavare får sin bärgarlön av den besättningen tillkommande andelen i förhållande till sin lön. Staten kan utan ansvarighet mot de ombordvarande avstå från bärgarlönen i dess helhet. Genom förordning av statsrådet bestäms närmare om löner som skall beaktas vid fördelning av den del av bärgarlönen som tillfaller de ombordvarande, om fördelning av andelar mellan olika statsfartyg samt om avstående från den bärgarlön som tillkommer ett fartyg.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>På fartyg som är registrerade någon annanstans än i Finland tillämpas i fråga om fördelningen av bärgarlön lagstiftningen i den stat där fartyget är registrerat. Om bärgningen inte har utförts från ett fartyg, skall bärgarlönen fördelas enligt den lagstiftning som är tillämplig på avtalet mellan bärgaren och hans anställda.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>12 §</num>
+                        <heading>Säkerhet</heading>
+                        <subsection>
+                            <content>
+                                <p>På begäran av bärgaren skall den som är betalningsskyldig enligt bestämmelserna i detta kapitel ställa säkerhet för betalningen av bärgarlönen och den särskilda ersättningen. Säkerheten skall täcka även ränta och rättegångskostnader. När en sådan säkerhet har ställts får bärgaren inte göra gällande sjöpanträtt för kravet på bärgarlön.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Det bärgade fartygets ägare och redare skall medverka till att lastägaren, innan lasten lämnas ut, ställer säkerhet för de krav som riktas mot honom. Säkerheten skall täcka ränta och rättegångskostnader.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Det bärgade fartyget eller annan bärgad egendom får inte utan bärgarens samtycke flyttas från den hamn eller plats dit egendomen först har förts efter bärgningen, om inte säkerhet har ställts för bärgarens krav.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om fartyget blir uppehållet eller ägaren till egendom inte får ut egendomen på grund av att bärgaren vägrar att godta den säkerhet som erbjudits, men den erbjudna säkerheten anses ha varit tillräcklig och betryggande, skall bärgaren ersätta all den skada som på detta sätt har orsakats.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 §</num>
+                        <heading>Förskott</heading>
+                        <subsection>
+                            <content>
+                                <p>Den domstol eller skiljedomstol som är behörig att handlägga bärgarens krav får på begäran av bärgaren interimistiskt besluta att ett skäligt förskott på bärgarlönen eller den särskilda ersättningen skall betalas. Om sakens natur det förutsätter kan som villkor för ett sådant förskott ställas att bärgaren ställer säkerhet för det belopp som mottas eller andra villkor som är skäliga med hänsyn till omständigheterna.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>14 §</num>
+                        <heading>Krav på bärgarlön ur lasten</heading>
+                        <subsection>
+                            <content>
+                                <p>Om ett fartyg har bärgat ett annat fartyg som tillhör samma ägare eller dess last, får befälhavaren för det bärgade fartyget inte företräda lastens ägare när krav på bärgarlön ur lasten framställs.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om det inte genast framgår vem lasten tillhör, skall domstolen på begäran av bärgaren eller försäkringsgivaren förordna en ojävig och sakkunnig god man att företräda lastägaren i allt som angår krav på bärgarlön för lasten. Detsamma gäller om lastägaren inte anträffas utan svårighet eller tidsspillan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>15 §</num>
+                        <heading>Statsägd last och humanitär last</heading>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelserna i detta kapitel kan inte åberopas som grund för kvarstad eller någon annan säkringsåtgärd avseende en sådan last tillhörande en främmande stat som används uteslutande för andra än kommersiella ändamål och som vid tidpunkten för bärgningen åtnjuter immunitet enligt allmänt erkända principer i folkrätten.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelserna i detta kapitel kan inte åberopas som grund för kvarstad eller någon annan säkringsåtgärd avseende en last som har skänkts av en stat för humanitära ändamål, om staten i fråga har åtagit sig att betala för bärgning av lasten.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>19 kap.</num>
+                    <heading>Preskription av fordringar</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Preskription av fordringar</heading>
+                        <subsection>
+                            <intro>
+                                <p>Talan om erhållande av betalning för följande fordringar, oberoende av om ansvarigheten är begränsad eller obegränsad, skall väckas</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>för fordran på bärgarlön eller på i 16 kap. 9 § avsedd särskild ersättning inom två år från det bärgningsföretaget har slutförts och för fordran på andel i bärgarlön enligt 16 kap. 11 § inom ett år från det vederbörande av redaren har underrättats om bärgarlönens och andelens storlek; den mot vilken fordran görs gällande kan dock under tiden för väckande av talan förlänga denna tidsfrist genom att underrätta den som framställt krav,</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>21 kap.</num>
+                    <heading>Laga domstol och rättegång i sjörättsmål</heading>
+                    <section>
+                        <num>3 b §</num>
+                        <heading>Behörig domstol vid bärgningsföretag</heading>
+                        <subsection>
+                            <content>
+                                <p>Utöver vad som bestäms i 3 § får talan om bestämmande eller fördelning av bärgarlön eller särskild ersättning enligt 16 kap. väckas vid sjörättsdomstolen i den hovrättsdomkrets där bärgningen utfördes eller där den bärgade egendomen fördes iland.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Gäller en talan enligt 1 mom. bärgningsarbete som har utförts någon annanstans än i Finland, får talan utöver vad som föreskrivs i 3 § väckas vid Helsingfors tingsrätt.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft vid en tidpunkt som bestäms genom förordning av statsrådet.</p>
+                    <p>På avtal som har ingåtts och bärgningsföretag som har påbörjats före denna lags ikraftträdande tillämpas de bestämmelser som gällde vid ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 97/2006</p>
+                        <p>KoUB 19/2006</p>
+                        <p>RSv 163/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 22 december 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Kari Rajamäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,174 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1158/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1158"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1158/alkup"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1158"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1158/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1158/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1158/alkup/fin"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1158/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1158/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1158/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="169"/>
+                    <finlex:date date="2007-12-13"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1158/2007</docNumber>
+                <docTitle>Laki maahanmuuttajan erityistuesta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         maahanmuuttajan erityistuesta 20 päivänä joulukuuta 2002 annetun lain (<affectedDocument href="/akn/fi/act/statute/2002/1192">1192/2002</affectedDocument>) 21 §, sellaisena kuin se on laissa 575/2007, ja
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         6 §:n 2 momentti, 7 §:n otsikko, 1 momentti ja 2 momentin 11 kohta, 18 §:n 1 momentti ja 33 §:n 5 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 6 §:n 2 momentti, 7 §:n otsikko ja 2 momentin 11 kohta, 18 §:n 1 momentti sekä 33 §:n 5 momentti viimeksi mainitussa laissa, seuraavasti:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>6 §</num>
+                    <heading>Erityistuen määrä</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Täysimääräinen erityistuki on 506,35 euroa kuukaudessa. Jos erityistuen saaja on avioliitossa, täysimääräinen erityistuki on 449,13 euroa kuukaudessa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 §</num>
+                    <heading>Huomioon otettavat tulot</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Erityistukea myönnettäessä otetaan huomioon henkilön käytettävissä olevat tosiasialliset tulot (<i>vuositulo</i>), jotka hänen arvioidaan jatkuvasti tai toistuvasti vuosittain saavan. Lisäksi otetaan huomioon hänen puolisonsa vastaavat tulot siltä osin kuin ne ylittävät avioliitossa olevan henkilön täysimääräisen erityistuen.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>
+                                Tulona ei kuitenkaan oteta huomioon (<i>etuoikeutetut tulot</i>):
+                            </p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>11)</num>
+                            <content>
+                                <p>kohdassa 7 mainittuja etuuksia vastaavia ulkomailta maksettavia etuuksia.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>18 §</num>
+                    <heading>Ilmoitusvelvollisuus</heading>
+                    <subsection>
+                        <content>
+                            <p>Erityistuen saajan on ilmoitettava Kansaneläkelaitokselle avioliiton solmimisesta, avioliittonsa purkautumisesta, erityistukeen vaikuttavissa tuloissaan tapahtuneesta muutoksesta, ulkomailla oleskelustaan sekä muista vastaavista erityistuen maksamiseksi välttämättömistä tiedoista.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>33 §</num>
+                    <heading>Tietojensaantioikeus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Sen lisäksi, mitä tässä pykälässä säädetään, noudatetaan, mitä kansaneläkelain 88 §:ssä, 90 §:n 3 kohdassa sekä 95 ja 96 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                    <p>Tämän lain voimaan tullessa maksussa oleva maahanmuuttajan erityistuki muutetaan 1 päivästä tammikuuta 2008 tämän lain 6 §:n mukaiseksi. Muutos tehdään ilman hakemusta ja erityistuen muuttamisesta annetaan päätös vain erityistuen saajan pyynnöstä.</p>
+                    <p>Kansaneläkettä tai kansaneläkelain mukaista leskeneläkkeen täydennysmäärää lain voimaan tullessa saavan henkilön erityistuki tarkistetaan 19 §:n 2 momentin 2 kohdan perusteella 1 päivästä tammikuuta 2008.</p>
+                    <p>Lain 21 §:n nojalla keskeytettyjen erityistukien maksaminen aloitetaan uudelleen 1 päivästä tammikuuta 2008. Jos 19 §:n mukaisesta tarkistuksesta on kulunut yli vuosi, tuki tarkistetaan ennen maksamisen aloittamista.</p>
+                    <p>Tämän lain 6 §:ssä säädetyt rahamäärät vastaavat kansaneläkeindeksin sitä pistelukua, jonka mukaan vuonna 2001 maksettavina olevien kansaneläkkeiden suuruus on laskettu.</p>
+                    <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/95">HE 95/2007</ref>
+                        </p>
+                        <p>StVM 9/2007</p>
+                        <p>EV 55/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 7 päivänä joulukuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

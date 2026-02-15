@@ -1,0 +1,339 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/618/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/618"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/618/alkup"/>
+                    <FRBRdate date="2006-07-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="618"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/618/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/618/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/618/alkup/fin"/>
+                    <FRBRdate date="2006-07-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/618/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/618/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/618/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="98"/>
+                    <finlex:date date="2006-07-26"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>618/2006</docNumber>
+                <docTitle>Laki tilatukijärjestelmän täytäntöönpanosta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         tilatukijärjestelmän täytäntöönpanosta 15 päivänä heinäkuuta 2005 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2005/557">557/2005</affectedDocument>
+                        ) 2 §:n 5 ja 6 kohta, 3 §:n 2 ja 3 momentti, 10 §:n 3 momentti, 11 § sekä 19 §:n 1 momentti, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         2 §:ään uusi 7―10 kohta, 7 §:ään uusi 2 momentti ja lakiin uusi 4 a luku seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Määritelmät</heading>
+                    <subsection>
+                        <intro>
+                            <p>Tässä laissa tarkoitetaan:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>
+                                    <i>kesannointioikeudella</i>
+                                     tilatukiasetuksen 53 artiklan ja 63 artiklan 2 kohdan mukaista viljelijälle myönnettävää hehtaarikohtaista tukioikeutta;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>
+                                    <i>erityistukioikeudella</i>
+                                     tilatukiasetuksen 47 ja 48 artiklan mukaista oikeutta;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>
+                                    <i>perustoimitusoikeudella</i>
+                                     kullekin viljelijälle määritettyä markkinointivuodelle myönnettyä oikeutta tuottaa A- ja B-kiintiösokeria;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>8)</num>
+                            <content>
+                                <p>
+                                    <i>siirtymäkauden lisäkorvauksella</i>
+                                     viljelijöiden viitemääriin vuosina 2006―2009 sisällytettävää tilatukiasetuksen liitteen VII kohdan K taulukossa 2 vahvistettua lisämäärää;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>9)</num>
+                            <content>
+                                <p>
+                                    <i>sokerin hinnanalennuksen korvauksella</i>
+                                     tilatukiasetuksen liitteen VII kohdan K taulukossa 1 vahvistettua kansallista enimmäismäärää; ja
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>10)</num>
+                            <content>
+                                <p>
+                                    <i>neuvontajärjestöllä</i>
+                                     yksityistä tai julkista yhteisöä, joka tuottaa tilaneuvontapalveluja.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <heading>Yhdistelmämalli ja täytäntöönpanomuoto</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Yhdistelmämallissa tukioikeus muodostetaan tasatukiosasta ja mahdollisesta tilakohtaisesta lisäosasta, joiden lisäksi voidaan muodostaa kesannointioikeuksia sekä erityistukioikeuksia. Tukioikeuksiin voi valtioneuvoston asetuksella tarkemmin säädettävissä tapauksissa sisältyä tilatukiasetuksen 60 artiklan mukainen oikeus. Tilakohtainen lisäosa muodostetaan viitekaudella 2000―2002 sonni- ja härkäpalkkiota saaneille tiloille, viitekaudella 2000―2002 tärkkelysperunan tukea saaneille tiloille, 31 päivänä maaliskuuta 2006 maitopalkkioon oikeutetuille tiloille sekä tiloille, jotka ovat oikeutettuja saamaan tilakohtaisen lisäosan kansallisesta varannosta. Tilakohtainen sokerijuurikkaan lisäosa muodostetaan tiloille markkinointivuoden 2005/2006 voimassa olevan perustoimitusoikeuden sokerimäärän perusteella.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tilakohtaiseen lisäosaan sisällytetään 100 prosenttia maitopalkkiosta, 30 prosenttia sonni- ja härkäpalkkiosta sekä 40 prosenttia tärkkelysperunan tuotantoon sitomattomasta tuesta. Lisäosat säilyvät ennallaan vuosina 2006―2010. Vuosina 2011―2013 lisäosien suuruus on 70 prosenttia ja vuosina 2014 ja 2015 35 prosenttia alkuperäisestä tasosta. Vuodesta 2016 alkaen lisäosia ei makseta. Tilakohtaiseen sokerijuurikkaan lisäosaan sisällytetään 100 prosenttia sokerin hinnanalennuksen korvauksesta vuosina 2006―2013 sekä 100 prosenttia siirtymäkauden lisäkorvauksesta vuosina 2006―2009. Vuosina 2014―2016 sokerijuurikkaan lisäosan suuruus on 70 prosenttia ja vuosina 2017 ja 2018 se on 35 prosenttia vuoden 2009 hinnanalennuksen korvauksen ja siirtymäkauden lisäkorvauksen perusteella muodostetun lisäosan yhteismäärästä. Siirtymäkaudesta, lisäosien ja erityistukioikeuksien asteittaisesta alentamisesta, vastaavasta tasatuen korottamisesta sekä sokerijuurikkaan lisäosasta voidaan säätää tarkemmin valtioneuvoston asetuksella.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>7 §</num>
+                    <heading>Lakisääteisten hoitovaatimusten valvonta</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Elintarviketurvallisuusvirasto, työvoima- ja elinkeinokeskus, kunnaneläinlääkäri, läänin-hallitus ja lääninhallituksen määräämä virkaeläinlääkäri valvovat tilatukiasetuksen liitteessä III tarkoitettujen lakisääteisten hoitovaatimusten noudattamista. Valvonnassa noudatetaan muutoin, mitä elintarvikelaissa (23/2006), eläintautilaissa (55/1980), eläinten lääkitsemisestä annetussa laissa (617/1997), rehulaissa (396/1998), torjunta-ainelaissa (327/1969) ja eläinsuojelulaissa (247/1996) säädetään mainittujen lakien ja niiden nojalla annettujen säädösten noudattamisen valvonnasta sekä valvontaviranomaisista. Rehuja voi rehulain 24 §:ssä mainitun viranomaisen lisäksi valvoa myös työvoima- ja elinkeinokeskus. Valtioneuvoston asetuksella voidaan antaa tilatukiasetusta ja komission asetusta I tarkentavia säännöksiä valvonnasta ja valvonnassa noudatettavasta menettelystä sekä säännöksiä siitä, minkä tässä momentissa mainittujen lakien tai niiden nojalla annettujen säädösten säännösten noudattamiseen lakisääteisten hoitovaatimusten noudattamisen valvonta kohdistuu.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 §</num>
+                    <heading>Tukioikeuksien käyttö ja siirrot</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Tukioikeuden siirtäjän on ilmoitettava tapahtuneesta siirrosta siten kuin valtioneuvoston asetuksella säädetään. Valtioneuvoston asetuksella voidaan antaa lisäksi tilatukiasetusta ja komission asetusta II tarkentavia säännöksiä tukioikeuden siirtämisen edellytyksistä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>11 §</num>
+                    <heading>Sukupolvenvaihdoksia koskevat tilanteet</heading>
+                    <subsection>
+                        <intro>
+                            <p>Sen lisäksi, mitä perintökaaren (40/1965) 6 luvun 1 §:n 1 momentissa säädetään, ennakkoperintönä pidetään tilatukiasetuksen 33 artiklan 1 kohdan b alakohtaa ja 43 artiklan 1 kohdan ensimmäistä alakohtaa sovellettaessa myös sellaista vuonna 2003 tai sen jälkeen tehtyä:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>maatilan tai sen osan kauppaa, jonka rahoittamiseen on myönnetty nuoren viljelijän aloitustukeen kuuluva avustus, laina tai molemmat;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>maatilan kauppaa, jossa ostaja on myyjän perillinen suoraan alenevassa polvessa, sisar tai veli taikka näiden perillinen suoraan alenevassa polvessa, ottolapsi taikka edellä mainittujen puoliso edellyttäen, että kauppa-hinta on selvästi alempi kuin vastaavassa kaupassa ilman edellä tarkoitettua myyjän ja ostajan välistä suhdetta muuten olisi ollut;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>maatilan osan kauppaa, joka tehdään perintökaaren 25 luvun 1 b §:n 3 momentin mukaisesti; sekä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>maatilan tai sen osan lahjaa, jossa lahjan saajana on lahjan antajan perillinen suoraan alenevassa polvessa, sisar tai veli taikka näiden perillinen suoraan alenevassa polvessa, ottolapsi taikka edellä mainittujen puoliso.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <chapter>
+                    <num>4 a luku</num>
+                    <heading>Tilaneuvontajärjestelmä</heading>
+                    <section>
+                        <num>18 a §</num>
+                        <heading>Tilaneuvontajärjestelmä</heading>
+                        <subsection>
+                            <content>
+                                <p>Tilatukiasetuksen 13 artiklassa tarkoitettua maatalousmaata ja tilanhoitoa koskevaa neuvontaa viljelijöille antavat maa- ja metsätalousministeriön hyväksymät järjestöt ja neuvojat. Tilaneuvonta on maksullista.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tilaneuvonta toteutetaan tilakäynnein, jolloin viljelijöille annetaan tilatukiasetuksen 4 ja 5 artiklassa tarkoitettua neuvontaa. Neuvontaa annetaan hyvän maatalouden ja ympäristön vaatimuksesta, ympäristösäädöksistä, eläinten tunnistuksesta ja rekisteröinnistä, kasvinsuojeluaineista, elintarvikkeista, rehuista sekä eläinten hyvinvoinnista ja eläintaudeista ilmoittamisesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>18 b §</num>
+                        <heading>Tuki tilaneuvontaan</heading>
+                        <subsection>
+                            <content>
+                                <p>Viljelijöille voidaan myöntää valtion varoista tukea 18 a §:ssä tarkoitettujen tilaneuvontapalveluiden käyttämiseen. Valtioneuvoston asetuksella voidaan säätää rahoituksesta, tuen hakemis-, myöntämis- ja maksamismenettelystä sekä tuen määrästä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>18 c §</num>
+                        <heading>Neuvojien hyväksyminen ja kelpoisuusehdot</heading>
+                        <subsection>
+                            <content>
+                                <p>Neuvontajärjestöjen ja neuvojien hyväksymistä haetaan kirjallisesti maa- ja metsätalousministeriöltä, joka päättää hyväksymisestä enintään kolmeksi vuodeksi kerrallaan. Hyväksymisen edellytyksenä on, että neuvontajärjestöllä ja neuvojalla on tehtävänsä laatuun ja laajuuteen nähden riittävä asiantuntemus. Neuvontajärjestöjen ja neuvojien tulee lisäksi täyttää 3 ja 4 momentissa säädetyt vaatimukset. Neuvojat toimivat virkavastuulla. Lisäksi toiminnassa sovelletaan kielilain (423/2003), saamen kielilain (1086/2003), viranomaisten toiminnan julkisuudesta annetun lain sekä hallintolain (434/2003) säännöksiä. Maa- ja metsätalousministeriön on kuultava Elintarviketurvallisuusvirastoa ennen sellaisen neuvontajärjestön tai neuvojan hyväksymistä, joka antaa neuvontaa eläinten tunnistuksesta ja rekisteröinnistä, kasvinsuojeluaineista, elintarvikkeista, rehuista tai eläinten hyvinvoinnista ja eläintaudeista ilmoittamisesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Maa- ja metsätalousministeriö voi peruuttaa hyväksymisen, jollei neuvontajärjestö tai neuvoja täytä hyväksymisen edellytyksiä tai jollei tämän muutoin voida katsoa olevan soveltuva tehtäväänsä virheellisen menettelynsä tai laiminlyöntinsä vakavuuden tai toistuvuuden vuoksi. Maa- ja metsätalousministeriön on ennen hyväksymisen peruuttamista annettava neuvontajärjestölle tai neuvojalle kirjallinen huomautus sekä kuultava tätä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Neuvojalla tulee olla neuvottavan asiakokonaisuuden alaan soveltuva vähintään opistotasoinen koulutus tai muu vastaava koulutus sekä vähintään vuoden työkokemus kyseiseltä alalta. Erityisestä syystä voidaan koulutusvaatimuksesta poiketa ja hyväksyä neuvojaksi myös vastaavat tiedot ja taidot omaava henkilö, jolla on pitkä työkokemus. Neuvojalla on lisäksi oltava kokemusta neuvonnasta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Neuvojien on suoritettava maa- ja metsätalousministeriön järjestämä koe hyväksytysti. Neuvontajärjestön tai neuvojan on lisäksi esitettävä maa- ja metsätalousministeriölle kirjallinen neuvonnan toimintasuunnitelma.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Valtioneuvoston asetuksella voidaan antaa tarkempia säännöksiä neuvontajärjestöjen ja neuvojien hyväksymismenettelystä, hyväksymisen peruuttamiseen liittyvästä menettelystä, neuvojille järjestettävän kokeen sisällöstä ja toteuttamistavasta sekä neuvonnan toimintasuunnitelmaan sisällytettävistä seikoista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>18 d §</num>
+                        <heading>Neuvontarekisteri</heading>
+                        <subsection>
+                            <content>
+                                <p>Maa- ja metsätalousministeriö pitää neuvontarekisteriä, johon talletetaan tarpeelliset yksilöinti- ja yhteystiedot tilatukiasetuksen 13 artiklassa tarkoitetun tilaneuvontajärjestelmän neuvontajärjestöistä, neuvojista ja neuvontaan osallistuvista viljelijöistä, palaute, jonka viljelijät antavat neuvontajärjestöistä ja neuvojista sekä muut neuvonnan toteuttamista ja seurantaa varten tarpeelliset tiedot. Neuvontajärjestöt ja neuvojat voidaan hyväksymisen jälkeen merkitä neuvontarekisteriin enintään kolmeksi vuodeksi kerrallaan.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Maa- ja metsätalousministeriön tietopalvelukeskuksella ja kuntien maaseutuelinkeinoviranomaisilla on rekisterinpitäjän ohella oikeus käyttää rekisteriä. Elintarviketurvallisuusvirastolla ja työvoima- ja elinkeinokeskusten maaseutuosastoilla on oikeus saada tietoja rekisteristä teknisen käyttöyhteyden avulla. Ennen tietojen luovuttamista teknisen käyttöyhteyden avulla on tietoja pyytävän esitettävä selvitys tietojen suojaamisesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Neuvontarekisterin tietojen julkisuuteen, niiden luovuttamiseen ja luovuttamisesta perittäviin maksuihin sovelletaan muutoin viranomaisten toiminnan julkisuudesta annettua lakia ja henkilötietojen käsittelyyn henkilötietolakia. Tietoja viljelijän tilaneuvonnasta antamasta palautteesta luovutetaan kuitenkin vain ilman palautteen antajan henkilötietoja ja ainoastaan valtion ja kunnan viranomaiselle laissa tai Euroopan yhteisön säännöksissä säädettyjen tehtävien hoitamista varten, palautetta saaneelle neuvojalle tai neuvontajärjestölle ja sille neuvontajärjestölle, jonka palveluksessa palautetta saanut neuvoja toimii.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tiedot säilytetään rekisterissä 10 vuoden ajan sen kalenterivuoden päättymisestä, jona neuvontaa on annettu.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>19 §</num>
+                        <heading>Tarkemmat säännökset</heading>
+                        <subsection>
+                            <content>
+                                <p>Valtioneuvoston asetuksella voidaan antaa tarkempia säännöksiä tukioikeusrekisterin hallinnoinnista.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 26 päivänä heinäkuuta 2006.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/37">HE 37/2006</ref>
+                        </p>
+                        <p>MmVM 5/2006</p>
+                        <p>EV 80/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Naantalissa 21 päivänä heinäkuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Maa- ja metsätalousministeri </role>
+                                <person refersTo="">Juha Korkeaoja </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

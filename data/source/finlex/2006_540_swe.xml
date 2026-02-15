@@ -1,0 +1,163 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/540/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/540"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/540/alkup"/>
+                    <FRBRdate date="2006-06-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="540"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/540/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/540/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/540/alkup/swe"/>
+                    <FRBRdate date="2006-06-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/540/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/540/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/540/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="85"/>
+                    <finlex:date date="2006-06-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>540/2006</docNumber>
+                <docTitle>Lag om ändring av luftfartslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i luftfartslagen av den 29 december 2005 (
+                        <affectedDocument href="/akn/fi/act/statute/2005/1242">1242/2005</affectedDocument>
+                        ) 12 § 1 mom. 9 punkten, 17 § 3 mom. och rubriken för 164 §, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 12 § 1 mom. en ny 10 punkt, till lagen en ny 151 a § samt till 164 § ett nytt 2 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>12 §</num>
+                    <heading>Uppgifter som införs i luftfartygsregistret</heading>
+                    <subsection>
+                        <intro>
+                            <p>I luftfartygsregistret införs</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>9)</num>
+                            <content>
+                                <p>i luftfartyget fastställda inteckningar och förnyande och dödande av dessa inteckningar samt ändringar i inteckningarnas inbördes förmånsrätt,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>10)</num>
+                            <content>
+                                <p>skriftlig anmälan från ledningsenheten för en flygplats om att ett luftfartyg hindrats från att starta i enlighet med 164 § 2 mom.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>17 §</num>
+                    <heading>Avförande av luftfartyg ur luftfartygsregistret</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Är ett luftfartyg intecknat eller har det gjorts en anteckning om att det är utmätt eller föremål för någon säkringsåtgärd, krävs för avförande ur registret dessutom ett skriftligt samtycke av inteckningshavaren eller den som ansökt om utmätningen eller säkringsåtgärden. Har ledningsenheten för en flygplats hindrat ett luftfartyg från att starta i enlighet med 164 § 2 mom. och anmält detta till den registeransvarige, krävs det skriftligt samtycke av ledningsenheten för flygplatsen för avförande ur registret.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>151 a §</num>
+                    <heading>Vägran att ändra eller förnya tillstånd på grund av obetald avgift</heading>
+                    <subsection>
+                        <content>
+                            <p>Myndigheten får inte utan särskilda skäl bifalla en ansökan om att ändra eller förnya ett tillstånd som den beviljat, om den föreskrivna avgiften för tillståndet har förfallit till betalning och inte trots uppmaning har betalats inom en skälig utsatt tid.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>164 §</num>
+                    <heading>Solidariskt ansvar vid användning av flygplatser och luftfartstjänster samt hindrande av luftfartyg från att starta vid utebliven betalning</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ledningsenheten för flygplatsen kan genom att vägra tillhandahålla tjänster eller genom redskap eller konstruktioner som hindrar ett luftfartyg från att sätta sig i rörelse hindra ett luftfartyg från att starta till dess att de i 1 mom. avsedda avgifter som förfallit till betalning har betalats eller säkerhet för dem har ställts. Åtgärderna skall dimensioneras och genomföras så att de inte äventyrar liv eller hälsa eller skadar parkerade luftfartyg. Rätt att hindra start föreligger dock inte, om luftfartyget står i beråd att starta enligt tidtabellen för internationell regelbunden flygtrafik.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juli 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 49/2006</p>
+                        <p>TrUB 10/2006</p>
+                        <p>RSv 70/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 29 juni 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

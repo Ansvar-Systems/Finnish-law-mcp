@@ -1,0 +1,168 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1373/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1373"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1373/alkup"/>
+                    <FRBRdate date="2006-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1373"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1373/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1373/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1373/alkup/swe"/>
+                    <FRBRdate date="2006-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1373/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1373/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1373/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="206"/>
+                    <finlex:date date="2006-12-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1373/2006</docNumber>
+                <docTitle>Lag om ändring av lagen om miljöskadeförsäkring</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 30 januari 1998 om miljöskadeförsäkring (<affectedDocument href="/akn/fi/act/statute/1998/81">81/1998</affectedDocument>) 21 § 3 mom., sådant det lyder i lag 1101/2005, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 21 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>21 §</num>
+                    <heading>Indexjustering</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Det försäkringsbolag som svarar för utbetalningen av grundersättningen eller Miljöförsäkringscentralen är skyldig att göra indexjusteringen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>21 a §</num>
+                    <heading>Fördelningssystemet</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Försäkringsbolag som bedriver försäkring enligt denna lag skall varje kalenderår i proportion till premieinkomsten på det sätt som anges i 2―7 mom. (<i>fördelningssystemet</i>) delta i finansieringen av de indexjusteringar enligt 21 § som försäkringsbolagen och Miljöförsäkringscentralen betalar ut varje år. Med 
+                                <i>premieinkomst</i>
+                                 avses i denna paragraf en sådan premieinkomst för en försäkring enligt denna lag som ingår i försäkringsbolagets resultaträkning.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>
+                                Miljöförsäkringscentralen meddelar försäkringsbolagen senast den 31 maj det år som föregår utbetalningsåret för i 1 mom. avsedda förhöjningar (<i>fördelningsåret</i>) det relationstal som bestämmer beloppet av de finansieringsandelar (<i>fördelningsavgifter</i>) som behövs för finansieringen av fördelningssystemet i proportion till fördelningsårets premieinkomst. Relationstalet skall grunda sig på ett kalkylerat belopp av de förhöjningar enligt 1 mom. (<i>ersättningar enligt fördelningssystemet</i>) som försäkringsbolagen och centralen beräknas betala under fördelningsåret, samt beloppen av premieinkomsterna. Dessutom skall i relationstalet beaktas det över- eller underskott (<i>fördelningssaldo</i>) som bildas av skillnaden mellan fördelningsavgifterna och ersättningarna ur fördelningssystemet för de år som föregår fördelningsåret. Närmare bestämmelser om beaktandet av fördelningssaldot vid uträkningen av relationstalet utfärdas genom förordning av social- och hälsovårdsministeriet.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Den bolagsspecifika fördelningsavgiften fås genom att multiplicera relationstalet enligt 2 mom. med försäkringsbolagets premieinkomst under fördelningsåret. Det bolagsspecifika fördelningssaldot bestäms utifrån försäkringsbolagens premieinkomst för fördelningsåret i proportion till det fördelningssaldo som influtit för fördelningsåret och de år som föregår detta. Det bolagsspecifika fördelningssaldot utgör försäkringsbolagets skuld till fördelningssystemet, om saldot visar överskott och försäkringsbolagets fordringar hos fördelningssystemet, om saldot visar underskott.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Miljöförsäkringscentralen gör senast den 31 maj under fördelningsåret upp en kalkyl över de ersättningar som centralen och försäkringsbolagen beräknas betala ur fördelningssystemet under fördelningsåret, samt beloppen av de bolagsspecifika fördelningsavgifterna och fördelningssaldona. Närmare bestämmelser om grunderna för kalkylen utfärdas genom förordning av social- och hälsovårdsministeriet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Miljöförsäkringscentralen fastställer senast den 31 maj det år som följer efter fördelningsåret de ersättningar som centralen och försäkringsbolagen skall betala enligt fördelningssystemet under fördelningsåret samt de bolagsspecifika fördelningsavgifterna och fördelningssaldona.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Försäkringsbolaget skall betala den kalkylerade fördelningsavgiften och den slutligt fastställda fördelningsavgiften samt en post som beror på förändringen i det bolagsspecifika fördelningssaldot till Miljöförsäkringscentralen, och centralen skall redovisa den kalkylerade ersättningen och den slutligt fastställda ersättningen enligt fördelningssystemet samt den post som beror på förändringen i det bolagsspecifika fördelningssaldot till försäkringsbolagen. Närmare bestämmelser om fördelningsavgiften och redovisningen av den utfärdas genom förordning av social- och hälsovårdsministeriet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Till de slutliga betalningar som avses ovan i 6 mom. fogas en ränta som räknats på skillnaden mellan de slutliga betalningarna och förskottsbetalningarna för ett års tid räknat från den 1 juli under fördelningsåret. Som ränta används i 12 § i räntelagen nämnd referensränta som gäller nämnda dag.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2007.</p>
+                    <p>Denna lag tillämpas på förhöjningar som finansieras genom fördelningssystemet år 2007 eller därefter.</p>
+                    <p>Som relationstal enligt 21 a § 2 mom. för fördelningsåret 2007 används vid tillämpningen av denna lag 0 procent av försäkringsbolagets premieinkomst inklusive fördelningsavgift för en försäkring enligt denna lag som ingår i resultaträkningen.</p>
+                    <p>Beloppet för i 21 a § 2 och 3 mom. i denna lag avsett fördelningssaldo som inflyter för de år som föregår fördelningsåret 2007 är noll.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 238/2006</p>
+                        <p>ShUB 44/2006</p>
+                        <p>RSv 212/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 22 december 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

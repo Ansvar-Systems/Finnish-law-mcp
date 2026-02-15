@@ -1,0 +1,126 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/309/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/309"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/309/alkup"/>
+                    <FRBRdate date="2024-06-07" name="dateIssued"/>
+                    <FRBRdate date="2024-06-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="309"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/309/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/309/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/309/alkup/fin"/>
+                    <FRBRdate date="2024-06-07" name="dateIssued"/>
+                    <FRBRdate date="2024-06-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/309/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/309/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/309/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2024-06-11" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>309/2024</docNumber>
+                <docTitle>Laki lastensuojelulain 27 ja 41 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         lastensuojelulain (
+                        <affectedDocument href="/akn/fi/act/statute/2007/417">417/2007</affectedDocument>
+                        ) 27 §:n 3 momentti ja 41 §:n 2 momentti, sellaisina kuin ne ovat, 27 §:n 3 momentti laissa 1302/2014 ja 41 §:n 2 momentti laissa 610/2022, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>27 §</num>
+                    <heading>Lastensuojelun asiakkuuden alkaminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Sosiaalityöntekijän on tehtävä lastensuojelun asiakkuuden alkamisesta merkintä lasta koskeviin lastensuojeluasiakirjoihin sekä ilmoitettava siitä välittömästi huoltajalle ja lapselle ottaen kuitenkin huomioon, mitä sosiaali- ja terveydenhuollon asiakastietojen käsittelystä annetun lain (703/2023) 51 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>41 §</num>
+                    <heading>Huostaanoton ja sijaishuollon valmistelu</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitetulla sosiaalityöntekijällä on sen lisäksi, mitä sosiaali- ja terveydenhuollon asiakastietojen käsittelystä annetun lain 53, 55 ja 64 §:ssä säädetään sosiaalihuollon viranomaisen tietojensaantioikeudesta, oikeus saada mainituissa pykälissä tarkoitetuilta tahoilta lausunnot, jos niitä tarvitaan huostaanoton valmistelussa, huostaanotosta päätettäessä tai sijaishuoltoa järjestettäessä.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä heinäkuuta 2024.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/16">HE 16/2024</ref>
+                        </p>
+                        <p>StVM 3/2024</p>
+                        <p>EV 31/2024</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 7.6.2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri</role>
+                                <person refersTo="">Kaisa Juuso</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

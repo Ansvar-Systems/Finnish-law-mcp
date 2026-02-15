@@ -1,0 +1,148 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/255/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/255"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/255/alkup"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-25" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="255"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/255/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/255/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/255/alkup/fin"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-25" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/255/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/255/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/255/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-03-25" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>255/2015</docNumber>
+                <docTitle>Laki sosiaali- ja terveydenhuollon asiakastietojen sähköisestä käsittelystä annetun lain 10 ja 14 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         sosiaali- ja terveydenhuollon asiakastietojen sähköisestä käsittelystä annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2007/159">159/2007</affectedDocument>
+                        ) 14 §:n 1, 2, 3 ja 5 momentti, sellaisina kuin niistä ovat 14 §:n 1 momentti laissa 250/2014, 2 momentti laissa 1227/2010 ja 3 momentti laissa 981/2010, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         10 §:ään, sellaisena kuin se on osaksi laissa 1227/2010, uusi 4 momentti, jolloin nykyinen 4 momentti siirtyy 5 momentiksi, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>10 §</num>
+                    <heading>Potilastietojen luovuttaminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Sen estämättä, mitä 1 momentissa säädetään, voidaan valtakunnallisten tietojärjestelmäpalvelujen avulla luovuttaa lisäksi todistukset ja lausunnot sille terveydenhuollon ulkopuoliselle toimijalle, jota varten asiakirja on laadittu. Todistukseen ja lausuntoon liitetty muu yksilöity asiakirja voidaan luovuttaa todistuksen mukana. Luovuttaminen toteutetaan valtakunnalliseen tietojärjestelmäpalveluun kuuluvan viestinvälitys- ja kyselypalvelun avulla, ja se edellyttää potilaan informoitua, yksilöityä suostumusta. Suostumuksen vastaanottajan on kirjattava tieto siitä osaksi luovutettavaa asiakirjaa. Terveyden ja hyvinvoinnin laitos antaa määräykset siitä, mitkä asiakirjat saa luovuttaa viestinvälitys- ja kyselypalvelun avulla.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>14 §</num>
+                    <heading>Valtakunnalliset tietojärjestelmäpalvelut</heading>
+                    <subsection>
+                        <content>
+                            <p>Kansaneläkelaitos hoitaa terveydenhuollon palvelujen antajien lukuun potilasasiakirjojen säilytystä ja käyttöä varten olevaa arkistointipalvelua sekä sen osana potilasasiakirjojen luovutusta varten hakemistopalvelua ja potilaan tiedonhallintapalvelua. Arkistointipalveluun voidaan tallentaa potilasasiakirjojen lisäksi myös muita terveydenhuollon järjestämiseen ja tiedonhallintaan liittyviä asiakirjoja. Kansaneläkelaitos hoitaa sosiaalihuollon palvelunantajien lukuun arkistointipalvelua sosiaalihuollon asiakasasiakirjojen säilytystä varten. Lisäksi Kansaneläkelaitos hoitaa valtakunnallisiin tietojärjestelmäpalveluihin kuuluvina tehtävinä luovutuslokirekisterien säilytyksen osana arkistointipalvelua, 19 §:ssä tarkoitetun kansalaisen käyttöliittymän sekä palvelun, jonka avulla valtakunnallisia tietojärjestelmäpalveluja voi käyttää Internetin välityksellä sekä tietoliikenneverkkoja käyttävillä liikutettavilla laitteilla. Kansaneläkelaitos voi hoitaa myös muita sosiaali- ja terveydenhuollon tiedonhallintaan liittyviä valtakunnallisia palveluja siten kuin niistä erikseen muualla säädetään sekä huolehtia käyttölokirekisterien säilytyksestä. Kansaneläkelaitos voi tarvittaessa antaa ohjeita edellä mainittujen valtakunnallisten tietojärjestelmäpalveluiden toteuttamisen edellyttämistä teknisistä ja sanomaliikennemäärityksistä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Terveyden ja hyvinvoinnin laitoksen tehtävänä on määrittää valtakunnallisten tietojärjestelmäpalvelujen toteutuksen edellyttämät tietosisällöt, käsitemallit ja toimintaprosesseja tukevat tietorakenteet. Lisäksi se vastaa koodistopalvelun sisällöstä. Kansaneläkelaitos hoitaa koodistopalvelun tietoteknistä toteutusta. Koodistopalvelu sisältää kaikki koodistot, joita tarvitaan asiakasasiakirjojen käsittelyssä valtakunnallisten tietojärjestelmäpalvelujen avulla.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Väestörekisterikeskus toimii sosiaali- ja terveydenhuollon ammattihenkilöiden ja muun henkilöstön, palvelujen antajien sekä näiden palvelujen antamiseen osallistuvien organisaatioiden, niiden henkilöstön ja tietoteknisten laitteiden vahvasta sähköisestä tunnistamisesta ja sähköisistä allekirjoituksista annetussa laissa tarkoitettuna varmentajana. Väestörekisterikeskuksella on oikeus saada näiden tehtäviensä hoitamiseksi Sosiaali- ja terveysalan lupa- ja valvontavirastolta sen ylläpitämästä terveydenhuollon ammattihenkilöiden keskusrekisteristä varmenteen myöntämiseen ja peruuttamiseen, varmenteeseen, varmenteen tekniseen alustaan ja varmenteen toimittamiseen tarvittavat tiedot. Sosiaali- ja terveysalan lupa- ja valvontavirastolla on vastaavasti oikeus saada lakisääteisten tehtäviensä hoitamiseksi Väestörekisterikeskukselta tiedot sen edellä mainituin perustein myöntämistä varmenteista. Tiedot voidaan luovuttaa teknisen käyttöyhteyden välityksellä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Kansaneläkelaitos ei saa antaa valtakunnallisten tietojärjestelmäpalvelujen järjestämiseen liittyvien sosiaalihuollon henkilörekistereiden tai potilasrekistereiden taikka niihin liittyvien lokirekistereiden käsittelyä tai säilyttämistä toimeksiantotehtävänä ulkopuolisille.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä huhtikuuta 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/345">HE 345/2014</ref>
+                        </p>
+                        <p>StVM 47/2014</p>
+                        <p>EV 306/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>  Helsingissä 20 päivänä maaliskuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri</role>
+                                <person refersTo="">Laura Räty</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

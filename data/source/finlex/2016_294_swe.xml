@@ -1,0 +1,126 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/294/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/294"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/294/alkup"/>
+                    <FRBRdate date="2016-04-22" name="dateIssued"/>
+                    <FRBRdate date="2016-04-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="294"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/294/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/294/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/294/alkup/swe"/>
+                    <FRBRdate date="2016-04-22" name="dateIssued"/>
+                    <FRBRdate date="2016-04-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/294/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/294/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/294/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-04-28" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>294/2016</docNumber>
+                <docTitle>Lag om ändring av 15 och 17 § i lagen om stödjande av den äldre befolkningens funktionsförmåga och om social- och hälsovårdstjänster för äldre </docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om stödjande av den äldre befolkningens funktionsförmåga och om social- och hälsovårdstjänster för äldre (
+                        <affectedDocument href="/akn/fi/act/statute/2012/980">980/2012</affectedDocument>
+                        ) 15 § 1 mom. och 17 § 3 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>15 § </num>
+                    <heading>Utredning av servicebehovet</heading>
+                    <subsection>
+                        <content>
+                            <p>Kommunen ansvarar för att en övergripande utredning av en äldre persons behov av social- och hälsovård och av annan service som stöder hans eller hennes välbefinnande, hälsa, funktionsförmåga och förmåga att klara sig på egen hand görs i samarbete med personen själv och vid behov med hans eller hennes anhöriga eller närstående eller med en intressebevakare som har förordnats för honom eller henne. En sådan yrkesutbildad person enligt 3 § i lagen om yrkesutbildade personer inom socialvården (817/2015) eller 2 § i lagen om yrkesutbildade personer inom hälso- och sjukvården (559/1994) som är ändamålsenlig med tanke på den äldre personens behov och som har omfattande sakkunskap ska svara för utredningen av servicebehovet. Den anställda som svarar för utredningen ska i enlighet med den äldre personens behov samarbeta med andra experter som avses i 10 § i denna lag.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>17 § </num>
+                    <heading>Ansvarig arbetstagare</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Den ansvariga arbetstagaren ska vara en sådan yrkesutbildad person enligt 3 § i lagen om yrkesutbildade personer inom socialvården eller 2 § i lagen om yrkesutbildade personer inom hälso- och sjukvården som är ändamålsenlig med tanke på den äldre personens samlade service.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 maj 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2016/14">RP 14/2016</ref>
+                        </p>
+                        <p>ShUB 3/2016</p>
+                        <p>RSv 26/2016</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 22 april 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Familje- och omsorgsminister</role>
+                                <person refersTo="">Juha Rehula</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,132 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2025/143/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/143"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/143/alkup"/>
+                    <FRBRdate date="2025-04-04" name="dateIssued"/>
+                    <FRBRdate date="2025-04-08" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="143"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2025/143/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/143/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/143/alkup/swe"/>
+                    <FRBRdate date="2025-04-04" name="dateIssued"/>
+                    <FRBRdate date="2025-04-08" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2025/143/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/143/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/143/alkup/swe/xml"/>
+                    <FRBRdate date="2025-12-09" name="dateProduced"/>
+                    <FRBRdate date="2025-04-08" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2025</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>143/2025</docNumber>
+                <docTitle>Lag om ändring av 5 § i lagen om domstolsavgifter</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om domstolsavgifter (<affectedDocument href="/akn/fi/act/statute/2015/1455">1455/2015</affectedDocument>) 5 § 16 punkten, sådan den lyder i lag 486/2023, och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 5 §, sådan den lyder delvis ändrad i lagarna 1235/2016, 100/2018, 207/2023, 347/2023 och 486/2023, en ny 17 punkt som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section eId="sec_5">
+                    <num>5 §</num>
+                    <heading>Avgiftsfria prestationer</heading>
+                    <subsection eId="sec_5__subsec_1">
+                        <intro eId="sec_5__subsec_1__intro">
+                            <p>Avgifter enligt denna lag tas inte ut</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>16) </num>
+                            <content>
+                                <p>i ärenden enligt äktenskapslagen (234/1929) som gäller upphävande av äktenskap;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>17) </num>
+                            <content>
+                                <p>för behandling i högsta domstolen av en prejudikatfråga enligt 30 a kap. 7 § i rättegångsbalken.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 15 april 2025.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/152">RP 152/2024</ref>
+                        </p>
+                        <p>LaUB 1/2025</p>
+                        <p>RSv 7/2025</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 4 april 2025</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister</role>
+                                <person refersTo="">Leena Meri</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

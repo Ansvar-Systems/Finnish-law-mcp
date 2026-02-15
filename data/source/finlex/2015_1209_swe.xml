@@ -1,0 +1,193 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1209/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1209"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1209/alkup"/>
+                    <FRBRdate date="2015-09-18" name="dateIssued"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1209"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1209/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1209/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1209/alkup/swe"/>
+                    <FRBRdate date="2015-09-18" name="dateIssued"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1209/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1209/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1209/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1209/2015</docNumber>
+                <docTitle>Lag om ändring av lagen om bostadsaktiebolag</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om bostadsaktiebolag (<affectedDocument href="/akn/fi/act/statute/2009/1599">1599/2009</affectedDocument>) 6 kap. 10 §, 9 kap. 5 § 2 mom. och 14 § samt 24 kap. 4 §, 8 § 1 mom., det inledande stycket i 9 § 1 mom., 10 § 1 mom. och 11 § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>6 kap.</num>
+                    <heading>Bolagsstämma</heading>
+                    <section>
+                        <num>10 §</num>
+                        <heading>Andra personers rätt att delta i stämman</heading>
+                        <subsection>
+                            <content>
+                                <p>Styrelseledamöterna och disponenten har rätt att vara närvarande vid bolagsstämman, om inte denna i ett enskilt fall beslutar något annat. Styrelsen och disponenten ska se till att aktieägarnas frågerätt enligt 25 § kan förverkligas. Bestämmelser om en revisors närvaro vid bolagsstämman finns i revisionslagen (1141/2015) och bestämmelser om en verksamhetsgranskares närvaro i 9 kap. i denna lag. Bolagsstämman kan tillåta också andra personer att vara närvarande vid stämman.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>9 kap.</num>
+                    <heading>Revision, verksamhetsgranskning och särskild granskning</heading>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Skyldighet att välja revisor</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Om bolagsstämman inte väljer en revisor i en situation som avses i 1 mom. 3 punkten, ska Patent- och registerstyrelsen förordna en revisor i den ordning som föreskrivs i 2 kap. 8 § 1 och 4 mom. i revisionslagen, om en aktieägare ansöker om förordnande inom en månad från bolagsstämman. I 2 kap. 8 § i revisionslagen föreskrivs om förordnande av revisor genom Patent- och registerstyrelsens beslut då bolagsstämman inte väljer en revisor i en sådan situation som avses i 1 mom. 1 eller 2 punkten.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>14 §</num>
+                        <heading>Särskild granskare</heading>
+                        <subsection>
+                            <content>
+                                <p>En särskild granskare ska vara en fysisk person eller en revisionssammanslutning. Den särskilda granskaren ska ha den ekonomiska och juridiska sakkunskap och erfarenhet som granskningsuppdragets art och omfattning förutsätter. Vad som föreskrivs om revisorer i 2 kap. 7 §, 3 kap. 9 och 10 §, 4 kap. 6—8 § och 10 kap. 3 § i revisionslagen ska tillämpas på en särskild granskare.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>24 kap.</num>
+                    <heading>Skadestånd</heading>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Revisorers skadeståndsskyldighet</heading>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelser om revisorers skadeståndsskyldighet finns i 10 kap. 3 § i revisionslagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Beslutsfattandet i bolaget</heading>
+                        <subsection>
+                            <content>
+                                <p>Bolagsstämman fattar beslut i ärenden som gäller bolagets rätt till skadestånd enligt 1—3 och 5 § i detta kapitel samt enligt 10 kap. 3 § i revisionslagen. Styrelsen kan dock besluta om väckande av skadeståndstalan som grundar sig på en straffbar gärning.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Aktieägares rätt att föra talan för bolaget</heading>
+                        <subsection>
+                            <content>
+                                <p>En eller flera aktieägare har med stöd av 1—3 och 5 § i detta kapitel eller med stöd av 10 kap. 3 § i revisionslagen rätt att i sitt eget namn föra skadeståndstalan för bolagets räkning, om det när talan väcks är sannolikt att bolaget inte ser till att skadeståndsanspråket fullföljs och om</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>10 §</num>
+                        <heading>Preskription av talerätt</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    En talan enligt 1—3, 5 eller 6 § i detta kapitel eller enligt 10 kap. 3 § i revisionslagen ska för icke straffbara gärningar väckas inom tre år från den tidpunkt då den skadelidande har fått eller borde ha fått vetskap om skadan och den ansvarige. Preskriptionen av en skadeståndsskuld ska avbrytas på det sätt som föreskrivs i lagen om preskription av skulder (728/2003), nedan 
+                                    <i>preskriptionslagen</i>.
+                                </p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>11 §</num>
+                        <heading>Bestämmelsernas tvingande natur</heading>
+                        <subsection>
+                            <content>
+                                <p>Den rätt till skadestånd som tillkommer bolaget eller någon annan enligt detta kapitel eller enligt 10 kap. 3 § i revisionslagen kan inte begränsas i bolagsordningen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 254/2014</p>
+                        <p>EkUB 34/2014</p>
+                        <p>RSv 371/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 18 september 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitie- och arbetsminister</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

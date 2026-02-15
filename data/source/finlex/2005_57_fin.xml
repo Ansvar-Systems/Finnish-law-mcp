@@ -1,0 +1,426 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/57/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/57"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/57/alkup"/>
+                    <FRBRdate date="2005-02-04" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="57"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/57/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/57/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/57/alkup/fin"/>
+                    <FRBRdate date="2005-02-04" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/57/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/57/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/57/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="12"/>
+                    <finlex:date date="2005-02-08"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>57/2005</docNumber>
+                <docTitle>Laki maistraattien eräistä henkilörekistereistä</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 luku</num>
+                    <heading>Yleiset säännökset</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Lain soveltamisala</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Tätä lakia sovelletaan tässä laissa mainittuihin maistraattien automaattisen tietojenkäsittelyn avulla pitämiin valtakunnallisiin henkilörekistereihin.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_1__subsec_2">
+                            <content>
+                                <p>Jollei tässä laissa toisin säädetä, rekisteritietojen ja niihin liittyvien asiakirjojen salassapitoon ja luovuttamiseen sovelletaan viranomaisten toiminnan julkisuudesta annettua lakia (621/1999) ja muuhun henkilötietojen käsittelyyn henkilötietolakia (523/1999).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Viranomaiset</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <content>
+                                <p>Tässä laissa tarkoitettuja rekistereitä pitävät maistraatit yhdessä. Kukin maistraatti vastaa rekisteriin tallettamistaan tiedoista.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_2__subsec_2">
+                            <content>
+                                <p>Rekisterien teknisestä toimivuudesta vastaavasta viranomaisesta säädetään valtioneuvoston asetuksella. Rekisterien teknisestä toimivuudesta vastaavaan viranomaiseen sovelletaan soveltuvin osin, mitä henkilötietolain 32 §:ssä säädetään rekisterinpitäjästä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <heading>Tietojen julkisuus ja luovuttaminen</heading>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <content>
+                                <p>Rekisterien tiedot ovat julkisia. Rekisterin tietojen luovuttamiseen sovelletaan, mitä viranomaisten toiminnan julkisuudesta annetun lain 16 §:ssä säädetään. Jokaisella on kuitenkin oikeus saada tiettyä henkilöä koskevat rekisteriin merkityt tiedot kopiona tai tulosteena.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_3__subsec_2">
+                            <content>
+                                <p>Sille, joka tarvitsee tietoja rekisteröintiin liittyvistä asiakirjoista etujensa, oikeuksiensa tai velvollisuuksiensa toteuttamiseksi, voidaan luovuttaa tietoja sen estämättä, mitä viranomaisten toiminnan julkisuudesta annetussa laissa säädetään tietojen salassapidosta ja tietojen saantia koskevista rajoituksista.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_3__subsec_3">
+                            <content>
+                                <p>Sisäasiainministeriön päätöksellä nimettävä maistraatti voi antaa luvan saada rekisterien tietoja teknisen käyttöyhteyden välityksellä sellaiselle valtion tai kunnan viranomaiselle, yhteisölle tai elinkeinonharjoittajalle, joka toiminnassaan jatkuvasti tarvitsee rekisterin tietoja hyväksyttävää tarkoitusta varten. Ennen luvan myöntämistä hakijan on esitettävä selvitys siitä, että tietojen suojauksesta huolehditaan asianmukaisesti. Rekistereihin talletettuja tietoja käsiteltäessä on noudatettava, mitä henkilötietolaissa säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_3__subsec_4">
+                            <content>
+                                <p>Henkilötunnuksen saa antaa nähtäväksi tai luovuttaa vain sille, jolla on tai voi olla se henkilötietolain tai muun lain nojalla hallussaan. Rekisteristä luovutettavaan asiakirjaan, joka on tarpeen henkilön oikeuksien ja velvollisuuksien toteuttamiseksi, voidaan henkilötunnus kuitenkin merkitä henkilön yksilöimiseksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 luku</num>
+                    <heading>Avioehtoasioiden rekisteri</heading>
+                    <section eId="chp_2__sec_4">
+                        <num>4 §</num>
+                        <heading>Avioehtoasioiden rekisterin käyttötarkoitus</heading>
+                        <subsection eId="chp_2__sec_4__subsec_1">
+                            <intro eId="chp_2__sec_4__subsec_1__intro">
+                                <p>Avioehtoasioiden rekisteriin talletetaan tietoja seuraavista avioliittolaissa (234/1929) tarkoitetuista asiakirjoista:</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_4__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>35 §:n 4 momentissa tarkoitettu ilmoitus avio-oikeuden poistamisesta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_4__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>43 §:n 1 momentissa tarkoitettu avioehtosopimus;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_4__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>104 §:n 2 momentissa tarkoitettu osituskirja; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_4__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>135 §:n 2 ja 3 momentissa tarkoitetut sopimukset.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_2">
+                            <content>
+                                <p>Rekisteriä pidetään 1 momentissa tarkoitettujen asiakirjojen rekisteröitäväksi jättämiseen tai rekisteröintiin liittyvien oikeusvaikutusten voimaan saattamiseksi sekä tietojen saattamiseksi julkisiksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Avioehtoasioiden rekisteriin talletettavat tiedot</heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <intro eId="chp_2__sec_5__subsec_1__intro">
+                                <p>Rekisteriin talletetaan:</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_5__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>puolisoiden nimet ja henkilötunnukset tai henkilötunnuksen puuttuessa syntymäaika;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_5__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>puolisoiden kotikunnat tai asuinvaltiot;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_5__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>avioliiton solmimispäivä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_5__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>asiakirjan laji ja päiväys;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_5__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>ilmoituksen vastaanottamispäivä; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_5__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>maistraatin nimi, asiakirjan rekisteröintipäivä ja asian tunnistetiedot.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_2">
+                            <content>
+                                <p>Lisäksi rekisteriin talletetaan väestötietojärjestelmästä saatavat tiedot avioliiton purkautumispäivästä ja purkautumisen perusteesta sekä puolison nimen muutoksesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Avioehtoasian rekisteröinnin edellytykset</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>Ilmoitus asiakirjan rekisteröimiseksi on tehtävä maistraatille kirjallisesti. Ilmoituksen voi tehdä puoliso tai kihlakumppani. Osituskirjan osalta ilmoituksen voivat tehdä myös perilliset. Ilmoituksen liitteenä on oltava ilmoituksessa tarkoitettu asiakirja alkuperäisenä, jos kysymys on rekisteröitävästä asiakirjasta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 luku</num>
+                    <heading>Lahjoitusasioiden rekisteri</heading>
+                    <section eId="chp_3__sec_7">
+                        <num>7 §</num>
+                        <heading>Lahjoitusasioiden rekisterin käyttötarkoitus</heading>
+                        <subsection eId="chp_3__sec_7__subsec_1">
+                            <content>
+                                <p>Lahjoitusasioiden rekisteriin talletetaan tietoja lahjanlupauslain (625/1947) 6 §:ssä tarkoitetuista irtaimen omaisuuden lahjoituksia koskevista ilmoituksista.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_7__subsec_2">
+                            <content>
+                                <p>Rekisteriä pidetään 1 momentissa tarkoitettujen ilmoitusten rekisteröitäväksi jättämiseen liittyvien oikeusvaikutusten voimaan saattamiseksi sekä tietojen saattamiseksi julkisiksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_8">
+                        <num>8 §</num>
+                        <heading>Lahjoitusasioiden rekisteriin talletettavat tiedot</heading>
+                        <subsection eId="chp_3__sec_8__subsec_1">
+                            <intro eId="chp_3__sec_8__subsec_1__intro">
+                                <p>Rekisteriin talletetaan:</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_8__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>lahjanantajan nimi ja henkilötunnus tai sen puuttuessa syntymäaika;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>lahjansaajan nimi ja henkilötunnus tai sen puuttuessa syntymäaika;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>lahjanantajan kotikunta tai asuinvaltio;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>lahjan kohde;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>lahjan antamisen ajankohta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>ilmoituksen vastaanottamispäivä; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_1__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>maistraatin nimi, ilmoituksen rekisteröintipäivä ja asian tunnistetiedot.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_3__sec_8__subsec_2">
+                            <content>
+                                <p>Lisäksi rekisteriin talletetaan väestötietojärjestelmästä saatavat tiedot lahjanantajan ja lahjansaajan nimen muutoksista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_9">
+                        <num>9 §</num>
+                        <heading>Lahjoitusasian rekisteröinnin edellytykset</heading>
+                        <subsection eId="chp_3__sec_9__subsec_1">
+                            <content>
+                                <p>Lahjoitusta koskevan ilmoituksen voi tehdä lahjanantaja tai lahjansaaja ilmoittamalla siitä kirjallisesti maistraatille. Ilmoituksessa on mainittava 8 §:n 1 momentin 1―5 kohdassa tarkoitetut tiedot.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 luku</num>
+                    <heading>Erinäiset säännökset</heading>
+                    <section eId="chp_4__sec_10">
+                        <num>10 §</num>
+                        <heading>Maistraatin oikeus tietojen saantiin</heading>
+                        <subsection eId="chp_4__sec_10__subsec_1">
+                            <content>
+                                <p>Sen estämättä, mitä tietojen salassapidosta säädetään, maistraatilla on oikeus saada rekisterin tietojen tarkistamista ja päivittämistä varten väestötietojärjestelmästä tiedot henkilön nimestä, nimen muutoksesta, henkilötunnuksesta, kotikunnasta, asuinvaltiosta sekä avioliiton solmimisesta ja purkautumisesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_11">
+                        <num>11 §</num>
+                        <heading>Tietojen säilyttäminen rekistereissä</heading>
+                        <subsection eId="chp_4__sec_11__subsec_1">
+                            <content>
+                                <p>Rekistereihin merkityt tiedot voidaan säilyttää pysyvästi.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_11__subsec_2">
+                            <content>
+                                <p>Jos rekisteröidyn, muun asianosaisen tai rekisterinpitäjän oikeuksien turvaamiseksi on tarpeen, virheelliseksi todettu tieto on merkittävä virheelliseksi ja säilytettävä. Tällaista tietoa saa käyttää ainoastaan rekisteröidyn, muun asianosaisen tai rekisterinpitäjän oikeuksien turvaamisen tarkoituksessa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_11__subsec_3">
+                            <content>
+                                <p>Henkilötiedon korjaamisesta säädetään henkilötietolain 29 §:ssä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_12">
+                        <num>12 §</num>
+                        <heading>Muutoksenhaku</heading>
+                        <subsection eId="chp_4__sec_12__subsec_1">
+                            <content>
+                                <p>Maistraatin tämän lain nojalla antamaan päätökseen haetaan muutosta hallinto-oikeudelta siten kuin hallintolainkäyttölaissa (586/1996) säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_13">
+                        <num>13 §</num>
+                        <heading>Maksut</heading>
+                        <subsection eId="chp_4__sec_13__subsec_1">
+                            <content>
+                                <p>Maistraatin suoritteista peritään maksut valtion maksuperustelaissa (150/1992) säädettyjen perusteiden mukaan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_14">
+                        <num>14 §</num>
+                        <heading>Asetuksenantovaltuus</heading>
+                        <subsection eId="chp_4__sec_14__subsec_1">
+                            <content>
+                                <p>Valtioneuvoston asetuksella voidaan antaa tarkempia säännöksiä rekisteröintimenettelystä ja tietopalvelussa noudatettavasta menettelystä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <section eId="sec_15">
+                    <num>15 §</num>
+                    <heading>Voimaantulo</heading>
+                    <subsection eId="sec_15__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 1 päivänä toukokuuta 2005.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_16">
+                    <num>16 §</num>
+                    <heading>Siirtymäsäännökset</heading>
+                    <subsection eId="sec_16__subsec_1">
+                        <content>
+                            <p>Ennen 1 päivää maaliskuuta 2003 vireille tulleen käräjäoikeuden rekisteröimän tiedon korjaamista koskevan asian käsittelee Hämeenlinnan maistraatti.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_16__subsec_2">
+                        <content>
+                            <p>Ennen tämän lain voimaantuloa myönnetyt luvat saada rekisterin tietoja teknisen käyttöyhteyden avulla ovat voimassa yhden vuoden tämän lain voimaantulosta.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_16__subsec_3">
+                        <content>
+                            <p>Tämän lain säännöksiä asiakirjojen luovuttamista koskevista edellytyksistä sovelletaan myös niihin avioehtoasioiden ja lahjoitusasioiden rekisteröintiin liittyviin asiakirjoihin, jotka on vastaanottanut käräjäoikeus.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_16__subsec_4">
+                        <content>
+                            <p>Tämän lain voimaan tullessa vireillä oleviin asioihin sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/123">HE 123/2004</ref>
+                        </p>
+                        <p>HaVM 25/2004</p>
+                        <p>EV 235/2004</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 4 päivänä helmikuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Johannes Koskinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

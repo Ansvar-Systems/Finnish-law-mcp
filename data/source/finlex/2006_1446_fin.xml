@@ -1,0 +1,453 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1446/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1446"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1446/alkup"/>
+                    <FRBRdate date="2006-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1446"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1446/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1446/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1446/alkup/fin"/>
+                    <FRBRdate date="2006-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1446/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1446/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1446/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="222"/>
+                    <finlex:date date="2006-12-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1446/2006</docNumber>
+                <docTitle>Laki maa- ja puutarhatalouden kansallisista tuista annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         maa- ja puutarhatalouden kansallisista tuista 28 päivänä joulukuuta 2001 annetun lain (<affectedDocument href="/akn/fi/act/statute/2001/1559">1559/2001</affectedDocument>) 26 §,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         1 §:n 2 momentti, 2 §:n 5, 9 ja 10 kohta, 3 §:n 1 momentti ja 2 momentin 1 kohta, 6 §:n 3 kohta, 7 §:n 4 momentti, 9 §:n 2―4 momentti, 10 §:n 2 momentin 1 kohta ja 5 momentti, 16 §:n 1 momentin 3 ja 4 kohta ja 3 momentti, 17 §:n 2 ja 5 momentti sekä 19 §:n 1 ja 2 momentti, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         2 §:ään uusi 11―14 kohta, lakiin uusi 2 a §, 7 §:ään uusi 5 momentti, lakiin uusi 10 a §, 16 §:n 1 momenttiin uusi 5 kohta, lakiin uusi 16 a §, 17 §:ään uusi 5 momentti, jolloin muutettu 5 momentti ja nykyinen 6 momentti siirtyvät 6 ja 7 momentiksi sekä lakiin uusi 24 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Soveltamisala</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Tätä lakia ei sovelleta maa- ja puutarhataloudelle myönnettävään Euroopan yhteisön kokonaan rahoittamaan suoraan tukeen, maaseutuelinkeinojen rahoituslain (329/1999), porotalouden ja luontaiselinkeinojen rahoituslain (45/2000), kolttalain (253/1995), maaseudun kehittämiseen myönnettävistä tuista annetun lain (1443/2006) tai luonnonhaittakorvauksesta, maatalouden ympäristötuesta sekä eräistä muista ympäristön ja maaseudun tilan parantamiseen liittyvistä tuista annetun lain (1440/2006) perusteella maksettaviin tukiin.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>2 §</num>
+                    <heading>Määritelmät</heading>
+                    <subsection>
+                        <intro>
+                            <p>Tässä laissa tarkoitetaan:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>
+                                    <i>kasvulohkolla</i>
+                                     yhteen peruslohkoon kuuluvaa yhtenäistä aluetta, jolla viljellään yhtä kasvilajia tiettyä tarkoitusta varten, jota kesannoidaan, jota pidetään hoidettuna viljelemättömänä tai jota käytetään muihin tarkoituksiin;
+                                </p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>9)</num>
+                            <content>
+                                <p>
+                                    <i>kasvintuotannon tuella</i>
+                                     tukea, jota myönnetään avomaalla tapahtuvalle maatalous- ja puutarhakasvien tuotannolle;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>10)</num>
+                            <content>
+                                <p>
+                                    <i>kotieläintalouden tuella</i>
+                                     tukea, jota myönnetään eläinten lukumäärän, tuotantomäärän tai muulla vastaavalla perusteella;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>11)</num>
+                            <content>
+                                <p>
+                                    <i>kasvihuoneella</i>
+                                     puutarhakasvien viljelyyn tarkoitettua pysyväluonteista rakennusta, joka on katettu valoa läpäisevällä materiaalilla ja jossa on lämmityslaitteisto;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>12)</num>
+                            <content>
+                                <p>
+                                    <i>luonnonhaittakorvauksella</i>
+                                     korvausta, jota tarkoitetaan Euroopan maatalouden ohjaus- ja tukirahaston (EMOTR) tuesta maaseudun kehittämiseen ja tiettyjen asetusten muuttamisesta ja kumoamisesta annetun neuvoston asetuksen (EY) N:o 1257/1999, jäljempänä 
+                                    <i>maaseutuasetus I</i>, II osaston V luvussa ja vuodesta 2007 Euroopan maaseudun kehittämisen maatalousrahaston (maaseuturahaston) tuesta maaseudun kehittämiseen annetun neuvoston asetuksen (EY) N:o 1698/2005, jäljempänä 
+                                    <i>maaseutuasetus II</i>, 36 artiklassa ja jota maksetaan Manner-Suomen maaseudun kehittämisohjelman mukaisena tukena;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>13)</num>
+                            <content>
+                                <p>
+                                    <i>maatalouden ympäristötuella</i>
+                                     tukea, josta säädetään maaseutuasetus I:n II osaston VI luvussa ja vuodesta 2007 alkaen maaseutuasetus II:n 39 artiklassa ja jota maksetaan Manner-Suomen maaseudun kehittämisohjelman mukaisena perus- ja lisätoimenpiteen tukena; ja
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>14)</num>
+                            <content>
+                                <p>
+                                    <i>maataloudella</i>
+                                     maatilalla tapahtuvaa maatalous-, puutarha- ja energiakasvien viljelyä, kotieläintuotteiden tuotantoa, tuotantoeläinten pitoa, hevostaloutta, porotaloutta, mehiläistaloutta, velvoitekesannointia sekä viljelemättömän pellon säilyttämistä hoidettuna yhteisen maatalouspolitiikan suoria tukijärjestelmiä koskevista yhteisistä säännöistä ja tietyistä viljelijöiden tukijärjestelmistä sekä asetusten (ETY) N:o 2019/93, (EY) N:o 1452/2001, (EY) N:o 1453/2001, (EY) N:o 1454/2001, (EY) N:o 1868/94, (EY) N:o 1251/1999, (EY) N:o 1254/1999, (EY) N:o 1673/2000, (ETY) N:o 2358/71 ja (EY) N:o 2529/2001 muuttamisesta annetun neuvoston asetuksen (EY) N:o 1782/2003 mukaisesti.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>2 a §</num>
+                    <heading>Maatila</heading>
+                    <subsection>
+                        <content>
+                            <p>Maatilalla tarkoitetaan tässä laissa viljelijän johtamaa yhden tai useamman kiinteistön tai kiinteistön osan tai tuotantorakennuksen ja sen maapohjan muodostamaa, maatalouden harjoittamiseen käytettävää toiminnallisesti ja taloudellisesti itsenäistä tuotantoyksikköä, jota hallitaan yhtenä kokonaisuutena omistuksen tai vuokrauksen perusteella. Valtioneuvoston asetuksella säädetään tarkemmin toiminnallisesti ja taloudellisesti itsenäiseksi katsottavan maatilan tunnusmerkeistä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <heading>Hakijat</heading>
+                    <subsection>
+                        <content>
+                            <p>Tukea voidaan myöntää Suomessa harjoitettavaan tuotantoon tai toimintaan viljelijälle, jäljempänä hakija, joka on luonnollinen henkilö tai oikeushenkilö taikka luonnollisten henkilöiden tai oikeushenkilöiden yhteenliittymä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Tuen myöntämisen edellytyksenä on, että:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>hakija tai hänen puolisonsa on tukivuotta edeltävän kalenterivuoden viimeisenä päivänä vähintään 18-vuotias, mutta ei yli 68-vuotias, eivätkä hakija ja hänen puolisonsa saa maatalousyrittäjien eläkelainsäädännössä tarkoitettua vanhuuseläkettä; tai</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>6 §</num>
+                    <heading>Tukimuodot</heading>
+                    <subsection>
+                        <intro>
+                            <p>Tämän lain nojalla voidaan maa- ja puutarhataloudelle myöntää kansallisena tukena:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>luonnonhaittakorvauksen ja maatalouden ympäristötuen kansallisia lisäosia; sekä</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 §</num>
+                    <heading>Tuen määrä ja tukialueet</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Tukea ei makseta, jos myönnetty määrä tukivuodelta on hakijaa ja tukimuotoa tai tukityyppiä kohti pienempi kuin 100 euroa. Tuen ennakkoa ei kuitenkaan makseta, jos maksettava ennakon määrä on pienempi kuin 500 euroa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Yksikkötuen taso ja tuen kokonaismäärä voidaan porrastaa maatilan tuotannon laajuuden ja tuotantotavan perusteella. Porrastuksesta säädetään tarkemmin valtioneuvoston asetuksella.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <heading>Kasvintuotannon tuet</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Kasvintuotannon tuen myöntämisen edellytyksenä on, että:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>hakijalla on hallinnassaan vähintään kolme hehtaaria viljelykseen soveltuvaa peltoa tai, jos on kysymys puutarhakasvien tuesta, vähintään puoli hehtaaria puutarhakasvien viljelyssä olevaa peltoa, ja pelto ilmoitetaan kyseisen tukivuoden tukihakemuksessa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>maatalous-, puutarha- ja energiakasvien viljelyn tavoitteena on tuottaa korjuu- ja markkinakelpoinen sato paikkakunnan tuotanto-olosuhteet huomioon otettavalla tavalla;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>kesantoa ja muuta viljelemätöntä peltoa hoidetaan; sekä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>hakija on viljelyssä noudattanut kansallisia tukia koskevissa Euroopan yhteisöjen komission päätöksissä tai niiden täytäntöön panemiseksi annetuissa kansallisissa säädöksissä tukimuoto- ja tukityyppikohtaisesti säädettyjä ympäristöehtoja.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valtioneuvoston asetuksella säädetään tukikelpoisista kasveista, tukimuodoista ja tukityypeistä, joissa on noudatettava 2 momentin 4 kohdassa tarkoitettuja ympäristöehtoja, näiden ehtojen sisällöstä sekä muista tuen ehdoista ja määräytymisperusteista.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Maa- ja metsätalousministeriön asetuksella säädetään viljelykseen soveltuvan pellon määritelmästä, hallinta-ajasta, paikkakunnan tuotanto-olosuhteiden mukaisesta viljelytavasta, kesannon ja muun viljelemättömän pellon hoitovaatimuksista.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 §</num>
+                    <heading>Kotieläintalouden tuet</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Kotieläintalouden tukien myöntämisen edellytyksenä on, että:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>hakijalla on hallinnassaan vähintään kolme hehtaaria viljelykseen soveltuvaa peltoa ja pelto ilmoitetaan kyseisen tukivuoden tukihakemuksessa; sekä</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos eläinmäärä tuen määräytymisajankohtana on tulipalon, eläintaudin tai muun vastaavan hakijasta riippumattoman syyn takia tilapäisesti vähintään kolmasosan pienempi kuin vakiintunut eläinmäärä, tuen myöntämisperusteena voidaan käyttää tuen määräytymisajankohtana vakiintunutta eläinmäärää. Tämä edellyttää kuitenkin, että tuotanto jatkuu.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>10 a §</num>
+                    <heading>Luonnonhaittakorvauksen ja maatalouden ympäristötuen kansalliset lisäosat</heading>
+                    <subsection>
+                        <content>
+                            <p>Luonnonhaittakorvauksen ja maatalouden ympäristötuen kansallisiin lisäosiin ei sovelleta 3 §:n, 7 §:n 4 momentin sekä 9 ja 17―20 §:n säännöksiä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kansallisten lisäosien saamisen edellytyksenä on, että hakija noudattaa luonnonhaittakorvauksen ja maatalouden ympäristötuen saannille asetettuja tukiehtoja sekä täyttää tuen saajaa, viljelijän ikää, tuen myöntämistä ja sitoumuksen tekemistä koskevat yleiset edellytykset. Kansallisiin lisäosiin sovelletaan samoja alentamis- ja valvontaseuraamuksia kuin luonnonhaittakorvaukseen ja maatalouden ympäristötukeen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kansallinen lisäosa voidaan maksaa muiden tukiehtojen täyttyessä samalta sitoumuskaudelta ja enintään samalle pinta-alalle kuin luonnonhaittakorvausta ja maatalouden ympäristötukea maksetaan.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valtioneuvoston asetuksella säädetään kansallisten lisäosien määräytymisen ja myöntämisen tarkemmista perusteista, lisäosan määrästä ja lisäosasitoumuksen antamisesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <chapter>
+                    <num>4 luku</num>
+                    <heading>Tukien alentaminen ja epääminen</heading>
+                    <section>
+                        <num>16 §</num>
+                        <heading>Yleiset alentamisperusteet</heading>
+                        <subsection>
+                            <intro>
+                                <p>Tässä laissa tarkoitettua tukea alennetaan tai se voidaan jättää myöntämättä, jos:</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>hakemus on saapunut viranomaiselle myöhästyneenä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>tuen saamiseksi olosuhteelle tai toimenpiteelle on annettu sellainen muoto, joka ei vastaa asian varsinaista luonnetta tai tarkoitusta; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>järjestelyn ilmeisenä tarkoituksena on tukiehtojen tai tukijärjestelmän tavoitteiden kiertäminen.</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos hakija tai hänen perheyrityksensä jäsen on tuomittu rikoslain (39/1889) 17 luvun 14 tai 15 §:n mukaisesta rikoksesta taikka hakija tai hänen perheyrityksensä jäsen on tuomittu eläinsuojelulain (594/1998) 54 §:n mukaisesta rikkomuksesta sekä samalla määrätty rikoslain 17 luvun 23 §:n mukaiseen eläintenpitokieltoon, kotieläintalouden tukea ei myönnetä eikä mahdollisesti myönnettyä tukea makseta siltä tukivuodelta, jonka aikana asianomainen viranomainen on todennut tuomioon johtaneen teon. Jos hakija tai hänen perheyrityksensä jäsen on tuomittu eläintenpitokieltoon, kotieläintalouden tukea ei makseta eläintenpitokieltoajalta eikä tekovuoden ja lainvoimaisen tuomion antamisen väliseltä ajalta. Kotieläintalouden tukien maksatus on kyseisen eläinlajin tukien osalta keskeytettävä, kun asiassa on aloitettu syyteharkinta.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>16 a §</num>
+                        <heading>Tuen saajan ilmoitusvelvollisuus</heading>
+                        <subsection>
+                            <content>
+                                <p>Tuen saajan on viipymättä ilmoitettava tuen myöntävälle viranomaiselle sellaisesta tuen saajaa, maatilaa, kotieläintuotantoa, tuotantoeläimiä tai tuettavaa toimintaa koskevasta olosuhteiden muutoksesta, joka vaikuttaa tuen määrään tai saattaa aiheuttaa tuen takaisinperimisen taikka tuen lakkauttamisen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>17 §</num>
+                        <heading>Myöhästymisseuraamukset</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Jos puutarhatuotteiden varastoinnille myönnettävässä tuessa varastomääriä koskeva ilmoitus tehdään myöhästyneenä, alennetaan kyseisen ilmoituksen osalta tuen myöntämisperusteena olevaa varastomäärää yhdellä prosentilla jokaista myöhästynyttä työpäivää kohti. Jos ilmoitus myöhästyy yli 25 kalenteripäivää, katsotaan ilmoitusajankohtaa koskeva varastomäärä nollaksi.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Osallistumisilmoituksen ja viljelystarkastuspäätöksen myöhästymiseen sovelletaan samoja myöhästymisseuraamuksia kuin hakemuksen myöhästymiseen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jollei hakija toimita hakemuksen tai osallistumisilmoituksen liitteitä tai muita tukihakemukseen liittyviä lomakkeita tuen myöntävälle viranomaiselle tämän asettamassa määräajassa, viranomainen voi ratkaista asian ilman edellä mainittuja liitteitä ja lomakkeita.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>19 §</num>
+                        <heading>Valvontaseuraamukset kasvintuotannon tuissa viljelytavan ja ympäristöehtojen osalta</heading>
+                        <subsection>
+                            <content>
+                                <p>Jos kasvulohkon viljelytapa ei täytä 9 §:n 2 momentin 2 kohdassa säädettyä paikkakunnan tuotanto-olosuhteet huomioon otettavan viljelytavan vaatimusta, kyseistä lohkoa ei oteta huomioon tuen myöntämisen perusteena olevaa pinta-alaa määrättäessä. Jos tukimuodon tai tukityypin viljelytapaa koskevien laiminlyöntien johdosta hylättyjen lohkojen kokonaisala ylittää 50 prosenttia todetusta pinta-alasta, tukea ei myönnetä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos hakija ei noudata 9 §:n 2 momentin 4 kohdassa tarkoitettuja ympäristöehtoja, tukea alennetaan määrällä, joka on suhteessa todettujen puutteiden tai laiminlyöntien määrään ja vakavuuteen. Seuraamus voi tukimuodosta tai tukityypistä riippuen kohdistua joko yksittäisen perus- tai kasvulohkon tukeen tai hakijan kaikkiin kyseiseen tukimuotoon tai -tyyppiin kuuluvien perus- ja kasvulohkojen tukeen.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>24 a §</num>
+                        <heading>Muut tuen maksamisen edellytykset</heading>
+                        <subsection>
+                            <content>
+                                <p>Tässä laissa tarkoitettua kasvituotannon tai kasvihuonetuotannon tukea ei saa maksaa ennen kuin kyseistä tukea koskevat tilakohtaiset tarkastukset on loppuun suoritettu. Tämän estämättä hakijalle voidaan maksaa kasvihuonetuotannon tuen ennakkoa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2007. Sen 3 §:n 2 momentin 1 kohta tulee kuitenkin voimaan vasta 1 päivänä tammikuuta 2008.</p>
+                    <p>Lain 3 §:n 2 momentin 1 kohtaa sovelletaan kuitenkin sellaisena kuin se oli tämän lain voimaan tullessa, jos hakija tai hänen puolisonsa ei ole yli 65-vuotias ja hakija ja hänen puolisonsa saavat maatalousyrittäjien eläkelainsäädännössä tarkoitettua vanhuuseläkettä 31 päivänä joulukuuta 2007.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/219">HE 219/2006</ref>
+                        </p>
+                        <p>MmVM 15/2006</p>
+                        <p>EV 225/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 29 päivänä joulukuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Maa- ja metsätalousministeri </role>
+                                <person refersTo="">Juha Korkeaoja</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

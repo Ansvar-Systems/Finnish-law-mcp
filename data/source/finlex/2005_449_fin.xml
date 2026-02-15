@@ -1,0 +1,164 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/449/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/449"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/449/alkup"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="449"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/449/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/449/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/449/alkup/fin"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/449/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/449/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/449/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="82"/>
+                    <finlex:date date="2005-06-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>449/2005</docNumber>
+                <docTitle>Laki Rahoitustarkastuksesta annetun lain 6 ja 15 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         Rahoitustarkastuksesta 27 päivänä kesäkuuta 2003 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2003/587">587/2003</affectedDocument>
+                        ) 6 §:n 1 kohta ja 15 §,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 6 §:n 1 kohta laissa 299/2005 ja 15 § osaksi laeissa 706/2004 ja 1295/2004, seuraavasti:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>6 §</num>
+                    <heading>Muu rahoitusmarkkinoilla toimiva</heading>
+                    <subsection>
+                        <intro>
+                            <p>Muulla rahoitusmarkkinoilla toimivalla tarkoitetaan tässä laissa:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>julkisen kaupankäynnin ja arvopaperimarkkinalain 3 luvun 16 §:ssä tarkoitetun kaupankäyntimenettelyn kohteena olevan ja julkisen kaupankäynnin kohteeksi haetun arvopaperin liikkeeseenlaskijaa sekä muuta, joka on velvollinen julkistamaan arvopaperimarkkinalain 2 luvun 3 §:ssä tarkoitetun esitteen tai joka tarjoaa arvopapereita 2 luvun 2 §:n mukaisesti;</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>15 §</num>
+                    <heading>Tarkastus- ja tietojensaantioikeudet</heading>
+                    <subsection>
+                        <content>
+                            <p>Rahoitustarkastuksella on salassapitosäännösten estämättä oikeus saada tarkastettavakseen valvottavan toimipaikassa tehtävänsä suorittamisen kannalta tarpeelliset valvottavaa ja sen asiakasta koskevat asiakirjat ja muut tallenteet sekä saada niistä tarpeelliset jäljennökset. Rahoitustarkastuksella on myös oikeus saada tarkastettavakseen valvottavan tietojärjestelmät sekä kassa- ja muut rahoitusvarat. Rahoitustarkastuksella on lisäksi oikeus saada tarkastettavakseen muun rahoitusmarkkinoilla toimivan yhteisön tai säätiön toimipaikassa tehtävänsä suorittamisen kannalta tarpeelliset yhteisöä tai säätiötä koskevat asiakirjat ja muut tallenteet sekä saada niistä tarpeelliset jäljennökset.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valvottavan ja muun rahoitusmarkkinoilla toimivan sekä näiden hallituksen ja hallintoneuvoston jäsenen ja toimitusjohtajan on salassapitosäännösten estämättä ilman aiheetonta viivytystä toimitettava Rahoitustarkastukselle sen pyytämät valvonnan ja valvontamaksun määräämisen kannalta tarpeelliset tiedot ja selvitykset. Vastaava velvollisuus on sillä, jolla on arvopaperimarkkinalain 1 luvun 5 §:ssä tarkoitettu määräysvalta valvottavassa tai muussa rahoitusmarkkinoilla toimivassa tai joka on valvottavan tai muun rahoitusmarkkinoilla toimivan määräysvallassa. Rahoitustarkastus voi antaa määräyksiä valvottavan taloudellista asemaa, omistajia, sisäistä valvontaa ja riskienhallintaa, hallinto- ja valvontaelinten jäseniä ja toimihenkilöitä sekä toimipaikkoja koskevien tietojen säännöllisestä toimittamisesta Rahoitustarkastukselle. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rahoitustarkastuksella on salassapitosäännösten estämättä oikeus saada valvottavan ja muun rahoitusmarkkinoilla toimivan yhteisön tai säätiön tilintarkastajalta kaikki tällä olevat näitä koskevat valvonnan kannalta tarpeelliset tiedot sekä saada valvonnan kannalta tarpeelliset jäljennökset tilintarkastajan hallussa olevista valvottavaa tai muuta rahoitusmarkkinoilla toimivaa yhteisöä tai säätiötä koskevista asiakirjoista ja tallenteista. Rahoitustarkastuksella on vastaava oikeus saada tiedot valvottavassa tai muussa rahoitusmarkkinoilla toimivassa arvopaperimarkkinalain 1 luvun 5 §:ssä tarkoitettua määräysvaltaa käyttävän ja valvottavan tai muun rahoitusmarkkinoilla toimivan määräysvallassa olevan yhteisön tai säätiön tilintarkastajalta. Mitä tässä momentissa säädetään tilintarkastajasta, sovelletaan myös muuhun henkilöön, joka on lain perusteella velvollinen tai antanut suostumuksensa laatimansa lausunnon tai muun asiakirjan liittämiseen arvopaperimarkkinalain 2 luvun 3 §:ssä tarkoitettuun esitteeseen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mitä 1―3 momentissa säädetään valvottavasta, sovelletaan myös suomalaiseen yritykseen, joka kuuluu valvottavan kanssa samaan koti- tai ulkomaiseen konserniin tai konsolidointiryhmään taikka joka on valvottavan osakkuusyritys. Rahoitustarkastuksella on lisäksi salassapitosäännösten estämättä oikeus saada valvottavalta valvottavan kanssa samaan konserniin tai konsolidointiryhmään kuuluvaa ulkomaista yritystä ja valvottavan ulkomaista osakkuusyritystä koskevat 2 momentissa tarkoitetut tiedot sekä tarkastettavakseen valvottavalla olevat tällaisia tietoja sisältävät asiakirjat ja muut tallenteet ja tarpeelliset jäljennökset niistä. Mitä edellä tässä momentissa säädetään koti- tai ulkomaiseen konserniin tai konsolidointiryhmään kuuluvasta yrityksestä, sovelletaan vastaavasti rahoitus- ja vakuutusryhmittymien valvonnasta annetussa laissa (699/2004) tarkoitettuun rahoitus- ja vakuutusryhmittymään kuuluvaan kotimaiseen tai ulkomaiseen yritykseen silloin, kun Rahoitustarkastus on mainitussa laissa tarkoitettu koordinoiva valvontaviranomainen tai Rahoitustarkastus muuten suorittaa sille mainitun lain perusteella kuuluvia tehtäviä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rahoitustarkastuksella on salassapitosäännösten estämättä oikeus saada tarkastettavakseen valvonnan kannalta tarpeelliset tiedot sellaisen yrityksen toimipaikassa, joka toimii valvottavan asiamiehenä tai joka valvottavan toimeksiannosta hoitaa tämän kirjanpitoon, tietojärjestelmään taikka riskienhallintaan tai muuhun sisäiseen valvontaan liittyviä tehtäviä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rahoitustarkastuksella on salassapitosäännösten estämättä oikeus saada yksilöityä valvontatointa varten valvonnan kannalta välttämättömiä tietoja, asiakirjoja ja tallenteita sekä jäljennöksiä asiakirjoista ja tallenteista muulta kuin edellä tässä pykälässä tarkoitetulta henkilöltä, jolla voidaan perustellusta syystä olettaa olevan valvontatoimen kannalta tarpeellista tietoa taikka asiakirjoja tai tallenteita. Rahoitustarkastuksen on palautettava alkuperäiset asiakirjat ja tallenteet. Rahoitustarkastuksella ei kuitenkaan ole oikeutta saada asianajajalta tämän asiakasta koskevia tässä momentissa tarkoitettuja tietoja, asiakirjoja tai tallenteita eikä oikeudenkäyntiavustaja- tai oikeudenkäyntiasiamiestehtävien hoitamisen yhteydessä saatuja tietoja, asiakirjoja tai tallenteita. Oikeudenkäyntiavustaja- ja oikeudenkäyntiasiamiestehtäviksi luetaan varsinaisten oikeudenkäyntiin liittyvien tehtävien lisäksi asiakkaan oikeudellista asemaa esitutkinnassa rikoksen johdosta tai asian muussa oikeudenkäyntiä edeltävässä käsittelyvaiheessa sekä oikeudenkäynnin käynnistämistä tai sen välttämistä koskeva oikeudellinen neuvonta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rahoitustarkastuksella on oikeus saada sakon täytäntöönpanosta annetun lain (672/2002) 46 §:ssä tarkoitetusta sakkorekisteristä tiedot, jotka ovat tarpeen valvottavan omistajan, hallituksen jäsenen, toimitusjohtajan tai palveluksessa olevan laissa säädetyn luotettavuuden selvittämiseksi. Oikeudesta saada tietoja rikosrekisteristä säädetään erikseen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä heinäkuuta 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/38">HE 38/2005</ref>
+                        </p>
+                        <p>TaVM 9/2005</p>
+                        <p>EV 71/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Naantalissa 23 päivänä kesäkuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Toinen valtiovarainministeri </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

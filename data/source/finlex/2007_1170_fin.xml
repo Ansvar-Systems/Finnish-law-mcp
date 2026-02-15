@@ -1,0 +1,281 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1170/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1170"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1170/alkup"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1170"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1170/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1170/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1170/alkup/fin"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1170/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1170/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1170/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="169"/>
+                    <finlex:date date="2007-12-13"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1170/2007</docNumber>
+                <docTitle>Laki maatalousyrittäjän eläkelain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan </i>
+                        22 päivänä joulukuuta 2006 annetun maatalousyrittäjän eläkelain (<affectedDocument href="/akn/fi/act/statute/2006/1280">1280/2006</affectedDocument>) 6 §:n 3 momentti,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         28 §, 41 §:n 3 kohta, 42 §:n 1 momentin 2 kohta sekä 4 ja 5 momentti, 45 §:n 2 momentti, 61 §:n 2 momentin 2 kohta, 76 §:n 1 momentti, 106 §:n 2 momentti, 128 §, 133 §:n 1 momentti ja 135 §:n 1 momentti sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään </i>
+                        15 §:ään uusi 2 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>15 §</num>
+                    <heading>Viljelmän työtulo</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Työtuloa määrättäessä viljellyn maatalousmaan ja kasvullisen metsämaan pinta-ala lasketaan hehtaarin tarkkuudella. Jos pyöristys on mahdollinen molempiin suuntiin, se tehdään ylöspäin.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>28 §</num>
+                    <heading>Työeläkevakuutusmaksun ulosottokelpoisuus</heading>
+                    <subsection>
+                        <content>
+                            <p>Eläkelaitoksen tämän lain perusteella määräämä työeläkevakuutusmaksu ja 12 §:n 4 momentissa sekä 24 §:ssä tarkoitettu korotettu työeläkevakuutusmaksu saadaan viivästyskorkoineen ulosottaa ilman tuomiota tai päätöstä niin kuin verojen ja maksujen täytäntöönpanosta annetussa laissa (706/2007) säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>41 §</num>
+                    <heading>Osa-aikaeläkkeen muuttuminen</heading>
+                    <subsection>
+                        <intro>
+                            <p>Tätä lakia toimeenpantaessa sovelletaan osa-aikaeläkkeeseen lisäksi, mitä:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>työntekijän eläkelain 23 §:ssä säädetään työkyvyttömyyseläkkeestä ja vanhuuseläkkeestä osa-aikaeläkkeen jälkeen; ja</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>42 §</num>
+                    <heading>Oikeus työeläkekuntoutukseen</heading>
+                    <subsection>
+                        <intro>
+                            <p>Alle 63-vuotiaalla maatalousyrittäjällä on oikeus saada työkyvyttömyyden estämiseksi tai työ- ja ansiokyvyn parantamiseksi tarkoituksenmukaista ammatillista kuntoutusta, jos: </p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>hänellä on työskentelystä saatuja vakuutettuja työansioita 76 §:ssä tarkoitettuna tulevan ajan tarkasteluaikana vähintään 25 133,40 euroa; ja</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentin 2 kohdassa tarkoitettu tulevan ajan tarkasteluaika määräytyy siten kuin maatalousyrittäjä olisi tullut työkyvyttömäksi kuntoutushakemuksen tullessa vireille.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mitä 1 momentissa säädetään, sovelletaan myös sellaisen maatalousyrittäjän kuntoutukseen, joka on 47 §:n 1 momentissa tarkoitetulla tavalla työkyvytön. Tällöin 1 momentin 2 kohdassa tarkoitetut ansiot määräytyvät samoin kuin tulevan ajan ansiot hänen työkyvyttömyyseläkkeessään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>45 §</num>
+                    <heading>Kuntoutusta koskevat muut säännökset ja kuntoutuksen ajalta maksettavat etuudet</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Mitä tässä laissa säädetään työkyvyttömyyseläkkeen hakemisesta, määräytymisestä entisin perustein, kertakorotuksesta, palkka- ja hintatason muutosten huomioon ottamisesta, ensisijaisten etuuksien vähentämisestä, maksamisesta, työkyvyttömyyseläkkeen tarkistamisesta ja määrän muuttamisesta, viivästyskorotuksesta, takaisinperinnästä, tietojen antamisesta ja saamisesta, muutoksenhausta ja työkyvyttömyyseläkkeen saajan ilmoitusvelvollisuudesta, koskee kuntoutusrahaa ja kuntoutuskorotusta sekä niiden saajaa, jollei tässä laissa muuta säädetä. Aiheettomasti maksetut ammatillisen kuntoutuksen kustannusten korvaukset voidaan periä takaisin siten kuin tässä laissa säädetään aiheettomasti maksetun eläkkeen takaisinperinnästä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>61 §</num>
+                    <heading>Lesken eläkeoikeus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Leskeneläkkeeseen on oikeus myös sellaisella leskellä, jonka avioliitto on solmittu ennen kuin leski oli täyttänyt 50 vuotta ja edunjättäjä 65 vuotta ja avioliitto jatkunut vähintään viisi vuotta, jos:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>leski sai edunjättäjän kuollessa työeläkelain tai kansaneläkelain (568/2007) mukaista työkyvyttömyyseläkettä, joka oli jatkunut vähintään viisi vuotta.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>76 §</num>
+                    <heading>Tulevan ajan eläke</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Tulevan ajan eläkkeen perusteena olevat ansiot (<i>tulevan ajan ansio</i>) määrätään niiden työansioiden sekä tämän lain 74 §:ssä tarkoitettujen palkattomilta ajoilta saatujen etuuksien perusteena olevien tulojen perusteella, jotka maatalousyrittäjällä on ollut työkyvyttömyyden alkamisvuotta edeltäneiden viiden kalenterivuoden aikana (<i>tarkasteluaika</i>) ja siten kuin työntekijän eläkelain 76 §:ssä tarkemmin säädetään. Tulevan ajan ansioihin luetaan myös tarkasteluaikana maksetun työkyvyttömyyseläkkeen tulevan ajan ansio ja osa-aikaeläkkeen ansionalenema.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>106 §</num>
+                    <heading>Perustevalitus maksuunpanosta</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos perustevalitus tehdään ulosmittauksen takia, on lisäksi voimassa, mitä verojen ja maksujen täytäntöönpanosta annetussa laissa säädetään perustevalituksesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>128 §</num>
+                    <heading>Tilintarkastus</heading>
+                    <subsection>
+                        <content>
+                            <p>Maatalousyrittäjien eläkelaitoksen tilintarkastuksesta on voimassa, mitä tässä laissa ja tilintarkastuslaissa (459/2007) säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Eläkelaitoksen tilintarkastukseen sovelletaan, mitä tilintarkastuslain 25 §:n 1 momentin 8 kohdassa, 5 luvussa ja 40 §:n 2 momentin 1 kohdassa säädetään julkisen kaupankäynnin kohteena olevan yhteisön tilintarkastuksesta ja tilintarkastajasta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Eläkelaitoksen kirjanpitoa, tilinpäätöstä ja toimintakertomusta sekä hallintoa tarkastamaan valtuuskunnan on tilikaudeksi kerrallaan valittava vähintään kaksi tilintarkastajaa ja heille varatilintarkastajat. Vähintään yhden tilintarkastajan ja varatilintarkastajan on oltava tilintarkastuslain 2 §:n 2 kohdassa tarkoitettu KHT-tilintarkastaja tai KHT-yhteisö. Tilintarkastajan tehtävä päättyy tilikauden päätyttyä pidettävässä eläkelaitoksen valtuuskunnan varsinaisessa kokouksessa tai milloin uusi tilintarkastaja on valittu tämän tilalle.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valtuuskunnan on nimettävä yksi tilintarkastaja valvontatilintarkastajana huolehtimaan eläkelaitoksen kirjanpidon ja hallinnon tehokkaasta valvonnasta tilikauden aikana. Lisäksi on nimettävä yksi tilintarkastaja tai varatilintarkastaja valvontatilintarkastajan sijaiseksi. Valvontatilintarkastajan ja tämän sijaisen on oltava KHT-tilintarkastaja tai KHT-yhteisö.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vakuutusvalvontavirasto antaa tarvittaessa ohjeita eläkelaitoksen tilintarkastuksen suorittamisesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>133 §</num>
+                    <heading>Vahingonkorvausvelvollisuus</heading>
+                    <subsection>
+                        <content>
+                            <p>Hallituksen ja valtuuskunnan jäsen, eläkelaitoksen toimitusjohtaja ja 119 §:n 2 momentissa mainittu hallitukseen kuulumaton henkilö on velvollinen korvaamaan vahingon, jonka hän on toimessaan tahallisesti tai tuottamuksesta aiheuttanut eläkelaitokselle. Sama koskee vahinkoa, joka tätä lakia, eläkelaitoksen ohjesääntöä, sosiaali- ja terveysministeriön tai Vakuutusvalvontaviraston määräyksiä tai vakuutusta koskevia perusteita rikkomalla on aiheutettu eläkelaitoksen toimintapiiriin kuuluvalle tai kuuluneelle henkilölle, eläkkeen tai muun etuuden saajalle tai muulle henkilölle. Vahingonkorvauksen sovittelusta sekä korvausvastuun jakautumisesta kahden tai useamman korvausvelvollisen kesken on voimassa, mitä vahingonkorvauslain (412/1974) 2 ja 6 luvussa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>135 §</num>
+                    <heading>Eläkelaitoksen ja valtion vastuu eläkkeistä ja muista etuuksista</heading>
+                    <subsection>
+                        <content>
+                            <p>Tämän lain mukaisten eläkkeiden, 136 §:n 1 momentin mukaisten palkattomilta ajoilta karttuneiden eläkkeiden osien sekä muiden etuuksien kustannuksista vastaavat Maatalousyrittäjien eläkelaitos ja valtio. Eläkelaitoksen kustannettava osuus muodostuu eläkelaitoksen saamista vakuutusmaksuista, joista on vähennetty eläkelaitoksen kohtuulliset hoitokulut, ja sijoitusten tuotoista. Valtio vastaa edellä tässä momentissa tarkoitetuista kustannuksista muilta osin. Ryhmähenkivakuutuksen korvausmenoista valtion vastuulla on kuitenkin yksi kolmannes. Vakuutusmaksuina ei oteta huomioon niitä maksamatta jääneitä vakuutusmaksuja, jotka on jätetty ulosottotoimin perittäviksi tai valvottu konkurssissa. Vakuutusmaksuina ei myöskään oteta huomioon sellaisia maksamatta olevia vakuutusmaksuja, jotka sisältyvät yrityksen saneerauksesta annetussa laissa (47/1993) tarkoitettuun saneerausohjelmaan tai yksityishenkilön velkajärjestelystä annetussa laissa (57/1993) tarkoitettuun maksuohjelmaan taikka sellaiseen vapaaehtoiseen velkajärjestelyyn, joka sisällöltään vastaa mainituissa laeissa säädettyjä periaatteita.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/95">HE 95/2007</ref>
+                        </p>
+                        <p>StVM 9/2007</p>
+                        <p>EV 55/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 7 päivänä joulukuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

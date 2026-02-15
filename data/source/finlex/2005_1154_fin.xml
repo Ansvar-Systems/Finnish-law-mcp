@@ -1,0 +1,223 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1154/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1154"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1154/alkup"/>
+                    <FRBRdate date="2005-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1154"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1154/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1154/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1154/alkup/fin"/>
+                    <FRBRdate date="2005-12-22" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1154/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1154/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1154/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="190"/>
+                    <finlex:date date="2005-12-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1154/2005</docNumber>
+                <docTitle>Laki verotustietojen julkisuudesta ja salassapidosta annetun lain 5 ja 6 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         verotustietojen julkisuudesta ja salassapidosta 30 päivänä joulukuuta 1999 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1999/1346">1346/1999</affectedDocument>
+                        ) 5 §:n otsikko sekä 1 ja 2 momentti sekä 6 §,
+                    </block>
+                    <block name="substitutions-originals">sellaisena kuin niistä on 6 § osaksi laissa 477/2002, seuraavasti:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>5 §</num>
+                    <heading>Tuloverotuksen julkiset tiedot</heading>
+                    <subsection>
+                        <intro>
+                            <p>Vuosittain toimitetussa verotuksessa tuloverotuksen julkisia verotustietoja ovat verovelvollisen nimi, syntymävuosi ja kotikunta, jollei viranomaisten toiminnan julkisuudesta annetun lain 24 §:n 1 momentin 31 kohdasta tai väestötietolain (507/1993) 25 §:n 4 momentista muuta johdu. Lisäksi julkisia ovat tiedot:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>valtionverotuksessa verotettavasta ansiotulosta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>valtionverotuksessa verotettavasta pääomatulosta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>kunnallisverotuksessa verotettavasta tulosta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>tuloverosta, kunnallisverosta sekä maksuunpantujen verojen ja maksujen yhteismäärästä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>ennakoiden yhteismäärästä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>veronkannossa maksettavasta ja palautettavasta määrästä.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Vuosittain toimitetussa verotuksessa yhteisöjen ja yhteisetuuksien verotustiedoista julkisia ovat verovelvollisen nimi, kotikunta sekä yritys- ja yhteisötunnus. Lisäksi julkisia ovat tiedot:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>verotettavasta tulosta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>maksuunpannun veron yhteismäärästä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>ennakoiden yhteismäärästä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>veronkannossa maksettavasta tai palautettavasta määrästä.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>6 §</num>
+                    <heading>Kiinteistöverotuksen julkiset tiedot ja eräät muut julkiset verotustiedot</heading>
+                    <subsection>
+                        <intro>
+                            <p>Julkisia verotustietoja ovat:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>kiinteistön laskennallinen kiinteistövero, kiinteistövero sekä kiinteistöverovelvollisen nimi;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>verotuslain (482/1958) 67 §:n mukaisesti nähtäville asetettu veroluokituksesta laadittu asiakirja ajantasaistusmerkintöineen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>eräiden yleishyödyllisten yhteisöjen veronhuojennuksesta annetun lain (680/1976) nojalla veronhuojennuksen saaneen yhteisön nimi sekä tieto siitä, mitä verovuosia huojennus koskee;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>tonnistoverolain (476/2002) nojalla tonnistoverovelvolliseksi hyväksytyn yhtiön nimi, tonnistoverokauden alkaminen sekä hyväksymisen peruuttaminen.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentin 1 kohdassa tarkoitettu tieto on julkinen verotuksen päättymishetken mukaisena ja tulee julkiseksi kiinteistöverotuksen päätyttyä.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006.</p>
+                    <p>Verovuodelta 2005 ja sitä aiemmilta verovuosilta toimitettua varallisuusverotusta koskevien tietojen julkisuuteen sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/144">HE 144/2005</ref>
+                        </p>
+                        <p>VaVM 44/2005</p>
+                        <p>EV 218/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 22 päivänä joulukuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Valtiovarainministeri </role>
+                                <person refersTo="">Eero Heinäluoma</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,138 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1264/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1264"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1264/alkup"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1264"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1264/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1264/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1264/alkup/swe"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1264/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1264/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1264/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="186"/>
+                    <finlex:date date="2007-12-27"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1264/2007</docNumber>
+                <docTitle>Lag om ändring av kreditinstitutslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i kreditinstitutslagen av den 9 februari 2007 (
+                        <affectedDocument href="/akn/fi/act/statute/2007/121">121/2007</affectedDocument>
+                        ) 101, 102 och 185 §,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         99 § 1 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 109 § ett nytt 2 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>99 §</num>
+                    <heading>Storleken av en inlåningsbanks garantiavgift</heading>
+                    <subsection>
+                        <content>
+                            <p>En inlåningsbanks garantiavgift grundar sig på bankens kapitaltäckning. Garantiavgiften är 0,175 procent av det tal som fås då förhållandet mellan kapitalkravet för de risker som beräknats enligt 55 § 1 mom. och kapitalbasen multipliceras med det sammanlagda beloppet av den inlåning i banken som ersätts enligt 105 § 1 och 2 mom. Om banken är ett i 72 § 1 mom. avsett moderföretag i en finansiell företagsgrupp eller ett därmed enligt 2 mom. i den nämnda paragrafen jämförbart företag, ska den på kapitaltäckningen baserade avgiften beräknas på basis av minimibeloppet av den konsoliderade kapitalbas som krävs för att täcka riskerna och den konsoliderade kapitalbasen multiplicerat med beloppet av inlåning som ersätts i kreditinstitut som hör till den finansiella företagsgruppen. På kreditinstitut som hör till ett finans- och försäkringskonglomerat tillämpas dessutom 73 § 2 mom.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>109 §</num>
+                    <heading>Insättningsgarantifondens upplåning</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Den skyldighet att bevilja insättningsgarantifonden lån som i 1 mom. anges för inlåningsbanker som hör till insättningsgarantifonden fördelas på inlåningsbankerna i samma proportion som den inlåning i dem som ersätts utgör av det sammanlagda beloppet av den inlåning som ersätts i alla de inlåningsbanker som hör till insättningsgarantifonden. Det inlåningsbelopp som avses i detta moment beräknas enligt situationen vid utgången av det kalenderår som närmast föregår det då skyldigheten att bevilja lån uppkom.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 27 december 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 132/2007</p>
+                        <p>EkUB 11/2007</p>
+                        <p>RSv 141/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 21 december 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Förvaltnings- och kommunminister </role>
+                                <person refersTo="">Mari Kiviniemi</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

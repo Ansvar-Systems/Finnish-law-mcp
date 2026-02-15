@@ -1,0 +1,400 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/223/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/223"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/223/alkup"/>
+                    <FRBRdate date="2007-03-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="223"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/223/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/223/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/223/alkup/fin"/>
+                    <FRBRdate date="2007-03-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/223/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/223/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/223/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="37"/>
+                    <finlex:date date="2007-03-07"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>223/2007</docNumber>
+                <docTitle>Laki julkisen hallinnon yhteispalvelusta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 luku</num>
+                    <heading>Yleiset säännökset</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Lain tarkoitus</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Tämän lain tarkoituksena on parantaa julkisen hallinnon asiakaspalvelun saatavuutta ja toiminnan tehokkuutta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Soveltamisala</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <content>
+                                <p>Tätä lakia sovelletaan valtion viranomaisille, kunnallisille viranomaisille ja Kansaneläkelaitokselle kuuluvien avustavien asiakaspalvelutehtävien järjestämiseen ja hoitamiseen viranomaisten yhteistyönä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_2__subsec_2">
+                            <content>
+                                <p>Viranomainen ei 1 momentissa tarkoitetussa toiminnassa voi hoitaa tehtäviä, joihin sisältyy päätöksentekovallan käyttöä tai jotka lain mukaan edellyttävät palvelun käyttäjän henkilökohtaista käyntiä toimivaltaisessa viranomaisessa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <heading>Määritelmät</heading>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <intro eId="chp_1__sec_3__subsec_1__intro">
+                                <p>Tässä laissa tarkoitetaan:</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>
+                                        <i>yhteispalvelulla</i>
+                                         avustavien asiakaspalvelutehtävien hoitamista viranomaisten välisen 
+                                        <i>yhteispalvelusopimuksen</i>
+                                         nojalla;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>
+                                        <i>toimeksiantajalla</i>
+                                         sitä yhteistyön osapuolena olevaa viranomaista, jonka avustavien asiakaspalvelutehtävien hoitamisesta sovitaan;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>
+                                        <i>toimeksisaajalla</i>
+                                         sitä yhteistyön osapuolena olevaa viranomaista, joka ottaa yhteispalvelusopimuksessa määritellyt avustavat asiakaspalvelutehtävät hoitaakseen; sekä
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>
+                                        <i>yhteispalvelupisteellä</i>
+                                         toimeksisaajan hallinnassa olevaa toimitilaa, jonka käyttämisestä yhteispalveluun sovitaan yhteispalvelusopimuksessa.
+                                    </p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 luku</num>
+                    <heading>Yhteispalvelu</heading>
+                    <section eId="chp_2__sec_4">
+                        <num>4 §</num>
+                        <heading>Yhteispalvelun edellytykset</heading>
+                        <subsection eId="chp_2__sec_4__subsec_1">
+                            <content>
+                                <p>Yhteispalvelun järjestämisen edellytyksenä on, että avustavien asiakaspalvelutehtävien järjestäminen ja hoitaminen yhteistyönä on tarkoituksenmukaista ja tarpeellista palvelujen saatavuuden turvaamiseksi ja hallinnon toiminnan tehostamiseksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Yhteispalvelun järjestäminen</heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <content>
+                                <p>Yhteispalvelun järjestäminen perustuu tässä laissa tarkoitettuun sopimussuhteeseen. Toimeksisaaja voi järjestää sille kuuluvan ja yhteispalveluna hoidettavan avustavan asiakaspalvelutehtävän hoitamisen yhteispalvelupisteessä henkilökohtaisena asiakaspalveluna tai teknisin välinein toteutettuna.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_2">
+                            <content>
+                                <p>Toimeksiantaja on velvollinen korvaamaan vahingon, joka on syntynyt palvelun käyttäjälle yhteispalveluna hoidettavan avustavan asiakaspalvelutehtävän hoitamisessa siten kuin vahingonkorvauslain (412/1974) 3 luvussa säädetään. Toimeksiantajan tehtävänä on antaa toimeksisaajan henkilöstölle tehtävän edellyttämä ohjeistus ja koulutus.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_3">
+                            <content>
+                                <p>Asiakaspalvelua yhteispalveluna hoitavan henkilöstön koulutuksen, asiantuntemuksen ja kokemuksen tulee vastata tarjottavan asiakaspalvelun vaativuutta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Yhteispalvelussa hoidettavat tehtävät</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <intro eId="chp_2__sec_6__subsec_1__intro">
+                                <p>Yhteispalveluna hoidettavat avustavat asiakaspalvelutehtävät voivat koskea:</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>palvelua käyttävän henkilön henkilöllisyyden toteamista ja varmentamista;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>toimeksiantajana toimivalle viranomaiselle tarkoitettujen ilmoitusten, hakemusten ja muiden asiakirjojen vastaanottamista ja välittämistä edelleen toimeksiantajalle;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>toimituskirjojen ja muiden asiakirjojen luovuttamista sekä hallintolain (434/2003) 59 §:ssä ja 60 §:n 1 ja 2 momentissa tarkoitettua tiedoksiantoa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>toimituskirjoista tai muista asiakirjoista perittävien maksujen vastaanottamista ja välittämistä edelleen toimeksiantajalle;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>edellä mainittuihin tehtäviin liittyviä asiakaspalvelun tukitoimintoja sekä välittömästi näihin tehtäviin liittyvää teknistä ohjausta, tiedon välittämistä ja tiedottamista; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>muuta asioiden vireillepanoon liittyvien tietojen välittämistä.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Yhteispalvelupisteeseen toimitettu asiakirja</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>Asiakirja, jonka palvelun käyttäjä on toimittanut määräajassa tässä laissa tarkoitetulle toimeksisaajalle, katsotaan saapuneeksi määräajassa toimivaltaiseen viranomaiseen. Asiakirja, joka on annettu tiedoksi toimeksisaajan välityksellä palvelun käyttäjälle 6 §:n 3 kohdassa tarkoitetulla tavalla, katsotaan tiedoksiannetuksi hallintolaissa säädetyllä tavalla.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 luku</num>
+                    <heading>Yhteispalvelusopimus</heading>
+                    <section eId="chp_3__sec_8">
+                        <num>8 §</num>
+                        <heading>Yhteispalvelusopimus ja sen sisältö</heading>
+                        <subsection eId="chp_3__sec_8__subsec_1">
+                            <content>
+                                <p>Yhteispalvelun tarjoamisesta on tehtävä kahden tai useamman viranomaisen keskeinen kirjallinen, toistaiseksi tai määräajan voimassa oleva toimeksiantosopimus.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_8__subsec_2">
+                            <intro eId="chp_3__sec_8__subsec_2__intro">
+                                <p>Sopimuksessa on sovittava seuraavista seikoista:</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>yhteispalvelun toimeksisaajasta ja toimeksiantajasta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>mitä avustavia asiakaspalvelutehtäviä sopimus koskee ja missä laajuudessa niitä hoidetaan yhteispalveluna;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>avustavien asiakaspalvelutehtävien ohjauksen ja valvonnan käytännön järjestelyistä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>yhteispalvelupisteen toimitiloista, varustuksesta, aukioloajoista ja sijaintipaikasta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>henkilötietojen käsittelyyn liittyviä velvoitteita koskevista käytännön järjestelyistä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>yhteispalvelusta aiheutuvien kustannusten jakamisesta tai jakamisperusteista;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>yhteispalvelua hoitavasta henkilöstöstä ja sille asetettavista vaatimuksista;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_8">
+                                <num>8)</num>
+                                <content>
+                                    <p>henkilöstön koulutuksesta ja tehtävien vaatimasta tiedollisesta ja teknisestä tuesta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_9">
+                                <num>9)</num>
+                                <content>
+                                    <p>sopimuksen voimassaolosta ja irtisanomisesta; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_10">
+                                <num>10)</num>
+                                <content>
+                                    <p>muista mahdollisista yhteispalvelun järjestämiseen liittyvistä käytännön seikoista.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_9">
+                        <num>9 §</num>
+                        <heading>Yhteispalvelusopimuksen tekemiseen velvoittaminen</heading>
+                        <subsection eId="chp_3__sec_9__subsec_1">
+                            <intro eId="chp_3__sec_9__subsec_1__intro">
+                                <p>Ministeriön päätöksellä voidaan sen hallinnonalaan kuuluva viranomainen velvoittaa tekemään tässä laissa tarkoitettu yhteispalvelusopimus, jos:</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_9__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>viranomainen ei ole tehnyt yhteispalvelusopimusta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_9__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>yhteispalvelun järjestäminen on ilmeisen tarpeellista palvelujen saatavuuden turvaamiseksi ja hallinnonalan toiminnan tehokkuuden parantamiseksi; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_9__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>paikkakunnalla on yhteistyön osapuoli, joka on soveltuva ja halukas osallistumaan yhteispalvelun järjestämiseen.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_3__sec_9__subsec_2">
+                            <content>
+                                <p>Ennen päätöksen antamista ministeriön on pyydettävä asiasta lausunto niiltä viranomaisilta, joiden tehtävien järjestämisestä yhteispalveluna on kysymys.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 luku</num>
+                    <heading>Erinäiset säännökset</heading>
+                    <section eId="chp_4__sec_10">
+                        <num>10 §</num>
+                        <heading>Tiedottamisvelvollisuus</heading>
+                        <subsection eId="chp_4__sec_10__subsec_1">
+                            <content>
+                                <p>Yhteispalvelun osapuolten on tiedotettava yleisölle yhteispalvelun tarjoamisesta ja palveluvalikoimasta, aukiolosta ja muista palveluun liittyvistä seikoista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <section eId="sec_11">
+                    <num>11 §</num>
+                    <heading>Voimaantulo</heading>
+                    <subsection eId="sec_11__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 1 päivänä huhtikuuta 2007.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_11__subsec_2">
+                        <content>
+                            <p>Tällä lailla kumotaan julkisen hallinnon asiakaspalvelujen järjestämisestä yhteisissä palveluyksiköissä 7 päivänä syyskuuta 1993 annettu laki (802/1993).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_12">
+                    <num>12 §</num>
+                    <heading>Siirtymäsäännös</heading>
+                    <subsection eId="sec_12__subsec_1">
+                        <content>
+                            <p>Ennen tämän lain voimaantuloa tehdyt yhteispalvelusopimukset on saatettava tämän lain mukaisiksi vuoden 2007 loppuun mennessä.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/207">HE 207/2006</ref>
+                        </p>
+                        <p>HaVM 32/2006</p>
+                        <p>EV 272/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 2 päivänä maaliskuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sisäasiainministeri </role>
+                                <person refersTo="">Kari Rajamäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

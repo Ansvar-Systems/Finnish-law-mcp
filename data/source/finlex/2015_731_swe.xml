@@ -1,0 +1,208 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/731/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/731"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/731/alkup"/>
+                    <FRBRdate date="2015-06-12" name="dateIssued"/>
+                    <FRBRdate date="2015-06-17" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="731"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/731/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/731/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/731/alkup/swe"/>
+                    <FRBRdate date="2015-06-12" name="dateIssued"/>
+                    <FRBRdate date="2015-06-17" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/731/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/731/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/731/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-06-17" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>731/2015</docNumber>
+                <docTitle>Lag om ändring av 2 a kap. i strafflagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i strafflagen (
+                        <affectedDocument href="/akn/fi/act/statute/1889/39">39/1889</affectedDocument>
+                        ) 2 a kap. 5 och 6 §, sådana de lyder, 5 § i lag 983/2005 och 6 § i lagarna 550/1999, 578/2008 och 755/2010, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 2 a kap. 4 §, sådan den lyder i lag 578/2008, ett nytt 2 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>2 a kap.</num>
+                    <heading>Om böter, förvandlingsstraff och ordningsbot</heading>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Bestämmande av förvandlingsstraff</heading>
+                        <subsection>
+                            <intro>
+                                <p>Böter får dock inte förvandlas till fängelse, om</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>böterna har förelagts i ett förfarande enligt lagen om föreläggande av böter och ordningsbot,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>antalet obetalda dagsböter är mindre än 20,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>det brott som har föranlett böterna har begåtts innan gärningsmannen hade fyllt 18 år.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Förvandlingsstraffets längd</heading>
+                        <subsection>
+                            <content>
+                                <p>Förvandlingsstraff för böter bestäms så att fyra obetalda dagsböter motsvarar en dags fängelse. Om antalet dagsböter som ska förvandlas inte är delbart med fyra förvandlas inte de dagsböter som utgör rest. Om endast en del av en dagsbot har betalats, anses dagsboten vara obetald.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Då förvandlingsstraff bestäms för ett i visst belopp utdömt vite, motsvarar varje fullt belopp av 30 euro en dags fängelse.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Förvandlingsstraffets längd är minst 5 och högst 40 dagar. Förvandlingsstraff får inte bestämmas utan särskilda skäl, om beloppet av obetalda viten understiger 120 euro.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>För böter som ska förvandlas samtidigt bestäms endast ett förvandlingsstraff på det sätt som anges i 3 mom. Vite jämställs då med böter.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Domstolen kan på de grunder som föreskrivs i 6 § 1 mom. eller 7 § bestämma att förvandlingsstraffet ska vara kortare än vad som anges i denna paragraf, dock minst 5 dagar.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Eftergift i fråga om förvandlingsstraff för böter eller delar av böter</heading>
+                        <subsection>
+                            <intro>
+                                <p>Domstolen kan avstå från att bestämma ett förvandlingsstraff, om förvandlingsstraffet ska anses oskäligt eller oändamålsenligt med hänsyn till</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>den bötfälldes personliga förhållanden eller hälsotillstånd,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>den bötfälldes deltagande i social- och hälsovårdsåtgärder,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>fängelsestraff eller samhällspåföljd som den bötfällde dömts till för något annat brott.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>När domstolen bestämmer ett förvandlingsstraff för ett gemensamt bötesstraff ska den bedöma vilken andel de böter som inte får förvandlas till fängelse har i det gemensamma straffet och inte förvandla denna del till fängelse.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Den del av böterna med vilken det totala bötesbeloppet har höjts med stöd av 3 § 2 mom. eller 7 kap. 3 a § förvandlas inte till fängelse.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft samma dag som lagen om föreläggande av böter och ordningsbot (754/2010).</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 291/2014</p>
+                        <p>LaVB 36/2014</p>
+                        <p>RSv 363/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 12 juni 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitie- och arbetsminister</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

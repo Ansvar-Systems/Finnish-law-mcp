@@ -1,0 +1,174 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/948/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/948"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/948/alkup"/>
+                    <FRBRdate date="2006-11-03" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="948"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/948/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/948/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/948/alkup/fin"/>
+                    <FRBRdate date="2006-11-03" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/948/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/948/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/948/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="142"/>
+                    <finlex:date date="2006-11-13"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>948/2006</docNumber>
+                <docTitle>Laki perhehoitajalain 2 ja 3 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         3 päivänä huhtikuuta 1992 annetun perhehoitajalain (<affectedDocument href="/akn/fi/act/statute/1992/312">312/1992</affectedDocument>) 2 ja 3 §, sellaisena kuin niistä on 2 § laissa 930/2005, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Hoitopalkkio</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Jollei toimeksiantosopimuksessa ole toisin sovittu, perhehoitajalla on oikeus saada hoidosta palkkiota (<i>hoitopalkkio</i>). Hoitopalkkiota maksetaan perhehoidossa olevaa henkilöä kohti kalenterikuukaudessa vähintään 300 euroa.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Hoitopalkkiota ei makseta perhehoitoon sijoitettua omaa alle 18-vuotiasta lastaan hoitavalle henkilölle eikä henkilölle, joka on kieltäytynyt vastaanottamasta palkkiota. Hoitopalkkio voidaan erityisestä syystä sopia maksettavaksi myös 1 momentissa säädettyä vähimmäismäärää pienempänä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa mainittu ja toimeksiantosopimuksessa sovittu hoitopalkkion määrä tarkistetaan kalenterivuosittain työntekijän eläkelain (395/2006) 96 §:ssä tarkoitetulla palkkakertoimella.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <heading>Kustannusten korvaaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Jollei toimeksiantosopimuksessa ole toisin sovittu, perhehoitajalle maksetaan korvaus perhehoidossa olevan henkilön hoidosta ja ylläpidosta aiheutuvista kustannuksista sekä hoidon käynnistämisestä aiheutuvista tarpeellisista kustannuksista.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>
+                                Perhehoidossa olevan henkilön hoidosta ja ylläpidosta aiheutuvista kustannuksista perhehoitajalle maksetaan todellisten kustannusten mukainen korvaus (<i>kulukorvaus</i>), kuitenkin vähintään 350 euroa perhehoidossa olevaa henkilöä kohti kalenterikuukaudessa. Kulukorvaus voidaan erityisestä syystä maksaa myös säädettyä vähimmäismäärää pienempänä.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kulukorvauksen tarkoituksena on korvata perhehoidossa olevan henkilön ravinnosta, asumisesta, harrastuksista, henkilökohtaisista tarpeista ja muusta elatuksesta aiheutuvat tavanomaiset menot sekä ne tavanomaiset terveydenhuollon kustannukset, joita muun lainsäädännön nojalla ei korvata. Lisäksi kulukorvaus sisältää lastensuojelulain (683/1983) nojalla perhehoitoon sijoitetulle lapselle tai nuorelle hänen omaan käyttöönsä mainitun lain nojalla annettavat käyttövarat.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kulukorvauksen lisäksi maksetaan korvaus sellaisista perhehoidossa olevan henkilön yksilöllisistä tarpeista johtuvista terapian ja terveydenhuollon sekä alle 21-vuotiaan lapsen tai nuoren opinnoista aiheutuvista erityisistä kustannuksista, joita muun lainsäädännön nojalla ei korvata.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 2―4 momentissa tarkoitettujen kustannusten lisäksi voidaan korvata perhehoidossa olevan henkilön lomanvietosta johtuvat ja erityisten harrastusten tai harrastusvälineiden aiheuttamat ja muut jatkuvaluontoiset tai kertakaikkiset erityiset kustannukset.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>
+                                Perhehoitajalle hoidon käynnistämisestä aiheutuvista tarpeellisista kustannuksista maksettava korvaus (<i>käynnistämiskorvaus</i>) on perhehoidossa olevaa henkilöä kohti enintään 2 440 euroa.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 2 ja 6 momentissa mainitut määrät sekä toimeksiantosopimuksessa sovitut kulukorvausten määrät on tarkistettava kalenterivuosittain vuoden alusta elinkustannusindeksin (lokakuu 1951=100) edellisen vuoden lokakuun vuosimuutoksen mukaisesti.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2007.</p>
+                    <p>Tämän lain 2 §:ssä tarkoitetun hoitopalkkion määrä vastaa vuodelle 2006 työntekijäin eläkelain (395/1961) 7 b §:n nojalla vahvistettua palkkakerrointa.</p>
+                    <p>Tämän lain 3 §:ssä tarkoitettu kulukorvauksen määrä vastaa elinkustannusindeksin vuoden 2006 lokakuun pistelukua ja käynnistämiskorvauksen määrä vastaa elinkustannusindeksin vuoden 2005 lokakuun pistelukua.</p>
+                    <p>Tällä lailla kumotaan perhehoitajalle maksettavasta palkkiosta ja korvauksesta 8 päivänä toukokuuta 1992 annettu asetus (420/1992) siihen myöhemmin tehtyine muutoksineen.</p>
+                    <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/134">HE 134/2006</ref>
+                        </p>
+                        <p>StVM 19/2006</p>
+                        <p>EV 116/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 3 päivänä marraskuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Peruspalveluministeri </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

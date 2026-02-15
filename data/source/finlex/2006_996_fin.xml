@@ -1,0 +1,245 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/996/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/996"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/996/alkup"/>
+                    <FRBRdate date="2006-11-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="996"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/996/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/996/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/996/alkup/fin"/>
+                    <FRBRdate date="2006-11-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/996/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/996/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/996/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="149"/>
+                    <finlex:date date="2006-11-21"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>996/2006</docNumber>
+                <docTitle>Laki apteekkimaksusta annetun lain 2 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         apteekkimaksusta 21 päivänä helmikuuta 1946 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1946/148">148/1946</affectedDocument>
+                        ) 2 §, sellaisena kuin se on laissa 1166/2005, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <subsection>
+                        <content>
+                            <p>Apteekkimaksu määrätään liikevaihtoryhmittäin seuraavasti:</p>
+                            <table>
+                                <tr>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>Apteekin liikevaihto € </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>Apteekkimaksu liikevaihdon alarajan kohdalla € </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>Maksuprosentti alarajan yli menevästä liikevaihdosta</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>719 076― 838 521 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>― </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p> 6 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>838 521―1 078 215 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>7 167 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>7 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>1 078 215―1 317 640 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>23 945 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>8 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>1 317 640―1 678 108 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>43 099 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>9 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>1 678 108―2 156 427 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>75 541 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>9,5 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>2 156 427―2 636 078 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>120 982 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>10 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>2 636 078―3 115 463 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>168 947 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>10,25 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>3 115 463―3 954 783 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>218 084 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>10,5 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>3 954 783―5 152 443 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>306 212 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>10,75 </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>5 152 443― </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>434 961 </p>
+                                    </td>
+                                    <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                        <p>11</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Apteekkimaksu määrätään täysin euroin. Apteekkimaksua, joka on viittä euroa pienempi, ei peritä.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2007.</p>
+                    <p>Lakia sovelletaan ensimmäisen kerran apteekkimaksuun, joka määrätään apteekkiliikkeen vuoden 2006 liikevaihdon perusteella.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/128">HE 128/2006</ref>
+                        </p>
+                        <p>StVM 17/2006</p>
+                        <p>EV 104/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 17 päivänä marraskuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

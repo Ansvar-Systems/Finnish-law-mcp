@@ -1,0 +1,221 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/345/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/345"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/345/alkup"/>
+                    <FRBRdate date="2006-05-05" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="345"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/345/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/345/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/345/alkup/fin"/>
+                    <FRBRdate date="2006-05-05" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/345/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/345/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/345/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="57"/>
+                    <finlex:date date="2006-05-12"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>345/2006</docNumber>
+                <docTitle>Laki tekijänoikeuslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         8 päivänä heinäkuuta 1961 annetun tekijänoikeuslain (
+                        <affectedDocument href="/akn/fi/act/statute/1961/404">404/1961</affectedDocument>
+                        ) 26 m §, sellaisena kuin se on laissa 446/1995, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         26 i―26 k § ja 63 §:n 3 momentti, sellaisina kuin ne ovat viimeksi mainitussa laissa seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>26 i §</num>
+                    <subsection>
+                        <content>
+                            <p>Kuvataiteen teoksen tekijällä on oikeus saada korvaus kaikesta kuvataiteen teoksen jälleenmyynnistä, johon osallistuu myyjänä, ostajana tai välittäjänä taidemarkkinoiden ammattilainen. Oikeutta jälleenmyyntikorvaukseen ei kuitenkaan ole, jos yleisölle avoin museo ostaa teoksen yksityishenkilöltä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Jälleenmyyntikorvaus on:</p>
+                        </intro>
+                        <paragraph>
+                            <num>a)</num>
+                            <content>
+                                <p>5 prosenttia siitä osasta kuvataiteen teoksen myyntihintaa, joka on enintään 50 000 euroa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>b)</num>
+                            <content>
+                                <p>3 prosenttia siitä osasta kuvataiteen teoksen myyntihintaa, joka on yli 50 000 euroa mutta enintään 200 000 euroa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>c)</num>
+                            <content>
+                                <p>1 prosentti siitä osasta kuvataiteen teoksen myyntihintaa, joka on yli 200 000 euroa mutta enintään 350 000 euroa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>d)</num>
+                            <content>
+                                <p>0,5 prosenttia siitä osasta kuvataiteen teoksen myyntihintaa, joka on yli 350 000 euroa mutta enintään 500 000 euroa; ja</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>e)</num>
+                            <content>
+                                <p>0,25 prosenttia siitä osasta kuvataiteen teoksen myyntihintaa, joka on yli 500 000 euroa.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jälleenmyyntikorvaus lasketaan kuvataiteen teoksen arvonlisäverottomasta myyntihinnasta. Jälleenmyyntikorvausta ei peritä myyntihinnasta, joka arvonlisäverottomana on enintään 255 euroa. Pykälän 2 momentin mukaan laskettavan korvauksen kokonaismäärä on enintään 12 500 euroa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Oikeus saada korvaus jälleenmyynnistä syntyy, kun tekijä tai hänen oikeudenomistajansa on myynyt tai muutoin pysyvästi luovuttanut kuvataiteen teoksen tai tekijän itsensä tekemiä tai hänen luvallaan tehtyjä kuvataiteen teoksen kappaleita, joita on rajoitettu määrä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Oikeutta korvaukseen ei ole rakennustaiteen tuotteiden jälleenmyynnistä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Oikeus korvaukseen on voimassa tekijänoikeudellisen suoja-ajan. Oikeus on henkilökohtainen eikä tekijä voi luovuttaa sitä kolmannelle tai luopua siitä. Oikeuteen sovelletaan kuitenkin, mitä 41 §:n 1 momentissa säädetään. Jos tekijältä ei jää oikeudenomistajia, korvaukset käytetään tekijöiden yhteisiin tarkoituksiin.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>26 j §</num>
+                    <subsection>
+                        <content>
+                            <p>Jälleenmyyntikorvauksen kerää ja tilittää kuvataiteen teosten tekijöille Suomessa myytyjen teosten tekijöitä edustava järjestö, jonka opetusministeriö on hakemuksesta hyväksynyt tehtävään määräajaksi, enintään viideksi vuodeksi. Tehtävään voidaan hyväksyä kerrallaan vain yksi järjestö. Hyväksyttävällä järjestöllä tulee olla taloudellinen ja toiminnallinen valmius ja kyky hoitaa asioita hyväksymispäätöksen mukaisesti. Järjestön tulee vuosittain antaa opetusministeriölle selvitys hyväksymispäätöksen nojalla tekemistään toimista.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Opetusministeriön päätöstä on muutoksenhausta huolimatta noudatettava, kunnes asia on lainvoimaisella päätöksellä ratkaistu. Hyväksyminen voidaan peruuttaa, jos järjestö hyväksymispäätöstä ja sen ehtoja rikkomalla syyllistyy vakaviin tai olennaisiin rikkomuksiin tai laiminlyönteihin ja jolleivät järjestölle annetut huomautukset ja varoitukset ole johtaneet toiminnassa esiintyneiden puutteiden korjaamiseen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Opetusministeriö voi antaa järjestölle tarkempia määräyksiä korvauksen keräämisestä ja maksuvarojen tilittämisestä tekijöille. Opetusministeriöllä on oikeus saada järjestöltä valvonnan kannalta tarpeelliset tiedot.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>26 k §</num>
+                    <subsection>
+                        <content>
+                            <p>Korvauksen suorittamisesta ovat vastuussa 26 i §:n 1 momentissa tarkoitettu myyjä ja välittäjä. Ostaja on vastuussa korvauksen suorittamisesta, jos jälleenmyyntiin ei osallistu muita taidemarkkinoiden ammattilaisia kuin ostaja.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Myyjä, välittäjä ja ostaja ovat velvollisia antamaan 26 j §:ssä tarkoitetulle järjestölle vuosittain selvityksen teosten myynnistä. Myyjä, välittäjä ja ostaja ovat järjestön vaatiessa velvollisia antamaan järjestölle tarpeelliset tiedot tilitysten oikeellisuuden tarkistamiseksi tilitysvuodelta ja kolmelta sitä edeltäneeltä kalenterivuodelta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>63 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Edellä 2 b luvussa olevia säännöksiä sovelletaan Suomessa tapahtuvaan kuvataiteen teoksen jälleenmyyntiin. Jos teoksen tekijä on muun kuin Euroopan talousalueeseen kuuluvan valtion kansalainen eikä hänellä ole vakinaista asuinpaikkaa Euroopan talousalueella, 2 b luvun säännöksiä sovelletaan vain, jos tekijä on sellaisen valtion kansalainen, joka vastavuoroisesti soveltaa vastaavaa korvausta koskevia säännöksiä maassaan tapahtuvaan jälleenmyyntiin. Euroopan yhteisöjen komissio julkaisee luettelon näistä valtioista. Tällaisen tekijän oikeudenomistajaan sovelletaan 2 b lukua vain, jos oikeudenomistaja on komission luetteloon otetun valtion kansalainen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä kesäkuuta 2006.</p>
+                    <p>Tätä lakia sovelletaan myös ennen tämän lain voimaantuloa luotujen, edelleen suojattujen teosten jälleenmyyntiin.</p>
+                    <p>Ennen tämän lain voimaantuloa tehtyihin toimiin sekä hankittuihin oikeuksiin ja tehtyihin sopimuksiin sovelletaan lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/111">HE 111/2005</ref>
+                        </p>
+                        <p>SiVM 2/2006</p>
+                        <p>EV 32/2006</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2001/84/EY (32001L0084); EYVL N:o L 272, 13.10.2001, s. 32</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 5 päivänä toukokuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kulttuuriministeri </role>
+                                <person refersTo="">Tanja Karpela</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

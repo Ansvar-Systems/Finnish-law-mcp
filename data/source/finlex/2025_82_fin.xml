@@ -1,0 +1,330 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2025/82/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/82"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/82/alkup"/>
+                    <FRBRdate date="2025-03-14" name="dateIssued"/>
+                    <FRBRdate date="2025-03-18" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="82"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2025/82/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/82/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/82/alkup/fin"/>
+                    <FRBRdate date="2025-03-14" name="dateIssued"/>
+                    <FRBRdate date="2025-03-18" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2025/82/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/82/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/82/alkup/fin/xml"/>
+                    <FRBRdate date="2025-12-09" name="dateProduced"/>
+                    <FRBRdate date="2025-03-18" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2025</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>82/2025</docNumber>
+                <docTitle>Laki maksulaitoslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         maksulaitoslain (<affectedDocument href="/akn/fi/act/statute/2010/297">297/2010</affectedDocument>) 1 §:n 2 momentin 2 kohta ja 41 §:n 1 momentti, sellaisena kuin niistä on 41 §:n 1 momentti laissa 890/2017, sekä 
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 40 a–40 e § ja 48 a §:ään, sellaisena kuin se on laeissa 259/2013, 58/2016 ja 890/2017, uusi 4 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section eId="sec_1">
+                    <num>1 §</num>
+                    <heading>Soveltamisala</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Tätä lakia sovelletaan seuraaviin maksupalveluihin:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>maksutapahtuman toteuttaminen maksupalvelulaissa (290/2010) tarkoitettuna tilisiirtona, pikasiirtona, varojen siirtona palveluntarjoajan maksutilille, suoraveloituksena taikka maksukortilla tai muulla maksuvälineellä;</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section eId="sec_40a">
+                    <num>40 a §</num>
+                    <heading>Maksujärjestelmiin osallistumista koskevan pyynnön edellytykset</heading>
+                    <subsection eId="sec_40a__subsec_1">
+                        <intro eId="sec_40a__subsec_1__intro">
+                            <p>Maksulaitosten ja sähkörahayhteisöjen, jotka pyytävät eräistä arvopaperi- ja valuuttakaupan sekä selvitysjärjestelmän ehdoista annetun lain (1084/1999) mukaisesti nimettyihin järjestelmiin osallistumista tai osallistuvat niihin, on laadittava:</p>
+                        </intro>
+                        <paragraph eId="sec_40a__subsec_1__para_1">
+                            <num>1) </num>
+                            <content>
+                                <p>kuvaus tämän lain 26 §:n mukaisista maksupalvelunkäyttäjien varojen suojaamiseksi toteutetuista toimenpiteistä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40a__subsec_1__para_2">
+                            <num>2) </num>
+                            <content>
+                                <p>kuvaus maksulaitoksen tai sähkörahayhteisöjen EU:n DORA-asetuksen 6 ja 7 artiklaan liittyvistä hallinnollisista menettelyistä ja riskinhallinta- ja kirjanpitomenettelyistä sekä vastaavista hallinnointi- ja ohjausjärjestelmistä ja sisäisistä valvontamekanismeista sellaisten maksupalvelujen tai sähköisen rahan palvelujen osalta, joita se aikoo tarjota sekä kuvaus maksulaitoksen tai sähkörahayhteisöjen tieto- ja viestintätekniikkapalvelujen käyttöä koskevista järjestelyistä; sekä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40a__subsec_1__para_3">
+                            <num>3) </num>
+                            <content>
+                                <p>purkautumissuunnitelma toiminnan keskeytymisen varalta.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_40b">
+                    <num>40 b §</num>
+                    <heading>Edellytykset asiakasvarojen suojaamisesta koskevalle kuvaukselle</heading>
+                    <subsection eId="sec_40b__subsec_1">
+                        <intro eId="sec_40b__subsec_1__intro">
+                            <p>Jos maksulaitos tai sähkörahayhteisö suojaa 26 §:n 2 momentin mukaisesti maksupalvelunkäyttäjien varat tallettamalla varoja luottolaitoksessa olevalle erilliselle tilille tai sijoittamalla kotijäsenvaltion toimivaltaisten viranomaisten määrittämään turvalliseen, likvidiin ja vähäriskiseen varallisuuteen, tällaista suojaamista varten toteutettujen toimenpiteiden kuvauksen on 40 a §:n 1 kohtaa sovellettaessa tapauksen mukaan sisällettävä:</p>
+                        </intro>
+                        <paragraph eId="sec_40b__subsec_1__para_1">
+                            <num>1) </num>
+                            <content>
+                                <p>kuvaus sijoituspolitiikasta, jolla varmistetaan, että valittu varallisuus on likvidiä, turvallista ja vähäriskistä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40b__subsec_1__para_2">
+                            <num>2) </num>
+                            <content>
+                                <p>niiden henkilöiden määrä, joilla on pääsy suojaavaan tiliin, ja heidän tehtävänsä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40b__subsec_1__para_3">
+                            <num>3) </num>
+                            <content>
+                                <p>kuvaus hallinto- ja täsmäytysmenettelystä, jolla varmistetaan, että maksupalvelunkäyttäjien varat suojataan maksupalvelunkäyttäjien etua silmällä pitäen maksulaitoksen tai sähkörahayhteisön muiden velkojien saatavia vastaan erityisesti maksukyvyttömyystapauksessa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40b__subsec_1__para_4">
+                            <num>4) </num>
+                            <content>
+                                <p>jäljennös luottolaitoksen kanssa tehdyn sopimuksen luonnoksesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40b__subsec_1__para_5">
+                            <num>5) </num>
+                            <content>
+                                <p>maksulaitoksen tai sähkörahayhteisön nimenomainen ilmoitus 26 §:n noudattamisesta.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_40b__subsec_2">
+                        <intro eId="sec_40b__subsec_2__intro">
+                            <p>Jos maksulaitos tai sähkörahayhteisö suojaa 26 §:n 3 momentin mukaisesti maksupalvelunkäyttäjän varat vakuutusyhtiön tai luottolaitoksen antamalla vakuutuksella tai vastaavalla vakuudella, tällaista suojaamista varten toteutettujen toimenpiteiden kuvauksen on 40 a §:n 1 kohtaa sovellettaessa sisällettävä:</p>
+                        </intro>
+                        <paragraph eId="sec_40b__subsec_2__para_1">
+                            <num>1) </num>
+                            <content>
+                                <p>vahvistus siitä, että vakuutuksen tai vastaavan vakuuden antanut vakuutusyhtiö tai luottolaitos on yhteisö, joka ei kuulu maksulaitoksen tai sähkörahayhteisön kanssa samaan konserniin;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40b__subsec_2__para_2">
+                            <num>2) </num>
+                            <content>
+                                <p>yksityiskohtaiset tiedot käytössä olevasta täsmäytysmenettelystä, jolla varmistetaan, että vakuutus tai vastaava vakuus on aina riittävä maksulaitoksen tai sähköisen rahan liikkeeseenlaskijalaitoksen suojaamisvelvoitteiden täyttämiseksi;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40b__subsec_2__para_3">
+                            <num>3) </num>
+                            <content>
+                                <p>kattavuuden kesto ja uusimisen ehdot;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40b__subsec_2__para_4">
+                            <num>4) </num>
+                            <content>
+                                <p>jäljennös vakuutussopimuksesta tai vastaavasta vakuudesta taikka niiden luonnoksista.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_40c">
+                    <num>40 c §</num>
+                    <heading>Edellytykset hallinnointijärjestelmiä koskevalle kuvaukselle</heading>
+                    <subsection eId="sec_40c__subsec_1">
+                        <intro eId="sec_40c__subsec_1__intro">
+                            <p>Sovellettaessa 40 a §:n 1 momentin 2 kohtaa kuvauksessa on osoitettava, että kyseisessä alakohdassa tarkoitetut hallinnointi- ja ohjausjärjestelmät, sisäiset valvontamekanismit ja tieto- ja viestintätekniikan käyttöä koskevat järjestelyt ovat oikeasuhteisia, asianmukaisia, vakaita ja riittäviä. Lisäksi hallinnointi- ja ohjausjärjestelmiin ja sisäisiin valvontamekanismeihin on sisällyttävä:</p>
+                        </intro>
+                        <paragraph eId="sec_40c__subsec_1__para_1">
+                            <num>1) </num>
+                            <content>
+                                <p>maksulaitoksen tai sähkörahayhteisön havaitsemien riskien kartoitus, jossa kuvataan riskien tyyppi ja menettelyt, joita maksulaitos tai sähkörahayhteisö on ottanut käyttöön tai aikoo ottaa käyttöön tällaisten riskien arvioimiseksi ja ehkäisemiseksi;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40c__subsec_1__para_2">
+                            <num>2) </num>
+                            <content>
+                                <p>säännöllisten ja jatkuvien tarkastusten suorittamista koskevat eri menettelyt sekä tiedot tarkastusten tiheydestä ja niihin osoitetuista henkilöstöresursseista;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40c__subsec_1__para_3">
+                            <num>3) </num>
+                            <content>
+                                <p>kirjanpitomenettelyt, joilla maksulaitos tai sähkörahayhteisö kirjaa taloudelliset tietonsa ja raportoi niistä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40c__subsec_1__para_4">
+                            <num>4) </num>
+                            <content>
+                                <p>kaikkien sellaisten henkilöiden henkilöllisyys, jotka ovat vastuussa sisäisen valvonnan toiminnoista, säännöllisistä ja jatkuvista tarkastuksista tai vaatimustenmukaisuuden valvonnasta, ja kyseisten henkilöiden ajantasaiset ansioluettelot;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40c__subsec_1__para_5">
+                            <num>5) </num>
+                            <content>
+                                <p>kaikkien sellaisten tilintarkastajien henkilöllisyys, jotka eivät ole tilintarkastuslain (1141/2015) 1 luvun 2 §:n 1 momentin 1 kohdan mukaisia tilintarkastajia;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40c__subsec_1__para_6">
+                            <num>6) </num>
+                            <content>
+                                <p>ylimmän hallintoelimen ja tapauksen mukaan muun valvontaelimen tai -komitean kokoonpano;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40c__subsec_1__para_7">
+                            <num>7) </num>
+                            <content>
+                                <p>kuvaus siitä, miten ulkoistettuja toimintoja seurataan ja valvotaan maksulaitoksen tai sähkörahayhteisön sisäisen valvonnan laadun heikkenemisen estämiseksi;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40c__subsec_1__para_8">
+                            <num>8) </num>
+                            <content>
+                                <p>kuvaus siitä, miten asiamiehiä ja sivukonttoreita seurataan ja valvotaan maksulaitoksen tai sähkörahayhteisön sisäisen valvonnan puitteissa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_40c__subsec_1__para_9">
+                            <num>9) </num>
+                            <content>
+                                <p>kuvaus konsernin hallinnointi- ja ohjausjärjestelmästä, jos maksulaitos tai sähkörahayhteisö on toisessa jäsenvaltiossa sijaitsevan säännellyn yhteisön tytäryhtiö.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section eId="sec_40d">
+                    <num>40 d §</num>
+                    <heading>Edellytykset purkautumissuunnitelmalle</heading>
+                    <subsection eId="sec_40d__subsec_1">
+                        <content>
+                            <p>Sovellettaessa 40 a §:n 3 kohtaa purkamissuunnitelma on mukautettava maksulaitoksen tai sähkörahayhteisön suunniteltuun kokoon ja liiketoimintamalliin, ja siihen on sisällyttävä kuvaus lieventämistoimenpiteistä, jotka maksulaitoksen tai sähkörahayhteisön on toteutettava maksupalvelujensa lopettamisen yhteydessä ja joilla varmistettaisiin keskeneräisten maksutapahtumien toteuttaminen ja voimassa olevien sopimusten irtisanominen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_40e">
+                    <num>40 e §</num>
+                    <heading>Maksujärjestelmiin osallistumista koskevan pyynnön arviointi</heading>
+                    <subsection eId="sec_40e__subsec_1">
+                        <content>
+                            <p>Maksulaitosten ja sähkörahayhteisöjen, jotka pyytävät eräistä arvopaperi- ja valuuttakaupan sekä selvitysjärjestelmän ehdoista annetun lain mukaisesti nimettyihin järjestelmiin osallistumista tai osallistuvat niihin, on laadittava itsearviointi 40 a–40 d §:n noudattamisesta. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_40e__subsec_2">
+                        <content>
+                            <p>Itsearviointi on toimitettava Finanssivalvonnalle, joka arvioi itsearvioinnin riittävyyden. Jos Finanssivalvonta arvioi itsearvioinnin puutteelliseksi, se voi pyytää maksulaitosta tai sähkörahayhteisöä toimittamaan lisätietoja. Jos lisätietoja ei toimiteta tai toimitettuja lisätietoja ei arvioida riittäviksi, Finanssivalvonta voi kieltää maksulaitosta tai sähkörahayhteisöä osallistumasta 1 momentissa tarkoitettuihin maksujärjestelmiin. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_41">
+                    <num>41 §</num>
+                    <heading>Poikkeus oikeudesta päästä maksujärjestelmään</heading>
+                    <subsection eId="sec_41__subsec_1">
+                        <content>
+                            <p>Mitä 40 §:ssä säädetään, ei koske maksujärjestelmää, johon voivat osallistua yksinomaan samaan ryhmään kuuluvat palveluntarjoajat.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section eId="sec_48a">
+                    <num>48 a §</num>
+                    <heading>Seuraamusmaksu</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Euromääräisiä tilisiirtoja ja suoraveloituksia koskevista teknisistä ja liiketoimintaa koskevista vaatimuksista sekä asetuksen (EY) N:o 924/2009 muuttamisesta annetun Euroopan parlamentin ja neuvoston asetuksen (EU) N:o 260/2012 nojalla määrättävästä seuraamusmaksusta säädetään Finanssivalvonnasta annetun lain 40 §:ssä.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä huhtikuuta 2025.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/215">HE 215/2024</ref>
+                        </p>
+                        <p>TaVM 1/2025</p>
+                        <p>EV 10/2025</p>
+                        <p>Euroopan parlamentin ja neuvoston asetus (EU) 2024/886 (32024R0886), EUVL L-sarja, 19.3.2024</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 14.3.2025</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Elinkeinoministeri</role>
+                                <person refersTo="">Wille Rydman</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

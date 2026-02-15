@@ -1,0 +1,166 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1064/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1064"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1064/alkup"/>
+                    <FRBRdate date="2007-11-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1064"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1064/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1064/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1064/alkup/fin"/>
+                    <FRBRdate date="2007-11-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1064/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1064/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1064/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="157"/>
+                    <finlex:date date="2007-11-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1064/2007</docNumber>
+                <docTitle>Laki varainsiirtoverolain väliaikaisesta muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         väliaikaisesti 29 päivänä marraskuuta 1996 annettuun varainsiirtoverolakiin (
+                        <affectedDocument href="/akn/fi/act/statute/1996/931">931/1996</affectedDocument>
+                        ) uusi 43 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>43 a §</num>
+                    <heading>Määräaikainen verovapaus kunnallisten vuokra-asuntojen omistusjärjestelyssä</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos kunta tai sen omistama yhtiö vuosina 2008―2012 luovuttaa omistamansa vuokratalokiinteistön, asumisoikeustalokiinteistön taikka vuokratalo- tai asumisoikeustaloyhtiön osakkeet yhden tai useamman kunnan omistamalle osakeyhtiölle tai sen omistamalle yhtiölle ja saa vastikkeeksi vastaanottavan yhtiön osakkeita, verovirasto palauttaa suoritetun veron hakemuksesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitettu verovapaus koskee luovutuksia, joissa kunta tai useampi kunta yhdessä omistaa suoraan tai välillisesti vähintään 90 prosenttia luovutettavasta vuokratalo- tai asumisoikeustalokiinteistöstä taikka vuokra-asunnon, vuokratalon taikka asumisoikeustalon hallintaan oikeuttavista osakkeista sekä vastaanottavan yhtiön osakkeista.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Verovapaan luovutuksen kohteena voivat olla:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>aravarajoituslaissa tarkoitettujen käyttö- ja luovutusrajoitusten alaiset vuokra-asunnot ja aravavuokratalot tai niiden hallintaan oikeuttavat osakkeet;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>vuokra-asuntolainojen ja asumisoikeustalolainojen korkotuesta annetun lain (604/2001) 17 §:ssä tarkoitetun käyttö- ja luovutusrajoitusajan alaiset vuokra-asunnot ja korkotukivuokratalot tai niiden hallintaan oikeuttavat osakkeet;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>vuokra-asuntolainojen korkotuesta annetun lain (867/1980) 10 §:ssä tarkoitetun 20 vuoden käyttörajoitusajan alaiset asunnot tai niiden hallintaan oikeuttavat osakkeet;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>asumisoikeusasunnoista annetussa laissa (650/1990) tarkoitetut muut asunnot kuin vapaarahoitteiset asumisoikeusasunnot.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Hakemus veron palauttamiseksi on tehtävä vuoden kuluessa veron suorittamisesta. Hakemukseen on liitettävä Valtiokonttorin antama todistus siitä, että luovutus koskee 3 momentissa tarkoitettua kohdetta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos hakemus on tehty ja verovapaan luovutuksen edellytysten täyttymisestä on esitetty selvitys ennen veron suorittamista, verovirasto voi päättää, että veroa ei ole suoritettava.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Veroa ei palauteta enempää kuin luovutuksesta 7 ja 21 §:n mukaan säädetyssä ajassa suoritettuna olisi tullut maksaa. Palautettavalle verolle ei makseta korkoa.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008, ja se on voimassa 31 päivään joulukuuta 2012. Lakia sovelletaan 1 päivänä tammikuuta 2008 tai sen jälkeen tapahtuviin luovutuksiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/108">HE 108/2007</ref>
+                        </p>
+                        <p>VaVM 13/2007</p>
+                        <p>EV 60/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 23 päivänä marraskuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Jyri Häkämies</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,184 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/385/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/385"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/385/alkup"/>
+                    <FRBRdate date="2007-03-30" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="385"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/385/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/385/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/385/alkup/swe"/>
+                    <FRBRdate date="2007-03-30" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/385/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/385/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/385/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="60"/>
+                    <finlex:date date="2007-04-13"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>385/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om offentlighet i myndigheternas verksamhet</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 21 maj 1999 om offentlighet i myndigheternas verksamhet (
+                        <affectedDocument href="/akn/fi/act/statute/1999/621">621/1999</affectedDocument>
+                        ) 11 § 2 mom. 7 punkten samt 3 och 4 mom., 16 § 2 mom., 24 § 1 mom. 27 punkten och 33 § 2 mom. samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 11 § 2 mom., sådant det lyder delvis ändrat i lag 684/2003, en ny 8 punkt som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>11 §</num>
+                    <heading>En parts rätt att ta del av en handling</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>En part, hans ombud eller hans biträde har inte den i 1 mom. avsedda rätten</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>när det är fråga om sekretessbelagd adress-, telefon- och annan motsvarande kontaktinformation som hänför sig till ett vittne, en målsägande eller en part eller till någon som har gjort polisanmälan, en anmälan som avses i 40 § i barnskyddslagen (683/1983) eller någon annan därmed jämförbar anmälan som förutsätter myndighetsåtgärder, om utlämnandet av uppgifter skulle äventyra säkerheten, intressena eller rättigheterna för vittnet, målsäganden eller parten eller för den som gjort anmälan, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>8)</num>
+                            <content>
+                                <p>när det är fråga om en sekretessbelagd del av en handling vars offentlighet ärendet gäller.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om en handling ingår i rättegångsmaterialet, gäller beträffande en parts rätt att ta del av handlingen vad som bestäms i lagen om offentlighet vid rättegång i allmänna domstolar (370/2007) och i lagen om offentlighet vid rättegång i förvaltningsdomstolar (381/2007).</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vad som i denna paragraf föreskrivs om en part gäller inte den vars rätt att söka ändring grundar sig uteslutande på medlemskap i en kommun eller någon annan sammanslutning.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>16 §</num>
+                    <heading>Hur en handling skall lämnas ut</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Av de offentliga uppgifterna i ett beslutsregister som förs av en myndighet med hjälp av automatisk databehandling har man rätt att få en kopia i form av en teknisk upptagning eller annars i elektronisk form, om inte särskilda skäl talar för något annat. Utlämnande av uppgifter i motsvarande form ur en annan offentlig handling beror på myndighetens prövning, om inte något annat föreskrivs. Kopior av videoinspelningar eller andra motsvarande upptagningar som en myndighet gjort vid förhör eller motsvarande händelser där någon hörs får dock lämnas ut endast om den person som hörs i upptagningen samtycker eller om det med hänsyn till upptagningens innehåll är uppenbart att utlämnandet av kopian inte innebär en kränkning av den hördas personliga integritet.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>24 §</num>
+                    <heading>Sekretessbelagda myndighetshandlingar</heading>
+                    <subsection>
+                        <intro>
+                            <p>Om inte något annat föreskrivs särskilt, är följande myndighetshandlingar sekretessbelagda:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>27)</num>
+                            <content>
+                                <p>handlingar som innehåller uppgifter om rättspsykiatrisk sinnesundersökning av en åtalad, personundersökning av en ung förbrytare, verkställighetsplan för ungdomsstraff, lämplighetsutredning i samband med samhällstjänst som utförs i stället för fängelsestraff, plan för strafftiden, frigivningsplan, övervakningsplan samt utlåtande som lämnats för förfarandet vid frigivning av långtidsfångar,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>33 §</num>
+                    <heading>Ändringssökande</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Beträffande ändringssökande i ärenden som gäller rättegångens offentlighet gäller vad som bestäms i lagen om offentlighet vid rättegång i allmänna domstolar och i lagen om offentlighet vid rättegång i förvaltningsdomstolar.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 oktober 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 12/2006</p>
+                        <p>LaUB 25/2006</p>
+                        <p>RSv 268/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 30 mars 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

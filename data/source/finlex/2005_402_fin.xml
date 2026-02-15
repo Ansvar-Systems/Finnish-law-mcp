@@ -1,0 +1,193 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/402/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/402"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/402/alkup"/>
+                    <FRBRdate date="2005-06-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="402"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/402/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/402/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/402/alkup/fin"/>
+                    <FRBRdate date="2005-06-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/402/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/402/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/402/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="74"/>
+                    <finlex:date date="2005-06-15"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>402/2005</docNumber>
+                <docTitle>Laki ajoneuvolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         11 päivänä joulukuuta 2002 annetun ajoneuvolain (
+                        <affectedDocument href="/akn/fi/act/statute/2002/1090">1090/2002</affectedDocument>
+                        ) 87 §:n 1 momentti ja 90 §:n 2 momentti sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         89 §:ään uusi 4 momentti, jolloin nykyinen 4 momentti siirtyy 5 momentiksi, ja 92 §:ään uusi 3 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>87 §</num>
+                    <heading>Asennus- ja korjauslupa</heading>
+                    <subsection>
+                        <intro>
+                            <p>Seuraavien järjestelmien, osien ja erillisten teknisten yksiköiden asennukseen ja korjaukseen on hankittava lupa valvontaviranomaiselta:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>taksamittarin asennus ja korjaus;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>mekaanisen ja digitaalisen ajopiirturin asennus ja korjaus;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>
+                                    M
+                                    <sub>2</sub>
+                                    -, M
+                                    <sub>3</sub>
+                                    -, N
+                                    <sub>2</sub>
+                                    -, N
+                                    <sub>3</sub>
+                                    -, O
+                                    <sub>3</sub>
+                                    - ja O
+                                    <sub>4</sub>
+                                    -luokan ajoneuvojen paineilma- ja sähköjarrujärjestelmien korjaus;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>ajoneuvoon asennettavaksi määrätyn nopeudenrajoittimen asennus ja korjaus.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>89 §</num>
+                    <heading>Asennus- ja korjausluvan myöntämisen edellytykset</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Lupaa digitaalisen ajopiirturin asennukseen ja korjaukseen ei saa myöntää, jos hakija harjoittaa kuljetuksia, joihin sovelletaan tieliikenteen sosiaalilainsäädännön yhdenmukaistamisesta annettua neuvoston asetusta (ETY) N:o 3820/85.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>90 §</num>
+                    <heading>Asennus- ja korjaustöiden rajoitukset</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa oleva kielto ei koske ajoneuvokauppaa harjoittavan yrityksen tai ajoneuvojen maahantuojan omistamia myytävinä tai asiakkaan käyttöön varustettavina olevia ajoneuvoja. Kielto ei koske myöskään linja- tai kuorma-autoliikenteen harjoittajaa tämän suorittaessa hallitsemiensa ajoneuvojen mekaanisten ajopiirturien asennustöitä ja niihin liittyviä sinetöintejä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>92 §</num>
+                    <heading>Toimenpiteet toiminnassa havaittujen puutteiden johdosta</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Digitaalisen ajopiirturin asennuksessa ja korjauksessa käytettävien korjaamokorttien peruuttamisesta säädetään tieliikennelain 92 d §:ssä.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 20 päivänä kesäkuuta 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/267">HE 267/2004</ref>
+                        </p>
+                        <p>LiVM 8/2005</p>
+                        <p>EV 38/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 10 päivänä kesäkuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,208 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/198/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/198"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/198/alkup"/>
+                    <FRBRdate date="2006-03-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="198"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/198/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/198/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/198/alkup/fin"/>
+                    <FRBRdate date="2006-03-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/198/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/198/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/198/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="34"/>
+                    <finlex:date date="2006-03-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>198/2006</docNumber>
+                <docTitle>Laki sähköisen viestinnän tietosuojalain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         16 päivänä kesäkuuta 2004 annetun sähköisen viestinnän tietosuojalain (
+                        <affectedDocument href="/akn/fi/act/statute/2004/516">516/2004</affectedDocument>
+                        ) 2 §:n 13 ja 14 kohta ja 9 luvun otsikko sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         2 §:ään uusi 15―17 kohta sekä lakiin uusi 35 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Määritelmät</heading>
+                    <subsection>
+                        <intro>
+                            <p>Tässä laissa tarkoitetaan:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>13)</num>
+                            <content>
+                                <p>
+                                    <i>tietoturvalla</i>
+                                     hallinnollisia ja teknisiä toimia, joilla varmistetaan se, että tiedot ovat vain niiden käyttöön oikeutettujen saatavilla, ettei tietoja voida muuttaa muiden kuin siihen oikeutettujen toimesta ja että tiedot ja tietojärjestelmät ovat niiden käyttöön oikeutettujen hyödynnettävissä;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>14)</num>
+                            <content>
+                                <p>
+                                    <i>käsittelyllä</i>
+                                     keräämistä, tallentamista, järjestämistä, käyttöä, siirtämistä, luovuttamista, säilyttämistä, muuttamista, yhdistämistä, suojaamista, poistamista, tuhoamista sekä muita vastaavia toimenpiteitä;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>15)</num>
+                            <content>
+                                <p>
+                                    <i>kohdennetulla hätätiedotteella</i>
+                                     ihmisten henkeen, terveyteen tai omaisuuteen kohdistuvan välittömän uhkan taikka huomattavan omaisuus- tai ympäristövahingon välittömän uhkan torjumiseksi välitettävää tiedotetta, joka välitetään matkaviestinverkossa tekstiviestillä tai muulla viestillä tietyllä alueella tai alueilla oleviin päätelaitteisiin tai liittymiin;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>16)</num>
+                            <content>
+                                <p>
+                                    <i>muulla kohdennetulla viranomaistiedotteella</i>
+                                     ihmisten tai omaisuuden suojelemiseksi välitettävää tiedotetta, joka välitetään matkaviestinverkossa tekstiviestillä tai muulla viestillä tietyllä alueella tai alueilla oleviin päätelaitteisiin tai liittymiin tilanteessa, jossa ihmisten henkeen, terveyteen tai omaisuuteen kohdistuva uhka ei ole välitön;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>17)</num>
+                            <content>
+                                <p>
+                                    <i>kohdennetulla viranomaistiedotteella</i>
+                                     kohdennettua hätätiedotetta ja muuta kohdennettua viranomaistiedotetta.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <chapter>
+                    <num>9 luku</num>
+                    <heading>Tiedonsaantioikeus ja kohdennettu viranomaistiedote</heading>
+                    <section>
+                        <num>35 a §</num>
+                        <heading>Teleyrityksen velvollisuus välittää kohdennettu viranomaistiedote</heading>
+                        <subsection>
+                            <content>
+                                <p>Teleyritys on velvollinen välittämään kohdennetun viranomaistiedotteen, jos tiedote tulee välitettäväksi hätäkeskukselta, meripelastuskeskukselta tai meripelastuslohkokeskukselta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Kohdennetun hätätiedotteen välittämisestä päättää pelastus-, poliisi- tai rajavartioviranomainen taikka Säteilyturvakeskus tai Ilmatieteen laitos toimialallaan. Muun kohdennetun viranomaistiedotteen välittämisestä päättää toimivaltainen ministeriö. Kohdennettu viranomaistiedote tulee välittää viranomaisen päättämillä kielillä ja määräämillä alueilla tiedotteen välittämishetkellä sijaitseviin päätelaitteisiin tai liittymiin. Teleyritys ei saa muuttaa kohdennetun viranomaistiedotteen sisältöä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Kohdennettu hätätiedote on välitettävä viivytyksettä. Muu kohdennettu viranomaistiedote on välitettävä heti, kun se on mahdollista tavanomaista verkko- ja viestintäpalvelua kohtuuttomasti haittaamatta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1―3 momentissa säädettyjen velvollisuuksien toteuttamisesta ja niihin varautumisesta aiheutuvien kustannusten korvaamisesta säädetään viestintämarkkinalain 98 §:ssä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Viestintävirasto voi antaa tarkempia määräyksiä 1―3 momentissa tarkoitettujen kohdennettujen viranomaistiedotteiden välittämisestä, vasteajoista ja välittämiseen varautumisesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Joukkoviestintäverkossa välitettävästä hätätiedotteesta ja muusta viranomaistiedotteesta säädetään viestintämarkkinalain 93 §:n, Yleisradio Oy:stä annetun lain (1380/1993) 7 §:n sekä televisio- ja radiotoiminnasta annetun lain (744/1998) 15 a §:n nojalla.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä huhtikuuta 2006.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/152">HE 152/2005</ref>
+                        </p>
+                        <p>LiVM 3/2006</p>
+                        <p>EV 15/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 17 päivänä maaliskuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Liikenne- ja viestintäministeri </role>
+                                <person refersTo="">Susanna Huovinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

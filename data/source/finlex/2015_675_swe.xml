@@ -1,0 +1,355 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/675/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/675"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/675/alkup"/>
+                    <FRBRdate date="2015-05-22" name="dateIssued"/>
+                    <FRBRdate date="2015-05-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="675"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/675/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/675/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/675/alkup/swe"/>
+                    <FRBRdate date="2015-05-22" name="dateIssued"/>
+                    <FRBRdate date="2015-05-28" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/675/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/675/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/675/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-05-28" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>675/2015</docNumber>
+                <docTitle>Lag om ändring av utlänningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i utlänningslagen (
+                        <affectedDocument href="/akn/fi/act/statute/2004/301">301/2004</affectedDocument>
+                        ) 60 § 3 mom., 60 d §, 69 § 1 mom. och 206 § 3 mom.,
+                    </block>
+                    <block name="substitutions-originals">av dem 60 § 3 mom. och 60 d § sådana de lyder i lag 631/2011, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen nya 69 b—69 g § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>4 kap.</num>
+                    <heading>Vistelse</heading>
+                    <section>
+                        <num>60 §</num>
+                        <heading>Ansökan om uppehållstillstånd</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>I Finland lämnas ansökan till den lokala polisen. Utomlands lämnas ansökan om första uppehållstillstånd till en finsk beskickning eller en annan Schengenstats beskickning eller en extern tjänsteleverantör.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>60 d §</num>
+                        <heading>Biometriska kännetecken för uppehållstillståndskort</heading>
+                        <subsection>
+                            <content>
+                                <p>Migrationsverket, polisen, gränsbevakningsväsendet eller en finsk beskickning ska vid inlämning av ansökan om uppehållstillstånd och om internationellt skydd för uppehållstillståndskortet ta fingeravtryck av sökandens samtliga fingrar.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Även en annan Schengenstats beskickning eller en extern tjänsteleverantör får vid inlämning av ansökan om uppehållstillstånd för uppehållstillståndskortet ta fingeravtryck av samtliga fingrar, om det har avtalats om detta med beskickningen eller tjänsteleverantören.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om det tillfälligt är omöjligt att ta fingeravtryck när ansökan lämnas in, kan sökanden åläggas att inom en rimlig tid komplettera sin ansökan genom att lämna fingeravtryck.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Sökanden ska foga sin ansiktsbild till ansökan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>69 §</num>
+                        <heading>Utrikesförvaltningen som uppehållstillståndsmyndighet</heading>
+                        <subsection>
+                            <content>
+                                <p>Finska beskickningar tar emot ansökan om uppehållstillstånd av personer som befinner sig utomlands och kontrollerar att ansökan har fyllts i korrekt och att den innehåller behövliga handlingar och uppgifter.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>69 b §</num>
+                        <heading>Överföring av en finsk beskicknings uppgifter som gäller uppehållstillstånd till en annan Schengenstats beskickning eller en extern tjänsteleverantör</heading>
+                        <subsection>
+                            <content>
+                                <p>Utrikesministeriet kan efter att ha hört inrikesministeriet avtala om att till en annan Schengenstats beskickning överföra uppgifter som gäller uppehållstillstånd och som hör till en finsk beskickning.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om det inte är möjligt att överföra uppgifterna till en annan Schengenstats beskickning, kan utrikesministeriet efter att ha hört inrikesministeriet under särskilda omständigheter eller av orsaker som beror på lokala förhållanden avtala om att överföra uppgifterna till en i 28 § avsedd extern tjänsteleverantör.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>69 c §</num>
+                        <heading>Uppgifter som får läggas ut</heading>
+                        <subsection>
+                            <intro>
+                                <p>En eller flera av följande uppgifter som gäller uppehållstillstånd får överföras till en annan Schengenstats beskickning eller en extern tjänsteleverantör:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>att ge allmän information om ansökning om uppehållstillstånd,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>att med stöd av en checklista ge sökande information om de handlingar som krävs,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>att ta emot uppgifter, ansökningar och behandlingsavgifter och lämna dem till den finska beskickningen,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>att kontrollera sökandes identitet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5) </num>
+                                <content>
+                                    <p>att ta och registrera biometriska kännetecken,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6) </num>
+                                <content>
+                                    <p>att sköta tidsbeställningen för personliga besök vid den finska beskickningen eller hos den externa tjänsteleverantören,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7) </num>
+                                <content>
+                                    <p>att sköta arrangemangen i anslutning till hörande av personer som ansöker om uppehållstillstånd,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>8) </num>
+                                <content>
+                                    <p>att förmedla begäran om ytterligare utredningar i anslutning till en ansökan och svar på begäran,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>9) </num>
+                                <content>
+                                    <p>att förmedla delgivningar av beslut.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>I avtalet ska det dessutom bestämmas att sökanden hänvisas till den finska beskickningen, om det vid skötseln av uppgifterna uppstår misstankar om tillförlitligheten hos den handling som styrker sökandens identitet eller trovärdigheten hos någon annan uppvisad handling eller om beskickningen eller Migrationsverket anser att utredningen av ärendet kräver att sökanden personligen besöker beskickningen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>69 d §</num>
+                        <heading>Serviceavgift</heading>
+                        <subsection>
+                            <content>
+                                <p>Externa tjänsteleverantörer har rätt att ta ut serviceavgift av dem som ansöker om uppehållstillstånd. Utrikesministeriet och den externa tjänsteleverantören avtalar om serviceavgiften och dess belopp. Serviceavgiften ska vara skälig och även stå i rätt proportion till den externa tjänsteleverantörens kostnader för skötseln av de uppgifter som lagts ut till den.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>69 e §</num>
+                        <heading>Villkor för utläggning av verksamhet</heading>
+                        <subsection>
+                            <intro>
+                                <p>En extern tjänsteleverantör ska vara en juridisk person</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>som inte är försatt i konkurs och som är solvent,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>i fråga om vilken de personer som ansvarar för verksamheten och de anställda har konstaterats vara tillförlitliga och utbildade att sköta uppgifter som avses i 69 c § samt har förbundit sig att iaktta datasäkerhet även efter det att de inte längre sköter sådana uppgifter,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>som har sådana säkra lokaler, datakommunikationsförbindelser och datasystem samt sådan övrig teknisk och operativ beredskap som krävs för att uppgifterna ska kunna skötas på ett behörigt sätt,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>som har behövliga tillstånd, registreringar och avtal, samt i fråga om vilken det har säkerställts att någon intressekonflikt inte föreligger,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5) </num>
+                                <content>
+                                    <p>som i sin verksamhet förbinder sig att iaktta en effektiv datasäkerhet och utrikesministeriets anvisningar för förfarandet vid skötseln av uppgifterna samt andra anvisningar,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6) </num>
+                                <content>
+                                    <p>vars personal bemöter klienterna med respekt oberoende av klienternas kön, ras eller etniska ursprung, religion eller övertygelse, funktionshinder, ålder eller sexuella läggning.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>För att trygga datasäkerheten ska olovlig läsning, kopiering, ändring eller strykning av uppgifter alltid förhindras, särskilt vid överföring till den finska beskickningen. Uppgifterna ska överföras enligt anvisningarna och i krypterad form så fort som möjligt och förstöras utan dröjsmål efter att de överförts. Eventuella namn på sökande, kontaktuppgifter och passuppgifter får dock bevaras för senare ärendehantering tills delgivningen av beslutet har förmedlats. Dessutom ska det ses till att personuppgifterna skyddas mot förstörelse genom olyckshändelse eller olagligt förfarande eller förlust genom olyckshändelse samt mot ändringar, otillåten spridning eller otillåten tillgång. Det ska också ses till att uppgifterna behandlas endast i det syfte som har överenskommits om utförandet av uppgifterna.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>I ett avtal som ingås med en annan Schengenstat ska utöver det som nämns i 69 c § dessutom tas in bestämmelser enligt 1 mom. 3, 5 och 6 punkten och 2 mom. i denna paragraf samt om avtalets giltighet, hävande av avtalet och tillsynen över verksamheten. I ett avtal som ingås med en extern tjänsteleverantör ska det utöver detta ingå bestämmelser om det som anges i 1 mom. 1, 2 och 4 punkten och om avtalsvite samt en bestämmelse om att finsk lagstiftning tillämpas på tvistemål som gäller avtalet och att tvistemål behandlas i finsk domstol.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>69 f §</num>
+                        <heading>Övervakning av verksamhet som lagts ut</heading>
+                        <subsection>
+                            <content>
+                                <p>Utrikesministeriet och den berörda finska beskickningen ska övervaka verksamheten vid en annan Schengenstats beskickning och den externa tjänsteleverantörens verksamhet och utföra kontroller för att klarlägga om de följer det avtal som ingåtts. Föremål för övervakningen är den utlagda verksamheten som helhet betraktad och särskilt genomförandet av datasäkerheten.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Den externa tjänsteleverantören ska för övervakningen tillåta tillträde till sina lokaler utan föregående anmälan, övervakning av systemen och effektiv övervakning på andra överenskomna sätt.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Den andra Schengenstatens beskickning och den externa tjänsteleverantören ska rapportera om sådan övervakning den genomfört till utrikesministeriet och utan dröjsmål meddela utrikesministeriet och den berörda finska beskickningen om eventuella säkerhetsöverträdelser och om observationer som gäller missbruk av och olovlig tillgång till uppgifter.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>69 g §</num>
+                        <heading>Hävande av avtal</heading>
+                        <subsection>
+                            <content>
+                                <p>Utrikesministeriet ska häva ett avtal som det ingått, om den andra Schengenstatens beskickning eller den externa tjänsteleverantören inte längre uppfyller de krav som anges i 69 e § 1 mom. eller inte iakttar bestämmelserna i 2 mom. i den paragrafen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om det i verksamheten vid den andra Schengenstatens beskickning eller i den externa tjänsteleverantörens verksamhet har iakttagits brister och beskickningen eller tjänstleverantören inte inom utsatt tid har korrigerat sin verksamhet i överensstämmelse med avtalet, ska utrikesministeriet häva avtalet. Utrikesministeriet kan även häva ett avtal om dess förtroende för en extern tjänsteleverantörs verksamhet äventyras i betydande grad.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Utrikesministeriet ska omedelbart informera inrikesministeriet och Migrationsverket om att ett avtal hävts och om sådana brister i verksamheten som avses i 2 mom.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>206 §</num>
+                        <heading>Delgivning utomlands</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Om utlänningen inte har uppgett sin adress i utlandet, kan delgivningen verkställas genom att beslutet skickas till den finska beskickningen, en annan Schengenstats beskickning eller en extern tjänsteleverantör i den stat där utlänningen är medborgare eller vistas. Över delgivning ska upprättas ett skriftligt intyg av vilket framgår delgivningens verkställare och mottagare samt tidpunkten för delgivningen. Om beslutet inte kan överlämnas till utlänningen eller dennes företrädare, ska den myndighet som fattat beslutet underrättas om att delgivningen inte har kunnat verkställas.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juni 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 295/2014</p>
+                        <p>FvUB 59/2014</p>
+                        <p>RSv 354/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 22 maj 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister</role>
+                                <person refersTo="">Päivi Räsänen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,398 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/223/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/223"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/223/alkup"/>
+                    <FRBRdate date="2007-03-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="223"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/223/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/223/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/223/alkup/swe"/>
+                    <FRBRdate date="2007-03-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/223/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/223/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/223/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="37"/>
+                    <finlex:date date="2007-03-07"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>223/2007</docNumber>
+                <docTitle>Lag om samservice inom den offentliga förvaltningen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut föreskrivs:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 kap.</num>
+                    <heading>Allmänna bestämmelser</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Lagens syfte</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Syftet med denna lag är att förbättra tillgången till kundservice inom den offentliga förvaltningen och göra verksamheten effektivare.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Tillämpningsområde</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <content>
+                                <p>Denna lag tillämpas när biträdande kundservicefunktioner som ankommer på statliga myndigheter, kommunala myndigheter och Folkpensionsanstalten ordnas och sköts genom samarbete mellan myndigheter.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_2__subsec_2">
+                            <content>
+                                <p>En myndighet får inte i den verksamhet som avses i 1 mom. utföra uppgifter som innebär utövande av beslutanderätt eller som enligt lag förutsätter att den som anlitar servicen personligen besöker den behöriga myndigheten.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <heading>Definitioner</heading>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <intro eId="chp_1__sec_3__subsec_1__intro">
+                                <p>I denna lag avses med</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>
+                                        <i>samservice</i>
+                                         skötsel av biträdande kundservicefunktioner med stöd av ett 
+                                        <i>samserviceavtal</i>
+                                         som ingås mellan myndigheter,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>
+                                        <i>uppdragsgivare</i>
+                                         den myndighet som är part i samarbetet och vars biträdande kundservicefunktioner är föremål för samserviceavtalet,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>
+                                        <i>uppdragstagare</i>
+                                         den myndighet som är part i samarbetet och som åtar sig att sköta de biträdande kundservicefunktioner som anges i samserviceavtalet, samt med
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>
+                                        <i>samservicekontor</i>
+                                         en lokal som uppdragstagaren förfogar över och vars användning för samservice fastställs i samserviceavtalet.
+                                    </p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 kap.</num>
+                    <heading>Samservice</heading>
+                    <section eId="chp_2__sec_4">
+                        <num>4 §</num>
+                        <heading>Förutsättningar för samservicen</heading>
+                        <subsection eId="chp_2__sec_4__subsec_1">
+                            <content>
+                                <p>För att samservice skall ordnas förutsätts att det för att trygga tillgången till tjänster och effektivisera verksamheten inom förvaltningen är ändamålsenligt och behövligt att ordna och sköta biträdande kundservicefunktioner i samarbete.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Ordnande av samservice</heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <content>
+                                <p>Ordnandet av samservice grundar sig på ett i denna lag avsett avtalsförhållande. Uppdragstagaren kan sköta en biträdande kundservicefunktion som ankommer på den och som skall skötas inom ramen för samservice vid ett samservicekontor i form av personlig kundservice eller med hjälp av tekniska medel.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_2">
+                            <content>
+                                <p>Uppdragsgivaren är skyldig att så som föreskrivs i 3 kap. i skadeståndslagen (412/1974) ersätta skada som vid skötseln av biträdande kundservicefunktioner inom ramen för samservice tillfogats den som anlitar servicen. Uppdragsgivaren har till uppgift att ge uppdragstagarens personal sådan handledning och utbildning som uppgiften kräver.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_3">
+                            <content>
+                                <p>Den personal som sköter kundservicen inom ramen för samservice skall ha sådan utbildning, sakkunskap och erfarenhet som motsvarar svårighetsgraden på den kundservice som erbjuds.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Uppgifter som sköts inom ramen för samservice</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <intro eId="chp_2__sec_6__subsec_1__intro">
+                                <p>De biträdande kundservicefunktioner som sköts inom ramen för samservice kan gälla</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>konstaterande och verifiering av identiteten hos den som anlitar servicen,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>mottagande av anmälningar, ansökningar och andra handlingar som är avsedda för den myndighet som är uppdragsgivare och vidarebefordran av dem till uppdragsgivaren,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>utgivande av expeditioner och andra handlingar samt sådan delgivning som avses i 59 § och 60 § 1 och 2 mom. i förvaltningslagen (434/2003),</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>mottagande av avgifter för expeditioner eller andra handlingar och vidarebefordran av avgifterna till uppdragsgivaren,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>stödfunktioner för kundservicen i samband med ovan nämnda uppgifter samt teknisk handledning, förmedling av upplysningar och information som direkt hänför sig till dessa uppgifter, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>annan förmedling av information som hänför sig till anhängiggörandet av ärenden.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Handlingar som lämnas in till samservicekontor</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>En handling som den som anlitar servicen har lämnat in till en uppdragstagare som avses i denna lag inom utsatt tid, anses ha kommit in till den behöriga myndigheten inom utsatt tid. En handling som på det sätt som avses i 6 § 3 punkten genom förmedling av uppdragstagaren har delgetts den som anlitar servicen, anses vara delgiven på det sätt som föreskrivs i förvaltningslagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 kap.</num>
+                    <heading>Samserviceavtal</heading>
+                    <section eId="chp_3__sec_8">
+                        <num>8 §</num>
+                        <heading>Samserviceavtalet och dess innehåll</heading>
+                        <subsection eId="chp_3__sec_8__subsec_1">
+                            <content>
+                                <p>Ett avtal mellan två eller flera myndigheter om tillhandahållande av samservice skall ingås skriftligen för viss tid eller tills vidare.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_8__subsec_2">
+                            <intro eId="chp_3__sec_8__subsec_2__intro">
+                                <p>I avtalet skall överenskommas om</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>samservicens uppdragstagare och uppdragsgivare,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>vilka biträdande kundservicefunktioner avtalet gäller och i vilken omfattning de sköts inom ramen för samservice,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>de praktiska arrangemangen kring styrningen och övervakningen av de biträdande kundservicefunktionerna,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>samservicekontorets lokaler, utrustning och öppettider samt var kontoret är beläget,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>de praktiska arrangemangen i fråga om skyldigheter i samband med behandlingen av personuppgifter,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>fördelningen av de kostnader som samservicen medför eller fördelningsgrunderna,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>den personal som sköter samservicen och de krav som ställs på den,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_8">
+                                <num>8)</num>
+                                <content>
+                                    <p>personalens utbildning och det kunskapsmässiga och tekniska stöd uppgifterna kräver,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_9">
+                                <num>9)</num>
+                                <content>
+                                    <p>avtalets giltighet och uppsägning av avtalet, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_8__subsec_2__para_10">
+                                <num>10)</num>
+                                <content>
+                                    <p>andra eventuella praktiska frågor kring ordnandet av samservice.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_9">
+                        <num>9 §</num>
+                        <heading>Skyldighet att ingå samserviceavtal</heading>
+                        <subsection eId="chp_3__sec_9__subsec_1">
+                            <intro eId="chp_3__sec_9__subsec_1__intro">
+                                <p>Genom beslut av ett ministerium kan en myndighet som hör till dess förvaltningsområde åläggas att ingå ett sådant samserviceavtal som avses i denna lag, om</p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_9__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>myndigheten inte har ingått ett samserviceavtal,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_9__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>ordnandet av samservice uppenbart är behövligt för att trygga tillgången till tjänster och effektivisera verksamheten inom förvaltningsområdet, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_9__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>det på orten finns en samarbetspartner som är lämplig och villig att delta i ordnandet av samservice.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_3__sec_9__subsec_2">
+                            <content>
+                                <p>Innan beslut fattas skall ministeriet begära ett utlåtande av de myndigheter vars funktioner skall ordnas inom ramen för samservicen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 kap.</num>
+                    <heading>Särskilda bestämmelser</heading>
+                    <section eId="chp_4__sec_10">
+                        <num>10 §</num>
+                        <heading>Informationsskyldighet</heading>
+                        <subsection eId="chp_4__sec_10__subsec_1">
+                            <content>
+                                <p>Parterna i samarbetet skall informera allmänheten om samservicen och om serviceurvalet, öppettiderna och andra omständigheter som gäller servicen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <section eId="sec_11">
+                    <num>11 §</num>
+                    <heading>Ikraftträdande</heading>
+                    <subsection eId="sec_11__subsec_1">
+                        <content>
+                            <p>Denna lag träder i kraft den 1 april 2007.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_11__subsec_2">
+                        <content>
+                            <p>Genom denna lag upphävs lagen av den 7 september 1993 om kundbetjäning vid gemensamma serviceenheter inom den offentliga förvaltningen (802/1993).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_12">
+                    <num>12 §</num>
+                    <heading>Övergångsbestämmelse</heading>
+                    <subsection eId="sec_12__subsec_1">
+                        <content>
+                            <p>Samserviceavtal som ingåtts före ikraftträdandet av denna lag skall göras förenliga med denna lag senast vid utgången av år 2007.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 207/2006</p>
+                        <p>FvUB 32/2006</p>
+                        <p>RSv 272/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 2 mars 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister </role>
+                                <person refersTo="">Kari Rajamäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

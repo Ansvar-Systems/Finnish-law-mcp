@@ -1,0 +1,317 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/487/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/487"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/487/alkup"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="487"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/487/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/487/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/487/alkup/swe"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/487/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/487/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/487/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="69"/>
+                    <finlex:date date="2007-04-25"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>487/2007</docNumber>
+                <docTitle>Lag om energicertifikat för byggnader</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut föreskrivs:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section eId="sec_1">
+                    <num>1 §</num>
+                    <heading>En byggnads energicertifikat</heading>
+                    <subsection eId="sec_1__subsec_1">
+                        <content>
+                            <p>I en byggnads energicertifikat skall anges den energimängd som behövs vid användningen av byggnaden för sitt ändamål.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_1__subsec_2">
+                        <content>
+                            <p>För att det skall vara möjligt att bedöma en byggnads energiprestanda och jämföra den med andra byggnader för samma ändamål skall den energimängd som byggnaden behöver i förhållande till byggnadens yta anges på en skala som är indelad i flera klasser. Byggnaderna delas in i kategorier enligt användningsändamålet, och varje kategori har en skala som anger energiprestandan.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_1__subsec_3">
+                        <content>
+                            <p>En byggnads energicertifikat kan utfärdas i samband med bygglovsförfarandet eller en energikartläggning, som en del av ett disponentintyg eller som ett separat certifikat.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_1__subsec_4">
+                        <content>
+                            <p>Ett separat energicertifikat skall åtföljas av rekommendationer för hur byggnadens energiprestanda kan förbättras.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_1__subsec_5">
+                        <content>
+                            <p>Genom förordning av miljöministeriet föreskrivs om indelningen av byggnader i kategorier och om den skala som skall användas i energicertifikatet. Genom förordning av ministeriet kan föreskrivas om formuläret för energicertifikatsblanketten.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_2">
+                    <num>2 §</num>
+                    <heading>Energimängd som anges i energicertifikatet</heading>
+                    <subsection eId="sec_2__subsec_1">
+                        <content>
+                            <p>Den energimängd som behövs vid användningen av en byggnad skall bedömas på basis av tillförlitliga uppgifter om energiförbrukningen eller beräknas med en metod som beaktar byggnadens termiska egenskaper, värmeanläggningar och varmvattenförsörjning, ventilation och luftkonditioneringsanläggningar samt, i andra än bostadshus, inbyggda belysningsinstallationer. Vid bedömningen av en byggnads energiprestanda skall förhållandena avseende inomhusklimatet beaktas.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_2__subsec_2">
+                        <content>
+                            <p>I samband med bygglovet bedöms den energimängd som behövs i en byggnad samt i ett bostadshus eller byggnadsgrupp med högst sex bostäder med hjälp av en beräkningsmetod. Den energimängd som behövs i en annan byggnad bedöms på basis av tillförlitliga uppgifter om förbrukningen.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_2__subsec_3">
+                        <content>
+                            <p>Genom förordning av miljöministeriet föreskrivs om den bedömning av en byggnads energiprestanda som bygger på en beräkning eller på uppgifter om förbrukningen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_3">
+                    <num>3 §</num>
+                    <heading>Inspektion av en byggnad som grund för energicertifikatet</heading>
+                    <subsection eId="sec_3__subsec_1">
+                        <content>
+                            <p>För bedömning av den energimängd som behövs vid användningen av en byggnad med en beräkningsmetod samt för utarbetandet av rekommendationer som förbättrar energiprestandan skall de egenskaper som påverkar byggnadens energiförbrukning inspekteras.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_2">
+                        <content>
+                            <p>Genom förordning av miljöministeriet utfärdas närmare bestämmelser om utförandet av inspektioner.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_4">
+                    <num>4 §</num>
+                    <heading>Giltighetstiden för energicertifikat</heading>
+                    <subsection eId="sec_4__subsec_1">
+                        <content>
+                            <p>Ett energicertifikat som i samband med bygglovsförfarandet utfärdats för ett bostadshus eller en byggnadsgrupp med fler än sex bostäder eller för en byggnad som huvudsakligen är en affärs- eller servicebyggnad är giltigt i fyra år.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_2">
+                        <content>
+                            <p>Ett energicertifikat som i samband med bygglovsförfarandet utfärdats för ett bostadshus eller en byggnadsgrupp med högst sex bostäder är giltigt i tio år.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_3">
+                        <content>
+                            <p>Ett separat energicertifikat och ett energicertifikat som utfärdats i samband med en energikartläggning är giltigt i tio år.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_5">
+                    <num>5 §</num>
+                    <heading>Skyldighet att lägga fram energicertifikatet</heading>
+                    <subsection eId="sec_5__subsec_1">
+                        <content>
+                            <p>När en byggnad eller en del av den eller besittningsrätten säljs eller hyrs ut skall säljaren eller hyresvärden lägga fram ett giltigt energicertifikat för byggnaden för den presumtive köparen eller hyresgästen.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_2">
+                        <intro eId="sec_5__subsec_2__intro">
+                            <p>Kravet på ett energicertifikat gäller inte</p>
+                        </intro>
+                        <paragraph eId="sec_5__subsec_2__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>
+                                    byggnader med en yta på högst 50 m
+                                    <sup>2</sup>
+                                    ,
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_2__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>bostadshus som är avsedda för användning högst fyra månader per år,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_2__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>tillfälliga byggnader som är avsedda att användas högst två år,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_2__para_4">
+                            <num>4)</num>
+                            <content>
+                                <p>industribyggnader eller verkstäder eller jordbruksbyggnader som inte är avsedda för boende och som har ett lågt energibehov eller som används inom en sektor som omfattas av ett nationellt sektorsavtal om energiprestanda,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_2__para_5">
+                            <num>5)</num>
+                            <content>
+                                <p>byggnader som har skyddats i en plan enligt markanvändnings- och bygglagen (132/1999), genom ett beslut i enlighet med byggnadsskyddslagen (60/1985) eller förordningen om skydd för staten tillhöriga byggnader (480/1985) eller byggnader som i en inventering av Museiverket har fastställts som kulturhistoriskt betydande, och inte heller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_5__subsec_2__para_6">
+                            <num>6)</num>
+                            <content>
+                                <p>kyrkor eller andra av ett religionssamfund ägda byggnader vilka endast har utrymmen för samling eller andakt eller verksamhet som tjänar dessa.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_3">
+                        <content>
+                            <p>Energicertifikat behöver inte heller skaffas för ett bostadshus eller byggnadsgrupp med högst sex bostäder som färdigställts före denna lags ikraftträdande.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_6">
+                    <num>6 §</num>
+                    <heading>Energicertifikat för en ny byggnad</heading>
+                    <subsection eId="sec_6__subsec_1">
+                        <content>
+                            <p>Vid ansökan om i markanvändnings- och bygglagen avsett bygglov för nybyggnad skall i den energiutredning som fogas till ansökan finnas ett energicertifikat som utfärdats av huvudprojekteraren. Innan byggnaden tas i bruk skall huvudprojekteraren verifiera energicertifikatet i energiutredningen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_7">
+                    <num>7 §</num>
+                    <heading>Den som utfärdar certifikat</heading>
+                    <subsection eId="sec_7__subsec_1">
+                        <content>
+                            <p>Ett separat energicertifikat kan utfärdas av en person som har visat att han eller hon uppfyller de behörighetsvillkor som föreskrivs för uppgiften.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_7__subsec_2">
+                        <content>
+                            <p>Ett energicertifikat som ingår i energiutredningen för en ny byggnad utfärdas av byggnadens huvudprojekterare.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_7__subsec_3">
+                        <content>
+                            <p>Ett energicertifikat som utfärdas i samband med en energikartläggning utfärdas av den som utför kartläggningen.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_7__subsec_4">
+                        <content>
+                            <p>Ett energicertifikat som ingår i ett disponentintyg utfärdas av bolagets disponent eller av ordföranden för bolagets styrelse.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_8">
+                    <num>8 §</num>
+                    <heading>Behörighetsvillkor för den som utfärdar certifikat</heading>
+                    <subsection eId="sec_8__subsec_1">
+                        <content>
+                            <p>Genom förordning av miljöministeriet föreskrivs om den behörighet som krävs av den som utfärdar separata energicertifikat.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_9">
+                    <num>9 §</num>
+                    <heading>Bedömning av behörigheten hos den som utfärdar certifikat</heading>
+                    <subsection eId="sec_9__subsec_1">
+                        <content>
+                            <p>Den behörighet som krävs av den som utfärdar separata energicertifikat verifieras av en person som av miljöministeriet godkänts att konstatera behörigheten.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_9__subsec_2">
+                        <content>
+                            <p>Den som konstaterar behörigheten skall till miljöministeriet lämna de uppgifter som ministeriet begär om den i 1 mom. avsedda verksamheten och de avgifter som tagits ut för den.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_10">
+                    <num>10 §</num>
+                    <heading>Uppdragsdagbok och arkiv</heading>
+                    <subsection eId="sec_10__subsec_1">
+                        <content>
+                            <p>Den som utfärdar separata energicertifikat skall föra dagbok över mottagna uppdrag. I dagboken skall antecknas uppdragsgivarens namn och den byggnad som uppdraget gäller samt de åtgärder som vidtagits för utfärdande av certifikatet. Den som utfärdar certifikat skall ha ett arkiv över certifikaten. Certifikaten skall förvaras i minst 15 år. Ett energicertifikat som utfärdats av byggnadens huvudprojekterare fogas till bygglovshandlingarna och arkiveras i byggnadstillsynsmyndighetens arkiv.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_10__subsec_2">
+                        <content>
+                            <p>Den som utfärdar ett separat energicertifikat skall till miljöministeriet lämna de uppgifter som ministeriet begär om det som enligt 1 mom. skall skrivas upp i dagboken, de utfärdade certifikaten och de avgifter som tagits ut för dem.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_11">
+                    <num>11 §</num>
+                    <heading>Ikraftträdande</heading>
+                    <subsection eId="sec_11__subsec_1">
+                        <content>
+                            <p>Denna lag träder i kraft den 1 januari 2008. I fråga om byggnader som färdigställts före lagens ikraftträdande tillämpas lagen dock från och med ingången av 2009.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_11__subsec_2">
+                        <content>
+                            <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 170/2006</p>
+                        <p>MiUB 9/2006</p>
+                        <p>RSv 302/2006</p>
+                        <p>Europaparlamentets och rådets direktiv 2002/91/EG (32002L0091); EGT nr L 1, 4.1.2003, s. 65</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 13 april 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Miljöminister </role>
+                                <person refersTo="">Stefan Wallin</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

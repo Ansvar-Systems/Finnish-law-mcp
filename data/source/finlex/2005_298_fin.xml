@@ -1,0 +1,265 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/298/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/298"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/298/alkup"/>
+                    <FRBRdate date="2005-05-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="298"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/298/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/298/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/298/alkup/fin"/>
+                    <FRBRdate date="2005-05-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/298/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/298/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/298/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="56"/>
+                    <finlex:date date="2005-05-18"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>298/2005</docNumber>
+                <docTitle>Laki sijoitusrahastolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         29 päivänä tammikuuta 1999 annetun sijoitusrahastolain (<affectedDocument href="/akn/fi/act/statute/1999/48">48/1999</affectedDocument>) 99―101 § ja 146 §:n 1 ja 2 kohta,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 99 § osaksi laissa 224/2004 ja 146 §:n 1 ja 2 kohta viimeksi mainitussa laissa, seuraavasti:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>99 §</num>
+                    <subsection>
+                        <intro>
+                            <p>
+                                Sijoitusrahaston rahasto-osuuksien omistaminen on julkista, jos rahasto-osuudenomistaja (<i>ilmoitusvelvollinen</i>) on:
+                            </p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>rahastoyhtiön tai säilytysyhteisön hallituksen jäsen tai varajäsen, toimitusjohtaja tai toimitusjohtajan varamies, tilintarkastaja tai tilintarkastusyhteisön sellainen toimihenkilö, jolla on päävastuu rahastoyhtiön tai säilytysyhteisön tilintarkastuksesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>muu rahastoyhtiön palveluksessa oleva taikka rahastoyhtiön puolesta tai lukuun toimiva henkilö, jolla on mahdollisuus vaikuttaa sijoitusrahaston varojen sijoittamista koskevan päätöksen tekemiseen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>muu säilytysyhteisön palveluksessa oleva henkilö, jolla tehtävässään on mahdollisuus saada tietoja sijoitusrahaston sijoitustoiminnasta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>edellä tarkoitetun henkilön puoliso, vajaavaltainen, jonka edunvalvoja tällainen henkilö on, taikka muu perheenjäsen, joka on asunut vähintään vuoden samassa taloudessa tällaisen henkilön kanssa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>yhteisö tai säätiö, jossa tässä pykälässä tarkoitetulla henkilöllä on yksin tai yhdessä perheenjäsentensä tai toisen tässä pykälässä tarkoitetun henkilön taikka tämän perheenjäsenen kanssa määräysvalta arvopaperimarkkinalain 1 luvun 5 §:ssä tarkoitetulla tavalla;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>rahastoyhtiön osakkeenomistaja tai tähän arvopaperimarkkinalain 2 luvun 9 §:n mukaan rinnastettava henkilö.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Edellä 1 momentin 1―3 kohdassa tarkoitetun ilmoitusvelvollisen on ilmoitettava rahastoyhtiölle:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>1 momentin 3―5 kohdassa tarkoitetun olosuhteen olemassaolosta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>sellainen yhteisö ja säätiö, jossa ilmoitusvelvollisella on huomattava vaikutusvalta siten, että hän on siinä 1 momentin 1 kohdassa tarkoitetussa tai siihen rinnastuvassa asemassa tai hän on avoimen yhtiön yhtiömies tai kommandiittiyhtiön vastuunalainen yhtiömies, sekä edellä mainituissa tiedoissa tapahtuneet muutokset;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>omistuksessaan sekä 1 momentin 4 ja 5 kohdassa tarkoitetun henkilön omistuksessa olevat osakkeet tai osakkeisiin osakeyhtiölain mukaan oikeuttavat arvopaperit, joihin rahastoyhtiön hallinnoiman sijoitusrahaston varoja voidaan Euroopan talousalueella sijoittaa, tällaisten arvopapereiden hankkimista tai luovutusta koskevat sopimukset ja sitoumukset sekä tällaisten arvopapereiden omistuksessa ja niiden hankkimista tai luovutusta koskevissa sopimussuhteissa tapahtuvat, vähintään 5 000 euron suuruiset muutokset seitsemän päivän kuluessa muutoksesta.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Edellä 2 momentissa tarkoitettu ilmoitus on tehtävä neljäntoista päivän kuluessa siitä, kun:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>henkilö otti vastaan 1 momentin 1―3 kohdassa tarkoitetun tehtävän;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>1 momentin 4 tai 5 kohdassa taikka 2 momentin 2 kohdassa tarkoitettu olosuhde syntyi; tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>1 momentissa taikka 2 momentin 1 tai 2 kohdassa tarkoitetuissa olosuhteissa tapahtui muutos.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos kalenterivuoden aikana tehtyjen kauppojen ja luovutusten yhteismäärä jää alle 5 000 euron, ilmoitus on tästä huolimatta tehtävä viimeistään seuraavan kalenterivuoden tammikuun 31 päivänä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ilmoitusvelvollisuus ei koske tietoja asunto-osakeyhtiöistä, kiinteistöosakeyhtiöistä, aatteellisista yhdistyksistä tai taloudellisista yhdistyksistä. Jos yhteisö käy säännöllisesti kauppaa arvopapereilla, myös niitä koskevat tiedot on ilmoitettava.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos arvopaperit on liitetty arvo-osuusjärjestelmään, rahastoyhtiö voi järjestää menettelyn, jossa tiedot saadaan arvo-osuusjärjestelmästä. Tällöin ei erillistä ilmoitusta ole tältä osin tehtävä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>100 §</num>
+                    <subsection>
+                        <content>
+                            <p>
+                                Rahastoyhtiön on pidettävä rekisteriä, josta ilmenevät kunkin ilmoitusvelvollisen kohdalla 99 §:ssä tarkoitetut omistukset ja sopimussuhteet sekä eriteltyinä kaupat ja muut luovutukset (<i>sisäpiirirekisteri</i>).
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Sisäpiirirekisterin tiedot on merkittävä siten, että niitä ei voi jälkikäteen muuttaa tai poistaa. Rekisterinpito on järjestettävä siten, että ainoastaan rekisterin pitämiseen oikeutetut voivat muuttaa tietoja. Rekisterimerkintä on tehtävä ilman aiheetonta viivästystä. Rekisteriin merkityt tiedot on säilytettävä vähintään viisi vuotta tiedon merkitsemisestä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jokaisella on oikeus vaivattomasti tutustua sisäpiirirekisteriin ja saada kulujen korvaamista vastaan siitä otteita ja jäljennöksiä. Luonnollisen henkilön henkilötunnus ja osoite sekä 99 §:n 1 momentin 4 kohdassa tarkoitetun henkilön nimi eivät kuitenkaan ole julkisia.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>101 §</num>
+                    <subsection>
+                        <content>
+                            <p>Ilmoitukseen on sisällytettävä asianomaisen henkilön tai yhteisön taikka säätiön yksilöimiseksi tarvittavat tiedot sekä arvopapereita koskevat tiedot. Rahoitustarkastus voi antaa tarkempia määräyksiä ilmoituksen sisällöstä ja tekotavasta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>146 §</num>
+                    <subsection>
+                        <intro>
+                            <p>Joka tahallaan tai törkeästä huolimattomuudesta</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>rikkoo 24 §:n 1 momentissa tai 30 §:ssä säädettyä kieltoa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>laiminlyö rahastoyhtiölle tai säilytysyhteisölle 25 §:n 2 momentissa, 26 §:n 1 momentissa, 28 §:ssä, 31 §:n 2 momentissa, 45 §:ssä, 47 §:n 3 momentissa, 49 §:ssä, 52 §:n 1 momentissa, 92―96 §:ssä tai 118 §:n 2 ja 3 momentissa säädettyjä velvollisuuksia;</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä heinäkuuta 2005.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                    <p>Tämän lain 100 §:ssä tarkoitetun sisäpiirirekisterin tiedot on saatettava lain mukaisiksi kuuden kuukauden kuluessa lain voimaantulosta.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/137">HE 137/2004</ref>
+                        </p>
+                        <p>TaVM 4/2005</p>
+                        <p>EV 28/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 13 päivänä toukokuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Toinen valtiovarainministeri </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,193 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/693/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/693"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/693/alkup"/>
+                    <FRBRdate date="2024-12-05" name="dateIssued"/>
+                    <FRBRdate date="2024-12-09" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="693"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/693/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/693/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/693/alkup/swe"/>
+                    <FRBRdate date="2024-12-05" name="dateIssued"/>
+                    <FRBRdate date="2024-12-09" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/693/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/693/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/693/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2024-12-09" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>693/2024</docNumber>
+                <docTitle>Lag om ändring av 11 och 18 kap. i sjukförsäkringslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i sjukförsäkringslagen (
+                        <affectedDocument href="/akn/fi/act/statute/2004/1224">1224/2004</affectedDocument>
+                        ) 18 kap. 13 § 2 och 3 mom., sådana de lyder i lag 535/2019, och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         11 kap. 1 § 2 mom. samt 18 kap. 9 och 10 §, 20 § 3 mom., 21 §, 22 § 1 mom. och 23 § 2 mom., sådana de lyder i lag 535/2019, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>11 kap.</num>
+                    <heading>Beloppet av dagpenningsförmånerna</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Beloppet av dagpenningsförmånerna enligt inkomst</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Sjukdagpenningen är 70 procent av trehundradelen av en försäkrads årsinkomst, om denna inte överstiger 20 780 euro. På den överstigande delen är sjukdagpenningens belopp 15 procent av trehundradelen av årsinkomsten.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>18 kap.</num>
+                    <heading>Sjukförsäkringsfonden och försäkringspremier och försäkringsavgifter</heading>
+                    <section>
+                        <num>9 §</num>
+                        <heading>De försäkrades finansieringsandel</heading>
+                        <subsection>
+                            <content>
+                                <p>Med intäkterna av sjukförsäkringens sjukvårdspremie som tas ut hos de försäkrade finansieras 48,6 procent av det sammanlagda beloppet av de utgifter för sjukvårdsförsäkringen som avses i 8 § 1 mom. 1–4 punkten samt 2 och 3 mom.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>10 §</num>
+                        <heading>Statens finansieringsandel</heading>
+                        <subsection>
+                            <content>
+                                <p>Av statens medel finansieras 51,4 procent av det sammanlagda beloppet av de utgifter för sjukvårdsförsäkringen som avses i 8 § 1 mom. 1–4 punkten samt 2 och 3 mom. Av statens medel finansieras också de sjukvårdskostnader som avses i 8 § 1 mom. 5 punkten till den del de inte kan täckas med kostnadsersättningar som erhållits från utlandet på basis av sjukvårdsförmåner som beviljats i Finland.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>20 §</num>
+                        <heading>Sjukförsäkringens sjukvårdspremie</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Om en försäkrad får annan än i 15–18 § avsedd förvärvsinkomst, tas hos honom eller henne, utöver vad som föreskrivs i 1 mom. i denna paragraf och i 23 §, som sjukförsäkringens sjukvårdspremie ut 0,39 procent av denna inkomst. Premien tas dock inte ut på de inkomster som avses i 14 § 2 mom.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>21 §</num>
+                        <heading>Sjukförsäkringens dagpenningspremie</heading>
+                        <subsection>
+                            <content>
+                                <p>Sjukförsäkringens dagpenningspremie bestäms för 2025 så att med intäkterna av den finansieras 32 procent av de utgifter för arbetsinkomstförsäkringen som avses i 12 § minskade med ersättningen för kostnaderna för familjeledighet som orsakas av föräldraskap.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>22 §</num>
+                        <heading>Arbetsgivares sjukförsäkringsavgift</heading>
+                        <subsection>
+                            <content>
+                                <p>Arbetsgivares sjukförsäkringsavgift bestäms för 2025 så att med intäkterna av den finansieras ersättningarna för kostnader för familjeledighet som orsakas av föräldraskap samt 68 procent av de utgifter för arbetsinkomstförsäkringen som avses i 12 § minskade med ersättningarna för kostnaderna för familjeledighet som orsakas av föräldraskap.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>23 §</num>
+                        <heading>Justering av sjukförsäkringens sjukvårdspremie</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelser om premieprocentsatsen för sjukförsäkringens sjukvårdspremie utfärdas årligen före den 23 november genom förordning av statsrådet. Om premien emellertid understiger 0,90 procent eller överstiger 1,20 procent av den förvärvsinkomst som beskattas vid kommunalbeskattningen och av de andra grunder för sjukvårdspremien som avses i 14 och 16–19 §, ska bestämmelser om premieprocentsatsen utfärdas genom lag.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 9 december 2024. Bestämmelserna i 18 kap. 9 och 10 §, 20 § 3 mom., 21 § och 22 § 1 mom. tillämpas första gången när beloppet av sjukförsäkringens sjukvårdspremie, sjukförsäkringens dagpenningspremie och arbetsgivares arbetslöshetsförsäkringspremie för 2025 fastställs och bestämmelserna i 18 kap. 23 § 2 mom. första gången när sjukförsäkringens sjukvårdspremie för 2026 fastställs.</p>
+                    <p>Om arbetsoförmågan har börjat före den 1 januari 2025, tillämpas på sjukdagpenningen de bestämmelser som gällde vid ikraftträdandet av denna lag. Om den försäkrade efter ikraftträdandet av denna lag på nytt har blivit arbetsoförmögen i enlighet med 11 kap. 2 § 7 mom. i den lag som ändras genom denna lag och den föregående förmånsperioden har börjat senast den 31 december 2024, tillämpas på sjukdagpenningen de bestämmelser som gällde vid ikraftträdandet av denna lag.</p>
+                    <p>Om rätten till donationsdagpenning börjar senast den 31 december 2025, tillämpas på donationsdagpenningen de bestämmelser i 11 kap. 1 § 2 mom. som gällde vid ikraftträdandet av denna lag.</p>
+                    <p>Den övre gräns på 20 780 euro för arbetsinkomsten som anges i 11 kap. 1 § 2 mom. motsvarar värdet år 2010 för den lönekoefficient som avses i 96 § i lagen om pension för arbetstagare (395/2006).</p>
+                    <p>När statens slutliga finansieringsandelar och de slutliga andelar som finansieras med försäkringsavgifter och försäkringspremier beräknas för 2024 och när Folkpensionsanstaltens bokslut för 2024 upprättas tillämpas de bestämmelser i 18 kap. som gällde vid ikraftträdandet av denna lag.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/123">RP 123/2024</ref>
+                        </p>
+                        <p>ShUB 15/2024</p>
+                        <p>RSv 119/2024</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 5 december 2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister för social trygghet</role>
+                                <person refersTo="">Sanni Grahn-Laasonen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,123 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/651/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/651"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/651/alkup"/>
+                    <FRBRdate date="2015-05-22" name="dateIssued"/>
+                    <FRBRdate date="2015-05-27" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="651"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/651/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/651/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/651/alkup/swe"/>
+                    <FRBRdate date="2015-05-22" name="dateIssued"/>
+                    <FRBRdate date="2015-05-27" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/651/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/651/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/651/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-05-27" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>651/2015</docNumber>
+                <docTitle>Lag om ändring av 17 § i lagen om sjöfartskydd på vissa fartyg och i hamnar som betjänar dem och om tillsyn över skyddet</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om sjöfartskydd på vissa fartyg och i hamnar som betjänar dem och om tillsyn över skyddet (
+                        <affectedDocument href="/akn/fi/act/statute/2004/485">485/2004</affectedDocument>
+                        ) 17 §, sådan den lyder delvis ändrad i lagarna 69/2007 och 885/2011, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>17 §</num>
+                    <heading>Teknisk övervakning</heading>
+                    <subsection>
+                        <content>
+                            <p>Utöver vad som föreskrivs någon annanstans i lag har polisen, gränsbevakningsväsendet och Tullen rätt att, efter att på förhand med ett lämpligt tecken ha meddelat detta, på platser till vilka allmänheten har tillträde inom området för en finsk hamn som avses i denna lag företa sådan teknisk övervakning som avses i 4 kap. 1 § 1 mom. i polislagen och i 20 b § i tullagen (1466/1994) för genomförande av sjöfartsskyddet. Teknisk övervakning får dock inte ske på platser som omfattas av hemfriden, på toaletter, i omklädningsrum eller på någon annan motsvarande plats eller i personalutrymmen eller i arbetsrum som anvisats arbetstagarna för deras personliga bruk. Automatisk upptagning av ljud eller bild med hjälp av en teknisk anordning får göras om detta behövs i syfte att förhindra brott som avses i 34 a kap. i strafflagen eller i syfte att identifiera personer som är efterlysta för brott som avses i det kapitlet eller som på sannolika skäl misstänks för sådana brott. De myndigheter som nämns i detta moment får inom hamnskyddsområdet placera anordningar som används för den tekniska övervakningen, om inte detta medför oskälig olägenhet för hamninnehavaren.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Polisen, gränsbevakningsväsendet och Tullen har rätt att av hamninnehavaren och redaren till sitt förfogande få övervakningsmaterial från tekniska anordningar som fortlöpande förmedlar eller tar upp bilder och som av hamninnehavaren eller redaren placerats inom ett sådant finskt hamnskyddsområde eller ombord på ett sådant finskt fartyg som avses i denna lag, om skyddsnivå 1 eller 2 har angetts. Uppgifter som avses i detta moment får lämnas ut även genom teknisk anslutning.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>På behandling av uppgifter som erhållits med hjälp av teknisk övervakningsutrustning tillämpas bestämmelserna i personuppgiftslagen (523/1999), lagen om behandling av personuppgifter i polisens verksamhet (761/2003), gränsbevakningslagen (578/2005) eller lagen om behandling av personuppgifter inom Tullen (639/2015), oberoende av om upptagningarna utgör ett sådant personregister som avses i personuppgiftslagen eller inte.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juni 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 351/2014</p>
+                        <p>FvUB 54/2014</p>
+                        <p>RSv 341/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 22 maj 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister</role>
+                                <person refersTo="">Päivi Räsänen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

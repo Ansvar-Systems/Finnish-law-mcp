@@ -1,0 +1,471 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/706/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/706"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/706/alkup"/>
+                    <FRBRdate date="2007-06-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="706"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/706/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/706/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/706/alkup/swe"/>
+                    <FRBRdate date="2007-06-15" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/706/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/706/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/706/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="107"/>
+                    <finlex:date date="2007-06-26"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>706/2007</docNumber>
+                <docTitle>Lag om verkställighet av skatter och avgifter</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut föreskrivs:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <crossHeading eId="crossHeading">Tillämpningsområde</crossHeading>
+                <section eId="sec_1">
+                    <num>1 §</num>
+                    <heading>Offentlig fordran</heading>
+                    <subsection eId="sec_1__subsec_1">
+                        <intro eId="sec_1__subsec_1__intro">
+                            <p>
+                                Denna lag gäller följande fordringar (<i>offentlig fordran</i>):
+                            </p>
+                        </intro>
+                        <paragraph eId="sec_1__subsec_1__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>skatter och offentliga avgifter samt för dem föreskriven dröjsmålsränta och förhöjning,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_1__subsec_1__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>
+                                    andra offentligrättsliga fordringar eller motsvarande fordringar som enligt 3 § får drivas in genom utsökning utan i 2 kap. 2 § i utsökningsbalken (705/2007) avsedd utsökningsgrund (<i>direkt utsökbarhet</i>).
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_1__subsec_2">
+                        <content>
+                            <p>Närmare bestämmelser om de fordringar som avses i 1 mom. 1 punkten utfärdas genom förordning av statsrådet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_2">
+                    <num>2 §</num>
+                    <heading>Förhållande till annan lagstiftning</heading>
+                    <subsection eId="sec_2__subsec_1">
+                        <content>
+                            <p>Särkilda bestämmelser finns om hur borgenären själv kan driva in en offentlig fordran, utföra kvittning och ge uppdrag som gäller indrivning av offentliga fordringar.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <crossHeading eId="crossHeading_2">Utsökning</crossHeading>
+                <section eId="sec_3">
+                    <num>3 §</num>
+                    <heading>Direkt utsökbarhet</heading>
+                    <subsection eId="sec_3__subsec_1">
+                        <content>
+                            <p>En fordran som avses i 1 § 1 mom. 1 punkten är direkt utsökbar.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_3__subsec_2">
+                        <content>
+                            <p>En annan offentligrättslig fordran eller motsvarande fordran är direkt utsökbar om så föreskrivs genom lag. Genom förordning av statsrådet kan även föreskrivas att sådana fordringar är direkt utsökbara, om det i lag eller förordning av statsrådet föreskrivs om fordrans belopp eller dess bestämningsgrund och fordrans storlek kan bestämmas utan väsentlig prövning.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_4">
+                    <num>4 §</num>
+                    <heading>Laga kraft och kvittning</heading>
+                    <subsection eId="sec_4__subsec_1">
+                        <content>
+                            <p>Om inte annat föreskrivs någon annanstans i lag, får en offentlig fordran drivas in genom utsökning även om påförandet eller debiteringen av fordran inte har vunnit laga kraft.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_4__subsec_2">
+                        <content>
+                            <p>Om inte annat föreskrivs någon annanstans i lag får sådana förmåner eller andra tillgångar som har utmätts inte kvittas mot en offentlig fordran efter det att ett betalningsförbud enligt utsökningsbalken har delgivits.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_5">
+                    <num>5 §</num>
+                    <heading>Ansökan och ombud</heading>
+                    <subsection eId="sec_5__subsec_1">
+                        <content>
+                            <p>Till ansökan om utsökning behöver inte fogas den handling som gäller påförandet eller debiteringen av den offentliga fordran. Handlingen skall dock specificeras och uppgifter om den ges i ansökan. På begäran av utmätningsmannen är sökanden skyldig att ge in handlingen i fråga.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_5__subsec_2">
+                        <content>
+                            <p>Ett finansiellt institut eller kreditinstitut, någon som bedriver indrivningsverksamhet eller någon annan syssloman får inte vid utsökning av en offentlig fordran uppträda som sökande eller ombud på uppdrag av borgenären.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_6">
+                    <num>6 §</num>
+                    <heading>Återförvisning av ärende och kontroll av fordran</heading>
+                    <subsection eId="sec_6__subsec_1">
+                        <content>
+                            <p>Observerar utmätningsmannen att en offentlig fordran uppenbarligen har påförts eller debiterats dubbelt eller fel person, skall utmätningsmannen återförvisa ärendet till sökanden.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_6__subsec_2">
+                        <content>
+                            <p>Om det hos en person som inte har fyllt 15 år genom utsökning indrivs någon annan offentlig fordran än skatt, skall utmätningsmannen be sökanden kontrollera den minderåriges betalningsskyldighet. Verkställigheten avbryts under tiden.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_6__subsec_3">
+                        <content>
+                            <p>Angående de ärenden i vilka kontroll skall begäras utfärdas vid behov närmare bestämmelser genom förordning av statsrådet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_7">
+                    <num>7 §</num>
+                    <heading>Anmälan till förmyndarmyndigheten</heading>
+                    <subsection eId="sec_7__subsec_1">
+                        <content>
+                            <p>Om gäldenären inte har fyllt 18 år och ansökan gäller skatt eller någon annan motsvarande offentlig fordran, skall utmätningsmannen till förmyndarmyndigheten göra en anmälan, med iakttagande i tillämpliga delar av vad som föreskrivs i 3 kap. 113 § i utsökningsbalken.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_7__subsec_2">
+                        <content>
+                            <p>Angående de ärenden i vilka anmälan skall göras utfärdas vid behov närmare bestämmelser genom förordning av statsrådet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_8">
+                    <num>8 §</num>
+                    <heading>Tillämpning av utsökningsbalken</heading>
+                    <subsection eId="sec_8__subsec_1">
+                        <content>
+                            <p>Till den del något annat inte följer av denna lag, iakttas vid utsökning av offentliga fordringar i tillämpliga delar vad som i utsökningsbalken föreskrivs om verkställighet av betalningsskyldighet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <crossHeading eId="crossHeading_3">Grundbesvär</crossHeading>
+                <section eId="sec_9">
+                    <num>9 §</num>
+                    <heading>Rätt att anföra grundbesvär</heading>
+                    <subsection eId="sec_9__subsec_1">
+                        <content>
+                            <p>Den som anser att en offentlig fordran har påförts eller debiterats felaktigt får anföra grundbesvär.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_9__subsec_2">
+                        <content>
+                            <p>Bestämmelser om preskriptionstidens inverkan finns i 21 § 3 mom.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_10">
+                    <num>10 §</num>
+                    <heading>Myndighet som handlägger grundbesvär</heading>
+                    <subsection eId="sec_10__subsec_1">
+                        <content>
+                            <p>Grundbesvär anförs hos samma myndighet som ordinarie besvär. Finns det ingen sådan myndighet, anförs grundbesvären hos den förvaltningsdomstol inom vars domkrets den offentliga fordran har påförts eller debiterats.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_10__subsec_2">
+                        <content>
+                            <p>Om inte annat föreskrivs någon annanstans i lag får förvaltningsdomstolens beslut i ett ärende som gäller grundbesvär överklagas hos högsta förvaltningsdomstolen inom 60 dagar från delfåendet av beslutet. Besvärsskriften skall inom den nämnda tiden sändas till högsta förvaltningsdomstolen eller till den förvaltningsdomstol som fattat beslutet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_11">
+                    <num>11 §</num>
+                    <heading>Besvärsanvisning</heading>
+                    <subsection eId="sec_11__subsec_1">
+                        <content>
+                            <p>Har utmätning förrättats för indrivning av en offentlig fordran, skall utmätningsmannen utöver en besvärsanvisning enligt 11 kap. 13 och 14 § i utsökningsbalken ge gäldenären en anvisning om grundbesvär, om gäldenären har rätt att anföra grundbesvär. Utmätningsmannen skall även ge information om vad som enligt denna lag skall iakttas vid ansökan om avbrott.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <crossHeading eId="crossHeading_4">Avbrytande av verkställighet</crossHeading>
+                <section eId="sec_12">
+                    <num>12 §</num>
+                    <heading>Förutsättningar för förordnande om avbrott</heading>
+                    <subsection eId="sec_12__subsec_1">
+                        <intro eId="sec_12__subsec_1__intro">
+                            <p>
+                                Den myndighet (<i>besvärsmyndighet</i>) som handlägger
+                            </p>
+                        </intro>
+                        <paragraph eId="sec_12__subsec_1__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>ordinarie besvär eller grundbesvär över påförande eller debitering av en offentlig fordran, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_12__subsec_1__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>rättelseyrkanden som gäller beskattning eller förskottsuppbörd,</p>
+                            </content>
+                        </paragraph>
+                        <wrapUp eId="sec_12__subsec_1__wrapUp">
+                            <p>
+                                skall utan dröjsmål på begäran eller självmant förbjuda utsökning av fordran eller förordna om avbrott i utsökningen (<i>förordnande om avbrott</i>), om inte besvären eller rättelseyrkandet är uppenbart obefogade.
+                            </p>
+                        </wrapUp>
+                    </subsection>
+                </section>
+                <section eId="sec_13">
+                    <num>13 §</num>
+                    <heading>Avbrytande av försäljning och av redovisning i vissa fall</heading>
+                    <subsection eId="sec_13__subsec_1">
+                        <content>
+                            <p>Utöver vad som föreskrivs i 12 § skall försäljningen och redovisningen avbrytas, om utmätningen gäller en fastighet eller sådana aktier i ett aktiebolag som berättigar till besittning av en lägenhet eller en byggnad eller om ändringssökandet gäller förhöjning av skatt eller offentlig avgift. Försäljningen och redovisningen får emellertid inte avbrytas med stöd av detta moment om det finns vägande skäl för att fortsätta verkställigheten.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_13__subsec_2">
+                        <content>
+                            <p>Med avvikelse från vad som föreskrivs i 12 § och i 1 mom. i denna paragraf får det endast av vägande skäl förordnas att försäljningen skall avbrytas, om den utmätta egendomen snabbt sjunker i värde eller medför höga skötselkostnader eller om en auktionsannons har publicerats.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_14">
+                    <num>14 §</num>
+                    <heading>Avbrytande mot säkerhet</heading>
+                    <subsection eId="sec_14__subsec_1">
+                        <content>
+                            <p>Utmätningsmannen skall omedelbart avbryta verkställigheten, om gäldenären hos utmätningsmannen ställer säkerhet för betalningen av den offentliga fordran som är föremål för utsökning. Om något utsökningsärende inte är anhängigt har en hos utmätningsmannen ställd säkerhet samma verkan som ett av besvärsmyndigheten meddelat verkställighetsförbud.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_14__subsec_2">
+                        <content>
+                            <p>Utmätningsmannen skall underrätta besvärsmyndigheten om säkerhet som har ställts och om avbrytande av verkställigheten. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_15">
+                    <num>15 §</num>
+                    <heading>Begäran om avbrott</heading>
+                    <subsection eId="sec_15__subsec_1">
+                        <content>
+                            <p>Begäran om förbud mot eller avbrytande av verkställighet framställs hos den besvärsmyndighet som avses i 12 §.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_15__subsec_2">
+                        <content>
+                            <p>En gäldenär vars egendom har utmätts kan även hos utmätningsmannen begära att verkställigheten skall avbrytas. Utmätningsmannen skall avbryta verkställigheten, om gäldenären begär avbrott inom en vecka från utmätningen. Avbrottet fortsätter om gäldenären inom tre veckor från begäran om avbrott till utmätningsmannen lämnar ett intyg över att en ändringsansökan är anhängig eller en besvärsskrift. Utmätningsmannen skall omedelbart sända en begäran om avbrott och en eventuell besvärsskrift till besvärsmyndigheten och sitt utlåtande om begäran om avbrott så snart som möjligt till samma myndighet. Avbrottet gäller tills besvärsmyndigheten har avgjort begäran om avbrott.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_15__subsec_3">
+                        <content>
+                            <p>Den frist på en vecka som avses i 2 mom. räknas från utmätningen, med iakttagande av bestämmelserna i 11 kap. 6 § i utsökningsbalken. Om gäldenären muntligen har begärt avbrott hos utmätningsmannen, skall en skriftlig begäran om avbrott lämnas till utmätningsmannen inom den i 2 mom. nämnda tiden på tre veckor.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_16">
+                    <num>16 §</num>
+                    <heading>Förordnande om återkallade av verkställighet</heading>
+                    <subsection eId="sec_16__subsec_1">
+                        <content>
+                            <p>I förordnandet om avbrott kan vid behov bestämmas att en redan utförd verkställighetsåtgärd skall återkallas.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_17">
+                    <num>17 §</num>
+                    <heading>Giltighetstid för förordnande om avbrott och sökande av ändring</heading>
+                    <subsection eId="sec_17__subsec_1">
+                        <content>
+                            <p>Ett förordnande om avbrott gäller tills ärendet har avgjorts med laga kraft, om inte besvärsmyndigheten bestämmer något annat. För att avbrottet skall fortsätta att gälla efter det att avgörande nåtts i huvudsaken krävs dock att gäldenären visar att han inom 60 dagar från delfåendet av avgörandet har sökt ändring i ett rättelseärende som gäller beskattning eller förskottsuppbörd. I andra ärenden fortsätter verkställigheten när tre månader har förflutit från avgörandet, om inte gäldenären visar att han har sökt ändring inom föreskriven tid eller att tid för sökande av ändring återstår.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_17__subsec_2">
+                        <content>
+                            <p>Avgörandet i ett avbrottsärende får inte överklagas separat.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_18">
+                    <num>18 §</num>
+                    <heading>Behandling av begäran om avbrott</heading>
+                    <subsection eId="sec_18__subsec_1">
+                        <content>
+                            <p>Besvärsmyndigheten får bestämma att ordföranden, en ledamot eller en föredragande skall behandla och avgöra begäran om avbrott.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_18__subsec_2">
+                        <content>
+                            <p>En begäran om avbrott som kommit direkt till besvärsmyndigheten skall avgöras genast. En begäran om avbrott som i enlighet med 15 § 2 mom. har inkommit via utmätningsmannen skall avgöras inom tre veckor från det att den kom in till besvärsmyndigheten.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_19">
+                    <num>19 §</num>
+                    <heading>Tillämpning av avbrottsbestämmelserna i utsökningsbalken</heading>
+                    <subsection eId="sec_19__subsec_1">
+                        <content>
+                            <p>I fråga om meddelande av förordnande om avbrott gäller i övrigt i tillämpliga delar vad som föreskrivs i 10 kap. 20 och 22 §, 23 § 2 mom. samt 24 och 26 § i utsökningsbalken. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <crossHeading eId="crossHeading_5">Preskription</crossHeading>
+                <section eId="sec_20">
+                    <num>20 §</num>
+                    <heading>Preskriptionstid</heading>
+                    <subsection eId="sec_20__subsec_1">
+                        <content>
+                            <p>En offentlig fordran preskriberas fem år efter ingången av året efter det år då den påfördes eller debiterades, och i annat fall vid ingången av året efter det år då fordran förföll till betalning.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_21">
+                    <num>21 §</num>
+                    <heading>Verkningarna av preskription</heading>
+                    <subsection eId="sec_21__subsec_1">
+                        <content>
+                            <p>En preskriberad offentlig fordran får inte indrivas. Preskriptionen förhindrar inte att betalning tas ur sådan gäldenären tillhörig egendom som utgör pant för fordran.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_21__subsec_2">
+                        <intro eId="sec_21__subsec_2__intro">
+                            <p>Har före preskriptionstidens utgång</p>
+                        </intro>
+                        <paragraph eId="sec_21__subsec_2__para_1">
+                            <num>1)</num>
+                            <content>
+                                <p>utmätning förrättats för indrivning av den offentliga fordran,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_21__subsec_2__para_2">
+                            <num>2)</num>
+                            <content>
+                                <p>den offentliga fordran bevakats i konkurs eller vid partsförhandling vid försäljning av fastighet i enlighet med utsökningsbalken, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_21__subsec_2__para_3">
+                            <num>3)</num>
+                            <content>
+                                <p>den offentliga fordran anmälts med anledning av offentlig stämning,</p>
+                            </content>
+                        </paragraph>
+                        <wrapUp eId="sec_21__subsec_2__wrapUp">
+                            <p>hindrar det att preskriptionstiden har löpt ut inte att betalning fås ur medel som utmätts eller överlämnats till konkurs eller ur medel ur vilka de fordringar som anmälts i den offentliga stämningen skall betalas. I fråga om inverkan av skuldsanering för privatpersoner och företagssanering föreskrivs särskilt.</p>
+                        </wrapUp>
+                    </subsection>
+                    <subsection eId="sec_21__subsec_3">
+                        <content>
+                            <p>Grundbesvär får anföras så länge rätten till betalning inte har förlorats enligt 1 eller 2 mom. Grundbesvären skall i de fall som avses i 2 mom. 2 punkten anföras inom tre veckor från bevakningsdagen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <crossHeading eId="crossHeading_6">Särskilda bestämmelser</crossHeading>
+                <section eId="sec_22">
+                    <num>22 §</num>
+                    <heading>Närmare bestämmelser</heading>
+                    <subsection eId="sec_22__subsec_1">
+                        <content>
+                            <p>Närmare bestämmelser om verkställigheten av denna lag utfärdas vid behov genom förordning av statsrådet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_23">
+                    <num>23 §</num>
+                    <heading>Ikraftträdande- och övergångsbestämmelser</heading>
+                    <subsection eId="sec_23__subsec_1">
+                        <content>
+                            <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_23__subsec_2">
+                        <content>
+                            <p>Genom denna lag upphävs lagen av den 29 juni 1961 om indrivning av skatter och avgifter i utsökningsväg (367/1961) jämte ändringar.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_23__subsec_3">
+                        <content>
+                            <p>Om det i någon annan lag eller förordning hänvisas till lagen om indrivning av skatter och avgifter i utsökningsväg, tillämpas motsvarande bestämmelse i denna lag.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_23__subsec_4">
+                        <content>
+                            <p>En fordran som var direkt utsökbar enligt de bestämmelser som gällde vid ikraftträdandet är utan hinder av denna lag direkt utsökbar även efter ikraftträdandet.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_23__subsec_5">
+                        <content>
+                            <p>Bestämmelserna i 6 § 2 mom. och 7 § i denna lag tillämpas på ärenden som blir anhängiga efter ikraftträdandet.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_23__subsec_6">
+                        <content>
+                            <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 83/2006</p>
+                        <p>LaUB 26/2006</p>
+                        <p>RSv 275/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 15 juni 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Tuija Brax</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

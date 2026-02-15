@@ -1,0 +1,267 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/675/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/675"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/675/alkup"/>
+                    <FRBRdate date="2006-07-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="675"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/675/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/675/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/675/alkup/fin"/>
+                    <FRBRdate date="2006-07-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/675/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/675/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/675/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="105"/>
+                    <finlex:date date="2006-08-04"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>675/2006</docNumber>
+                <docTitle>Laki hallinto-oikeuslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         26 päivänä maaliskuuta 1999 annetun hallinto-oikeuslain (
+                        <affectedDocument href="/akn/fi/act/statute/1999/430">430/1999</affectedDocument>
+                        ) 12 §, sellaisena kuin se on osaksi laeissa 106/2000 ja 699/2005, ja
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 12 a ja 12 b § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>12 §</num>
+                    <heading>Hallinto-oikeuden päätösvaltaisuus</heading>
+                    <subsection>
+                        <content>
+                            <p>Hallinto-oikeus on päätösvaltainen kolmijäsenisenä, jollei laissa erikseen toisin säädetä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vesilain ja ympäristönsuojelulain mukaisten asioiden käsittelyssä kolmijäseniseen kokoonpanoon kuuluu kaksi lainoppinutta jäsentä ja luonnontieteen tai tekniikan alaan perehtynyt jäsen sekä 7 §:ssä tarkoitettujen asioiden käsittelyssä kaksi lainoppinutta jäsentä ja asiantuntijajäsen. Jos asiassa ratkaistavana olevan kysymyksen laatu sitä edellyttää, hallinto-oikeus voi ratkaista asian myös nelijäsenisessä kokoonpanossa. Nelijäseniseen kokoonpanoon kuuluu vesilain ja ympäristönsuojelulain mukaisissa asioissa vähintään kaksi lainoppinutta jäsentä ja 7 §:ssä tarkoitetuissa asioissa kolme lainoppinutta jäsentä. Puheenjohtajana toimii aina lainoppinut jäsen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos valitus tai muussa hallintolainkäyttöasiassa esitetyt vaatimukset on peruutettu kokonaan, yksi lainoppinut jäsen voi tehdä siitä johtuvan ratkaisun. Yksi lainoppinut jäsen voi ratkaista myös asian, jossa on kysymys siitä, onko valitus tai muu hallintolainkäyttöasia pantu vireille määräajassa, sekä päättää siitä, onko hallinto-oikeus toimivaltainen käsittelemään siellä vireille pannun asian. Yksi lainoppinut jäsen voi päättää hallintolainkäyttölain 32 §:ssä tai muussa laissa tarkoitetun täytäntöönpanoa koskevan määräyksen antamisesta. Yksi lainoppinut jäsen voi päättää, että asiassa toimitetaan suullinen käsittely tai katselmus, ja tehdä niiden toimittamiseen liittyvät ratkaisut sekä päättää myös muista asian valmisteluun liittyvistä toimenpiteistä. Yksi lainoppinut jäsen voi myös hylätä suullisen käsittelyn tai katselmuksen toimittamista koskevan vaatimuksen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>12 a §</num>
+                    <heading>Hallinto-oikeuden kokoonpano eräissä asioissa</heading>
+                    <subsection>
+                        <intro>
+                            <p>Hallinto-oikeus on päätösvaltainen myös kokoonpanossa, johon kuuluu kaksi jäsentä, jollei asiassa ratkaistavana olevan kysymyksen laatu edellytä kolmijäsenisen kokoonpanon käyttämistä ja ratkaistavana on muutoksenhakuasia, jossa on kysymys:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>tuloverolaissa (1535/1992) tarkoitetusta luonnollisesta vähennyksestä, pääomatulosta tehtävästä vähennyksestä, matkakustannusten korvauksesta, ansiotulosta tehtävästä vähennyksestä, verosta tehtävästä vähennyksestä tai alijäämän hyvityksestä taikka kiinteistöverolain (654/1992), autoverolain (1482/1994) tai ajoneuvoverolain (1281/2003) soveltamisesta, metsänhoitoyhdistyksistä annetun lain (534/1998) mukaisesta metsänhoitomaksusta tai perintö- ja lahjaverolaissa (378/1940) tarkoitetusta omaisuuden arvon arvioimisesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>maankäyttö- ja rakennuslain (132/1999) 18 luvussa tarkoitetusta lupa-asiasta tai 23 luvussa tarkoitetusta poikkeuksen myöntämisestä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>jätelain (1072/1993) soveltamisesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>väestötietolain (507/1993), kotikuntalain (201/1994) tai nimilain (694/1985) soveltamisesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>siviilipalveluslain (1723/1991) soveltamisesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>järjestyslain (612/2003) tai kokoontumislain (530/1999) soveltamisesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>elatusturvalain (671/1998), sosiaalihuoltolain (710/1982), toimeentulotuesta annetun lain (1412/1997), lasten päivähoidosta annetun lain (36/1973), vammaisuuden perusteella järjestettävistä palveluista ja tukitoimista annetun lain (380/1987) tai sosiaali- ja terveydenhuollon asiakasmaksuista annetun lain (734/1992) soveltamisesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>8)</num>
+                            <content>
+                                <p>ulkomaalaislain (301/2004) soveltamisesta muutoin paitsi turvapaikkamenettelyssä tai suojelun tarpeen perusteella myönnettävän oleskeluluvan osalta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>9)</num>
+                            <content>
+                                <p>passilain (642/1986) soveltamisesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>10)</num>
+                            <content>
+                                <p>perusopetuslain (628/1998) soveltamisesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>11)</num>
+                            <content>
+                                <p>tuomioistuinten ja eräiden oikeushallintoviranomaisten suoritteista perittävistä maksuista annetun lain (701/1993), valtion maksuperustelain (150/1992) tai maksuvapautuslain (529/1980) soveltamisesta tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>12)</num>
+                            <content>
+                                <p>perintökaaren (40/1965) 5 luvun 2 §:n mukaisesta valtiolle tulleen perinnön luovuttamisesta.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Hallinto-oikeus on päätösvaltainen myös kaksijäsenisessä kokoonpanossa, jossa on lainoppinut jäsen ja asiantuntijajäsen, jos asia koskee mielenterveyslain mukaista hoidon jatkamista koskevan päätöksen alistamista hallinto-oikeuden vahvistettavaksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kaksijäsenisessä kokoonpanossa käsitelty asia on siirrettävä kolmijäsenisen kokoonpanon ratkaistavaksi, jos jäsenet eivät ole ratkaisusta yksimieliset.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>12 b §</num>
+                    <heading>Hallinto-oikeuden päätösvaltaisuus yksijäsenisenä</heading>
+                    <subsection>
+                        <intro>
+                            <p>Hallinto-oikeus on päätösvaltainen myös yksijäsenisenä ratkaistaessa muutoksenhakuasiaa, jossa on kysymys:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>pysäköintivirhemaksusta annetun lain (248/1970) tai joukkoliikenteen tarkastusmaksusta annetun lain (469/1979) soveltamisesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>valtion televisio- ja radiorahastosta annetun lain (745/1998) mukaisesta televisiomaksun ja tarkastusmaksun määräämisestä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>ajoneuvojen siirtämisestä ja romuajoneuvojen hävittämisestä annetun lain (151/1975) soveltamisesta tai</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>tieliikennelain (267/1981) 5 luvussa säädetyistä ajo-oikeus- ja ajokorttiasioista.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Hallinto-oikeuden päätösvaltaisuudesta yhden tuomarin kokoonpanossa säädetään ulkomaalaislain 193 §:n 2 momentissa, oikeusapulain (257/2002) 27 §:n 2 momentissa ja vankeuslain (767/2005) 20 luvun 14 §:n 1 momentissa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitettu asia voidaan käsitellä myös 12 a §:n 1 momentissa tarkoitetussa kokoonpanossa.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/85">HE 85/2005</ref>
+                        </p>
+                        <p>LaVM 9/2006</p>
+                        <p>EV 78/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Naantalissa 21 päivänä heinäkuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

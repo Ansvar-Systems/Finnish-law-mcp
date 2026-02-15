@@ -1,0 +1,365 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1200/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1200"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1200/alkup"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1200"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1200/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1200/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1200/alkup/fin"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1200/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1200/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1200/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="197"/>
+                    <finlex:date date="2005-12-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1200/2005</docNumber>
+                <docTitle>Laki vapaasta sivistystyöstä annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         vapaasta sivistystyöstä 21 päivänä elokuuta 1998 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1998/632">632/1998</affectedDocument>
+                        ) 12 §:n 2 momentti, sellaisena kuin se on laissa 1147/2000,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         2 §:n 4 momentti, 9―11 §, 11 a §:n 1―3 momentti, 12 §:n 1 momentti, 13 a §:n 1 momentti, 6 luvun otsikko ja 21 §, sellaisina kuin niistä ovat 9 § osaksi laeissa 1390/2001 ja 704/2002, 11 § osaksi mainituissa laeissa 1147/2000, 1390/2001 ja 704/2002, 11 a §:n 1―3 momentti laissa 1292/2004, 12 § mainitussa laissa 1147/2000 ja 13 a §:n 1 momentti mainitussa laissa 1390/2001, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         13 §:ään, sellaisena kuin se on osaksi mainitussa laissa 1390/2001, uusi 3 ja 4 momentti sekä lakiin uusi 18 a, 21 a ja 21 b § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Lain piiriin kuuluva toiminta</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Opintokeskukset toimivat sivistystyön valtakunnallisina aikuisoppilaitoksina järjestämällä opintoja itse sekä yhdessä kansalais- ja kulttuurijärjestöjen kanssa elinikäisen oppimisen ja aktiivisen kansalaisuuden sekä demokratian ja kansalaisyhteiskunnan toiminnan edistämiseksi.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <heading>Valtionosuuden määrä</heading>
+                    <subsection>
+                        <content>
+                            <p>Kansanopiston, kansalaisopiston ja kesäyliopiston ylläpitäjälle myönnetään valtionosuutta 57 prosenttia sekä opintokeskuksen ja liikunnan koulutuskeskuksen ylläpitäjälle 65 prosenttia 8 §:n mukaan lasketusta euromäärästä. Edellä 2 §:n 7 momentissa tarkoitetun oppilaitoksen ylläpitäjälle myönnetään valtionosuutta 57 prosenttia 8 §:n mukaan lasketusta euromäärästä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kansanopiston ylläpitäjälle, jonka ylläpitämisluvassa määritellyn pääasiallisen koulutustehtävän muodostaa vaikeasti vammaisille järjestettävä koulutus, myönnetään kuitenkin valtionosuutta 70 prosenttia 8 §:n mukaan lasketusta euromäärästä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Yhdistetyssä oppilaitoksessa valtionosuusprosentti määräytyy kunkin oppilaitosmuodon osalta erikseen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Opintokeskukselle myönnetään valtioneuvoston asetuksella säädetyt ehdot täyttäviä opintokerhoja varten valtionosuutena euromäärä, joka saadaan kertomalla opintokeskukselle vahvistettujen opintokerhotuntien määrällä opetusministeriön kullekin vuodelle määräämä opintokerhotunnin hinta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 §</num>
+                    <heading>Valtionosuuden laskemisessa käytettävien suoritteiden määrän vahvistaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Opetusministeriö vahvistaa vuosittain valtionosuuden laskemisen perusteena käytettävän opiskelijaviikkojen, opiskelijavuorokausien, opiskelijapäivien, opetustuntien sekä opintokerhotuntien määrän. Yhdistetyn oppilaitoksen osalta suoritteiden määrät vahvistetaan erikseen kullekin oppilaitosmuodolle.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Suoritteiden määrien laskemisesta säädetään tarkemmin valtioneuvoston asetuksella.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>11 §</num>
+                    <heading>Yksikköhinta</heading>
+                    <subsection>
+                        <content>
+                            <p>Opetusministeriö määrää opiskelijaviikkojen, opiskelijavuorokausien, opiskelijapäivien ja opetustuntien yksikköhinnat sekä opintokerhotuntien hinnan seuraavaa vuotta varten. Yksikköhinnat määrätään varainhoitovuodelle arvioidun kustannustason mukaisiksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Opiskelijaviikon yksikköhinta lasketaan kansanopistoille joka neljäs vuosi jakamalla yksikköhinnan määräämistä edeltänyttä vuotta edeltäneenä vuonna kansanopistojen toiminnasta aiheutuneet käyttökustannukset opistojen saman vuoden opiskelijaviikkojen määrällä. Valtioneuvoston asetuksella säädetään yksikköhinnan korottamisesta opistoissa, joiden ylläpitäjien ylläpitämisluvassa määriteltynä pääasiallisena koulutustehtävänä tai osana koulutustehtävää on vaikeasti vammaisille tarkoitettu koulutus taikka enintään kymmenen päivän pituisten kurssien järjestäminen. Valtioneuvoston asetuksella säädetään myös opiston ulkopuolella asuvien opiskelijaviikoista yksikköhintaan tehtävästä vähennyksestä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valtakunnallisten liikunnan koulutuskeskusten opiskelijavuorokauden yksikköhinta lasketaan joka neljäs vuosi jakamalla yksikköhinnan määräämistä edeltänyttä vuotta edeltäneenä vuonna liikunnan koulutuskeskusten toiminnasta aiheutuneet käyttökustannukset koulutuskeskusten saman vuoden opiskelijavuorokausien määrällä. Alueellisten liikunnan koulutuskeskusten opiskelijapäivän yksikköhinta määrätään vuosittain valtion talousarviossa olevan määrärahan puitteissa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Opetustunnin yksikköhinta kansalaisopistoille lasketaan joka neljäs vuosi jakamalla yksikköhinnan määräämistä edeltänyttä vuotta edeltäneenä vuonna kansalaisopistojen toiminnasta aiheutuneet käyttökustannukset kansalaisopistojen saman vuoden opetustuntien määrällä. Kansalaisopistoille määrättäviä yksikköhintoja porrastetaan tiheästi asutuissa kunnissa kansalaisopiston sijaintikunnan asukastiheyden perusteella. Porrastusten suuruudesta ja yksikköhintojen tarkemmasta laskemisesta sekä siitä, mitä kuntia pidetään tiheästi asuttuina kuntina, säädetään valtioneuvoston asetuksella. Kansalaisopistojen keskimääräisen yksikköhinnan vahvistamisesta on soveltuvin osin voimassa, mitä opetus- ja kulttuuritoimen rahoituksesta annetun lain (635/1998) 16 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Opetustunnin yksikköhinta kesäyliopistoille lasketaan joka neljäs vuosi jakamalla yksikköhinnan määräämistä edeltänyttä vuotta edeltäneenä vuonna kesäyliopistojen toiminnasta aiheutuneet käyttökustannukset kesäyliopistojen saman vuoden opetustuntien määrällä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Opetustunnin yksikköhinta opintokeskuksille lasketaan joka neljäs vuosi jakamalla yksikköhinnan määräämistä edeltänyttä vuotta edeltäneenä vuonna opintokeskusten toiminnasta aiheutuneet käyttökustannukset opintokeskusten saman vuoden opetustuntien määrällä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Yhdistetyssä oppilaitoksessa yksikköhinnat lasketaan erikseen oppilaitosmuodoittain.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Muina kuin 2―6 momentissa tarkoitettuina vuosina yksikköhinnaksi määrätään edelliselle vuodelle määrätty yksikköhinta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos kansanopisto tai liikunnan koulutuskeskus toimii toiminnan laajuus huomioon ottaen olennaisessa määrin vuokratiloissa, yksikköhintaa voidaan vuosittain korottaa euromäärällä, joka lasketaan jakamalla opetusministeriön valtionosuuden laskentaperusteeksi vahvistama vuosivuokra oppilaitoksen 10 §:ssä tarkoitettujen opiskelijaviikkojen tai opiskelijavuorokausien määrällä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 2 ja 4 momentissa tarkoitetut yksikköhinnat on määrättävä siten, että yksikköhinnat kerrottuina toteutuneiden opiskelijaviikkojen ja opetustuntien määrillä yhteenlaskettuina vastaavat edellä mainittuja oppilaitosmuotokohtaisia kokonaiskustannuksia.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 2 §:n 7 momentissa tarkoitetun oppilaitoksen yksikköhinta on sama kuin kansanopistojen porrastamaton yksikköhinta. Yksikköhinnasta vähennetään sisäoppilaitoksen osuutta vastaava määrä siten kuin valtioneuvoston asetuksella tarkemmin säädetään. Yksikköhintaa voidaan korottaa vuokratilojen osalta siten kuin 9 momentissa säädetään kansanopistoista ja liikunnan koulutuskeskuksista sekä koulutustehtävässä määrätyn erityistehtävän perusteella siten kuin valtioneuvoston asetuksella tarkemmin säädetään. Arvonlisäveron osalta noudatetaan 13 a §:n säännöksiä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>11 a §</num>
+                    <heading>Vapaan sivistystyön yksikköhintojen laskeminen vuosina 2005―2007</heading>
+                    <subsection>
+                        <content>
+                            <p>Sen estämättä, mitä 11 §:ssä säädetään, yksikköhintojen laskemisesta vapaan sivistystyön vuosien 2005―2007 yksikköhinnat lasketaan siten kuin jäljempänä tässä pykälässä säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vuoden 2003 vapaan sivistystyön eri toimintojen kustannusten perusteella vuodelle 2005 laskettavia yksikköhintoja verrataan eri toimintoja varten vuodelle 2004 vahvistettujen yksikköhintojen perusteella vuodelle 2005 laskettaviin yksikköhintoihin. Tästä erotuksesta otetaan vuoden 2005 yksikköhinnoissa huomioon 27 prosenttia, 44 prosenttia vuonna 2006 ja 61 prosenttia vuonna 2007.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Yksikköhintojen laskemisessa kustannustason arvioidut muutokset otetaan huomioon enintään täyteen ja vähintään puoleen määrään kustannustason arvioidusta muutoksesta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>12 §</num>
+                    <heading>Kustannustason sekä toiminnan laajuuden ja laadun muutos</heading>
+                    <subsection>
+                        <content>
+                            <p>Kustannustason sekä toiminnan laajuuden ja laadun muutos otetaan yksikköhintoja laskettaessa huomioon noudattaen soveltuvin osin, mitä kuntien valtionosuuslain (1147/1996) 3 §:n 1―3 kohdassa sekä 4 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>13 §</num>
+                    <heading>Yksikköhintoja laskettaessa huomiotta jätettävät kustannukset</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Käyttökustannukset, joihin myönnetään rahoitusta Euroopan yhteisöjen talousarviosta, saadaan lukea tämän lain nojalla rahoitettaviksi käyttökustannuksiksi siltä osin kuin Euroopan yhteisöjen talousarviosta myönnettävä ja sitä vastaava valtion talousarvion mukainen erillinen kansallinen rahoitus ei niitä kata.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 2 §:n 1 momentissa tarkoitettujen oppilaitosten käyttökustannuksista vähennetään oppilaitosten ylläpitäjille 14 §:n nojalla asianomaista toimintaa varten kustannusten laskemisvuonna myönnettyjä valtionavustuksia vastaava euromäärä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>13 a §</num>
+                    <heading>Arvonlisäveron huomioon ottaminen yksityisen oppilaitoksen ylläpitäjän yksikköhinnassa</heading>
+                    <subsection>
+                        <content>
+                            <p>Kansalaisopistojen, kansanopistojen, valtakunnallisten liikunnan koulutuskeskusten, kesäyliopistojen ja opintokeskusten yksikköhintoja korotetaan yksityisen oppilaitoksen ylläpitäjän osalta siten, että korotus vastaa yksityisten oppilaitosten ylläpitäjien maksamien arvonlisäverojen osuutta yksityisille oppilaitosten ylläpitäjille kustakin oppilaitosmuodosta aiheutuneista arvonlisäverottomista kustannuksista.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <chapter>
+                    <num>6 luku</num>
+                    <heading>Muut rahoitusta ja tiedonsaantia koskevat säännökset</heading>
+                    <section>
+                        <num>18 a §</num>
+                        <heading>Maksatuksen keskeytys</heading>
+                        <subsection>
+                            <intro>
+                                <p>Valtionapuviranomainen voi päätöksellään määrätä tässä laissa tarkoitetun rahoituksen maksamisen keskeytettäväksi, jos:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>on ilmeistä, ettei rahoituksen saaja enää järjestä rahoituksen perusteena olevaa toimintaa, tai rahoituksen saaja olennaisessa määrin toimii vastoin asianomaista toimintaa koskevia lakeja tai asetuksia taikka niiden nojalla annettuja määräyksiä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>ne perusteet, joiden mukaan rahoitus määrättyä tarkoitusta varten on myönnetty, ovat olennaisesti muuttuneet; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>Euroopan yhteisön lainsäädännössä edellytetään maksatuksen keskeyttämistä.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>21 §</num>
+                        <heading>Tietojen toimittaminen, tarkastusoikeus ja virka-apu</heading>
+                        <subsection>
+                            <content>
+                                <p>Vapaan sivistystyön oppilaitoksen ylläpitäjän on toimitettava valtionapuviranomaiselle tässä laissa tarkoitetun rahoituksen määräämiseksi tarvittavat tiedot ja toiminnan laajuutta koskevat tiedot siten kuin opetusministeriö päättää.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Opetusministeriö päättää 1 momentissa tarkoitettujen tietojen oikeellisuuden toteamiseksi suoritettavista rahoituksen saajan talouteen ja toimintaan kohdistuvista tarkastuksista. Opetusministeriö voi antaa tarkastuksen suorittamisen myös opetushallituksen tehtäväksi. Rahoituksen saajan on korvauksetta annettava tarkastusta suorittavalle virkamiehelle kaikki tarkastuksen kannalta välttämättömät tiedot ja selvitykset, asiakirjat, tallenteet ja muu aineisto sekä muutoinkin avustettava tarkastuksessa. Tarkastusta suorittavalla virkamiehellä on oikeus päästä tarkastuksen edellyttämässä laajuudessa rahoituksen saajan hallinnassa tai käytössä oleviin rahoitettavassa toiminnassa käytettäviin tiloihin ja muille alueille. Tarkastusta ei kuitenkaan saa suorittaa kotirauhan piiriin kuuluvissa tiloissa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tarkastusta suorittavalla virkamiehellä on oikeus ottaa tarkastuksen kohteena oleva aineisto haltuunsa, jos tarkastaminen sitä edellyttää. Aineiston haltuunotosta on tarkastuksen yhteydessä laadittava pöytäkirja. Siinä on mainittava haltuunoton tarkoitus ja haltuun otettu aineisto. Aineisto on palautettava viipymättä, kun sitä ei enää tarvita tarkastuksen suorittamiseksi.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Opetusministeriöllä ja opetushallituksella on oikeus saada poliisi- ja ulosottoviranomaisilta tarpeellista virka-apua 2 momentin mukaisten tarkastustehtävien suorittamisessa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>21 a §</num>
+                        <heading>Tietojensaantioikeus</heading>
+                        <subsection>
+                            <content>
+                                <p>Oppilaitoksen ylläpitäjällä on tehtäviään hoitaessaan oikeus saada valtion ja kunnan viranomaiselta koulutuksen suunnittelussa ja järjestämisessä tarvittavat välttämättömät tilastotiedot ja muut vastaavat tiedot.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Oppilaitoksen ylläpitäjän tulee pyynnöstä toimittaa valtion opetushallintoviranomaisille niiden määräämät koulutuksen arvioinnissa, kehittämisessä, tilastoinnissa ja seurannassa tarvittavat välttämättömät tiedot.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>21 b §</num>
+                        <heading>Valtionavustuslain soveltaminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Jollei tässä laissa toisin säädetä, tämän lain nojalla myönnettäviin valtionavustuksiin sovelletaan, mitä valtionavustuslaissa (688/2001) säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006. Lakia sovelletaan ensimmäisen kerran syksyllä 2005 laskettaessa ja määrättäessä keskimääräisiä yksikköhintoja ja yksikköhintoja vuodelle 2006.</p>
+                    <p>Lain 11 §:n 2―4 ja 6 momentin säännöksiä, jotka koskevat kansanopistojen, valtakunnallisten liikunnan koulutuskeskusten, kansalaisopistojen ja opintokeskusten yksikköhintojen laskemista toteutuneiden kustannusten pohjalta joka neljäs vuosi, sovelletaan ensimmäisen kerran laskettaessa ja määrättäessä yksikköhintoja vuodelle 2008. Tämän lain 11 §:n 5 momentin säännöksiä kesäyliopistojen yksikköhinnan laskemisesta toteutuneiden kustannusten pohjalta sovelletaan kuitenkin ensimmäisen kerran laskettaessa ja määrättäessä yksikköhintaa vuodelle 2006. Yksikköhinnan laskemisesta kesäyliopistoissa vuosina 2006―2007 on lisäksi voimassa, mitä 11 a §:n 3 momentissa säädetään.</p>
+                    <p>Kuntien valtionosuuslain muuttamisesta annetun lain (1068/2005) 4 §:n 2 momentissa tarkoitettua peruspalveluiden hintaindeksiä sovelletaan ensimmäisen kerran määrättäessä valtionosuuksia vuodelle 2006.</p>
+                    <p>Lain 13 §:n 4 momentin säännöksiä, jotka koskevat valtionavustusten vähentämistä käyttökustannuksista, sovelletaan ensimmäisen kerran määrättäessä yksikköhintoja vuodelle 2008.</p>
+                    <p>Ennen tämän lain voimaantuloa myönnettyyn rahoitukseen sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/112">HE 112/2005</ref>
+                        </p>
+                        <p>SiVM 14/2005</p>
+                        <p>EV 185/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 29 päivänä joulukuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,176 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/137/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/137"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/137/alkup"/>
+                    <FRBRdate date="2006-02-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="137"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/137/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/137/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/137/alkup/swe"/>
+                    <FRBRdate date="2006-02-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/137/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/137/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/137/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="23"/>
+                    <finlex:date date="2006-03-01"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>137/2006</docNumber>
+                <docTitle>Lag om ändring av miljöskyddslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i miljöskyddslagen av den 4 februari 2000 (
+                        <affectedDocument href="/akn/fi/act/statute/2000/86">86/2000</affectedDocument>
+                        ) 116 § 2 mom., sådant det lyder delvis ändrat i lag 586/2001, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 108 b § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>108 b §</num>
+                    <heading>Särskilda bestämmelser om långlivade organiska föroreningar</heading>
+                    <subsection>
+                        <content>
+                            <p>Vid behandling av tillstånds- och anmälningsärenden enligt denna lag skall bestämmelserna i artiklarna 6.3 och 7 i Europaparlamentets och rådets förordning (EG) nr 850/2004 om långlivade organiska föroreningar och om ändring av direktiv 79/117/EEG iakttas.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Miljötillståndsmyndigheterna enligt denna lag är behöriga myndigheter enligt artikel 7 i den förordning som nämns i 1 mom. I fråga om tillsyn över artikel 7 tillämpas vad som föreskrivs om tillsynen över efterlevnaden av denna lag och bestämmelser som utfärdats med stöd av den.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>116 §</num>
+                    <heading>Straffbestämmelser</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Den som på något annat sätt än vad som avses i 1 mom. uppsåtligen eller av oaktsamhet</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>försummar att göra en anmälan enligt denna lag,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>åsidosätter en skyldighet som grundar sig på ett villkor, ett åläggande eller en föreskrift som en myndighet har meddelat med stöd av denna lag eller handlar i strid med en till myndigheten inlämnad anmälan,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>åsidosätter sin skyldighet som följer av Europaparlamentets och rådets förordning om ämnen som bryter ned ozonskiktet, eller handlar i strid med 108 a § eller en förordning som utfärdats med stöd av den,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>åsidosätter sin skyldighet som följer av artikel 7 i Europaparlamentets och rådets förordning (EG) nr 850/2004 om långlivade organiska föroreningar och om ändring av direktiv 79/117/EEG,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <intro>
+                                <p>bryter mot ett förbud som avses i 7―9 § eller mot en förordning som har utfärdats med stöd av 2 kap., åsidosätter en skyldighet som följer av 75, 76, 90, 103 eller 104 § eller bryter mot villkoren i ett beslut som ministeriet meddelat med stöd av 111 §,</p>
+                            </intro>
+                            <subparagraph>
+                                <content>
+                                    <p>
+                                        skall, om strängare straff för gärningen inte föreskrivs på något annat ställe i lag, för 
+                                        <i>brott mot miljöskyddslagen</i>
+                                         dömas till böter.
+                                    </p>
+                                </content>
+                            </subparagraph>
+                            <hcontainer name="omission"/>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 184/2005</p>
+                        <p>MiUB 17/2005</p>
+                        <p>RSv 176/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 17 februari 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Miljöminister </role>
+                                <person refersTo="">Jan-Erik Enestam </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

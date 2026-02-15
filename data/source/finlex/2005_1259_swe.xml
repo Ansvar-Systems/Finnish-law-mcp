@@ -1,0 +1,170 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1259/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1259"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1259/alkup"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1259"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1259/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1259/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1259/alkup/swe"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1259/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1259/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1259/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="205"/>
+                    <finlex:date date="2005-12-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1259/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om smittsamma sjukdomar</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen av den 25 juli 1986 om smittsamma sjukdomar (
+                        <affectedDocument href="/akn/fi/act/statute/1986/583">583/1986</affectedDocument>
+                        ) en ny 6 a §, en ny 38 § i stället för den 38 § som upphävts genom lag 408/2002 samt en ny 38 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>6 a §</num>
+                    <subsection>
+                        <intro>
+                            <p>Rättsskyddscentralen för hälsovården, som lyder under social- och hälsovårdsministeriet, leder länsstyrelsernas verksamhet i syfte att förenhetliga deras verksamhetsprinciper, förfaringssätt och beslutspraxis vid ledningen och övervakningen av bekämpningen av smittsamma sjukdomar. Dessutom övervakar Rättsskyddscentralen för hälsovården bekämpningen av smittsamma sjukdomar i synnerhet när det är fråga om</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>principiellt viktiga eller vittsyftande ärenden,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>ärenden som gäller flera län eller hela landet,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>ärenden som har samband med övervakningsärenden som behandlas vid Rättsskyddscentralen för hälsovården och som gäller yrkesutbildade personer inom hälso- och sjukvården, samt</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>ärenden som länsstyrelsen är jävig att behandla.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelser om en närmare arbetsfördelning mellan Rättsskyddscentralen för hälsovården och länsstyrelserna vid ledningen och övervakningen kan vid behov utfärdas genom förordning av statsrådet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>38 §</num>
+                    <subsection>
+                        <content>
+                            <p>Om det vid den ledning och övervakning som avses i 6 och 6 a § konstateras att en kommun eller samkommun vid ordnandet eller genomförandet av verksamhet enligt denna lag har förfarit felaktigt eller underlåtit att fullgöra sin skyldighet, kan Rättsskyddscentralen för hälsovården eller länsstyrelsen ge kommunen eller samkommunen eller den tjänsteman som ansvarar för den felaktiga verksamheten en anmärkning för framtiden.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rättsskyddscentralen för hälsovården och länsstyrelsen kan, om ärendet inte föranleder en anmärkning eller andra åtgärder, uppmärksamgöra den övervakade på att verksamheten skall ordnas på behörigt sätt och att god förvaltningssed skall iakttas.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>I Rättsskyddscentralens för hälsovården eller länsstyrelsens anmärkning eller uppmärksamgörande enligt denna paragraf får ändring inte sökas genom besvär.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>38 a §</num>
+                    <subsection>
+                        <content>
+                            <p>En övervakningsmyndighet som avses i 6 eller 6 a § undersöker inte sådana klagomål över bekämpningen av smittsamma sjukdomar som gäller ärenden äldre än fem år, om det inte finns särskilda skäl att undersöka klagomålet.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 september 2006.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 154/2005</p>
+                        <p>ShUB 19/2005</p>
+                        <p>RSv 129/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 december 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

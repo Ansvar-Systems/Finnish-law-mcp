@@ -1,0 +1,404 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/540/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/540"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/540/alkup"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="540"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/540/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/540/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/540/alkup/fin"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/540/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/540/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/540/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="80"/>
+                    <finlex:date date="2007-05-16"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>540/2007</docNumber>
+                <docTitle>Laki rikoslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         19 päivänä joulukuuta 1889 annetun rikoslain (
+                        <affectedDocument href="/akn/fi/act/statute/1889/39">39/1889</affectedDocument>
+                        ) 34 luvun 9 a ja 13 §, 35 luvun 2 §:n 1 momentti ja 38 luvun 10 §:n 2 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 34 luvun 9 a § laissa 951/1999, 34 luvun 13 § laissa 833/2003, 35 luvun 2 §:n 1 momentti laissa 769/1990 ja 38 luvun 10 §:n 2 momentti laissa 1118/2001, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         34 lukuun siitä lailla 17/2003 kumotun 9 b §:n tilalle uusi 9 b §, 35 luvun 1 §:ään, sellaisena kuin se on mainitussa laissa 769/1990, uusi 3 momentti, lukuun uusi 8 §, 38 luvun 5 §:ään, sellaisena kuin se on laissa 578/1995, uusi 2 momentti, 38 luvun 6 §:ään, sellaisena kuin se on viimeksi mainitussa laissa, uusi 2 momentti, 38 luvun 7 §:ään, sellaisena kuin se on viimeksi mainitussa laissa, uusi 2 momentti, 38 lukuun uusi 7 a, 7 b ja 8 a §, jolloin nykyinen 8 a § siirtyy 8 b §:ksi ja 38 lukuun uusi 12 § sekä 49 lukuun uusi 7 § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>34 luku</num>
+                    <heading>Yleisvaarallisista rikoksista</heading>
+                    <section>
+                        <num>9 a §</num>
+                        <heading>Vaaran aiheuttaminen tietojenkäsittelylle</heading>
+                        <subsection>
+                            <intro>
+                                <p>Joka aiheuttaakseen haittaa tai vahinkoa tietojenkäsittelylle taikka tieto- tai viestintäjärjestelmän toiminnalle tai turvallisuudelle</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <intro>
+                                    <p>tuo maahan, valmistaa, myy tai muuten levittää taikka asettaa saataville</p>
+                                </intro>
+                                <subparagraph>
+                                    <num>a)</num>
+                                    <content>
+                                        <p>sellaisen laitteen tai tietokoneohjelman taikka ohjelmakäskyjen sarjan, joka on suunniteltu tai muunnettu vaarantamaan tai vahingoittamaan tietojenkäsittelyä tai tieto- tai viestintäjärjestelmän toimintaa taikka murtamaan tai purkamaan sähköisen viestinnän teknisen suojauksen tai tietojärjestelmän suojauksen taikka</p>
+                                    </content>
+                                </subparagraph>
+                                <subparagraph>
+                                    <num>b)</num>
+                                    <content>
+                                        <p>tietojärjestelmän toiselle kuuluvan salasanan, pääsykoodin tai muun vastaavan tiedon taikka</p>
+                                    </content>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>levittää tai asettaa saataville ohjeen 1 kohdassa tarkoitetun tietokoneohjelman tai ohjelmakäskyjen sarjan valmistamiseksi,</p>
+                                </content>
+                            </paragraph>
+                            <wrapUp>
+                                <p>
+                                    on tuomittava, jollei teosta muualla laissa säädetä ankarampaa tai yhtä ankaraa rangaistusta, 
+                                    <i>vaaran aiheuttamisesta tietojenkäsittelylle</i>
+                                     sakkoon tai vankeuteen enintään kahdeksi vuodeksi.
+                                </p>
+                            </wrapUp>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 b §</num>
+                        <heading>Tietoverkkorikosvälineen hallussapito</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Joka aiheuttaakseen haittaa tai vahinkoa tietojenkäsittelylle taikka tieto- tai viestintäjärjestelmän toiminnalle tai turvallisuudelle pitää hallussaan 9 a §:n 1 kohdan a alakohdassa tarkoitettua laitetta, tietokoneohjelmaa tai ohjelmakäskyjen sarjaa taikka b alakohdassa tarkoitettua salasanaa, pääsykoodia tai muuta vastaavaa tietoa, on tuomittava 
+                                    <i>tietoverkkorikosvälineen hallussapidosta</i>
+                                     sakkoon tai vankeuteen enintään kuudeksi kuukaudeksi.
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 §</num>
+                        <heading>Oikeushenkilön rangaistusvastuu</heading>
+                        <subsection>
+                            <content>
+                                <p>Ydinräjähderikokseen, 9 §:n 2 momentissa tarkoitettuun yleisvaarallisen rikoksen valmisteluun ja vaaran aiheuttamiseen tietojenkäsittelylle sovelletaan, mitä oikeushenkilön rangaistusvastuusta säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>35 luku</num>
+                    <heading>Vahingonteosta</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Vahingonteko</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Edellä 2 momentissa tarkoitetun vahingonteon yritys on rangaistava.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Törkeä vahingonteko</heading>
+                        <subsection>
+                            <intro>
+                                <p>Jos</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <intro>
+                                    <p>vahingonteolla aiheutetaan</p>
+                                </intro>
+                                <subparagraph>
+                                    <num>a)</num>
+                                    <content>
+                                        <p>erittäin suurta taloudellista vahinkoa,</p>
+                                    </content>
+                                </subparagraph>
+                                <subparagraph>
+                                    <num>b)</num>
+                                    <content>
+                                        <p>rikoksen uhrille tämän olot huomioon ottaen erityisen tuntuvaa vahinkoa,</p>
+                                    </content>
+                                </subparagraph>
+                                <subparagraph>
+                                    <num>c)</num>
+                                    <content>
+                                        <p>historiallisesti tai sivistyksellisesti erityisen arvokkaalle omaisuudelle huomattavaa vahinkoa taikka</p>
+                                    </content>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <intro>
+                                    <p>edellä 1 §:n 2 momentissa tarkoitettu vahingonteko tehdään osana 17 luvun 1 a §:n 4 momentissa tarkoitetun järjestäytyneen rikollisryhmän toimintaa</p>
+                                </intro>
+                                <subparagraph>
+                                    <content>
+                                        <p>
+                                            ja vahingonteko on myös kokonaisuutena arvostellen törkeä, rikoksentekijä on tuomittava 
+                                            <i>törkeästä vahingonteosta</i>
+                                             vankeuteen vähintään neljäksi kuukaudeksi ja enintään neljäksi vuodeksi.
+                                        </p>
+                                    </content>
+                                </subparagraph>
+                                <hcontainer name="omission"/>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Oikeushenkilön rangaistusvastuu</heading>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 §:n 2 momentissa tarkoitettuun vahingontekoon sekä 2 §:ssä tarkoitettuun törkeään vahingontekoon, silloin kuin se on tehty 1 §:n 2 momentissa säädetyllä tavalla, sovelletaan, mitä oikeushenkilön rangaistusvastuusta säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>38 luku</num>
+                    <heading>Tieto- ja viestintärikoksista</heading>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Tietoliikenteen häirintä</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Yritys on rangaistava.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Törkeä tietoliikenteen häirintä</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Yritys on rangaistava.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>7 §</num>
+                        <heading>Lievä tietoliikenteen häirintä</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Yritys on rangaistava.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>7 a §</num>
+                        <heading>Tietojärjestelmän häirintä</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Joka aiheuttaakseen toiselle haittaa tai taloudellista vahinkoa dataa syöttämällä, siirtämällä, vahingoittamalla, muuttamalla tai poistamalla taikka muulla niihin rinnastettavalla tavalla oikeudettomasti estää tietojärjestelmän toiminnan tai aiheuttaa sille vakavaa häiriötä, on tuomittava, jollei teosta muualla laissa säädetä ankarampaa tai yhtä ankaraa rangaistusta, 
+                                    <i>tietojärjestelmän häirinnästä</i>
+                                     sakkoon tai vankeuteen enintään kahdeksi vuodeksi.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Yritys on rangaistava.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>7 b §</num>
+                        <heading>Törkeä tietojärjestelmän häirintä</heading>
+                        <subsection>
+                            <intro>
+                                <p>Jos tietojärjestelmän häirinnässä</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>aiheutetaan erityisen tuntuvaa haittaa tai taloudellista vahinkoa tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>rikos tehdään erityisen suunnitelmallisesti</p>
+                                </content>
+                            </paragraph>
+                            <wrapUp>
+                                <p>
+                                    ja tietojärjestelmän häirintä on myös kokonaisuutena arvostellen törkeä, rikoksentekijä on tuomittava 
+                                    <i>törkeästä tietojärjestelmän häirinnästä</i>
+                                     vankeuteen vähintään neljäksi kuukaudeksi ja enintään neljäksi vuodeksi.
+                                </p>
+                            </wrapUp>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Yritys on rangaistava.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 a §</num>
+                        <heading>Törkeä tietomurto</heading>
+                        <subsection>
+                            <intro>
+                                <p>Jos tietomurto tehdään</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>osana 17 luvun 1 a §:n 4 momentissa tarkoitetun järjestäytyneen rikollisryhmän toimintaa tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>erityisen suunnitelmallisesti</p>
+                                </content>
+                            </paragraph>
+                            <wrapUp>
+                                <p>
+                                    ja tietomurto on myös kokonaisuutena arvostellen törkeä, rikoksentekijä on tuomittava 
+                                    <i>törkeästä tietomurrosta</i>
+                                     sakkoon tai vankeuteen enintään kahdeksi vuodeksi.
+                                </p>
+                            </wrapUp>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Yritys on rangaistava.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>10 §</num>
+                        <heading>Syyteoikeus</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Virallinen syyttäjä ei saa nostaa syytettä viestintäsalaisuuden loukkauksesta, törkeästä viestintäsalaisuuden loukkauksesta, tietojärjestelmän häirinnästä, tietomurrosta tai suojauksen purkujärjestelmärikoksesta, ellei asianomistaja ilmoita rikosta syytteeseen pantavaksi tai ellei rikoksentekijä rikosta tehdessään ole ollut yleistä posti- tai teletoimintaa harjoittavan laitoksen palveluksessa taikka ellei erittäin tärkeä yleinen etu vaadi syytteen nostamista.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>12 §</num>
+                        <heading>Oikeushenkilön rangaistusvastuu</heading>
+                        <subsection>
+                            <content>
+                                <p>Viestintäsalaisuuden loukkaukseen, törkeään viestintäsalaisuuden loukkaukseen, tietoliikenteen häirintään, törkeään tietoliikenteen häirintään, tietomurtoon, törkeään tietomurtoon, tietojärjestelmän häirintään ja törkeään tietojärjestelmän häirintään sovelletaan, mitä oikeushenkilön rangaistusvastuusta säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>49 luku</num>
+                    <heading>Eräiden aineettomien oikeuksien loukkaamisesta</heading>
+                    <section>
+                        <num>7 §</num>
+                        <heading>Oikeushenkilön rangaistusvastuu</heading>
+                        <subsection>
+                            <content>
+                                <p>Tekijänoikeusrikokseen sovelletaan, mitä oikeushenkilön rangaistusvastuusta säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä syyskuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/153">HE 153/2006</ref>
+                        </p>
+                        <p>LaVM 23/2006</p>
+                        <p>EV 264/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 11 päivänä toukokuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Tuija Brax</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

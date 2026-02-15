@@ -1,0 +1,127 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1223/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1223"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1223/alkup"/>
+                    <FRBRdate date="2015-09-18" name="dateIssued"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1223"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1223/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1223/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1223/alkup/fin"/>
+                    <FRBRdate date="2015-09-18" name="dateIssued"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1223/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1223/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1223/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1223/2015</docNumber>
+                <docTitle>Laki asumisoikeusasunnoista annetun lain 26 b ja 51 f §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         asumisoikeusasunnoista annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1990/650">650/1990</affectedDocument>
+                        ) 26 b §:n 4 momentti ja 51 f §:n 1 momentti, sellaisina kuin ne ovat, 26 b §:n 4 momentti laissa 495/2015 ja 51 f §:n 1 momentti laissa 482/2007, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>26 b §</num>
+                    <heading>Lunastussuorituksiin käytettävissä olevat varat ja vastuu virheellisestä lunastussuorituksesta</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos asumisoikeuksien lunastukseen on käytetty varoja, joita tämän lain mukaan ei saa käyttää, on omistajayhteisön hallitus ja, jos varojen jakaminen perustuu virheelliseen taseeseen, taseen vahvistamiseen taikka tarkastamiseen osallistunut tilintarkastaja tilintarkastuslain (1141/2015) 10 luvun 3 §:n mukaisesti velvollinen korvaamaan omistajayhteisölle näin syntyneen vahingon. Rangaistuksesta osakeyhtiörikoksesta säädetään osakeyhtiölain (624/2006) 25 luvun 1 §:ssä sekä asunto-osakeyhtiörikoksesta ja rikkomuksesta asunto-osakeyhtiölain (1599/2009) 27 luvun 1 ja 2 §:ssä. Jos omistaja on asumisoikeusyhdistys, sovelletaan lisäksi, mitä asumisoikeusyhdistyksistä annetun lain 76 §:ssä säädetään. Rangaistuksesta asumisoikeusyhdistysrikkomuksesta säädetään asumisoikeusyhdistyksistä annetun lain 83 §:ssä. Jos omistaja on säätiö, sovelletaan lisäksi, mitä säätiölain (487/2015) 8 luvun 1 ja 3 §:ssä ja säätiölain voimaanpanolain (488/2015) 9 §:ssä säädetään.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>51 f §</num>
+                    <heading>Kielto antaa lainaa tai vakuutta</heading>
+                    <subsection>
+                        <content>
+                            <p>Talon omistaja ei saa antaa rahalainaa omistajayhteisönsä tai -säätiönsä osakkaalle tai jäsenelle taikka hallituksen, johtokunnan taikka yhteisön tai säätiön vastaavan päätösvaltaisen toimielimen taikka asukastoimikunnan tai vastaavan jäsenelle, isännöitsijälle, tilintarkastajalle tai valvojalle taikka sille, joka on johonkuhun näistä tilintarkastuslain 4 luvun 7 §:n 1 momentin 6 kohdassa tarkoitetussa suhteessa. Sama koskee vakuuden antamista velasta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/254">HE 254/2014</ref>
+                        </p>
+                        <p>TaVM 34/2014</p>
+                        <p>EV 371/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>  Helsingissä 18 päivänä syyskuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeus- ja työministeri</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

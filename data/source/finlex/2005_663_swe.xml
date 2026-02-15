@@ -1,0 +1,382 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/663/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/663"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/663/alkup"/>
+                    <FRBRdate date="2005-08-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="663"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/663/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/663/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/663/alkup/swe"/>
+                    <FRBRdate date="2005-08-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/663/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/663/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/663/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="115"/>
+                    <finlex:date date="2005-09-01"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>663/2005</docNumber>
+                <docTitle>Lag om medling i tvistemål i allmänna domstolar</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut föreskrivs:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 kap.</num>
+                    <heading>Allmänna bestämmelser</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Tillämpningsområde</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Tvistemål och tvistiga ansökningsärenden i allmänna domstolar kan bli föremål för medling enligt vad som föreskrivs i denna lag.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Medlingens syfte</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <content>
+                                <p>Genom medling eftersträvas en uppgörelse i godo.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <heading>Förutsättningar för medling</heading>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <content>
+                                <p>Förutsättningar för medling är att saken är lämplig för medling och att medling också i övrigt är ändamålsenligt med hänsyn till parternas yrkanden.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 kap.</num>
+                    <heading>Förfarande</heading>
+                    <section eId="chp_2__sec_4">
+                        <num>4 §</num>
+                        <heading>Hur medling inleds</heading>
+                        <subsection eId="chp_2__sec_4__subsec_1">
+                            <content>
+                                <p>En sak som inte är föremål för rättegång kan bli föremål för medling på ansökan av en part eller parterna i tvisten. Ansökan skall göras skriftligen och i den skall anges vad tvisten gäller och hur parternas åsikter skiljer sig från varandra. En motivering som anger varför saken är lämplig för medling skall också ingå. I ansökan skall parterna och deras kontaktuppgifter uppges med iakttagande i tillämpliga delar av vad som bestäms om stämningsansökan i 5 kap. 2 § 2 mom. i rättegångsbalken.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_2">
+                            <content>
+                                <p>En sak som är föremål för rättegång kan hänskjutas till medling på begäran av en part eller parterna. Denna begäran formuleras fritt och den skall göras innan förberedelsen förklarats avslutad.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_3">
+                            <content>
+                                <p>För att medling skall kunna inledas krävs samtycke av samtliga parter. En begäran eller en ansökan om medling som inte framställts av parterna tillsammans skall på lämpligt sätt delges de andra parterna och de skall ges tillfälle att bli hörda med anledning av begäran eller ansökan. Hörandet kan ske skriftligen eller muntligen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_4">
+                            <content>
+                                <p>Beslut om att inleda medling fattas av domstolen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Medlare och medlares biträde</heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <content>
+                                <p>En medlare förordnas för att ha hand om medlingen. Medlaren skall vara domare vid den domstol som behandlar saken.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_2">
+                            <content>
+                                <p>Medlaren kan med parternas samtycke anlita ett biträde för att säkra nödvändig expertis i den sak som är föremål för medling eller för att i övrigt främja medlingen. Medlaren utser biträdet efter att parterna godkänt valet. Arvode och kostnadsersättning till biträdet betalas av parterna.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Hur medling genomförs</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>Medlingen skall genomföras snabbt och med iakttagande av opartiskhet och objektivitet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_2">
+                            <content>
+                                <p>Medlaren skall höra parterna och överlägga med dem. Med samtycke av parterna kan också andra personer höras och annan utredning läggas fram.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_3">
+                            <content>
+                                <p>Medlaren kan överlägga med en part utan närvaro av de övriga parterna, om parterna samtycker till det.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_4">
+                            <content>
+                                <p>Medlaren beslutar närmare om förfarandet efter att ha överlagt med parterna.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Hur förlikning uppnås</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>Medlaren skall bistå parterna i deras strävanden att uppnå samförstånd och en uppgörelse i godo.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_7__subsec_2">
+                            <content>
+                                <p>På begäran eller med samtycke av parterna kan medlaren lägga fram ett förslag till uppgörelse i godo. Förslaget kan bygga på en skälighetsbedömning av medlaren.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_8">
+                        <num>8 §</num>
+                        <heading>Hur förlikning stadfästs</heading>
+                        <subsection eId="chp_2__sec_8__subsec_1">
+                            <content>
+                                <p>Vid medling kan en förlikning som antas av parterna stadfästas som ett avgörande.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_8__subsec_2">
+                            <content>
+                                <p>I fråga om stadfästelse av förlikning och om förlikning gäller vad som i lag bestäms om förlikning i rättegång. En förlikning som stadfästs i ett medlingsförfarande kan dock gälla också annat än parternas ursprungliga yrkanden.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_9">
+                        <num>9 §</num>
+                        <heading>Hur medling avslutas</heading>
+                        <subsection eId="chp_2__sec_9__subsec_1">
+                            <intro eId="chp_2__sec_9__subsec_1__intro">
+                                <p>Medlingen avslutas när</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_9__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>förlikning stadfästs eller när parterna meddelar medlaren att de kommit överens i saken på annat sätt,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_9__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>en part meddelar medlaren att han inte längre önskar medling i saken, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_9__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>medlaren efter att ha hört parterna beslutar att det inte längre finns skäl att fortsätta medlingen.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_2__sec_9__subsec_2">
+                            <content>
+                                <p>När medling avslutas enligt 1 mom. 2 eller 3 punkten skall medlaren underrätta parterna om detta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_9__subsec_3">
+                            <content>
+                                <p>När medling avslutas enligt 1 mom. 2 eller 3 punkten i en sak som också är föremål för rättegång skall behandlingen av saken fortsätta i den ordning som är föreskriven för behandling av tvistemål.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 kap.</num>
+                    <heading>Särskilda bestämmelser</heading>
+                    <section eId="chp_3__sec_10">
+                        <num>10 §</num>
+                        <heading>Behörig domstol</heading>
+                        <subsection eId="chp_3__sec_10__subsec_1">
+                            <content>
+                                <p>Behörig att medla i en sak är den domstol som är behörig att behandla saken i rättegång.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_10__subsec_2">
+                            <content>
+                                <p>Domstolen kan besluta om inledande av medling och fatta avgöranden om medlingen i den sammansättning som gäller för domstolens beslut om åtgärder som hänför sig till förberedelsen av saken.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_11">
+                        <num>11 §</num>
+                        <heading>Hur parterna skall företrädas</heading>
+                        <subsection eId="chp_3__sec_11__subsec_1">
+                            <content>
+                                <p>I fråga om hur parterna skall företrädas i medlingsförfarandet gäller vad som i lag föreskrivs om förande av parts talan i rättegång.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_11__subsec_2">
+                            <content>
+                                <p>I fråga om parternas rätt att anlita biträde och ombud och i fråga om biträdes och ombuds behörighet gäller vad som i lag föreskrivs om rättegångsbiträde och rättegångsombud i tvistemål. För att främja medlingen kan medlaren av motiverade skäl framlagda av en part såsom biträde eller ombud för denne dock godkänna även någon som har annan än i 15 kap. 2 § i rättegångsbalken avsedd examen och som inte är i konkurs och vars handlingsbehörighet inte har begränsats.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_12">
+                        <num>12 §</num>
+                        <heading>Förfarandets offentlighet</heading>
+                        <subsection eId="chp_3__sec_12__subsec_1">
+                            <content>
+                                <p>I fråga om offentligheten för medlingen, de handlingar som behandlas där och förlikningen gäller i tillämpliga delar vad som föreskrivs i lagen om offentlighet vid rättegång (945/1984). Allmänheten får dock inte vara närvarande när medlaren i enlighet med 6 § 3 mom. överlägger med bara en av parterna. På begäran av en part skall också någon annan del av medlingen genomföras utan att allmänheten är närvarande, om det finns risk för att förlikning annars inte nås, och tilltron till att medlingen går riktigt till eller något annat vägande skäl inte kräver att behandlingen är offentlig.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_13">
+                        <num>13 §</num>
+                        <heading>Förbud mot att åberopa uppgifter</heading>
+                        <subsection eId="chp_3__sec_13__subsec_1">
+                            <content>
+                                <p>I en senare behandling av saken får en part inte utan motpartens samtycke åberopa sådant som denne anfört under medlingen för att uppnå förlikning.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_14">
+                        <num>14 §</num>
+                        <heading>Medlingskostnader</heading>
+                        <subsection eId="chp_3__sec_14__subsec_1">
+                            <content>
+                                <p>En part svarar själv för sina kostnader för medlingen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_14__subsec_2">
+                            <content>
+                                <p>En part kan inte i rättegång kräva ersättning för sina medlingskostnader av motparten.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_15">
+                        <num>15 §</num>
+                        <heading>Jäv för medlare</heading>
+                        <subsection eId="chp_3__sec_15__subsec_1">
+                            <content>
+                                <p>I fråga om jäv för medlare och deras biträden gäller vad som föreskrivs om jäv för domare.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_15__subsec_2">
+                            <content>
+                                <p>En medlare får inte vara domare i en rättegång om en sak i vilken han eller hon har varit medlare.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_16">
+                        <num>16 §</num>
+                        <heading>Besvärsförbud</heading>
+                        <subsection eId="chp_3__sec_16__subsec_1">
+                            <content>
+                                <p>Ändring får inte sökas i ett beslut genom vilket medling inleds, en begäran om medling avslås eller medlingen förklaras avslutad.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_17">
+                        <num>17 §</num>
+                        <heading>Avgifter</heading>
+                        <subsection eId="chp_3__sec_17__subsec_1">
+                            <content>
+                                <p>Bestämmelser om avgifter som tas ut för behandlingen av en ansökan eller en begäran om medling enligt denna lag finns i lagen om avgifter för domstolars och vissa justitieförvaltningsmyndigheters prestationer (701/1993) och i förordning som utfärdats med stöd av lagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_18">
+                        <num>18 §</num>
+                        <heading>Ärenden som gäller barns ställning och rättigheter</heading>
+                        <subsection eId="chp_3__sec_18__subsec_1">
+                            <content>
+                                <p>Ärenden som gäller barns ställning och rättigheter kan bli föremål för medling enligt denna lag när de gäller underhåll för barn eller vårdnad om barn och umgängesrätt. Medlingen skall genomföras så att den tryggar barnets bästa. Vid bedömningen av om en förlikning kan stadfästas skall domstolen beakta bestämmelserna i lagen angående vårdnad om barn och umgängesrätt (361/1983) och lagen om underhåll för barn (704/1975).</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_18__subsec_2">
+                            <content>
+                                <p>En förlikning som stadfästs i ett ärende som varit föremål för medling enligt 1 mom. jämställs med ett domstolsbeslut eller en dom i dessa frågor.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_19">
+                        <num>19 §</num>
+                        <heading>Lagens förhållande till andra bestämmelser</heading>
+                        <subsection eId="chp_3__sec_19__subsec_1">
+                            <content>
+                                <p>Utan hinder av denna lag iakttas vad som annanstans i lag bestäms om uppnående och stadfästelse av förlikning i rättegång.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <section eId="sec_20">
+                    <num>20 §</num>
+                    <heading>Ikraftträdande</heading>
+                    <subsection eId="sec_20__subsec_1">
+                        <content>
+                            <p>Denna lag träder i kraft den 1 januari 2006.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 114/2004</p>
+                        <p>LaUB 4/2005</p>
+                        <p>RSv 64/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 26 augusti 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Johannes Koskinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

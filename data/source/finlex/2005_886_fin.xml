@@ -1,0 +1,192 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/886/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/886"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/886/alkup"/>
+                    <FRBRdate date="2005-11-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="886"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/886/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/886/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/886/alkup/fin"/>
+                    <FRBRdate date="2005-11-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/886/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/886/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/886/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="150"/>
+                    <finlex:date date="2005-11-17"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>886/2005</docNumber>
+                <docTitle>Laki postipalvelulain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         6 päivänä huhtikuuta 2001 annetun postipalvelulain (
+                        <affectedDocument href="/akn/fi/act/statute/2001/313">313/2001</affectedDocument>
+                        ) 31 §, sellaisena kuin se on laissa 1017/2001, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 31 a―31 c § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>31 §</num>
+                    <heading>Postitoiminnan valvontamaksu</heading>
+                    <subsection>
+                        <content>
+                            <p>Postiyritys on velvollinen suorittamaan Viestintävirastolle vuotuisen postitoiminnan valvontamaksun. Postiyrityksiltä perittävien valvontamaksujen yhteismäärä vastaa niitä kokonaiskustannuksia, joita Viestintävirastolle aiheutuu tässä laissa säädettyjen postiyrityksiä koskevien tehtävien hoitamisesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>31 a §</num>
+                    <heading>Postitoiminnan valvontamaksun suuruus</heading>
+                    <subsection>
+                        <content>
+                            <p>Postitoiminnan valvontamaksun suuruus on 0,0024 prosenttia postiyrityksen Suomessa harjoittaman toimiluvanvaraisen postitoiminnan sen tilikauden liikevaihdosta, joka on päättynyt kaksi vuotta ennen valvontamaksun perimistä, kuitenkin vähintään 2 000 euroa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Uudelta postiyritykseltä perittävä postitoiminnan valvontamaksu on ensimmäisenä toimintavuonna 2 000 euroa ja toisena toimintavuonna 10 000 euroa. Kolmannen ja sitä seuraavien vuosien maksu määräytyy 1 momentissa säädetyllä tavalla.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos tilikausi poikkeaa kalenterivuodesta, muunnetaan liikevaihto vuoden liikevaihtoa vastaavaksi kertomalla se luvulla 12 jaettuna tilikauden kuukausien määrällä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos 1 momentissa tarkoitettu postitoiminta päättyy kokonaan kesken laskutuskauden, Viestintäviraston tulee määrätä maksun suuruus 1 momentissa tarkoitetun postitoiminnan harjoittamisen ajalta. Jos 1 momentissa tarkoitettu postitoiminta on maksun perusteena olevan tilikauden ja maksun eräpäivän välisenä aikana luovutettu toiselle yritykselle, Viestintäviraston tulee määrätä maksun eräpäivänä toimintaa harjoittavan yrityksen maksun suuruus ottaen huomioon luovutetun 1 momentissa tarkoitetun postitoiminnan vahvistettu liikevaihto maksun perusteena olevalta tilikaudelta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos maksun perusteena olevan tilikauden päättymisen ja maksun eräpäivän välisenä aikana on tapahtunut muutoksia yrityksen konsernisuhteissa, maksun suuruus määräytyy sen perusteella, mikä yrityksen osuus on ollut maksun perusteena olevan tilikauden 1 momentissa tarkoitetun postitoiminnan liikevaihdosta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Perittyä maksua ei palauteta, vaikka yritys lopettaisi 1 momentissa tarkoitetun postitoiminnan tai sen toimilupa peruutettaisiin kesken laskutuskauden.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>31 b §</num>
+                    <heading>Maksun määräytymisen perusteena oleva liikevaihto konsernissa</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos postiyritys kuuluu kirjanpitolain (1336/1997) 1 luvun 6 §:n mukaiseen konserniin, postiyrityksen maksun perusteena on yrityksen osuus samaan konserniin kuuluvien maksuvelvollisten postiyritysten Suomessa harjoittaman postitoiminnan yhteisestä liikevaihdosta vähennettynä yhtiöiden keskinäisellä tästä toiminnasta syntyneellä liikevaihdolla. Maksu määräytyy tällä tavoin myös niissä tapauksissa, joissa emoyhtiö ei ole suomalainen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Liikenne- ja viestintäministeriön asetuksella voidaan antaa tarkempia säännöksiä siitä, miten maksun määräämiseksi tarpeelliset tiedot on ilmoitettava Viestintävirastolle.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>31 c §</num>
+                    <heading>Postitoiminnan valvontamaksun määrääminen ja periminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Postitoiminnan valvontamaksu peritään vuosittain neljässä erässä. Postitoiminnan valvontamaksun määrää maksettavaksi Viestintävirasto. Tarkempia säännöksiä maksun täytäntöönpanosta voidaan antaa liikenne- ja viestintäministeriön asetuksella.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Viestintävirastolla on oikeus saada postiyritykseltä maksun määräämistä varten tieto yrityksen Suomessa harjoittaman 31 a §:ssä tarkoitetun postitoiminnan kaksi vuotta ennen maksun perimisvuotta päättyneen tilikauden liikevaihdosta. Konserniin kuuluvien postiyritysten tulee lisäksi toimittaa Viestintävirastolle selvitys siitä, mitkä konsernin yritysten keskinäisestä postitoiminnasta syntyneet erät on 31 b §:n 1 momentin mukaisesti vähennetty postitoiminnan liikevaihdosta. Postiyrityksen tulee toimittaa tiedot Viestintävirastolle kuukauden kuluessa tilinpäätöksen vahvistamisesta. Liitteenä tulee toimittaa jäljennös vahvistetusta tilinpäätöksestä ja konsernitilinpäätöksestä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Postitoiminnan valvontamaksu saadaan periä ilman tuomiota tai päätöstä siinä järjestyksessä kuin verojen ja maksujen perimisestä ulosottotoimin annetussa laissa (367/1961) säädetään. Jollei maksua suoriteta viimeistään eräpäivänä, maksamattomalle määrälle peritään vuotuista viivästyskorkoa korkolain (633/1982) 4 §:ssä tarkoitetun korkokannan mukaan. Viivästyskoron sijasta viranomainen voi periä viiden euron suuruisen viivästysmaksun, jos viivästyskoron määrä jää tätä pienemmäksi.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006.</p>
+                    <p>Tällä lailla kumotaan Viestintäviraston maksuista 11 päivänä joulukuuta 2002 annetun liikenne- ja viestintäministeriön asetuksen (1126/2002) 19 §.</p>
+                    <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/67">HE 67/2005</ref>
+                        </p>
+                        <p>LiVM 20/2005</p>
+                        <p>EV 113/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 11 päivänä marraskuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Liikenne- ja viestintäministeri </role>
+                                <person refersTo="">Susanna Huovinen </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

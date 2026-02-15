@@ -1,0 +1,150 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1014/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1014"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1014/alkup"/>
+                    <FRBRdate date="2005-12-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1014"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1014/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1014/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1014/alkup/fin"/>
+                    <FRBRdate date="2005-12-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1014/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1014/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1014/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="171"/>
+                    <finlex:date date="2005-12-16"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1014/2005</docNumber>
+                <docTitle>Laki opetus- ja kulttuuritoimen rahoituksesta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         opetus- ja kulttuuritoimen rahoituksesta 21 päivänä elokuuta 1998 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1998/635">635/1998</affectedDocument>
+                        ) 1 §:n 4 momentti ja 48 §:n 1 momentti, sellaisina kuin ne ovat 1 §:n 4 momentti laissa 1211/2000 ja 48 §:n 1 momentti laissa 1137/2003, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 43 a §, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Soveltamisala</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ammatillisesta aikuiskoulutuksesta annetussa laissa tarkoitetun näyttötutkintona suoritettavaan ammatilliseen perustutkintoon valmistavan koulutuksen ja sen yhteydessä suoritettavan tutkinnon rahoituksesta on voimassa, mitä tässä laissa säädetään ammatillisen peruskoulutuksen rahoituksesta. Jos ammatillinen perustutkinto suoritetaan ilman siihen valmistavaa koulutusta, tutkinnon rahoituksesta on voimassa, mitä tässä laissa säädetään ilman valmistavaa koulutusta suoritettavien näyttötutkintojen rahoituksesta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <chapter>
+                    <num>6 luku</num>
+                    <heading>Erityiset valtionavustukset</heading>
+                    <section>
+                        <num>43 a §</num>
+                        <heading>Valtionavustus ilman valmistavaa koulutusta suoritettavien näyttötutkintojen järjestämiseen</heading>
+                        <subsection>
+                            <content>
+                                <p>Sellaiselle yhteisölle tai säätiölle, joka on tehnyt tutkintotoimikunnan kanssa ammatillisesta aikuiskoulutuksesta annetun lain 7 §:n 3 momentissa tarkoitetun sopimuksen näyttötutkintojen järjestämisestä, mutta joka ei saa tutkintojen järjestämiseen valtionosuutta, voidaan myöntää valtionavustusta lain 8 §:ssä tarkoitettujen ilman valmistavaa koulutusta suoritettavien näyttötutkintojen järjestämiseen. Valtionavustuksesta säädetään tarkemmin valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>48 §</num>
+                        <heading>Rahoituksen laskemisessa käytettävien suoritteiden määrän vahvistaminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Opetusministeriö vahvistaa seuraavan varainhoitovuoden rahoituksen perusteena käytettävien opiskelijatyövuosien, oppisopimuksena järjestettävän lisäkoulutuksen oppisopimusten, opintoviikkojen, opetustuntien, ohjaustuntien ja henkilötyövuosien määrän vuosittain valtion talousarvion rajoissa. Opetusministeriö vahvistaa lisäkoulutuksen opiskelijatyövuosien ja oppisopimusten määrät siten, että pohjana ovat ammatillisesta aikuiskoulutuksesta annetun lain 5 §:n 2 momentin mukaisessa järjestämisluvassa määrätyt opiskelijatyövuosien ja oppisopimusten määrät.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä sen toimeenpanon edellyttämiin toimenpiteisiin.</p>
+                    <p>Sen estämättä, mitä tämän lain 48 §:ssä säädetään, ammatillisen lisäkoulutuksen opiskelijatyövuosien ja oppisopimusten määrien vahvistamiseen vuodelle 2006 sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/40">HE 40/2005</ref>
+                        </p>
+                        <p>SiVM 11/2005</p>
+                        <p>EV 160/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 9 päivänä joulukuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Opetusministeri </role>
+                                <person refersTo="">Antti Kalliomäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

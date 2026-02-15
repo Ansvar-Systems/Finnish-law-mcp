@@ -1,0 +1,163 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2025/64/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/64"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/64/alkup"/>
+                    <FRBRdate date="2025-02-28" name="dateIssued"/>
+                    <FRBRdate date="2025-03-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="64"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2025/64/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/64/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/64/alkup/fin"/>
+                    <FRBRdate date="2025-02-28" name="dateIssued"/>
+                    <FRBRdate date="2025-03-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2025/64/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/64/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/64/alkup/fin/xml"/>
+                    <FRBRdate date="2025-12-09" name="dateProduced"/>
+                    <FRBRdate date="2025-03-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2025</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>64/2025</docNumber>
+                <docTitle>Laki ulkomaalaislain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         ulkomaalaislain (<affectedDocument href="/akn/fi/act/statute/2004/301">301/2004</affectedDocument>) 35 §:n 3 momentti, 109 §, 110 §:n 1 momentti ja 113 §:n 2 momentti, 
+                    </block>
+                    <block name="substitutions-originals">sellaisena kuin niistä on 35 §:n 3 momentti laissa 472/2024, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         110 §:ään uusi 4 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section eId="sec_35">
+                    <num>35 §</num>
+                    <heading>Tunnistaminen oleskeluluvan myöntämisen edellytyksenä</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos hakijalle on myönnetty määräaikainen oleskelulupa 87 tai 88 §:n perusteella, pysyvä oleskelulupa voidaan näillä edellytyksillä myöntää voimassa olevan matkustusasiakirjan puuttumisesta huolimatta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section eId="sec_109">
+                    <num>109 §</num>
+                    <heading>Tilapäinen suojelu </heading>
+                    <subsection eId="sec_109__subsec_1">
+                        <content>
+                            <p>Tilapäistä suojelua voidaan antaa kansainvälisen suojelun tarpeessa olevalle ulkomaalaiselle, jonka turvallinen paluu kotimaahansa tai pysyvään asuinmaahansa ei ole mahdollinen sen vuoksi, että maasta tai sen lähialueilta on tapahtunut ihmisten joukkopako aseellisen selkkauksen tai muun väkivaltatilanteen taikka ympäristökatastrofin vuoksi.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_109__subsec_2">
+                        <content>
+                            <p>Valtioneuvosto päättää yleisistunnossa väestöryhmästä, jolle tilapäistä suojelua voidaan antaa, sekä ajanjaksosta, jolloin oleskelulupia tilapäisen suojelun perusteella voidaan myöntää. Valtioneuvosto voi muuttaa päätöstään, jos tarvetta tilapäiselle suojelulle ei enää ole.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_110">
+                    <num>110 §</num>
+                    <heading>Oleskeluluvan myöntäminen tilapäisen suojelun perusteella</heading>
+                    <subsection eId="sec_110__subsec_1">
+                        <content>
+                            <p>Tilapäisen suojelun tarpeessa olevalle ulkomaalaiselle myönnetään tilapäinen oleskelulupa. Oleskelulupa on voimassa siihen asti kun kulloinkin sovellettava 109 §:n 2 momentissa tarkoitettu valtioneuvoston päätös on voimassa.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Oleskeluluvan osoitukseksi annettu oleskelulupakortti on voimassa sen ajan, kuin oleskelulupa on voimassa. Voimassa olevan oleskeluluvan osoitukseksi annetaan hakemuksesta uusi oleskelulupakortti. Oleskelulupakorttia haetaan Maahanmuuttovirastolta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_113">
+                    <num>113 §</num>
+                    <heading>Jatkuvan oleskeluluvan myöntäminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ulkomaalaiselle, jolle on myönnetty oleskelulupa 112 §:n 1 momentin 2 kohdan nojalla, myönnetään kolmen vuoden yhtäjaksoisen maassa oleskelun jälkeen jatkuva oleskelulupa, jos perusteet luvan myöntämiselle ovat edelleen olemassa.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 5 päivänä maaliskuuta 2025.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/199">HE 199/2024</ref>
+                        </p>
+                        <p>HaVM 1/2025</p>
+                        <p>EV 5/2025</p>
+                        <p>neuvoston direktiivi 2001/55/EY (32001L0055); EYVL L 212, 7.8.2001, s. 12</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 28.2.2025</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sisäministeri</role>
+                                <person refersTo="">Mari Rantanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

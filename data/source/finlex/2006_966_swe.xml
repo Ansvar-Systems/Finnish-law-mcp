@@ -1,0 +1,222 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/966/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/966"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/966/alkup"/>
+                    <FRBRdate date="2006-11-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="966"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/966/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/966/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/966/alkup/swe"/>
+                    <FRBRdate date="2006-11-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/966/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/966/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/966/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="144"/>
+                    <finlex:date date="2006-11-15"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>966/2006</docNumber>
+                <docTitle>Lag om ändring av lagen om värdering av tillgångar vid beskattningen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 22 december 2005 om värdering av tillgångar vid beskattningen (
+                        <affectedDocument href="/akn/fi/act/statute/2005/1142">1142/2005</affectedDocument>
+                        ) 3 § 5 och 6 mom., 19 § 2 mom. 2 punkten, 20 § 1 mom. och 31 § samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 5 a §, till 7 § ett nytt 2 mom., varvid de nuvarande 2 och 3 mom. blir 3 och 4 mom., till 20 § ett nytt 2 mom., varvid de nuvarande 2―4 mom. blir 3―5 mom., och till lagen en ny 31 a §, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Värdering av bolagstillgångar</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>En fastighet, byggnad eller konstruktion som hör till andra tillgångar än omsättnings- eller investeringstillgångarna värderas med avvikelse från 1 och 4 mom. till jämförelsevärdet för det år som föregick skatteåret, om detta värde är större än den icke-avskrivna delen av anskaffningsutgiften. Som jämförelsevärde för skog betraktas värdet enligt 7 § och som jämförelsevärde för jordbruksmark värdet enligt 20 §, som jämförelsevärde för andra fastigheter enligt 3 § i fastighetsskattelagen (654/1992) noll samt som jämförelsevärde för andra fastigheter beskattningsvärdet enligt 5 kap. i denna lag.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Offentligt noterade värdepapper och placeringsfondsandelar som hör till andra tillgångar än omsättnings- eller investeringstillgångarna samt aktier i bolag som avses i detta kapitel värderas med avvikelse från 1 och 4 mom. till deras sammanlagda jämförelsevärde enligt 4, 5 eller 5 a § för det år som föregick skatteåret, om detta värde är större än summan av den icke-avskrivna delen av anskaffningsutgiften för dem. Aktier i bostadsaktiebolag och aktier i fastighetsaktiebolag som medför rätt att besitta en viss lägenhet, vilka förvärvats den 1 januari 2006 eller därefter, värderas dock till den vid beskattningen icke-avskrivna delen av anskaffningsutgiften ökad med den återanskaffningsreservering som dragits av från anskaffningsutgiften för dem.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>5 a §</num>
+                    <heading>Jämförelsevärdet för lägenhetsaktier som hör till bolagstillgångarna</heading>
+                    <subsection>
+                        <content>
+                            <p>Jämförelsevärdet för aktier i bolagsaktiebolag och aktier i fastighetsaktiebolag som medför rätt besitta en viss lägenhet, vilka bolaget förvärvat före den 1 januari 2006, är beskattningsvärdet för 2005 beräknat enligt förmögenhetsskattelagen (1537/1992).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 §</num>
+                    <heading>Jämförelsevärdet för skog som hör till bolagstillgångarna</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Till skogsmark hänförs mark som använts för eller är avsedd att användas för odling av träd och där den årliga tillväxten hos fullslutet trädbestånd som är lämpat för ståndorten i medeltal är minst 1 kubikmeter stamved med bark per hektar under den omloppstid som ger den högsta medelavkastningen. Mark med sämre avkastningsförmåga hänförs till impediment.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>19 §</num>
+                    <heading>Jordbrukets nettoförmögenhet</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Till jordbrukstillgångarna räknas inte</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>värdet enligt 31 § 1 mom. i denna lag av en förmån på en gårdsbruksenhet,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>20 §</num>
+                    <heading>Värdet av jordbruksmark</heading>
+                    <subsection>
+                        <content>
+                            <p>Som värdet av jordbruksmark och dess växtbestånd anses markens genomsnittliga årliga avkastning multiplicerad med talet sju. Till jordbruksmark hänförs åker, trädgård, naturäng och naturbete som är i varaktig jordbruksanvändning.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Varaktig jordbruksanvändning anses ha upphört på ett område när området har tagits i annan användning eller varit oanvänt i tio år. Har om obeskogad jordbruksmark ingåtts ett avtal genom vilket nyttjandet av marken begränsas för bestämd tid, anses den obeskogade jordbruksmarken vara i jordbruksanvändning den tid avtalet gäller.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>31 §</num>
+                    <heading>Beskattningsvärdet för vissa förmåner samt beskattningsvärdet för produktionsbyggnader och byggplatser på gårdsbruksenheter</heading>
+                    <subsection>
+                        <content>
+                            <p>Som värdet av stenbrott samt grus-, ler- och torvtäkt eller annan motsvarande förmån som utnyttjas för annat än jord- eller skogsbrukets eget behov anses det kapitalvärde som förmånen beräknas ha vid utgången av skatteåret med hänsyn till nettoinkomsten därav, den tid förmånen sannolikt kan utnyttjas och en räntesats om åtta procent.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Med avvikelse från vad som föreskrivs ovan i detta kapitel anses som</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>beskattningsvärdet för en produktionsbyggnad som hör till jord- och skogsbruket den del av anskaffningsutgiften för byggnaden eller konstruktionen som vid skatteårets utgång inte har avskrivits vid inkomstbeskattningen, och</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>värdet av byggplatsen för en produktionsbyggnad inom jord- och skogsbruket, vilken omfattar marken under byggnaden samt gårdsplanen i dess omedelbara närhet, det värde som med stöd av 20 § har fastställts för jordbruksmark av motsvarande storlek multiplicerat med fyra.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>31 a §</num>
+                    <heading>Annan gårdsbruksmark</heading>
+                    <subsection>
+                        <content>
+                            <p>Värdet av annan gårdsbruksmark anses vara noll.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Till annan gårdsbruksmark hänförs sådana områden som inte regelbundet ger jordbruks- eller skogsbruksavkastning. Sådana områden är exempelvis impediment som hänför sig till jord- och skogsbruket, kraftlinjegator vilkas bredd är minst tio meter och hälften av kraftlinjegatornas randområden samt minst fem meter breda diken, rörnätsområden och byggda vägar som är försedda med behövliga diken. Till vägområdet för en enskild väg hänförs de områden som motsvarar den verkliga markanvändningen, såsom körbana, vägrenar och sidodiken samt kantzoner på 0,5 meter mätt från yttre kanten av sidodiket till en väg som gränsar till skogsmark.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2007.</p>
+                    <p>Lagen tillämpas första gången vid beskattningen för 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 117/2006</p>
+                        <p>FiUB 17/2006</p>
+                        <p>RSv 133/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 10 november 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Andra finansminister </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

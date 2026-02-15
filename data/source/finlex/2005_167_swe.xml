@@ -1,0 +1,204 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/167/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/167"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/167/alkup"/>
+                    <FRBRdate date="2005-03-18" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="167"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/167/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/167/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/167/alkup/swe"/>
+                    <FRBRdate date="2005-03-18" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/167/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/167/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/167/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="33"/>
+                    <finlex:date date="2005-03-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>167/2005</docNumber>
+                <docTitle>Lag om ändring av kommunindelningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras </i>
+                        i kommunindelningslagen av den 19 december 1997 (
+                        <affectedDocument href="/akn/fi/act/statute/1997/1196">1196/1997</affectedDocument>
+                        ) 4 § 2 mom. samt 9, 39 och 40 §,
+                    </block>
+                    <block name="substitutions-originals">av dem 39 och 40 § sådana de lyder i lag 1447/2001, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas </i>
+                        till 38 §, sådan den lyder i nämnda lag 1447/2001, ett nytt 5 mom., varvid det nuvarande 5 mom. blir 6 mom., som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>4 §</num>
+                    <heading>Särskilda förutsättningar vid bildande av nya kommuner och upplösning av kommuner</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>En ändring i kommunindelningen som innebär att en ny kommun bildas eller att antalet kommuner minskar kan också verkställas om inte fullmäktige i någon berörd kommun motsätter sig detta, eller om det förslag av en kommunindelningsutredare som avses i 8 § 2 och 4 mom. vid en kommunal folkomröstning understöds av majoriteten i samtliga berörda kommuner. Om endast någon berörd kommun har motsatt sig ändringen i kommunindelningen kan ändringen verkställas, ifall kommunindelningsutredarens förslag vid en kommunal folkomröstning som ordnas i en sådan kommun understöds av majoriteten.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <heading>Avtal om ordnande av förvaltning och service</heading>
+                    <subsection>
+                        <content>
+                            <p>Innebär ändringen i kommunindelningen att en ny kommun bildas eller att antalet kommuner minskar, skall berörda kommuner avtala om hur förvaltningen och servicen skall ordnas på det område som ändringen gäller, och till avtalet skall fogas en plan över hur kommunernas servicestrukturer samordnas så att lönsamheten och effektiviteten förbättras. Avtalet skall iakttas under de fem år som följer efter det att ändringen i kommunindelningen har trätt i kraft, om inte en kortare tid har avtalats eller om inte omständigheterna har förändrats så att det inte är möjligt att följa avtalet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Avtalet om ordnande av förvaltningen och servicen samt planen skall bifogas berörda kommuners framställningar enligt 6 § 1 mom. om ändringar i kommunindelningen. Verkställs ändringen i kommunindelningen med stöd av 4 § 2 mom., skall berörda kommuner innan kommunindelningen träder i kraft göra upp ett avtal och en plan enligt 1 mom. och lämna dessa till inrikesministeriet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>38 §</num>
+                    <heading>Kalkylerat sammanslagningsunderstöd</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ändras kommunindelningen under betalningsperioden för sammanslagningsunderstödet så att kommunerna vore berättigade till nytt kalkylerat sammanslagningsunderstöd, beaktas vid bestämmandet av sammanslagningsunderstödet inte invånarantalet i en kommun som redan får sammanslagningsunderstöd.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>39 §</num>
+                    <heading>Ersättande av minskning av statsandelar</heading>
+                    <subsection>
+                        <content>
+                            <p>Om en i 38 § avsedd ändring i kommunindelningen minskar berörda kommuners statsandelar beviljas kommunerna på grund av minskningen under det år då ändringen i kommunindelningen träder i kraft och de därpå följande fyra åren ersättning för minskningen av statsandelarna.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Beloppet av den ersättning som betalas för det år då en ändring i kommunindelningen träder i kraft beräknas genom att den allmänna statsandel, den på skatteinkomster baserade utjämning av statsandelarna och de uppgiftsbaserade statsandelar för driftskostnader som de berörda kommunerna beviljats året före det år ändringen träder i kraft jämförs med de motsvarande statsandelar som skulle betalas till kommunerna på basis av en sådan ändring i kommunindelningen som hade verkställts samma år. Kalkylen görs av inrikesministeriet utifrån uppgifter som lämnats av de vederbörande ministerier som avses i lagen om statsandelar till kommunerna (1147/1996). Under det första året efter året då ändringen i kommunindelningen träder i kraft är ersättningsbeloppet 80 procent, under det andra året 60 procent, under det tredje året 40 procent och under det fjärde året 20 procent av beloppet under det år då ändringen i kommunindelningen träder i kraft.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>I fråga om sådana ändringar i kommunindelningen som träder i kraft år 2006 beräknas beloppet av ersättningen genom att den allmänna statsandel, den på skatteinkomster baserade utjämning av statsandelarna och de uppgiftsbaserade statsandelar för driftskostnader, om vilka beslut har fattats med stöd av 16 § 2 mom. i lagen om statsandelar till kommunerna, för det år då ändringen i kommunindelningen träder i kraft jämförs med de motsvarande statsandelar till kommunerna om vilka särskilt skulle ha fattats beslut, om ändringen i kommunindelningen inte hade verkställts samma år. Överstiger skillnaden mellan minskningen av statsandelarna och den ersättning som betalas för minskningen då sammanlagt 400 000 euro under det år då ändringen i kommunindelningen träder i kraft och de därpå följande fyra åren, betalas det överstigande beloppet till kommunen årligen i form av lika stora belopp under de fyra år som följer på ikraftträdandet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>När flera kommuner än en får ersättning fördelas ersättningen mellan kommunerna i förhållande till invånarantalen. Som grund för kommunernas invånarantal används befolkningsuppgifterna enligt befolkningsdatalagen för året före det år då ändringen i kommunindelningen träder i kraft.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Inrikesministeriet betalar ersättningarna i samband med betalningen av sammanslagningsunderstödet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>40 §</num>
+                    <heading>Stöd för investerings- och utvecklingsprojekt</heading>
+                    <subsection>
+                        <content>
+                            <p>Inrikesministeriet kan för främjande av sådana ändringar i kommunindelningen som träder i kraft vid ingången av åren 2006―2009 och som avses i 38 § bevilja kommuner stöd för sådana investerings- och utvecklingsprojekt med hjälp av vilka man strävar efter att förbättra lönsamheten och effektiviteten genom att samordna kommunernas servicestrukturer eller stärka näringsbasen. Stödet för investerings- och utvecklingsprojekt kan vara högst 1 700 000 euro per ändring i kommunindelningen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kommunerna skall särskilt ansöka om stöd för investerings- och utvecklingsprojekt i samband med sina framställningar om ändringar i kommunindelningen eller vid en sådan ändring i kommunindelningen som genomförs med stöd av 4 § 2 mom. en månad efter ett beslut av statsrådet om ändring i kommunindelningen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om kommunerna ansöker om stöd för investerings- och utvecklingsprojekt för ett i 1 mom. avsett projekt för vilket en annan myndighet kan bevilja statsandel eller statsunderstöd med stöd av någon annan lag eller ur anslag som i statsbudgeten anvisats för något annat ändamål, skall inrikesministeriet före beviljandet av stödet höra denna myndighet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Inrikesministeriet beslutar om utbetalningen av stödet efter att statsrådet har beslutat om ändring av kommunindelningen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 april 2005.</p>
+                    <p>Lagen tillämpas första gången på sådana ändringar i kommunindelningen som verkställs vid ingången av 2006.</p>
+                    <p>Lagens 9 § tillämpas dock först på sådana ändringar i kommunindelningen som träder i kraft den 1 januari 2007.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 264/2004</p>
+                        <p>FvUB 3/2005</p>
+                        <p>RSv 19/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 18 mars 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Region- och kommunminister </role>
+                                <person refersTo="">Hannes Manninen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

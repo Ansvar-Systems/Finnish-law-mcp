@@ -1,0 +1,173 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1698/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1698"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1698/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1698"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1698/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1698/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1698/alkup/swe"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1698/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1698/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1698/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1698/2015</docNumber>
+                <docTitle>Lag om ändring av lagen om trafikskadenämnden</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om trafikskadenämnden (
+                        <affectedDocument href="/akn/fi/act/statute/2002/441">441/2002</affectedDocument>
+                        ) 2 § 2 mom., 5 § 6 mom., 6 § 4 och 5 mom. och 13 § samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 5 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Tillsättande av nämnden</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Statsrådet utser ordföranden, vice ordförandena och de övriga medlemmarna samt sju ersättare för högst tre år åt gången. Den som har utsetts till nämnden får inte skiljas från sitt uppdrag utan vägande skäl.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <heading>Behandlingen av ärenden i nämnden</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ett utlåtande av nämnden är inte bindande och ändring i det får inte sökas. Behandlingen av ärenden i nämnden är avgiftsfri.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>5 a §</num>
+                    <heading>Behandlingen av begäran om utlåtande i vissa fall</heading>
+                    <subsection>
+                        <content>
+                            <p>Om en fysisk person har begärt ett utlåtande, ska nämnden utan dröjsmål underrätta parterna när den har fått allt det material som behövs för att avge ett utlåtande i ärendet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om nämnden inte behandlar ett ärende, ska den ge den fysiska person som begär utlåtande och vid behov försäkringsbolaget ett motiverat beslut om att nämnden inte behandlar ärendet. Beslutet ska meddelas senast tre veckor från det att grunden för avstående yppade sig.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>6 §</num>
+                    <heading>Ersättningsärenden som nämnden behandlar</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Skadelidande, försäkringstagare och övriga ersättningsberättigade har rätt att begära nämndens utlåtande i ärenden som gäller ersättande av trafikskada eller andra krav som hänför sig till samma trafikskada. Utlåtande ska begäras hos nämnden inom ett år från den dag då en försäkringsanstalt enligt 1 mom. fattade sitt ersättningsbeslut. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om en fysisk person har begärt ett utlåtande, ska ett motiverat utlåtande avges skriftligen senast 90 dagar från det att nämnden har haft tillgång till allt det material som behövs för att avge ett utlåtande. I ett ytterst komplicerat ärende får nämnden enligt prövning förlänga fristen på 90 dagar. Parterna ska då underrättas om att fristen har förlängts samt om den uppskattade tidpunkten för när ett utlåtande kommer att ges. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>13 §</num>
+                    <heading>Närmare bestämmelser</heading>
+                    <subsection>
+                        <content>
+                            <p>Närmare bestämmelser om nämndens förvaltning, ordnandet av dess verksamhet, information i anslutning till dess verksamhet, viss information som ska ges parterna samt om annan verkställighet av denna lag utfärdas genom förordning av statsrådet.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 9 januari 2016. </p>
+                    <p>Om det beslut av ett försäkringsbolag som begäran om utlåtande gäller har meddelats före ikraftträdandet av denna lag, tillämpas på tidsfristen för begäran om utlåtande de bestämmelser som gällde vid ikraftträdandet. Om en begäran om utlåtande är anhängig vid ikraftträdandet av denna lag, tillämpas på behandlingen av ärendet i nämnden de bestämmelser som gällde vid ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/74">RP 74/2015</ref>
+                        </p>
+                        <p>EkUB 13/2015</p>
+                        <p>RSv 69/2015</p>
+                        <p>Europaparlamentets och rådets direktiv 2013/11/EU (32013L0011); EUT L 165, 18.6.2013, s. 63 – 79</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 30 december 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommunikationsminister</role>
+                                <person refersTo="">Anne Berner</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,178 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/331/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/331"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/331/alkup"/>
+                    <FRBRdate date="2005-05-20" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="331"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/331/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/331/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/331/alkup/swe"/>
+                    <FRBRdate date="2005-05-20" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/331/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/331/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/331/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="63"/>
+                    <finlex:date date="2005-05-26"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>331/2005</docNumber>
+                <docTitle>Lag om ändring av mervärdesskattelagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras </i>
+                        i mervärdesskattelagen av den 30 december 1993 (
+                        <affectedDocument href="/akn/fi/act/statute/1993/1501">1501/1993</affectedDocument>
+                        ) 2 a §, i 63 g § det inledande stycket och 5 punkten, i 72 g § det inledande stycket, 133 u §, 162 b § 2 mom. och 209 c § 1 mom. 1 punkten,
+                    </block>
+                    <block name="substitutions-originals">sådana de lyder, 2 a § och 162 b § 2 mom. i lag 1767/1995, det inledande stycket och 5 punkten i 63 g § i lag 935/2004, det inledande stycket i 72 g § i lag 1486/1994, 133 u § i lag 971/2002 och 209 c § 1 mom. 1 punkten i lag 325/2003, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Skattskyldig för sådan vidareförsäljning som nämns i 72 g § är köparen, om säljarens faktura överensstämmer med 209 b §.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>63 g §</num>
+                    <subsection>
+                        <intro>
+                            <p>Ett gemenskapsinternt varuförvärv anses ha blivit beskattat enligt 63 f § i den stat där varutransporten upphörde även då</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>köparens faktura beträffande vidareförsäljningen överensstämmer med 209 b § eller motsvarande bestämmelser, och</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>72 g §</num>
+                    <subsection>
+                        <intro>
+                            <p>Skatt behöver inte betalas för gemenskapsinterna varuförvärv enligt 63 e § i Finland, om</p>
+                        </intro>
+                    </subsection>
+                </section>
+                <section>
+                    <num>133 u §</num>
+                    <subsection>
+                        <content>
+                            <p>Har en skattskyldig som använder den särskilda ordningen uppgett den skatt som för en skatteperiod skall redovisas till Finland till för högt belopp, återbärs den överbetalda skatten till den skattskyldige på ansökan eller på basis av annan utredning. Skatten kan återbäras senast det tredje kalenderåret efter utgången av det kalenderår för vilket den skattskyldige har uppgett skatten till för högt belopp eller också senare på yrkande som den skattskyldige framställt senast vid nämnda tidpunkt.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vid tillämpningen av 187, 192, 193 och 204 § utgör det kalenderår till vilket ifrågavarande skatteperiod hänför sig räkenskapsperiod för en skattskyldig som använder den särskilda ordningen. Vid tillämpningen av 192 och 193 § kan rättelse göras och besvär anföras redan under kalenderåret.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>162 b §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>En sammandragsdeklaration skall också avges, om ett gemenskapsinternt varuförvärv som den skattskyldige har gjort, med stöd av 63 g § anses ha blivit beskattat i den stat där transporten upphörde.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>209 c §</num>
+                    <subsection>
+                        <intro>
+                            <p>Med avvikelse från 209 b § 2 mom. 1―10 punkten behöver följande fakturor innehålla endast de uppgifter som nämns nedan i 3 mom.:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>fakturor på högst 250 euro,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2006.</p>
+                    <p>Lagen tillämpas när en såld vara har levererats, en tjänst har utförts eller ett gemenskapsinternt varuförvärv har gjorts den dag lagen träder i kraft eller därefter. Lagens 133 u § tillämpas första gången på den skatt som skall betalas för den skatteperiod som börjar den dag lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 22/2005</p>
+                        <p>FiUB 5/2005</p>
+                        <p>RSv 39/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 20 maj 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Finansminister </role>
+                                <person refersTo="">Antti Kalliomäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

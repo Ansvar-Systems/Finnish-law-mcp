@@ -1,0 +1,127 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1627/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1627"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1627/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1627"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1627/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1627/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1627/alkup/swe"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1627/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1627/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1627/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1627/2015</docNumber>
+                <docTitle>Lag om ändring av 97 och 98 a § i lagen om enskilda vägar</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om enskilda vägar (
+                        <affectedDocument href="/akn/fi/act/statute/1962/358">358/1962</affectedDocument>
+                        ) 97 § och 98 a §, sådana de lyder i lag 1290/2009, som följer: 
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>97 § </num>
+                    <subsection>
+                        <content>
+                            <p>Beslut om beviljande eller indragning av statsbidrag fattas av den behöriga närings-, trafik- och miljöcentral inom vars verksamhetsområde vägen eller största delen av vägen ligger. Bestämmelser om att uppgiften kan skötas också inom verksamhetsområdet för fler än en central kan utfärdas genom förordning av statsrådet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Närings-, trafik- och miljöcentralernas samt arbets- och näringsbyråernas utvecklings- och förvaltningscenter sköter sådana uppgifter i enlighet med 12, 19, 21 och 22 § i statsunderstödslagen (688/2001) som gäller utbetalning och återkrav av statsunderstöd som närings-, trafik- och miljöcentralen beviljat eller dragit in med stöd av statsunderstödslagen. Utvecklings- och förvaltningscentret sköter utöver närings-, trafik- och miljöcentralen även tillsynsuppgifter i enlighet med 15 § i statsunderstödslagen. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>98 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Besvär över den behöriga närings-, trafik- och miljöcentralens samt utvecklings- och förvaltningscentrets beslut om statsbidrag får anföras hos den förvaltningsdomstol inom vars domkrets vägen eller största delen av den finns. På statsbidrag som avses i denna lag tillämpas i övrigt vad som föreskrivs i statsunderstödslagen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016. </p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/90">RP 90/2015</ref>
+                        </p>
+                        <p>FvUB 13/2015</p>
+                        <p>RSv 63/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 30 december 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Utrikeshandels- och utvecklingsminister</role>
+                                <person refersTo="">Lenita Toivakka</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

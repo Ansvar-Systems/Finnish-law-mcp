@@ -1,0 +1,397 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/665/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/665"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/665/alkup"/>
+                    <FRBRdate date="2005-08-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="665"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/665/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/665/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/665/alkup/fin"/>
+                    <FRBRdate date="2005-08-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/665/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/665/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/665/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="115"/>
+                    <finlex:date date="2005-09-01"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>665/2005</docNumber>
+                <docTitle>Laki korkeimmasta oikeudesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 luku</num>
+                    <heading>Korkeimman oikeuden tehtävät</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Korkein oikeus käyttää ylintä tuomiovaltaa riita- ja rikosasioissa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_1__subsec_2">
+                            <content>
+                                <p>Korkein oikeus valvoo lainkäyttöä omalla toimialallaan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <intro eId="chp_1__sec_2__subsec_1__intro">
+                                <p>Lainkäyttöasioina korkein oikeus käsittelee:</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>asiat, joissa valitetaan hovioikeuden ratkaisusta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>asiat, joissa sen mukaan kuin erikseen säädetään valitetaan muun tuomioistuimen tai lainkäyttöelimen ratkaisusta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>asiat, jotka koskevat ylimääräistä muutoksenhakua, sen mukaan kuin erikseen säädetään;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>syyteasiat, jotka koskevat hovioikeuden presidentin tai sen jäsenen taikka valtakunnansyyttäjän tai apulaisvaltakunnansyyttäjän virkarikoksia;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>kysymykset siitä, kuuluuko asia yleisen tuomioistuimen vai erikoistuomioistuimen tai hallintoviranomaisen toimivaltaan;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>muut lain mukaan lainkäyttöasioina käsiteltävät asiat.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <intro eId="chp_1__sec_3__subsec_1__intro">
+                                <p>Muina asioina korkein oikeus:</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>antaa tasavallan presidentin vahvistettavaksi toimitetusta laista perustuslain 77 §:ssä tarkoitetun lausunnon;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>antaa armahdusasiassa perustuslain 105 §:ssä tarkoitetun lausunnon;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>käsittelee sille Ahvenanmaan itsehallintolain (1144/1991) mukaan kuuluvat asiat;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>käsittelee, sen mukaan kuin erikseen säädetään, rikoksen johdosta tapahtuvaa luovuttamista koskevia asioita;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>käsittelee muut sen tehtäviksi erikseen säädetyt oikeudenhoitoa koskevat asiat;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>käsittelee oikeushallintoasioita sen mukaan kuin erikseen säädetään.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_4">
+                        <num>4 §</num>
+                        <subsection eId="chp_1__sec_4__subsec_1">
+                            <content>
+                                <p>Korkein oikeus antaa pyynnöstä valtioneuvostolle lausuntoja lainsäädäntökysymyksistä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_4__subsec_2">
+                            <content>
+                                <p>Korkein oikeus voi tehdä valtioneuvostolle esityksiä lainsäädäntötoimeen ryhtymisestä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_5">
+                        <num>5 §</num>
+                        <subsection eId="chp_1__sec_5__subsec_1">
+                            <content>
+                                <p>Korkein oikeus toimii oikeudenkäynti- ja muiden asiakirjojen tiedoksiannosta jäsenvaltioissa siviili- tai kauppaoikeudellisissa asioissa annetun neuvoston asetuksen (EY) N:o 1348/2000 2 artiklassa tarkoitettuna lähettävänä viranomaisena siten kuin Suomi mainitun asetuksen täytäntöönpanoa varten ilmoittaa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 luku</num>
+                    <heading>Asioiden ratkaiseminen</heading>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>Korkeimmassa oikeudessa asiat käsitellään ja ratkaistaan jaostoissa. Korkeimman oikeuden päätösvaltaisesta kokoonpanosta säädetään oikeudenkäymiskaaressa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>Presidentti voi päättää lainkäyttöasian siirtämisestä tarpeellisilta osiltaan käsiteltäväksi täysistunnossa tai vahvennetussa jaostossa, jossa on 11 jäsentä, jos asian tai sen osan ratkaisua harkittaessa osoittautuu, että jaosto on poikkeamassa korkeimman oikeuden aikaisemmin omaksumasta kannasta. Presidentti voi muutoinkin määrätä periaatteellisesti merkittävän tai muuten laajakantoisen lainkäyttöasian tai sen osan käsiteltäväksi täysistunnossa tai vahvennetussa jaostossa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_8">
+                        <num>8 §</num>
+                        <subsection eId="chp_2__sec_8__subsec_1">
+                            <content>
+                                <p>Edellä 4 §:n 2 momentissa tarkoitetut lainsäädäntöaloitteet käsitellään täysistunnossa. Myös 3 §:n 6 kohdassa tarkoitetut oikeushallintoasiat käsitellään täysistunnossa, jollei työjärjestyksessä toisin määrätä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_8__subsec_2">
+                            <content>
+                                <p>Muissa 3 ja 4 §:ssä tarkoitetuissa asioissa korkein oikeus on päätösvaltainen viisijäsenisenä. Korkein oikeus voi kuitenkin päättää, että asia tai sen osa käsitellään täysistunnossa tai muussa laajemmassa kokoonpanossa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_9">
+                        <num>9 §</num>
+                        <subsection eId="chp_2__sec_9__subsec_1">
+                            <content>
+                                <p>Korkeimman oikeuden istunnoissa asiat ratkaistaan esittelystä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_9__subsec_2">
+                            <content>
+                                <p>Presidentti ratkaisee asiat esittelystä sen mukaan kuin työjärjestyksessä määrätään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 luku</num>
+                    <heading>Presidentti ja muut jäsenet</heading>
+                    <section eId="chp_3__sec_10">
+                        <num>10 §</num>
+                        <subsection eId="chp_3__sec_10__subsec_1">
+                            <content>
+                                <p>Korkeimmassa oikeudessa on presidentti ja muina jäseninä vähintään 15 oikeusneuvosta. Korkeimman oikeuden presidentin ja jäsenten nimittämisestä ja kelpoisuusvaatimuksista säädetään tuomareiden nimittämisestä annetussa laissa (205/2000).</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_10__subsec_2">
+                            <content>
+                                <p>Korkeimmassa oikeudessa voi olla määräaikaisia jäseniä siten kuin tuomareiden nimittämisestä annetussa laissa säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_11">
+                        <num>11 §</num>
+                        <subsection eId="chp_3__sec_11__subsec_1">
+                            <content>
+                                <p>Korkeimman oikeuden toimintaa johtaa ja sen tuloksellisuudesta vastaa presidentti.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_11__subsec_2">
+                            <content>
+                                <p>Presidentin ollessa estyneenä hänen tehtäviään hoitaa virantoimituksessa oleva virassa vanhin jäsen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_12">
+                        <num>12 §</num>
+                        <subsection eId="chp_3__sec_12__subsec_1">
+                            <content>
+                                <p>Korkeimman oikeuden täysistuntoon osallistuvat presidentti ja virantoimituksessa olevat jäsenet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 luku</num>
+                    <heading>Esittelijät ja muu henkilöstö</heading>
+                    <section eId="chp_4__sec_13">
+                        <num>13 §</num>
+                        <subsection eId="chp_4__sec_13__subsec_1">
+                            <content>
+                                <p>Korkeimmassa oikeudessa on esittelijöinä kansliapäällikkö, esittelijäneuvoksia sekä vanhempia oikeussihteereitä ja oikeussihteereitä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_13__subsec_2">
+                            <content>
+                                <p>Esittelijät nimittää korkein oikeus. Esittelijöiden kelpoisuusvaatimuksista, nimittämisperusteista ja nimittämisestä määräajaksi on voimassa, mitä tuomareiden nimittämisestä annetussa laissa säädetään. Esittelijäneuvokseksi voidaan nimittää määräajaksi virkasuhteeseen myös, jos se on tärkeää lainkäytön monipuolisen tuntemuksen edistämiseksi tuomioistuin- tai syyttäjälaitoksessa tai korkeimman oikeuden käsiteltävinä olevissa asioissa tarvittavan esittelijöiden asiantuntemuksen monipuolisuuden turvaamiseksi. Määräajaksi virkasuhteeseen nimitettyinä voi samanaikaisesti olla kuitenkin enintään kolmasosa esittelijäneuvoksista, jollei tuomareiden nimittämisestä annetun lain 15 §:n 1 momentista muuta johdu.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_13__subsec_3">
+                            <content>
+                                <p>Korkeimman oikeuden muista viroista ja virkamiehistä määrätään työjärjestyksessä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_14">
+                        <num>14 §</num>
+                        <subsection eId="chp_4__sec_14__subsec_1">
+                            <content>
+                                <p>Mitä perustuslain 103 §:ssä säädetään tuomarin virassapysymisoikeudesta ja tuomarin virasta, sovelletaan myös korkeimman oikeuden esittelijään ja esittelijän virkaan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_5">
+                    <num>5 luku</num>
+                    <heading>Palvelussuhteen väliaikainen järjestely</heading>
+                    <section eId="chp_5__sec_15">
+                        <num>15 §</num>
+                        <subsection eId="chp_5__sec_15__subsec_1">
+                            <content>
+                                <p>Presidentti voi ottaa virkavapautta enintään yhden kuukauden vuodessa. Tämän yli menevältä ajalta virkavapaudesta päätetään täysistunnossa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_15__subsec_2">
+                            <content>
+                                <p>Korkein oikeus myöntää virkavapauden oikeusneuvokselle. Siitä päätetään täysistunnossa, jollei työjärjestyksessä toisin määrätä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_16">
+                        <num>16 §</num>
+                        <subsection eId="chp_5__sec_16__subsec_1">
+                            <content>
+                                <p>Virkavapauden myöntämisestä kansliapäällikölle ja muulle esittelijälle sekä muulle virkamiehelle määrätään työjärjestyksessä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_6">
+                    <num>6 luku</num>
+                    <heading>Erinäisiä säännöksiä</heading>
+                    <section eId="chp_6__sec_17">
+                        <num>17 §</num>
+                        <subsection eId="chp_6__sec_17__subsec_1">
+                            <content>
+                                <p>Korkeimman oikeuden esittelijää syytetään virkarikoksesta Helsingin hovioikeudessa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_18">
+                        <num>18 §</num>
+                        <subsection eId="chp_6__sec_18__subsec_1">
+                            <content>
+                                <p>Korkein oikeus vahvistaa työjärjestyksen itselleen. Työjärjestyksessä annetaan tarkemmat määräykset asioiden käsittelystä ja muusta työskentelystä korkeimmassa oikeudessa. Työjärjestyksessään korkein oikeus voi vapauttaa 10 §:n 2 momentissa tarkoitetut jäsenet käsittelemästä 3 §:n 5 ja 6 kohdassa tarkoitettuja asioita sekä korkeinta oikeutta koskevia talous- ja hallintoasioita.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_18__subsec_2">
+                            <content>
+                                <p>Korkeimman oikeuden työjärjestys julkaistaan Suomen säädöskokoelmassa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <section eId="sec_19">
+                    <num>19 §</num>
+                    <subsection eId="sec_19__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 31 päivänä joulukuuta 2005.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_19__subsec_2">
+                        <content>
+                            <p>Tällä lailla kumotaan korkeimmasta oikeudesta 22 päivänä heinäkuuta 1918 annettu laki (74/1918) siihen myöhemmin tehtyine muutoksineen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/7">HE 7/2005</ref>
+                        </p>
+                        <p>LaVM 6/2005</p>
+                        <p>EV 81/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 26 päivänä elokuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Johannes Koskinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

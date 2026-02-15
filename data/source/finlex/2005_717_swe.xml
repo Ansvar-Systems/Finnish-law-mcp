@@ -1,0 +1,253 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/717/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/717"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/717/alkup"/>
+                    <FRBRdate date="2005-09-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="717"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/717/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/717/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/717/alkup/swe"/>
+                    <FRBRdate date="2005-09-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/717/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/717/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/717/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="120"/>
+                    <finlex:date date="2005-09-09"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>717/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om försäkringsbolag</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 28 december 1979 om försäkringsbolag (
+                        <affectedDocument href="/akn/fi/act/statute/1979/1062">1062/1979</affectedDocument>
+                        ) 16 kap. 13 § och mellanrubriken före paragrafen, 16 a kap. 9 §, 16 b kap. 4 § samt 18 a kap. 4 §,
+                    </block>
+                    <block name="substitutions-originals">sådana de lyder, 16 kap. 13 § och 16 a kap. 9 § i lagarna 611/1997 och 305/1998 samt mellanrubriken före 16 kap. 13 §, 16 b kap. 4 § och 18 a kap. 4 § i nämnda lag 611/1997, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>16 kap.</num>
+                    <heading>Fusion och inlösen av minoritetsaktier</heading>
+                    <crossHeading eId="crossHeading">Försäkringsinspektionens samtycke</crossHeading>
+                    <section>
+                        <num>13 §</num>
+                        <subsection>
+                            <content>
+                                <p>Inom två månader efter det att bolagen har godkänt fusionsplanen skall de ansöka om Försäkringsinspektionens samtycke till fusionsplanen och om fastställelse av den ändring av bolagsordningen som fusionen kräver samt, vid kombinationsfusion, av den nya bolagsordningen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>När det gäller ansökan om fusion skall Försäkringsinspektionen, om den inte anser att ansökan utan vidare utredning skall avslås, på det övertagande bolagets bekostnad låta kungöra saken i den officiella tidningen. I kungörelsen skall de försäkringsborgenärer i det överlåtande bolaget som önskar framställa anmärkningar mot ansökningen uppmanas framställa dem till Försäkringsinspektionen inom en av inspektionen utsatt tid som inte får vara längre än två månader. Kungörelse skall utfärdas också på försäkringsborgenärerna i det övertagande bolaget, om fusionen enligt ett utlåtande som avses i 6 § är ägnad att äventyra betalningen av bolagets skulder. Försäkringsinspektionen skall förplikta det överlåtande bolaget att utan dröjsmål underrätta om kungörelsen i åtminstone en tidning som utkommer på det överlåtande bolagets hemort samt dessutom enligt vad Försäkringsinspektionen vid behov bestämmer.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Försäkringsinspektionen skall be konkurrensverket om ett utlåtande över en sådan ansökan som avses i 1 mom., om det arrangemang som avses i ansökan omfattas av den tillsyn över företagsförvärv som avses i lagen om konkurrensbegränsningar.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Försäkringsinspektionen skall ge sitt samtycke, om en åtgärd som avses i 1 mom. inte kränker de förmåner som försäkringarna omfattar och om den inte anses äventyra en sund utveckling av försäkringsväsendet. Försäkringsinspektionen har rätt att till samtycket foga sådana villkor som den anser nödvändiga för att skydda de förmåner som försäkringarna omfattar eller en sund utveckling av försäkringsväsendet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Det överlåtande och det övertagande bolaget samt den som framställt anmärkning får anföra besvär över Försäkringsinspektionens beslut hos Helsingfors förvaltningsdomstol enligt vad som bestäms i lagen om Försäkringsinspektionen (78/1999). Besvären skall behandlas i brådskande ordning.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om samtycke inte har sökts inom föreskriven tid eller om det har vägrats och beslutet om vägran har vunnit laga kraft, har fusionen förfallit.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>16 a kap.</num>
+                    <heading>Överlåtelse av försäkringsbeståndet</heading>
+                    <section>
+                        <num>9 §</num>
+                        <subsection>
+                            <content>
+                                <p>Inom två månader efter det att bolagen har godkänt planen för överlåtelse av försäkringsbeståndet skall de ansöka om Försäkringsinspektionens samtycke till planen och om fastställelse av den ändring av bolagsordningen som överlåtelsen av försäkringsbeståndet kräver.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>När det gäller ansökan om överlåtelse av försäkringsbeståndet skall Försäkringsinspektionen, om den inte anser att ansökan utan vidare utredning skall avslås, på det övertagande bolagets bekostnad låta kungöra saken i den officiella tidningen. I kungörelsen skall de försäkringsborgenärer för försäkringar som ingår i det försäkringsbestånd som överlåts vilka önskar framställa anmärkningar mot ansökningen uppmanas framställa dem till Försäkringsinspektionen inom en av inspektionen utsatt tid som inte får vara längre än två månader. Kungörelsen skall också utfärdas på övriga försäkringsborgenärer i det överlåtande bolaget, om överlåtelsen av försäkringsbeståndet enligt ett utlåtande som avses i 4 § är ägnad att äventyra betalningen av det överlåtande bolagets skulder. Kungörelsen skall också utfärdas på försäkringsborgenärerna i det övertagande bolaget, om överlåtelsen av försäkringsbeståndet enligt det sagda utlåtandet är ägnad att äventyra betalningen av det övertagande bolagets skulder. Försäkringsinspektionen skall förplikta det överlåtande bolaget att utan dröjsmål underrätta om kungörelsen i åtminstone en tidning som utkommer på det överlåtande bolagets hemort samt dessutom enligt vad Försäkringsinspektionen vid behov bestämmer.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Försäkringsinspektionen skall be konkurrensverket om ett utlåtande över en sådan ansökan som avses i 1 mom., om det arrangemang som avses i ansökan omfattas av den tillsyn över företagsförvärv som avses i lagen om konkurrensbegränsningar.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Försäkringsinspektionen skall ge sitt samtycke, om en åtgärd som avses i 1 mom. inte kränker de förmåner som försäkringarna omfattar och om den inte anses äventyra en sund utveckling av försäkringsväsendet. Försäkringsinspektionen har rätt att till samtycket foga sådana villkor som den anser nödvändiga för att skydda de förmåner som försäkringarna omfattar eller en sund utveckling av försäkringsväsendet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Det överlåtande och det övertagande bolaget samt den som framställt anmärkning får anföra besvär över Försäkringsinspektionens beslut hos Helsingfors förvaltningsdomstol enligt vad som bestäms i lagen om Försäkringsinspektionen. Besvären skall behandlas i brådskande ordning.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>16 b kap.</num>
+                    <heading>Delning</heading>
+                    <section>
+                        <num>4 §</num>
+                        <subsection>
+                            <content>
+                                <p>Inom två månader efter det att delningsplanen har godkänts skall det ursprungliga bolaget ansöka om Försäkringsinspektionens samtycke till delningsplanen och om fastställelse av de övertagande bolagens bolagsordning, om det övertagande bolaget är ett försäkringsbolag, samt, i fråga om en delning som avses i 1 § 2 mom. 2 punkten, fastställelse av den ändring av bolagsordningen som delningen kräver.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>När det gäller ansökan om delning skall Försäkringsinspektionen, om den inte anser att ansökan utan vidare utredning skall avslås, på det ursprungliga bolagets bekostnad låta kungöra saken i den officiella tidningen. I kungörelsen skall de försäkringsborgenärer i det ursprungliga bolaget som önskar framställa anmärkningar mot ansökningen uppmanas framställa dem till Försäkringsinspektionen inom en av inspektionen utsatt tid som inte får vara längre än två månader. Försäkringsinspektionen skall förplikta det ursprungliga bolaget att utan dröjsmål underrätta om kungörelsen i åtminstone en tidning som utkommer på det ursprungliga bolagets hemort samt dessutom enligt vad Försäkringsinspektionen vid behov bestämmer.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Försäkringsinspektionen skall ge sitt samtycke, om en åtgärd som avses i 1 mom. inte kränker de förmåner som försäkringarna omfattar och om den inte anses äventyra en sund utveckling av försäkringsväsendet. Försäkringsinspektionen har rätt att till samtycket foga sådana villkor som den anser nödvändiga för att skydda de förmåner som försäkringarna omfattar eller en sund utveckling av försäkringsväsendet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Det ursprungliga bolaget samt den som framställt anmärkning får anföra besvär över Försäkringsinspektionens beslut hos Helsingfors förvaltningsdomstol enligt vad som bestäms i lagen om Försäkringsinspektionen. Besvären skall behandlas i brådskande ordning.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vid delning beviljas övertagande bolag koncession till den del ett försäkringsbestånd överförs på dem vid delningen, om inte Försäkringsinspektionen bestämmer något annat. Vid en delning enligt 1 § 2 mom. 2 punkten förblir det överlåtande bolagets koncession i kraft endast till den del bolaget behåller ett försäkringsbestånd, om inte Försäkringsinspektionen bestämmer något annat. Till en ansökan enligt 1 mom. skall fogas ett förslag till koncession som avses i detta moment.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om samtycke inte har sökts inom föreskriven tid eller om det har vägrats och beslutet om vägran har vunnit laga kraft, har delningen förfallit.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>18 a kap.</num>
+                    <heading>Ändring av bolagsform</heading>
+                    <section>
+                        <num>4 §</num>
+                        <subsection>
+                            <content>
+                                <p>Till ett bolagsstämmobeslut som avser ombildande av ett försäkringsaktiebolag till ömsesidigt försäkringsbolag eller ombildande av ett ömsesidigt försäkringsbolag till försäkringsaktiebolag skall ansökas om Försäkringsinspektionens samtycke. Till ansökan skall fogas ett av bolagsstämman godkänt förslag till ändring av bolagsordningen vilket föranletts av ändringen av bolagsformen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Försäkringsinspektionen skall, om den inte anser att ansökan utan vidare utredning skall avslås, på bolagets bekostnad kungöra ansökan i den officiella tidningen. I kungörelsen skall de delägare och försäkringsborgenärer i bolaget som önskar framställa anmärkningar mot ansökan uppmanas framställa dem till Försäkringsinspektionen inom en av inspektionen utsatt tid som inte får vara längre än två månader. Försäkringsinspektionen skall förplikta bolaget att utan dröjsmål underrätta om kungörelsen i åtminstone en tidning som utkommer på bolagets hemort samt dessutom enligt vad Försäkringsinspektionen vid behov bestämmer.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Försäkringsinspektionen skall ge sitt samtycke, om en åtgärd som avses i 1 mom. inte kränker de förmåner som försäkringarna omfattar eller någon delägargrupps intressen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Försäkringsinspektionen har rätt att till samtycket foga sådana villkor som den anser nödvändiga för att skydda de förmåner som försäkringarna omfattar eller delägargruppernas intressen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Bolaget samt den som framställt anmärkning får anföra besvär över Försäkringsinspektionens beslut hos Helsingfors förvaltningsdomstol enligt vad som bestäms i lagen om Försäkringsinspektionen. Besvären skall behandlas i brådskande ordning.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om samtycke inte har sökts inom föreskriven tid eller om det har vägrats och beslutet om vägran har vunnit laga kraft, har ändringen av bolagsformen förfallit.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 oktober 2005.</p>
+                    <p>På sökande av ändring i ett beslut som meddelats av en förvaltningsmyndighet före denna lags ikraftträdande tillämpas de bestämmelser som gällde vid ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 112/2004</p>
+                        <p>RP 5/2005</p>
+                        <p>FvUB 13/2005</p>
+                        <p>RSv 91/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 2 september 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Johannes Koskinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

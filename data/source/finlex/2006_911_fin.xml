@@ -1,0 +1,119 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/911/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/911"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/911/alkup"/>
+                    <FRBRdate date="2006-10-19" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="911"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/911/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/911/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/911/alkup/fin"/>
+                    <FRBRdate date="2006-10-19" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/911/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/911/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/911/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="136"/>
+                    <finlex:date date="2006-10-26"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>911/2006</docNumber>
+                <docTitle>Laki yrityskiinnityslain 10 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         24 päivänä elokuuta 1984 annetun yrityskiinnityslain (
+                        <affectedDocument href="/akn/fi/act/statute/1984/634">634/1984</affectedDocument>
+                        ) 10 §:n 3 momentti, sellaisena kuin se on laissa 747/2004, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>10 §</num>
+                    <heading>Yrityksen luovutus ja kiinnityksen vastattavaksi ottaminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Mitä 1 ja 2 momentissa säädetään, on soveltuvin osin voimassa, kun eurooppayhtiön (SE) säännöistä annetussa neuvoston asetuksen (EY) N:o 2157/2001 2 artiklan 1 kohdassa tarkoitettuun sulautumiseen osallistuvan julkisen osakeyhtiön elinkeinotoiminta ja siihen liittyvä kiinnityskelpoinen omaisuus Suomessa siirtyy toiseen valtioon rekisteröitävän vastaanottavan eurooppayhtiön Suomeen perustettavalle sivuliikkeelle. Sama koskee asetuksen 8 artiklassa tarkoitettua eurooppayhtiön kotipaikan siirtämistä Suomesta toiseen valtioon siten, että yhtiön liiketoiminta ja siihen liittyvä kiinnityskelpoinen omaisuus Suomessa siirtyy yhtiön Suomeen perustettavalle sivuliikkeelle. Edellä mainittua sovelletaan vastaavasti eurooppaosuuskunnan (SCE) säännöistä annetun neuvoston asetuksen (EY) N:o 1435/2003 2 artiklan 1 kohdan neljännessä luetelmakohdassa tarkoitettuun eurooppaosuuskunnan sulautumiseen ja 7 artiklassa tarkoitettuun eurooppaosuuskunnan kotipaikan siirtämiseen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä marraskuuta 2006.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/54">HE 54/2006</ref>
+                        </p>
+                        <p>TaVM 9/2006</p>
+                        <p>EV 99/2006</p>
+                        <p>Neuvoston asetus (EY) N:o 1435/2003 (32003R1435); EYVL N:o L 207, 18.08.2003, s. 1</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 19 päivänä lokakuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

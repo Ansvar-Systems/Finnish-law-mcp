@@ -1,0 +1,117 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/134/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/134"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/134/alkup"/>
+                    <FRBRdate date="2024-03-22" name="dateIssued"/>
+                    <FRBRdate date="2024-03-26" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="134"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/134/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/134/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/134/alkup/swe"/>
+                    <FRBRdate date="2024-03-22" name="dateIssued"/>
+                    <FRBRdate date="2024-03-26" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/134/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/134/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/134/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2024-03-26" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>134/2024</docNumber>
+                <docTitle>Lag om ändring av 1 § i lagen om ersättning för olycksfall som orsakats civilpersoner av krigsmateriel</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om ersättning för olycksfall som orsakats civilpersoner av krigsmateriel (
+                        <affectedDocument href="/akn/fi/act/statute/1990/1213">1213/1990</affectedDocument>
+                        ) 1 §, sådan den lyder i lag 477/2015, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <subsection>
+                        <content>
+                            <p>Enligt denna lag betalas ersättning för skada eller sjukdom som uppkommit till följd av personskada genom olycksfall, om olycksfallet inom Finlands territorium har orsakats av vapen, projektiler, minor, sprängämnen eller annan krigsmateriel som tillhör Försvarsmakten eller en i försvarssamarbete med Försvarsmakten deltagande stats stridskrafter och som inte orättmätigt har innehafts av någon annan än Försvarsmakten eller den stats stridskrafter som deltar i försvarssamarbete med Försvarsmakten. Sådan ersättning betalas inte om den skadade har rätt till ersättning enligt lagen om olycksfall i arbetet och om yrkessjukdomar (459/2015), lagen om ersättning för olycksfall och tjänstgöringsrelaterad sjukdom i krishanteringsuppdrag (1522/2016) eller lagen om ersättning för olycksfall i militärtjänst och tjänstgöringsrelaterad sjukdom (1521/2016).</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 april 2024.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2023/90">RP 90/2023</ref>
+                        </p>
+                        <p>UtUB 2/2024</p>
+                        <p>FsUU 1/2024</p>
+                        <p>GrUU 2/2024</p>
+                        <p>LaUU 2/2024</p>
+                        <p>RSv 10/2024</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 22 mars 2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Utrikesminister</role>
+                                <person refersTo="">Elina Valtonen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

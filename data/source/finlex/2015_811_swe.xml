@@ -1,0 +1,118 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/811/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/811"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/811/alkup"/>
+                    <FRBRdate date="2015-06-26" name="dateIssued"/>
+                    <FRBRdate date="2015-06-30" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="811"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/811/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/811/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/811/alkup/swe"/>
+                    <FRBRdate date="2015-06-26" name="dateIssued"/>
+                    <FRBRdate date="2015-06-30" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/811/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/811/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/811/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-06-30" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>811/2015</docNumber>
+                <docTitle>Lag om ändring av 6 kap. 2 § i lagen om investeringstjänster</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om investeringstjänster (
+                        <affectedDocument href="/akn/fi/act/statute/2012/747">747/2012</affectedDocument>
+                        ) 6 kap. 2 § 1 mom., sådant det lyder i lag 1201/2014, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>6 kap.</num>
+                    <heading>Ekonomiska verksamhetsförutsättningar för tillhandahållande av investeringstjänster samt tillsyn över den ekonomiska stabiliteten</heading>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Ekonomisk stabilitet och tillsyn</heading>
+                        <subsection>
+                            <content>
+                                <p>På ett värdepappersföretags ekonomiska verksamhetsförutsättningar, på tillsynen över dess ekonomiska ställning samt på beviljandet av dispens som gäller dessa tillämpas 9—11 kap. i kreditinstitutslagen. Med avvikelse från 10 kap. 2 § i den lagen ska ett värdepappersföretag alltid ha en kapitalbas som uppgår till minst det belopp som föreskrivs i 1 § i detta kapitel. På värdepappersföretag som omfattas av lagen om resolution av kreditinstitut och värdepappersföretag  (1194/2014) tillämpas dessutom 8 a kap. i kreditinstitutslagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juli 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 1/2015</p>
+                        <p>EkUB 1/2015</p>
+                        <p>RSv 3/2015</p>
+                        <p>Europaparlamentets och rådets direktiv 2014/59/EU (32014L0059); EUT L 173, 12.6.2014, s. 190</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 26 juni 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Finansminister</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,206 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/167/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/167"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/167/alkup"/>
+                    <FRBRdate date="2005-03-18" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="167"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/167/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/167/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/167/alkup/fin"/>
+                    <FRBRdate date="2005-03-18" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/167/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/167/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/167/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="33"/>
+                    <finlex:date date="2005-03-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>167/2005</docNumber>
+                <docTitle>Laki kuntajakolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan </i>
+                        19 päivänä joulukuuta 1997 annetun kuntajakolain (
+                        <affectedDocument href="/akn/fi/act/statute/1997/1196">1196/1997</affectedDocument>
+                        ) 4 §:n 2 momentti sekä 9, 39 ja 40 §,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 39 ja 40 § laissa 1447/2001, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         38 §:ään, sellaisena kuin se on mainitussa laissa 1447/2001, uusi 5 momentti, jolloin nykyinen 5 momentti siirtyy 6 momentiksi, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>4 §</num>
+                    <heading>Erityiset edellytykset uuden kunnan perustamisessa ja kunnan lakkauttamisessa</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Uuden kunnan perustamista tai kuntien lukumäärän vähenemistä merkitsevä kuntajaon muutos voidaan tehdä myös, jos minkään asianomaisen kunnan valtuusto ei sitä vastusta tai jos 8 §:n 2 ja 4 momentissa tarkoitettu kuntajakoselvittäjän ehdotus on saanut kunnallisessa kansanäänestyksessä enemmistön kannatuksen kaikissa asianomaisissa kunnissa. Jos vain joku asianomainen kunta on vastustanut kuntajaon muutosta, muutos voidaan tehdä, jos kuntajakoselvittäjän ehdotus on saanut enemmistön kannatuksen tällaisessa kunnassa järjestetyssä kunnallisessa kansanäänestyksessä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <heading>Hallinnon ja palvelujen järjestämissopimus</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos kuntajaon muutos merkitsee uuden kunnan perustamista tai kuntien lukumäärän vähenemistä, asianomaisten kuntien tulee sopia hallinnon ja palvelujen järjestämisestä muutoksen kohteena olevalla alueella, ja sopimukseen on liitettävä suunnitelma, miten kuntien palvelurakenteita sovitetaan yhteen taloudellisuuden ja tehokkuuden parantamiseksi. Sopimusta on noudatettava kuntajaon muutoksen voimaantulosta lukien viiden seuraavan vuoden ajan, jollei ole sovittu lyhyemmästä ajasta tai jolleivät olosuhteet ole muuttuneet siten, ettei sopimuksen noudattaminen ole mahdollista.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Hallinnon ja palvelujen järjestämissopimus ja suunnitelma on liitettävä asianomaisten kuntien 6 §:n 1 momentin mukaiseen kuntajaon muutosta koskevaan esitykseen. Jos kuntajaon muutos tehdään 4 §:n 2 momentin perusteella, asianomaisten kuntien on laadittava 1 momentin mukainen sopimus ja suunnitelma ennen kuntajaon voimaantuloa sekä toimitettava ne sisäasiainministeriölle.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>38 §</num>
+                    <heading>Laskennallinen yhdistymisavustus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos yhdistymisavustuksen maksukauden aikana kuntajakoa muutetaan siten, että kunnat olisivat oikeutettuja uuteen laskennalliseen yhdistymisavustukseen, yhdistymisavustusta jo saavan kunnan asukaslukua ei oteta huomioon yhdistymisavustusta määrättäessä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>39 §</num>
+                    <heading>Valtionosuuksien vähenemisen korvaaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos 38 §:ssä tarkoitettu kuntajaon muutos vähentää asianomaisten kuntien valtionosuuksia, kunnille myönnetään vähennyksen johdosta kuntajaon muutoksen voimaantulovuotena ja sitä seuraavina neljänä vuotena valtionosuuksien vähenemisen korvausta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kuntajaon muutoksen voimaantulovuodelta maksettavan korvauksen määrä lasketaan vertaamalla muutoksen kohteena oleville kunnille muutosta edeltävänä vuotena myönnettyjä yleistä valtionosuutta, verotuloihin perustuvaa valtionosuuksien tasausta ja tehtäväkohtaisia käyttökustannusten valtionosuuksia niihin vastaaviin valtionosuuksiin, jotka kunnille maksettaisiin sellaisen kuntajaon muutoksen perusteella, joka olisi toteutettu samana vuonna. Laskelman tekee sisäasiainministeriö kuntien valtionosuuslaissa (1147/1996) tarkoitettujen asianomaisten ministeriöiden antamien tietojen perusteella. Ensimmäisenä voimaantulovuotta seuraavana vuotena korvauksen määrä on 80, toisena 60, kolmantena 40 ja neljäntenä 20 prosenttia voimaantulovuoden määrästä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vuonna 2006 voimaan tulevissa kuntajaon muutoksissa korvauksen määrä lasketaan vertaamalla kuntajaon muutoksen voimaantulovuodelle kuntien valtionosuuslain 16 §:n 2 momentin perusteella kunnalle päätettyjä yleistä valtionosuutta, verotuloihin perustuvaa valtionosuuksien tasausta ja tehtäväkohtaisia käyttökustannusten valtionosuuksia niihin vastaaviin valtionosuuksiin, jotka kunnille olisi erikseen myönnetty, jos kuntajaon muutosta ei olisi toteutettu tänä samana vuonna. Jos tällöin valtionosuuksien vähenemisen ja siitä maksettavan valtionosuuksien vähenemisen korvauksen erotus on kuntajaon muutoksen voimaantulovuotena ja sitä seuraavina neljänä vuotena yhteensä enemmän kuin 400 000 euroa, tämän ylittävä määrä maksetaan kunnalle vuosittain tasaerinä voimaantuloa seuraavana neljänä vuotena.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Silloin kun korvausta saa useampi kuin yksi kunta, korvaus jaetaan kuntien kesken asukaslukujen suhteessa. Kuntien asukaslukujen perusteena pidetään väestötietolain mukaisia kuntajaon voimaantulovuotta edeltävän vuoden väestötietoja.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Sisäasiainministeriö maksaa korvaukset yhdistymisavustusten yhteydessä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>40 §</num>
+                    <heading>Investointi- ja kehittämishankkeiden tuki</heading>
+                    <subsection>
+                        <content>
+                            <p>Sisäasiainministeriö voi myöntää kunnille vuosien 2006―2009 alusta voimaan tulevan 38 §:ssä tarkoitetun kuntajaon muutoksen edistämiseksi tukea sellaisiin investointi- ja kehittämishankkeisiin, joilla pyritään taloudellisuuden ja tehokkuuden parantamiseen sovittamalla yhteen kuntien palvelurakenteita tai vahvistamaan elinkeinopohjaa. Investointi- ja kehittämishankkeiden tuki voi olla enintään 1 700 000 euroa kuntajaon muutosta kohden.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kuntien on haettava investointi- ja kehittämishankkeiden tukea erikseen kuntajaon muutosta koskevan esityksensä yhteydessä tai 4 §:n 2 momentin perusteella tehtävässä kuntajaon muutoksessa kuukauden kuluttua valtioneuvoston kuntajaon muutosta tarkoittavasta päätöksestä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos kunnat hakevat investointi- ja kehittämishankkeiden tukea sellaiseen 1 momentissa tarkoitettuun hankkeeseen, johon muu viranomainen voi myöntää valtionosuutta tai -avustusta muun lain nojalla tai valtion talousarviossa muuhun tarkoitukseen osoitetuista määrärahoista, sisäasiainministeriön tulee ennen tuen myöntämistä kuulla tätä viranomaista.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Sisäasiainministeriö päättää tuen maksamisesta sen jälkeen, kun valtioneuvosto on päättänyt kuntajaon muutoksesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä huhtikuuta 2005.</p>
+                    <p>Lakia sovelletaan ensimmäisen kerran sellaisiin kuntajaon muutoksiin, jotka tulevat voimaan 1 päivänä tammikuuta 2006.</p>
+                    <p>Lain 9 §:ää sovelletaan kuitenkin sellaisiin kuntajaon muutoksiin, jotka tulevat voimaan 1 päivänä tammikuuta 2007.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/264">HE 264/2004</ref>
+                        </p>
+                        <p>HaVM 3/2005</p>
+                        <p>EV 19/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 18 päivänä maaliskuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Alue- ja kuntaministeri </role>
+                                <person refersTo="">Hannes Manninen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

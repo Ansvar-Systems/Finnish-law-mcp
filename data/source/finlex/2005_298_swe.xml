@@ -1,0 +1,263 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/298/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/298"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/298/alkup"/>
+                    <FRBRdate date="2005-05-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="298"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/298/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/298/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/298/alkup/swe"/>
+                    <FRBRdate date="2005-05-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/298/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/298/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/298/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="56"/>
+                    <finlex:date date="2005-05-18"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>298/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om placeringsfonder</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 29 januari 1999 om placeringsfonder (<affectedDocument href="/akn/fi/act/statute/1999/48">48/1999</affectedDocument>) 99―101 § och 146 § 1 och 2 punkten,
+                    </block>
+                    <block name="substitutions-originals">av dem 99 § sådan den lyder delvis ändrad i lag 224/2004 och 146 § 1 och 2 punkten sådana de lyder i sistnämnda lag, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>99 §</num>
+                    <subsection>
+                        <intro>
+                            <p>
+                                Innehav av andelar i placeringsfonder är offentliga, om fondandelsägaren (<i>den anmälningsskyldige</i>) är
+                            </p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>medlem eller suppleant i fondbolagets eller förvaringsinstitutets styrelse, verkställande direktör eller dennes ställföreträdare, revisor eller en för revisionen av fondbolaget eller förvaringsinstitutet huvudansvarig person i en revisionssammanslutnings anställning,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>en annan anställd hos fondbolaget eller en person som handlar på fondbolagets vägnar eller för fondbolagets räkning med möjlighet att påverka de beslut som gäller investering av placeringsfondens tillgångar,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>en annan anställd hos förvaringsinstitutet som i sitt uppdrag har möjlighet att få information om placeringsfondens investeringsverksamhet,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>make eller maka till en ovan nämnd person, en omyndig vars intressebevakare en sådan person är, eller en annan familjemedlem som minst ett år har bott i samma hushåll som en sådan person,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>en sammanslutning eller stiftelse vari en person som avses i denna paragraf ensam eller tillsammans med sina familjemedlemmar eller med någon annan person som avses i denna paragraf eller med någon av dennas familjemedlemmar har bestämmande inflytande enligt 1 kap. 5 § i värdepappersmarknadslagen,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>aktieägare i fondbolaget eller en person som enligt 2 kap. 9 § i värdepappersmarknadslagen kan jämställas med en sådan.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>En anmälningsskyldig som avses i 1 mom. 1―3 punkten skall underrätta fondbolaget om</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>att det föreligger ett sådant förhållande som avses i 1 mom. 3―5 punkten,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>en sammanslutning eller en stiftelse vari en anmälningsskyldig har ett avsevärt inflytande, så att den anmälningsskyldige intar en ställning som avses i 1 mom. 1 punkten eller en därmed jämförbar ställning eller är bolagsman i ett öppet bolag eller ansvarig bolagsman i ett kommanditbolag, samt om att det skett förändringar i de nämnda uppgifterna,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>sådana i sin ägo samt i en i 1 mom. 4 och 5 punkten avsedd persons ägo varande aktier eller enligt lagen om aktiebolag till aktier berättigande värdepapper som en av fondbolaget förvaltad placeringsfonds tillgångar kan investeras i inom Europeiska ekonomiska samarbetsområdet, om avtal och åtaganden som avser förvärv eller avyttring av sådana värdepapper samt i avtalsförhållanden som gäller innehav, förvärv och avyttring av sådana värdepapper inträffande förändringar som uppgår till minst 5 000 euro inom sju dagar efter förändringen.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>En anmälan som avses i 2 mom. skall göras inom 14 dagar efter det att</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>personen tog emot ett uppdrag enligt 1 mom. 1―3 punkten,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>ett sådant förhållande som avses i 1 mom. 4 eller 5 punkten eller i 2 mom. 2 punkten uppkom, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>det skedde en förändring i de förhållanden som avses i 1 mom. eller i 2 mom. 1 eller 2 punkten.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om det totala beloppet av transaktioner och överlåtelser under ett kalenderår inte uppgår till 5 000 euro, skall anmälan trots detta göras senast den 31 januari det följande kalenderåret.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Anmälningsskyldigheten gäller inte uppgifter om bostadsaktiebolag, fastighetsaktiebolag, ideella föreningar eller ekonomiska föreningar. Om en sammanslutning bedriver regelbunden handel med värdepapper, skall emellertid även uppgifter om dem lämnas.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om värdepapperen har överförts till värdeandelssystemet, kan fondbolaget organisera ett förfarande som innebär att uppgifterna kan fås ur värdeandelssystemet. Någon särskild anmälan behöver då inte göras till denna del.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>100 §</num>
+                    <subsection>
+                        <content>
+                            <p>
+                                Ett fondbolag skall föra ett register av vilket i fråga om varje anmälningsskyldig framgår sådana innehav och avtalsförhållanden som avses i 99 § samt transaktioner och andra överlåtelser specificerade (<i>insiderregister</i>).
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Uppgifterna i insiderregistret skall antecknas så att de inte i efterhand kan ändras eller utplånas. Registerföringen skall ordnas så att endast de som har rätt att föra registret kan ändra uppgifterna. Registeranteckningar skall göras utan obefogat dröjsmål. Uppgifterna i registret skall sparas minst fem år efter att de förts in i registret.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Var och en har rätt att obehindrat ta del av insiderregistret och mot kostnadsersättning få registerutdrag och kopior. Fysiska personers personbeteckning och adress samt namnet på personer som avses i 99 § 1 mom. 4 punkten är dock inte offentliga.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>101 §</num>
+                    <subsection>
+                        <content>
+                            <p>I anmälan skall ingå de uppgifter som behövs för att specificera personen eller sammanslutningen eller stiftelsen i fråga samt uppgifter om värdepapperen. Finansinspektionen kan meddela närmare föreskrifter om innehållet i anmälan och om anmälningssättet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>146 §</num>
+                    <subsection>
+                        <intro>
+                            <p>Den som uppsåtligen eller av grov oaktsamhet</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>bryter mot förbud som avses i 24 § 1 mom. eller 30 §,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>försummar de skyldigheter som fondbolag eller förvaringsinstitut har enligt 25 § 2 mom., 26 § 1 mom., 28 §, 31 § 2 mom., 45 §, 47 § 3 mom., 49 §, 52 § 1 mom., 92―96 § och 118 § 2 och 3 mom.,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juli 2005.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                    <p>Uppgifterna i insiderregister enligt 100 § skall ändras så att de stämmer överens med denna lag inom sex månader efter lagens ikraftträdande.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 137/2004</p>
+                        <p>EkUB 4/2005</p>
+                        <p>RSv 28/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 13 maj 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Andra finansminister </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

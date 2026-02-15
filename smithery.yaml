@@ -1,0 +1,50 @@
+# Smithery Registry Configuration
+# https://smithery.ai
+
+name: finnish-law-mcp
+title: Finnish Law MCP
+description: |
+  MCP server for Finnish statutes and regulations.
+  Query Finnish law directly from Claude, Cursor, or any MCP-compatible client.
+
+author: Ansvar Systems
+authorUrl: https://ansvar.ai
+repository: https://github.com/Ansvar-Systems/finnish-law-mcp
+license: Apache-2.0
+
+categories:
+  - legal-and-compliance
+  - reference-data
+
+tags:
+  - finnish-law
+  - finland
+  - finlex
+  - laki
+  - legal
+  - compliance
+  - nordic
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({
+      command: 'npx',
+      args: ['-y', '@ansvar/finnish-law-mcp']
+    })
+
+tools:
+  - name: search_laws
+    description: Full-text search across Finnish statutes
+
+  - name: get_section
+    description: Retrieve a specific section from a statute
+
+  - name: list_statutes
+    description: List available statutes and their structure
+
+  - name: get_definitions
+    description: Look up official definitions from Finnish law

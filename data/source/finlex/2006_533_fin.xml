@@ -1,0 +1,186 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/533/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/533"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/533/alkup"/>
+                    <FRBRdate date="2006-06-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="533"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/533/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/533/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/533/alkup/fin"/>
+                    <FRBRdate date="2006-06-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/533/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/533/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/533/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="84"/>
+                    <finlex:date date="2006-06-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>533/2006</docNumber>
+                <docTitle>Laki työsopimuslain 4 luvun muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         26 päivänä tammikuuta 2001 annetun työsopimuslain (
+                        <affectedDocument href="/akn/fi/act/statute/2001/55">55/2001</affectedDocument>
+                        ) 4 luvun 1 ja 3 §, 4 §:n 1 momentti ja 6 §:n 1 momentti, sellaisena kuin niistä on 4 §:n 1 momentti laissa 870/2003, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         4 lukuun uusi 3 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>4 luku</num>
+                    <heading>Perhevapaat</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Äitiys-, erityisäitiys-, isyys- ja vanhempainvapaa</heading>
+                        <subsection>
+                            <content>
+                                <p>Työntekijällä on oikeus saada vapaaksi työstä sairausvakuutuslaissa tarkoitetut äitiys-, erityisäitiys-, isyys- ja vanhempainrahakaudet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Työntekijällä on oikeus pitää vanhempainvapaa enintään kahdessa osassa, joiden tulee olla vähintään 12 arkipäivän pituisia.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Hoitovapaa</heading>
+                        <subsection>
+                            <content>
+                                <p>Työntekijällä on oikeus saada hoitovapaata lapsensa tai muun hänen taloudessaan vakituisesti asuvan lapsen hoitamiseksi, kunnes lapsi täyttää kolme vuotta. Ottolapsen vanhemman oikeus hoitovapaaseen jatkuu kuitenkin siihen saakka, kun lapseksi ottamisesta on kulunut kaksi vuotta, enintään siihen asti, kun lapsi aloittaa koulun.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Hoitovapaana voidaan pitää enintään kaksi vähintään kuukauden pituista jaksoa, jolleivät työnantaja ja työntekijä sovi kahta useammasta tai kuukautta lyhyemmästä jaksosta. Hoitovapaata saa vain toinen vanhemmista tai huoltajista kerrallaan. Äitiys- tai vanhempainvapaan aikana toinen vanhemmista tai huoltajista voi kuitenkin pitää yhden jakson hoitovapaata.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>3 a §</num>
+                        <heading>Äitiys-, isyys- ja vanhempainvapaasta sekä hoitovapaasta ilmoittaminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Äitiys-, isyys- ja vanhempainvapaasta sekä hoitovapaasta on ilmoitettava työnantajalle viimeistään kaksi kuukautta ennen vapaan aiottua alkamisaikaa. Jos vapaan kesto on enintään 12 arkipäivää, ilmoitusaika on kuitenkin yksi kuukausi. Ottolapsen hoidon vuoksi pidettävästä vapaasta ilmoitettaessa on, jos mahdollista, noudatettava edellä säädettyä ilmoitusaikaa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos kahden kuukauden ilmoitusajan noudattaminen ei ole puolison työhön menon ja siitä johtuvan lapsen hoidon järjestämisen takia mahdollista, työntekijällä on oikeus jäädä vanhempainvapaalle kuukauden kuluttua ilmoituksesta, ellei siitä aiheudu työpaikan tuotanto- tai palvelutoiminnalle vakavaa haittaa. Työnantajan on katsoessaan, ettei voi suostua kuukauden ilmoitusaikaan, esitettävä työntekijälle selvitys kieltäytymisen perusteena olevista seikoista.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Työntekijä saa perustellusta syystä muuttaa vapaan ajankohdan ja pituuden ilmoittamalla siitä työnantajalle viimeistään kuukautta ennen muutosta. Työntekijä saa kuitenkin varhentaa äitiysvapaan sekä muuttaa synnytyksen yhteydessä pidettäväksi aiotun isyysvapaan ajankohdan, jos se on tarpeen lapsen syntymän tai lapsen, äidin tai isän terveydentilan vuoksi. Muutoksesta on tällöin ilmoitettava työnantajalle niin pian kuin mahdollista. Ottolapsen vanhempi saa perustellusta syystä muuttaa ennen vapaan alkamista vapaan ajankohtaa ilmoittamalla siitä työnantajalle niin pian kuin se on mahdollista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Osittainen hoitovapaa</heading>
+                        <subsection>
+                            <content>
+                                <p>Työntekijä, joka on ollut saman työnantajan työssä yhteensä vähintään kuusi kuukautta viimeksi kuluneiden 12 kuukauden aikana, voi saada lapsensa tai muun hänen taloudessaan vakituisesti asuvan lapsen hoitamiseksi osittaista hoitovapaata siihen saakka, kun perusopetuksessa olevan lapsen toinen lukuvuosi päättyy. Jos lapsi kuuluu perusopetuslain (628/1998) 25 §:n 2 momentissa tarkoitetun pidennetyn oppivelvollisuuden piiriin, osittaista hoitovapaata voi kuitenkin saada siihen saakka, kun lapsen kolmas lukuvuosi päättyy. Erityisen hoidon ja huollon tarpeessa olevan vammaisen tai pitkäaikaissairaan lapsen vanhempi voi saada osittaista hoitovapaata siihen saakka, kun lapsi täyttää 18 vuotta. Lapsen molemmat vanhemmat tai huoltajat saavat olla osittaisella hoitovapaalla saman kalenterijakson aikana, mutta eivät yhtäaikaisesti. Työntekijän on tehtävä työnantajalle esitys osittaisesta hoitovapaasta viimeistään kaksi kuukautta ennen vapaan alkamista.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Tilapäinen hoitovapaa</heading>
+                        <subsection>
+                            <content>
+                                <p>Työntekijän lapsen tai muun hänen taloudessaan vakituisesti asuvan lapsen, joka ei ole täyttänyt 10 vuotta, sairastuessa äkillisesti työntekijällä on oikeus saada lapsen hoidon järjestämiseksi tai tämän hoitamiseksi tilapäistä hoitovapaata enintään neljä työpäivää kerrallaan. Sama oikeus on myös lapsen vanhemmalla, joka ei asu tämän kanssa samassa taloudessa. Tilapäiseen hoitovapaaseen oikeutetut saavat olla tilapäisellä hoitovapaalla saman kalenterijakson aikana, mutta eivät yhtäaikaisesti.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä elokuuta 2006. Lain 4 luvun 3 a § tulee kuitenkin voimaan jo 1 päivänä heinäkuuta 2006.</p>
+                    <p>Jos työntekijä on ilmoittanut äitiys-, isyys-, vanhempain- tai hoitovapaan ajankohdasta tai sen muuttamisesta työnantajalle ennen 1 päivää heinäkuuta 2006, vapaaseen sovelletaan tämän lain 4 luvun 3 a §:n voimaan tullessa voimassa olleita säännöksiä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/44">HE 44/2006</ref>
+                        </p>
+                        <p>TyVM 4/2006</p>
+                        <p>EV 59/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Naantalissa 29 päivänä kesäkuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Työministeri </role>
+                                <person refersTo="">Tarja Filatov</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

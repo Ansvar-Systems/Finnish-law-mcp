@@ -1,0 +1,121 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/815/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/815"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/815/alkup"/>
+                    <FRBRdate date="2005-10-14" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="815"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/815/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/815/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/815/alkup/swe"/>
+                    <FRBRdate date="2005-10-14" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/815/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/815/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/815/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="135"/>
+                    <finlex:date date="2005-10-20"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>815/2005</docNumber>
+                <docTitle>Lag om ändring av avfallslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till avfallslagen av den 3 december 1993 (
+                        <affectedDocument href="/akn/fi/act/statute/1993/1072">1072/1993</affectedDocument>
+                        ) en ny 40 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>40 a §</num>
+                    <heading>Deltagande i beredningen av avfallsplaner</heading>
+                    <subsection>
+                        <content>
+                            <p>När den riksomfattande avfallsplanen bereds skall de myndigheter och intressegrupper vilkas rätt eller fördel ärendet berör samt de riksomfattande föreningar och stiftelser som avses i 59 § ges tillfälle att avge utlåtande om utkastet till plan. Utkastet skall publiceras i elektronisk form och allmänheten skall i tillräckligt god tid ges tillfälle att framföra sina åsikter. Information om en godkänd plan jämte motivering samt om hur de framförda åsikterna har blivit beaktade skall ges i elektronisk form.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelser om deltagande i beredningen av en regional avfallsplan finns i lagen om bedömning av miljökonsekvenserna av myndigheters planer och program (200/2005).</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 november 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 69/2005</p>
+                        <p>MiUB 10/2005</p>
+                        <p>RSv 107/2005</p>
+                        <p>Europaparlamentets och rådets direktiv 2004/42/EG (32004L0042); EGT nr L 143, 30.4.2004, s. 87</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 14 oktober 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Miljöminister </role>
+                                <person refersTo="">Jan-Erik Enestam</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

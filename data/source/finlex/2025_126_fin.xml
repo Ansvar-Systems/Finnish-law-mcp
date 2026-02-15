@@ -1,0 +1,364 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2025/126/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/126"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/126/alkup"/>
+                    <FRBRdate date="2025-04-04" name="dateIssued"/>
+                    <FRBRdate date="2025-04-07" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="126"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2025/126/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/126/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/126/alkup/fin"/>
+                    <FRBRdate date="2025-04-04" name="dateIssued"/>
+                    <FRBRdate date="2025-04-07" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2025/126/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/126/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/126/alkup/fin/xml"/>
+                    <FRBRdate date="2025-12-09" name="dateProduced"/>
+                    <FRBRdate date="2025-04-07" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2025</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>126/2025</docNumber>
+                <docTitle>Laki  sähköisen viestinnän palveluista annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti </p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         sähköisen viestinnän palveluista annetun lain (<affectedDocument href="/akn/fi/act/statute/2014/917">917/2014</affectedDocument>) 2 §:n 2 momentti ja 247 a §, sellaisina kuin ne ovat, 2 §:n 2 momentti laissa 1207/2020 ja 247 a § laissa 281/2018,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         165 §:n 1 momentti, 167, 170 ja 275 §, 308 §:n 3 momentti, 313 §:n 2 momentin  2 kohta, 318 §:n 4 momentti ja 342 §:n 2 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 165 §:n 1 momentti, 170 §, 308 §:n 3 momentti sekä 313 §:n 2 momentin 2 kohta laissa 1003/2018, 167 § laeissa 1003/2018 ja 1207/2020 sekä 275 § ja 318 §:n 4 momentti laissa 1207/2020 sekä 342 §:n 2 momentti laissa 1182/2023, ja</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         165 §:ään, sellaisena kuin se on laissa 1003/2018, uusi 4 momentti ja 247 §:ään, sellaisena kuin se on laissa 1003/2018, uusi 5 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section eId="sec_165">
+                    <num>165 §</num>
+                    <heading>Verkkotunnusvälittäjän ilmoitusvelvollisuudet </heading>
+                    <subsection eId="sec_165__subsec_1">
+                        <intro eId="sec_165__subsec_1__intro">
+                            <p>Verkkotunnusvälittäjän on ennen toimintansa aloittamista tehtävä ilmoitus verkkotunnusrekisteriä hallinnoivalle viranomaiselle. Ilmoituksessa on oltava seuraavat tiedot:</p>
+                        </intro>
+                        <paragraph eId="sec_165__subsec_1__para_1">
+                            <num>1) </num>
+                            <content>
+                                <p>verkkotunnusvälittäjän nimi, y-tunnus tai sellaisen puuttuessa muu yksilöivä tieto sekä kuulemisiin ja tiedoksiantoihin käytettävä sähköpostiosoite;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_165__subsec_1__para_2">
+                            <num>2) </num>
+                            <content>
+                                <p>verkkotunnusvälittäjän päätoimipaikan ja muiden Euroopan unionissa sijaitsevien laillisten toimipaikkojen osoite ja ajantasaiset yhteystiedot tai, jos verkkotunnusvälittäjä ei ole sijoittautunut Euroopan unioniin, sen Euroopan unioniin nimetyn edustajan osoite, sähköpostiosoitteet, puhelinnumerot ja muut ajantasaiset yhteystiedot;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_165__subsec_1__para_3">
+                            <num>3) </num>
+                            <content>
+                                <p>verkkotunnusvälittäjän IP-osoitealueet;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_165__subsec_1__para_4">
+                            <num>4) </num>
+                            <content>
+                                <p>luettelo niistä Euroopan unionin jäsenvaltioista, joissa verkkotunnusvälittäjä tarjoaa palveluja; ja</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_165__subsec_1__para_5">
+                            <num>5) </num>
+                            <content>
+                                <p>muut kuin 1–4 kohdassa tarkoitetut valvonnan kannalta tarpeelliset tiedot.</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                    <subsection eId="sec_165__subsec_2">
+                        <content>
+                            <p>
+                                Liikenne- ja viestintäviraston on toimitettava toimenpiteistä kyberturvallisuuden yhteisen korkean tason varmistamiseksi kaikkialla unionissa, asetuksen (EU) N:o 910/2014 ja direktiivin (EU) 2018/1972 muuttamisesta sekä direktiivin (EU) 2016/1148 kumoamisesta annetun Euroopan parlamentin ja neuvoston direktiivin (EU) 2022/2555 (<i>NIS 2 -direktiivi</i>) 27 artiklan 4 kohdassa tarkoitetun ilmoituksen tekemiseksi tarpeelliset tiedot verkkotunnusvälittäjien ilmoituksista kyberturvallisuuslain (124/2025) 18 §:ssä tarkoitetulle keskitetylle yhteyspisteelle.
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_167">
+                    <num>167 §</num>
+                    <heading>Tietojen merkitseminen verkkotunnusrekisteriin ja tietojen julkaiseminen</heading>
+                    <subsection eId="sec_167__subsec_1">
+                        <content>
+                            <p>Verkkotunnus on merkittävä verkkotunnuksen käyttäjän nimiin. Verkkotunnuksen käyttäjän on ilmoitettava verkkotunnusvälittäjälle oikeat, ajantasaiset ja yksilöivät käyttäjä- ja yhteystiedot sekä niissä tapahtuvat muutokset. Verkkotunnusvälittäjän tai sen puolesta toimivan on merkittävä verkkotunnusrekisteriin verkkotunnuksen käyttäjää ja rekisteröityä verkkotunnusta koskevat oikeat, ajantasaiset ja yksilöivät tiedot sekä kuulemisiin ja tiedoksiantoihin käytettävä sähköpostiosoite.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_167__subsec_2">
+                        <content>
+                            <p>Liikenne- ja viestintävirasto voi estää verkkotunnuksen rekisteröinnin verkkotunnusrekisteriin, jos se epäilee 1 momentissa tarkoitettujen tietojen olevan puutteellisia tai virheellisiä eikä verkkotunnusvälittäjä kehotuksesta huolimatta todenna tietoja oikeiksi määräajassa. Liikenne- ja viestintävirasto asettaa julkisesti saataville käytössään olevat käyttäjätietojen oikeellisuuden varmistamista koskevat toimintaperiaatteet ja menettelyt.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_167__subsec_3">
+                        <content>
+                            <p>Liikenne- ja viestintävirasto julkaisee ilman aiheetonta viivytystä internet-sivuillaan tai muussa sähköisessä palvelussa verkkotunnusrekisterin tiedot. Henkilötietojen suojasta säädetään luonnollisten henkilöiden suojelusta henkilötietojen käsittelyssä sekä näiden tietojen vapaasta liikkuvuudesta ja direktiivin 95/46/EY kumoamisesta annetussa Euroopan parlamentin ja neuvoston asetuksessa (EU) 2016/679 (yleinen tietosuoja-asetus) ja sitä täydentävässä tietosuojalaissa. Liikenne- ja viestintäviraston on vastattava verkkotunnusten rekisteritietoihin pääsyä koskevaan pyyntöön ilman aiheetonta viivytystä ja viimeistään 72 tunnin kuluessa pyynnön vastaanottamisesta. Rekisterin tietojen luovuttamiseen sovelletaan muutoin viranomaisten toiminnan julkisuudesta annetun lain 16 §:ää. Liikenne- ja viestintävirasto asettaa julkisesti saataville käytössään olevat toimintaperiaatteet ja menettelyt verkkotunnusten rekisteröintitietojen luovuttamisesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_167__subsec_4">
+                        <content>
+                            <p>Verkkotunnusrekisteriin merkitty verkkotunnus on voimassa enintään viisi vuotta. Verkkotunnusvälittäjä voi uudistaa verkkotunnusta koskevan merkinnän enintään viideksi vuodeksi kerrallaan.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_167__subsec_5">
+                        <content>
+                            <p>Liikenne- ja viestintävirasto voi antaa tarkempia määräyksiä merkitsemisen teknisestä toteuttamistavasta ja merkitsemisen yhteydessä ilmoitettavista tiedoista sekä verkkotunnuksen käyttäjän teknisestä tunnistamisesta ja verkkotunnuksen käyttäjän tietojen varmistamisesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_170">
+                    <num>170 §</num>
+                    <heading>Verkkotunnusvälittäjän muut velvollisuudet</heading>
+                    <subsection eId="sec_170__subsec_1">
+                        <intro eId="sec_170__subsec_1__intro">
+                            <p>Verkkotunnusvälittäjän on:</p>
+                        </intro>
+                        <paragraph eId="sec_170__subsec_1__para_1">
+                            <num>1) </num>
+                            <content>
+                                <p>tarjottava ennen verkkotunnuksen merkitsemistä tämän lain mukaiset tarvittavat tiedot verkkotunnuksen sisältöön ja muotoon liittyvistä edellytyksistä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_170__subsec_1__para_2">
+                            <num>2) </num>
+                            <content>
+                                <p>pidettävä verkkotunnusrekisteriin merkityt tiedot ajantasaisina;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_170__subsec_1__para_3">
+                            <num>3) </num>
+                            <content>
+                                <p>kyettävä merkitsemään tietoja verkkotunnusrekisteriin Liikenne- ja viestintäviraston määrittelemällä teknisellä järjestelyllä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_170__subsec_1__para_4">
+                            <num>4) </num>
+                            <content>
+                                <p>tiedotettava verkkotunnuksen käyttäjää riittävästi ja tehokkaasti verkkotunnuksen voimassaoloajan päättymisestä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_170__subsec_1__para_5">
+                            <num>5) </num>
+                            <content>
+                                <p>poistettava verkkotunnus verkkotunnusrekisteristä verkkotunnuksen käyttäjän pyynnöstä ennen voimassaoloajan päättymistä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_170__subsec_1__para_6">
+                            <num>6) </num>
+                            <content>
+                                <p>huolehdittava toimintansa tietoturvasta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_170__subsec_1__para_7">
+                            <num>7) </num>
+                            <content>
+                                <p>ilmoitettava viipymättä Liikenne- ja viestintävirastolle, jos sen verkkotunnusten välitystoimintaan kohdistuu tai sitä uhkaa merkittävä tietoturvaloukkaus taikka muu tapahtuma, joka estää tai häiritsee sitä olennaisesti; samalla on myös ilmoitettava häiriön tai sen uhan arvioitu kesto ja vaikutukset, korjaustoimenpiteet sekä ne toimenpiteet, joilla häiriön toistuminen pyritään estämään;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_170__subsec_1__para_8">
+                            <num>8) </num>
+                            <content>
+                                <p>asetettava julkisesti saataville toimintaperiaatteet ja menettelyt, joilla varmistetaan verkkotunnusrekisterin tietojen olevan 167 §:n 1 momentissa säädetyn mukaiset;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_170__subsec_1__para_9">
+                            <num>9) </num>
+                            <content>
+                                <p>asetettava muut verkkotunnuksen rekisteröintitiedot kuin henkilötiedot julkisesti saataville ilman aiheetonta viivytystä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_170__subsec_1__para_10">
+                            <num>10) </num>
+                            <content>
+                                <p>annettava pääsy verkkotunnusten rekisteröintitietoihin tietosuojalainsäädännön mukaisesti ja maksuttomasti sekä vastattava rekisteritietoihin pääsyä oikeutetusti pyytävälle ilman aiheetonta viivytystä ja viimeistään 72 tunnin kuluessa lainmukaisen ja asianmukaisesti perustellun pyynnön vastaanottamisesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId="sec_170__subsec_1__para_11">
+                            <num>11) </num>
+                            <content>
+                                <p>asetettava julkisesti saataville toimintaperiaatteet ja menettelyt verkkotunnusten rekisteröintitietojen luovuttamisesta.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection eId="sec_170__subsec_2">
+                        <content>
+                            <p>Liikenne- ja viestintävirasto voi antaa tarkempia määräyksiä verkkotunnuksen käyttäjälle annettavista tiedoista, julkisesti saataville asetettavista tiedoista, pääsyn antamisesta tietoihin sekä 1 momentin 8 ja 11 kohdassa tarkoitetuista toimintaperiaatteista ja menettelyistä, toiminnan tietoturvallisuudesta sekä siitä, milloin 1 momentin 7 kohdassa tarkoitettu häiriö on merkittävä sekä ilmoituksen sisällöstä, muodosta ja toimittamisesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_170__subsec_3">
+                        <content>
+                            <p>Kyberturvallisuuslain 2 §:n 3 kohdassa tarkoitetun DNS-palveluntarjoajan velvollisuudesta huolehtia viestintäverkkoihin ja tietojärjestelmiin kohdistuvien riskien hallinnasta ja poikkeamien ilmoittamisesta säädetään kyberturvallisuuslaissa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_247">
+                    <num>247 §</num>
+                    <heading>Viestinnän välittäjän ja lisäarvopalvelun tarjoajan velvollisuus huolehtia tietoturvasta</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Tietoturvasta huolehtimiseen sovelletaan lisäksi, mitä kyberturvallisuuslaissa säädetään sellaisen viestinnän välittäjän ja lisäarvopalvelun tarjoajan osalta, joka kuuluu NIS 2 -direktiivin soveltamisalaan.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_275">
+                    <num>275 §</num>
+                    <heading>Häiriöilmoitukset Liikenne- ja viestintävirastolle</heading>
+                    <subsection eId="sec_275__subsec_1">
+                        <content>
+                            <p>Teleyrityksen on ilmoitettava viipymättä Liikenne- ja viestintävirastolle, jos sen palveluun kohdistuu tai sitä uhkaa merkittävä tietoturvaloukkaus taikka muu tapahtuma, joka estää viestintäpalvelun toimivuuden tai häiritsee sitä olennaisesti. Teleyrityksen on ilmoitettava myös ilman aiheetonta viivästystä häiriön tai sen uhan arvioitu kesto ja vaikutukset, korjaustoimenpiteet sekä ne toimenpiteet, joilla häiriön toistuminen pyritään estämään. </p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_275__subsec_2">
+                        <content>
+                            <p>Jos häiriöistä ilmoittaminen on yleisen edun mukaista, Liikenne- ja viestintävirasto voi velvoittaa teleyrityksen tiedottamaan asiasta tai kuultuaan ilmoitusvelvollista tiedottaa asiasta itse.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_275__subsec_3">
+                        <content>
+                            <p>Liikenne- ja viestintävirasto voi antaa tarkempia määräyksiä siitä, milloin 1 momentissa tarkoitettu häiriö on merkittävä, sekä 1 momentissa tarkoitettujen ilmoitusten sisällöstä, muodosta ja toimittamisesta.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_275__subsec_4">
+                        <content>
+                            <p>Liikenne- ja viestintäviraston on arvioitava, koskeeko 1 momentissa tarkoitettu häiriö muita Euroopan unionin jäsenvaltioita ja ilmoitettava tarvittaessa muille asiaan liittyville jäsenvaltioille. Edellä 1 momentissa tarkoitetusta häiriöstä on lisäksi tarvittaessa ilmoitettava Euroopan unionin kyberturvallisuusvirastolle. Häiriöilmoituksiin sovelletaan lisäksi, mitä kyberturvallisuuslaissa säädetään poikkeamailmoituksista.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_308">
+                    <num>308 §</num>
+                    <heading>Yhteistyö eri viranomaisten kanssa</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Liikenne- ja viestintäviraston on toimittava yhteistyössä muiden Euroopan unionin jäsenvaltioiden verkko- ja tietoturvallisuutta valvovien viranomaisten, tietoturvaloukkauksiin reagoivien yksiköiden sekä NIS 2 -direktiivin 14–16 artiklassa tarkoitetun yhteistyöryhmän, CSIRT-verkoston ja Euroopan kyberkriisien yhteysorganisaatioiden verkoston kanssa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_313">
+                    <num>313 §</num>
+                    <heading>Valvonta-asioiden käsittely Liikenne- ja viestintävirastossa</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Liikenne- ja viestintävirasto voi asettaa tässä laissa säädetyt valvontatehtävänsä tärkeysjärjestykseen. Liikenne- ja viestintävirasto voi jättää asian tutkimatta, jos:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>asialla on epäillystä virheestä tai laiminlyönnistä huolimatta viestintämarkkinoiden toimivuuden, viestintäpalvelujen luotettavuuden tai sähköisen viestinnän häiriöttömyyden turvaamisen ja palveluja käyttävien edun kannalta vain vähäinen merkitys; tai</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section eId="sec_318">
+                    <num>318 §</num>
+                    <heading>Tietojen luovuttaminen viranomaisesta</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Liikenne- ja viestintäministeriöllä ja Liikenne- ja viestintävirastolla on oikeus luovuttaa salassa pidettävä asiakirja sekä ilmaista salassa pidettävä tieto komissiolle, Euroopan sähköisen viestinnän sääntelyviranomaisten yhteistyöelimelle ja toisen ETA-valtion valvontaviranomaiselle, jos se on viestintämarkkinoiden valvonnan kannalta välttämätöntä. Liikenne- ja viestintävirastolla on oikeus luovuttaa 170 §:n 1 momentin 7 kohdan, 171 §:n ja 275 §:n 1 momentin nojalla saamansa salassa pidettävä asiakirja sekä ilmaista salassa pidettävä tieto toisen ETA-valtion valvontaviranomaiselle, NIS 2 -direktiivin 14 artiklassa tarkoitetulle yhteistyöryhmälle ja mainitun direktiivin 15 artiklassa tarkoitetulle CSIRT-verkostolle, jos se on verkko- ja tietoturvallisuuden valvonnan kannalta välttämätöntä eikä luovuttaminen vaaranna mainituissa pykälissä tarkoitettujen toimijoiden turvallisuuteen ja liikesalaisuuksiin liittyviä etuja tai annettujen tietojen luottamuksellisuutta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section eId="sec_342">
+                    <num>342 §</num>
+                    <heading>Oikaisuvaatimus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Liikenne- ja viestintäviraston päätökseen, joka koskee 39 §:ssä tarkoitettua radiolupaa, 44 §:ssä tarkoitettua radiotaajuuksien varausta koskevaa päätöstä, 100 §:ssä tarkoitettua numerointipäätöstä, 167 §:n 2 momentissa tarkoitettua verkkotunnuksen rekisteröinnin estämistä, 169 §:n 1 momentissa tarkoitettua verkkotunnuksen poistamista, 288 §:ssä tarkoitettua markkinaehtoista taajuusmaksua, 289 §:ssä tarkoitettua tietoyhteiskuntamaksua, 293 §:ssä tarkoitettua televisio- ja radiotoiminnan valvontamaksua tai datanhallinta-asetuksen 19 artiklan 5 kohdassa tarkoitettua rekisteröintiä, saa vaatia oikaisua.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 8 päivänä huhtikuuta 2025.</p>
+                    <p>Tämän lain voimaan tullessa voimassa olleen 275 §:n nojalla annetut määräykset jäävät voimaan.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/57">HE 57/2024</ref>
+                        </p>
+                        <p>LiVM 1/2025 </p>
+                        <p>EV 15/2025 </p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi (EU) 2022/2555 (32022L2555), EUVL L 333, 27.12.2022, s. 80</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 4.4.2025</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Liikenne- ja viestintäministeri</role>
+                                <person refersTo="">Lulu Ranne</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

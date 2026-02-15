@@ -1,0 +1,166 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/872/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/872"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/872/alkup"/>
+                    <FRBRdate date="2007-10-05" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="872"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/872/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/872/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/872/alkup/fin"/>
+                    <FRBRdate date="2007-10-05" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/872/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/872/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/872/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="136"/>
+                    <finlex:date date="2007-10-10"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>872/2007</docNumber>
+                <docTitle>Laki ulkomaisista vakuutusyhtiöistä annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         ulkomaisista vakuutusyhtiöistä 17 päivänä maaliskuuta 1995 annettuun lakiin (
+                        <affectedDocument href="/akn/fi/act/statute/1995/398">398/1995</affectedDocument>
+                        ) uusi 63 b―63 d § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>9 luku</num>
+                    <heading>Vakuutusliikkeen harjoittaminen Suomessa</heading>
+                    <section>
+                        <num>63 b §</num>
+                        <heading>Sukupuolen käyttäminen vakuutuksessa ja riskinarviointi</heading>
+                        <subsection>
+                            <content>
+                                <p>Sukupuolen käyttäminen vakuutusmaksujen tai vakuutuksesta saatavien etuuksien laskennassa ja siihen perustuvat suhteelliset erot vakuutusmaksuissa tai vakuutuksesta saatavissa etuuksissa ovat sallittua vain, jos sukupuoli on vaikuttava tekijä vakuutusmatemaattisten tietojen ja tilastotietojen perusteella tehtävässä riskinarvioinnissa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Riskinarviointi voi perustua ulkomaisen vakuutusyhtiön omaan vakuutuskantaan, ulkomaisten ja suomalaisten vakuutusyhtiöiden tai vakuutusyhdistysten vakuutuskannoista muodostettuun yhteiseen tilastoaineistoon taikka yleiseen vakuutettavaa riskiä kuvaavaan luotettavaan tilastoon. Jos riskinarviointi perustuu ulkomaisen vakuutusyhtiön omaan vakuutuskantaan, vakuutuskannan tulee olla riittävän laaja luotettavan riskinarvioinnin tekemiseksi.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Riskinarvioinnissa tulee olla tilasto- ja analyysiosa sekä yhteenveto-osa. Riskinarvioinnista tulee ilmetä, miten sukupuoli vaikuttaa kyseessä olevaan vakuutettavaan riskiin ja mikä on sukupuolten välinen suhteellinen ero vakuutettavassa riskissä. Riskinarvioinnin yhteenveto-osassa tulee olla tiedot, joiden perusteella voidaan havaita sukupuolen merkitys vakuutusmatemaattisena tekijänä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>63 c §</num>
+                        <heading>Riskinarvioinnin toimittaminen Vakuutusvalvontavirastolle ja julkistaminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Jos ulkomainen vakuutusyhtiö käyttää sukupuolta vakuutusmaksujen tai vakuutuksesta saatavien etuuksien laskennassa, sen tulee toimittaa Vakuutusvalvontavirastolle 63 b §:ssä tarkoitettu riskinarviointi ennen kyseessä olevien vakuutustuotteiden tarjoamista.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Ulkomaisen vakuutusyhtiön tulee julkistaa riskinarvioinnin yhteenveto-osa Internet-verkkosivulla ja sen on oltava saatavilla vakuutusyhtiöstä. Ulkomaisen vakuutusyhtiön tulee säännöllisesti vähintään viiden vuoden välein tehdä riskinarviointi uudelleen ja toimittaa se Vakuutusvalvontavirastolle sekä julkistaa sen yhteenveto-osa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>63 d §</num>
+                        <heading>Vakuutusvalvontaviraston toimivaltuudet</heading>
+                        <subsection>
+                            <content>
+                                <p>Vakuutusvalvontaviraston tulee julkistaa, missä vakuutuslajeissa ulkomaiset vakuutusyhtiöt käyttävät sukupuolta vakuutusmaksujen tai vakuutuksesta saatavien etuuksien laskennassa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vakuutusvalvontavirasto voi tarvittaessa antaa määräyksiä 63 b §:ssä tarkoitetussa riskinarvioinnissa esitettävistä tiedoista, niiden esittämistavasta ja toimittamisesta virastolle.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos 63 c §:ssä tarkoitettu viiden vuoden määräaika katsotaan liian pitkäksi tai tilanteen voidaan muutoin katsoa vaativan sitä, Vakuutusvalvontavirasto voi velvoittaa ulkomaista vakuutusyhtiötä toimittamaan uuden riskinarvioinnin.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 15 päivänä lokakuuta 2007.</p>
+                    <p>Tätä lakia sovelletaan vakuutussopimuksiin, jotka tehdään 22 päivänä joulukuuta 2007 tai sen jälkeen.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/21">HE 21/2007</ref>
+                        </p>
+                        <p>TyVM 2/2007</p>
+                        <p>EV 26/2007</p>
+                        <p>Neuvoston direktiivi 2004/113/EY (32004L0113); EYVL N:o L 373, 21.12.2004, s. 37</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 5 päivänä lokakuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

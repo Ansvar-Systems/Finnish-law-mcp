@@ -1,0 +1,628 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/759/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/759"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/759/alkup"/>
+                    <FRBRdate date="2006-09-01" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="759"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/759/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/759/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/759/alkup/fin"/>
+                    <FRBRdate date="2006-09-01" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/759/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/759/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/759/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="118"/>
+                    <finlex:date date="2006-09-06"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>759/2006</docNumber>
+                <docTitle>Laki viestintämarkkinalain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan </i>
+                        23 päivänä toukokuuta 2003 annetun viestintämarkkinalain (
+                        <affectedDocument href="/akn/fi/act/statute/2003/393">393/2003</affectedDocument>
+                        ) 67 §:n 5 momentti,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan </i>
+                        14 §:n 2 momentti, 61 §, 66 §:n otsikko sekä 1 ja 2 momentti, 67 §:n otsikko ja 1―3 momentti, 71 §, 72 §:n otsikko sekä 1 ja 2 momentti, 73 §:n 1 ja 4 momentti, 74 §:n 2 momentti, 83 §:n 2 momentti sekä 127 §,
+                    </block>
+                    <block name="substitutions-originals">sellaisena kuin niistä ovat 14 §:n 2 momentti laissa 26/2006 ja 127 § osaksi viimeksi mainitussa laissa, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 58 a, 67 a―67 i, 79 a ja 121 a §, 126 §:ään uusi 5 momentti sekä lakiin uusi 138 b § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>14 §</num>
+                    <heading>Teletoimintailmoitus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Teletoimintailmoituksen tiedoissa tapahtuneista muutoksista on ilmoitettava Viestintävirastolle. Teleyrityksen on ilmoitettava toiminnan lopettamisesta Viestintävirastolle viimeistään viikkoa ennen toiminnan loppumista. Jos toimintansa lopettava teleyritys on palveluyritys, myös sen verkkoyrityksen, jonka viestintäverkossa palveluyritys toimii, on ilmoitettava asiasta Viestintävirastolle. Viestintävirasto voi myös omasta aloitteestaan todeta teleyrityksen toiminnan päättyneeksi, jos se saa toiminnan päättymisestä luotettavaa selvitystä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <chapter>
+                    <num>7 luku</num>
+                    <heading>Käyttäjän oikeudet</heading>
+                    <section>
+                        <num>58 a §</num>
+                        <heading>Säännösten pakottavuus</heading>
+                        <subsection>
+                            <content>
+                                <p>Tämän luvun säännöksistä ei saa sopimuksin poiketa kuluttajan vahingoksi. Tämän luvun 67 a―67 i, 71―75 ja 78―80 §:ää sovelletaan muun kuin kuluttajan kanssa tehtäviin sopimuksiin vain, jos muuta ei ole sovittu.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>61 §</num>
+                        <heading>Ennakkomaksu, vakuus ja käyttöraja</heading>
+                        <subsection>
+                            <content>
+                                <p>Teleyritys saa vaatia kuluttajalta puhelinliittymää koskevasta sopimuksesta ennakkomaksun tai vakuuden vain sopimusta tehtäessä ja vain, jos siihen on ennakoitavissa olevasta maksukyvyttömyydestä tai muusta siihen verrattavasta seikasta johtuva erityinen syy. Ennakkomaksu tai vakuus ei saa ylittää niiden maksujen yhteismäärää, jotka tarjotuista palveluista arvioidaan kertyvän ennen kuin teleyritys voi estää liittymän käytön maksulaiminlyönnin perusteella.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Teleyritys ja kuluttaja voivat sopimussuhteen aikana sopia kohtuullisen euromääräisen käyttörajan asettamisesta puhelinliittymälle.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>66 §</num>
+                        <heading>Sopimusehdot ja hinnasto</heading>
+                        <subsection>
+                            <content>
+                                <p>Teleyrityksen on laadittava kuluttajan kanssa tehtäviä viestintäpalvelusopimuksia varten vakiosopimusehdot ja käytettävä niitä tehdessään sopimuksia kuluttajan kanssa. Sopimuksissa ei saa olla kuluttajan kannalta kohtuuttomia ehtoja tai rajoituksia.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Teleyrityksen on julkaistava 1 momentissa tarkoitetut ja muut käyttämänsä vakiosopimusehdot sekä viestintäpalveluita koskevat hinnastot siten, että ne ovat helposti käyttäjien saatavilla ilman korvausta.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>67 §</num>
+                        <heading>Viestintäpalvelusopimus</heading>
+                        <subsection>
+                            <content>
+                                <p>Puhelinverkon liittymäsopimus ja muu viestintäpalvelusopimus on tehtävä kirjallisesti. Sopimus voidaan tehdä myös sähköisesti edellyttäen, että sähköisen sopimuksen sisältöä ei voida yksipuolisesti muuttaa ja että sopimus säilyy osapuolten saatavilla.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Sopimuksessa on yksilöitävä teleyrityksen nimi ja yhteystiedot.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Sopimuksessa on mainittava ainakin:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>sopimuksen voimassaoloaika;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>tarjottavien palvelujen laatu ja ominaisuudet sekä ylläpitopalvelutyypit;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>viestintäpalvelun toimitusaika;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>sopimuksen irtisanomismenettely ja irtisanomisen perusteet;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>mahdollisen virheen tai viivästyksen seuraamukset;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>miten sopimusehtojen muutoksista tiedotetaan käyttäjälle;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7)</num>
+                                <content>
+                                    <p>mitkä ovat käyttäjän oikeudet sopimusehtojen muuttuessa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>8)</num>
+                                <content>
+                                    <p>palvelujen hinnoitteluperuste tai sovellettavat hinnastot;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>9)</num>
+                                <content>
+                                    <p>käyttäjän oikeus saada tietoja laskunsa muodostumisesta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>10)</num>
+                                <content>
+                                    <p>käyttäjän oikeus tehdä telelaskusta muistutus;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>11)</num>
+                                <content>
+                                    <p>maksun laiminlyönnin seuraamukset;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>12)</num>
+                                <content>
+                                    <p>teleyrityksen oikeus lopettaa palvelun tarjoaminen tai rajoittaa palvelun käyttöä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>13)</num>
+                                <content>
+                                    <p>edellä 61 §:n 2 momentissa tarkoitetun käyttörajan suuruus sekä ohjeet siitä, miten kuluttaja voi seurata laskun kertymistä.</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>67 a §</num>
+                        <heading>Viestintäpalvelun toimituksen viivästys ja oikeus pidättyä maksusta</heading>
+                        <subsection>
+                            <content>
+                                <p>Viestintäpalvelun toimitus on viivästynyt, jos palvelua ei ole toimitettu sovittuna ajankohtana, eikä tämä johdu käyttäjästä tai käyttäjän puolella olevasta seikasta. Jos toimitusajankohdasta ei ole sovittu, toimitus on vastaavasti viivästynyt, jos viestintäpalvelua ei ole toimitettu kohtuullisessa ajassa sopimuksenteon jälkeen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Käyttäjä on velvollinen maksamaan viestintäpalvelusopimukseen perustuvat maksut vasta siitä lukien, kun yhteys on käytettävissä. Palvelun kytkemisen jälkeen käyttäjällä on oikeus pidättyä maksamasta sellaista osaa maksusta, joka on tarpeen viivästykseen perustuvan korvauksen vakuudeksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>67 b §</num>
+                        <heading>Vakiokorvaus toimituksen viivästyksestä</heading>
+                        <subsection>
+                            <content>
+                                <p>Käyttäjällä on 67 a §:ssä tarkoitetussa tapauksessa oikeus vakiokorvaukseen. Sen määrä on vähintään 15 euroa kultakin alkavalta viivästysviikolta, kuitenkin enintään 120 euroa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Oikeutta vakiokorvaukseen ei kuitenkaan ole, jos teleyritys osoittaa viivästyksen johtuneen sen vaikutusmahdollisuuksien ulkopuolella olevasta esteestä, jota sen ei kohtuudella voida edellyttää ottaneen huomioon sopimusta tehtäessä ja jonka seurauksia se ei ole kohtuudella voinut välttää tai voittaa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos viivästys johtuu henkilöstä, jota teleyritys on käyttänyt apunaan sopimuksen tai sen osan täyttämisessä, teleyritys vapautuu vastuusta vain, jos myös tämä henkilö olisi 2 momentin mukaan vapaa vastuusta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>67 c §</num>
+                        <heading>Vahingonkorvausvelvollisuus toimituksen viivästymisestä</heading>
+                        <subsection>
+                            <content>
+                                <p>Käyttäjällä on oikeus korvaukseen viivästyksestä aiheutuneesta vahingosta, joka ylittää 67 b §:ssä tarkoitetun vakiokorvauksen määrän. Oikeutta vahingonkorvaukseen ei kuitenkaan ole, jos käyttäjällä ei ole oikeutta vakiokorvaukseen 67 b §:n 2 tai 3 momentin mukaisesti.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Viivästyksestä aiheutuneesta välillisestä vahingosta teleyritys vastaa vain, jos viivästys tai vahinko on aiheutunut huolimattomuudesta teleyrityksen puolella. Välillisenä vahinkona pidetään:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>ansion menetystä, joka käyttäjälle aiheutuu viivästyksen tai siitä johtuvien toimenpiteiden vuoksi;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>vahinkoa, joka johtuu muuhun sopimukseen perustuvasta velvoitteesta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>viestintäpalvelun käyttöhyödyn olennaista menetystä, josta ei aiheudu suoranaista taloudellista vahinkoa, sekä siihen rinnastettavaa haittaa, joka on olennainen.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>67 d §</num>
+                        <heading>Virhe viestintäpalvelun toimituksessa</heading>
+                        <subsection>
+                            <intro>
+                                <p>Viestintäpalvelun toimituksessa on virhe, jos viestintäpalvelun laatu tai toimitustapa ei vastaa sitä, mitä voidaan katsoa sovitun. Jollei toisin ole sovittu, viestintäpalvelun toimitus on virheellinen, jos:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>viestintäpalvelu ei laadultaan vastaa laissa tai sen nojalla annetussa Viestintäviraston määräyksessä asetettuja vaatimuksia;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>viestintäpalvelun toimitus on muusta kuin 72 §:ssä tarkoitetusta syystä yhtäjaksoisesti tai toistuvasti keskeytynyt, eikä keskeytystä voida pitää keskeytyksen syy ja olosuhteet huomioon ottaen vähäisenä; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>viestintäpalvelu ei vastaa markkinoinnissa annettuja tietoja tai poikkeaa muutoin siitä, mitä käyttäjällä yleensä on vastaavan palvelun yhteydessä aihetta olettaa.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>67 e §</num>
+                        <heading>Virheen oikaisu</heading>
+                        <subsection>
+                            <content>
+                                <p>Käyttäjällä on oikeus vaatia, että teleyritys korjaa virheen tai uusii virheellisen suorituksen ilman, että siitä aiheutuu käyttäjälle kustannuksia. Teleyritys ei kuitenkaan ole velvollinen oikaisemaan virhettä, jos siitä aiheutuisi teleyritykselle kohtuuttomia kustannuksia tai kohtuutonta haittaa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vaikka käyttäjä ei vaatisi virheen korjaamista tai suorituksen uusimista, teleyritys saa omalla kustannuksellaan suorittaa tällaisen oikaisun, jos se käyttäjän ilmoittaessa virheestä viipymättä tarjoutuu tekemään sen. Käyttäjä saa kieltäytyä virheen oikaisusta, jos siitä aiheutuisi hänelle olennaista haittaa tai vaaraa siitä, että käyttäjälle aiheutuvat kustannukset jäävät korvaamatta taikka jos kieltäytymiseen on muu erityinen syy.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Teleyritys ei saa vedota siihen, ettei se ole saanut tilaisuutta virheen oikaisuun, jos käyttäjä on korjauttanut virheen, eikä olosuhteet huomioon ottaen voida kohtuudella edellyttää, että käyttäjä olisi jäänyt odottamaan teleyrityksen suorittamaa oikaisua.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>67 f §</num>
+                        <heading>Hinnanalennus ja vakiohyvitys</heading>
+                        <subsection>
+                            <content>
+                                <p>Jollei virheen korjaaminen tai uusi suoritus tule kysymykseen taikka jollei tällaista oikaisua suoriteta kohtuullisessa ajassa siitä, kun käyttäjä on ilmoittanut virheestä, käyttäjällä on oikeus virhettä vastaavaan hinnanalennukseen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Käyttäjällä on oikeus vakiohyvitykseen, jos 67 d §:ssä tarkoitettu virhe perustuu toimituksen keskeytykseen. Vakiohyvityksen määrä on vähintään 15 euroa kultakin alkavalta keskeytysviikolta, kuitenkin enintään 120 euroa. Jos käyttäjälle maksetaan vakiohyvitys, hänellä ei ole oikeutta 1 momentissa tarkoitettuun hinnanalennukseen saman keskeytyksen johdosta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>67 g §</num>
+                        <heading>Virheestä aiheutuva vahingonkorvausvelvollisuus</heading>
+                        <subsection>
+                            <content>
+                                <p>Käyttäjällä on oikeus korvaukseen vahingosta, jonka hän kärsii viestintäpalvelussa olevan virheen vuoksi.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 67 c §:n 2 momentissa tarkoitetusta välillisestä vahingosta teleyritys vastaa vain, jos virhe tai vahinko on aiheutunut huolimattomuudesta teleyrityksen puolella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>67 h §</num>
+                        <heading>Sopimuksen purku viivästyksen tai virheen perusteella</heading>
+                        <subsection>
+                            <content>
+                                <p>Käyttäjä saa purkaa viestintäpalvelusopimuksen teleyrityksen viivästyksen tai virheen vuoksi, jos sopimusrikkomus on olennainen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>67 i §</num>
+                        <heading>Virhettä tai viivästystä koskeva ilmoitusvelvollisuus</heading>
+                        <subsection>
+                            <content>
+                                <p>Käyttäjä ei saa vedota viivästykseen, ellei hän ilmoita viivästyksestä teleyritykselle kohtuullisessa ajassa sen jälkeen, kun palvelu on toimitettu. Käyttäjä ei saa vedota virheeseen, ellei hän ilmoita virheestä teleyritykselle kohtuullisessa ajassa siitä, kun hän on havainnut virheen tai hänen olisi pitänyt se havaita.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Käyttäjä saa 1 momentin estämättä vedota viivästykseen tai virheeseen, jos teleyritys on menetellyt törkeän huolimattomasti tai kunnianvastaisesti ja arvottomasti taikka, jos viestintäpalvelu ei vastaa laissa tai sen nojalla annetussa Viestintäviraston määräyksessä asetettuja vaatimuksia.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>71 §</num>
+                        <heading>Sopimuksen muuttaminen</heading>
+                        <subsection>
+                            <intro>
+                                <p>Teleyritys saa muuttaa viestintäpalvelusopimuksen mukaisia maksuja ja muita sopimusehtoja kuluttajan vahingoksi vain:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>sopimusehdoissa yksilöidyillä perusteilla, edellyttäen, että sopimuksen sisältö ei kokonaisuutena olennaisesti muutu;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>lainsäädännön muutoksen tai viranomaisen päätöksen perusteella;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>muusta erityisestä syystä olosuhteiden olennaisesti muututtua.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Teleyrityksellä on lisäksi oikeus tehdä sopimusehtoihin vähäisiä muutoksia, joilla ei ole vaikutusta sopimuksen keskeiseen sisältöön.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Käyttäjällä on oikeus irtisanoa viestintäpalvelusopimus heti päättyväksi, jos teleyritys ilmoittaa muuttavansa sopimusehtoja.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Teleyrityksen on ilmoitettava käyttäjälle sopimusehtojen muutoksesta ja niiden sisällöstä viimeistään kuukautta ennen kuin muutetut ehdot tulevat voimaan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>72 §</num>
+                        <heading>Viestintäverkon rakennus- ja kunnossapitotyö sekä tietoturvaan liittyvät toimenpiteet</heading>
+                        <subsection>
+                            <content>
+                                <p>Teleyritys saa tilapäisesti ilman käyttäjän suostumusta keskeyttää viestintäpalvelun tarjonnan tai rajoittaa sen käyttöä, jos toimenpide on välttämätön viestintäverkon rakennus- tai kunnossapitotyön taikka tietoturvan vuoksi. Keskeytys on tehtävä käyttäjälle mahdollisimman vähän haittaa aiheuttavalla tavalla ja siitä on mahdollisuuksien mukaan tiedotettava hyvissä ajoin etukäteen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos palvelu on keskeytetty 1 momentissa tarkoitetusta syystä kalenterikuukaudessa yhteensä vähintään 48 tunnin ajan, teleyrityksen on hyvitettävä käyttäjälle tämän pyynnöstä palvelun perusmaksu yhden kuukauden ajalta tai suoritettava vastaava kohtuullinen hyvitys. </p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>73 §</num>
+                        <heading>Liittymän sulkeminen ja käytön rajoittaminen käyttäjästä johtuvasta syystä</heading>
+                        <subsection>
+                            <content>
+                                <p>Teleyrityksellä on oikeus rajoittaa puhelinverkon liittymän käyttöä tai sulkea se, jos käyttäjä ei ole maksanut kyseistä liittymää koskevaa erääntynyttä maksua.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Teleyrityksellä on oikeus rajoittaa liittymän käyttöä myös, jos käyttäjä ylittää 61 §:n 2 momentissa tarkoitetun käyttörajan. Teleyrityksen on ilmoitettava käyttäjälle etukäteen käytön rajoittamisesta ja samalla annettava käyttäjälle ohjeet siitä, miten käytön rajoittaminen on estettävissä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>74 §</num>
+                        <heading>Suljetun liittymän avaaminen</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Teleyrityksellä on oikeus periä kohtuullinen maksu liittymän avaamisesta ja käyttörajoituksen poistamisesta. Maksua ei kuitenkaan saa periä 73 §:n 3 momentissa tarkoitetun käyttörajoituksen poistamisesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>79 a §</num>
+                        <heading>Viestintäpalvelun oikeudeton käyttö</heading>
+                        <subsection>
+                            <content>
+                                <p>Kuluttaja vastaa viestintäpalvelun oikeudettomasta käytöstä vain, jos oikeudeton käyttö on johtunut kuluttajan huolimattomuudesta, joka ei ole lievää.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Kuluttaja ei vastaa viestintäpalvelun oikeudettomasta käytöstä siltä osin kuin viestintäpalvelua on käytetty sen jälkeen, kun kuluttaja on tehnyt teleyritykselle ilmoituksen siitä, että liittymä tai muu viestintäpalvelun hallinnoinnissa käytettävä väline on kadonnut tai että se on oikeudettomasti toisen hallussa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Teleyrityksellä on oikeus sulkea viestintäpalvelu välittömästi 2 momentissa tarkoitetun ilmoituksen vastaanotettuaan. Teleyrityksen velvollisuudesta sulkea matkapuhelinliittymä ja estää matkapuhelimen käyttö säädetään 76 §:ssä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>83 §</num>
+                        <heading>Kuluttajansuojalain soveltaminen</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Viestintävirasto valvoo teleyritysten sopimusehtojen käyttöä. Sopimusehtojen käyttöä kuluttajansuojan kannalta valvoo myös kuluttaja-asiamies. Viestintäviraston ja kuluttaja-asiamiehen on oltava asianmukaisessa yhteistyössä keskenään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>121 a §</num>
+                        <heading>Kohtuuttoman sopimusehdon kieltäminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Viestintävirasto voi kieltää jatkamasta 66 §:n vastaisen sopimusehdon käyttämistä tai uudistamasta sellaisen tai siihen rinnastettavan sopimusehdon käyttämistä, jos kielto on käyttäjän suojaamiseksi tarpeen. Viestintävirasto voi määrätä kiellon myös väliaikaisena, jolloin kielto on voimassa, kunnes asia on lopullisesti ratkaistu.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Viestintävirasto voi asettaa määräämänsä kiellon tehosteeksi uhkasakon. Uhkasakon tuomitsee maksettavaksi markkinaoikeus.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Viestintäviraston 1 tai 2 momentissa tarkoitettuun päätökseen ei saa hakea muutosta valittamalla.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Teleyritys voi saattaa kieltopäätöksen markkinaoikeuden käsiteltäväksi 30 päivän kuluessa Viestintäviraston päätöksestä tiedon saatuaan. Muutoin päätös jää pysyväksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>126 §</num>
+                        <heading>Erimielisyyksien ratkaiseminen Viestintävirastossa</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Viestintäviraston ratkaisuvaltaan eivät kuulu teleyrityksen ja käyttäjän välistä sopimussuhdetta tai korvausvastuuta taikka teleyrityksen takautumisoikeutta koskevat asiat.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>127 §</num>
+                        <heading>Muutoksenhaku</heading>
+                        <subsection>
+                            <content>
+                                <p>Liikenne- ja viestintäministeriön ja Viestintäviraston tämän lain muun kuin 16―20, 121 a tai 126 §:n nojalla antamaan päätökseen saa hakea muutosta valittamalla hallinto-oikeuteen siten kuin hallintolainkäyttölaissa säädetään. Liikenne- ja viestintäministeriön ja Viestintäviraston päätöstä on noudatettava muutoksenhausta huolimatta, jollei valitusviranomainen toisin määrää.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Viestintävirastolla on oikeus hakea valittamalla muutosta 1 momentissa tarkoitettuun hallinto-oikeuden päätökseen, jolla hallinto-oikeus on kumonnut liikenne- ja viestintäministeriön tai Viestintäviraston päätöksen tai muuttanut sitä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Viestintäviraston 16―20 ja 126 §:n nojalla tekemään päätökseen sekä markkinaoikeuden ja valtioneuvoston tekemään päätökseen saa hakea muutosta valittamalla korkeimpaan hallinto-oikeuteen siten kuin hallintolainkäyttölaissa säädetään. Valtioneuvoston ja Viestintäviraston päätöstä on noudatettava muutoksenhausta huolimatta, jollei valitusviranomainen toisin määrää.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Markkinaoikeuden 121 a §:n 4 momentissa tarkoitettuun päätökseen haetaan muutosta siten kuin eräiden markkinaoikeudellisten asioiden käsittelystä annetussa laissa (1528/2001) säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Edellä 1 ja 3 momentissa tarkoitettua päätöstä koskeva valitus on käsiteltävä kiireellisenä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>14 luku</num>
+                    <heading>Erinäiset säännökset</heading>
+                    <section>
+                        <num>138 b §</num>
+                        <heading>Teleyrityksen takautumisoikeus</heading>
+                        <subsection>
+                            <content>
+                                <p>Jos teleyritys on tämän lain nojalla joutunut käyttäjälle vastuuseen sellaisesta viivästyksestä tai virheestä, joka johtuu toisen teleyrityksen toiminnasta, vastuuseen joutuneella on oikeus saada korvaus vahingostaan kyseiseltä toiselta teleyritykseltä, jollei tämä osoita, ettei viivästys tai virhe johtunut huolimattomuudesta sen puolella.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Teleyrityksellä on 1 momentin mukainen takautumisoikeus siitä riippumatta, ovatko teleyritykset sopimussuhteessa keskenään. Ennen vahingon ilmenemistä tehdyn sopimuksen ehto, joka rajoittaa takautumisoikeutta, on mitätön.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä maaliskuuta 2007. Sen 127 § tulee kuitenkin voimaan 15 päivänä syyskuuta 2006.</p>
+                    <p>Lakia sovelletaan myös ennen sen voimaantuloa tehtyihin sopimuksiin. Jos viestintäpalvelussa oleva virhe on ilmennyt tai palvelun toimitus viivästynyt ennen lain voimaantuloa, virheen tai viivästyksen seuraamuksiin sovelletaan kuitenkin lain voimaan tullessa voimassa ollutta lakia.</p>
+                    <p>Lain 79 a §:ää sovelletaan, jos viestintäpalvelua käytetään oikeudettomasti tämän lain voimaantulon jälkeen.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/231">HE 231/2005</ref>
+                        </p>
+                        <p>LiVM 13/2006</p>
+                        <p>EV 86/2006</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 98/34/EY; EYVL N:o L 204, 21.7.1998, s. 37</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 1 päivänä syyskuuta 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Liikenne- ja viestintäministeri </role>
+                                <person refersTo="">Susanna Huovinen </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

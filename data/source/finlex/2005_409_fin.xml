@@ -1,0 +1,215 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/409/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/409"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/409/alkup"/>
+                    <FRBRdate date="2005-06-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="409"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/409/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/409/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/409/alkup/fin"/>
+                    <FRBRdate date="2005-06-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/409/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/409/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/409/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="75"/>
+                    <finlex:date date="2005-06-16"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>409/2005</docNumber>
+                <docTitle>Laki tuloverolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         30 päivänä joulukuuta 1992 annetun tuloverolain (<affectedDocument href="/akn/fi/act/statute/1992/1535">1535/1992</affectedDocument>) 58 §:n 1 momentin 2 kohta, 105 § ja 132 §:n 2 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 58 §:n 1 momentin 2 kohta laissa 1126/1996, 105 § laissa 896/2001 ja 132 §:n 2 momentti laissa 772/2004, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 127 d ja 127 e § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>58 §</num>
+                    <heading>Korkomenot</heading>
+                    <subsection>
+                        <intro>
+                            <p>Verovelvollisella on oikeus vähentää pääomatuloistaan velkojensa korot, jos velka</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>
+                                    on valtion tai Ahvenanmaan maakunnan hallituksen takaama opintovelka taikka toisen Euroopan talousalueeseen kuuluvan valtion opintotukijärjestelmään kuuluva julkisyhteisön takaama tai myöntämä opintovelka (<i>opintovelka</i>);
+                                </p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>105 §</num>
+                    <heading>Kunnallisverotuksen opintorahavähennys</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos verovelvollinen on saanut opintotukilaissa tarkoitettua opintorahaa, hänen puhtaasta ansiotulostaan vähennetään kunnallisverotuksen opintorahavähennys. Sen täysi määrä on 2 200 euroa, kuitenkin enintään opintorahan määrä. Vähennystä pienennetään 50 prosentilla siitä määrästä, jolla verovelvollisen puhtaan ansiotulon määrä ylittää opintorahavähennyksen täyden määrän.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <crossHeading eId="crossHeading">Verosta tehtävät vähennykset</crossHeading>
+                <section>
+                    <num>127 d §</num>
+                    <heading>Opintolainavähennys</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Opintotukilain 16 c §:ssä tarkoitettu vähennykseen oikeuttavan tutkinnon määräajassa suorittanut verovelvollinen saa vähentää verosta maksamaansa opintolainan lyhennystä vastaavan määrän (<i>opintolainavähennys</i>).
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>
+                                Vuosittain myönnettävien vähennysten yhteenlaskettu enimmäismäärä on 30 prosenttia verovelvollisella olevan vähennykseen oikeuttavan opintolainan 2 500 euroa ylittävästä määrästä. Vähennykseen oikeuttavalla opintolainalla tarkoitetaan opintotukilain 16 c §:ssä tarkoitettujen korkeakouluopintojen ensimmäistä aloituspäivää edeltävän lukukauden lopun ja vähennykseen oikeuttavan tutkinnon suorittamispäivää seuraavan lukukauden alun välisenä aikana kertynyttä opintotukilain mukaista opintolainaa ilman kyseisenä aikana lainaan pääomitettuja opintolainan korkoja (<i>opintolainavähennyksen enimmäismäärä</i>).
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Opintolainavähennyksen enimmäismäärä lasketaan enintään sen lainamäärän perusteella, joka vastaa yliopistolain (645/1997) tai ammattikorkeakoululain (351/2003) nojalla säädetyn kyseisen tutkinnon laajuuden mukaista opintolainamäärää, kun valtiontakauksen enimmäismäärää vastaava määrä opintolainaa otetaan huomioon yhdeksältä kuukaudelta yhtä lukuvuotta kohti. Siltä osin kuin tutkinnon laajuus ei ole täysiä vuosia, enimmäismäärää laskettaessa otetaan huomioon opintolainaa viideltä kuukaudelta puolta lukuvuotta kohti. Tutkinnon laajuuden mukainen enimmäislainamäärä lasketaan tutkinnon suorittamishetkellä voimassa olevien opintolainan valtiontakauksen enimmäismäärää koskevien säännösten mukaan.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kansaneläkelaitos ratkaisee, onko verovelvollinen oikeutettu opintolainavähennykseen ja opintolainavähennyksen enimmäismäärään. Verohallinto myöntää vähennyksen vuosittain niiden opintolainan lyhennysten perusteella, jotka opintolainavähennykseen oikeutettu verovelvollinen on maksanut tutkintonsa suorittamisvuotta seuraavana kymmenenä vuotena.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos opintolainavelallinen lyhentää takauksen perusteella valtion varoista maksettua opintolainaa, hänellä on oikeus takaajalle maksamansa lyhennyksen perusteella opintolainavähennykseen samoin edellytyksin kuin jos hän lyhentäisi varsinaista opintotukilain mukaista opintolainaa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mitä tässä pykälässä säädetään, koskee vastaavin edellytyksin toisen Euroopan talousalueeseen kuuluvan valtion tai Ahvenanmaan maakunnan opintotukijärjestelmään kuulunutta verovelvollista, joka verovuonna on lyhentänyt opintotukilain mukaista opintolainaa vastaavaa opintolainaa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>127 e §</num>
+                    <heading>Opintolainavähennyksen tekeminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Opintolainavähennys tehdään ensisijaisesti valtion tuloverosta. Vähennys tehdään ansiotuloista ja pääomatuloista suoritettavista veroista verojen määrien suhteessa. Siltä osin kuin vähennys ylittää valtion tuloveron määrän, se tehdään kunnallisverosta, vakuutetun sairausvakuutusmaksusta ja kirkollisverosta näiden verojen suhteessa. Vähennys tehdään tuloverosta tehtävien muiden vähennysten sekä 131 ja 131 a §:ssä tarkoitettujen alijäämähyvitysten jälkeen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>
+                                Jos opintolainavähennyksen määrä on suurempi kuin verovelvolliselle verovuonna määrättyjen verojen määrä, erotuksen perusteella verovelvolliselle syntyy 
+                                <i>opintolainavähennyksen</i>
+                                <i>veroalijäämä</i>, joka vähennetään 1 momentissa säädetyllä tavalla verovelvolliselle seuraavina vuosina määrätyistä veroista enintään 10 verovuoden aikana sitä mukaa kuin veroa määrätään.
+                            </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Opintolainavähennyksen veroalijäämät vähennetään ennen verovuoden lyhennysten perusteella myönnettävää opintolainavähennystä siinä järjestyksessä, jossa ne ovat syntyneet. Opintolainavähennyksen veroalijäämä vähennetään enintään tutkinnon suorittamisvuotta seuraavan 15 vuoden aikana.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>132 §</num>
+                    <heading>Alijäämähyvitysten vähentäminen vero- velvollisen valtionverosta</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Erityinen alijäämähyvitys vähennetään ensisijaisesti ansiotulosta valtiolle suoritettavasta tuloverosta sen jälkeen, kun verosta on vähennetty muut verosta tehtävät vähennykset opintolainavähennystä lukuun ottamatta. Erityinen alijäämähyvitys vähennetään alijäämähyvityksen jälkeen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä elokuuta 2005.</p>
+                    <p>Lakia sovelletaan ensimmäisen kerran vuodelta 2005 toimitettavassa verotuksessa.</p>
+                    <p>Lain 127 d §:n 2 momentissa tarkoitettua opintolainavähennykseen oikeuttavan opintolainan määrää laskettaessa otetaan huomioon 1 päivänä elokuuta 2005 ja sen jälkeen aloitettujen korkeakouluopintojen suorittamisaikana nostetut opintolainat.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/11">HE 11/2005</ref>
+                        </p>
+                        <p>SiVM 5/2005</p>
+                        <p>EV 57/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 10 päivänä kesäkuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Liisa Hyssälä </person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

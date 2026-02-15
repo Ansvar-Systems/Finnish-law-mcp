@@ -1,0 +1,170 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/194/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/194"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/194/alkup"/>
+                    <FRBRdate date="2005-04-01" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="194"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/194/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/194/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/194/alkup/swe"/>
+                    <FRBRdate date="2005-04-01" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/194/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/194/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/194/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="37"/>
+                    <finlex:date date="2005-04-06"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>194/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om statens pensioner</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 20 maj 1966 om statens pensioner (
+                        <affectedDocument href="/akn/fi/act/statute/1966/280">280/1966</affectedDocument>
+                        ) 17 § 1 mom., 23 § 2 mom. och 25 §,
+                    </block>
+                    <block name="substitutions-originals">sådana de lyder, 17 § 1 mom. i lag 625/2000, 23 § 2 mom. i lag 1189/1994 och 25 § delvis ändrad i lagarna 1528/1993 och 1184/2003, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 21 § ett nytt 2 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>17 §</num>
+                    <subsection>
+                        <content>
+                            <p>Om förmånstagaren på grund av ålder, skada eller sjukdom eller av någon annan orsak är oförmögen att själv ansöka om förmånen eller att i övrigt sköta sina ärenden som gäller förmånen samt saknar personen i fråga en intressebevakare, kan en av statskontoret godkänd nära anhörig till personen eller någon annan som huvudsakligen har dragit försorg om personen på dennes vägnar föra talan i ärenden som gäller förmåner enligt denna lag.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>21 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Rätten till en förmån enligt denna lag preskriberas tio år efter den dag då förmånen borde ha utbetalats, om inte preskriptionen har avbrutits innan dess. Från detta avbrytande av preskriptionstiden börjar en ny fem år lång preskriptionstid. Preskriptionen avbryts på det sätt som föreskrivs i 10 eller 11 § i lagen om preskription av skulder (728/2003).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>23 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Besvärstiden är 30 dagar från delfåendet av beslutet. Statskontorets och statens pensionsnämnds beslut delges genom att beslutet sänds till mottagaren genom brev under den postadress som mottagaren uppgett. Om inte något annat visas i samband med besvären, anses ändringssökanden ha fått del av beslutet den sjunde dagen efter den då beslutet postades under den adress som han eller hon uppgett. Statskontorets besvärstid räknas från tidpunkten för beslutet.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>25 §</num>
+                    <subsection>
+                        <content>
+                            <p>Pension som betalats utan grund skall återkrävas, om förmånstagaren har fått pension enligt denna lag till ett större belopp än han eller hon haft rätt till.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Ett pensionsbelopp som betalats utan grund kan lämnas helt eller delvis oindrivet, om dess beviljande eller utbetalning inte bör anses ha förorsakats av pensionstagarens eller hans eller hennes ombuds svikliga förfarande.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En förmån som betalats utan grund får återkrävas även genom kvittning mot framtida pensionsposter. Från den pensionspost som skall erläggas kan dock inte utan pensionstagarens samtycke dras av mer än en sjättedel av den del av pensionsposten som återstår efter det att förskott på pensionsposten enligt lagen om förskottsuppbörd (418/1959) eller källskatt enligt lagen om beskattning av begränsat skattskyldig för inkomst och förmögenhet (627/1978) har innehållits.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelserna i 1 och 2 mom. tillämpas också när statskontoret i egenskap av sådan sista pensionsanstalt som avses i 3 a § 1 mom. utan grund har betalat ut förmåner enligt denna lag. Till den del statskontoret utan grund har betalat ut förmåner enligt lagen om kommunala pensioner, pensionslagen för evangelisk-lutherska kyrkan, 13 § i lagen om Folkpensionsanstalten eller enligt pensionslagar för den privata sektorn, fattas återkravsbeslutet av de pensionsanstalter som sköter förmånerna enligt vad som föreskrivs i dessa lagar. Statskontoret skall dock i egenskap av sista pensionsanstalt ge en beslutssammanställning över de förmåner som återkrävs samt återkräva beloppet. Om statskontoret sköter återkravet genom kvittning, skall 3 mom. tillämpas och såsom den pensionspost som avses där betraktas det sammanlagda beloppet av de pensionsposter som statskontoret i egenskap av sista pensionsanstalt skall betala.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En förmån som betalats utan grund skall återkrävas inom tio år räknat från utbetalningsdagen. En fordran som fastställts genom beslut om återkrav preskriberas fem år efter det att beslutet gavs, om inte preskriptionen har avbrutits innan dess. Preskriptionen av en fordran som fastställts genom beslut om återkrav avbryts på det sätt som föreskrivs i 10 eller 11 § i lagen om preskription av skulder. Från detta avbrytande av preskriptionstiden börjar en ny fem år lång preskriptionstid.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 15 april 2005.</p>
+                    <p>Lagens 21 § 2 mom. och 25 § 5 mom. tillämpas också på fordringar som uppkommit och förmåner som betalats utan grund före lagens ikraftträdande. När preskriptionstiden för en sådan fordran räknas ut beaktas också tiden före lagens ikraftträdande. Fordringarna i fråga preskriberas dock enligt denna lag tidigast tre år efter lagens ikraftträdande, om de inte preskriberas innan dess också enligt de bestämmelser som gällde den 31 december 2003.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 273/2004</p>
+                        <p>ShUB 1/2005</p>
+                        <p>RSv 3/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 1 april 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Hannes Manninen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

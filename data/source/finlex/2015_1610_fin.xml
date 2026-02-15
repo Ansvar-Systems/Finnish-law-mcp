@@ -1,0 +1,316 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1610/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1610"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1610/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1610"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1610/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1610/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1610/alkup/fin"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1610/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1610/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1610/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1610/2015</docNumber>
+                <docTitle>Laki tieliikennelain muuttamisesta </docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                          tieliikennelain  (
+                        <affectedDocument href="/akn/fi/act/statute/1981/267">267/1981</affectedDocument>
+                        )  88 §:n  3  momentti,  sellaisena  kuin  se  on  laissa  1043/2014,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         2 §:n 11 kohta, 2 a §:n 2 ja 3 kohta, 40 §:n 1 momentti, 45 §, 88 §:n 1 momentti, 89 §:n 1 momentti ja 94 §, 
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 2 §:n 11 kohta laissa 414/1997, 2 a §:n 2 ja 3 kohta ja 89 §:n 1 momentti laissa 1091/2002, 45 § osaksi laissa 449/1989, 88 §:n 1 momentti laissa 234/2006 ja 94 § laissa 387/2011, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 45 a § ja 88 a §:ään, sellaisena kuin se on laissa 234/2006, uusi 4 momentti seuraavasti: 
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 § </num>
+                    <heading>Määritelmiä</heading>
+                    <subsection>
+                        <intro>
+                            <p>Tieliikennelainsäädännössä tarkoitetaan:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>11)</num>
+                            <content>
+                                <p>
+                                    <i>jalankulkijalla</i>
+                                     jalan, suksilla, rullasuksilla, luistimilla tai vastaavilla välineillä liikkuvaa ja potkukelkan, lastenvaunujen, leikkiajoneuvon, pyörätuolin, jalankulkua avustavan tai korvaavan liikkumisvälineen tai vastaavan laitteen kuljettajaa sekä polkupyörän tai mopon taluttajaa; 
+                                </p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>2 a § </num>
+                    <heading>Ajoneuvojen määritelmät</heading>
+                    <subsection>
+                        <intro>
+                            <p>Tieliikennelainsäädännössä tarkoitetaan:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>
+                                    <i>moottorikäyttöisellä ajoneuvolla</i>
+                                     konevoimalla kulkevaa ajoneuvoa; moottorikäyttöisiä ajoneuvoja ovat auto, moottoripyörä ja mopo sekä kolmi- ja nelipyöräisten L-luokkien ajoneuvot samoin kuin traktori, moottorityökone ja maastoajoneuvo;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3) </num>
+                            <content>
+                                <p>
+                                    <i>hinattavalla ajoneuvolla</i>
+                                     toiseen ajoneuvoon kytkettävää ajoneuvoa; hinattavia ajoneuvoja ovat perävaunu ja sekä hinattava laite ja siihen rinnastettava vedettävä vaihdettavissa oleva laite;
+                                </p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>40 § </num>
+                    <heading>Jalankulkijan paikka tiellä</heading>
+                    <subsection>
+                        <content>
+                            <p>Jalankulkijan on käytettävä jalkakäytävää tai piennarta. Hän ei kuitenkaan saa jalkakäytävällä taluttaa polkupyörää tai mopoa, kuljettaa potkukelkkaa, jalankulkua avustavaa tai korvaavaa liikkumisvälinettä taikka kevyttä sähköajoneuvoa, hiihtää, luistella eikä kantaa kookasta taakkaa, jos siitä voi aiheutua huomattavaa haittaa muille jalankulkijoille.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>45 § </num>
+                    <heading>Jalankulkua avustavan tai korvaavan liikkumisvälineen käyttö</heading>
+                    <subsection>
+                        <content>
+                            <p>Pyörätuolia tai muuta vastaavaa moottoritonta apuvälinettä käyttävään sovelletaan jalankulkijoita koskevia säännöksiä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Sama koskee sitä, joka kävelynopeudella kuljettaa käsikäyttöistä tai sellaista jalankulkua avustavaa tai korvaavaa liikkumisvälinettä, jossa on enintään 1 kilowatin tehoinen sähkömoottori ja jonka suurin rakenteellinen nopeus on enintään 15 kilometriä tunnissa. Muutoin hänen on noudatettava polkupyöräilijöitä koskevia säännöksiä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>45 a § </num>
+                    <heading>Kevyen sähköajoneuvon käyttö</heading>
+                    <subsection>
+                        <content>
+                            <p>Kevyen sähköajoneuvon kuljettajaan sovelletaan polkupyöräilijää koskevia liikennesääntöjä. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Sellaista itsestään tasapainottuvaa kevyttä sähköajoneuvoa, joka pysyy tasapainossa myös silloin kun ajoneuvo ei liiku tai siinä ei ole kuljettajaa, saa kuitenkin kävelynopeudella kuljettaa myös jalkakäytävällä noudattaen jalankulkijoita koskevia säännöksiä. Tällöin kuljettajan on annettava jalankulkijalle esteetön kulku. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>88 § </num>
+                    <heading>Turvavyön ja muun istuinpaikan turvalaitteen käyttövelvollisuus </heading>
+                    <subsection>
+                        <intro>
+                            <p>Kuljettajan ja matkustajan on ajon aikana käytettävä istuinpaikalle asennettua turvavyötä tai heidän liikkumistaan estävää muuta turvalaitetta:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>henkilöautossa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>linja-autossa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3) </num>
+                            <content>
+                                <p>pakettiautossa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4) </num>
+                            <content>
+                                <p>kuorma-autossa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5) </num>
+                            <content>
+                                <p>kolmipyöräisessä mopossa ja moottorikäyttöisessä kolmipyörässä, jos ajoneuvon alkuperäisvarusteisiin kuuluvat turvavyöt;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6) </num>
+                            <content>
+                                <p>kevyessä nelipyörässä, raskaassa nelipyörässä ja maastoajoneuvossa, jos ajoneuvon alkuperäisvarusteisiin kuuluvat turvavyöt.</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>88 a § </num>
+                    <heading>Lapsen kuljettaminen ajoneuvossa</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ohjaustangolla ja satulamallisella istuimella varustetussa ajoneuvossa lasta saa kuljettaa ainoastaan, jos lapsen paikallaan pysyminen voidaan luotettavasti varmistaa. Lapsen kuljettamiseen muulla ohjaustangolla varustetulla ajoneuvolla sovelletaan henkilöautoa koskevia säännöksiä. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>89 § </num>
+                    <heading>Suojakypärän käyttö</heading>
+                    <subsection>
+                        <intro>
+                            <p>Kuljettajan ja matkustajan on ajon aikana käytettävä tyypiltään hyväksyttyä suojakypärää,   jollei hänen sairautensa tai vammansa taikka muu erityinen syy sitä estä, ajettaessa:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>moottoripyörällä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>kolmipyörällä, raskaalla nelipyörällä ja kevyellä nelipyörällä, jota ei ole varustettu korilla tai turvakaarella;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3) </num>
+                            <content>
+                                <p>mopolla;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4) </num>
+                            <content>
+                                <p>moottorikelkalla;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5) </num>
+                            <content>
+                                <p>ohjaustangolla ja satulamallisella istuimella varustetulla maastoajoneuvolla ja traktorilla, jota ei ole varustettu korilla tai turvakaarella.</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>94 § </num>
+                    <heading>Ajoasiakirjan esittämisvelvollisuus</heading>
+                    <subsection>
+                        <content>
+                            <p>Moottorikäyttöisen ajoneuvon kuljettaja on velvollinen vaadittaessa esittämään poliisimiehelle todistuksen ajoneuvon rekisteröinnistä tai muun asiakirjan, jonka hän on velvollinen pitämään mukanaan. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos ajoneuvon kuljettajalla ei ole mukanaan 1 momentissa tarkoitettua asiakirjaa, poliisimies voi sallia ajon jatkamisen, jos kuljettajan henkilöllisyys voidaan todeta. Kuljettaja voidaan tällöin velvoittaa esittämään asiakirja poliisille määräajassa.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016. </p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/24">HE 24/2015</ref>
+                        </p>
+                        <p>LiVM 15/2015</p>
+                        <p>EV 110/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 30 päivänä joulukuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Liikenne- ja viestintäministeri</role>
+                                <person refersTo="">Anne Berner</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

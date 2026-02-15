@@ -1,0 +1,137 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/73/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/73"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/73/alkup"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="73"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/73/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/73/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/73/alkup/fin"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/73/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/73/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/73/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>73/2016</docNumber>
+                <docTitle>Laki yrittäjän eläkelain voimaanpanosta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         yrittäjän eläkelain voimaanpanosta annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2006/1273">1273/2006</affectedDocument>
+                        ) 4 §:n 2 momentti, 11, 14, 15 ja 28 §, 
+                    </block>
+                    <block name="repeals-originals">sellaisina kuin niistä ovat 11 § osaksi laissa 1462/2011, 14 § osaksi laissa 631/2009 ja 28 § osaksi laissa 1167/2007, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         23 § sekä 29 §:n 4 ja 5 momentti, sellaisena kuin niistä on 29 §:n 4 momentti laissa 799/2012, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>23 §</num>
+                    <subsection>
+                        <content>
+                            <p>Jos yrittäjä on harjoittanut yrittäjän eläkelaissa tarkoitettua yrittäjätoimintaa ennen 1 päivää tammikuuta 2005, yrittäjän eläkelain muuttamisesta annetun lain voimaanpanolain (74/2016) 4 §:n 2 momentissa tarkoitettu teoreettiseen eläkkeeseen tuleva erillinen lisä lasketaan sen kokonaistyötulon perusteella, jonka perusteella ennen 1 päivänä tammikuuta 2005 myönnettävää eläkettä määrättäessä olisi otettava huomioon tuleva aika tai sitä vastaava ansio ennen 1 päivänä tammikuuta 2005 voimassa olevan YEL-lain perusteella.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>29 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Myönnettäessä yrittäjän eläkelain mukainen eläke 2 ja 3 momentissa tarkoitetuissa tilanteissa eläkettä vähennetään pysyvästi 0,4 prosenttia jokaiselta kuukaudelta, jolta eläke alkaa ennen yrittäjän eläkelain muuttamisesta annetun lain (72/2016) 8 §:n 2 momentissa säädettyä alinta vanhuuseläkeikää. Tarkemmat säännökset yrittäjän eläkelain mukaisen eläkkeen vähentämisestä annetaan sosiaali- ja terveysministeriön asetuksella. Muutoin lisäeläkevakuutukseen sovelletaan, mitä YEL-lain 11 §:n 1 momentin, sellaisena kuin se oli voimassa 31 päivänä joulukuuta 2000, nojalla annetuissa säännöksissä sekä yrittäjien eläkelain muuttamisesta annetun lain (638/2003) voimaantulosäännöksen 10 momentissa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Sellaisen 2 ja 3 momentissa tarkoitetun yrittäjän, joka on täyttänyt lisäeläkevakuutukseensa liittyvän eläkeiän ennen 1 päivää tammikuuta 2017, yrittäjän eläkelain mukaista eläkettä myönnettäessä sovelletaan 31 päivänä joulukuuta 2016 voimassa olleita säännöksiä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2017.</p>
+                    <p>Tätä lakia sovelletaan eläkkeisiin, joissa eläketapahtuma on 1 päivänä tammikuuta 2017 tai sen jälkeen.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/16">HE 16/2015</ref>
+                        </p>
+                        <p>StVM 5/2015</p>
+                        <p>EV 37/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 29 päivänä tammikuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri</role>
+                                <person refersTo="">Hanna Mäntylä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

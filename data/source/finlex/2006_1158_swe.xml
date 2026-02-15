@@ -1,0 +1,141 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1158/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1158"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1158/alkup"/>
+                    <FRBRdate date="2006-12-08" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1158"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1158/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1158/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1158/alkup/swe"/>
+                    <FRBRdate date="2006-12-08" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/1158/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/1158/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/1158/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="173"/>
+                    <finlex:date date="2006-12-20"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1158/2006</docNumber>
+                <docTitle>Lag om ändring av utlänningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas </i>
+                        till utlänningslagen av den 30 april 2004 (
+                        <affectedDocument href="/akn/fi/act/statute/2004/301">301/2004</affectedDocument>
+                        ) nya 105 a och 105 b § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <crossHeading eId="crossHeading">Asylförfaranden</crossHeading>
+                <section>
+                    <num>105 a §</num>
+                    <heading>Rätt att få uppgifter</heading>
+                    <subsection>
+                        <content>
+                            <p>Utlänningsverket, polisen och gränsbevakningsväsendet har rätt att utan hinder av sekretessbestämmelserna på begäran få sådana uppgifter av förläggningar som gäller födelsedatum för en minderårig asylsökande som saknar vårdnadshavare, hans eller hennes familjemedlemmar och deras vistelseort och som är nödvändiga för ovan nämnda myndigheter när de utreder den minderårigas identitet, resrutt eller förutsättningar för inresa eller beviljande av uppehållstillstånd eller när Utlänningsverket enligt 105 b § försöker spåra föräldrarna till en minderårig asylsökande utan vårdnadshavare eller någon annan som svarat för den faktiska vårdnaden. Vid begäran om uppgifter skall myndigheterna fästa särskild uppmärksamhet vid barnets bästa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En minderårig asylsökande utan vårdnadshavare skall informeras om att uppgifter som avses i 1 mom. oberoende av hans eller hennes samtycke kan lämnas ut till Utlänningsverket, polisen och gränsbevakningsväsendet. Vid utlämnande av uppgifter skall hänsyn tas till barnets ålder och utvecklingsnivå.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Innan en förläggning lämnar ut en uppgift som avses i 1 mom. till Utlänningsverket, polisen eller gränsbevakningsväsendet, skall den företrädare som utsetts för den minderåriga med stöd av 26 § i lagen om främjande av invandrares integration samt mottagande av asylsökande (493/1999) informeras om saken.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>105 b §</num>
+                    <heading>Spårande av föräldrar till minderårig asylsökande utan vårdnadshavare eller av någon annan som svarat för den faktiska vårdnaden</heading>
+                    <subsection>
+                        <content>
+                            <p>För att främja en minderårig asylsökandes bästa i det fall att han eller hon är utan vårdnadshavare skall Utlänningsverket i mån av möjlighet utan dröjsmål försöka spåra föräldrarna eller någon annan som svarat för den faktiska vårdnaden.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Sådana uppgifter som gäller föräldrar till en minderårig eller någon annan som svarat för den faktiska vårdnaden skall samlas in, behandlas eller förmedlas under sekretess på det sätt som föreskrivs i lagen om offentlighet i myndigheternas verksamhet (621/1999).</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 februari 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 31/2006</p>
+                        <p>FvUB 21/2006</p>
+                        <p>RSv 150/2006</p>
+                        <p>Rådets direktiv 2003/9/EG; EGT nr L 31, 6.2.2003, s. 18 och 2004/83/EG; EGT nr L 304, 30.9.2004, s. 12</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 8 december 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister </role>
+                                <person refersTo="">Kari Rajamäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

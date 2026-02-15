@@ -1,0 +1,194 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1209/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1209"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1209/alkup"/>
+                    <FRBRdate date="2015-09-18" name="dateIssued"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1209"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1209/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1209/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1209/alkup/fin"/>
+                    <FRBRdate date="2015-09-18" name="dateIssued"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1209/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1209/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1209/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2015-09-23" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1209/2015</docNumber>
+                <docTitle>Laki asunto-osakeyhtiölain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         asunto-osakeyhtiölain (<affectedDocument href="/akn/fi/act/statute/2009/1599">1599/2009</affectedDocument>) 6 luvun 10 §, 9 luvun 5 §:n 2 momentti ja 14 § sekä 24 luvun 4 §, 8 §:n 1 momentti, 9 §:n 1 momentin johdantokappale, 10 §:n 1 momentti ja 11 § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>6 luku</num>
+                    <heading>Yhtiökokous</heading>
+                    <section>
+                        <num>10 §</num>
+                        <heading>Muiden osallistuminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Hallituksen jäsenellä ja isännöitsijällä on oikeus olla läsnä yhtiökokouksessa, jollei yhtiökokous yksittäistapauksessa päätä toisin. Hallituksen ja isännöitsijän on huolehdittava siitä, että osakkeenomistajan 25 §:ssä tarkoitettu kyselyoikeus voi toteutua. Tilintarkastajan läsnäolosta yhtiökokouksessa säädetään tilintarkastuslaissa (1141/2015) ja toiminnantarkastajan läsnäolosta tämän lain 9 luvussa. Yhtiökokous voi sallia myös muiden henkilöiden läsnäolon yhtiökokouksessa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>9 luku</num>
+                    <heading>Tilintarkastus, toiminnantarkastus ja erityinen tarkastus</heading>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Velvollisuus valita tilintarkastaja</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Jos yhtiökokous ei valitse 1 momentin 3 kohdassa tarkoitetussa tilanteessa tilintarkastajaa, Patentti- ja rekisterihallitus määrää tilintarkastajan tilintarkastuslain 2 luvun 8 §:n 1 ja 4 momentissa säädetyssä järjestyksessä, jos osakkeenomistaja hakee määräämistä kuukauden kuluessa yhtiökokouksesta. Tilintarkastajan määräämisestä Patentti- ja rekisterihallituksen päätöksellä silloin, kun yhtiökokous ei valitse tilintarkastajaa 1 momentin 1 tai 2 kohdassa tarkoitetussa tilanteessa, säädetään tilintarkastuslain 2 luvun 8 §:ssä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>14 §</num>
+                        <heading>Erityinen tarkastaja</heading>
+                        <subsection>
+                            <content>
+                                <p>Erityisen tarkastajan on oltava luonnollinen henkilö tai tilintarkastusyhteisö. Erityisellä tarkastajalla on oltava sellainen taloudellisten ja oikeudellisten asioiden tuntemus ja kokemus kuin tarkastustehtävän laatuun ja laajuuteen katsoen on tarpeen tehtävän hoitamiseksi. Mitä tilintarkastajasta säädetään tilintarkastuslain 2 luvun 7 §:ssä, 3 luvun 9 ja 10 §:ssä, 4 luvun 6—8 §:ssä ja 10 luvun 3 §:ssä, sovelletaan erityiseen tarkastajaan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>24 luku</num>
+                    <heading>Vahingonkorvaus</heading>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Tilintarkastajan vahingonkorvausvelvollisuus</heading>
+                        <subsection>
+                            <content>
+                                <p>Tilintarkastajan vahingonkorvausvelvollisuudesta säädetään tilintarkastuslain 10 luvun 3 §:ssä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Päätöksenteko yhtiössä</heading>
+                        <subsection>
+                            <content>
+                                <p>Päätöksenteko asioissa, jotka koskevat yhtiön 1—3 ja 5 §:ään sekä tilintarkastuslain 10 luvun 3 §:ään perustuvaa oikeutta vahingonkorvaukseen, kuuluu yhtiökokoukselle. Hallitus voi kuitenkin päättää rangaistavaan tekoon perustuvan korvauskanteen nostamisesta.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Osakkeenomistajien oikeus ajaa kannetta yhtiön hyväksi</heading>
+                        <subsection>
+                            <intro>
+                                <p>Yhdellä tai useammalla osakkeenomistajalla on oikeus ajaa omissa nimissään kannetta vahingonkorvauksen suorittamiseksi yhtiölle 1—3 ja 5 §:n tai tilintarkastuslain 10 luvun 3 §:n nojalla, jos kannetta vireille pantaessa on todennäköistä, ettei yhtiö huolehdi vahingonkorvausvaatimuksen toteuttamisesta ja jos:</p>
+                            </intro>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>10 §</num>
+                        <heading>Kanneoikeuden vanhentuminen</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Jos kannetta ajetaan 1—3, 5 tai 6 §:n taikka tilintarkastuslain 10 luvun 3 §:n nojalla ja se perustuu muuhun kuin rangaistavaan tekoon, kanne on nostettava kolmen vuoden kuluessa siitä, kun vahingonkärsijä on saanut tietää tai hänen olisi pitänyt tietää vahingosta ja siitä vastuussa olevasta. Vahingonkorvausvelan vanhentuminen on katkaistava siten kuin velan vanhentumisesta annetussa laissa (728/2003), jäljempänä 
+                                    <i>vanhentumislaki</i>, säädetään.
+                                </p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>11 §</num>
+                        <heading>Pakottavuus</heading>
+                        <subsection>
+                            <content>
+                                <p>Yhtiöjärjestyksessä ei voida rajoittaa yhtiön tai muun henkilön tämän luvun tai tilintarkastuslain 10 luvun 3 §:n mukaista oikeutta vahingonkorvaukseen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/254">HE 254/2014</ref>
+                        </p>
+                        <p>TaVM 34/2014</p>
+                        <p>EV 371/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>  Helsingissä 18 päivänä syyskuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeus- ja työministeri</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

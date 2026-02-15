@@ -1,0 +1,462 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2024/652/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/652"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/652/alkup"/>
+                    <FRBRdate date="2024-11-22" name="dateIssued"/>
+                    <FRBRdate date="2024-11-26" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="652"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2024/652/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/652/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/652/alkup/swe"/>
+                    <FRBRdate date="2024-11-22" name="dateIssued"/>
+                    <FRBRdate date="2024-11-26" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2024/652/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2024/652/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2024/652/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2024-11-26" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2024</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>652/2024</docNumber>
+                <docTitle>Lag om ändring av aktiebolagslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 6 kap. i aktiebolagslagen (
+                        <affectedDocument href="/akn/fi/act/statute/2006/624">624/2006</affectedDocument>
+                        ) en ny 9 a § samt till lagen en bilaga som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>6 kap.</num>
+                    <heading>Aktiebolagets ledning och företrädare</heading>
+                    <section>
+                        <num>9 a §</num>
+                        <heading>Val av styrelseledamöter i vissa börsbolag</heading>
+                        <subsection>
+                            <intro>
+                                <p>I ett börsbolag ska målet vara att minst 40 procent av bolagets styrelseledamöter ska företräda det underrepresenterade könet, om det under både den avslutade och den omedelbart föregående räkenskapsperioden var så att det genomsnittliga antalet anställda i börsbolaget översteg 250 personer och att</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>börsbolagets rapporterade balansomslutning uppgick till mer än 43 miljoner euro, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>börsbolagets rapporterade omsättning uppgick till mer än 50 miljoner euro.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Målet för antalet styrelseledamöter av det underrepresenterade könet ska beräknas på det sätt som anges i bilagan till denna lag.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 28 december 2024.</p>
+                    <p>Börsbolag som avses i 6 kap. 9 a § ska sträva efter att uppnå målen för minimiantalet styrelseledamöter av det underrepresenterade könet senast den 30 juni 2026.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/60">RP 60/2024</ref>
+                        </p>
+                        <p>AjUB 9/2024</p>
+                        <p>RSv 87/2024</p>
+                        <p>Europaparlamentets och rådets direktiv (EU) 2022/2381 (32022L2381); EUT L 315, 7.12.2022, s. 44–59</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 22 november 2024</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister</role>
+                                <person refersTo="">Leena Meri</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+            <hcontainer name="attachments">
+                <hcontainer name="attachment">
+                    <content>
+                        <p>
+                            <i>Bilaga</i>
+                        </p>
+                        <p>Mål för antal styrelseledamöter av det underrepresenterade könet</p>
+                        <table class="frame-all">
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>Antal styrelseledamöter</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>Minimiantal styrelseledamöter av det underrepresenterade könet som krävs för att uppnå målet på 40 procent</b>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>1</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>-</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>2</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>-</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>3</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>1 (33,3 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>4</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>1 (25 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>5</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>2 (40 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>6</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>2 (33,3 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>7</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>3 (42,9 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>8</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>3 (37,5 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>9</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>4 (44,4 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>10</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>4 (40 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>11</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>4 (36,4 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>12</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>5 (41,7 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>13</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>5 (38,4 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>14</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>6 (42,9 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>15</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>6 (40 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>16</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>6 (37,5 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>17</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>7 (41,2 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>18</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>7 (38,9 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>19</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>8 (42,1 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>20</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>8 (40 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>21</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>8 (38,1 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>22</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>9 (40,1 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>23</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>9 (39,1 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>24</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>10 (41,7 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>25</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>10 (40 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>26</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>10 (38,5 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>27</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>11 (40,7 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>28</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>11 (39,3 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>29</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>12 (41,4 %)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>
+                                        <b>30</b>
+                                    </p>
+                                </td>
+                                <td class="colsep-1 rowsep-1">
+                                    <p>12 (40 %)</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,249 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/308/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/308"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/308/alkup"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-27" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="308"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/308/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/308/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/308/alkup/fin"/>
+                    <FRBRdate date="2015-03-20" name="dateIssued"/>
+                    <FRBRdate date="2015-03-27" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/308/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/308/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/308/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRdate date="2015-03-27" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>308/2015</docNumber>
+                <docTitle>Laki eläkesäätiölain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         eläkesäätiölain (<affectedDocument href="/akn/fi/act/statute/1995/1774">1774/1995</affectedDocument>) 48 e ja 48 g §, sellaisina kuin ne ovat, 48 e § laissa 174/2009 ja 48 g § laissa 443/2012, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 48 h § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>6 luku</num>
+                    <heading>Eläkevastuu ja sen kattaminen sekä vakavaraisuuspääoma</heading>
+                    <section>
+                        <num>48 e §</num>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Jos vapaaehtoista lisäeläketoimintaa harjoittava eläkesäätiö takaa biometrisen riskin, sijoitustoiminnan tuoton tai etuuksien tason, eläkesäätiöllä on jatkuvasti oltava eläkevastuun lisäksi riittävä määrä omia varoja, joilla se pystyy täyttämään vakuutuskassalain (1164/1992) 83 v—83 y §:n mukaisesti eri vakuutusluokkien osalta yhteenlasketun vähimmäismäärää koskevan vaatimuksen (<i>omien varojen vähimmäismäärä</i>).
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Omien varojen on oltava riskityypin ja varojen rakenteen mukaiset kaikkien lisäeläkejärjestelyjen osalta. Varoja ei saa sitoa ennakoituihin vastuisiin.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Eläkesäätiön 1 momentissa tarkoitettuihin omiin varoihin luetaan seuraavat erät:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>sidotun ja vapaan oman pääoman rahastot;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>tilikauden ja edellisten tilikausien ylijäämistä kertynyt oma pääoma;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>kirjanpitolain 5 luvun 12 §:n 1 momentin nojalla taseeseen merkitty poistoero ja mainitun luvun 15 §:ssä tarkoitetut vapaaehtoiset varaukset; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>taseen omaisuuden käypien arvojen ja kirjanpitoarvojen positiivinen erotus siltä osin kuin sitä ei voida pitää luonteeltaan poikkeuksellisena.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Eläkesäätiön 1 momentissa tarkoitetuista omista varoista on vähennettävä seuraavat erät:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>tilikauden ja edellisten tilikausien tappio;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>taseen omaisuuden kirjanpitoarvojen ja käypien arvojen positiivinen erotus;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3) </num>
+                                <content>
+                                    <p>aineettomien hyödykkeiden hankinnasta tuloslaskelmaan kuluksi merkitsemättä jätetty osuus;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4) </num>
+                                <content>
+                                    <p>kaikki sellaiset taseeseen merkitsemättömät velkoihin rinnastettavat erät, joiden suoritusvelvollisuutta on pidettävä todennäköisenä; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5) </num>
+                                <content>
+                                    <p>johdannaissopimuksista eläkesäätiölle koituva mahdollinen enimmäistappio.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Finanssivalvonta voi erityisestä syystä kieltää eläkesäätiötä lukemasta 3 momentin 4 kohdassa tarkoitettua erää osittain tai kokonaan osaksi säätiön 1 momentissa tarkoitettuja varoja.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Finanssivalvonta voi antaa tarkempia määräyksiä:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1) </num>
+                                <content>
+                                    <p>omiin varoihin luettavista ja siitä vähennettävistä eristä; ja</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2) </num>
+                                <content>
+                                    <p>omia varoja koskevien vaatimusten täyttämistä koskevien laskelmien laatimisesta ja toimittamisen ajankohdasta.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>48 g §</num>
+                        <subsection>
+                            <content>
+                                <p>Jos eläkesäätiön 48 e §:n 2 ja 3 momentissa tarkoitettujen omien varojen määrä on pienempi kuin 48 e §:n 1 momentissa tarkoitettu omien varojen vähimmäismäärä, eläkesäätiön on viipymättä toimitettava Finanssivalvonnan hyväksyttäväksi taloudellisen aseman tervehdyttämissuunnitelma. Tervehdyttämissuunnitelmassa on osoitettava, miten eläkesäätiö vuoden kuluessa täyttää omien varojen vähimmäismäärän.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>48 h §</num>
+                        <subsection>
+                            <content>
+                                <p>Edellytyksenä 48 a §:n 2 momentin 5 kohdan mukaisen työnantajan lisämaksuvelvollisuuteen perustuvan erän lukemiselle vakavaraisuuspääomaan on, että eläkesäätiön tulee kuvata 48 d §:n mukaisessa riskienhallintasuunnitelmassa, mitä erällä tavoitellaan, mitä vaikutuksia erällä on eläkesäätiön sijoitussuunnitelmaan, vakavaraisuuteen, sijoitusjakaumaan ja tuotto-odotukseen sekä missä tilanteessa vakavaraisuutta kartutetaan kannatusmaksuilla tai kannatusmaksujen alennuksia rajoitetaan.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Työnantajan lisämaksuvelvollisuuteen perustuva erä tulee mitoittaa ottaen huomioon sille asetettu toteuttamiskelpoinen tavoite. Eläkesäätiön tulee seurata riskienhallintasuunnitelmassa erän käytölle asetettujen tavoitteiden toteutumista. Eläkesäätiö ei voi lukea mainittua erää vakavaraisuuspääomaan, jos eläkesäätiön toiminta ei vastaa riskienhallintasuunnitelmaa.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos työnantajan lisämaksuvelvollisuuteen perustuva erä on luettu vakavaraisuuspääomaan, eläkesäätiön on seurattava vakavaraisuutensa suhdetta työeläkejärjestelmän keskimääräisen vakavaraisuuden tasoon. Jos eläkesäätiön vakavaraisuus suhteessa työeläkejärjestelmän vakavaraisuuden keskimääräiseen tasoon alenee siten, että poikkeama lisää merkittävästi eläkesäätiön toiminnan riskejä, eläkesäätiön tulee rajoittaa lisävakuutusvastuun käyttöä kannatusmaksujen alentamiseen tai vahvistaa vakavaraisuuspääomaa lisämaksuilla.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vakavaraisuusrajaa vastaavan määrän eläkesäätiön vakavaraisuuspääomasta on muodostuttava muista eristä kuin 1 momentissa mainitusta erästä. Finanssivalvonta voi kuitenkin sallia edellä mainitun erän lukemisen kahden vuoden ajan vakavaraisuuspääomaan eläkelaitoksen vakavaraisuusrajan laskemisesta ja vastuuvelan kattamisesta annetun lain 23 §:ssä tarkoitetussa tilanteessa, vaikka vakavaraisuuspääoma on vakavaraisuusrajaa pienempi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/344">HE 344/2014</ref>
+                        </p>
+                        <p>TaVM 30/2014</p>
+                        <p>EV 304/2014</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2009/138/EY (32009L0138); EYVL N:o L 335, 17.12.2009, s. 1.</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2011/89/EU (32011L0089); EYVL N:o L 326, 8.12.2011, s. 113.</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2014/51/EU (32014L0051); EYVL N:o L 153, 22.5.2014, s. 1.</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>  Helsingissä 20 päivänä maaliskuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri</role>
+                                <person refersTo="">Laura Räty</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

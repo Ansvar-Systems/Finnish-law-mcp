@@ -1,0 +1,166 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/379/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/379"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/379/alkup"/>
+                    <FRBRdate date="2005-06-03" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="379"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/379/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/379/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/379/alkup/swe"/>
+                    <FRBRdate date="2005-06-03" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/379/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/379/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/379/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="70"/>
+                    <finlex:date date="2005-06-09"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>379/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om faderskap</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 5 september 1975 om faderskap (
+                        <affectedDocument href="/akn/fi/act/statute/1975/700">700/1975</affectedDocument>
+                        ) 11 § 2 och 3 mom., 29 § 2 mom., 35 § 2 mom. och 42 § 1 mom., av dem 42 § 1 mom. sådant det lyder i lag 351/1980, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 11 § ett nytt 4 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>11 §</num>
+                    <heading>Anskaffande av medicinska utredningar</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Barnatillsyningsmannen skall beställa en sådan rättsgenetisk faderskapsundersökning som avses i 1 § i lagen om rättsgenetisk faderskapsundersökning (378/2005) och som gäller barnet, modern och den man som kan vara far till barnet, om mannen begär undersökning eller om barnatillsyningsmannen i övrigt anser att en sådan behövs. Om en undersökning enligt den nämnda lagen kan förordnas att gälla någon annan person än de som avses ovan, kan barnatillsyningsmannen beställa undersökningen om denne anser att skäl därtill föreligger.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En rättsgenetisk faderskapsundersökning kan i samband med utredning av faderskap utföras endast med samtycke av den som avses ge ett prov. Om undersökningen avses gälla en avliden som inte under sin livstid har samtyckt till en undersökning, krävs samtycke av den avlidnes efterlevande make eller maka och arvingarna.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om undersökningen avses gälla mannens eller moderns båda föräldrar, endast den ena föräldern eller någon annan släkting än mannens eller moderns föräldrar, gäller i fråga om undersökningen och samtycke till den i tillämpliga delar 6, 7 och 9 § samt 11 § 1 mom. i lagen om rättsgenetisk faderskapsundersökning.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>29 §</num>
+                    <heading>Återkallande av talan och uteslutande av faderskap</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Förs talan om fastställande av faderskap mot flera män, kan domstolen innan frågan om faderskap slutligt avgörs förkasta talan för en eller flera svarandes vidkommande, om det utifrån en rättsgenetisk faderskapsundersökning kan anses bevisat att svaranden inte kan vara barnets far.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>35 §</num>
+                    <heading>Talerätt</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Äkta mannen och modern skall anhängiggöra talan inom två år från barnets födelse.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>42 §</num>
+                    <heading>Upphävande av erkänt faderskap</heading>
+                    <subsection>
+                        <content>
+                            <p>Talan om upphävande av erkänt faderskap kan väckas av den man som har erkänt faderskapet eller av modern eller barnet. Mannen och modern skall anhängiggöra talan inom två år efter det att faderskapet har fastställts genom erkännande.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 oktober 2005.</p>
+                    <p>I fråga om fall som gäller barn som är födda före lagens ikraftträdande och där tiden för väckande av talan om upphävande av faderskap inte har löpt ut före ikraftträdandet, bestäms den äkta mannens och moderns rätt att väcka talan om upphävande av faderskap enligt 35 § 2 mom. sådant det lydde vid ikraftträdandet. Talan om upphävande av faderskap får dock inte anhängiggöras efter det att två år har gått från ikraftträdandet.</p>
+                    <p>Om faderskapet före lagens ikraftträdande har fastställts genom erkännande och tiden för väckande av talan om upphävande av faderskap inte har löpt ut före ikraftträdandet, bestäms rätten för den man som erkänt faderskapet och för modern att väcka talan om upphävande av faderskap enligt 42 § 1 mom. sådant det lydde vid ikraftträdandet. Talan om upphävande av faderskap får dock inte anhängiggöras efter det att två år har gått från ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 56/2004</p>
+                        <p>LaUB 1/2005</p>
+                        <p>RSv 27/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 3 juni 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

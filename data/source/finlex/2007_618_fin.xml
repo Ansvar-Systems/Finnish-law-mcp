@@ -1,0 +1,270 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/618/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/618"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/618/alkup"/>
+                    <FRBRdate date="2007-05-25" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="618"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/618/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/618/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/618/alkup/fin"/>
+                    <FRBRdate date="2007-05-25" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/618/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/618/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/618/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="91"/>
+                    <finlex:date date="2007-05-31"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>618/2007</docNumber>
+                <docTitle>Laki ulkomaalaisrekisteristä annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         ulkomaalaisrekisteristä 19 päivänä joulukuuta 1997 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1997/1270">1270/1997</affectedDocument>
+                        ) 5 §:n 3 momentti, 7 §, 8 §:n 1 momentin 1, 5, 8 ja 9 kohta sekä 10 §:n 1 momentin 6 ja 10 kohta, 
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 7 § laeissa 305/2004, 419/2006 ja 674/2006 sekä 8 §:n 1 momentin 8 ja 9 kohta sekä 10 §:n 1 momentin 10 kohta mainitussa laissa 305/2004, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         3 §:ään, sellaisena kuin se on osaksi mainituissa laeissa 305/2004 ja 674/2006, uusi 4 momentti, 8 §:n 1 momenttiin, sellaisena kuin se on osaksi mainitussa laissa 305/2004 ja laissa 1159/2006, uusi 10―14 kohta ja 10 §:n 1 momenttiin, sellaisena kuin se on osaksi mainituissa laissa 305/2004 ja laissa 620/2006, siitä mainitulla lailla 305/2004 kumotun 8 kohdan tilalle uusi 8 kohta sekä momenttiin uusi 11 kohta seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Rekisterinpitäjät</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Rekisteriä pitävien ja käyttävien viranomaisten palveluksessa olevat ovat oikeutettuja näkemään ja käsittelemään teknisen käyttöyhteyden avulla ulkomaalaisrekisteriin talletettuja tietoja ainoastaan rekisterin 2 §:ssä säädettyyn tarkoitukseen liittyvien toimivaltuuksiensa rajoissa. Päävastuullinen rekisterinpitäjä myöntää viranomaisen esityksestä henkilölle käyttöoikeuden niihin osarekistereihin ja osarekistereiden tietoryhmiin tai tietokenttiin, joiden päävastuullinen rekisterinpitäjä katsoo olevan tarpeen kyseisen viranomaisen ulkomaalais- ja kansalaisuusasioita koskevien lakisääteisten tehtävien hoitamista varten.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <heading>Rekisterin henkilöllinen ulottuvuus</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Lisäksi ulkomaalaisrekisteriin saa tallettaa tietoja 1 ja 2 momentissa tarkoitetun henkilön perheenjäsenistä, hänen kanssaan samassa taloudessa asuvista henkilöistä ja Suomessa olevista vastaanottajista silloin, kun se asian ratkaisemisen kannalta on tarpeen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 §</num>
+                    <heading>Talletettavat tiedot</heading>
+                    <subsection>
+                        <content>
+                            <p>Ulkomaalaisrekisteriin saa, siltä osin kuin on tarpeen, tallettaa 5 tai 6 §:ssä tarkoitetun henkilön tunnistetietoina asia- tai asiakasnumeron, nimet, valokuvan, nimikirjoitusnäytteen, DNA-testin ja sormenjälkien vertailun lausunnon, sukupuolen, syntymäajan, -paikan ja -maan, henkilötunnuksen ja ulkomaisen henkilönumeron tai muun ulkomaisen henkilön yksilöimiseksi annetun tunnuksen, kansalaisuus- ja kansallisuustiedot, ammatti-, koulutus- ja kielitaitotiedot, tiedot siviilisäädystä ja perhesuhteista, kotikunnan, osoite- ja muut yhteystiedot sekä tiedot matkustusasiakirjoista ja ulkomaalaislain 96 §:n mukaisesta hakemusasian vireilläoloa osoittavasta kortista.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Sen lisäksi, mitä 1 momentissa säädetään, ulkomaalaisrekisteriin, saa siltä osin kuin on tarpeen, tallettaa:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>5 §:n 1 tai 2 momentissa tarkoitetusta hakemuksesta tai ilmoituksesta taikka hakemuksen vuoksi tehdystä tiedustelusta tai kuulemisesta ilmenevät tiedot haetusta luvasta, asiasta ja hakemuksen perusteista, maassa oleskelun ja matkan tarkoituksesta ja kestosta sekä matkareitistä, maahantulon ja maastalähdön ajankohdasta ja paikasta sekä tiedot työnantajista ja työnteosta sekä ulkomaalaislain 73 §:n 1 momentissa tarkoitetut työntekijän oleskelulupaan liitettävät tiedot;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>tiedot 5 §:n 1 ja 2 momentissa tarkoitettujen asioiden käsittelystä, niihin liittyvistä selvityksistä, lausunnoista, asian ratkaisusta ja päätöksen perusteista, asian raukeamisesta sekä muutoksenhausta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>5 §:n 3 momentissa tarkoitettujen perheenjäsenten, samassa taloudessa asuvien henkilöiden sekä vastaanottajien henkilö- ja yhteystiedot.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>8 §</num>
+                    <heading>Ulkopuoliset tietolähteet</heading>
+                    <subsection>
+                        <intro>
+                            <p>Rekisterinpitäjällä on oikeus salassapitosäännösten estämättä saada ulkomaalaisrekisteriä varten sille laissa säädettyjen tehtävien suorittamiseksi välttämättömiä tietoja seuraavasti:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>oikeushallinnon tietojärjestelmistä tietoja syyteharkinnassa olevista tai olleista ulkomaalaisten tekemiksi epäillyistä rikoksista ja syyttäjän päätöksistä, joiden mukaan asiassa ei ole kyseessä rikos tai näyttöä rikoksesta, annetuista rangaistusmääräyksistä, tuomioistuimissa vireillä olevista rikosasioista sekä tuomioistuinten lainvoimaisista ratkaisuista samoin kuin tiedot hakijan elatusvelvollisuudesta ja sen hoitamisesta sekä tiedot päätöksistä, tiedoksiannoista, lausunnoista ja päätösten lainvoimaisuudesta;</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>väestötietojärjestelmästä tiedot ulkomaalaisrekisteriin merkityn henkilön henkilötiedoista ja niissä tapahtuneista muutoksista sekä niitä koskevien väestötietojärjestelmän merkintöjen perusteena olevista asiakirjoista;</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>8)</num>
+                            <content>
+                                <p>sosiaaliviranomaiselta tai terveydenhuoltoviranomaiselta perhesiteen perusteella tehtyä oleskelulupahakemusta varten ulkomaalaislain 63 §:n mukaisesti tiedot perheenkokoajan sosiaalisesta ja terveydellisestä tilanteesta sekä Kansanterveyslaitokselta ja Helsingin yliopiston oikeuslääketieteen laitokselta tiedot ulkomaalaislain 66 §:ssä tarkoitetusta DNA-tyypityksen perusteella annetusta lausunnosta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>9)</num>
+                            <content>
+                                <p>veroviranomaiselta verovelvollisen tuloja ja varallisuutta koskevia tietoja sekä muita verotustietoja Suomen kansalaisuuden saamisen tai siitä vapautumisen edellytysten sekä oleskeluluvan toimeentuloedellytyksen selvittämiseksi;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>10)</num>
+                            <content>
+                                <p>poliisin henkilörekistereistä tietoja henkilön tunnistamiseksi ja tietoja matkustusasiakirjoista;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>11)</num>
+                            <content>
+                                <p>rajavartiolaitoksen henkilörekistereistä henkilötietojen käsittelystä rajavartiolaitoksessa annetun lain (579/2005) 7 §:ssä tarkoitettuja rajatarkastustietoja sekä mainitun lain 9 §:ssä tarkoitettuja maa- ja merirajan valvontatietoja sekä rajaliikenteen henkilötietoja;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>12)</num>
+                            <content>
+                                <p>Opetushallitukselta tiedot suoritetuista yleisistä kielitutkinnoista annetussa laissa (964/2004) tarkoitetuista yleisistä kielitutkinnoista ja julkisyhteisöjen henkilöstöltä vaadittavasta kielitaidosta annetun lain (424/2003) nojalla säädetyistä valtionhallinnon kielitutkinnoista sekä opiskelijavalintarekisteristä ja ylioppilastutkintorekisteristä annetussa laissa (1058/1998) tarkoitetusta opiskelijavalintarekisteristä tiedot opiskelijaksi hyväksymisestä ja opiskelupaikan vastaanottamisesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>13)</num>
+                            <content>
+                                <p>oppilaitoksilta tiedot opiskelupaikan haltijoista ja näiden opintosuorituksista;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>14)</num>
+                            <content>
+                                <p>Kansallisarkistolta tietoja sellaisista arkistoiduista asiakirjoista, joista rekisterinpitäjällä on muutoin oikeus saada tietoja.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 §</num>
+                    <heading>Tietojen luovuttaminen rekisteristä</heading>
+                    <subsection>
+                        <intro>
+                            <p>Sen lisäksi, mitä muualla laissa säädetään taikka Suomea sitovissa kansainvälisissä sopimuksissa määrätään, ulkomaalaisrekisteristä saa salassapitosäännösten estämättä ja siinä määrin kuin se vastaanottavan viranomaisen lakisääteisten tehtävien suorittamiseksi on tarpeen luovuttaa tietoja:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>Kansaneläkelaitokselle ja kunnan sosiaaliviranomaiselle ulkomaalaisen sosiaaliturvaan ja sosiaalihuoltoon liittyvää päätöksentekoa ja valvontaa varten;</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>8)</num>
+                            <content>
+                                <p>Kansanterveyslaitokselle ja Helsingin yliopiston oikeuslääketieteen laitokselle ulkomaalaislain 65 §:ssä tarkoitetun DNA-tutkimuksen suorittamiseksi tarpeellisia tietoja;</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>10)</num>
+                            <content>
+                                <p>hätäkeskuslaitokselle hätäkeskuslain (157/2000) 8 §:n 1 momentin 3 kohdan mukaisesti;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>11)</num>
+                            <content>
+                                <p>oppilaitoksille opiskelijoiden oleskeluluvista.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä kesäkuuta 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/156">HE 156/2006</ref>
+                        </p>
+                        <p>HaVM 37/2006</p>
+                        <p>EV 311/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 25 päivänä toukokuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Maahanmuutto- ja eurooppaministeri </role>
+                                <person refersTo="">Astrid Thors</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

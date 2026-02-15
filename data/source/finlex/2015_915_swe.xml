@@ -1,0 +1,147 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/915/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/915"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/915/alkup"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="915"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/915/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/915/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/915/alkup/swe"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/915/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/915/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/915/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>915/2015</docNumber>
+                <docTitle>Lag om ändring av lagen om överlastavgift</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om överlastavgift (
+                        <affectedDocument href="/akn/fi/act/statute/1982/51">51/1982</affectedDocument>
+                        ) 8, 9 och 15 §, av dem 8 § sådan den lyder delvis ändrad i lag 170/1996 och 15 § sådan den lyder delvis ändrad i lag 255/1989, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>8 §</num>
+                    <heading>Påförande av avgift</heading>
+                    <subsection>
+                        <content>
+                            <p>Ett ärende som gäller påförande av överlastavgift (betalningsföreläggande) handläggs av den polisinrättning inom vars verksamhetsområde överlasten har konstaterats.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Beslutet om betalningsföreläggande fattas av chefen för polisinrättningen eller en polisman som hör till befälet inom inrättningen och som chefen har förordnat.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>I enskilda fall behöver överlastavgift inte påföras eller också kan den avlyftas, om transporten av överlast har berott på ouppmärksamhet som är ursäktlig med beaktande av förhållandena eller på någon annan därmed jämförbar särskild orsak.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <heading>Anmälan om överlast</heading>
+                    <subsection>
+                        <content>
+                            <p>När en trafikövervakare konstaterat överlast för vilken en överlastavgift kan påföras, ska trafikövervakaren omedelbart skriftligen anmäla detta till polisinrättningen för påförande av överlastavgift. Samtidigt ska fordonets förare ges en kopia av anmälningen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>15 §</num>
+                    <heading>Ändringssökande och verkställighet</heading>
+                    <subsection>
+                        <content>
+                            <p>Beslut som gäller påförande av överlastavgift får överklagas genom besvär hos förvaltningsdomstolen på det sätt som anges i förvaltningsprocesslagen (586/1996). Över förvaltningsdomstolens beslut får besvär anföras endast om högsta förvaltningsdomstolen beviljar besvärstillstånd.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>På indrivning av avgiften i utsökningsväg tillämpas lagen om verkställighet av skatter och avgifter (706/2007).</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016.</p>
+                    <p>På sökande av ändring i ett förvaltningsbeslut som meddelats före ikraftträdandet av denna lag tillämpas de bestämmelser som gällde vid ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 230/2014</p>
+                        <p>LaUB 26/2014</p>
+                        <p>RSv 319/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Nådendal den 7 augusti 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitie- och arbetsminister</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

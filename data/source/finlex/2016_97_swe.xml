@@ -1,0 +1,154 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/97/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/97"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/97/alkup"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="97"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/97/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/97/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/97/alkup/swe"/>
+                    <FRBRdate date="2016-01-29" name="dateIssued"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/97/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/97/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/97/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-02-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>97/2016</docNumber>
+                <docTitle>Lag om ändring av lagen om försäkringskassor</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs </i>
+                        i lagen om försäkringskassor (
+                        <affectedDocument href="/akn/fi/act/statute/1992/1164">1164/1992</affectedDocument>
+                        ) 83 b § 2 mom. 7 punkten, sådan den lyder i lag 444/2012, och 
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         79 § 3 mom., 83 b § 1 mom., 83 d § 2 mom. och 111 § 3 mom., 
+                    </block>
+                    <block name="substitutions-originals">sådana de lyder, 79 § 3 mom. och 83 b § 1 mom. i lag 444/2012, 83 d § 2 mom. i lag 323/2015 och 111 § 3 mom. i lag 420/2003, som följer:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>79 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ersättningsansvaret motsvarar obetalda ersättningsbelopp och andra belopp som ska betalas med anledning av inträffade försäkringsfall till den del som pensionskassan blivit ansvarig enligt lagen om pension för arbetstagare eller lagen om pension för företagare och ett för skaderika år riskteoretiskt beräknat utjämningsbelopp för en pensionskassa som bedriver annan än lagstadgad pensionsförsäkring.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>83 b §</num>
+                    <subsection>
+                        <content>
+                            <p>Med pensionskassans solvenskapital i fråga om verksamhet enligt lagen om pension för arbetstagare avses det belopp med vilket pensionskassans tillgångar för denna verksamhet och andra därmed jämförbara förbindelser och säkerheter överskrider pensionskassans skulder och andra därmed jämförbara förbindelser som uppkommer i denna försäkringsverksamhet, med hänsyn till det som föreskrivs i 2—7 mom. och bestäms närmare med stöd av 7 mom. Vid beräkningen av ansvarsskulden beaktas inte det tilläggsförsäkringsansvar som avses i 79 § 2 mom.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>83 d §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Maximibeloppet av pensionskassans solvenskapital är solvensgränsens tredubbla belopp, dock minst 50 procent av ansvarsskulden, minskat med tilläggsförsäkringsansvaret och de poster som enligt 139 § 2 mom. i lagen om pension för företagare inte ska beaktas i premieansvaret. Tilläggsförsäkringsansvaret kan utökas genom försäkringspremier upp till solvenskapitalets maximibelopp.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>111 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Kassamötet kan utöver vad som bestäms i 1 mom. besluta att kassan ska träda i likvidation och upplösas. I fråga om en pensionskassa kan ett sådant beslut dock verkställas endast om kassan har överlåtit hela sitt ansvar på någon annan pensionskassa eller pensionsstiftelse eller något annat försäkringsbolag.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2017.</p>
+                    <p>Det utjämningsbelopp som har ackumulerats fram till den 31 december 2016 för en pensionskassa som bedriver lagstadgad pensionsförsäkring överförs den 1 januari 2017 till tilläggsförsäkringsansvaret.</p>
+                    <p>Utöver vad som föreskrivs i 72 § 2 mom. får indexförhöjningsansvaret också användas för att täcka ökning av ansvarsskulden till följd av de ändringar av den lägsta åldern för ålderspension som föreskrivs i lagen om ändring av lagen om pension för arbetstagare (69/2016). När den övre gränsen för indexförhöjningsansvaret fastställs, kan ökningen av ansvarsskulden beaktas från och med den 31 december 2016. Finansinspektionen får meddela närmare föreskrifter om utökningen och användningen av det indexförhöjningsansvar som avses i detta moment.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/16">RP 16/2015</ref>
+                        </p>
+                        <p>ShUB 5/2015</p>
+                        <p>RSv 37/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 januari 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister</role>
+                                <person refersTo="">Hanna Mäntylä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

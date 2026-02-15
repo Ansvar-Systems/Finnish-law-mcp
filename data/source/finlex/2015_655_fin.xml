@@ -1,0 +1,167 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/655/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/655"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/655/alkup"/>
+                    <FRBRdate date="2015-05-22" name="dateIssued"/>
+                    <FRBRdate date="2015-05-27" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="655"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/655/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/655/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/655/alkup/fin"/>
+                    <FRBRdate date="2015-05-22" name="dateIssued"/>
+                    <FRBRdate date="2015-05-27" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/655/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/655/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/655/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-05-27" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>655/2015</docNumber>
+                <docTitle>Laki verontilityslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         verontilityslain (
+                        <affectedDocument href="/akn/fi/act/statute/1998/532">532/1998</affectedDocument>
+                        ) 12 ja 12 e §, 13 §:n otsikko sekä 1 ja 5 momentti sekä 14 §:n otsikko ja 1 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 12 ja 12 e § laissa 1407/2014, 13 §:n 1 momentti laissa 988/2005 ja 5 momentti laissa 724/2004 sekä 14 §:n otsikko ja 1 momentti laissa 1458/2001, ja</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään </i>
+                        27 §:ään uusi 5 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>12 §</num>
+                    <heading>Veronsaajaryhmien jako-osuudet</heading>
+                    <subsection>
+                        <content>
+                            <p>Valtion jako-osuus on 69,66 prosenttia ja kuntien jako-osuus 30,34 prosenttia yhteisöverosta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>12 e §</num>
+                    <heading>Veronsaajaryhmien jako-osuudet verovuonna 2016</heading>
+                    <subsection>
+                        <content>
+                            <p>Poiketen siitä, mitä 12 §:ssä säädetään, valtion jako-osuus verovuonna 2016 on 69,08 prosenttia ja kuntien jako-osuus 30,92 prosenttia yhteisöverosta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>13 §</num>
+                    <heading>Yksittäisten kuntien jako-osuudet</heading>
+                    <subsection>
+                        <content>
+                            <p>Kunnan verovuoden jako-osuus on kahden viimeksi valmistuneen verotuksen tietojen perusteella laskettujen jako-osuuksien keskiarvo. Kunnan jako-osuus saadaan laskemalla kunkin kunnan verovuoden 2 momentin mukaisen yritystoimintaerän ja 4 momentin mukaisen metsäerän summan suhteellinen osuus kaikkien kuntien vastaavien lukujen summasta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Verohallinto toimittaa salassapitoa koskevien säännösten estämättä kullekin kunnalle tiedon yhteisölle maksuunpannusta yhteisöverosta siltä osin kuin jako-osuuksien laskennassa käytetty maksuunpantu yhteisövero kohdistuu tähän kuntaan. Valtioneuvoston asetuksella säädetään niiden yhteisöjen lukumäärästä, joiden osalta tietoja toimitetaan.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>14 §</num>
+                    <heading>Yksittäisten kuntien jako-osuuksien vahvistaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Valtiovarainministeriö vahvistaa kunnan verovuoden jako-osuuden laskentaperusteet kuntien yhteisöveroista kuultuaan kuntien keskusjärjestöä.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>27 §</num>
+                    <heading>Aikaisempien vuosien verojen tilittäminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Verovuodelta 2015 ja aikaisemmilta verovuosilta kertynyt yhteisövero tilitetään seurakunnille viimeisen kerran lokakuun 2017 kuukausitilityksen yhteydessä, minkä jälkeen ne tilitetään valtiolle.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                    <p>Lakia sovelletaan ensimmäisen kerran verovuoden 2016 yhteisöveron tilityksiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2014/302">HE 302/2014</ref>
+                        </p>
+                        <p>VaVM 41/2014</p>
+                        <p>EV 285/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>  Helsingissä 22 päivänä toukokuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Valtiovarainministeri</role>
+                                <person refersTo="">Antti Rinne</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

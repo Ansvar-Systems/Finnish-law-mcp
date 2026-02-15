@@ -1,0 +1,120 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1704/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1704"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1704/alkup"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1704"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1704/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1704/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1704/alkup/fin"/>
+                    <FRBRdate date="2015-12-30" name="dateIssued"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/1704/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/1704/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/1704/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-12-31" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1704/2015</docNumber>
+                <docTitle>Laki verotusmenettelystä annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti </p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         verotusmenettelystä annettuun lakiin (
+                        <affectedDocument href="/akn/fi/act/statute/1995/1558">1558/1995</affectedDocument>
+                        ) uusi 17 b § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>17 b § </num>
+                    <heading>Sivullisen yleinen tiedonantovelvollisuus hallinnollisesta yhteistyöstä verotuksen alalla ja direktiivin 77/799/ETY kumoamisesta annetun neuvoston direktiivin 2011/16/EU johdosta</heading>
+                    <subsection>
+                        <content>
+                            <p>Hallinnollisesta yhteistyöstä verotuksen alalla ja direktiivin 77/799/ETY kumoamisesta annetussa  neuvoston direktiivissä 2011/16/EU, sellaisena kuin se on muutettuna direktiivin 2011/16/EU muuttamisesta siltä osin kuin on kyse pakollisesta automaattisesta tietojenvaihdosta verotuksen alalla annetulla neuvoston direktiivillä 2014/107/EU, tarkoitetun raportoivan suomalaisen finanssilaitoksen on annettava Verohallinnolle direktiivin soveltamista varten tarpeelliset tiedot. Raportoivan suomalaisen finanssilaitoksen on noudatettava direktiivissä ja sen liitteen I jaksoissa I—IX ja liitteessä II raportoiville suomalaisille finanssilaitoksille asetettuja velvoitteita ja niissä määriteltyä huolellisuusmenettelyä raportoitavien tilien tunnistamisessa. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Verohallinto antaa tarkempia määräyksiä, joiden mukaan raportoivat suomalaiset finanssilaitokset voivat direktiivin liitteen I jakson II kohdan D mukaisesti käyttää palveluntarjoajia täyttämään niille asetetut kansallisessa lainsäädännössä tarkoitetut tietojenvaihto- ja huolellisuusvelvoitteet ja liitteen I jakson II kohdan E mukaisesti soveltaa uusia tilejä koskevia huolellisuusmenettelyjä aiempiin tileihin ja suuriarvoisia tilejä koskevia huolellisuusmenettelyjä vähäarvoisiin tileihin. Lisäksi Verohallinto voi antaa tarkempia määräyksiä direktiivin huolellisuusmenettelyn soveltamisesta, annettavista tiedoista sekä tietojen antamisen tavasta ja ajankohdasta ja tai rajoittaa tiedonantovelvollisuutta.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2016.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/129">HE 129/2015</ref>
+                        </p>
+                        <p>VaVM 15/2015</p>
+                        <p>EV 105/2015</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 30 päivänä joulukuuta 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kunta- ja uudistusministeri</role>
+                                <person refersTo="">Anu Vehviläinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

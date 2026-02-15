@@ -1,0 +1,184 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/533/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/533"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/533/alkup"/>
+                    <FRBRdate date="2006-06-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="533"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/533/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/533/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/533/alkup/swe"/>
+                    <FRBRdate date="2006-06-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/533/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/533/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/533/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="84"/>
+                    <finlex:date date="2006-06-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>533/2006</docNumber>
+                <docTitle>Lag om ändring av 4 kap. i arbetsavtalslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i arbetsavtalslagen av den 26 januari 2001 (
+                        <affectedDocument href="/akn/fi/act/statute/2001/55">55/2001</affectedDocument>
+                        ) 4 kap. 1 och 3 §, 4 § 1 mom. och 6 § 1 mom., av dem 4 § 1 mom. sådant det lyder i lag 870/2003, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 4 kap. en ny 3 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>4 kap.</num>
+                    <heading>Familjeledighet</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Moderskaps-, särskild moderskaps-, faderskaps- och föräldraledighet</heading>
+                        <subsection>
+                            <content>
+                                <p>En arbetstagare har rätt till ledighet från arbetet under en sådan moderskaps-, särskild moderskaps-, faderskaps- eller föräldrapenningsperiod som avses i sjukförsäkringslagen.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Arbetstagaren har rätt att ta ut föräldraledighet i högst två perioder, som vardera skall omfatta minst 12 vardagar.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Vårdledighet</heading>
+                        <subsection>
+                            <content>
+                                <p>En arbetstagare har rätt till vårdledighet för att vårda sitt barn eller något annat barn, som varaktigt bor i hans eller hennes hushåll, till dess barnet fyller tre år. Föräldrar till adoptivbarn har dock rätt till vårdledighet till dess två år har förflutit från adoptionen, dock högst till dess barnet inleder sin skolgång.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vårdledighet kan tas ut i högst två perioder, som vardera är minst en månad lång, om inte arbetsgivaren och arbetstagaren kommer överens om flera perioder än två eller att någon period skall vara kortare än en månad. Av föräldrarna eller vårdnadshavarna kan endast en i sänder vara vårdledig. Under tiden för moderskaps- eller föräldraledighet får dock den andra föräldern eller vårdnadshavaren ta ut en period vårdledighet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>3 a §</num>
+                        <heading>Anmälan om moderskaps-, faderskaps- och föräldraledighet samt om vårdledighet</heading>
+                        <subsection>
+                            <content>
+                                <p>Moderskaps-, faderskaps- och föräldraledighet samt vårdledighet skall anmälas till arbetsgivaren senast två månader före den planerade ledighetens början. Om ledigheten varar högst 12 vardagar är anmälningstiden dock en månad. Vid anmälan om ledighet för vård av adoptivbarn skall om möjligt ovan föreskrivna anmälningstid iakttas.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om det på grund av ordnandet av vården av barnet då maken börjar arbeta inte är möjligt att iaktta en anmälningstid på två månader, har arbetstagaren rätt att bli föräldraledig när en månad förflutit från anmälan, om inte detta medför betydande olägenhet för produktions- eller serviceverksamheten på arbetsplatsen. Om arbetsgivaren anser att han inte kan samtycka till en anmälningstid om en månad, skall han för arbetstagaren lägga fram en utredning om de omständigheter som ligger till grund för vägran.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Arbetstagaren får av grundad anledning ändra tidpunkten för ledigheten och dess längd genom att anmäla detta till arbetsgivaren senast en månad före ändringen. En arbetstagare får dock tidigarelägga en moderskapsledighet samt ändra tidpunkten för en faderskapsledighet som hon eller han tänkt hålla i samband med nedkomsten, om det är nödvändigt på grund av barnets födelse eller barnets, moderns eller faderns hälsotillstånd. Ändringarna skall då anmälas till arbetsgivaren så snart som möjligt. Föräldrar till adoptivbarn får av grundad anledning innan ledigheten börjar ändra dess tidpunkt genom att anmäla det till arbetsgivaren så snart som möjligt.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Partiell vårdledighet</heading>
+                        <subsection>
+                            <content>
+                                <p>En arbetstagare som har varit anställd hos samma arbetsgivare sammanlagt minst sex månader under de senaste 12 månaderna kan få partiell vårdledighet för att vårda sitt barn eller något annat barn som varaktigt bor i hans eller hennes hushåll till utgången av det andra läsåret för barnets grundläggande utbildning. Om barnet omfattas av förlängd läroplikt enligt 25 § 2 mom. i lagen om grundläggande utbildning (628/1998), får partiell vårdledighet tas ut till utgången av barnets tredje läsår. En förälder till ett handikappat eller långtidssjukt barn som är i behov av särskild vård och omsorg kan få partiell vårdledighet till dess barnet fyller 18 år. Barnets båda föräldrar eller vårdnadshavare får hålla partiell vårdledighet under samma kalenderperiod men inte samtidigt. Arbetstagaren skall göra framställning om partiell vårdledighet till arbetsgivaren senast två månader före ledighetens början.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Tillfällig vårdledighet</heading>
+                        <subsection>
+                            <content>
+                                <p>Om en arbetstagares barn eller något annat i hans eller hennes hushåll varaktigt boende barn som inte har fyllt tio år plötsligt insjuknar, har arbetstagaren rätt till tillfällig vårdledighet under högst fyra arbetsdagar åt gången för att ordna vård eller för att vårda barnet. Också en förälder som inte bor i samma hushåll som barnet har samma rätt. De som har rätt till tillfällig vårdledighet får hålla tillfällig vårdledighet under samma kalenderperiod men inte samtidigt.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 augusti 2006. Lagens 4 kap. 3 a § träder dock i kraft redan den 1 juli 2006.</p>
+                    <p>Om arbetstagaren meddelat arbetsgivaren tidpunkten för moderskaps-, faderskaps- eller föräldraledighet eller vårdledighet eller om ändring av tidpunkten före den 1 juli 2006, tillämpas på ledigheten de bestämmelser som gällde vid tidpunkten för ikraftträdandet av 4 kap. 3 a § i denna lag.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 44/2006</p>
+                        <p>AjUB 4/2006</p>
+                        <p>RSv 59/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 29 juni 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Arbetsminister </role>
+                                <person refersTo="">Tarja Filatov</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

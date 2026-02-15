@@ -1,0 +1,243 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/20/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/20"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/20/alkup"/>
+                    <FRBRdate date="2007-01-12" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="20"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/20/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/20/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/20/alkup/swe"/>
+                    <FRBRdate date="2007-01-12" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/20/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/20/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/20/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="5"/>
+                    <finlex:date date="2007-01-22"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>20/2007</docNumber>
+                <docTitle>Lag om ändring av aravabegränsningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i aravabegränsningslagen av den 17 december 1993 (
+                        <affectedDocument href="/akn/fi/act/statute/1993/1190">1190/1993</affectedDocument>
+                        ) 3 § 1 mom., 8 § 1 och 4 mom., 9 § 3 och 5 mom., 10 § 1 mom. och 11 § 1 mom., av dem 3 § 1 mom. sådant det lyder i lag 735/2004, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen en ny 8 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <heading>Begränsningstid</heading>
+                    <subsection>
+                        <content>
+                            <p>De begränsningar som gäller aravahyresbostäder och aravahyreshus är, oberoende av en förtida återbetalning av bostadslånet, i kraft den tid för vilken lånet beviljats. Därefter gäller i ytterligare tio år de övriga begränsningar som nämns i denna lag, med undantag för dem om vilka det finns bestämmelser i 7 och 9―12 §. Under den nämnda tioårsperioden får andra än i 13 § 1 mom. avsedda hyreshus, för vilka lån beviljats för att de skall användas som hyresbostäder för speciella befolkningsgrupper, ombildas till bostadsaktiebolagshus genom en anmälan till Statens bostadsfond, om de lån som nämns i 13 § har återbetalts till fullo. Bestämmelsen i 8 § 3 mom. om kommunens inlösningsrätt tillämpas dock under den ovan nämnda tioårsperioden endast i det fall att äganderätten har övergått till någon annan på grund av att en juridisk person har upphört.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>8 §</num>
+                    <heading>Överlåtelse</heading>
+                    <subsection>
+                        <intro>
+                            <p>En aravahyresbostad eller aktier som medför rätt att besitta en sådan bostad, eller ett aravahyreshus eller aktier i ett aravahyreshusbolag, får överlåtas till</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>kommunen,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>en av Statens bostadsfond angiven mottagare som kan beviljas hyresbostadsaravalån,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>någon annan av Statens bostadsfond angiven mottagare som kan anses motsvara en överlåtare av ett hyreshus eller aktier, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>en av Statens bostadsfond angiven mottagare, till vars verksamhetsområde hör att erbjuda hyresbostäder, när det är fråga om aravahyresbostäder eller aravahyreshus som omfattas av de i 3 § 1 mom. avsedda begränsningar som gäller under en tioårsperiod.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kommunen skall underrätta Statens bostadsfond om förvärv enligt 1 mom. 1 punkten och om i 3 mom. avsedda överlåtelser som kommunen har fått kännedom om.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>8 a §</num>
+                    <heading>Skyldighet att höra kommunen och anmälningsskyldighet i fråga om överlåtelsetagaren</heading>
+                    <subsection>
+                        <content>
+                            <p>Statens bostadsfond kan vid behov, innan den fattar ett i 8 § avsett beslut, höra den kommun där det hus eller den bostad som skall överlåtas finns, eller den kommun som är bolagets hemort då en aktie i det bolag som äger huset eller bostaden överlåts. Hörande av kommunen förutsätter att den varken direkt eller indirekt är part i överlåtelsen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Statens bostadsfond skall, efter att ha fattat ett i 8 § avsett beslut, meddela detta till den kommun där det hus eller den bostad som skall överlåtas finns, eller till den kommun som är bolagets hemort då överlåtelsen gäller en aktie i det bolag som äger huset eller bostaden.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <heading>Överlåtelsepris</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Det tillåtna överlåtelsepriset för en aktie i ett hyreshusbolag eller en aktie som medför rätt att besitta en bostad beräknas på basis av överlåtelsepriset för hela aktiestocken i förhållande till aktiernas antal.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Den del av försäljningspriset som överstiger det tillåtna överlåtelsepriset skall betalas till Statens bostadsfond.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 §</num>
+                    <heading>Beräknande av överlåtelseersättningen</heading>
+                    <subsection>
+                        <intro>
+                            <p>Statens bostadsfond fastställer överlåtelseersättningen. När den beräknas skall beaktas</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>det egna kapital som ägaren av en aravahyresbostad eller en aktie som medför rätt att besitta en sådan bostad eller ett aravahyreshus eller en aktieägare i ett aravahyreshusbolag har placerat och som, utöver statligt bostadslån eller aravalån samt lån som godkänts med bättre förmånsrätt än det, har behövts för finansiering av det fastställda anskaffningsvärdet för bostaden eller fastigheten,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>indexjusteringen av det egna kapitalet, beräknad enligt de koefficienter som statistikcentralen månatligen fastställer på basis av förändringen i byggnadskostnadsindexet,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>statligt bostadslån eller aravalån samt lån som godkänts med bättre förmånsrätt än det, till den del överlåtaren skall ansvara för lånet, </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>ett lån som upptagits för finansiering av ombyggnad eller andra godtagbara utgifter, till den del överlåtaren skall ansvara för det, samt</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>en ökning av eget kapital som gjorts för att finansiera ombyggnad eller andra godtagbara utgifter.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>11 §</num>
+                    <heading>Beräknandet av maximipriset</heading>
+                    <subsection>
+                        <content>
+                            <p>Statens bostadsfond fastställer maximipriset. Maximipriset består av ett baspris jämte indexjustering samt värdet av eventuella förbättringar och avdrag.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 april 2007.</p>
+                    <p>Bestämmelserna i 8 § 1 mom. 2―4 punkten, 10 § 1 mom. och 11 § 1 mom. samt 8 a § tillämpas på ansökningar som anhängiggjorts efter lagens ikraftträdande.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 198/2006</p>
+                        <p>MiUB 7/2006</p>
+                        <p>RSv 219/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 12 januari 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Hannes Manninen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

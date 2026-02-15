@@ -1,0 +1,659 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/885/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/885"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/885/alkup"/>
+                    <FRBRdate date="2005-11-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="885"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/885/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/885/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/885/alkup/fin"/>
+                    <FRBRdate date="2005-11-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/885/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/885/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/885/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="150"/>
+                    <finlex:date date="2005-11-17"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>885/2005</docNumber>
+                <docTitle>Laki sairausvakuutuslain muuttamisesta ja väliaikaisesta muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         21 päivänä joulukuuta 2004 annetun sairausvakuutuslain (<affectedDocument href="/akn/fi/act/statute/2004/1224">1224/2004</affectedDocument>) 5 luvun 1 §, 2 §:n 1 ja 3 momentti, 4 ja 5 §, 6 §:n 2 ja 3 momentti, 7 §, 8 §:n 1 momentti, 9 §:n otsikko, 1 ja 4 momentti, 6 luvun 1 §:n 1 momentti, 2 ja 5 §, 6 §:n otsikko ja 1 momentti, 8 ja 10 §, 11 §:n 1 momentti, 12 §:n 1 momentti, 13 §:n 1 momentti, 14 §:n 1 momentti, 15 luvun 1 §:n 1 momentti ja 19 luvun 5 §:n 1 momentti, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         5 lukuun väliaikaisesti uusi 10 §, 6 lukuun uusi 2 a §, luvun 6 §:ään uusi 4 ja 5 momentti sekä 11 §:ään uusi 3 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>5 luku</num>
+                    <heading>Lääkekorvaukset</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Korvattava lääke</heading>
+                        <subsection>
+                            <content>
+                                <p>Vakuutetulla on oikeus saada korvausta lääkärin tai hammaslääkärin sairauden hoitoon määräämän lääkkeen kustannuksista. Lääke korvataan edellyttäen, että kyse on lääkelain (395/1987) mukaisesta lääkemääräystä edellyttävästä lääkevalmisteesta, joka on tarkoitettu joko sisäisesti tai ulkoisesti käytettynä parantamaan tai helpottamaan sairautta tai sen oireita. Vakuutetulla on oikeus korvaukseen myös sellaisesta Lääkelaitoksen luettelon mukaisesta vaihtokelpoisesta lääkevalmisteesta, johon potilaalle määrätty lääkevalmiste on vaihdettu apteekissa lääkelain 57 b §:n mukaisesti. Lisäksi edellytetään, että lääkevalmisteelle on hyväksytty korvattavuus ja vahvistettu kohtuullinen tukkuhinta siten kuin 6 luvussa säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Edellä 1 momentissa tarkoitettuja korvattavia lääkkeitä ovat lisäksi ne lääketieteellisin perustein välttämättömät lääkevalmisteet, joita saa myydä ilman lääkemääräystä (<i>itsehoitolääke</i>) ja joille on hyväksytty korvattavuus ja vahvistettu kohtuullinen tukkuhinta siten kuin 6 luvussa säädetään. Näistä lääkevalmisteista vakuutetulla on oikeus saada korvausta 4 §:n mukaisesti tai silloin, kun kysymyksessä on vaikea ja pitkäaikainen sairaus, 6 §:n mukaisesti. Kansaneläkelaitos voi tarkemmin päättää tarvittavista selvityksistä ja niistä lääketieteellisistä edellytyksistä, joiden tulee täyttyä, jotta itsehoitolääkkeen korvaaminen vakuutetulle on lääketieteellisesti perusteltua.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Lääkelain 21 §:n 4 momentissa tarkoitettujen erityislupavalmisteiden, apteekissa valmistettujen lääkkeiden ja perusvoiteiden sekä lääkkeellisen hapen ja veren korvaamisessa noudatetaan soveltuvin osin, mitä lääkkeiden korvaamisesta säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Korvattava kliininen ravintovalmiste ja perusvoide</heading>
+                        <subsection>
+                            <content>
+                                <p>Vakuutetulla on oikeus saada korvausta kliinisen ravintovalmisteen kustannuksista, jos lääkäri on määrännyt valmisteen vaikean sairauden hoitoon ja valmistetta käytetään vaikean sairauden hoidossa korvaamaan tai täydentämään ruokavaliota tai sen osaa. Lisäksi edellytetään, että valmiste on hankittu apteekista tai sairaalasta ja sille on hyväksytty korvattavuus ja vahvistettu kohtuullinen tukkuhinta siten kuin 6 luvussa säädetään.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Lääkärin määräämä pitkäaikaisen ihotaudin hoitoon käytettävä perusvoide korvataan, jos perusvoide on lääketehtaan valmistama ja apteekista hankittu ja sille on hyväksytty peruskorvattavuus ja vahvistettu kohtuullinen tukkuhinta siten kuin 6 luvussa säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Peruskorvaus</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Lääke on peruskorvattava, jos sille on hyväksytty peruskorvattavuus ja vahvistettu kohtuullinen tukkuhinta siten kuin 6 luvussa säädetään. Lääkkeen peruskorvaus on 42 prosenttia 9 §:n 1 tai 2 momentissa tarkoitetusta korvauksen perusteesta (<i>peruskorvaus</i>).
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Rajoitetusti korvattavat lääkkeet</heading>
+                        <subsection>
+                            <content>
+                                <p>Korvauksen myöntäminen 6 luvun 2 a §:n 3 momentissa tai 6 §:n 2 momentissa tarkoitetusta rajoitetusti perus- tai erityiskorvattavasta lääkkeestä edellyttää, että lääkettä käytetään lääkkeiden hintalautakunnan päätöksessä määritellyn erityisen käyttöaiheen mukaisesti. Kansaneläkelaitos voi tarkemmin päättää tarvittavista selvityksistä ja niistä lääketieteellisistä edellytyksistä, joiden tulee täyttyä, jotta rajoitetusti perus- tai erityiskorvattavan lääkkeen korvaaminen vakuutetulle on lääketieteellisesti perusteltua.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Erityiskorvaus</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <intro>
+                                <p>Lääkkeen erityiskorvaus 9 §:n 1 tai 2 momentissa tarkoitetusta korvauksen perusteesta on:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>
+                                        72 prosenttia, kun kysymyksessä on vaikean ja pitkäaikaisen sairauden hoidossa tarvittava välttämätön lääke (<i>alempi erityiskorvaus</i>); ja
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>
+                                        100 prosenttia 3 euron lääkekohtaisen omavastuuosuuden ylittävältä osalta, kun kysymyksessä on vaikean ja pitkäaikaisen sairauden hoidossa tarvittava, vaikutustavaltaan korvaava tai korjaava välttämätön lääke (<i>ylempi erityiskorvaus</i>).
+                                    </p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Valtioneuvoston asetuksella annetaan tarkempia säännöksiä lääketieteellisin perustein vaikeiksi ja pitkäaikaisiksi arvioitavista sairauksista, joiden lääkehoidon kustannuksista tämän lain perusteella korvataan 72 tai 100 prosenttia. Kansaneläkelaitos päättää niistä vaikean ja pitkäaikaisen sairauden lääketieteellisistä edellytyksistä, joiden tulee täyttyä, jotta lääkkeiden erityiskorvaaminen on lääketieteellisesti perusteltua.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>7 §</num>
+                        <heading>Korvaus kliinisestä ravintovalmisteesta ja perusvoiteesta</heading>
+                        <subsection>
+                            <content>
+                                <p>Vaikean sairauden hoitoon käytettävästä kliinisestä ravintovalmisteesta korvataan 42 tai 72 prosenttia 9 §:n 1 tai 2 momentissa tarkoitetusta korvauksen perusteesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Valtioneuvoston asetuksella annetaan tarkempia säännöksiä lääketieteellisin perustein vaikeiksi arvioitavista sairauksista, joiden hoitoon käytettävien kliinisten ravintovalmisteiden kustannuksista tämän lain perusteella korvataan 42 tai 72 prosenttia. Kansaneläkelaitos päättää niistä vaikean sairauden lääketieteellisistä edellytyksistä, joiden tulee täyttyä, jotta kliinisten ravintovalmisteiden korvaaminen on lääketieteellisesti perusteltua.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Pitkäaikaisen ihotaudin hoidossa käytettävästä perusvoiteesta korvataan 42 prosenttia 9 §:n 1 tai 2 momentissa tarkoitetusta korvauksen perusteesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Vuotuinen omavastuuosuus ja oikeus lisäkorvaukseen</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Jos saman kalenterivuoden aikana vakuutetulle tämän luvun mukaan korvatuista lääkkeistä, kliinisistä ravintovalmisteista sekä perusvoiteista korvaamatta jääneiden kustannusten yhteismäärä ylittää 610 euroa (<i>vuotuinen omavastuuosuus</i>), vakuutetulla on oikeus ylittävältä määrältä lisäkorvaukseen. Lisäkorvaus lääkkeistä, kliinisistä ravintovalmisteista ja perusvoiteista on 100 prosenttia 1,50 euron lääkekohtaisen omavastuuosuuden ylittävältä osalta.
+                                </p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Korvauksen ja lääkekohtaisen omavastuuosuuden peruste</heading>
+                        <subsection>
+                            <content>
+                                <p>Lääkkeen, kliinisen ravintovalmisteen sekä perusvoiteen hankkimisesta vakuutetulle aiheutuneiden kustannusten korvauksen perusteena on enintään valmisteelle vahvistettu kohtuullinen tukkuhinta, johon on lisätty enintään lääkelain 58 §:ssä tarkoitetun lääketaksan mukainen apteekin myyntikate ja arvonlisävero.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Tässä laissa tarkoitettu korvaus maksetaan samalla kertaa ostetusta enintään kolmen kuukauden hoitoaikaa vastaavasta valmistemäärästä, ellei erityisestä syystä muuta johdu. Lääkekohtainen omavastuuosuus peritään samalla kertaa ostetusta enintään kolmen kuukauden hoitoaikaa vastaavasta valmistemäärästä. Valtioneuvoston asetuksella säädetään tarkemmin siitä, milloin sairauden pitkäaikaisessa hoidossa käytettävän lääkkeen lääkekohtainen omavastuuosuus voidaan periä poikkeuksellisesti kolmen kuukauden hoitoaikaa vastaavasta määrästä, vaikka lääke on lääketieteellisistä syistä tai lääkevalmisteen farmaseuttisten ominaisuuksien johdosta ostettu useana eränä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>10 §</num>
+                        <heading>Annosjakelu</heading>
+                        <subsection>
+                            <intro>
+                                <p>Yli 75-vuotiaalla vakuutetulla on oikeus korvaukseen annosjakelun kustannuksista, jos:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>hänellä on annosjakelun alkaessa vähintään kuusi annosjakeluun soveltuvaa tämän lain mukaan korvattavaa lääkettä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>vakuutetun lääkitys on tarkistettu tarpeettomien, keskenään yhteensopimattomien ja päällekkäisten lääkitysten poistamiseksi; ja</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>annosjakeluun siirtyminen on pitkäaikaisessa lääkehoidossa lääketieteelliseltä kannalta perusteltua.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Peruste annosjakeluun siirtymisestä osoitetaan lääkärin lääkemääräykseen tekemällä merkinnällä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Annosjakelusta perittävän palkkion korvaaminen vakuutetulle edellyttää, että apteekki on tehnyt Kansaneläkelaitoksen kanssa sopimuksen annosjakelusta. Vakuutetulle korvataan annosjakelusta perittävästä palkkiosta 42 prosenttia. Jos yhden viikon hoitoaikaa vastaavien lääkkeiden jakelusta perittävä palkkio on suurempi kuin 2 euroa, korvaus suoritetaan 2 euron suuruisen palkkion määrästä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vakuutetulle maksettavaksi jäävä omavastuuosuus ei kerrytä vuotuista omavastuuosuutta eikä siitä makseta lisäkorvausta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>6 luku</num>
+                    <heading>Lääkkeiden hintalautakunta</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Lääkkeiden hintalautakunnan tehtävät ja kokoonpano</heading>
+                        <subsection>
+                            <content>
+                                <p>Sosiaali- ja terveysministeriön yhteydessä toimii lääkkeiden hintalautakunta. Lautakunta päättää lääkkeen, kliinisen ravintovalmisteen sekä perusvoiteen korvattavuudesta ja korvattavuuden lakkauttamisesta ja vahvistaa lääkkeen, kliinisen ravintovalmisteen ja perusvoiteen kohtuullisen, korvausperusteeksi hyväksyttävän tukkuhinnan ja vahvistetun kohtuullisen tukkuhinnan korottamisen sekä lakkauttamisen tukkuhinnan voimassaoloaikana.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Peruskorvattavuuden ja kohtuullisen tukkuhinnan hakeminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Myyntiluvan haltijan on haettava lääkevalmisteen peruskorvattavuuden ja kohtuullisen tukkuhinnan vahvistamista lääkkeiden hintalautakunnalta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Peruskorvattavuuden ja tukkuhinnan vahvistamista koskevassa hakemuksessa hakijan on esitettävä perusteltu ehdotus lääkkeen peruskorvattavuudesta ja yksilöity ja perusteltu ehdotus kohtuulliseksi tukkuhinnaksi. Hakemuksesta tai siihen liitetyistä selvityksistä on käytävä ilmi:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>selvitys lääkkeen käyttötarkoituksesta, hoidollisesta arvosta ja korvattavuudella saavutettavista hyödyistä verrattuna muihin saman sairauden hoidossa käytettäviin lääkevalmisteisiin;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>selvitys keskimääräisestä vuorokausiannoksesta ja tällä perusteella muodostuvasta ehdotetun tukkuhinnan ja arvonlisäverollisen vähittäismyyntihinnan mukaisesta lääkehoidon kustannuksesta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>perusteltu arvio lääkkeen myynnistä ehdotetun tukkuhinnan ja arvonlisäverollisen vähittäismyyntihinnan perusteella sekä arvio valmistetta käyttävien potilaiden määrästä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>selvitys lääkkeen taloudellisuudesta ja markkinaennusteesta verrattuna muihin saman sairauden hoitoon käytettäviin lääkkeisiin;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>lääkkeen patenttia ja lisäsuojatodistusta koskeva selvitys;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>muissa Euroopan talousalueen maissa käytössä olevat lääkevalmisteen muut kauppanimet, lääkevalmisteen korvauksen perusteeksi hyväksytyt käytössä olevat tukkuhinnat sekä lääkkeen korvausperusteet;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7)</num>
+                                <content>
+                                    <p>terveystaloudellinen selvitys, jos kysymyksessä on uutta vaikuttavaa lääkeainetta sisältävä lääkevalmiste ja tarvittaessa muukin valmiste; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>8)</num>
+                                <content>
+                                    <p>muut lääkkeiden hintalautakunnan edellyttämät selvitykset ja muut hakijan tarpeelliseksi katsomat selvitykset.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Kliinisen ravintovalmisteen ja perusvoiteen sekä lääkelain 21 §:n 4 momentissa tarkoitetun erityisluvallisen lääkevalmisteen ja 57 b §:ssä tarkoitetun vaihtokelpoisen lääkkeen korvattavuuden ja kohtuullisen tukkuhinnan hakemisessa ja vahvistamisessa noudatetaan soveltuvin osin, mitä tässä luvussa säädetään lääkevalmisteen korvattavuuden ja kohtuullisen tukkuhinnan hakemisesta ja vahvistamisesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>2 a §</num>
+                        <heading>Peruskorvattavuuden vahvistaminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Lääkevalmisteen peruskorvattavuudesta päätettäessä lääkkeiden hintalautakunnan tulee ottaa huomioon lääkkeen hoidollinen arvo. Ilman lääkemääräystä myytävälle lääkevalmisteelle voidaan vahvistaa peruskorvattavuus vain, jos kyse on lääketieteellisin perustein välttämättömästä lääkevalmisteesta. Lääkkeiden hintalautakunta hankkii tarvittaessa asiantuntijaryhmältä lausunnon ennen lääkevalmisteen peruskorvattavuutta koskevan asian ratkaisemista, kun korvattavuutta on haettu uutta vaikuttavaa lääkeainetta sisältävälle lääkevalmisteelle. Lääkkeiden hintalautakunnan on pyydettävä Kansaneläkelaitokselta lausunto ennen lääkevalmisteen peruskorvattavuutta koskevan asian ratkaisemista, ellei erityisestä syystä muuta johdu.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Peruskorvattavuutta ei vahvisteta, jos kyse on:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>lääkevalmisteesta, jota käytetään tilapäisen tai oireiltaan lievän sairauden hoitoon;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>lääkevalmisteesta, jonka hoidollinen arvo on vähäinen;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>lääkevalmisteesta, jota käytetään muuhun tarkoitukseen kuin sairauden hoitoon; tai </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>rohdosvalmisteesta, homeopaattisesta valmisteesta taikka antroposofisesta valmisteesta.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Lääkkeiden hintalautakunta voi rajoittaa lääkkeen peruskorvattavuuden tarkoin määriteltyihin käyttöaiheisiin, jos lääkkeen käytössä ja tutkimuksessa on osoitettu merkittävää hoidollista arvoa tietyissä sairaustiloissa, ja:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>kyse on erityisen kalliista lääkkeestä, joka on välttämätön vakavan sairauden hoidossa, ja jonka lääketieteellisesti perustellusta käytöstä aiheutuisi vakuutetulle peruskorvattuna oikeus 5 luvun 8 §:ssä tarkoitettuun lisäkorvaukseen; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>lääkkeestä laajassa käytössä aiheutuisi kohtuuttomia kustannuksia saavutettavaan hyötyyn nähden.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Mitä 1―3 momentissa säädetään lääkevalmisteesta, koskee soveltuvin osin kliinisiä ravintovalmisteita ja perusvoiteita sekä lääkelain 21 §:n 4 momentissa tarkoitettuja erityisluvallisia lääkevalmisteita ja 57 b §:ssä tarkoitettuja vaihtokelpoisia lääkkeitä.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Lääkkeiden hintalautakunta voi lääkeryhmittäin päättää 2 momentissa tarkoitetuista valmisteista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Erityiskorvattavuuden ja kohtuullisen tukkuhinnan hakeminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Myyntiluvan haltijan on haettava lääkevalmisteen erityiskorvattavuutta ja kohtuullisen tukkuhinnan vahvistamista lääkkeiden hintalautakunnalta. Hakemuksessa on esitettävä perusteltu ehdotus lääkevalmisteen erityiskorvattavaksi saattamisesta ja perusteltu ehdotus erityiskorvattavuutta koskevan päätöksen yhteydessä valmisteelle vahvistettavaksi kohtuulliseksi tukkuhinnaksi.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Lääkevalmisteen erityiskorvattavuutta ja kohtuullista tukkuhintaa koskevassa hakemuksessa myyntiluvan haltijan on esitettävä yksilöity ja perusteltu selvitys lääkevalmisteen:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>hoidollisesta arvosta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>erityiskorvattavuudella saavutettavista hyödyistä ja erityiskorvattavuudesta aiheutuvista kustannuksista;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>korvaavasta tai korjaavasta vaikutustavasta tai välttämättömyydestä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>taloudellisuudesta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>markkinaennusteesta; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>edellä 2 §:n 2 momentin 2―8 kohdassa tarkoitettu kohtuullista tukkuhintaa koskeva selvitys siltä osin kuin erityiskorvattavuuden vahvistaminen tätä edellyttää.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Mitä 1 ja 2 momentissa säädetään, koskee soveltuvin osin myös hakemusta, jossa erityiskorvattavuutta haetaan:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>lääkevalmisteelle, joka on jo aikaisemmin hyväksytty erityiskorvattavaksi;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>lääkevalmisteelle, jonka vaikuttava lääkeaine sisältyy jo aikaisemmin hyväksyttyihin erityiskorvattaviin valmisteisiin; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>kliiniselle ravintovalmisteelle.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Erityiskorvattavuuden ja kohtuullisen tukkuhinnan vahvistaminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Lääkkeiden hintalautakunta hankkii asiantuntijaryhmän lausunnon ennen lääkevalmisteen erityiskorvattavuushakemuksen ratkaisemista, kun erityiskorvattavuutta on haettu uutta vaikuttavaa lääkeainetta sisältävälle lääkevalmisteelle. Muissa erityiskorvattavuutta koskevissa asioissa lausunto pyydetään asiantuntijaryhmältä tarvittaessa. Lisäksi Kansaneläkelaitokselta on pyydettävä ennen asian ratkaisemista lausunto erityiskorvattavuutta ja lääkevalmisteen kohtuullista tukkuhintaa koskevasta hakemuksesta, jollei erityisestä syystä muuta johdu.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Ilman lääkemääräystä myytävälle lääkevalmisteelle voidaan vahvistaa erityiskorvattavuus vain, jos kyse on lääketieteellisin perustein välttämättömästä lääkevalmisteesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Mitä 1 ja 2 momentissa säädetään, koskee soveltuvin osin myös kliinisiä ravintovalmisteita. Erityiskorvattavan lääkevalmisteen kohtuullinen tukkuhinta vahvistetaan siten kuin 3 §:ssä säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Korvattavuuden ja vahvistetun tukkuhinnan lakkauttaminen</heading>
+                        <subsection>
+                            <content>
+                                <p>Lääkkeiden hintalautakunta voi ottaa omasta aloitteestaan käsiteltäväkseen lääkevalmisteen tukkuhinnan kohtuullisuuden ja korvattavuuden ja päättää, että vahvistettu tukkuhinta ja korvattavuus lakkaa olemasta voimassa. Vahvistettu tukkuhinta ja korvattavuus voidaan lakkauttaa, jos hinnan voimassa ollessa lääkevalmisteen patentin voimassaolo lakkaa, samaa lääkeainetta sisältävä rinnakkaisvalmiste tulee korvausjärjestelmän piiriin, lääkevalmisteen käyttöalue laajenee tai lääkkeen 2 a tai 6 §:ssä tarkoitettu korvattavuuden edellytys lakkaa. Lääkkeiden hintalautakunta voi lakkauttaa vahvistetun tukkuhinnan ja korvattavuuden myös, jos valmisteen myynti tai valmisteesta aiheutuva korvausmeno kasvaa hinnanvahvistuspäätöksen perusteeksi otettua arviota merkittävästi suuremmaksi. Ennen tukkuhinnan ja korvattavuuden lakkauttamista lääkkeiden hintalautakunnan on kuultava myyntiluvan haltijaa ja Kansaneläkelaitosta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Lääkkeiden hintalautakunnan tulee selvittäessään tukkuhinnan ja korvattavuuden lakkauttamisen edellytyksiä arvioida lääkevalmisteen hoidollista arvoa tai tukkuhinnan kohtuullisuutta lautakunnan saamien uusien tietojen perusteella. Arvioinnissa on otettava huomioon 2 a, 3, 5 ja 6 §:ssä mainitut seikat.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>10 §</num>
+                        <heading>Luettelo korvattavista lääkkeistä</heading>
+                        <subsection>
+                            <content>
+                                <p>Rajoitetusti peruskorvattava lääkevalmiste, erityiskorvattava lääkevalmiste ja kliininen ravintovalmiste tulee sisällyttää korvattavien lääkkeiden luetteloon, kun lääkkeiden hintalautakunta on hyväksynyt sen korvattavaksi valmisteeksi. Lääkkeiden hintalautakunnan tulee kunkin kuukauden viimeiseen päivään mennessä ilmoittaa Kansaneläkelaitokselle rajoitetusti peruskorvattavien lääkevalmisteiden, erityiskorvattavien lääkevalmisteiden sekä kliinisten ravintovalmisteiden korvattavuuksissa tapahtuneista muutoksista. Kansaneläkelaitos pitää sairauksittain luetteloa rajoitetusti peruskorvattavista lääkevalmisteista, erityiskorvattavista lääkeaineista ja -valmisteista sekä korvattavista kliinisistä ravintovalmisteista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>11 §</num>
+                        <heading>Hakemuksen käsittelyaika</heading>
+                        <subsection>
+                            <content>
+                                <p>Lääkkeiden hintalautakunnan päätös myyntiluvan saaneen lääkevalmisteen korvausperusteeksi vahvistetusta kohtuullisesta tukkuhinnasta ja lääkevalmisteen peruskorvattavuudesta sekä lääkevalmisteen erityiskorvattavuudesta on toimitettava hakijalle 180 päivän kuluessa hakemuksen saapumisesta. Jos ratkaistavana on aikaisemmin vahvistetun tukkuhinnan korottaminen ilman lääkevalmisteen korvattavuutta koskevan asian ratkaisemista, päätös on toimitettava hakijalle 90 päivän kuluessa hakemuksen saapumisesta. Jos hakemuksen tueksi esitettävät tiedot ovat riittämättömät, lautakunta tai tarvittaessa lautakunnan pääsihteeri keskeyttää hakemuksen käsittelyn ja ilmoittaa viipymättä hakijalle, mitä yksilöityjä lisätietoja edellytetään. Lopullinen päätös on tällöin toimitettava hakijalle 180 päivän kuluessa lisäselvityksen vastaanottamisesta. Jos ratkaistavana on aikaisemmin vahvistetun tukkuhinnan korottaminen ilman lääkevalmisteen korvattavuutta koskevan asian ratkaisemista, lopullinen päätös on toimitettava hakijalle 90 päivän kuluessa lisäselvityksen vastaanottamisesta.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Jos korkein hallinto-oikeus on hallintolainkäyttölain (586/1996) 11 luvun nojalla palauttanut myyntiluvallista lääkevalmistetta koskevan hintalautakunnan lääkevalmisteen korvattavuutta tai kohtuullista tukkuhintaa koskevan päätöksen uudelleen käsiteltäväksi, päätös on toimitettava hakijalle 1 momentissa säädetyssä määräajassa. Määräaika alkaa kulua siitä, kun lääkkeiden hintalautakunta on saanut korkeimman hallinto-oikeuden päätöksen tiedoksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>12 §</num>
+                        <heading>Päätös ja muutoksenhaku</heading>
+                        <subsection>
+                            <content>
+                                <p>Lääkkeiden hintalautakunnan kohtuullista tukkuhintaa ja korvattavuutta koskeva päätös on voimassa enintään viisi vuotta. Päätös on kuitenkin voimassa enintään kolme vuotta, jos kysymys on uutta vaikuttavaa lääkeainetta sisältävästä valmisteesta. Kohtuullista tukkuhintaa ja korvattavuutta koskeva päätös tulee voimaan sen antamista seuraavan toisen kalenterikuukauden alusta, jollei päätöksessä toisin mainita.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>13 §</num>
+                        <heading>Velvollisuus ilmoittaa lääkevalmistetta koskevasta muutoksesta</heading>
+                        <subsection>
+                            <content>
+                                <p>Myyntiluvan haltijan on viipymättä ilmoitettava lääkkeiden hintalautakunnalle, jos lääkevalmisteen myynti kasvaa korvattavuutta ja kohtuullista tukkuhintaa koskevan päätöksen perusteena ollutta ennakkoarviota merkittävästi suuremmaksi.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>14 §</num>
+                        <heading>Päätösvallan siirtäminen pääsihteerille</heading>
+                        <subsection>
+                            <content>
+                                <p>Lääkkeiden hintalautakunta voi siirtää lääkevalmisteen peruskorvattavuuden ja kohtuullisen tukkuhinnan vahvistamisen pääsihteerin ratkaistavaksi, kun kysymyksessä on valmisteen määräaikaisesti voimassa olevan peruskorvattavuuden ja tukkuhinnan uudelleen vahvistaminen, korvattavaksi hyväksytyn valmisteen uusi pakkauskoko, vahvuus tai lääkemuoto taikka tällaista lääkevalmistetta vastaavan rinnakkaisvalmisteen taikka rinnakkaistuontivalmisteen peruskorvattavuuden ja kohtuullisen tukkuhinnan vahvistaminen. Lääkkeiden hintalautakunta voi siirtää pääsihteerin ratkaistavaksi myös lääkelain 21 §:n 4 momentin mukaisen erityisluvalla toimitettavan lääkevalmisteen peruskorvattavuuden ja kohtuullisen tukkuhinnan vahvistamisen sekä lääkkeiden ulkomaille vientiä varten kohtuullista tukkuhintaa koskevan todistuksen antamisen myyntiluvan haltijalle.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>15 luku</num>
+                    <heading>Toimeenpanoa koskevat säännökset</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Sairausvakuutuskortti</heading>
+                        <subsection>
+                            <content>
+                                <p>Kansaneläkelaitos antaa tämän lain mukaan vakuutetulle henkilölle sairausvakuutuskortin. Korttiin merkitään vakuutetun suku- ja etunimet sekä henkilötunnus. Jos vakuutettu on 16 luvussa tarkoitetun työpaikkakassan jäsen, siitä tehdään merkintä sairausvakuutuskorttiin. Sairausvakuutuskorttiin voidaan merkitä myös tieto siitä, onko vakuutetulla oikeus tämän lain 5 luvussa tarkoitettuihin erityiskorvattaviin lääkkeisiin, rajoitetusti peruskorvattaviin lääkkeisiin ja kliinisiin ravintovalmisteisiin, tieto sairausvakuutuksen voimassaoloajasta ja tieto siitä, ettei vakuutettu ole oikeutettu korvaukseen 19 luvun 5 §:n 1 momentin 2 kohdassa tarkoitetulla suorakorvausmenettelyllä. Henkilön suostumuksella sairausvakuutuskorttiin voidaan merkitä lisäksi muita Kansaneläkelaitoksen hyväksymiä tietoja ja muita sairausvakuutuksen toimeenpanossa välttämättömiä tietoja.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>19 luku</num>
+                    <heading>Tietojen saamista ja luovuttamista koskevat säännökset</heading>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Tietojen luovuttaminen eräissä tapauksissa</heading>
+                        <subsection>
+                            <intro>
+                                <p>Kansaneläkelaitoksella on oikeus antaa salassapitosäännösten ja muiden tiedon saantia koskevien rajoitusten estämättä:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>vakuutetun lääkeostoja koskevia tietoja lääkkeen määränneelle lääkärille, jos asianomainen vakuutettu on Kansaneläkelaitoksen antamasta huomautuksesta huolimatta toistuvasti hankkinut lääkkeitä hänen ja muiden lääkäreiden määräyksillä enemmän kuin sairauden hoito edellyttää;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>apteekeille niiden vakuutettujen nimet ja henkilötunnukset, joille lääkekorvausta ei suoriteta 15 luvun 9 §:ssä tarkoitettua tilitysmenettelyä soveltavien apteekkien välityksellä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>Terveydenhuollon oikeusturvakeskukselle sille kuuluvien tehtävien suorittamista varten tiedon lääkäristä, joka toistuvasti on määrännyt lääkkeitä huomattavasti enemmän kuin tässä laissa tarkoitettuun sairauden hoitoon nähden on tarpeellista;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>15 luvun 9 §:ssä tarkoitettua tilitysmenettelyä soveltavalle apteekille teknisen käyttöyhteyden avulla lääkkeen ostotilanteessa henkilön etu- ja sukunimitiedot, tiedon siitä, onko henkilö työpaikkakassan jäsen ja onko hän vakuutettu; jos henkilö on vakuutettu, Kansaneläkelaitos voi lisäksi antaa apteekille tiedon siitä, voiko apteekki luovuttaa lääkkeet vakuutetulle sairausvakuutuskorvauksen määrällä vähennettyyn hintaan sekä tiedot vakuutetulle myönnetyistä lääkkeiden erityiskorvausoikeuksista, kliinisten ravintovalmisteiden korvausoikeuksista sekä rajoitetusti peruskorvattavien lääkkeiden peruskorvausoikeuksista ja vuotuisen omavastuuosuuden täyttymisestä.</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006. Lain 5 luvun 10 § on voimassa 31 päivään joulukuuta 2008 saakka.</p>
+                    <p>Lääkevalmisteet, joille on lain voimaan tullessa vahvistettu kohtuullinen tukkuhinta mutta ei erityiskorvattavuutta, ovat peruskorvattavia voimaantuloajankohdan mukaisessa laajuudessa viisi vuotta lain voimaantulosta, kuitenkin enintään niin kauan kuin lääkkeelle vahvistettu kohtuullinen, korvausperusteeksi hyväksyttävä tukkuhinta on voimassa, ellei 3 momentista muuta johdu.</p>
+                    <p>Lain voimaan tullessa 5 luvun 5 §:n nojalla korvattaviksi säädetyt lääkevalmisteet ovat korvattavia voimaantuloajankohdan mukaisessa laajuudessa viisi vuotta lain voimaantulosta, kuitenkin enintään niin kauan kuin lääkkeelle vahvistettu kohtuullinen, korvausperusteeksi hyväksyttävä tukkuhinta on voimassa.</p>
+                    <p>Lain voimaan tullessa korvattaviksi säädetyt kliiniset ravintovalmisteet ja perusvoiteet ovat korvattavia voimaantuloajankohdan mukaisessa laajuudessa viisi vuotta lain voimaantulosta, kuitenkin enintään niin kauan kuin korvattavalle kliiniselle ravintovalmisteelle tai perusvoiteelle vahvistettu kohtuullinen, korvausperusteeksi hyväksyttävä tukkuhinta on voimassa.</p>
+                    <p>Lääkevalmisteet, jotka on säädetty erityiskorvattaviksi ennen 1 päivää tammikuuta 2004, ovat erityiskorvattavia kolme vuotta tämän lain voimaantulosta, ellei lääkevalmisteelle ennen 1 päivää tammikuuta 2004 vahvistettu kohtuullinen, korvausperusteeksi hyväksyttävä tukkuhinta sitä ennen lakkaa olemasta voimassa tai ellei lääkkeiden hintalautakunta ole ottanut lääkevalmisteen erityiskorvattavuutta uudelleen käsiteltäväksi.</p>
+                    <p>Lääkkeiden hintalautakunta alentaa kaikkia tämän lain voimaan tullessa voimassa olevia lääkevalmisteiden tukkuhintoja viidellä prosentilla. Tukkuhinnan alentamista koskeva päätös tulee voimaan 1 päivänä tammikuuta 2006. Jos myyntiluvan haltija ei halua valmisteensa kuuluvan alennetulla tukkuhinnalla korvausjärjestelmän piiriin, myyntiluvan haltija voi irtisanoa valmisteensa korvausjärjestelmästä 1 päivästä tammikuuta 2006 lukien ilmoittamalla asiasta kirjallisesti lääkkeiden hintalautakunnalle viimeistään 1 päivänä joulukuuta 2005. Lääkkeiden hintalautakunnan päätöstä on noudatettava muutoksenhausta huolimatta kunnes asia on lainvoimaisella päätöksellä ratkaistu.</p>
+                    <p>Mikäli lääkkeiden hintalautakunnan käsiteltävänä oleva tukkuhintahakemus on ratkaistava 1.12.2005―31.12.2005 välisenä aikana, hintalautakunnan on tukkuhintaa vahvistaessaan otettava huomioon vuoden 2006 alusta toteutettava viiden prosentin suuruinen hinnanalennus. Ennen asian ratkaisemista hintalautakunnan on kuultava hakijaa hinnan alentamisesta.</p>
+                    <p>Sen estämättä, mitä 2―5 momentissa säädetään, lääkkeiden hintalautakunta voi kuultuaan Kansaneläkelaitosta ja myyntiluvan haltijaa päättää lääkkeen, kliinisen ravintovalmisteen tai perusvoiteen kohtuullisen tukkuhinnan tai korvattavuuden lakkauttamisesta, jos lääkkeen käyttöalue on tukkuhinnan vahvistamisajankohtaan nähden laajentunut tai jos saatavissa on samaa vaikuttavaa lääkeainetta tai lääkeaineyhdistelmää sisältävää valmistetta merkittävästi alemmalla hinnalla taikka jos lääkkeen hinta on muissa pohjoismaissa tai Euroopan unionin maissa merkittävästi alempi tai jokin muu kohtuullisen tukkuhinnan ja korvattavuuden lakkauttamista tai peruskorvattavuuden epäämistä koskeva 6 luvussa säädetty peruste täyttyy. Lääkkeiden hintalautakunnan tämän momentin nojalla antama päätös tulee voimaan siten kuin 6 luvun 12 §:n 1 momentissa säädetään.</p>
+                    <p>Lain 5 luvun 8 §:n 1 momentissa säädetty rahamäärä vastaa vuodelle 2005 vahvistettua kansaneläkeindeksistä annetussa laissa tarkoitettua indeksilukua.</p>
+                    <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain voimaantulon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/97">HE 97/2005</ref>
+                        </p>
+                        <p>StVM 18/2005</p>
+                        <p>EV 125/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 11 päivänä marraskuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Peruspalveluministeri </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

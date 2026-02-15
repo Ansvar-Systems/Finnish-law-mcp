@@ -1,0 +1,111 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2025/65/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/65"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/65/alkup"/>
+                    <FRBRdate date="2025-02-28" name="dateIssued"/>
+                    <FRBRdate date="2025-03-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="65"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2025/65/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/65/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/65/alkup/swe"/>
+                    <FRBRdate date="2025-02-28" name="dateIssued"/>
+                    <FRBRdate date="2025-03-03" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2025/65/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/65/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/65/alkup/swe/xml"/>
+                    <FRBRdate date="2025-03-03" name="dateProduced"/>
+                    <FRBRdate date="2025-03-03" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2025</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>65/2025</docNumber>
+                <docTitle>Lag om ändring av ikraftträdandebestämmelsen i en lag om temporär ändring av utlänningslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut </p>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till ikraftträdandebestämmelsen i lagen om temporär ändring av utlänningslagen (
+                        <affectedDocument href="/akn/fi/act/statute/2022/1364">1364/2022</affectedDocument>
+                        ) ett nytt 2 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteTextWrapper">
+                <content>
+                    <p class="omission"/>
+                    <p>Uppehållstillstånd som har beviljats eller förlängts med stöd av 110 a § i denna lag förblir när lagen upphör att gälla i kraft under den tidsperiod för vilken de har beviljats eller förlängts. Till den del givandet av tillfälligt skydd grundar sig på 3 punkten i statsrådets beslut om givande av tillfälligt skydd för bemötande av situationen i Ukraina (149/2022) upphör uppehållstillstånden dock att gälla den 31 mars 2025.</p>
+                </content>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 4 mars 2025.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2024/199">RP 199/2024</ref>
+                        </p>
+                        <p>FvUB 1/2025</p>
+                        <p>RSv 5/2025</p>
+                        <p>rådets direktiv 2001/55/EG (32001L0055); EGT L 212, 7.8.2001, s. 12</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 28 februari 2025</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Inrikesminister</role>
+                                <person refersTo="">Mari Rantanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

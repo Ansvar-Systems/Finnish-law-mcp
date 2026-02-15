@@ -1,0 +1,385 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1292/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1292"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1292/alkup"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1292"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1292/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1292/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1292/alkup/fin"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1292/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1292/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1292/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="192"/>
+                    <finlex:date date="2007-12-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1292/2007</docNumber>
+                <docTitle>Laki autoverolain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         29 päivänä joulukuuta 1994 annetun autoverolain (
+                        <affectedDocument href="/akn/fi/act/statute/1994/1482">1482/1994</affectedDocument>
+                        ) 6 ja 6 a §, sellaisina kuin ne ovat, 6 § laeissa 266/2003 ja 1450/2006 sekä 6 a § mainitussa laissa 266/2003, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 5 a § ja liite seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>3 luku</num>
+                    <heading>Veron määrä</heading>
+                    <section>
+                        <num>5 a §</num>
+                        <subsection>
+                            <content>
+                                <p>Henkilöautosta, jonka oma massa on alle 4 500 kilogrammaa, suoritettava vero on lain liitteenä olevan verotaulukon mukainen prosenttiosuus auton verotusarvosta. Veroprosentti määräytyy niiden auton yhdistettyä kulutusta vastaavien hiilidioksidipäästöjen perusteella, jotka on merkitty tai pitäisi merkitä ajoneuvoliikennerekisteriin auton teknisiin tietoihin.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos 1 momentissa tarkoitettua tietoa hiilidioksidipäästöistä ei ole, veroprosentti määräytyy auton kokonaismassaa ja käyttövoimaa vastaavien laskennallisten hiilidioksidipäästöjen perusteella verotaulukon mukaisesti. Jos auton tehon (kilowatteina) ja kokonaismassan (kilogrammoina) osamäärä on 0,15 tai suurempi, laskennallisia hiilidioksidipäästöjä korotetaan kertomalla ne luvulla 1,5. Hiilidioksidipäästöjen määrä pyöristetään täysiin grammoihin.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Edellä 2 momentissa tarkoitettujen laskennallisten hiilidioksidipäästöjen sijasta veroprosentti määräytyy verotettavana olevan henkilöauton yhdistettyä kulutusta vastaavien hiilidioksidipäästöjen perusteella, jos verovelvollinen ensiverotuksen yhteydessä esittää niistä selvityksen ja jos ne on:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>vahvistettu EY-tyyppihyväksynnän yhteydessä määriteltyinä moottoriajoneuvojen polttoaineen kulutuksesta annetun neuvoston direktiivin 80/1268/EY mukauttamisesta tekniikan kehitykseen annetussa komission direktiivissä 93/116/EY tai sitä korvaavassa yhteisön lainsäädännössä säädettyjen vaatimusten mukaisesti; tai</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>määritelty verotusajankohtana voimassa olevassa yhteisön lainsäädännössä säädettyjen vaatimusten mukaisesti.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <subsection>
+                            <content>
+                                <p>Uutena tai vuoden 2002 jälkeen valmistetun, käytettynä verotettavan linja-auton, jonka oma massa on alle 1 875 kilogrammaa, vero on 26 prosenttia auton verotusarvosta.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Uutena tai vuoden 2002 jälkeen valmistetun, käytettynä verotettavan moottoripyörän ja muun verollisen L-luokan ajoneuvon vero on moottorin iskutilavuuden tai käyttövoiman mukaan ajoneuvon verotusarvosta seuraavasti:</p>
+                                <table>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                <b>Kokoluokka</b>
+                                            </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                <b> Veroprosentti</b>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                enintään 130 cm
+                                                <sup>3</sup>
+                                            </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>8</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                131–255 cm
+                                                <sup>3</sup>
+                                            </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>10</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                256–355 cm
+                                                <sup>3</sup>
+                                            </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>13</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                356–505 cm
+                                                <sup>3</sup>
+                                            </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>16</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                506–755 cm
+                                                <sup>3</sup>
+                                            </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>18</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>
+                                                756 cm
+                                                <sup>3</sup>
+                                                 tai enemmän 
+                                            </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>20</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>sähkökäyttöinen L-luokan ajoneuvo </p>
+                                        </td>
+                                        <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                            <p>10</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 a §</num>
+                        <subsection>
+                            <content>
+                                <p>Ennen vuotta 2003 valmistetun, käytettynä verotettavan linja-auton, jonka oma massa on alle 1 875 kilogrammaa, moottoripyörän ja muun verollisen L-luokan ajoneuvon vero on verotusarvosta se osuus veroa, joka sisältyi samanlaisten ajoneuvojen yleisiin vähittäismyyntiarvoihin, kun ajoneuvot olivat uusia. Veron osuus lasketaan niiden yleisten veroperusteiden mukaan, joista säädetään siinä autoveroa koskevassa laissa, joka oli voimassa, kun ajoneuvot olivat uusia. Veron osuus voidaan määrittää useamman kuin yhden ajoneuvomallin yleisiin vähittäismyyntiarvoihin sisältyvien veron osuuksien perusteella huomioon ottaen samaa automerkkiä koskevat verotustiedot ja hinnoittelu.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Tullihallitus vahvistaa veron osuudet julkaisemassaan taulukossa. Taulukon mukaista veron osuutta sovelletaan verotuksiin, jotka tulevat vireille sen jälkeen, kun 14 päivää on kulunut taulukon julkaisemisesta. Taulukon mukaista veron osuutta voidaan kuitenkin soveltaa sen julkaisemispäivästä lukien, jos taulukon mukainen veron osuus on pienempi kuin 3 momentin mukaan laskettavan veron osuus.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Jos veron osuutta ei ole julkaistu taulukossa tai taulukon julkaisemisesta on kulunut vähemmän kuin 14 päivää, veron osuus on:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>linja-auton, jonka oma massa on alle 1 875 kilogrammaa, osalta 26 prosenttia auton verotusarvosta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>moottoripyörän ja muun verollisen L-luokan ajoneuvon osalta iskutilavuuden tai käyttövoiman mukaan ajoneuvon verotusarvosta seuraavasti:</p>
+                                    <table>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    <b>Kokoluokka</b>
+                                                </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    <b>Veroprosentti</b>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    enintään 130 cm
+                                                    <sup>3</sup>
+                                                </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>9</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    131–255 cm
+                                                    <sup>3</sup>
+                                                </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>12</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    256–355 cm
+                                                    <sup>3</sup>
+                                                </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>15</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    356–505 cm
+                                                    <sup>3</sup>
+                                                </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>19</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    506–755 cm
+                                                    <sup>3</sup>
+                                                </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>21</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>
+                                                    756 cm
+                                                    <sup>3</sup>
+                                                     tai enemmän 
+                                                </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>23</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>sähkökäyttöinen L-luokan ajoneuvo </p>
+                                            </td>
+                                            <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                                <p>12</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Jos 3 momentin mukaan kannetun veron määrä ylittää sen veron, joka sisältyy markkinoilla olevan vastaavan ajoneuvon jäljellä olevaan arvoon, veron ylittävää määrää ei kanneta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                    <p>Lakia sovelletaan niihin ajoneuvojen verotuksiin, jotka tulevat vireille lain voimaantulopäivänä tai sen jälkeen. Jos ennen 2 päivää marraskuuta 2007 vireille tullut ajoneuvon verotus peruutetaan 43 §:n 1 momentin perusteella, verovelvolliselta ei peritä 35 a §:n 2 momentissa ja 43 §:n 2 momentissa tarkoitettuja maksuja. Jos ennen 2 päivää marraskuuta 2007 vireille tullut ajoneuvon verotus peruutetaan 43 §:n 3 momentissa säädetyllä tavalla, veroa ei koroteta mainitussa lainkohdassa tarkoitetulla tavalla, jos ajoneuvo verotetaan hakemuksesta tämän lain mukaisesti lain voimaantulon jälkeen. Hakemus on tehtävä kuukauden kuluessa tämän lain voimaantulosta.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/147">HE 147/2007</ref>
+                        </p>
+                        <p>VaVM 23/2007</p>
+                        <p>EV 125/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 21 päivänä joulukuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Valtiovarainministeri </role>
+                                <person refersTo="">Jyrki Katainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+            <hcontainer name="attachments">
+                <hcontainer name="attachment">
+                    <content>
+                        <p>
+                            <a href="media/5480.pdf">Liite</a>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

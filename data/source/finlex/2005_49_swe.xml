@@ -1,0 +1,184 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/49/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/49"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/49/alkup"/>
+                    <FRBRdate date="2005-01-28" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="49"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/49/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/49/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/49/alkup/swe"/>
+                    <FRBRdate date="2005-01-28" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/49/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/49/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/49/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="11"/>
+                    <finlex:date date="2005-02-04"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>49/2005</docNumber>
+                <docTitle>Lag om ändring och temporär ändring av lagen om utkomststöd</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 30 december 1997 om utkomststöd (
+                        <affectedDocument href="/akn/fi/act/statute/1997/1412">1412/1997</affectedDocument>
+                        ) 11 § 2 mom. och 17 § 1 mom., av dem 11 § 2 mom. sådant det lyder delvis ändrat i lag 1294/2002, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 15 § ett nytt 3 mom., varvid det nuvarande 3 mom. blir 4 mom. samt till 11 §, sådan den lyder delvis ändrad i sistnämnda lag, temporärt ett nytt 3 mom., som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>11 §</num>
+                    <heading>Inkomster som skall beaktas</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Som inkomster beaktas dock inte</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>förvärvsinkomster som skall anses ringa och understöd,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>regelbundna inkomster för ett barn under 18 år, till den del dessa inkomster är större än de utgifter som enligt 7 § skall beaktas för barnets del,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>inkomster till den del dessa motsvarar utgifter för arbetsresor och övriga av arbetet förorsakade utgifter,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>moderskapsunderstöd enligt lagen om moderskapsunderstöd (477/1993), vårdbidrag till pensionstagare enligt folkpensionslagen (347/1956), handikappbidrag enligt lagen om handikappbidrag (124/1988) eller vårdbidrag för barn enligt lagen om vårdbidrag för barn (444/1969),</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>ersättning för uppehälle enligt lagen om utkomstskydd för arbetslösa eller lagen om offentlig arbetskraftsservice samt ersättning för uppehälle enligt 24 a § i lagen om rehabiliteringspenning (611/1991), och inte heller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>sådana ersättningar och inkomster som avses i 8 §.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Som inkomster beaktas inte, utöver det som föreskrivs i 2 mom., minst 20 procent av förvärvsinkomsterna, dock högst 150 euro per månad.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>15 §</num>
+                    <heading>Tiden för vilken utkomststöd fastställs</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>En sådan förvärvsinkomst som inte var känd när beslutet om utkomststöd fattades kan i efterhand beaktas såsom inkomst, om utkomststöd söks under de två första kalendermånaderna som följer på beslutet och det inte kan anses oskäligt att beakta inkomsten. Då stödet beviljas skall den sökande underrättas om möjligheten att beakta inkomsten i fråga retroaktivt.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>17 §</num>
+                    <heading>Skyldighet att lämna uppgifter och anmälningsskyldighet</heading>
+                    <subsection>
+                        <content>
+                            <p>Den som ansöker om utkomststöd, en familjemedlem och den gentemot honom eller henne försörjningspliktige samt vid behov deras vårdnadshavare och intressebevakare skall lämna organet alla tillgängliga nödvändiga uppgifter som inverkar på utkomststödet. På lämnandet av uppgifter tillämpas bestämmelserna i 11―13 § i lagen om klientens ställning och rättigheter inom socialvården (812/2000).</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 april 2005. Bestämmelserna i 11 § 3 mom. tillämpas vid beviljande av utkomststöd för tiden före den 1 januari 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 167/2004</p>
+                        <p>ShUB 35/2004</p>
+                        <p>RSv 191/2004</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 28 januari 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Sinikka Mönkäre</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

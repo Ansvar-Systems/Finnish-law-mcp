@@ -1,0 +1,245 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1258/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1258"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1258/alkup"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1258"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1258/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1258/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1258/alkup/fin"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1258/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1258/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1258/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="205"/>
+                    <finlex:date date="2005-12-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1258/2005</docNumber>
+                <docTitle>Laki yksityisestä terveydenhuollosta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         yksityisestä terveydenhuollosta 9 päivänä helmikuuta 1990 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1990/152">152/1990</affectedDocument>
+                        ) 21 §,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         13, 17 ja 20 §, sellaisena kuin niistä on 13 § osaksi laeissa 79/1991 ja 1095/1992, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 22 a ja 22 b §, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>13 §</num>
+                    <heading>Ohjaus ja valvonta</heading>
+                    <subsection>
+                        <content>
+                            <p>Tämän lain mukaisen yksityisen terveydenhuollon yleinen ohjaus ja valvonta kuuluu sosiaali- ja terveysministeriölle.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tässä laissa tarkoitettujen palvelujen ohjaus ja valvonta kuuluu lääninhallitukselle.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Terveydenhuollon oikeusturvakeskus ohjaa sosiaali- ja terveysministeriön alaisena lääninhallitusten toimintaa niiden toimintaperiaatteiden, menettelytapojen ja ratkaisukäytäntöjen yhdenmukaistamiseksi yksityisen terveydenhuollon ohjauksessa ja valvonnassa sekä lupamenettelyissä. Lisäksi Terveydenhuollon oikeusturvakeskus ohjaa ja valvoo yksityistä terveydenhuoltoa erityisesti silloin, kun kysymyksessä ovat:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>periaatteellisesti tärkeät tai laajakantoiset asiat;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>useaa lääniä tai koko maata koskevat asiat;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>asiat, jotka liittyvät Terveydenhuollon oikeusturvakeskuksessa käsiteltävään terveydenhuollon ammattihenkilöä koskevaan valvonta-asiaan; sekä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>asiat, joita lääninhallitus on esteellinen käsittelemään.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Terveydenhuollon oikeusturvakeskuksen ja lääninhallitusten tarkemmasta työnjaosta ohjauksessa ja valvonnassa voidaan tarvittaessa säätää valtioneuvoston asetuksella.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kunnassa valvontaviranomaisena toimii kansanterveyslain (66/1972) 6 §:ssä tarkoitettu monijäseninen toimielin.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>17 §</num>
+                    <heading>Tarkastusoikeus</heading>
+                    <subsection>
+                        <content>
+                            <p>Terveydenhuollon oikeusturvakeskus ja lääninhallitus voivat tarkastaa palvelujen tuottajan ja itsenäisen ammatinharjoittajan tässä laissa tarkoitetun toiminnan sekä toiminnan järjestämisessä käytettävät toimintayksiköt ja toimitilat silloin, kun tarkastuksen tekemiseen on perusteltu syy. Terveydenhuollon oikeusturvakeskus voi lisäksi perustellusta syystä määrätä lääninhallituksen tekemään tarkastuksen. Tarkastus voidaan tehdä ennalta ilmoittamatta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tarkastaja on päästettävä kaikkiin toimipaikan tiloihin. Tarkastuksessa on salassapitosäännösten estämättä esitettävä kaikki tarkastajan pyytämät asiakirjat, jotka ovat välttämättömiä tarkastuksen toimittamiseksi. Lisäksi tarkastajalle on salassapitosäännösten estämättä annettava maksutta hänen pyytämänsä jäljennökset tarkastuksen toimittamiseksi tarpeellisista asiakirjoista. Tarkastajalla on myös oikeus ottaa valokuvia tarkastuksen aikana. Tarkastajan apuna voi olla tarkastuksen toteuttamiseksi tarpeellisia asiantuntijoita.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tarkastuksesta on pidettävä pöytäkirjaa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tarkastuksessa erityisesti huomioon otettavista asioista ja tarkastusmenettelyn tarkemmasta sisällöstä sekä tarkastuksessa pidettävästä pöytäkirjasta ja sen säilyttämisestä ja säilyttämisajasta voidaan tarvittaessa säätää valtioneuvoston asetuksella.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>20 §</num>
+                    <heading>Määräykset ja pakkokeinot</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos terveydenhuollon palvelujen järjestämisessä tai toteuttamisessa havaitaan potilasturvallisuutta vaarantavia puutteita tai muita epäkohtia taikka toiminta on muutoin tämän lain vastaista, Terveydenhuollon oikeusturvakeskus tai lääninhallitus voi antaa määräyksen puutteiden korjaamisesta tai epäkohtien poistamisesta. Määräystä annettaessa on asetettava määräaika, jonka kuluessa tarpeelliset toimenpiteet on suoritettava. Jos potilasturvallisuus sitä edellyttää, toiminta voidaan määrätä keskeytettäväksi taikka toimintayksikön, sen osan tai laitteen käyttö kieltää välittömästi.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Terveydenhuollon oikeusturvakeskus tai lääninhallitus voi velvoittaa asianomaisen palvelujen tuottajan ja itsenäisen ammatinharjoittajan noudattamaan 1 momentissa tarkoitettua määräystä sakon uhalla tai uhalla, että toiminta keskeytetään, taikka että toimintayksikön, sen osan tai laitteen käyttö kielletään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Terveydenhuollon oikeusturvakeskuksen ja lääninhallituksen päätöstä toiminnan keskeyttämisestä taikka toimintayksikön, sen osan tai laitteen käytön kieltämisestä on noudatettava muutoksenhausta huolimatta, jollei muutoksenhakuviranomainen toisin määrää.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mitä tässä pykälässä säädetään, ei koske lääkelaissa (395/1987) eikä terveydenhuollon laitteista ja tarvikkeista annetussa laissa (1505/1994) tarkoitettua toimintaa, joiden mukaisesta valvonnasta vastaa Lääkelaitos. Jos Terveydenhuollon oikeusturvakeskus tai lääninhallitus on valvonnassaan havainnut lääkehuoltoa taikka terveydenhuollon laitteita tai tarvikkeita koskevia puutteita tai muita epäkohtia, niistä on ilmoitettava Lääkelaitokselle.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>22 a §</num>
+                    <heading>Huomautus ja huomion kiinnittäminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Jos yksityisen terveydenhuollon ohjauksen tai valvonnan yhteydessä todetaan, että palvelujen tuottaja on tämän lain mukaista toimintaa järjestäessä tai toteuttaessa menetellyt virheellisesti tai jättänyt velvollisuutensa täyttämättä, eikä asia anna aihetta muihin toimenpiteisiin, voi Terveydenhuollon oikeusturvakeskus tai lääninhallitus antaa palvelujen tuottajalle tai sen vastaavalle johtajalle huomautuksen vastaisen varalle tai kiinnittää huomiota toiminnan asianmukaiseen järjestämiseen ja hyvän hallintotavan noudattamiseen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tässä pykälässä tarkoitetuttuun Terveydenhuollon oikeusturvakeskuksen tai lääninhallituksen antamaan huomautukseen ja huomion kiinnittämiseen ei saa hakea muutosta valittamalla.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>22 b §</num>
+                    <heading>Kantelujen tutkiminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Edellä 13 §:ssä tarkoitettu valvontaviranomainen ei tutki yksityistä terveydenhuoltoa koskevaa kantelua, joka koskee yli viisi vuotta vanhaa asiaa, ellei kantelun tutkimiseen ole erityistä syytä.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä syyskuuta 2006.</p>
+                    <p>Ennen lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/154">HE 154/2005</ref>
+                        </p>
+                        <p>StVM 19/2005</p>
+                        <p>EV 129/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 29 päivänä joulukuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

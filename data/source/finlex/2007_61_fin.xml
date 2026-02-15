@@ -1,0 +1,737 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/61/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/61"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/61/alkup"/>
+                    <FRBRdate date="2007-02-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="61"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/61/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/61/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/61/alkup/fin"/>
+                    <FRBRdate date="2007-02-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/61/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/61/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/61/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="13"/>
+                    <finlex:date date="2007-02-05"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>61/2007</docNumber>
+                <docTitle>Laki sähköisestä lääkemääräyksestä</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 luku</num>
+                    <heading>Yleiset säännökset</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Lain tarkoitus</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Tämän lain tarkoituksena on parantaa potilas- ja lääketurvallisuutta sekä helpottaa ja tehostaa lääkkeen määräämistä ja toimittamista toteuttamalla järjestelmä, jossa potilaan lääkemääräykset voidaan tallettaa sähköisesti valtakunnalliseen reseptikeskukseen ja jossa reseptikeskukseen talletetut lääkemääräykset voidaan toimittaa potilaalle hänen haluamanaan ajankohtana hänen valitsemastaan apteekista. Reseptikeskukseen talletetut lääkemääräykset mahdollistavat potilaan suostumuksella hänen kokonaislääkityksensä selvittämisen ja huomioon ottamisen lääkehoitoa toteutettaessa. Lisäksi reseptikeskukseen ja reseptiarkistoon koottuja tietoja voidaan hyödyntää terveydenhuollon viranomaistoiminnassa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Lain soveltamisala</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <content>
+                                <p>Tätä lakia sovelletaan 3 §:n 1 kohdassa määriteltyyn sähköiseen lääkemääräykseen, joka toimitetaan apteekista. Eläimelle ei kuitenkaan saa määrätä lääkettä tämän lain mukaisella sähköisellä lääkemääräyksellä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_2__subsec_2">
+                            <content>
+                                <p>Lakia sovelletaan Ahvenanmaan maakunnan alueella siltä osin kuin Ahvenanmaan terveydenhuollon palvelujen antajat ovat ottaneet käyttöönsä tämän lain mukaisen sähköisen lääkemääräyksen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_2__subsec_3">
+                            <content>
+                                <p>Jollei tästä laista muuta johdu, sähköistä lääkemääräystä laadittaessa, toimitettaessa ja käsiteltäessä on noudatettava, mitä muualla säädetään potilaan asemasta ja oikeuksista, lääkkeen määräämisestä ja toimittamisesta, henkilötietojen käsittelystä, viranomaisten toiminnan julkisuudesta, sähköisestä viestinnästä ja asioinnista sekä sähköisistä allekirjoituksista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <heading>Määritelmät</heading>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <intro eId="chp_1__sec_3__subsec_1__intro">
+                                <p>Tässä laissa tarkoitetaan:</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>
+                                        <i>sähköisellä lääkemääräyksellä</i>
+                                         lääkkeen määräämiseen oikeutetun henkilön tietojenkäsittelylaitteella laatimaa lääkemääräystä, joka siirretään tietoverkkoja käyttäen reseptikeskukseen;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>
+                                        <i>lääkkeen määrääjällä</i>
+                                         lääkäriä ja hammaslääkäriä sekä lääkkeen määräämiseen oikeutettua lääketieteen ja hammaslääketieteen opiskelijaa;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>
+                                        <i>lääkkeen toimittajalla</i>
+                                         lääkkeen apteekista toimittavaa farmaseuttia ja proviisoria;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>
+                                        <i>reseptikeskuksella</i>
+                                         tietokantaa, joka koostuu lääkkeen määrääjien lähettämistä sähköisistä lääkemääräyksistä ja niihin liitetyistä apteekkien toimitustiedoista;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>
+                                        <i>reseptiarkistolla</i>
+                                         tietokantaa, johon reseptikeskuksessa olevat tiedot siirretään tässä laissa säädetyn säilytysajan päätyttyä, jotta tietoja voidaan käyttää muun muassa tieteelliseen tutkimukseen ja terveydenhuollon viranomaistoimintaan;
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>
+                                        <i>lääketietokannalla</i>
+                                         tietokantaa, joka sisältää lääkkeen määräämisen ja toimittamisen kannalta tarpeelliset tiedot lääkkeestä, sen hinnasta ja korvattavuudesta, keskenään vaihtokelpoisista lääkevalmisteista sekä korvattavista perusvoiteista ja kliinisistä ravintovalmisteista; ja
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_3__subsec_1__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>
+                                        <i>sähköisellä allekirjoituksella</i>
+                                         sähköisessä muodossa olevaa tietoa, joka on liitetty tai joka loogisesti liittyy muuhun sähköiseen tietoon ja jota käytetään allekirjoittajan henkilöllisyyden todentamiseen ja sähköisen viestin muuttumattomuuden varmistamisen välineenä.
+                                    </p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_4">
+                        <num>4 §</num>
+                        <heading>Potilaan informoiminen</heading>
+                        <subsection eId="chp_1__sec_4__subsec_1">
+                            <content>
+                                <p>Terveydenhuollon toimintayksikön tai lääkkeen määrääjän on informoitava potilasta sähköisestä lääkemääräyksestä ja siihen liittyvistä potilaan oikeuksista ennen lääkemääräyksen laatimista. Lisäksi potilasta tulee informoida sähköiseen lääkemääräykseen liittyvistä valtakunnallisista tietojärjestelmäpalveluista, niiden yleisistä toimintaperiaatteista sekä näiden tietojärjestelmäpalvelujen järjestäjästä, lääkemääräystietojen luovutuksen edellytyksistä, tietojen suojaamisesta sekä muista potilaan kannalta merkityksellisistä tietojen käsittelyyn liittyvistä seikoista.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_4__subsec_2">
+                            <content>
+                                <p>Annetusta informaatiosta tulee tehdä merkintä potilaskertomukseen. Informaatio tulee antaa potilaalle myös kirjallisessa muodossa. Jos potilas on jo saanut edellä mainitun informaation, voidaan tietojenantovelvollisuudesta poiketa siten kuin henkilötietolain (523/1999) 24 §:ssä säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 luku</num>
+                    <heading>Sähköisen lääkemääräyksen laatiminen ja sisältö</heading>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Lääkemääräyksen laatiminen</heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <content>
+                                <p>Lääkemääräys voidaan laatia sähköisesti ilman potilaan erillistä suostumusta. Potilaalla on kuitenkin oikeus kieltää sähköisen lääkemääräyksen laatiminen ja reseptikeskukseen lähettäminen, jolloin lääkemääräys tulee laatia siten kuin siitä on muualla säädetty.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Lääkemääräyksen tietosisältö</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <intro eId="chp_2__sec_6__subsec_1__intro">
+                                <p>Sähköisessä lääkemääräyksessä tulee olla:</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>potilaan nimi ja henkilötunnus tai nimi ja syntymäaika, jos hänellä ei ole henkilötunnusta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>lääketietokannan mukaiset tiedot lääkkeestä tai lääkeaineesta taikka apteekissa valmistettavan lääkkeen koostumus;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>lääkkeen toimittamisen ja käytön kannalta tarpeelliset tiedot;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>lääkkeen määrääjä ja terveydenhuollon toimintayksikön tunnistamiseksi tarpeelliset tiedot;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>mahdollisen sairausvakuutuskorvauksen ratkaisemiseksi välttämättömät tiedot; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_6__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>lääkemääräyksen tunniste.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_2">
+                            <content>
+                                <p>Lääkemääräyksessä voi olla 1 momentissa todettujen tietojen lisäksi muuta lääkkeen käytön ja toimittamisen kannalta merkityksellistä tietoa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_3">
+                            <content>
+                                <p>Sähköisen lääkemääräyksen tarkemmasta sisällöstä ja tunnisteesta voidaan tarvittaessa säätää sosiaali- ja terveysministeriön asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Lääkemääräyksen allekirjoittaminen</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>Sähköisessä lääkemääräyksessä tulee olla sen laatijan todentava kehittynyt sähköinen allekirjoitus. Sähköinen allekirjoitus tulee lisäksi toteuttaa siten, että lääkemääräyksen laatijan oikeus lääkkeen määräämiseen tulee varmennetuksi ennen allekirjoitusta. Kaikki samaan potilaskäyntiin liittyvät lääkemääräykset voi allekirjoittaa yhdellä allekirjoitustoiminnolla.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_7__subsec_2">
+                            <content>
+                                <p>Terveydenhuollon oikeusturvakeskus vastaa varmennepalvelusta. Sosiaali- ja terveysministeriön asetuksella annetaan tarkemmat säännökset siitä, miten lääkemääräyksen laatijan oikeus lääkkeen määräämiseen varmennetaan ja varmennepalvelu toteutetaan.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_8">
+                        <num>8 §</num>
+                        <heading>Lääkemääräyksen salaaminen</heading>
+                        <subsection eId="chp_2__sec_8__subsec_1">
+                            <content>
+                                <p>Lääkkeen määrääjä voi potilaan tai hänen laillisen edustajansa pyynnöstä salata sähköisen lääkemääräyksen siten, että lääkemääräystä koskevat tiedot ovat nähtävissä vain potilaan myötävaikutuksella. Salaus on lääkemääräyskohtainen, ja se voidaan poistaa tai muuttaa potilaan tai hänen laillisen edustajansa allekirjoittamalla suostumuksella. Salauksen teknisestä toteutuksesta säädetään tarvittaessa sosiaali- ja terveysministeriön asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_9">
+                        <num>9 §</num>
+                        <heading>Potilasohje</heading>
+                        <subsection eId="chp_2__sec_9__subsec_1">
+                            <content>
+                                <p>
+                                    Sähköisestä lääkemääräyksestä on annettava potilaalle erillinen selvitys (<i>potilasohje</i>), jollei potilas ilmoita, että hän ei halua sitä. Potilasohjeessa tulee olla ainakin potilaan nimi ja syntymäaika, lääkevalmisteen nimi ja lääkeaine sekä sen vahvuus ja lääkemuoto, käyttötarkoitus ja annostus, tieto lääkkeen määrästä, lääkemääräyksen tunniste, lääkkeen määrääjän tai terveydenhuollon toimintayksikön yhteystiedot, lääkemääräyksen laatimispäivä sekä tieto 7 §:n mukaisesta salauksesta, jos se on käytössä. Potilasohjeeseen voidaan merkitä tiedot kaikista potilaalle samalla kerralla määrätyistä lääkkeistä.
+                                </p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_10">
+                        <num>10 §</num>
+                        <heading>Lääkemääräyksen korjaaminen, mitätöiminen ja uudistaminen</heading>
+                        <subsection eId="chp_2__sec_10__subsec_1">
+                            <content>
+                                <p>Jos reseptikeskuksessa oleva toimittamaton tai osittain toimitettu lääkemääräys on virheellinen, voi lääkemääräyksen saanutta henkilöä hoitava lääkkeen määrääjä tehdä lääkemääräykseen tarpeelliset korjaukset. Lääkettä apteekista toimittava proviisori ja farmaseutti voi lisäksi tehdä lääkkeen määrääjän suullisella suostumuksella tarvittavat korjausmerkinnät lääkemääräykseen. Korjaus on allekirjoitettava sähköisesti.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_10__subsec_2">
+                            <content>
+                                <p>Potilasta hoitava lääkkeen määrääjä ja lääkkeen toimittaja voi potilaan allekirjoittamalla suostumuksella mitätöidä reseptikeskuksessa olevan toimittamattoman tai osittain toimitetun lääkemääräyksen. Lääkemääräyksen laatija voi tehdä mitätöinnin ilman potilaan suostumusta, jos lääkemääräys on laadittu potilaan tarkoituksellisesti antamien virheellisten tietojen perusteella tai pakottamalla. Lisäksi lääkemääräys mitätöidään, jos henkilö, jolle lääke on määrätty, on kuollut.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_10__subsec_3">
+                            <content>
+                                <p>Sähköinen lääkemääräys uudistetaan laatimalla uusi lääkemääräys. Apteekki voi tehdä potilaan pyynnöstä lääkemääräyksen uudistamispyynnön lääkkeen määrääjälle ja terveydenhuollon toimintayksikölle.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_10__subsec_4">
+                            <content>
+                                <p>Sähköisen lääkemääräyksen korjaamisesta, mitätöimisestä ja uudistamisesta voidaan tarvittaessa antaa tarkempia säännöksiä sosiaali- ja terveysministeriön asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 luku</num>
+                    <heading>Sähköisen lääkemääräyksen toimittaminen</heading>
+                    <section eId="chp_3__sec_11">
+                        <num>11 §</num>
+                        <heading>Apteekin tiedonsaantioikeus</heading>
+                        <subsection eId="chp_3__sec_11__subsec_1">
+                            <intro eId="chp_3__sec_11__subsec_1__intro">
+                                <p>
+                                    Potilaan tai hänen puolestaan toimivan henkilön (<i>lääkkeen ostaja</i>) suullisesta pyynnöstä apteekilla on oikeus saada reseptikeskuksesta potilaan:
+                                </p>
+                            </intro>
+                            <paragraph eId="chp_3__sec_11__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>sähköisen lääkemääräyksen yksilöimiseksi välttämättömät, toimittamattomia tai osittain toimitettuja sähköisiä lääkemääräyksiä koskevat tiedot;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_11__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>sähköisen lääkemääräyksen toimittamisessa tarvittavat tiedot, mukaan lukien sairausvakuutuskorvaukseen vaikuttavat tiedot; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_3__sec_11__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>muut reseptikeskuksessa olevat tiedot potilaan lääkemääräyksistä; jos lääkkeen noutaa joku muu kuin potilas tai hänen laillinen edustajansa, tulee lääkkeen ostajalla olla tällöin potilaan tai hänen laillisen edustajansa allekirjoittama suostumus.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_12">
+                        <num>12 §</num>
+                        <heading>Sähköisen lääkemääräyksen toimittaminen</heading>
+                        <subsection eId="chp_3__sec_12__subsec_1">
+                            <content>
+                                <p>Kun lääke toimitetaan sähköisen lääkemääräyksen perusteella, tulee lääkkeen ostajan osoittaa luotettavasti, että hänellä on oikeus vastaanottaa lääke.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_12__subsec_2">
+                            <content>
+                                <p>Lääkkeen luovutuksen yhteydessä lääkkeen ostajalle on annettava kirjallinen selvitys toimitetusta lääkkeestä sekä tieto lääkemääräyksen toimittamatta olevasta osasta, jollei ostaja ilmoita, että hän ei halua selvitystä. Selvityksessä voi potilaan suullisella suostumuksella olla tiedot kaikista reseptikeskukseen tallennetuista potilaan lääkemääräyksistä. Jos lääkkeen noutaa joku muu kuin potilas itse tai hänen laillinen edustajansa, voidaan kaikki lääkemääräystiedot sisältävä selvitys antaa vain, jos potilas tai hänen laillinen edustajansa on antanut siihen allekirjoitetun suostumuksensa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_12__subsec_3">
+                            <content>
+                                <p>Lääkemääräyksen toimitustiedot liitetään reseptikeskuksessa olevaan lääkemääräykseen. Lääkkeen toimittanut apteekki voi korjata virheellisen toimitustiedon. Toimitustiedot ja niiden korjaukset on allekirjoitettava kehittyneellä sähköisellä allekirjoituksella. Sähköinen allekirjoitus tulee toteuttaa siten, että lääkkeen toimittajan oikeus toimittamiseen tulee varmennetuksi ennen allekirjoitusta. Kaikkien samalla kerralla toimitettavien lääkemääräysten toimitustiedot voi allekirjoittaa yhdellä allekirjoitustoiminnolla.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 luku</num>
+                    <heading>Reseptikeskuksen tietojen luovuttaminen ja potilaan tarkastusoikeus</heading>
+                    <section eId="chp_4__sec_13">
+                        <num>13 §</num>
+                        <heading>Lääkärin ja hammaslääkärin tiedonsaantioikeus</heading>
+                        <subsection eId="chp_4__sec_13__subsec_1">
+                            <content>
+                                <p>Lääkkeen määrääjällä on hoitosuhteen jatkuessa salassapitosäännösten estämättä oikeus saada tieto reseptikeskukseen tallettamistaan lääkemääräyksistä ja niiden toimitustiedoista. Jos sähköinen lääkemääräys on salattu 8 §:n mukaisesti, saa toimitustietoja tarkastella vain potilaan tai hänen laillisen edustajansa erikseen antamalla suullisella suostumuksella.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_13__subsec_2">
+                            <content>
+                                <p>Potilasta hoitavalla lääkkeen määrääjällä on oikeus saada tieto muista kuin 1 momentissa mainituista potilaan sähköisistä lääkemääräyksistä ja toimitustiedoista potilaan tai hänen laillisen edustajansa suullisen suostumuksen perusteella. Muissa tapauksissa oikeus saada tietoja reseptikeskuksessa olevista lääkemääräyksistä edellyttää allekirjoitettua suostumusta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_13__subsec_3">
+                            <content>
+                                <p>Edellä 1 ja 2 momentissa säädetystä poiketen lääkärillä on salassapitosäännösten estämättä oikeus saada tietoja reseptikeskukseen tallennetuista lääkemääräyksistä ja toimitustiedoista ilman potilaan suostumusta potilaan asemasta ja oikeuksista annetun lain (785/1992) 8 §:ssä säädetyissä tilanteissa, jos se on tarpeen kiireellisen hoidon antamiseksi. Jos lääkemääräys on salattu 8 §:n mukaisesti, saa salauksen ohittaa tällaisessa tilanteessa ilman potilaan suostumusta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_14">
+                        <num>14 §</num>
+                        <heading>Lääkemääräyksen uudistamispyynnön käsittely</heading>
+                        <subsection eId="chp_4__sec_14__subsec_1">
+                            <content>
+                                <p>Terveydenhuollon toimintayksiköllä on oikeus saada tieto apteekissa uudistettavaksi merkityistä lääkemääräyksistä. Toimintayksikön tulee huolehtia siitä, että uudistamispyyntö käsitellään kohtuullisessa ajassa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_15">
+                        <num>15 §</num>
+                        <heading>Tietojen luovuttaminen viranomaisille</heading>
+                        <subsection eId="chp_4__sec_15__subsec_1">
+                            <intro eId="chp_4__sec_15__subsec_1__intro">
+                                <p>Salassapitosäännösten ja muiden tietojen käyttöä koskevien säännösten estämättä Kansaneläkelaitos saa rekisterinpitäjänä luovuttaa reseptikeskuksesta ja reseptiarkistosta pyynnöstä myös teknisen käyttöyhteyden avulla, sen lisäksi, mitä muualla lainsäädännössä säädetään:</p>
+                            </intro>
+                            <paragraph eId="chp_4__sec_15__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>Terveydenhuollon oikeusturvakeskukselle ja lääninhallitukselle terveydenhuollon ammattihenkilöiden valvonnassa tarvittavat tiedot lääkkeen määrääjien laatimista lääkemääräyksistä ja niiden toimittamisesta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_15__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>Lääkelaitokselle turvallisen ja tarkoituksenmukaisen lääkkeiden käytön ohjauksessa tarvittavat tiedot sekä lääkelain (395/1987) mukaisessa valvonnassa tarvittavat tiedot lääkemääräyksistä ja niiden toimittamisesta; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_15__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>Lääkehoidon kehittämiskeskukselle lääkkeen käytön ja määräämiskäytäntöjen seuraamiseksi tarvittavat tiedot, joihin ei sisälly potilaan henkilöllisyyden paljastavia henkilötietoja.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_4__sec_15__subsec_2">
+                            <content>
+                                <p>Ennen teknisen käyttöyhteyden avaamista tietoja pyytävän viranomaisen on esitettävä selvitys siitä, että tietojen suojaamisesta huolehditaan asianmukaisesti. Tiedot on luovutettava 1 momentissa tarkoitetuille viranomaisille maksutta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_15__subsec_3">
+                            <content>
+                                <p>Kansaneläkelaitoksen oikeus saada reseptikeskuksessa ja reseptiarkistossa olevia tietoja määräytyy sairausvakuutuslain (1224/2004) 19 luvun 1 §:n perusteella. Kansaneläkelaitos ei myöskään saa antaa tietoja edelleen sille muussa laissa säädetyn tiedonantovelvollisuuden tai tiedonanto-oikeuden perusteella.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_15__subsec_4">
+                            <content>
+                                <p>Kansaneläkelaitos saa luovuttaa reseptikeskuksessa ja reseptiarkistossa olevia tietoja tieteelliseen tutkimukseen viranomaisten toiminnan julkisuudesta annetun lain (621/1999) 28 §:n mukaisesti. Luovutus edellyttää kuitenkin aina sosiaali- ja terveysministeriön lupaa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_15__subsec_5">
+                            <content>
+                                <p>Kansaneläkelaitos saa laatia ja luovuttaa yhteenvetoja reseptikeskuksessa ja reseptiarkistossa olevista tiedoista, joilla voi olla merkitystä lääketurvallisuuden sekä lääkehoidon hyötyjen ja kustannusten selvittämisessä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_16">
+                        <num>16 §</num>
+                        <heading>Potilaan tiedonsaantioikeus</heading>
+                        <subsection eId="chp_4__sec_16__subsec_1">
+                            <content>
+                                <p>Potilaan oikeudesta tarkastaa reseptikeskuksessa olevat häntä itseään koskevat tiedot, on voimassa mitä henkilötietolain 26―28 §:ssä säädetään. Tarkastuspyynnön voi tehdä Kansaneläkelaitokselle, apteekille tai terveydenhuollon toimintayksikölle. Reseptiarkistossa olevat tiedot saa tarkastaa samoin perustein kuin reseptikeskuksessa olevat tiedot, tietoja koskeva tarkastuspyyntö on kuitenkin tehtävä aina Kansaneläkelaitokselle. Tarkastuspyyntö on allekirjoitettava.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_16__subsec_2">
+                            <content>
+                                <p>Reseptikeskuksessa ja reseptiarkistossa olevien virheellisten tietojen korjaamiseen sovelletaan edellä 10 §:ssä säädetyn lisäksi, mitä henkilötietolain 29 §:ssä säädetään. Jos potilas tai hänen laillinen edustajansa vaatii virheen korjaamista henkilötietolain 29 §:ään perustuen ja virheellinen tieto perustuu lääkkeen määrääjän tai lääkkeen toimittajan tekemään merkintään, on korjausvaatimus osoitettava virheellisen merkinnän tehneelle henkilölle tai sille organisaatiolle, jonka palveluksessa virheen tehnyt henkilö on ollut virheen tehdessään.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_16__subsec_3">
+                            <content>
+                                <p>Potilaalla on oikeus pyynnöstä saada lokitietojen perusteella tieto siitä, ketkä ovat käsitelleet ja katselleet häntä koskevia, reseptikeskuksessa tai reseptiarkistossa olevia tietoja. Kansaneläkelaitoksen on annettava tiedot viivytyksettä, kuitenkin viimeistään 14 päivän kuluessa pyynnöstä. Tietojen antamisesta ei saa periä maksua. Jos potilas pyytää uudelleen samoja tietoja, on hänellä oikeus saada samoihin lokitietoihin perustuvat tiedot vain, jos siihen on perusteltu syy hänen etujensa tai oikeuksiensa toteuttamiseksi. Kansaneläkelaitos saa periä uudelleen annettavista tiedoista maksun, joka on enintään tietojen antamisesta aiheutuvia kustannuksia vastaava.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_16__subsec_4">
+                            <content>
+                                <p>Jos potilas katsoo, että hänen tietojaan on käytetty tai luovutettu ilman riittäviä perusteita, tulee Kansaneläkelaitoksen, asianomaisen terveydenhuollon toimintayksikön tai apteekin sekä tietoja käyttäneen tai tietoja saaneen henkilön antaa potilaalle pyynnöstä selvitys tietojen käytön perusteista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_17">
+                        <num>17 §</num>
+                        <heading>Katseluyhteys</heading>
+                        <subsection eId="chp_4__sec_17__subsec_1">
+                            <content>
+                                <p>Täysi-ikäiselle potilaalle annetaan sähköisen katseluyhteyden avulla tiedot hänen reseptikeskukseen tallennetuista lääkemääräyksistään sekä niihin liitetyistä korjaus- ja toimitusmerkinnöistä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_17__subsec_2">
+                            <content>
+                                <p>Katseluyhteys tulee toteuttaa siten, että potilaan yksityisyyden suoja ei vaarannu. Sosiaali- ja terveysministeriön asetuksella voidaan säätää siitä, miten tiedot annetaan katseluyhteyden kautta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_5">
+                    <num>5 luku</num>
+                    <heading>Erinäiset säännökset</heading>
+                    <section eId="chp_5__sec_18">
+                        <num>18 §</num>
+                        <heading>Rekisterinpitäjä</heading>
+                        <subsection eId="chp_5__sec_18__subsec_1">
+                            <content>
+                                <p>Kansaneläkelaitos on reseptikeskuksen ja reseptiarkiston rekisterinpitäjä. Kansaneläkelaitos vastaa reseptikeskuksessa ja reseptiarkistossa olevien tietojen käytettävyydestä ja eheydestä, tietosisältöjen muuttumattomuudesta sekä tietojen säilyttämisestä ja hävittämisestä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_18__subsec_2">
+                            <content>
+                                <p>Lääkkeen määrääjä vastaa reseptikeskukseen tallennettavan lääkemääräyksen tietojen oikeellisuudesta ja lääkkeen toimittanut apteekki reseptikeskukseen tallennettavien toimitustietojen oikeellisuudesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_19">
+                        <num>19 §</num>
+                        <heading>Tietojen säilyttäminen</heading>
+                        <subsection eId="chp_5__sec_19__subsec_1">
+                            <content>
+                                <p>Sähköiset lääkemääräykset ja niitä koskevat tiedot säilytetään reseptikeskuksessa 30 kuukautta. Terveydenhuollon toimintayksiköiden ja apteekkien velvollisuudesta säilyttää tietoja lääkemääräyksistä säädetään erikseen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_19__subsec_2">
+                            <content>
+                                <p>Reseptikeskuksessa olevat tiedot siirretään 1 momentissa säädetyn määräajan jälkeen erilliseen reseptiarkistoon. Edellä 11, 13 ja 14 §:ässä säädetty tiedonsaantioikeus ei koske reseptiarkistossa olevia tietoja. Reseptiarkistossa olevat tiedot säilytetään 10 vuotta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_20">
+                        <num>20 §</num>
+                        <heading>Sähköisen lääkemääräyksen tietotekninen toteutus</heading>
+                        <subsection eId="chp_5__sec_20__subsec_1">
+                            <intro eId="chp_5__sec_20__subsec_1__intro">
+                                <p>Sähköinen lääkemääräys tulee toteuttaa siten, että:</p>
+                            </intro>
+                            <paragraph eId="chp_5__sec_20__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>reseptikeskuksessa olevien tietojen katselu, tallettaminen ja muu käsittely edellyttää käsittelijän yksilöivää vahvaa tunnistusmenetelmää sekä järjestelmään liittyvää käyttöoikeuksien hallintaa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_20__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>lääkettä koskevat tiedot ovat yhtäpitävät lääketietokannan tietojen kanssa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_20__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>vain tämän lain ja sen nojalla annettujen säännösten ja määräysten mukainen lääkemääräys ja siihen liittyvät toimitustiedot saadaan siirtää reseptikeskukseen;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_20__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>sähköisen lääkemääräyksen ja sitä koskevien tietojen siirtäminen reseptikeskukseen tai sieltä muualle on salattu ja sähköisesti allekirjoitettu siten, että sivulliset eivät voi saada selville salattua sanomaa ja että tiedot eivät muutu siirrossa;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_20__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>reseptikeskus on käytössä keskeytyksettä ja siinä on tarpeelliset varajärjestelmät toimintahäiriöiden ja poikkeusolojen varalta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_20__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>
+                                        reseptikeskukseen tallentuu erikseen kustakin lääkemääräyksestä tiedot (<i>lokitiedot</i>) siitä, ketkä ovat katsoneet, muuttaneet tai muutoin käsitelleet lääkemääräyksen tietoja taikka mitätöineet lääkemääräyksen sekä toimenpiteen ajankohta; ja
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_20__subsec_1__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>lääkemääräysten laatiminen ja toimittaminen on mahdollista kaikille tämän lain ja sen nojalla annettujen säännösten mukaisesti laadituilla ja tekniset vaatimukset täyttävillä ohjelmistoilla ja laitteistoilla.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_5__sec_20__subsec_2">
+                            <content>
+                                <p>Sosiaali- ja terveysministeriön asetuksella voidaan antaa tarkemmat määräykset sähköisen lääkemääräyksen, reseptikeskuksen, reseptiarkiston ja lääketietokannan teknisestä toteuttamisesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_21">
+                        <num>21 §</num>
+                        <heading>Lääkemääräys- ja toimitusohjelmistot</heading>
+                        <subsection eId="chp_5__sec_21__subsec_1">
+                            <content>
+                                <p>Sähköisen lääkemääräyksen laadinnassa ja toimittamisessa käytettävät tietojärjestelmät ja niitä tukevat ohjelmistot tulee toteuttaa siten, että lääkkeitä koskevat tiedot perustuvat lääketietokantaan ja että käytettävät ohjelmistot ohjaavat lääkkeen valintaa rationaalisen lääkehoidon toteuttamiseksi.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_21__subsec_2">
+                            <content>
+                                <p>Edellä 1 momentissa tarkoitetut järjestelmät ja ohjelmistot on lisäksi laadittava siten, että lääkkeen määrääjän on itse kirjoitettava tai lisättävä lääkemääräykseen sellaiset lausumat ja merkinnät, jotka sosiaali- ja terveysministeriön asetuksella tai Kansaneläkelaitoksen päätöksellä määrätään henkilökohtaisesti kirjoitettaviksi tai merkittäviksi.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_21__subsec_3">
+                            <content>
+                                <p>Sosiaali- ja terveysministeriön asetuksella voidaan tarvittaessa antaa tarkempia määräyksiä tietojärjestelmien ja ohjelmistojen päivittämisestä, lääkkeitä, korvattavia perusvoiteita ja kliinisiä ravintovalmisteita koskevista tiedoista sekä rationaalisen lääkehoidon mukaisista lääkkeen valintaperusteista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_22">
+                        <num>22 §</num>
+                        <heading>Lääketietokanta</heading>
+                        <subsection eId="chp_5__sec_22__subsec_1">
+                            <content>
+                                <p>Kansaneläkelaitos ylläpitää lääketietokantaa. Lääkelaitoksen tulee toimittaa Kansaneläkelaitokselle lääkevalmisteen yksiselitteiseksi tunnistamiseksi tarvittavat tiedot myyntiluvallisista ja rekisteröidyistä lääkevalmisteista sekä lääkelain 21 e §:ssä tarkoitetuista ja 21 f §:n mukaisista potilasryhmälle tai väestölle tarkoitetuista erityisluvallisista lääkevalmisteista. Lisäksi myyntiluvan haltijan, valmistajan tai maahantuojan on ilmoitettava lääkkeiden, korvattavien perusvoiteiden ja kliinisten ravintovalmisteiden hintatiedot Kansaneläkelaitokselle.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_22__subsec_2">
+                            <content>
+                                <p>Lääketietokannan tarkemmasta tietosisällöstä ja tietojen ilmoittamisesta Kansaneläkelaitokselle voidaan tarvittaessa antaa määräykset sosiaali- ja terveysministeriön asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_23">
+                        <num>23 §</num>
+                        <heading>Sähköisen lääkemääräyksen käyttöönotto</heading>
+                        <subsection eId="chp_5__sec_23__subsec_1">
+                            <content>
+                                <p>Lääkemääräykset on laadittava tämän lain mukaista sähköistä lääkemääräystä käyttäen kaikissa julkisen ja yksityisen terveydenhuollon toimintayksiköissä sekä terveydenhuollon toimintayksikön tiloissa toimivien itsenäisten ammatinharjoittajien vastaanotoilla, jollei potilas ole kieltänyt sähköisen lääkemääräyksen laatimista 5 §:n mukaisesti. Apteekin ja sivuapteekin on kyettävä toimittamaan sähköinen lääkemääräys.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_23__subsec_2">
+                            <content>
+                                <p>Ahvenanmaan maakunnan alueella toimivat terveydenhuollon toimintayksiköt saavat ottaa käyttöönsä tämän lain mukaisen sähköisen lääkemääräyksen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_23__subsec_3">
+                            <content>
+                                <p>Itsenäisenä ammatinharjoittajana toimivat lääkärit ja hammaslääkärit voivat ottaa käyttöön tämän lain mukaisen sähköisen lääkemääräyksen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_24">
+                        <num>24 §</num>
+                        <heading>Ohjaus, seuranta ja valvonta</heading>
+                        <subsection eId="chp_5__sec_24__subsec_1">
+                            <content>
+                                <p>Sähköisen lääkemääräyksen ja tässä laissa tarkoitettujen valtakunnallisten tietojärjestelmäpalvelujen järjestämisen ja toteuttamisen yleinen suunnittelu, ohjaus ja valvonta kuuluvat sosiaali- ja terveysministeriölle.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_24__subsec_2">
+                            <content>
+                                <p>Tietosuojavaltuutettu, Lääkelaitos, Terveydenhuollon oikeusturvakeskus sekä lääninhallitus alueellaan ohjaavat ja valvovat niille säädetyn toimivallan mukaisesti tämän lain noudattamista.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_24__subsec_3">
+                            <content>
+                                <p>Reseptikeskuksen rekisterinpitäjän on omalta osaltaan seurattava ja valvottava, että sen antamaan palveluun liittyvä tietosuoja toteutuu siten kuin siitä säädetään tässä laissa, henkilötietolaissa ja muualla lainsäädännössä. Lisäksi terveydenhuollon toimintayksikön ja apteekin on omalta osaltaan seurattava ja valvottava, että reseptikeskuksessa olevia tietoja voivat katsella ja käsitellä vain tämän lain mukaan siihen oikeutetut ja, että tietojen katselu ja käsittely tapahtuu tässä laissa säädetyillä perusteilla. Rekisterinpitäjän, toimintayksikön ja apteekin tulee oma-aloitteisesti ryhtyä tarvittaviin toimenpiteisiin, jos joku on lainvastaisesti katsonut, käyttänyt tai luovuttanut reseptikeskuksessa olevia tietoja. Seurannan ja valvonnan toteuttamiseksi terveydenhuollon toimintayksiköllä ja apteekilla on oikeus saada Kansaneläkelaitokselta lokitiedot siltä osin kuin asianomaisen toimintayksikön ja apteekin henkilökunta on katsellut ja käsitellyt reseptikeskuksessa olevia tietoja.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_24__subsec_4">
+                            <content>
+                                <p>Rekisterinpitäjän ja terveydenhuollon toimintayksikön vastaavan johtajan sekä apteekkarin tulee antaa kirjalliset ohjeet asiakastietojen käsittelystä ja noudatettavista menettelytavoista sekä huolehtia henkilökunnan riittävästä asiantuntemuksesta ja osaamisesta potilastietoja käsiteltäessä. Lisäksi rekisterinpitäjällä, terveydenhuollon toimintayksiköllä ja apteekilla on oltava seuranta- ja valvontatehtävää varten nimettynä tietosuojavastaava.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_25">
+                        <num>25 §</num>
+                        <heading>Maksut</heading>
+                        <subsection eId="chp_5__sec_25__subsec_1">
+                            <content>
+                                <p>Sähköisen lääkemääräyksen laatiminen ja toimittaminen, tässä laissa tarkoitettu varmentaminen sekä reseptikeskuksen, reseptiarkiston ja lääketietokannan tietojen käyttö ovat maksullisia. Maksut määrätään sosiaali- ja terveysministeriön asetuksella sellaisiksi, että ne vastaavat palvelun tuottamisesta aiheutuvien kustannusten määrää.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_26">
+                        <num>26 §</num>
+                        <heading>Rangaistus- ja viittaussäännökset</heading>
+                        <subsection eId="chp_5__sec_26__subsec_1">
+                            <content>
+                                <p>
+                                    Joka tahallaan tai törkeästä huolimattomuudesta rikkoo tämän lain 11, 13 tai 14 §:n tiedonsaantioikeutta taikka tietojen käsittelyä koskevia säännöksiä ja siten vaarantaa potilaan yksityisyyden suojaa tai hänen oikeuksiaan, on tuomittava, jollei teosta muualla laissa säädetä ankarampaa rangaistusta, 
+                                    <i>sähköisestä lääkemääräyksestä annetun lain rikkomisesta</i>
+                                     sakkoon.
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_26__subsec_2">
+                            <content>
+                                <p>Rangaistus tietomurrosta säädetään rikoslain (39/1889) 38 luvun 8 §:ssä ja rangaistus henkilörekisteririkoksesta rikoslain 38 luvun 9 §:ssä. Rangaistus salassapitovelvollisuuden rikkomisesta tuomitaan rikoslain 38 luvun 1 tai 2 §:n mukaan, jollei teko ole rangaistava rikoslain 40 luvun 5 §:n mukaan tai siitä muualla laissa säädetä ankarampaa rangaistusta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_6">
+                    <num>6 luku</num>
+                    <heading>Voimaantulo ja siirtymäsäännökset</heading>
+                    <section eId="chp_6__sec_27">
+                        <num>27 §</num>
+                        <heading>Voimaantulo</heading>
+                        <subsection eId="chp_6__sec_27__subsec_1">
+                            <content>
+                                <p>Tämä laki tulee voimaan 1 päivänä huhtikuuta 2007.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_27__subsec_2">
+                            <content>
+                                <p>Ennen lain voimaantuloa voidaan ryhtyä sen täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_28">
+                        <num>28 §</num>
+                        <heading>Siirtymäsäännös</heading>
+                        <subsection eId="chp_6__sec_28__subsec_1">
+                            <content>
+                                <p>Edellä 27 §:ssä säädetystä poiketen sähköisen lääkemääräyksen salaamista koskeva 8 § ja sähköisen lääkemääräyksen käyttöönottoa koskeva 23 §:n 1 momentti tulevat voimaan neljän vuoden kuluttua tämän lain voimaantulosta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_28__subsec_2">
+                            <content>
+                                <p>Lain 25 §:n mukaisia maksuja aletaan periä neljän vuoden kuluttua tämän lain voimaantulosta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_28__subsec_3">
+                            <content>
+                                <p>Sähköisen lääkemääräyksen kokeilusta annetussa sosiaali- ja terveysministeriön asetuksessa (771/2003) tarkoitettu reseptitietokanta poistetaan käytöstä 31 päivänä joulukuuta 2007. Asetuksen mukaisessa reseptitietokannassa olevat toimittamattomat ja osittain toimitetut lääkemääräykset raukeavat. Kokonaan tai osittain toimitettuja lääkemääräyksiä koskevat toimitustiedot tulee säilyttää siinä apteekissa, josta lääke on toimitettu, siten kuin toimitustietojen säilyttämisestä on erikseen säädetty.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/250">HE 250/2006</ref>
+                        </p>
+                        <p>StVM 43/2006</p>
+                        <p>EV 216/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 2 päivänä helmikuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

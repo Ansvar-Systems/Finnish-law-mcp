@@ -1,0 +1,246 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/28/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/28"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/28/alkup"/>
+                    <FRBRdate date="2005-01-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="28"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/28/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/28/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/28/alkup/fin"/>
+                    <FRBRdate date="2005-01-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/28/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/28/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/28/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="7"/>
+                    <finlex:date date="2005-01-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>28/2005</docNumber>
+                <docTitle>Laki saatavien perinnästä annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         saatavien perinnästä 22 päivänä huhtikuuta 1999 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1999/513">513/1999</affectedDocument>
+                        ) 1 §:n 1 momentti, 3 §:n 2 momentti ja 10 § sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 4 a ja 10 a―10 c § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Soveltamisala</heading>
+                    <subsection>
+                        <content>
+                            <p>Tässä laissa säädetään erääntyneen saatavan perinnästä sekä perintään liittyvistä, velkasuhteen osapuolten asemaan vaikuttavista muista seikoista. Perinnällä tarkoitetaan tässä laissa toimenpiteitä, joiden tarkoituksena on saada velallinen vapaaehtoisesti suorittamaan erääntynyt velkojan saatava.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <heading>Kuluttajasaatava</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Tämän lain 5―7, 10, 10 a―10 c ja 12―14 §:n säännöksiä kuluttajasaatavasta on soveltuvin osin noudatettava perittäessä julkisoikeudellisen oikeushenkilön saatavaa tai julkisen tehtävän hoitamiseen liittyvää saatavaa yksityishenkilöltä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>4 a §</num>
+                    <heading>Velallisen oikeus saada tietoja</heading>
+                    <subsection>
+                        <content>
+                            <p>Velallisella on pyynnöstä oikeus saada velkojalta maksutta ajantasainen tieto velkojensa kokonaismäärästä ja perusteista, erittely maksamattomista veloista ja niiden lyhennyksistä sekä selvitys velkapääomalle kertyneiden korkojen ja kulujen määräytymisestä. Jos velallinen pyytää erittelyn tai selvityksen useammin kuin kerran vuodessa, velkojalla on oikeus saada velalliselta kohtuullinen korvaus erittelyn tai selvityksen laatimisesta aiheutuvista kustannuksista.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 §</num>
+                    <heading>Perintäkulujen korvaaminen ja ulosotto- kelpoisuus</heading>
+                    <subsection>
+                        <content>
+                            <p>Velallisen on korvattava perinnästä velkojalle aiheutuvat kohtuulliset kulut riippumatta siitä, periikö saatavaa velkoja itse vai toimeksisaaja velkojan lukuun. Kohtuullisuutta arvioitaessa on otettava huomioon saatavan suuruus, suoritettu työmäärä, perintätehtävän tarkoituksenmukainen suoritustapa ja muut seikat.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Velallinen ei kuitenkaan ole velvollinen korvaamaan perintäkuluja, jos velkoja tai toimeksisaaja on menetellyt 4 §:n vastaisesti tai jos perintätoimintaa ammattimaisesti harjoittava ei ole täyttänyt 5 §:n mukaista velvoitetta, paitsi jos menettelyn moitittavuutta tai laiminlyöntiä voidaan pitää vähäisenä.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos perittävänä on kuluttajasaatava, joka voidaan periä ulosottotoimin ilman tuomiota tai päätöstä siten kuin verojen ja maksujen perimisestä ulosottotoimin annetussa laissa säädetään, myös saatavan perintäkulut voidaan periä ulosottotoimin ilman tuomiota tai päätöstä siten kuin mainitussa laissa säädetään. Tämä koskee kuluja siitä riippumatta, johtuvatko ne velkojan perintätoimista vai perintätoimeksiannon hoitamisesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 a §</num>
+                    <heading>Kuluttajasaatavien perintäkulujen enimmäismäärät</heading>
+                    <subsection>
+                        <intro>
+                            <p>Kuluttajasaatavaa perittäessä velalliselta saa tässä momentissa mainituista perintätoimista vaatia enintään seuraavat määrät:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>kirjallisesta maksumuistutuksesta 5 euroa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>5 §:ssä tarkoitetusta maksuvaatimuksesta 21 euroa, jos saatavan pääoma on 250 euroa tai vähemmän, ja 45 euroa, jos pääoma on yli 250 euroa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>10 §:n 3 momentissa tarkoitettua suoraan ulosottokelpoista saatavaa koskevasta 5 §:n mukaisesta maksuvaatimuksesta 12 euroa; sekä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>yhdessä velallisen kanssa laaditusta koko jäännössaatavan kattavasta kirjallisesta maksusuunnitelmasta 30 euroa.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Muusta kuin 1 momentin 1 kohdassa tarkoitetusta maksumuistutuksesta saa vaatia sen esittämisestä aiheutuvat todelliset kulut. Kulut voidaan periä käytetystä muistuttamistavasta keskimäärin aiheutuvien todellisten kustannusten mukaisina.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Velalliselta saa vaatia todelliset perintäkulut, jos perinnästä on sen edellyttämän tavanomaista suuremman työmäärän vuoksi aiheutunut muita kuin 1 momentissa mainittuja tai siinä säädetyt enimmäismäärät ylittäviä kuluja. Velalliselle on tällöin esitettävä erittely vaadituista perintäkuluista ja niiden perusteista sekä ilmoitettava kulujen määrän olevan muutoin sovellettavia enimmäismääriä suurempi. Enimmäismääriä ei kuitenkaan saa ylittää, jos perittävänä on 10 §:n 3 momentissa tarkoitettu suoraan ulosottokelpoinen saatava.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 b §</num>
+                    <heading>Perintätoimien aikarajat kuluttajasaatavien perinnässä</heading>
+                    <subsection>
+                        <content>
+                            <p>Edellä 10 a §:n 1 momentin 1 kohdassa tarkoitetusta maksumuistutuksesta velalliselta saa vaatia perintäkuluja vain, jos saatavasta on vähintään 14 päivää ennen sen erääntymistä lähetetty velalliselle lasku tai muu erääntymisilmoitus ja erääntymisestä on ennen maksumuistutuksen lähettämistä kulunut vähintään 14 päivää. Jos saatava on sopimuksen mukaan maksettava tiettynä eräpäivänä ilman erillistä ilmoitusta, velalliselta saa vaatia perintäkuluja vain, jos eräpäivästä on ennen maksumuistutuksen lähettämistä kulunut vähintään 14 päivää.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Uudesta maksumuistutuksesta tai uudesta 10 a §:n 1 momentin 2 tai 3 kohdassa tarkoitetusta maksuvaatimuksesta saa vaatia perintäkuluja velalliselta vain, jos edellisen maksumuistutuksen tai maksuvaatimuksen lähettämisestä on kulunut vähintään 14 päivää.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>10 c §</num>
+                    <heading>Velallisen kokonaiskuluvastuu kuluttaja- saatavan perinnässä</heading>
+                    <subsection>
+                        <intro>
+                            <p>Saman kuluttajasaatavan perinnästä velalliselta saa vaatia perintäkuluina yhteensä enintään seuraavat määrät:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>190 euroa, jos saatavan pääoma on 250 euroa tai vähemmän; ja</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>220 euroa, jos saatavan pääoma on yli 250 euroa.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Velalliselta saa vaatia 1 momentissa säädetyt määrät ylittävät todelliset perintäkulut, jos perinnän suorittaminen on ollut poikkeuksellisen vaikeaa eikä toteutettuja perintätoimia voida pitää suhteettomina ottaen huomioon erityisesti saatavan pääoma. Velalliselle on tällöin esitettävä erittely vaadituista perintäkuluista ja niiden perusteista sekä samalla ilmoitettava ne syyt, joiden vuoksi kuluja vaaditaan yli muutoin sovellettavan kokonaiskuluvastuun enimmäismäärän. Edellä 10 §:n 3 momentissa tarkoitetun suoraan ulosottokelpoisen saatavan perinnästä velalliselta ei kuitenkaan saa vaatia perintäkuluina yhteensä enempää kuin 59 euroa.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä toukokuuta 2005.</p>
+                    <p>Lakia sovelletaan lain voimaantulon jälkeen velalliselta perittäviin perintäkuluihin, vaikka velallisen vastuu perintäkuluista on ennen lain voimaantuloa tehdyn sopimuksen mukaan tässä laissa säädettyä ankarampi.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/21">HE 21/2004</ref>
+                        </p>
+                        <p>LaVM 14/2004</p>
+                        <p>EV 247/2004</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 21 päivänä tammikuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Johannes Koskinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

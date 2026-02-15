@@ -1,0 +1,136 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/979/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/979"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/979/alkup"/>
+                    <FRBRdate date="2007-11-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="979"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/979/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/979/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/979/alkup/swe"/>
+                    <FRBRdate date="2007-11-09" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/979/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/979/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/979/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="147"/>
+                    <finlex:date date="2007-11-14"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>979/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om minoritetsombudsmannen och diskrimineringsnämnden</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 13 juli 2001 om minoritetsombudsmannen och diskrimineringsnämnden (
+                        <affectedDocument href="/akn/fi/act/statute/2001/660">660/2001</affectedDocument>
+                        ) 1 § 1 mom., 7 b § och 7 d § 3 mom., av dem 7 b § och 7 d § 3 mom. sådana de lyder i lag 22/2004, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Verksamhetsområde</heading>
+                    <subsection>
+                        <content>
+                            <p>För förebyggande av etnisk diskriminering, främjande av goda etniska relationer, tryggande av etniska minoriteters och utlänningars ställning och rättigheter samt för övervakning av principen om etnisk icke-diskriminering finns en minoritetsombudsman i anslutning till inrikesministeriet. Minoritetsombudsmannen är självständig och oberoende i sin verksamhet.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>7 b §</num>
+                    <heading>Diskrimineringsnämnden</heading>
+                    <subsection>
+                        <content>
+                            <p>För tillsynsuppgiften enligt lagen om likabehandling finns i anslutning till inrikesministeriet en diskrimineringsnämnd vid sidan av minoritetsombudsmannen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>7 d §</num>
+                    <heading>Diskrimineringsnämndens sammansättning</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Nämndens medlemmar med uppgiften som bisyssla, ersättarna och sekreteraren samt de sakkunniga som nämnden hört och de som givit utlåtanden får arvode enligt grunder som fastställs av inrikesministeriet.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 90/2007</p>
+                        <p>GrUB 4/2007</p>
+                        <p>RSv 48/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 9 november 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Migrations- och Europaminister </role>
+                                <person refersTo="">Astrid Thors</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

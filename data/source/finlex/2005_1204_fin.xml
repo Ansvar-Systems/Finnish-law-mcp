@@ -1,0 +1,897 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1204/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1204"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1204/alkup"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1204"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1204/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1204/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1204/alkup/fin"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1204/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1204/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1204/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="198"/>
+                    <finlex:date date="2005-12-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1204/2005</docNumber>
+                <docTitle>Rikosvahinkolaki</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 luku</num>
+                    <heading>Yleiset säännökset</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Lain soveltamisala</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Rikoksella luonnolliselle henkilölle tai kuolinpesälle aiheutettu vahinko korvataan valtion varoista siten kuin tässä laissa säädetään.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_1__subsec_2">
+                            <content>
+                                <p>Lisäksi korvataan rikoksella oikeushenkilölle aiheutettu vahinko 7 ja 14 §:ssä tarkoitetuissa tapauksissa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Suomessa tehdyllä rikoksella aiheutetun vahingon korvaaminen</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <content>
+                                <p>Korvausta suoritetaan Suomessa tehdyllä rikoksella aiheutetusta vahingosta. Korvausta ei kuitenkaan suoriteta, jos vahinkoa kärsineellä ei korvaushakemuksen tekohetkellä ole eikä rikoksen tekohetkellä ollut asuinpaikkaa Suomessa tai muussa Euroopan unionin jäsenvaltiossa ja jos vahingon yhteys Suomeen on muutoinkin vähäinen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <heading>Suomen ulkopuolella tehdyllä rikoksella aiheutetun vahingon korvaaminen</heading>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <content>
+                                <p>Jos rikos on tehty Suomen ulkopuolella, suoritetaan korvausta vain henkilövahingosta ja kärsimyksestä. Korvauksen suorittamisen edellytyksenä on, että rikoksen uhrilla oli rikoksen tekohetkellä kotipaikka Suomessa ja että hänen oleskelunsa Suomen ulkopuolella johtui työstä, opiskelusta tai muusta näihin verrattavasta syystä. Elatuksen menetyksestä suoritettavan korvauksen edellytyksenä on lisäksi, että myös elatukseen tai elatusapuun oikeutetulla taikka muutoin surmansa saaneen elatuksen varassa olleella oli rikoksen tekohetkellä kotipaikka Suomessa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_3__subsec_2">
+                            <content>
+                                <p>Suomen ulkopuolella tehdyllä rikoksella aiheutetusta henkilövahingosta ja kärsimyksestä voidaan harkinnan mukaan suorittaa korvausta muissakin kuin 1 momentissa tarkoitetuissa tapauksissa, jos korvauksen suorittamista on pidettävä perusteltuna ottaen erityisesti huomioon rikoksen läheinen yhteys Suomeen, rikoksentekijän ja rikoksen uhrin välisen suhteen läheisyys, vahingon laatu sekä vahinkoa kärsineen mahdollisuus saada korvausta muualta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 luku</num>
+                    <heading>Korvattava vahinko</heading>
+                    <crossHeading eId="chp_2__crossHeading">Henkilövahinko ja kärsimys</crossHeading>
+                    <section eId="chp_2__sec_4">
+                        <num>4 §</num>
+                        <heading>Henkilövahingon kärsineelle suoritettavat korvaukset</heading>
+                        <subsection eId="chp_2__sec_4__subsec_1">
+                            <intro eId="chp_2__sec_4__subsec_1__intro">
+                                <p>Henkilövahingon kärsineelle suoritetaan korvaus:</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_4__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>tarpeellisista sairaanhoitokustannuksista ja muista tarpeellisista kuluista;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_4__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>ansionmenetyksestä;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_4__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>kivusta ja särystä sekä muusta tilapäisestä haitasta;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_4__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>pysyvästä haitasta.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_2">
+                            <content>
+                                <p>Henkilövahingon kärsineelle suoritetaan lisäksi kohtuullinen korvaus henkilövahingon yhteydessä vahingoittuneista vaatteista ja muista henkilökohtaisista käyttöesineistä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_4__subsec_3">
+                            <content>
+                                <p>Sairaanhoitokustannuksina korvataan myös sairaanhoitoon välittömästi liittyvästä lääkinnällisestä kuntoutuksesta aiheutuvat kustannukset.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Korvauksen määrääminen henkilövahingosta </heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <content>
+                                <p>Korvaus ansionmenetyksestä määrätään vahingonkorvauslain (412/1974) 5 luvun 2 a ja 2 b §:ssä säädettyjen perusteiden mukaan. Korvaus on kuitenkin enintään 125 euroa päivältä vähennettynä korvaukseen oikeutetulle samalta ajalta tulevan ansiotulon määrällä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_2">
+                            <content>
+                                <p>Korvaus kivusta ja särystä sekä muusta tilapäisestä haitasta ja pysyvästä haitasta määrätään vahingonkorvauslain 5 luvun 2 c §:ssä säädettyjen perusteiden mukaan. Korvaus kivusta ja särystä sekä muusta tilapäisestä haitasta on kuitenkin enintään 10 000 euroa vähennettynä 19 §:ssä tarkoitetun muualta tulevan korvauksen määrällä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Henkilövahingon kärsineen läheiselle suoritettavat korvaukset</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>Henkilövahingon kärsineen läheiselle korvataan tarpeelliset kulut ja ansionmenetys vahingonkorvauslain 5 luvun 2 d §:ssä säädettyjen perusteiden mukaan. Korvaus ansionmenetyksestä on kuitenkin enintään 125 euroa päivältä vähennettynä korvaukseen oikeutetulle samalta ajalta tulevan ansiotulon määrällä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_7">
+                        <num>7 §</num>
+                        <heading>Työnantajalle suoritettava korvaus</heading>
+                        <subsection eId="chp_2__sec_7__subsec_1">
+                            <content>
+                                <p>Työnantajalle korvataan palkka tai sitä vastaava korvaus, jonka työnantaja on maksanut henkilövahingon kärsineelle työkyvyttömyysajalta. Korvaus on kuitenkin enintään 125 euroa päivältä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_7__subsec_2">
+                            <content>
+                                <p>Jos henkilövahinko on aiheutettu rikoksella, josta syyttäjä saa nostaa syytteen ainoastaan asianomistajan vaatimuksesta, korvauksen suorittaminen työnantajalle edellyttää, että asianomistaja on ilmoittanut esitutkintaviranomaiselle tai syyttäjälle vaativansa rikokseen syyllistyneelle rangaistusta tai muutoin pyytänyt esitutkinnan toimittamista.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_8">
+                        <num>8 §</num>
+                        <heading>Kuolemantapauksen johdosta suoritettavat korvaukset</heading>
+                        <subsection eId="chp_2__sec_8__subsec_1">
+                            <content>
+                                <p>Hautaamisesta aiheutuneet ja siihen liittyvät kustannukset korvataan vahingonkorvauslain 5 luvun 3 §:ssä säädettyjen perusteiden mukaan.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_8__subsec_2">
+                            <content>
+                                <p>Elatuksen menetyksestä suoritetaan korvausta vahingonkorvauslain 5 luvun 4 §:ssä säädettyjen perusteiden mukaan.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_8__subsec_3">
+                            <content>
+                                <p>Surmansa saaneen läheiselle kuolemantapauksen seurauksena aiheutuneesta henkilövahingosta johtuvat tarpeelliset sairaanhoitokustannukset ja muut tarpeelliset kulut sekä ansionmenetys korvataan vahingonkorvauslain 5 luvun 4 b §:ssä säädetyin edellytyksin. Sairaanhoitokustannuksina korvataan myös sairaanhoitoon välittömästi liittyvästä lääkinnällisestä kuntoutuksesta aiheutuvat kustannukset. Korvaus ansionmenetyksestä on enintään 125 euroa päivältä vähennettynä korvaukseen oikeutetulle samalta ajalta tulevalla ansiotulolla. Tämän momentin nojalla läheiselle suoritetaan korvausta yhteensä enintään 5 000 euroa vähennettynä 19 §:ssä tarkoitetun muualta tulevan korvauksen määrällä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_9">
+                        <num>9 §</num>
+                        <heading>Kärsimyksen korvaaminen</heading>
+                        <subsection eId="chp_2__sec_9__subsec_1">
+                            <intro eId="chp_2__sec_9__subsec_1__intro">
+                                <p>Loukkauksen aiheuttamasta kärsimyksestä suoritetaan korvaus sille:</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_9__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>jonka seksuaalista itsemääräämisoikeutta on rikoksella loukattu tai jonka vapautta muuten on rikoksella loukattu;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_9__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>jonka henkilökohtaista koskemattomuutta on erityisen vakavasti loukattu tapon, murhan tai surman yrityksellä, törkeällä pahoinpitelyllä tai sen yrityksellä taikka muulla näihin rinnastettavalla rikoksella.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_2__sec_9__subsec_2">
+                            <content>
+                                <p>Korvaus kärsimyksestä määrätään vahingonkorvauslain 5 luvun 6 §:n 2 momentissa säädettyjen perusteiden mukaan. Korvaus on kuitenkin enintään 3 000 euroa vähennettynä 19 §:ssä tarkoitetun muualta tulevan korvauksen määrällä. Seksuaalirikoksen uhrille voidaan kuitenkin suorittaa korvausta enintään 8 000 euroa vastaavasti vähennettynä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_10">
+                        <num>10 §</num>
+                        <heading>Korvauksen enimmäismäärä</heading>
+                        <subsection eId="chp_2__sec_10__subsec_1">
+                            <content>
+                                <p>Vahinkoa kärsineelle suoritetaan saman vahinkotapahtuman perusteella korvauksia henkilövahingosta ja kärsimyksestä yhteensä enintään 51 000 euroa vähennettynä 19 §:ssä tarkoitettujen muualta tulevien korvausten yhteismäärällä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_10__subsec_2">
+                            <content>
+                                <p>Edellä 1 momentissa mainittuun enimmäismäärään ei sisällytetä ansionmenetyksestä tai elatuksen menetyksestä toistuvina suorituksina maksettavia korvauksia.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_11">
+                        <num>11 §</num>
+                        <heading>Korvauksen suorittamistapa</heading>
+                        <subsection eId="chp_2__sec_11__subsec_1">
+                            <content>
+                                <p>Henkilövahingon perusteella suoritettava korvaus vastaisuudessa aiheutuvasta ansionmenetyksestä tai elatuksen menetyksestä maksetaan toistuvina suorituksina. Korvaus voidaan kuitenkin maksaa kertasuorituksena, jos se on korvauksen määrä huomioon ottaen tarkoituksenmukaista.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_11__subsec_2">
+                            <content>
+                                <p>Kivusta ja särystä sekä muusta tilapäisestä haitasta tai pysyvästä haitasta maksetaan kertakorvaus. Korvaus pysyvästä haitasta voidaan kuitenkin maksaa kokonaan tai osittain toistuvina suorituksina, jos se on aiheellista ottaen huomioon vahinkoa kärsineen olosuhteet ja korvauksen määrä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_11__subsec_3">
+                            <content>
+                                <p>Kärsimyksestä maksetaan kertakorvaus.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_12">
+                        <num>12 §</num>
+                        <heading>Korvauksen muuttaminen</heading>
+                        <subsection eId="chp_2__sec_12__subsec_1">
+                            <content>
+                                <p>Jos 4, 6 tai 7 §:n taikka 8 §:n 2 tai 3 momentin perusteella suoritettavan korvauksen määräämisen perusteena olleet olosuhteet ovat olennaisesti muuttuneet korvauksen määräämisen jälkeen, korvauksen määrää tai sen suorittamistapaa voidaan muuttaa. Kertakorvausta ei kuitenkaan voida tämän pykälän nojalla alentaa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_12__subsec_2">
+                            <content>
+                                <p>Toistuvina suorituksina maksettavaa korvausta koskeva muutos voidaan erityisestä syystä määrätä tulemaan voimaan takautuvasti. Korvausta voidaan kuitenkin korottaa aikaisintaan korvauksen korottamista koskevan hakemuksen vireille tulosta lukien tai, jos asiaa on sitä ennen käsitelty tuomioistuimessa, korvauksen korottamista koskevan kanteen vireille tulosta lukien. Korvausta voidaan alentaa tai sen suorittaminen lopettaa aikaisintaan siitä lukien, kun korvauksen saaja on ollut velvollinen tekemään 46 §:ssä tarkoitetun ilmoituksen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <crossHeading eId="chp_2__crossHeading_2">Esinevahinko ja taloudellinen vahinko</crossHeading>
+                    <section eId="chp_2__sec_13">
+                        <num>13 §</num>
+                        <heading>Laitokseen sijoitetun aiheuttama esinevahinko</heading>
+                        <subsection eId="chp_2__sec_13__subsec_1">
+                            <intro eId="chp_2__sec_13__subsec_1__intro">
+                                <p>Tämän lain nojalla korvataan esinevahinko, jonka on aiheuttanut:</p>
+                            </intro>
+                            <paragraph eId="chp_2__sec_13__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>vanki, pidätetty, viranomaisen huostassa oleva kiinniotettu tai muuten rikoksen johdosta vapautensa menettänyt henkilö;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_13__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>mielisairauden tai muun mielenterveydenhäiriön, mielentilatutkimuksen, tartuntataudin, kehitysvammaisuuden, päihteiden käytön, päihtymyksen taikka muun näihin verrattavan syyn vuoksi tahdostaan riippumatta laitokseen sijoitettu tai säilöön otettu henkilö;</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_13__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>ulkomaalaislain (301/2004) 121 §:n nojalla säilöön otettu henkilö; taikka</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_2__sec_13__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>lastensuojelulain (683/1983) nojalla huostaanotettu ja laitoshuoltoon sijoitettu lapsi.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_2__sec_13__subsec_2">
+                            <content>
+                                <p>Korvauksen saaminen edellyttää lisäksi, että 1 momentissa tarkoitettu henkilö on aiheuttanut vahingon ollessaan vankilassa tai muussa laitoksessa, ollessaan sijoitettuna laitoksen ulkopuolella tai lomalla taikka karattuaan laitoksesta tai viranomaisen huostasta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_14">
+                        <num>14 §</num>
+                        <heading>Yhdyskuntapalveluun tai nuorisorangaistukseen tuomitun aiheuttama esinevahinko</heading>
+                        <subsection eId="chp_2__sec_14__subsec_1">
+                            <content>
+                                <p>Tämän lain nojalla korvataan esinevahinko, jonka yhdyskuntapalveluun tai nuorisorangaistukseen tuomittu on aiheuttanut palvelupaikan tai työelämään ja työn tekemiseen liittyvän perehtymispaikan järjestäjälle taikka sivulliselle suorittaessaan yhdyskuntapalveluun tai nuorisorangaistukseen kuuluvaa työtä tai tehtävää.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_14__subsec_2">
+                            <content>
+                                <p>Palvelu- tai perehtymispaikan järjestäjälle korvataan myös se, mitä tämä on joutunut maksamaan sivulliselle vahingonkorvauslain 3 luvun 1 §:n 3 momentin perusteella korvaukseksi vahingosta, jonka yhdyskuntapalveluun tai nuorisorangaistukseen tuomittu on aiheuttanut suorittaessaan yhdyskuntapalveluun tai nuorisorangaistukseen kuuluvaa työtä tai tehtävää.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_15">
+                        <num>15 §</num>
+                        <heading>Korvausvastuun jakaminen</heading>
+                        <subsection eId="chp_2__sec_15__subsec_1">
+                            <content>
+                                <p>Jos esinevahingon aiheuttaneeseen tekoon on osallistunut muukin kuin 13 tai 14 §:ssä tarkoitettu henkilö, tämän lain nojalla suoritettava korvaus lasketaan jakamalla korvattava vahinko tasan vahingon aiheuttajien kesken, jollei vahingon aiheuttajien syyllisyyden tai muiden seikkojen perusteella ole aihetta jakaa korvausta muulla tavoin.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_16">
+                        <num>16 §</num>
+                        <heading>Esinevahingon ja taloudellisen vahingon harkinnanvarainen korvaaminen</heading>
+                        <subsection eId="chp_2__sec_16__subsec_1">
+                            <content>
+                                <p>Sen lisäksi, mitä 13 ja 14 §:ssä säädetään, esinevahinko voidaan harkinnan mukaan korvata kokonaan tai osaksi, jos vahinko on määrältään huomattava ja jos sen syntymiseen on vaikuttanut vahinkoa kärsineen iästä, sairaudesta, vammasta tai muusta sellaisesta syystä johtunut avuttomuus. Harkinnassa on otettava huomioon vahinkoa kärsineen taloudelliset ja muut olosuhteet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_16__subsec_2">
+                            <content>
+                                <p>Korvausta voidaan 1 momentissa säädetyin edellytyksin suorittaa myös sellaisesta taloudellisesta vahingosta, joka ei ole yhteydessä henkilö- tai esinevahinkoon.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_17">
+                        <num>17 §</num>
+                        <heading>Korvauksen enimmäismäärä</heading>
+                        <subsection eId="chp_2__sec_17__subsec_1">
+                            <content>
+                                <p>Vahinkoa kärsineelle suoritetaan saman vahinkotapahtuman perusteella korvauksia esinevahingosta ja taloudellisesta vahingosta yhteensä enintään 25 500 euroa vähennettynä 19 §:ssä tarkoitettujen muualta tulevien korvausten yhteismäärällä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <crossHeading eId="chp_2__crossHeading_3">Oikeudenkäyntikulut</crossHeading>
+                    <section eId="chp_2__sec_18">
+                        <num>18 §</num>
+                        <heading>Oikeudenkäyntikulujen korvaaminen</heading>
+                        <subsection eId="chp_2__sec_18__subsec_1">
+                            <content>
+                                <p>Jos asiaa on käsitelty tuomioistuimessa, korvataan sille, jolle on aiheutunut tämän lain nojalla korvattavaa vahinkoa, siltä osin kuin harkitaan kohtuulliseksi, kulut tarpeellisista toimenpiteistä, joihin hän on ryhtynyt saadakseen oikeutensa vahingonkorvaukseen vahvistetuksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 luku</num>
+                    <heading>Yhteiset säännökset korvauksen määräämisestä</heading>
+                    <section eId="chp_3__sec_19">
+                        <num>19 §</num>
+                        <heading>Korvauksen toissijaisuus</heading>
+                        <subsection eId="chp_3__sec_19__subsec_1">
+                            <content>
+                                <p>Tämän lain nojalla suoritettavasta korvauksesta vähennetään korvaus, jonka hakija on saman vahingon johdosta saanut tai ilmeisesti on oikeutettu saamaan muun lain tai vapaaehtoisen vakuutuksen perusteella, jollei 2 tai 3 momentista muuta johdu. Sama koskee korvausta, jonka hakija on saanut tai kohtuudella saatavissa olevan selvityksen mukaan on oikeutettu saamaan vieraan valtion lain perusteella.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_19__subsec_2">
+                            <content>
+                                <p>Rikoksentekijältä tai vahingonkorvauslain 3 luvun 1 §:n 1 tai 3 momentin mukaan korvausvelvolliselta tuleva vahingonkorvaus vähennetään vain siltä osin kuin sitä on suoritettu. Sama koskee vastapuolelta tulevaa korvausta oikeudenkäyntikuluista.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_19__subsec_3">
+                            <content>
+                                <p>Vakuutuksen perusteella suoritettavaa kuolemantapaussummaa ei vähennetä tämän lain nojalla suoritettavasta korvauksesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_20">
+                        <num>20 §</num>
+                        <heading>Perusvähennys</heading>
+                        <subsection eId="chp_3__sec_20__subsec_1">
+                            <content>
+                                <p>Vahinkoa kärsineelle saman vahinkotapahtuman perusteella suoritettavien korvausten yhteismäärästä tehdään perusvähennys, jonka määrä on 150 euroa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_21">
+                        <num>21 §</num>
+                        <heading>Korko</heading>
+                        <subsection eId="chp_3__sec_21__subsec_1">
+                            <content>
+                                <p>Korvaukselle ei makseta korkoa.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_22">
+                        <num>22 §</num>
+                        <heading>Korvauksen sovittelu</heading>
+                        <subsection eId="chp_3__sec_22__subsec_1">
+                            <content>
+                                <p>Jos vahinkoa kärsineen puolelta on myötävaikutettu vahinkoon tai jos muu vahingon aiheuttaneeseen tekoon kuulumaton seikka on myös ollut vahingon syynä, voidaan korvausta kohtuuden mukaan sovitella. Edellä 8 §:n 1 ja 2 momentissa tarkoitettuja korvauksia ei kuitenkaan voida sovitella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_23">
+                        <num>23 §</num>
+                        <heading>Rikosilmoitus ja tuomioistuinkäsittely</heading>
+                        <subsection eId="chp_3__sec_23__subsec_1">
+                            <content>
+                                <p>Jos vahinkoa kärsinyt ei ole ilmoittanut rikoksesta poliisille eikä poliisi ole saanut siitä muutenkaan tietää, korvausta suoritetaan vain erityisestä syystä. Korvauksen suorittamista ei kuitenkaan estä se, että asianomistaja ei ole vaatinut rikokseen syyllistyneelle rangaistusta tai että hän on peruuttanut rangaistusvaatimuksensa, jollei 7 §:n 2 momentista muuta johdu.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_23__subsec_2">
+                            <content>
+                                <p>Jos asiaa on käsitelty tuomioistuimessa, korvausta ei suoriteta vahinkoa kärsineelle, joka on laiminlyönyt, mitä hänen kohtuudella olisi pitänyt tehdä saadakseen oikeutensa vahingonkorvaukseen tuomiolla vahvistetuksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 luku</num>
+                    <heading>Korvausmenettely</heading>
+                    <section eId="chp_4__sec_24">
+                        <num>24 §</num>
+                        <heading>Korvausviranomainen</heading>
+                        <subsection eId="chp_4__sec_24__subsec_1">
+                            <content>
+                                <p>Korvauksen myöntää ja suorittaa Valtiokonttori.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_25">
+                        <num>25 §</num>
+                        <heading>Korvauksen hakeminen</heading>
+                        <subsection eId="chp_4__sec_25__subsec_1">
+                            <content>
+                                <p>Korvausta on haettava kirjallisesti kolmen vuoden kuluessa siitä, kun korvausasiassa annettiin lainvoimaiseksi tullut tuomio, tai, jos asiaa ei ole käsitelty tuomioistuimessa, kymmenen vuoden kuluessa rikoksen tekemisestä. Erityisestä syystä korvausta voidaan hakea myöhemminkin.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_25__subsec_2">
+                            <content>
+                                <p>Hakemus toimitetaan Valtiokonttorille. Hakemuksen voi jättää myös Kansaneläkelaitoksen paikallistoimistoon Valtiokonttorille edelleen toimitettavaksi.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_26">
+                        <num>26 §</num>
+                        <heading>Hakijan velvollisuus antaa selvityksiä</heading>
+                        <subsection eId="chp_4__sec_26__subsec_1">
+                            <content>
+                                <p>Korvaushakemukseen on liitettävä jäljennös korvausasiassa annetusta tuomiosta. Jos asiaa ei ole käsitelty tuomioistuimessa, hakemukseen on liitettävä jäljennös esitutkintapöytäkirjasta tai, jollei esitutkintapöytäkirjaa ole laadittu, muu luotettava selvitys vahinkotapahtumasta. Hakijan on lisäksi annettava Valtiokonttorille sellaiset muut asiakirjat ja tiedot, jotka ovat tarpeen korvausasian selvittämiseksi ja joita häneltä kohtuudella voidaan vaatia ottaen myös huomioon Valtiokonttorin mahdollisuudet hankkia selvitys.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_26__subsec_2">
+                            <content>
+                                <p>Jos hakija on saman vahingon johdosta saanut tai ilmeisesti on oikeutettu saamaan korvausta muualta, hänen on ilmoitettava siitä Valtiokonttorille.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_26__subsec_3">
+                            <content>
+                                <p>Työnantajan on liitettävä korvaushakemukseensa selvitys henkilövahingon kärsineen työkyvyttömyydestä ja työkyvyttömyysajalta maksamastaan palkasta sekä 1 momentissa tarkoitettu selvitys vahinkotapahtumasta, jollei selvityksen esittäminen ole henkilövahingon kärsineen tekemän korvaushakemuksen vuoksi tarpeetonta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_27">
+                        <num>27 §</num>
+                        <heading>Korvausasian ratkaisemisen edellytykset</heading>
+                        <subsection eId="chp_4__sec_27__subsec_1">
+                            <content>
+                                <p>Korvausasiaa ei voida ratkaista ennen kuin hakijan oikeus korvaukseen vahingosta vastuussa olevalta on ratkaistu ensimmäisessä oikeusasteessa tai syyte rikoksentekijää vastaan on päätetty jättää nostamatta. Korvausasia voidaan kuitenkin ratkaista, jos syytettä ei ole nostettu tai päätöstä syyttämättä jättämisestä ei ole tehty kuuden kuukauden kuluessa siitä, kun poliisi sai rikoksesta tiedon.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_27__subsec_2">
+                            <content>
+                                <p>Jos hakijan oikeus 19 §:n nojalla vähennettävään korvaukseen on perusteeltaan tai määrältään riitainen tai muusta syystä epäselvä, tämän lain mukaisen korvausasian ratkaisua voidaan lykätä, kunnes hakijan oikeus vähennettävään korvaukseen on lopullisesti ratkaistu. Tämä ei kuitenkaan koske rikoksentekijältä tai vahingonkorvauslain 3 luvun 1 §:n 1 tai 3 momentin mukaan korvausvelvolliselta tulevaa korvausta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_28">
+                        <num>28 §</num>
+                        <heading>Ennakkokorvaus</heading>
+                        <subsection eId="chp_4__sec_28__subsec_1">
+                            <content>
+                                <p>Hakijalle on vaatimuksesta suoritettava ennakkokorvausta, jos korvausasian ratkaisu Valtiokonttorissa viivästyy hakijasta riippumattomista syistä ja on ilmeistä, että hänellä on tämän lain nojalla oikeus määrältään merkittävään korvaukseen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_29">
+                        <num>29 §</num>
+                        <heading>Hakemuskulujen korvaaminen</heading>
+                        <subsection eId="chp_4__sec_29__subsec_1">
+                            <content>
+                                <p>Hakijalle, jolle on asian tuomioistuinkäsittelyä varten myönnetty oikeusapua tai määrätty oikeudenkäyntiavustaja oikeudenkäynnistä rikosasioissa annetun lain (689/1997) 2 luvun 1 a §:n nojalla, suoritetaan vaatimuksesta kohtuullinen korvaus tämän lain mukaisen korvauksen hakemisesta aiheutuneista kuluista. Samoin menetellään, jos asiaa ei ole käsitelty tuomioistuimessa, mutta hakija täyttää oikeusavun saamiselle säädetyt taloudelliset edellytykset.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_29__subsec_2">
+                            <content>
+                                <p>Kulujen korvaamista vaativan on osoitettava, että hänelle on 1 momentissa tarkoitetuin tavoin myönnetty oikeusapua tai määrätty oikeudenkäyntiavustaja. Jos asiaa ei ole käsitelty tuomioistuimessa, hakemukseen on liitettävä oikeusaputoimiston antama selvitys oikeusavun taloudellisista edellytyksistä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_30">
+                        <num>30 §</num>
+                        <heading>Tuomioistuimen ratkaisun vaikutus korvauspäätökseen</heading>
+                        <subsection eId="chp_4__sec_30__subsec_1">
+                            <content>
+                                <p>Jos korvausta koskevaa asiaa on käsitelty tuomioistuimessa, Valtiokonttorin on otettava päätöksensä perustaksi tuomioistuimen asiassa antama ratkaisu.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_30__subsec_2">
+                            <content>
+                                <p>Valtiokonttorin on poiketessaan korvauksen hakijan vahingoksi tuomioistuimen korvausasiassa antamasta ratkaisusta päätöksessään ilmoitettava poikkeamisen perusteet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_5">
+                    <num>5 luku</num>
+                    <heading>Valtion takautumisoikeus</heading>
+                    <section eId="chp_5__sec_31">
+                        <num>31 §</num>
+                        <heading>Valtion takautumisoikeus</heading>
+                        <subsection eId="chp_5__sec_31__subsec_1">
+                            <content>
+                                <p>Hakijan oikeus korvaukseen vahingosta vastuussa olevalta siirtyy valtiolle sinä päivänä, jolloin Valtiokonttori on päättänyt maksaa korvausta, ja enintään siltä osin kuin korvausta on päätetty maksaa.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_31__subsec_2">
+                            <content>
+                                <p>Jos vahingosta vastuussa oleva on 1 momentissa mainitun ajankohdan jälkeen maksanut hakijalle korvausta, jonka saamiseen tällä ei enää ollut oikeutta Valtiokonttorin korvauspäätöksen vuoksi, valtiolla on maksua vastaavalta osalta takautumisoikeus vain, jos vahingosta vastuussa oleva tiesi tai hänen olisi pitänyt tietää, ettei hakija enää ollut oikeutettu saamaan maksua.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_32">
+                        <num>32 §</num>
+                        <heading>Takautumisoikeuteen perustuvan saamisen perintä</heading>
+                        <subsection eId="chp_5__sec_32__subsec_1">
+                            <content>
+                                <p>Valtion takautumisoikeuteen perustuva saaminen peritään sakon täytäntöönpanosta annetun lain (672/2002) mukaisesti. Perintään ei voida ryhtyä ennen kuin tuomio, jolla vahingosta vastuussa oleva on velvoitettu suorittamaan korvausta, on saanut lainvoiman. Vapautuksen tai helpotuksen myöntämisestä valtion takautumisoikeuteen perustuvan saamisen suorittamisesta on lisäksi voimassa, mitä maksuvapautuslaissa (529/1980) säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_6">
+                    <num>6 luku</num>
+                    <heading>Yhteistyö toisen Euroopan unionin jäsenvaltion viranomaisen kanssa</heading>
+                    <section eId="chp_6__sec_33">
+                        <num>33 §</num>
+                        <heading>Hakemuksen jättäminen</heading>
+                        <subsection eId="chp_6__sec_33__subsec_1">
+                            <content>
+                                <p>Hakija, jolla on asuinpaikka Suomessa, voi jättää Valtiokonttoriin hakemuksen, joka koskee toisessa Euroopan unionin jäsenvaltiossa tehdyllä tahallisella väkivaltarikoksella aiheutetun vahingon korvaamista kyseisen valtion rikosvahinkojen korvausjärjestelmästä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_34">
+                        <num>34 §</num>
+                        <heading>Virka-apu toisen jäsenvaltion korvausviranomaiselle</heading>
+                        <subsection eId="chp_6__sec_34__subsec_1">
+                            <intro eId="chp_6__sec_34__subsec_1__intro">
+                                <p>Valtiokonttorin on toisen jäsenvaltion korvausviranomaisen pyynnöstä:</p>
+                            </intro>
+                            <paragraph eId="chp_6__sec_34__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>järjestettävä korvausviranomaiselle tilaisuus kuulla Suomessa olevaa korvauksen hakijaa, todistajaa, asiantuntijaa tai muuta henkilöä käyttäen puhelinta tai videoneuvottelua tai muulla tavalla; taikka</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_6__sec_34__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>kuultava henkilökohtaisesti 1 kohdassa mainittua henkilöä ja toimitettava kuulemisesta laadittu selvitys korvausviranomaiselle.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_6__sec_34__subsec_2">
+                            <content>
+                                <p>Edellä 1 momentin 1 kohdassa tarkoitettu kuuleminen voidaan järjestää vain kuultavan suostumuksella.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_34__subsec_3">
+                            <content>
+                                <p>Edellä 1 momentin 2 kohdassa tarkoitettu kuuleminen toimitetaan noudattaen soveltuvin osin, mitä hallintolain (434/2003) 37 ja 40 §:ssä säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_35">
+                        <num>35 §</num>
+                        <heading>Asiakirjojen kieli</heading>
+                        <subsection eId="chp_6__sec_35__subsec_1">
+                            <content>
+                                <p>Toisen jäsenvaltion viranomainen voi toimittaa Suomessa tehdyllä tahallisella väkivaltarikoksella aiheutetun vahingon korvaamista koskevan hakemuksen liiteasiakirjoineen Valtiokonttorille suomen, ruotsin tai englannin kielellä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_36">
+                        <num>36 §</num>
+                        <heading>Kustannukset ja käännökset</heading>
+                        <subsection eId="chp_6__sec_36__subsec_1">
+                            <content>
+                                <p>Tässä luvussa tarkoitetussa asiassa ei peritä maksua tai korvausta hakijalta eikä toisen jäsenvaltion viranomaiselta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_36__subsec_2">
+                            <content>
+                                <p>Tarvittaessa Valtiokonttori huolehtii omalla kustannuksellaan 33 §:ssä tarkoitetun hakemuksen ja siihen liittyvien asiakirjojen kääntämisestä sellaiselle Euroopan yhteisön toimielinten kielelle, joka on rikoksen tekopaikkavaltion virallinen kieli tai jonka käyttämisen hakemuksissa tekopaikkavaltio on ilmoittanut hyväksyvänsä.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_6__sec_37">
+                        <num>37 §</num>
+                        <heading>Tarkemmat säännökset</heading>
+                        <subsection eId="chp_6__sec_37__subsec_1">
+                            <content>
+                                <p>Tarkemmat säännökset 33 §:ssä tarkoitetun hakemuksen tekemistä varten annettavasta neuvonnasta, Valtiokonttorin ja toisen jäsenvaltion viranomaisen välisessä yhteistyössä käytettävästä kielestä sekä muutoin yhteistyön järjestämisestä annetaan valtioneuvoston asetuksella.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_7">
+                    <num>7 luku</num>
+                    <heading>Muutoksenhaku ja takaisinperintä</heading>
+                    <section eId="chp_7__sec_38">
+                        <num>38 §</num>
+                        <heading>Muutoksenhaku</heading>
+                        <subsection eId="chp_7__sec_38__subsec_1">
+                            <content>
+                                <p>Valtiokonttorin tämän lain nojalla antamaan päätökseen haetaan muutosta valittamalla vakuutusoikeuteen 30 päivän kuluessa päätöksen tiedoksisaannista. Ennakkokorvausta koskevaan päätökseen ei kuitenkaan saa hakea muutosta valittamalla.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_38__subsec_2">
+                            <content>
+                                <p>Valtiokonttori voi antaa päätöksensä tiedoksi korvauksen hakijalle postittamalla sen hakijan ilmoittamaan osoitteeseen. Hakijan katsotaan saaneen päätöksestä tiedon seitsemäntenä päivänä kirjeen lähettämisestä, jollei muuta näytetä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_38__subsec_3">
+                            <content>
+                                <p>Jos valitus on saapunut 1 momentissa säädetyn määräajan jälkeen, vakuutusoikeus voi tästä huolimatta ottaa valituksen tutkittavakseen, jos myöhästymiseen on ollut painavia syitä.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_38__subsec_4">
+                            <content>
+                                <p>Vakuutusoikeuden päätökseen ei saa hakea muutosta valittamalla.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_39">
+                        <num>39 §</num>
+                        <heading>Ylimääräinen muutoksenhaku</heading>
+                        <subsection eId="chp_7__sec_39__subsec_1">
+                            <content>
+                                <p>Jos Valtiokonttorin tai vakuutusoikeuden tämän lain nojalla antama lainvoimainen päätös perustuu virheelliseen tai puutteelliseen selvitykseen tai jos on ilmeistä, että päätös on lain vastainen, vakuutusoikeus voi Valtiokonttorin esityksestä tai asianosaisen hakemuksesta poistaa päätöksen ja ottaa tai määrätä Valtiokonttorin ottamaan asian uudelleen käsiteltäväksi. Tehtyään edellä mainitun esityksen Valtiokonttori voi väliaikaisesti keskeyttää korvauksen maksamisen tai maksaa sen esityksensä mukaisesti, kunnes asia on uudelleen ratkaistu.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_39__subsec_2">
+                            <content>
+                                <p>Ylimääräisestä muutoksenhausta on lisäksi voimassa, mitä oikeudenkäymiskaaren 31 luvussa säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_40">
+                        <num>40 §</num>
+                        <heading>Uudelleen käsittely uuden selvityksen perusteella</heading>
+                        <subsection eId="chp_7__sec_40__subsec_1">
+                            <content>
+                                <p>Jos asiassa, jossa on kysymys evätyn korvauksen myöntämisestä tai myönnetyn korvauksen lisäämisestä, ilmenee uutta selvitystä, Valtiokonttorin on tutkittava asia uudelleen. Valtiokonttori voi aikaisemman lainvoimaisen päätöksen estämättä myöntää evätyn korvauksen tai myöntää korvauksen aikaisempaa suurempana. Myös vakuutusoikeus voi muutoksenhakuasiaa käsitellessään menetellä vastaavasti.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_41">
+                        <num>41 §</num>
+                        <heading>Päätöksessä olevan virheen korjaaminen</heading>
+                        <subsection eId="chp_7__sec_41__subsec_1">
+                            <content>
+                                <p>Valtiokonttorin päätöksessä olevan asiavirheen ja kirjoitusvirheen korjaamiseen sovelletaan, mitä hallintolain 50―53 §:ssä säädetään.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_42">
+                        <num>42 §</num>
+                        <heading>Korvauksen takaisinperintä</heading>
+                        <subsection eId="chp_7__sec_42__subsec_1">
+                            <content>
+                                <p>Jos korvausta on maksettu aiheettomasti, Valtiokonttorin on korvauksen saajaa kuultuaan velvoitettava tämä maksamaan aiheettomasti maksettu korvaus takaisin.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_42__subsec_2">
+                            <content>
+                                <p>Jos valtiolla ei 31 §:n 2 momentin nojalla ole maksamansa korvauksen osalta takautumisoikeutta, Oikeusrekisterikeskuksen on korvauksen saajaa kuultuaan velvoitettava tämä maksamaan mainitussa lainkohdassa tarkoitettua maksua vastaava osuus korvauksesta takaisin.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_42__subsec_3">
+                            <content>
+                                <p>Takaisinperinnästä voidaan osaksi tai kokonaan luopua, jos tämä katsotaan kohtuulliseksi ja korvauksen maksamisen ei ole katsottava johtuneen hakijan tai hänen edustajansa vilpillisestä menettelystä tai jos takaisin perittävä määrä on vähäinen.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_42__subsec_4">
+                            <content>
+                                <p>Päätös takaisinperinnästä on tehtävä kolmen vuoden kuluessa korvauksen maksamisesta. Päätös voidaan tehdä myöhemminkin, jos hakijan tai hänen edustajansa havaitaan toimineen asiassa vilpillisesti.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_7__sec_43">
+                        <num>43 §</num>
+                        <heading>Takaisinperintää koskevan päätöksen täytäntöönpano</heading>
+                        <subsection eId="chp_7__sec_43__subsec_1">
+                            <content>
+                                <p>Takaisinperintää koskeva Valtiokonttorin lainvoimainen päätös pannaan täytäntöön niin kuin lainvoimainen tuomio.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_43__subsec_2">
+                            <content>
+                                <p>Takaisinperintää koskeva Oikeusrekisterikeskuksen lainvoimainen päätös pannaan täytäntöön sakon täytäntöönpanosta annetun lain mukaisesti.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_7__sec_43__subsec_3">
+                            <content>
+                                <p>Aiheettomasti maksettu korvaus saadaan periä takaisin myös siten, että se vähennetään vastaisista korvaussuorituksista. Vähennystä ei kuitenkaan saa tehdä korvauksesta, joka suoritetaan kivusta ja särystä sekä muusta tilapäisestä haitasta, pysyvästä haitasta, kärsimyksestä taikka sairaanhoitokustannuksista, hautauskustannuksista tai muista henkilövahingosta aiheutuneista kuluista. Kulloinkin suoritettavasta korvauserästä ei saa ilman korvauksen saajan suostumusta vähentää enempää kuin kuudesosan siitä korvauserän osasta, joka jää jäljelle sen jälkeen, kun korvauserästä on pidätetty ennakko ennakkoperintälain (1118/1996) nojalla tai lähdevero rajoitetusti verovelvollisen tulon verottamisesta annetun lain (627/1978) nojalla.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_8">
+                    <num>8 luku</num>
+                    <heading>Erinäiset säännökset</heading>
+                    <section eId="chp_8__sec_44">
+                        <num>44 §</num>
+                        <heading>Siirtokielto</heading>
+                        <subsection eId="chp_8__sec_44__subsec_1">
+                            <content>
+                                <p>Sopimus, joka tarkoittaa tähän lakiin perustuvan oikeuden siirtämistä toiselle tai sen panttaamista, on mitätön.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_8__sec_45">
+                        <num>45 §</num>
+                        <heading>Korvauksen suorittaminen vajaavaltaiselle</heading>
+                        <subsection eId="chp_8__sec_45__subsec_1">
+                            <content>
+                                <p>Vajaavaltaiselle tuleva korvaus suoritetaan hänen edunvalvojalleen. Korvaus voidaan kuitenkin suorittaa vajaavaltaiselle itselleen, jos korvaus koskee hänen hallinnassaan ollutta omaisuutta tai hänellä muutoin on oikeus määrätä korvauksesta.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_8__sec_45__subsec_2">
+                            <content>
+                                <p>Valtiokonttorin on ilmoitettava vajaavaltaisen kotikunnan holhousviranomaiselle vajaavaltaiselle tulevasta vähäistä suuremmasta korvauksesta.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_8__sec_46">
+                        <num>46 §</num>
+                        <heading>Ilmoitusvelvollisuus</heading>
+                        <subsection eId="chp_8__sec_46__subsec_1">
+                            <content>
+                                <p>Jos korvauksen saajan olosuhteissa tapahtuu sellainen muutos, joka voi aiheuttaa korvauksen alentamisen tai sen suorittamisen lopettamisen, hänen on viipymättä ilmoitettava siitä Valtiokonttorille.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_8__sec_47">
+                        <num>47 §</num>
+                        <heading>Valtiokonttorin oikeus saada tietoja</heading>
+                        <subsection eId="chp_8__sec_47__subsec_1">
+                            <intro eId="chp_8__sec_47__subsec_1__intro">
+                                <p>Valtiokonttorilla on salassapitosäännösten ja -määräysten estämättä oikeus pyynnöstä saada maksutta:</p>
+                            </intro>
+                            <paragraph eId="chp_8__sec_47__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>tuomioistuimelta sen hallussa olevat korvausasian selvittämiseksi välttämättömät asiakirjat; sekä</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_8__sec_47__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>poliisi-, kriminaalihuolto-, vankeinhoito- sekä sosiaali- ja terveydenhuollon viranomaisilta ja laitoksilta, säilöön otettujen ulkomaalaisten kohtelusta ja säilöönottoyksiköstä annetussa laissa (116/2002) tarkoitetulta säilöönottoyksiköltä, Eläketurvakeskukselta, eläke- ja vakuutuslaitoksilta sekä korvauksen hakijan työnantajalta, työttömyyskassalta tai muulta etuuden myöntäjältä korvausasian selvittämiseksi välttämättömät tiedot.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_8__sec_48">
+                        <num>48 §</num>
+                        <heading>Rahamäärien tarkistaminen</heading>
+                        <subsection eId="chp_8__sec_48__subsec_1">
+                            <content>
+                                <p>Edellä 5―10, 17 ja 20 §:ssä mainitut rahamäärät tarkistetaan valtioneuvoston asetuksella kolmivuotiskausittain rahan arvon muutosta vastaavasti.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <section eId="sec_49">
+                    <num>49 §</num>
+                    <heading>Voimaantulo</heading>
+                    <subsection eId="sec_49__subsec_1">
+                        <content>
+                            <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2006. Sen 9 §:n 1 momentin 2 kohta tulee kuitenkin voimaan vasta 1 päivänä tammikuuta 2008.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_49__subsec_2">
+                        <content>
+                            <p>
+                                Tällä lailla kumotaan 21 päivänä joulukuuta 1973 annettu rikosvahinkolaki (935/1973), jäljempänä 
+                                <i>aikaisempi laki</i>, siihen myöhemmin tehtyine muutoksineen.
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_50">
+                    <num>50 §</num>
+                    <heading>Siirtymäsäännökset</heading>
+                    <subsection eId="sec_50__subsec_1">
+                        <content>
+                            <p>Ennen lain voimaantuloa tehdyllä rikoksella aiheutetun vahingon korvaamiseen sovelletaan aikaisempaa lakia ja sen nojalla annettuja säännöksiä, jollei 2―6 momentista muuta johdu.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_50__subsec_2">
+                        <content>
+                            <p>Lain 12 §:n 1 momenttia sovelletaan myös kertakorvaukseen, joka perustuu ennen lain voimaantuloa tehdyllä rikoksella aiheutettuun vahinkoon. Ennen lain voimaantuloa tehdyllä rikoksella aiheutetun vahingon perusteella toistuvina suorituksina maksettavan korvauksen muuttamiseen sovelletaan aikaisemman lain 22 §:n 1 momenttia.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_50__subsec_3">
+                        <content>
+                            <p>Lain 4 lukua sekä 47 §:ää sovelletaan korvausasiassa, joka on tullut vireille lain voimaantulon jälkeen. Jos määräaika hakea korvausta ennen lain voimaantuloa tehdyllä rikoksella aiheutetusta vahingosta on aikaisemman lain 15 §:n mukaan pidempi kuin tämän lain 25 §:n 1 momentin mukaan, noudatetaan kuitenkin aikaisempaa lakia.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_50__subsec_4">
+                        <content>
+                            <p>Lain 5 ja 7 lukua sovelletaan päätökseen, joka on annettu lain voimaantulon jälkeen.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_50__subsec_5">
+                        <content>
+                            <p>Lain 6 lukua sovelletaan, jos korvausta haetaan 1 päivänä heinäkuuta 2005 tai sen jälkeen tehdyllä rikoksella aiheutetusta vahingosta.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_50__subsec_6">
+                        <content>
+                            <p>Lain voimaantulon jälkeen ei sovelleta, mitä rikosvahinkoasetuksen (63/1999) 8 §:ssä säädetään lausunnon pyytämisestä rikosvahinkolautakunnalta.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_50__subsec_7">
+                        <content>
+                            <p>Muussa lainsäädännössä olevalla viittauksella aikaisempaan lakiin tarkoitetaan lain tultua voimaan viittausta tähän lakiin.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/192">HE 192/2005</ref>
+                        </p>
+                        <p>LaVM 16/2005</p>
+                        <p>EV 186/2005</p>
+                        <p>Neuvoston direktiivi 2004/80/EY (32004L0080); EYVL N:o L 261, 6.8.2004, s. 15</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 29 päivänä joulukuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

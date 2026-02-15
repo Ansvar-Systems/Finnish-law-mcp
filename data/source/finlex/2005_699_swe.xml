@@ -1,0 +1,169 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/699/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/699"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/699/alkup"/>
+                    <FRBRdate date="2005-09-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="699"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/699/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/699/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/699/alkup/swe"/>
+                    <FRBRdate date="2005-09-02" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/699/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/699/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/699/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="120"/>
+                    <finlex:date date="2005-09-09"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>699/2005</docNumber>
+                <docTitle>Lag om ändring av 7 och 12 § i lagen om förvaltningsdomstolarna</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 26 mars 1999 om förvaltningsdomstolarna (
+                        <affectedDocument href="/akn/fi/act/statute/1999/430">430/1999</affectedDocument>
+                        ) 7 § 1 mom. och 12 § 3 mom., av dem 7 § 1 mom. sådant det lyder delvis ändrat i lag 1424/2001, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 12 §, sådan den lyder delvis ändrad i lag 106/2000, ett nytt 2 mom., varvid det nuvarande 2 mom. och det ändrade 3 mom. blir 3 och 4 mom., som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>7 §</num>
+                    <heading>Sakkunnigledamöter</heading>
+                    <subsection>
+                        <intro>
+                            <p>I förvaltningsdomstolen deltar en sakkunnigledamot i behandlingen och avgörandet av</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>ärenden enligt barnskyddslagen (683/1983) som gäller omhändertagande av barn, placering i vård utom hemmet, upphörande av omhändertagande eller begränsning av kontakterna,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>ärenden enligt lagen angående specialomsorger om utvecklingsstörda (519/1977) som gäller meddelande av specialomsorger och fortsatta specialomsorger mot den berördas egen vilja,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>ärenden som gäller beslut om att någon enligt mentalvårdslagen (1116/1990) skall tas in för vård eller hållas kvar för fortsatt vård oberoende av sin vilja, om att hans eller hennes egendom skall omhändertas eller om att kontakterna skall begränsas,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>ärenden som gäller beslut enligt vilket någon i enlighet med 11 eller 12 § i lagen om missbrukarvård (41/1986) oberoende av sin vilja skall intas för vård samt frågor som avses i 13 § i nämnda lag, samt</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>ärenden som avses i lagen om smittsamma sjukdomar (583/1986).</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>12 §</num>
+                    <heading>Domförhet</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Vid behandlingen av ärenden som avses i 7 § ingår minst två lagfarna ledamöter och en sakkunnigledamot i sammansättningen. Förvaltningsdomstolen kan dock avgöra ett ärende som avses i 7 § i en sammansättning med fyra ledamöter, vilken består av tre lagfarna ledamöter och en sakkunnigledamot, om en fråga som skall avgöras i ärendet på grund av sin natur kräver det.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Om yrkanden som framställts i besvär eller i något annat förvaltningsprocessuellt ärende har återtagits helt och hållet, kan en ledamot ensam fatta beslut med anledning av detta. En ledamot kan också ensam avgöra ett ärende där det är fråga om huruvida besvären eller något annat förvaltningsprocessuellt ärende har anhängiggjorts inom utsatt tid. En ledamot kan ensam fatta beslut om att muntlig förhandling skall hållas eller syn förrättas i ärendet samt träffa de avgöranden som gäller genomförandet av dessa förfaranden och även besluta om andra åtgärder som hänför sig till ärendets förberedelse.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 oktober 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 112/2004</p>
+                        <p>RP 5/2005</p>
+                        <p>FvUB 13/2005</p>
+                        <p>RSv 91/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 2 september 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Johannes Koskinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

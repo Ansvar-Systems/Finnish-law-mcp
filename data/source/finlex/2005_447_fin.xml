@@ -1,0 +1,279 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/447/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/447"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/447/alkup"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="447"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/447/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/447/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/447/alkup/fin"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/447/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/447/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/447/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="82"/>
+                    <finlex:date date="2005-06-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>447/2005</docNumber>
+                <docTitle>Laki sähkön ja eräiden polttoaineiden valmisteverosta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>kumotaan</i>
+                         sähkön ja eräiden polttoaineiden valmisteverosta 30 päivänä joulukuuta 1996 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1996/1260">1260/1996</affectedDocument>
+                        ) 2 §:n 3 kohta, 8 §:n 1 momentin 7 kohta ja 15 §:n 1 momentti,
+                    </block>
+                    <block name="repeals-originals">sellaisina kuin niistä ovat 8 §:n 1 momentin 7 kohta ja 15 §:n 1 momentti laissa 1168/2002, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         1 §:n 1 momentti, 16 §, 23 §:n 1 momentti ja lain liitteenä oleva verotaulukko,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 16 § ja lain liitteenä oleva verotaulukko viimeksi mainitussa laissa, seuraavasti:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <subsection>
+                        <content>
+                            <p>Sähköstä, kivihiilestä, maakaasusta ja mäntyöljystä on suoritettava valtiolle valmisteverona perusveroa ja lisäveroa sen mukaan kuin tässä laissa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>16 §</num>
+                    <subsection>
+                        <content>
+                            <p>Vero määrätään mäntyöljystä kultakin verokaudelta sinä päivänä voimassa olevien säännöksien mukaan, jona mäntyöljy on käytetty 15 §:ssä mainittuun tarkoitukseen. Edellä 15 §:ssä tarkoitetun käyttäjän on annettava veroilmoitus erikseen jokaisesta laitoksesta sen sijaintipaikan tullipiirille. Verokautena pidetään kalenterikuukautta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>23 §</num>
+                    <subsection>
+                        <content>
+                            <p>Siltä osin kuin tässä laissa ei toisin säädetä, sähkön, kivihiilen ja mäntyöljyn valmisteveron verovelvollisuudesta samoin kuin verovelvollisia koskevista luvista ja vakuuksista, tuotteiden veronalaisuudesta, yhteisön ulkopuolelta tuotavien tuotteiden verottamisesta, veron määräämisen ajankohdasta, verotettavista määristä, verottomaan varastoon palautetuista tuotteista, veroilmoituksen antamisesta, veron määräämisestä, suorittamisesta ja maksuunpanosta, muutoksenhausta, veron palauttamisesta, verovelvollisen kirjanpitovelvollisuudesta, tarkastuksesta ja tietojenantovelvollisuudesta sekä muutoinkin on soveltuvin osin voimassa, mitä valmisteverotuslaissa tai sen nojalla säädetään tai määrätään.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä heinäkuuta 2005.</p>
+                    <p>Ennen tämän lain voimaantuloa lämmön tuottamiseen käytetyn polttoturpeen verotukseen ja polttoturpeella enintään 40 megavolttiampeerin lämmitysvoimalaitoksissa tuotetun sähkön tukeen sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2005/37">HE 37/2005</ref>
+                        </p>
+                        <p>VaVM 12/2005</p>
+                        <p>EV 62/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Naantalissa 23 päivänä kesäkuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Valtiovarainministeri </role>
+                                <person refersTo="">Antti Kalliomäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+            <hcontainer name="attachments">
+                <hcontainer name="attachment">
+                    <content>
+                        <p>
+                            <i>Liite</i>
+                        </p>
+                        <p>
+                            <b>VEROTAULUKKO</b>
+                        </p>
+                        <table>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Tuote </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Tuoteryhmä </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Perusvero </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Lisävero </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Huoltovarmuusmaksu </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Sähkö snt/kWh</p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p/>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p/>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p/>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>― veroluokka I </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>1 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>― </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>0,73 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>0,013 </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>― veroluokka II </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>2 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>― </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>0,44 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>0,013 </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Kivihiili, kivihiilibriketit, kivihiilestä valmistetut kiinteät polttoaineet euroa/t </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>3 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>― </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>43,52 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>1,18 </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>
+                                        Maakaasu, kaasumainen snt/nm
+                                        <sup>3</sup>
+                                    </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>5 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>― </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>1,82 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>0,084 </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>Mäntyöljy snt/kg </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>6 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>5,68 </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>― </p>
+                                </td>
+                                <td class="align-left colsep-0 rowsep-0 valign-TOP">
+                                    <p>―</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,163 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/191/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/191"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/191/alkup"/>
+                    <FRBRdate date="2016-03-18" name="dateIssued"/>
+                    <FRBRdate date="2016-03-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="191"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/191/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/191/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/191/alkup/fin"/>
+                    <FRBRdate date="2016-03-18" name="dateIssued"/>
+                    <FRBRdate date="2016-03-23" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/191/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/191/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/191/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-03-23" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>191/2016</docNumber>
+                <docTitle>Laki kunnallisesta viranhaltijasta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         kunnallisesta viranhaltijasta annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2003/304">304/2003</affectedDocument>
+                        ) 34 §:n 1 momentin 6 kohta, sellaisena kuin se on laissa 714/2004, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään </i>
+                        34 §:ään, sellaisena kuin se on osaksi laissa 714/2004, uusi 2 momentti, 50 §:ään, sellaisena kuin se on laissa 419/2015, uusi 2 momentti sekä lakiin uusi 56 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>34 §</num>
+                    <heading>Virkasuhteen päättyminen ilman irtisanomista</heading>
+                    <subsection>
+                        <intro>
+                            <p>Virkasuhde päättyy ilman irtisanomista tai irtisanomisaikaa:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>6) </num>
+                            <content>
+                                <p>sen kalenterikuukauden päättyessä, jonka aikana viranhaltija täyttää eroamisiän, jollei viranhaltijan kanssa sovita virkasuhteen määräaikaisesta jatkamisesta. </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentin 6 kohdassa tarkoitettu eroamisikä on vuonna 1957 ja sitä ennen syntyneillä 68 vuotta, vuosina 1958—1961 syntyneillä 69 vuotta ja vuonna 1962 ja sen jälkeen syntyneillä 70 vuotta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>50 §</num>
+                    <heading>Muutoksenhaku</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Viranhaltija ei saa valittamalla hakea muutosta viranomaisen päätökseen kunnallisen virkaehtosopimuslain 2 §:ssä tarkoitetussa asiassa eikä saattaa sitä oikaisuvaatimuksin tai hallintoriita-asiana ratkaistavaksi, jos hänellä taikka viranhaltijayhdistyksellä on oikeus panna asia vireille työtuomioistuimessa. Mitä edellä tässä momentissa säädetään, sovelletaan vain viranhaltijaan, joka on jäsenenä sellaisessa viranhaltijayhdistyksessä, jolla on oikeus panna asia vireille työtuomioistuimessa, tai sen alayhdistyksessä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>56 a §</num>
+                    <heading>Viivästyskorko</heading>
+                    <subsection>
+                        <content>
+                            <p>Virkasuhteeseen perustuvan saatavan suorituksen viivästyessä sovelletaan, mitä korkolaissa (633/1982) säädetään viivästyskorosta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Hallintolainkäyttöasiassa on korkolain 6 ja 7 §:ssä tarkoitetuissa tilanteissa maksettava viivästyskorkoa viimeistään siitä päivästä, jona velallisen katsotaan saaneen tiedon velan maksua koskevan valituksen tai hakemuksen vireilletulosta, tai jos vaatimus esitetään oikeudenkäynnin aikana, sen esittämisestä lukien.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 45 §:n 1 momentissa tarkoitetuissa tapauksissa viivästyskorkoa on maksettava siitä lähtien kun 30 päivää on kulunut päivästä, jona viranhaltija esitti työnantajalle mainitun pykälän 2 momentissa tarkoitetun selvityksen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä huhtikuuta 2016.</p>
+                    <p>Ennen tämän lain voimaantuloa erääntyneeseen saatavaan sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2015/138">HE 138/2015</ref>
+                        </p>
+                        <p>HaVM 1/2016</p>
+                        <p>EV 5/2016</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 18 päivänä maaliskuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Valtiovarainministeri</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

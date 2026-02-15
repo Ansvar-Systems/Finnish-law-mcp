@@ -1,0 +1,153 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/460/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/460"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/460/alkup"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="460"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/460/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/460/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/460/alkup/swe"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/460/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/460/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/460/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="83"/>
+                    <finlex:date date="2005-06-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>460/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om finansiering av arbetslöshetsförmåner</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 24 juli 1998 om finansiering av arbetslöshetsförmåner (
+                        <affectedDocument href="/akn/fi/act/statute/1998/555">555/1998</affectedDocument>
+                        ) 4 § 3 mom., 5 § 2 mom., 8 § samt 28 § 1 mom., av dem 4 § 3 mom. och 5 § 2 mom. sådana de lyder i lag 1301/2002 samt 8 § sådan den lyder delvis ändrad i sistnämnda lag, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>4 §</num>
+                    <heading>Finansiering av inkomstrelaterad dagpenning</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Arbetslöshetskassans andel av varje inkomstrelaterad dagpenning är 5,5 procent, om inte något annat följer av 1 och 2 mom. Om förhöjd inkomstrelaterad dagpenning betalas enligt 6 kap. 2 § 2 eller 3 mom. i lagen om utkomstskydd för arbetslösa, beräknas arbetslöshetskassans andel dock av inkomstrelaterad dagpenning som bestäms enligt 6 kap. 2 § 1 mom.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <heading>Finansiering av förtjänststöd</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Arbetslöshetskassans andel av varje förtjänstdel av förtjänststödet är 5,5 procent, om inte något annat följer av 1 mom. Om förtjänststödet betalas till förhöjt belopp enligt 6 kap. 2 § 2 eller 3 mom. i lagen om utkomstskydd för arbetslösa, beräknas dock arbetslöshetskassans andel enligt den förtjänstdel av den inkomstrelaterade dagpenningen som bestäms enligt 6 kap. 2 § 1 mom.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>8 §</num>
+                    <heading>Finansieringen av grunddagpenningen, grundstödet, förhöjningsdelen och tillägget för sysselsättningsplan</heading>
+                    <subsection>
+                        <content>
+                            <p>För finansieringen av grunddagpenningarna enligt lagen om utkomstskydd för arbetslösa, av grundstöden enligt lagen om offentlig arbetskraftsservice samt av de därtill hörande barnförhöjningarna betalar arbetslöshetsförsäkringsfonden genom förmedling av social- och hälsovårdsministeriet till Folkpensionsanstalten den andel som avses i 23 §. För finansieringen av grunddagpenningarnas förhöjningsdelar enligt lagen om utkomstskydd för arbetslösa och grundstödens förhöjningsdelar enligt lagen om offentlig arbetskraftsservice samt tilläggen för sysselsättningsplan betalar arbetslöshetsförsäkringsfonden till Folkpensionsanstalten de andelar som avses i 6 kap. 1 § i lagen om utkomstskydd för arbetslösa. Till övriga delar finansieras utgifterna med den statsandel som betalas till Folkpensionsanstalten.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelser om betalningen av statsandelen, användningen av förskott på statsandelen och förvaltningskostnaderna för Folkpensionsanstaltens arbetslöshetsförmåner finns i lagen om utkomstskydd för arbetslösa.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>28 §</num>
+                    <heading>Ikraftträdande</heading>
+                    <subsection>
+                        <content>
+                            <p>Denna lag träder i kraft den 1 september 1998. Den tillämpas från ingången av 1999 på finansieringen av arbetslöshetsförmånerna och arbetslöshetsförsäkringspremierna. Lagens 18 § 4 mom. tillämpas inte när arbetslöshetsförsäkringspremierna för 2006 fastställs.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juli 2005.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 48/2005</p>
+                        <p>AjUB 6/2005</p>
+                        <p>RSv 79/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 23 juni 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Arbetsminister </role>
+                                <person refersTo="">Tarja Filatov</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

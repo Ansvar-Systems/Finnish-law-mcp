@@ -1,0 +1,214 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/912/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/912"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/912/alkup"/>
+                    <FRBRdate date="2007-10-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="912"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/912/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/912/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/912/alkup/swe"/>
+                    <FRBRdate date="2007-10-26" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/912/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/912/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/912/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="142"/>
+                    <finlex:date date="2007-10-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>912/2007</docNumber>
+                <docTitle>Lag om ändring av sjukförsäkringslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i sjukförsäkringslagen av den 21 december 2004 (
+                        <affectedDocument href="/akn/fi/act/statute/2004/1224">1224/2004</affectedDocument>
+                        ) 4 kap. 1 § 3 mom. och 8 § 2 mom., 6 kap. 11 § 1 mom. och 14 §, 8 kap. 1 § 3 och 4 mom. samt 9 kap. 12 § 1 mom.,
+                    </block>
+                    <block name="substitutions-originals">av dem 6 kap. 11 § 1 mom. sådant det lyder i lag 885/2005, 6 kap. 14 § sådan den lyder delvis ändrad i sistnämnda lag och 9 kap. 12 § 1 mom. sådant det lyder i lag 1342/2006, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 11 kap. en ny 10 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>4 kap.</num>
+                    <heading>Ersättning för resekostnader</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Försäkrades resor</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Kostnader för resor utomlands eller till utlandet ersätts inte med stöd av denna lag. Har en försäkrad kommit i behov av vård i en sådan gränstrakt som avses i 1 § i lagen om ömsesidig sjuk- och hälsovård i gränstrakt (307/1961) eller har vård som ska ordnas en försäkrad enligt folkhälsolagen (66/1972) eller lagen om specialiserad sjukvård (1062/1989) ordnats för en person som bor i sådan gränstrakt som avses i nämnda lag, har den försäkrade rätt att få ersättning för resekostnader i enlighet med denna lag.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Grund för ersättning för resekostnader samt fastställande av ersättningstaxan</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Grunden för ersättning för användning av sjuktransportfordon är sjuktransporttaxan enligt 11 § i lagen om tillståndspliktig persontrafik på väg (343/1991). Grunden för ersättning för användning av taxi är det maximipris som i taxitrafiken tas ut hos konsumenterna i enlighet med 16 § i lagen om taxitrafik (217/2007), om inte Folkpensionsanstalten har kommit överens om en lägre prissättning än maximipriset med den som producerar transporttjänsterna.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>6 kap.</num>
+                    <heading>Läkemedelsprisnämnden</heading>
+                    <section>
+                        <num>11 §</num>
+                        <heading>Behandlingstiden för ansökan</heading>
+                        <subsection>
+                            <content>
+                                <p>Läkemedelsprisnämndens beslut om ett skäligt partipris som fastställts som ersättningsgrund för ett läkemedelspreparat som erhållit försäljningstillstånd och om grundersättning för ett läkemedelspreparat samt om specialersättning för ett läkemedelspreparat ska tillställas sökanden inom 180 dagar efter det att ansökan mottagits. Om det är fråga om höjning av ett tidigare fastställt partipris utan att frågan huruvida läkemedelspreparatet ska omfattas av ersättning samtidigt avgörs, ska beslutet tillställas sökanden inom 90 dagar efter det att ansökan mottagits. Om de uppgifter som framläggs som stöd för ansökan är otillräckliga, ska nämnden eller vid behov nämndens direktör avbryta behandlingen av ansökan och utan dröjsmål meddela sökanden vilka specificerade tilläggsuppgifter som krävs. Det slutliga beslutet ska då sändas till sökanden inom 180 dagar efter det att tilläggsutredningen mottagits. Om det är fråga om höjning av ett tidigare fastställt partipris utan att frågan huruvida läkemedelspreparatet ska omfattas av ersättning samtidigt avgörs, ska det slutliga beslutet tillställas sökanden inom 90 dagar efter det att tilläggsutredningen mottagits.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>14 §</num>
+                        <heading>Överföring av beslutanderätt till direktören</heading>
+                        <subsection>
+                            <content>
+                                <p>Läkemedelsprisnämnden kan på direktören överföra fastställandet av grundersättning och ett skäligt partipris för ett läkemedelspreparat då det är fråga om ett nytt fastställande av en tidsbegränsad grundersättning och ett tidsbegränsat partipris för ett preparat, en ny förpackningsstorlek, styrka eller läkemedelsform för ett läkemedelspreparat som godkänts som ersättningsgillt eller fastställandet av grundersättning och ett skäligt partipris för ett synonympreparat eller parallellimporterat preparat som motsvarar ett sådant läkemedelspreparat. Läkemedelsprisnämnden kan på direktören även överföra fastställandet av grundersättning och ett skäligt partipris för ett läkemedelspreparat enligt 21 § 4 mom. i läkemedelslagen, vilket levereras med särskilt tillstånd, samt utfärdandet av intyg över ett skäligt partipris för innehavaren av försäljningstillstånd, för export av läkemedel.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Dessutom kan läkemedelsprisnämnden vid behov låta direktören avgöra om läkemedel ska berättiga till specialersättning i sådana fall då specialersättning har godkänts för ett preparat som innehåller samma läkemedelssubstans.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>8 kap.</num>
+                    <heading>Sjukdagpenning och partiell sjukdagpenning</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Sjukdagpenning</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>En person har utöver den dagpenning som avses i 2 mom. rätt att få ersättning enligt 27 § 2 mom. i lagen om smittsamma sjukdomar för inkomstbortfall som åsamkats honom eller henne. Ersättningen bestäms utifrån den arbetsinkomst som personen skulle ha fått om han eller hon inte med stöd av lagen om smittsamma sjukdomar hade fått förordnande att utebli från sitt förvärvsarbete eller att hållas isolerad eller i karantän. Ersättningen för inkomstbortfallet utgörs av skillnaden mellan arbetsinkomsten och dagpenningen. När ersättningen för inkomstbortfallet fastställs beaktas den i 2 mom. avsedda dagpenningen som avdrag.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Har en i 2 mom. avsedd dagpenning enligt lagen om smittsamma sjukdomar med stöd av 7 kap. 4 § 1 mom. betalts till arbetsgivaren och täcker dagpenningen inte den lön eller den motsvarande ersättning som arbetsgivaren har betalt för tiden för frånvaron, isoleringen eller karantänen, har arbetsgivaren rätt till ersättning enligt 3 mom. för det återstående beloppet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>9 kap.</num>
+                    <heading>Föräldradagpenningar</heading>
+                    <section>
+                        <num>12 §</num>
+                        <heading>Föräldrapenningsperiod för adoptivföräldrar</heading>
+                        <subsection>
+                            <content>
+                                <p>Med anledning av vården av ett adoptivbarn betalas till adoptivföräldern eller dennes make föräldrapenning eller partiell föräldrapenning för den tid vården av barnet fortgår tills 234 vardagar har förflutit från barnets födelse. Föräldrapenning betalas dock alltid för minst 200 vardagar. Om ett barn tas i vård senare än 54 vardagar efter födelsen, betalas föräldrapenning dock för 200 vardagar. Föräldrapenningsperioden förlängs i enlighet med 10 § 3 mom., om flera adoptivbarn tagits samtidigt.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>11 kap.</num>
+                    <heading>Beloppet av dagpenningsförmånerna</heading>
+                    <section>
+                        <num>10 a §</num>
+                        <heading>Justering av moderns föräldradagpenning</heading>
+                        <subsection>
+                            <content>
+                                <p>Föräldradagpenning som betalas till modern för ett och samma barn är lika stor under hela föräldradagpenningsperioden, om inte något annat följer av 1 § 2 mom. 1 och 2 punkten eller 8 § 1 mom.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 november 2007.</p>
+                    <p>Bestämmelserna i 11 kap. 10 a § tillämpas på föräldradagpenning som börjar efter det att lagen har trätt i kraft.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 41/2007</p>
+                        <p>ShUB 4/2007</p>
+                        <p>RSv 24/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 26 oktober 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Social- och hälsovårdsminister </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

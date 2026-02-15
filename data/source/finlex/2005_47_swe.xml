@@ -1,0 +1,205 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/47/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/47"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/47/alkup"/>
+                    <FRBRdate date="2005-01-28" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="47"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/47/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/47/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/47/alkup/swe"/>
+                    <FRBRdate date="2005-01-28" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/47/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/47/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/47/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="10"/>
+                    <finlex:date date="2005-02-02"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>47/2005</docNumber>
+                <docTitle>Lag om ändring av kommunikationsmarknadslagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i kommunikationsmarknadslagen av den 23 maj 2003 (
+                        <affectedDocument href="/akn/fi/act/statute/2003/393">393/2003</affectedDocument>
+                        ) 18 § 2 mom. 14 punkten, 19 § 2 mom. 6 punkten, 37 § och 43 § 4 punkten samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 86 § ett nytt 3 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>18 §</num>
+                    <heading>Skyldigheter för företag med betydande marknadsinflytande</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Företag med betydande marknadsinflytande kan under de förutsättningar och villkor som anges nedan i denna lag förpliktas att</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>14)</num>
+                            <content>
+                                <p>iaktta de i 37 § angivna skyldigheterna som gäller prissättning och andra villkor,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>19 §</num>
+                    <heading>Skyldigheter för andra teleföretag</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Teleföretag kan under de förutsättningar och villkor som anges nedan i denna lag förpliktas att</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>iaktta de i 37 § angivna skyldigheterna som gäller prissättning och andra villkor,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>37 §</num>
+                    <heading>Prissättning av överlåtelse av nyttjanderätt och sammankoppling samt övriga villkor</heading>
+                    <subsection>
+                        <intro>
+                            <p>Kommunikationsverket kan genom ett beslut enligt 18 eller 19 § ålägga ett teleföretag en skyldighet att</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>prissätta den ersättning som tas ut för överlåtelse av nyttjanderätt, roaming eller sammankoppling så att ersättningen i enlighet med 84 § är antingen kostnadsorienterad eller icke-diskriminerande eller kostnadsorienterad och icke-diskriminerande,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>även i övrigt iaktta icke-diskriminerande villkor,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>vid prissättningen av den nyttjanderätt som avses i 24 och 25 § iaktta det högsta pris som fastställts av Kommunikationsverket.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Kommunikationsverket kan ålägga ett teleföretag med betydande marknadsinflytande en sådan skyldighet som avses i 1 mom. 1 och 2 punkten även om teleföretaget inte åläggs en skyldighet som gäller sammankoppling eller nyttjanderätt.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Det i 1 mom. 3 punkten avsedda högsta priset får fastställas endast i undantagsfall, om priset för nyttjanderätten klart överstiger den allmänna prisnivån eller om det annars behövs för att tillgodose syftet med nyttjanderätten. Det högsta priset skall fastställas med hänsyn till att det är kostnadsorienterat i enlighet med 84 §. Pristaket fastställs för högst tre år i sänder. I fråga om Kommunikationsverkets skyldighet att upphäva pristaket gäller vad som bestäms i 18 § 3 mom. och 19 § 3 mom.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>43 §</num>
+                    <heading>Ersättning för användningen av telefonnät</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Inkommande trafik behöver dock inte prissättas särskilt om förbindelsen upprättas från ett fast telefonnät till ett mobilnät, utom om förbindelsen har valts med prefix eller förhandsval.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>86 §</num>
+                    <heading>Utredningsskyldighet och kostnadsredovisning i fråga om prissättning</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>När Kommunikationsverket bedömer om prissättningen är kostnadsorienterad kan verket i enlighet med 84 § 1 mom. i enskilda fall besluta om maximibeloppet av den ersättning som tas ut.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 mars 2005. </p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 74/2004</p>
+                        <p>KoUB 25/2004</p>
+                        <p>RSv 226/2004</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 28 januari 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Kommunikationsminister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

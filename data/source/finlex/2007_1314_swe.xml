@@ -1,0 +1,185 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1314/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1314"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1314/alkup"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1314"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1314/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1314/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1314/alkup/swe"/>
+                    <FRBRdate date="2007-12-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1314/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1314/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1314/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="196"/>
+                    <finlex:date date="2007-12-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1314/2007</docNumber>
+                <docTitle>Lag om ändring av befolkningsdatalagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i befolkningsdatalagen av den 11 juni 1993 (
+                        <affectedDocument href="/akn/fi/act/statute/1993/507">507/1993</affectedDocument>
+                        ) 4 § 1 mom. 3 punkten samt 31 § 1 och 2 mom., sådana de lyder, 4 § 1 mom. 3 punkten i lag 957/2005 och 31 § 1 och 2 mom. i lag 527/1999, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 4 § 1 mom., sådant det lyder i nämnda lag 957/2005, en ny 3 a-punkt samt till lagen nya 27 a och 31 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>4 §</num>
+                    <heading>Personuppgifter som registreras i befolkningsdatasystemet</heading>
+                    <subsection>
+                        <intro>
+                            <p>I fråga om finska medborgare registreras</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>uppgifter om medborgarskap och dödstid,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3 a)</num>
+                            <content>
+                                <p>uppgifter om begränsning av handlingsbehörigheten, om intressebevakning och om en fastställd intressebevakningsfullmakt som gäller företrädande av fullmaktsgivaren i ekonomiska angelägenheter samt intressebevakarens eller fullmäktigens identifieringsuppgifter,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>27 a §</num>
+                    <heading>Utlämnande av uppgifter som adresstjänst</heading>
+                    <subsection>
+                        <content>
+                            <p>Som adresstjänst får lämnas ut uppgifter om en persons nuvarande namn samt adress- och andra kontaktuppgifter och uppgift om att personen är vid liv eller om ett sådant förbud mot att lämna ut uppgifter som avses i 25 §. Uppgifterna kan lämnas ut endast om personen på ett tillförlitligt sätt kan identifieras på basis av de uppgifter som sökanden ger.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Genom förordning av finansministeriet föreskrivs om de magistrater som deltar i tillhandahållandet av adresstjänsten.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>31 §</num>
+                    <heading>Myndighet som fattar beslut om utlämnande av uppgifter</heading>
+                    <subsection>
+                        <content>
+                            <p>Befolkningsregistercentralen och magistraterna fattar beslut om utlämnande av uppgifter ur befolkningsdatasystemet. Befolkningsregistercentralen fattar dock beslut om utlämnande av uppgifter när det är fråga om uppgifter som förmedlas via en teknisk anslutning eller på annat sätt i elektronisk form eller andra än enstaka uppgifter som utlämnas till utlandet.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Magistraten beslutar om utlämnande av enstaka uppgifter.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>31 a §</num>
+                    <heading>Avtal om tillhandahållande av en adresstjänst</heading>
+                    <subsection>
+                        <content>
+                            <p>Uppdraget att tillhandahålla en adresstjänst enligt 27 a § kan ges också andra myndigheter eller sammanslutningar än magistraterna, om det behövs för att trygga tillgången på tjänster eller för att effektivisera verksamheten. Avtalet om detta med en annan myndighet eller sammanslutning ingås av Befolkningsregistercentralen efter det att den har hört magistraterna i fråga.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En förutsättning för att någon annan än en myndighet ska kunna ges i uppdrag att tillhandahålla en adresstjänst är ytterligare att den sammanslutning som sköter uppgiften har tillräckliga resurser och att de personer som sköter uppgiften har tillräcklig sakkunskap och kompetens för detta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>På den som sköter adresstjänst tillämpas bestämmelserna om straffrättsligt tjänsteansvar. Vid skötseln av uppgiften ska förvaltningslagen (434/2003), språklagen (423/2003), samiska språklagen (1086/2003) och lagen om offentlighet i myndigheternas verksamhet (621/1999) iakttas. Befolkningsregistercentralen svarar i enlighet med vad som föreskrivs i 3 kap. i skadeståndslagen (412/1974) för skada som uppstår vid sådant tillhandahållande av adresstjänst som grundar sig på avtal.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2008.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                    <p>Uppgifter om intressebevakningsfullmakter som fastställts före lagens ikraftträdande införs i befolkningsdatasystemet inom en månad från ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 106/2007</p>
+                        <p>FvUB 15/2007</p>
+                        <p>RSv 136/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 21 december 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Mari Kiviniemi</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

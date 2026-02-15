@@ -1,0 +1,167 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/409/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/409"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/409/alkup"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="409"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/409/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/409/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/409/alkup/swe"/>
+                    <FRBRdate date="2007-04-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/409/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/409/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/409/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="63"/>
+                    <finlex:date date="2007-04-19"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>409/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om sociala företag</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 30 december 2003 om sociala företag (
+                        <affectedDocument href="/akn/fi/act/statute/2003/1351">1351/2003</affectedDocument>
+                        ) 1 § 2 mom. 2 punkten, 3 § 2 mom. och 5 § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Lagens syfte och definitioner</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>I denna lag avses med</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>
+                                    <i>långtidsarbetslösa</i>
+                                     arbetstagare som innan anställningsförhållandet började har varit arbetslös arbetssökande enligt 1 kap. 7 § 1 mom. 5 eller 12 punkten i lagen om offentlig arbetskraftsservice (1295/2002).
+                                </p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <heading>Stödjande av sociala företag</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Bestämmelser om lönesubvention som beviljas sociala företag finns i lagen om offentlig arbetskraftsservice.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>5 §</num>
+                    <heading>Andelen sysselsatta</heading>
+                    <subsection>
+                        <content>
+                            <p>Handikappade och långtidsarbetslösa räknas till andelen sysselsatta den tid för vilken arbetsgivaren betalas lönesubvention för lönekostnaderna för den handikappade eller långtidsarbetslösa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vid beräkningen av andelen sysselsatta jämställs med handikappade de funktionshindrade i verksamhet i sysselsättningssyfte enligt 27 d § 3 mom. i socialvårdslagen (710/1982) för vilkas sysselsättande kommunen betalar stöd till arbetsgivaren.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En handikappad eller långtidsarbetslös för vars lönekostnader lönesubvention inte betalas räknas till andelen sysselsatta den tid för vilken arbetsgivaren är skyldig att betala honom eller henne lön, långtidsarbetslösa dock högst ett år.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En funktionshindrad person för vars sysselsättande arbetsgivaren har fått stöd av kommunen på den grund som avses i 2 mom. jämställs när stödet har tagit slut vid beräkningen av andelen sysselsatta med en handikappad den tid för vilken arbetsgivaren är skyldig att betala honom eller henne lön.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Andelen sysselsatta skall alltid inkludera i 1 eller 3 mom. avsedda arbetstagare. Vid beräkningen av andelen sysselsatta beaktas de arbetstagare vilkas ordinarie arbetstid är mer än 75 procent av maximiarbetstiden i branschen. I fråga om handikappade räknas till andelen sysselsatta dock de arbetstagare vilkas ordinarie arbetstid är minst 50 procent av maximiarbetstiden i branschen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 maj 2007.</p>
+                    <p>Vid tillämpningen av 5 § 1 och 3 mom. i denna lag jämställs med lönesubvention sådant sysselsättningsstöd som har beviljats för lönekostnader med stöd av de bestämmelser som upphävts genom lagen om ändring av lagen om offentlig arbetskraftsservice (1216/2005) och sådant sammansatt stöd som har beviljats med stöd av de bestämmelser som upphävts genom lagen om ändring av lagen om utkomstskydd för arbetslösa (1217/2005). Till andelen sysselsatta enligt 5 § 1 mom. räknas fram till utgången av 2007 utöver handikappade och långtidsarbetslösa även övriga sysselsatta för vilkas lönekostnader det betalas sammansatt stöd inom ramen för försöket med sammansatt stöd enligt den genom den sistnämnda lagen upphävda 7 kap. 11 § i lagen om utkomstskydd för arbetslösa.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 275/2006</p>
+                        <p>AjUB 18/2006</p>
+                        <p>RSv 310/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 13 april 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Tuula Haatainen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,234 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/580/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/580"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/580/alkup"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="580"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/580/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/580/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/580/alkup/fin"/>
+                    <FRBRdate date="2007-05-11" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/580/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/580/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/580/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="84"/>
+                    <finlex:date date="2007-05-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>580/2007</docNumber>
+                <docTitle>Laki asumistukilain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         4 päivänä kesäkuuta 1975 annetun asumistukilain (
+                        <affectedDocument href="/akn/fi/act/statute/1975/408">408/1975</affectedDocument>
+                        ) 2 §:n 2―4 kohta, 3 §:n 3 momentti ja 25 a §:n 2 kohta, sellaisina kuin ne ovat 2 §:n 2―4 kohta laissa 42/2000, 3 §:n 3 momentti laissa 195/1999 ja 25 a §:n 2 kohta laissa 689/2002, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 3 a ja 16 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <subsection>
+                        <intro>
+                            <p>Tämän lain mukaista asumistukea ei myönnetä:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>yhden henkilön ruokakunnalle, jos hakija täyttää eläkkeensaajan asumistuesta annetun lain (571/2007) 8 §:n mukaiset edellytykset eläkkeensaajan asumistuen saamiseen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>kahden henkilön ruokakunnalle, joka muodostuu aviopuolisoista tai keskenään avioliitonomaisissa olosuhteissa avioliittoa solmimatta jatkuvasti yhteistaloudessa elävistä henkilöistä ja johon kuuluva henkilö täyttää eläkkeensaajan asumistuesta annetun lain 8 §:n mukaiset edellytykset eläkkeensaajan asumistuen saamiseen; eikä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>ruokakunnalle, johon kuuluva saa eläkkeensaajan asumistuesta annetun lain mukaista asumistukea.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentin 2 kohdassa tarkoitettuihin pysyviin kuukausituloihin luetaan ruokakuntaan kuuluvien henkilöiden yhteenlasketusta 3 a §:n mukaisesta omaisuudesta viisitoista prosenttia jaettuna kahdellatoista siltä osin kuin se ylittää valtioneuvoston asetuksella vuosittain ruokakunnan koon mukaan säädettävän määrän. Omaisuudesta vähennetään velat. Pysyviin kuukausituloihin ei lueta valtioneuvoston asetuksella säädettäviä tuloja eikä 6 §:n 4 momentissa tarkoitettuja alivuokralaiselta saatuja vuokratuloja. Korko- ja osinkotulot otetaan tulona huomioon, jos ruokakunnan jäsenen korko- ja osinkotulot yhteensä ylittävät viisi euroa kuukaudessa. Korkotuloja arvioitaessa jokaisen ruokakunnan jäsenen talletuksista vähennetään käyttövaroina 2 000 euroa. Metsätalouden tulona otetaan huomioon varojen arvostamisesta verotuksessa annetun lain (1142/2005) 7 §:n 2 momentin mukaan vahvistettu metsän keskimääräinen vuotuinen tuotto kerrottuna metsän pinta-alalla. Pysyviä kuukausituloja määriteltäessä voidaan käyttää muun luotettavan selvityksen puuttuessa perusteena henkilön veronalaisen ansio- ja pääomatulojen yhteismäärää viimeksi toimitetussa verotuksessa.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>3 a §</num>
+                    <subsection>
+                        <intro>
+                            <p>Pysyviä kuukausituloja laskettaessa otetaan omaisuutena huomioon ruokakuntaan kuuluvan henkilön omistamat:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>kiinteistöt;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>elinkeinotoiminnan ja maatalouden varat sekä osuudet yhtymien varoista;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>metsäomaisuus;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>talletukset, obligaatiot, joukkovelkakirjat ja muut vastaavat;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>julkisesti noteeratut osakkeet ja sijoitusrahasto-osuudet; sekä</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>vakuutussijoitukset.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 ja 2 kohdassa mainittu omaisuus otetaan huomioon verotuksessa vahvistetun tai lasketun arvon mukaisena. Metsäomaisuuden arvona otetaan huomioon 3 §:n 3 momentissa tarkoitettu metsätalouden tulo kerrottuna luvulla 10. Obligaatiot ja joukkovelkakirjat otetaan huomioon käyvän arvon mukaisina. Julkisesti noteeratun osakkeen ja sijoitusrahasto-osuuden arvoksi otetaan 70 prosenttia myöntö- tai tarkistusajankohtaa edeltävän vuoden viimeisen pörssipäivän arvosta. Vakuutussijoitukset otetaan huomioon takaisinostoarvoon.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Talletuksista vähennetään käyttövaroina 2 000 euroa. Vähennys tehdään jokaisen ruokakunnan jäsenen talletuksista erikseen.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Omaisuutena ei kuitenkaan oteta huomioon ruokakunnan omassa käytössä olevaa asuntoa eikä osuutta kuolinpesässä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>16 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Takautuvasti myönnetty asumistuki voidaan pidättää Kansaneläkelaitokselle sen maksamaa eläkkeensaajan asumistuesta annetun lain mukaista asumistukea vastaavalta osin, jos Kansaneläkelaitos myöntää asumistuen takautuvasti ajalle, jona asumistuen saaja tai samaan ruokakuntaan kuuluva henkilö on saanut eläkkeensaajan asumistuesta annetun lain mukaista asumistukea.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>25 a §</num>
+                    <subsection>
+                        <intro>
+                            <p>Kansaneläkelaitoksella on oikeus saada salassapitosäännösten ja muiden tietojen saantia koskevien rajoitusten estämättä maksutta asumistuen täytäntöönpanoa varten:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>vankilalta tiedot rangaistuksen alkamisesta, henkilön vapautumisesta sekä koevapauden alkamisesta ja keskeyttämisestä.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008. Sitä sovelletaan lain voimaantulosta tai sen jälkeisestä ajankohdasta myönnettävään tai tarkistettavaan tukeen.</p>
+                    <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2006/90">HE 90/2006</ref>
+                        </p>
+                        <p>StVM 56/2006</p>
+                        <p>EV 283/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 11 päivänä toukokuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

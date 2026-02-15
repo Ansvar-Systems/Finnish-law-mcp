@@ -1,0 +1,228 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/628/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/628"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/628/alkup"/>
+                    <FRBRdate date="2007-06-01" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="628"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/628/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/628/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/628/alkup/swe"/>
+                    <FRBRdate date="2007-06-01" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/628/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/628/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/628/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="93"/>
+                    <finlex:date date="2007-06-01"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>628/2007</docNumber>
+                <docTitle>Lag om ändring av kemikalielagen</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i kemikalielagen av den 14 augusti 1989 (<affectedDocument href="/akn/fi/act/statute/1989/744">744/1989</affectedDocument>) 17 § 3 och 4 mom. samt 19 § 3 mom., sådana de lyder, 17 § 3 och 4 mom. i lag 1412/1992 och 19 § 3 mom. i lag 12/1997,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         rubriken för 8 a § samt 48 a § 2 mom. och 52 § 1 mom. 1 punkten, sådana de lyder, rubriken för 8 a § samt 52 § 1 mom. 1 punkten i lag 136/2002 och 48 a § 2 mom. i lag 368/1998, samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 2 §, sådan den lyder i nämnda lag 1412/1992 och i lagarna 1198/1999 och 391/2005, ett nytt 3 mom., varvid de nuvarande 3 och 4 mom. blir 4 och 5 mom., till 8 a §, sådan den lyder i nämnda lag 136/2006, ett nytt 4 mom., till lagen en ny 8 b §, till 52 §, sådan den lyder i lag 404/2002 och i nämnda lag 136/2006, ett nytt 2 mom., varvid det nuvarande 2 mom. blir 3 mom., samt till lagen en ny 62 a §, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>2 §</num>
+                    <heading>Lagens tillämpningsområde</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>
+                                Denna lag tillämpas dessutom på verkställandet av Europaparlamentets och rådets förordning (EG) nr 1907/2006 om registrering, utvärdering, godkännande och begränsning av kemikalier (Reach), inrättande av en europeisk kemikaliemyndighet, ändring av direktiv 1999/45/EG och upphävande av rådets förordning (EEG) nr 793/93 och kommissionens förordning (EG) nr 1488/94 samt rådets direktiv 76/769/EEG och kommissionens direktiv 91/155/EEG, 93/67/EEG, 93/105/EG och 2000/21/EG, nedan 
+                                <i>REACH-förordningen</i>, och Europeiska gemenskapernas med stöd av den givna bestämmelser.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>8 a §</num>
+                    <heading>Behöriga myndigheter</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Social- och hälsovårdens produkttillsynscentral och Finlands miljöcentral är inom sina respektive verksamhetsområden behöriga myndigheter enligt artikel 121 i REACH-förordningen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>8 b §</num>
+                    <heading>Nationell rådgivning</heading>
+                    <subsection>
+                        <content>
+                            <p>Social- och hälsovårdens produkttillsynscentral och Finlands miljöcentral ansvarar för den nationella rådgivning som skall ge tillverkare, importörer, nedströmsanvändare, distributörer och andra berörda parter råd enligt artikel 124 i REACH-förordningen. Närmare bestämmelser om ordnandet och genomförandet av rådgivningen kan utfärdas genom förordning av statsrådet.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>48 a §</num>
+                    <heading>Tillställande av uppgifter om kemikalier</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Tillverkaren, importören eller distributören av kemikalier eller andra verksamhetsidkare som svarar för att en kemikalie släpps ut på marknaden eller överlåts för ibruktagande i Finland skall tillställa Social- och hälsovårdens produkttillsynscentral uppgifter om en kemikalie som avses i artikel 31 i REACH-förordningen.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>52 §</num>
+                    <heading>Kemikalieförseelse</heading>
+                    <subsection>
+                        <intro>
+                            <p>Den som uppsåtligen eller av oaktsamhet</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <intro>
+                                <p>försummar sin skyldighet att lämna uppgifter enligt 18 a §, att göra en anmälan som avses i 20 §, att ansöka om godkännande som avses i 25 §, att ansöka om registrering som avses i 30 c §, att ansöka om tillstånd eller göra en anmälan som avses i 30 e §, eller</p>
+                            </intro>
+                            <hcontainer name="omission"/>
+                            <subparagraph>
+                                <content>
+                                    <p>
+                                        skall, om inte strängare straff för gärningen föreskrivs någon annanstans i lag, för 
+                                        <i>kemikalieförseelse</i>
+                                         dömas till böter.
+                                    </p>
+                                </content>
+                            </subparagraph>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Om inte strängare straff för gärningen föreskrivs någon annanstans i lag skall för kemikalieförseelse dömas också den som uppsåtligen eller av oaktsamhet bryter mot vad som enligt REACH-förordningen</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>i artikel 31 bestäms om skyldigheter som gäller säkerhetsblad och den information i säkerhetsbladet som skall tillhandahållas mottagaren,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>i artikel 32 bestäms om skyldighet att vidarebefordra information om beredningar,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>i artiklarna 33 och 34 bestäms om skyldighet att vidarebefordra information eller i artikel 35 bestäms om arbetstagarnas tillgång till information, eller</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>i artikel 36 bestäms om skyldighet att spara information eller lämna den till den behöriga myndigheten eller Europeiska kemikaliemyndigheten.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <chapter>
+                    <num>12 kap.</num>
+                    <heading>Särskilda stadganden</heading>
+                    <section>
+                        <num>62 a §</num>
+                        <heading>Undantag som gäller försvaret</heading>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av statsrådet kan bestämmas om undantag som är nödvändiga för landets försvar i fråga om efterlevnaden av denna lag och REACH-förordningen enligt vad som bestäms i artikel 2.3 i REACH-förordningen. Genom förordning av statsrådet kan härvid utfärdas för skyddet av hälsan och miljön behövliga bestämmelser för att förhindra och bekämpa av kemikalier orsakade hälso- och miljöskador.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 2 juni 2007.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 3/2007</p>
+                        <p>MiUB 1/2007</p>
+                        <p>RSv 3/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 1 juni 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Omsorgsminister </role>
+                                <person refersTo="">Paula Risikko</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

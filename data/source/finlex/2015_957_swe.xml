@@ -1,0 +1,129 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/957/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/957"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/957/alkup"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="957"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/957/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/957/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/957/alkup/swe"/>
+                    <FRBRdate date="2015-08-07" name="dateIssued"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/957/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/957/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/957/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-08-11" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>957/2015</docNumber>
+                <docTitle>Lag om ändring av 10 § i lagen om grundläggande konstundervisning</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om grundläggande konstundervisning (
+                        <affectedDocument href="/akn/fi/act/statute/1998/633">633/1998</affectedDocument>
+                        ) 10 §, sådan den lyder delvis ändrad i lag 1447/2009, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>10 §</num>
+                    <heading>Ändringssökande</heading>
+                    <subsection>
+                        <content>
+                            <p>En elev kan inom två månader efter det att han eller hon fick del av bedömningen begära en ny bedömning av den lärare eller de lärare som utfört bedömningen. Om eleven är missnöjd med den nya bedömningen eller med det beslut genom vilket begäran har avslagits, kan eleven begära rättelse av bedömningen hos rektor. Det beslut som gäller rättelse av bedömningen får inte överklagas genom besvär.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>I fråga om beslut som gäller elevavgifter enligt 12 § eller elevantagning får omprövning begäras hos regionförvaltningsverket på det sätt som anges i förvaltningslagen (434/2003), om inte annat föreskrivs någon annanstans i lag.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Det beslut som meddelas med anledning av en begäran om omprövning får överklagas genom besvär hos förvaltningsdomstolen på det sätt som anges i förvaltningsprocesslagen (586/1996), om inte annat föreskrivs någon annanstans i lag. Besvär som gäller elevantagning ska behandlas skyndsamt. Över förvaltningsdomstolens ovan avsedda beslut får besvär inte anföras.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Begäran om omprövning och besvär som gäller elevantagning ska anföras inom 14 dagar från det att beslutet delgavs eleven eller dennes vårdnadshavare eller lagliga företrädare.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2016.</p>
+                    <p>På sökande av ändring i ett förvaltningsbeslut som meddelats före ikraftträdandet av denna lag tillämpas de bestämmelser som gällde vid ikraftträdandet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 230/2014</p>
+                        <p>LaUB 26/2014</p>
+                        <p>RSv 319/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Nådendal den 7 augusti 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitie- och arbetsminister</role>
+                                <person refersTo="">Jari Lindström</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

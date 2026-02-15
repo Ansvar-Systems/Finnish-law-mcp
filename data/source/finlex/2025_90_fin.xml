@@ -1,0 +1,127 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2025/90/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/90"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/90/alkup"/>
+                    <FRBRdate date="2025-03-14" name="dateIssued"/>
+                    <FRBRdate date="2025-03-19" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="90"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2025/90/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/90/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/90/alkup/fin"/>
+                    <FRBRdate date="2025-03-14" name="dateIssued"/>
+                    <FRBRdate date="2025-03-19" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2025/90/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2025/90/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2025/90/alkup/fin/xml"/>
+                    <FRBRdate date="2025-12-09" name="dateProduced"/>
+                    <FRBRdate date="2025-03-19" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2025</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>90/2025</docNumber>
+                <docTitle>Laki puolustusvoimista annetun lain 7 ja 23 a §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti </p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         puolustusvoimista annetun lain (<affectedDocument href="/akn/fi/act/statute/2007/551">551/2007</affectedDocument>) 7 ja 23 a §, sellaisina kuin ne ovat laissa 262/2014, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section eId="sec_7">
+                    <num>7 §</num>
+                    <heading>Sotilaskurinpito</heading>
+                    <subsection eId="sec_7__subsec_1">
+                        <content>
+                            <p>Puolustusvoimien kurinpitovallasta säädetään sotilaskurinpidosta ja rikostorjunnasta Puolustusvoimissa annetussa laissa (89/2025).</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section eId="sec_23a">
+                    <num>23 a §</num>
+                    <heading>Joukko-osaston komentajan tarkastus- ja etsintäoikeus</heading>
+                    <subsection eId="sec_23a__subsec_1">
+                        <content>
+                            <p>Puolustusvoimien palveluksessa olevaan henkilöön, joka ei kuulu rikoslain 45 luvun soveltamisalaan, voidaan kohdistaa sotilaskurinpidosta ja rikostorjunnasta Puolustusvoimissa annetun lain 30 §:n 1 momentissa tarkoitettu etsintä ja tarkastus, jos on syytä epäillä, että mainitussa momentissa tarkoitettuja määräyksiä on rikottu.</p>
+                        </content>
+                    </subsection>
+                    <subsection eId="sec_23a__subsec_2">
+                        <content>
+                            <p>Edellä 1 momentissa tarkoitetun henkilön luvattomasti tai laittomasti hallussa pitämään Puolustusvoimien omaisuuden taikka huumausaineen tai alkoholijuoman talteenottoon ja hävittämiseen sovelletaan vastaavasti sotilaskurinpidosta ja rikostorjunnasta Puolustusvoimissa annetun lain 30 §:n 2 momenttia.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä joulukuuta 2025.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2023/82">HE 82/2023</ref>
+                        </p>
+                        <p>PuVM 2/2025</p>
+                        <p>EV 2/2025</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 14.3.2025</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Puolustusministeri</role>
+                                <person refersTo="">Antti Häkkänen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

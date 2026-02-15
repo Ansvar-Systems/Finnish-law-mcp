@@ -1,0 +1,205 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/306/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/306"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/306/alkup"/>
+                    <FRBRdate date="2005-05-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="306"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/306/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/306/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/306/alkup/swe"/>
+                    <FRBRdate date="2005-05-13" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/306/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/306/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/306/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="57"/>
+                    <finlex:date date="2005-05-18"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>306/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om växtförädlarrätt</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 21 augusti 1992 om växtförädlarrätt (
+                        <affectedDocument href="/akn/fi/act/statute/1992/789">789/1992</affectedDocument>
+                        ) 38 § samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till lagen nya 6 f, 6 g och 34 b § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>6 f §</num>
+                    <heading>Rätt till uppgifter om odling av en skyddad sort</heading>
+                    <subsection>
+                        <intro>
+                            <p>En sortägare har rätt att ur det i lagen om landsbygdsnäringsregistret (1515/1994) avsedda landsbygdsnäringsregistret få de uppgifter som behövs för att förverkliga den i 6 c § avsedda betalningsskyldigheten. Som sådana uppgifter får följande uppgifter om en odlare lämnas ut:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1)</num>
+                            <content>
+                                <p>odlarens namn, adress och telefonnummer,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>lägenhetssignum,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>språkkod,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4)</num>
+                            <content>
+                                <p>uppgifter om huruvida åkerarealen i odlarens besittning är mindre än 10 hektar, i fråga om en skyddad potatissort över 2 hektar eller i fråga om odling av tidig potatis under täckmaterial över 1 hektar,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>uppgifter om huruvida odlingsarealen för växtsorter som skyddas enligt Europeiska gemenskapens växtförädlarrätt överstiger en areal som kalkylmässigt behövs för att producera 92 ton spannmål,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>uppgifter om huruvida odlingsarealen för potatissorter som skyddas enligt Europeiska gemenskapens växtförädlarrätt överstiger en areal som kalkylmässigt behövs för att producera 185 ton potatis, samt</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>odlingsarealer per växtsort när det gäller egenproducerat utsäde av skyddade växtsorter.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En sortägare får använda uppgifter som lämnats ut i enlighet med 1 mom. endast för att förverkliga sin rätt till ersättning enligt 6 c §. Sortägaren har inte rätt att lämna uppgifterna vidare.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>En förutsättning för utlämnande av uppgifter enligt 1 mom. är att sortägaren och odlaren eller organisationer som representerar dem i enlighet med 6 c § har avtalat om den ersättning som skall betalas till sortägaren.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>6 g §</num>
+                    <heading>Förstöring av uppgifter om odling av en skyddad sort</heading>
+                    <subsection>
+                        <content>
+                            <p>Ett år efter utgången av det kalenderår beträffande vilket uppgifter har lämnats ut för förverkligande av den betalningsskyldighet som avses i 6 c § skall sortägaren förstöra de uppgifter som lämnats ut med stöd av 6 f §.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>34 b §</num>
+                    <heading>Missbruk av uppgifter om odling av en skyddad sort</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Den som i strid med det syfte som anges i 6 f § 2 mom. uppsåtligen eller av oaktsamhet lämnar ut eller använder sådana uppgifter som lämnats ut med stöd av 6 f § skall för 
+                                <i>missbruk av uppgifter om odling av en skyddad</i>
+                                <i>sort</i>
+                                 dömas till böter.
+                            </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>38 §</num>
+                    <heading>Forum</heading>
+                    <subsection>
+                        <content>
+                            <p>Laga domstol för behandling av ärenden med stöd av denna lag är Helsingfors tingsrätt.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juni 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 258/2004</p>
+                        <p>JsUB 1/2005</p>
+                        <p>RSv 29/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 13 maj 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Jord- och skogsbruksminister </role>
+                                <person refersTo="">Juha Korkeaoja</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

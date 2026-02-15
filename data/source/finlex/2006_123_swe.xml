@@ -1,0 +1,120 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2006/123/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/123"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/123/alkup"/>
+                    <FRBRdate date="2006-02-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="123"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2006/123/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/123/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/123/alkup/swe"/>
+                    <FRBRdate date="2006-02-17" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2006/123/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2006/123/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2006/123/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2006</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2006"/>
+                    <finlex:number value="21"/>
+                    <finlex:date date="2006-02-23"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>123/2006</docNumber>
+                <docTitle>Lag om ändring av 21 § i lagen om lagfarts- och inteckningsregister</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 27 mars 1987 om lagfarts- och inteckningsregister (
+                        <affectedDocument href="/akn/fi/act/statute/1987/353">353/1987</affectedDocument>
+                        ) 21 § 1 och 3 mom., sådana de lyder i lag 547/1995, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>21 §</num>
+                    <subsection>
+                        <content>
+                            <p>Lagfarts- och inteckningsregistrets uppgifter om fastighetsindelningen baserar sig på det fastighetsregister som avses i fastighetsregisterlagen (392/1985). Lagfarts- och inteckningsregisterföraren har rätt att för inrättandet och upprätthållandet av lagfarts- och inteckningsregistret avgiftsfritt ur fastighetsregistret få uppgifter om fastigheter och övriga jord- och vattenområdesenheter samt outbrutna områden.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Åtkomstuppgifter som gäller fastighetsöverlåtelser överförs till lagfarts- och inteckningsregistret på grundval av köpvittnenas meddelanden. Meddelandet från ett köpvittne skall ange identifierings- och kontaktuppgifterna för parterna i köpet samt de genom förordning av statsrådet närmare angivna uppgifter som enligt lag får föras in i registret och som gäller köpeobjektet och faktorer som påverkar dess värde. I köpvittnesregistret antecknas de identifierings- och kontaktuppgifter som behövs för att köpvittnena skall kunna nås och för att deras ställning som köpvittne skall kunna klarläggas. Genom förordning av statsrådet utfärdas också bestämmelser om hur köpvittnenas meddelanden skall översändas samt närmare bestämmelser om köpvittnesregistret.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 april 2006. Lagens 21 § 3 mom. träder dock i kraft vid en tidpunkt som bestäms genom förordning av statsrådet.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 75/2005</p>
+                        <p>FvUB 19/2005</p>
+                        <p>RSv 156/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 17 februari 2006</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister </role>
+                                <person refersTo="">Leena Luhtanen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

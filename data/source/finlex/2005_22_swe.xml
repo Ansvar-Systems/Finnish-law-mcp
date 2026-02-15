@@ -1,0 +1,547 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/22/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/22"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/22/alkup"/>
+                    <FRBRdate date="2005-01-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="22"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/22/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/22/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/22/alkup/swe"/>
+                    <FRBRdate date="2005-01-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/22/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/22/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/22/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="new-statute" href="/akn/ontology/concept/statute/category-statute.new-statute" showAs="Uusi säädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#new-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="6"/>
+                    <finlex:date date="2005-01-27"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>22/2005</docNumber>
+                <docTitle>Lag om kosmetiska produkter</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut föreskrivs:</p>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter eId="chp_1">
+                    <num>1 kap.</num>
+                    <heading>Allmänna bestämmelser</heading>
+                    <section eId="chp_1__sec_1">
+                        <num>1 §</num>
+                        <heading>Tillämpningsområde</heading>
+                        <subsection eId="chp_1__sec_1__subsec_1">
+                            <content>
+                                <p>Denna lag tillämpas på de krav som gäller för kosmetiska produkters säkerhet och sammansättning, på användningen av djurförsök för att testa kosmetiska produkter samt på de uppgifter om kosmetiska produkter som skall lämnas konsumenter, andra näringsidkare och myndigheter.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_2">
+                        <num>2 §</num>
+                        <heading>Definitioner</heading>
+                        <subsection eId="chp_1__sec_2__subsec_1">
+                            <intro eId="chp_1__sec_2__subsec_1__intro">
+                                <p>I denna lag avses med</p>
+                            </intro>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>
+                                        <i>kosmetisk produkt</i>
+                                         ett ämne eller en produkt som används på människokroppens yttre delar, tänderna eller munnens slemhinnor i uteslutande eller huvudsakligt syfte att rengöra eller skydda dem, bibehålla dem i gott skick, parfymera dem, förändra deras utseende eller korrigera kroppslukt,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>
+                                        <i>kosmetisk slutprodukt</i>
+                                         en kosmetisk produkt i sin slutliga sammansättning, så som den släpps ut på marknaden och görs tillgänglig för konsumenterna, eller dess prototyp,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>
+                                        <i>kosmetisk produkts prototyp</i>
+                                         en första modell eller utformning av en kosmetisk produkt som inte har framställts i parti och från vilken den kosmetiska produkten kopieras eller utvecklas,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>
+                                        <i>kosmetisk beståndsdel</i>
+                                         ett kemiskt ämne av syntetiskt eller naturligt ursprung, med undantag av parfym och aromatiska sammansättningar, som används i sammansättningen av kosmetiska produkter,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>
+                                        <i>näringsidkare</i>
+                                         en fysisk person eller en enskild eller offentlig juridisk person som i syfte att få inkomst eller annan ekonomisk nytta yrkesmässigt tillverkar, saluför, tillhandahåller, säljer eller på annat sätt i samband med sin näringsverksamhet överlåter kosmetiska produkter till konsumenter eller personer som kan jämställas med konsumenter eller som utför eller tillhandahåller konsumenttjänster för dem,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>
+                                        <i>utsläppande på marknaden</i>
+                                         innehav av kosmetiska produkter för försäljning, inklusive utbjudande till försäljning eller annan överföring till andra näringsidkare eller konsumenter gratis eller mot ersättning samt försäljning och andra former av överföring,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>
+                                        <i>kosmetisk produkt för yrkesmässigt bruk</i>
+                                         en kosmetisk produkt som är avsedd att användas enbart i samband med friser- eller kosmetologtjänster eller andra motsvarande konsumenttjänster,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_8">
+                                <num>8)</num>
+                                <content>
+                                    <p>
+                                        <i>hållbarhetstiden för en kosmetisk produkt</i>
+                                         den tid en kosmetisk produkt, förvarad på riktigt sätt, kan användas för sitt ursprungliga ändamål och inte orsakar fara för människors hälsa, samt
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_1__sec_2__subsec_1__para_9">
+                                <num>9)</num>
+                                <content>
+                                    <p>
+                                        <i>vetenskapliga kommittén</i>
+                                         Europeiska gemenskapernas kommissions vetenskapliga kommitté för kosmetiska produkter och icke-livsmedelsprodukter avsedda för konsumenter.
+                                    </p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_3">
+                        <num>3 §</num>
+                        <heading>Allmänt säkerhetskrav</heading>
+                        <subsection eId="chp_1__sec_3__subsec_1">
+                            <content>
+                                <p>Näringsidkarna skall med den omsorgsfullhet och yrkesskicklighet som förhållandena kräver försäkra sig om att kosmetiska produkter inte orsakar fara för människors hälsa vid normal eller rimligen förutsebar användning.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_3__subsec_2">
+                            <content>
+                                <p>Vid bedömningen av en kosmetisk produkts säkerhet beaktas i synnerhet hur produkten ser ut, presenteras och marknadsförs, eventuella bruksanvisningar samt andra anvisningar och uppgifter som ges om produkten.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_1__sec_4">
+                        <num>4 §</num>
+                        <heading>Tillsyn</heading>
+                        <subsection eId="chp_1__sec_4__subsec_1">
+                            <content>
+                                <p>På tillsynen över kosmetiska produkters säkerhet samt tillsynen över efterlevnaden av andra bestämmelser som ingår i eller utfärdas med stöd av denna lag tillämpas lagen om konsumtionsvarors och konsumenttjänsters säkerhet (75/2004). Utan hinder av 23 § 1 mom. i den nämnda lagen kan också länsstyrelsen och den kommunala tillsynsmyndigheten meddela ett sådant förbud som avses i 23 § i lagen, om en kosmetisk produkt inte är förenlig med denna lag eller bestämmelser som utfärdats med stöd av den.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_1__sec_4__subsec_2">
+                            <content>
+                                <p>För att möjliggöra snabb och adekvat medicinsk behandling kan Konsumentverket kräva att näringsidkaren lämnar Giftinformationscentralen detaljerade uppgifter om en kosmetisk produkts sammansättning för att användas i medicinskt syfte.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_2">
+                    <num>2 kap.</num>
+                    <heading>Krav på kosmetiska produkters sammansättning</heading>
+                    <section eId="chp_2__sec_5">
+                        <num>5 §</num>
+                        <heading>Förbjudna beståndsdelar</heading>
+                        <subsection eId="chp_2__sec_5__subsec_1">
+                            <content>
+                                <p>Kosmetiska produkter får inte innehålla beståndsdelar som vid en vetenskaplig riskbedömning har konstaterats orsaka fara för människors hälsa. Närmare bestämmelser om förbjudna beståndsdelar i kosmetiska produkter utfärdas genom förordning av handels- och industriministeriet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_5__subsec_2">
+                            <content>
+                                <p>Det är förbjudet att i kosmetiska produkter använda ämnen som klassificeras som cancerframkallande, mutagena eller reproduktionstoxiska, kategori 1, 2 och 3, i den förteckning över farliga ämnen som avses i 11 § 4 mom. i kemikalielagen (744/1989). Närmare bestämmelser om verkställigheten av förbudet utfärdas genom förordning av handels- och industriministeriet. Ämnen tillhörande kategori 3 i den förteckning över farliga ämnen som avses i 11 § 4 mom. i kemikalielagen får dock användas i kosmetiska produkter på det sätt som närmare bestäms genom förordning av handels- och industriministeriet, om vetenskapliga kommittén har utvärderat ämnet och bedömt att det kan användas i kosmetiska produkter.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_2__sec_6">
+                        <num>6 §</num>
+                        <heading>Begränsningar som gäller sammansättningen</heading>
+                        <subsection eId="chp_2__sec_6__subsec_1">
+                            <content>
+                                <p>Genom förordning av handels- och industriministeriet utfärdas närmare bestämmelser om beståndsdelar som enligt en vetenskaplig riskbedömning kräver att vissa villkor och begränsningar iakttas för att användningen av dem i kosmetiska produkter skall vara säker.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_2__sec_6__subsec_2">
+                            <content>
+                                <p>I kosmetiska produkter får som färgämnen, konserveringsämnen och solskyddsämnen användas enbart beståndsdelar som vid en vetenskaplig riskbedömning har befunnits säkra för människors hälsa när de används för nämnda ändamål. Närmare bestämmelser om färgämnen, konserveringsämnen och solskyddsämnen som får användas i kosmetiska produkter utfärdas genom förordning av handels- och industriministeriet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_3">
+                    <num>3 kap.</num>
+                    <heading>Krav som gäller djurförsök</heading>
+                    <section eId="chp_3__sec_7">
+                        <num>7 §</num>
+                        <heading>Djurförsök för testning av kosmetiska produkter</heading>
+                        <subsection eId="chp_3__sec_7__subsec_1">
+                            <content>
+                                <p>Det är förbjudet att i Finland testa kosmetiska slutprodukter på djur för att tillgodose de föreskrivna kraven på kosmetiska produkter.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_3__sec_7__subsec_2">
+                            <content>
+                                <p>Det är förbjudet att i Finland testa kosmetiska beståndsdelar och kombinationer av beståndsdelar på djur för att tillgodose de föreskrivna kraven på kosmetiska produkter efter att den alternativa testmetod som ersätter djurförsöket i fråga har validerats och antagits. Bestämmelser om verkställigheten av detta förbud utfärdas genom förordning av handels- och industriministeriet efter att Europeiska gemenskapernas kommission har fastställt tidsplanen för när förbudet mot djurförsök med kosmetiska beståndsdelar skall träda i kraft. Närmare bestämmelser om alternativa testmetoder som gör det möjligt att garantera kosmetiska produkters säkerhet, trots att de eventuellt inte kan tillämpas för att bedöma kemiska beståndsdelars säkerhet vid all användning, utfärdas genom förordning av handels- och industriministeriet efter att Europeiska gemenskapernas kommission har fastställt en förteckning över sådana alternativa metoder.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_8">
+                        <num>8 §</num>
+                        <heading>Utsläppande på marknaden av kosmetiska produkter som testats på djur</heading>
+                        <subsection eId="chp_3__sec_8__subsec_1">
+                            <content>
+                                <p>Det är förbjudet att på marknaden i Finland släppa ut kosmetiska slutprodukter som i sin slutliga sammansättning har testats på djur för att tillgodose kraven på kosmetiska produkter efter att den alternativa testmetod som ersätter djurförsöket i fråga har validerats och antagits. Detsamma gäller kosmetiska slutprodukter innehållande beståndsdelar eller kombinationer av beståndsdelar som testats på djur för att tillgodose kraven på kosmetiska produkter efter att den alternativa testmetod som ersätter djurförsöket i fråga har validerats och antagits. Bestämmelser om verkställigheten av förbudet utfärdas genom förordning av handels- och industriministeriet efter att Europeiska gemenskapernas kommission har fastställt tidsplanen för när förbudet skall träda i kraft.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_3__sec_9">
+                        <num>9 §</num>
+                        <heading>Omnämnanden av djurförsök</heading>
+                        <subsection eId="chp_3__sec_9__subsec_1">
+                            <content>
+                                <p>Omnämnanden av att en kosmetisk produkt inte testats på djur är tillåtna på den kosmetiska produktens förpackning och i dokument, meddelanden, etiketter och motsvarande som hänför sig till produkten under förutsättning att tillverkaren eller dennes leverantör inte har testat den kosmetiska slutprodukten, dess prototyp eller några av de beståndsdelar som den innehåller på djur, eller använt beståndsdelar som andra har testat på djur i syfte att utveckla nya kosmetiska produkter.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_4">
+                    <num>4 kap.</num>
+                    <heading>Krav på märkning av kosmetiska produkter</heading>
+                    <section eId="chp_4__sec_10">
+                        <num>10 §</num>
+                        <heading>Obligatorisk märkning</heading>
+                        <subsection eId="chp_4__sec_10__subsec_1">
+                            <intro eId="chp_4__sec_10__subsec_1__intro">
+                                <p>En kosmetisk produkts bruksförpackning och yttre förpackning skall vara försedd med följande information:</p>
+                            </intro>
+                            <paragraph eId="chp_4__sec_10__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>namn eller bifirma och adress för tillverkare inom Europeiska ekonomiska samarbetsområdet eller för annan näringsidkare som inom detta område har släppt ut den kosmetiska produkten på marknaden,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_10__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>innehållsmängden vid förpackningstidpunkten uttryckt i vikt- eller volymenheter som allmänt används i Finland,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_10__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>produktens hållbarhetstid, om den är högst 30 månader,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_10__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>uppgift om hur länge produkten kan användas utan fara för människors hälsa efter att ha öppnats, om hållbarhetstiden överstiger 30 månader,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_10__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>anvisningar och varningar som behövs för en säker användning av produkten samt de varningsmärkningar om vilka föreskrivs närmare genom förordning av handels- och industriministeriet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_10__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>satskod,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_10__subsec_1__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>produktens funktion, om den inte framgår av hur produkten ser ut och presenteras, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_4__sec_10__subsec_1__para_8">
+                                <num>8)</num>
+                                <content>
+                                    <p>en förteckning över produktens beståndsdelar i fallande ordning efter den vikt de hade när de tillsattes i produkten.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_4__sec_10__subsec_2">
+                            <content>
+                                <p>Om det på grund av produktens eller förpackningens storlek eller form eller av annan liknande orsak är omöjligt att göra märkningen på bruksförpackningen eller den yttre förpackningen, får uppgifterna ges konsumenten i en broschyr som åtföljer produkten eller på motsvarande sätt. Närmare bestämmelser om märkningen utfärdas genom förordning av handels- och industriministeriet. I en sådan förordning kan det också bestämmas om sådana smärre avvikelser från märkningsskyldigheten som är förenliga med Europeiska gemenskapens lagstiftning om kosmetiska produkter.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_4__sec_11">
+                        <num>11 §</num>
+                        <heading>Språkkrav och tydlighet</heading>
+                        <subsection eId="chp_4__sec_11__subsec_1">
+                            <content>
+                                <p>De uppgifter som föreskrivs i 10 § 1 mom. 2―5 och 7 punkten skall anges på finska och svenska i enlighet med 34 § i språklagen (423/2003). Kosmetiska beståndsdelar skall anges med den benämning som ingår i kommissionens beslut 96/335/EG om sammanställning av en inventering och fastställande av en gemensam nomenklatur över de beståndsdelar som används i kosmetiska produkter. Närmare bestämmelser om angivande av kosmetiska beståndsdelar utfärdas genom förordning av handels- och industriministeriet.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_4__sec_11__subsec_2">
+                            <content>
+                                <p>Den märkning som föreskrivs i denna lag och i bestämmelser som utfärdats med stöd av den skall göras så att den är outplånlig, väl synlig och lättläst.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_5">
+                    <num>5 kap.</num>
+                    <heading>Näringsidkarens skyldigheter</heading>
+                    <section eId="chp_5__sec_12">
+                        <num>12 §</num>
+                        <heading>Registreringsanmälan</heading>
+                        <subsection eId="chp_5__sec_12__subsec_1">
+                            <content>
+                                <p>En finländsk tillverkare, en finländsk näringsidkare för vilken en kosmetisk produkt tillverkats samt en finländsk importör som första gången släpper ut en importerad kosmetisk produkt på marknaden i Europeiska ekonomiska samarbetsområdet skall innan produkten släpps ut på marknaden lämna in en registreringsanmälan till Konsumentverket.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_12__subsec_2">
+                            <content>
+                                <p>Närmare bestämmelser om inlämnande av registreringsanmälan utfärdas genom förordning av handels- och industriministeriet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_13">
+                        <num>13 §</num>
+                        <heading>Produktspecifika uppgifter</heading>
+                        <subsection eId="chp_5__sec_13__subsec_1">
+                            <intro eId="chp_5__sec_13__subsec_1__intro">
+                                <p>En näringsidkare som ansvarar för att en kosmetisk produkt släpps ut på marknaden i Europeiska ekonomiska samarbetsområdet skall hålla följande uppgifter om produkten tillgängliga för medlemsstaternas behöriga myndigheter:</p>
+                            </intro>
+                            <paragraph eId="chp_5__sec_13__subsec_1__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>den kosmetiska produktens kvalitativa och kvantitativa sammansättning; i fråga om parfymer och parfymsammansättningar räcker det med beståndsdelens benämning och kodnummer samt uppgifter som identifierar leverantören,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_13__subsec_1__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>de kosmetiska beståndsdelarnas och den kosmetiska slutproduktens fysikalisk-kemiska och mikrobiologiska specifikationer samt renhetskriterier och kriterier för mikrobiologisk kontroll avseende den kosmetiska produkten,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_13__subsec_1__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>tillverkningsmetoden, som skall vara förenlig med god tillverkningssed; den person som är ansvarig för tillverkningen eller för att produkten första gången släpps ut på marknaden i Europeiska ekonomiska samarbetsområdet skall ha behörig yrkeskompetens eller erfarenhet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_13__subsec_1__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>bedömning av den kosmetiska slutproduktens säkerhet för människors hälsa; vid säkerhetsbedömningen skall beaktas beståndsdelarnas allmänna toxikologiska profil, deras kemiska struktur och deras exponeringsgrad, liksom också de specifika exponeringsegenskaperna hos de ytor på vilka produkten kommer att appliceras eller hos de personer som den är avsedd för; en särskild säkerhetsbedömning skall göras bland annat av produkter som är avsedda för barn under tre års ålder och av produkter som är avsedda uteslutande för utvärtes intimhygien,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_13__subsec_1__para_5">
+                                <num>5)</num>
+                                <content>
+                                    <p>namn och adress för de personer som ansvarar för den säkerhetsbedömning som avses i 4 punkten,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_13__subsec_1__para_6">
+                                <num>6)</num>
+                                <content>
+                                    <p>tillgängliga uppgifter om oönskade effekter för människors hälsa som uppkommer då den kosmetiska produkten används,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_13__subsec_1__para_7">
+                                <num>7)</num>
+                                <content>
+                                    <p>bevisning för den verkan som den kosmetiska produkten uppges ha, om detta är motiverat med hänsyn till arten av denna verkan eller till produkten, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_5__sec_13__subsec_1__para_8">
+                                <num>8)</num>
+                                <content>
+                                    <p>uppgifter om alla djurförsök som tillverkaren, dennes representanter eller leverantörer utfört i samband med utveckling eller säkerhetsbedömning av produkten eller dess beståndsdelar.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection eId="chp_5__sec_13__subsec_2">
+                            <content>
+                                <p>Produktspecifika uppgifter skall inom en rimlig tidsfrist finnas tillgängliga för de finländska behöriga myndigheterna på finska eller svenska eller något annat språk som används allmänt inom internationell handel på den adress som anges i märkningen på den kosmetiska produkten.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_13__subsec_3">
+                            <content>
+                                <p>Utan att det påverkar skyddet av affärshemligheter samt immateriella rättigheter skall de uppgifter som nämns i 1 mom. 1 och 6 punkten göras lättillgängliga för allmänheten med lämpliga medel. Uppgifterna om en produkts kvantitativa sammansättning skall göras tillgängliga för allmänheten endast i fråga om ämnen i den förteckning över farliga ämnen som avses i 11 § 4 punkten i kemikalielagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_14">
+                        <num>14 §</num>
+                        <heading>Behörighet för den som ansvarar för säkerhetsbedömningen</heading>
+                        <subsection eId="chp_5__sec_14__subsec_1">
+                            <content>
+                                <p>Den som ansvarar för bedömningen enligt 13 § 1 mom. 4 punkten av en kosmetisk produkts säkerhet skall ha högre högskoleexamen eller motsvarande behörighet i farmaci, toxikologi, dermatologi eller övrig medicin eller ett liknande ämne.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_15">
+                        <num>15 §</num>
+                        <heading>Kriterier för analysmetoder samt renhetskriterier</heading>
+                        <subsection eId="chp_5__sec_15__subsec_1">
+                            <content>
+                                <p>Bestämmelser om analysmetoderna för att kontrollera sammansättningen av kosmetiska produkter samt om kriterierna för kosmetiska produkters mikrobiologiska och kemiska renhet utfärdas genom förordning av handels- och industriministeriet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section eId="chp_5__sec_16">
+                        <num>16 §</num>
+                        <heading>Skydd av affärshemligheter</heading>
+                        <subsection eId="chp_5__sec_16__subsec_1">
+                            <content>
+                                <p>En finländsk tillverkare, en finländsk näringsidkare för vilken en kosmetisk produkt tillverkas samt en finländsk importör som första gången släpper ut en kosmetisk produkt på marknaden i Europeiska ekonomiska samarbetsområdet kan genom att åberopa skydd av affärshemligheter hos Konsumentverket ansöka om tillstånd att låta bli att ange en eller flera beståndsdelar i den förteckning över beståndsdelar som avses i 10 § 1 mom. 8 punkten. Tillstånd kan beviljas i synnerhet om den beståndsdel som ansökan gäller ännu inte är allmänt känd och dess funktion inte är beskriven i branschlitteraturen och om ett angivande av beståndsdelen i förteckningen över beståndsdelar skulle leda till att det vore lätt att reproducera beståndsdelen till förfång för den sökande.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_16__subsec_2">
+                            <content>
+                                <p>Om Konsumentverket godkänner en ansökan, meddelar verket den sökande ett registreringsnummer under vilket beståndsdelen anges i förteckningen över beståndsdelar. Ett tillstånd som beviljas för skydd av affärshemligheter gäller i fem år. Konsumentverket kan på ansökan förlänga tillståndets giltighetstid med högst tre år, om grunderna för beviljande av tillståndet fortfarande föreligger. Konsumentverket kan återkalla ett tillstånd, om grunderna för beviljande av tillstånd inte längre föreligger eller om särskilda folkhälsoskäl kräver att tillståndet återkallas. Konsumentverket skall motivera sitt beslut att inte godkänna en ansökan om tillstånd samt sitt beslut att återkalla ett tillstånd.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_16__subsec_3">
+                            <content>
+                                <p>Konsumentverket underrättar Europeiska gemenskapernas kommission och Europeiska gemenskapernas andra medlemsstater om tillstånd som verket beviljat, beslut att inte bevilja tillstånd samt beslut om förlängning av tillstånd och återkallande av tillstånd.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_5__sec_16__subsec_4">
+                            <content>
+                                <p>Närmare bestämmelser om ansökningar om tillstånd som beviljas för skydd av affärshemligheter och om behandlingen av ansökningar utfärdas genom förordning av handels- och industriministeriet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter eId="chp_6">
+                    <num>6 kap.</num>
+                    <heading>Ikraftträdande</heading>
+                    <section eId="chp_6__sec_17">
+                        <num>17 §</num>
+                        <heading>Ikraftträdande</heading>
+                        <subsection eId="chp_6__sec_17__subsec_1">
+                            <content>
+                                <p>Denna lag träder i kraft den 1 februari 2005.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_17__subsec_2">
+                            <content>
+                                <p>Saluföring av produkter som inte uppfyller kraven i 10 § 1 mom. 4 punkten är förbjuden från och med den 11 mars 2005. Produkter som har tillverkats och förpackats före nämnda datum får dock slutsäljas, förutsatt att de uppfyller de krav som gällde före lagens ikraftträdande.</p>
+                            </content>
+                        </subsection>
+                        <subsection eId="chp_6__sec_17__subsec_3">
+                            <intro eId="chp_6__sec_17__subsec_3__intro">
+                                <p>Genom denna lag upphävs</p>
+                            </intro>
+                            <paragraph eId="chp_6__sec_17__subsec_3__para_1">
+                                <num>1)</num>
+                                <content>
+                                    <p>kosmetikförordningen av den 22 mars 1996 (189/1996) jämte ändringar,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_6__sec_17__subsec_3__para_2">
+                                <num>2)</num>
+                                <content>
+                                    <p>handels- och industriministeriets beslut av den 22 mars 1996 om kosmetiska preparat (190/1996),</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_6__sec_17__subsec_3__para_3">
+                                <num>3)</num>
+                                <content>
+                                    <p>bilagorna till handels- och industriministeriets beslut av den 22 december 1993 om kosmetiska preparat (1415/1993) jämte ändringar, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph eId="chp_6__sec_17__subsec_3__para_4">
+                                <num>4)</num>
+                                <content>
+                                    <p>handels- och industriministeriets beslut av den 14 augusti 1996 om vissa analysmetoder för kontroll av kosmetiska preparats sammansättning (637/1996).</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 105/2004</p>
+                        <p>EkUB 19/2004</p>
+                        <p>StoUB 5/2004</p>
+                        <p>RSv 157/2004</p>
+                        <p>Europaparlamentets och rådets direktiv 2003/15/EG (32003L0015); EUT nr L 66, 11.3.2003, s. 26</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 21 januari 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Handels- och industriminister </role>
+                                <person refersTo="">Mauri Pekkarinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

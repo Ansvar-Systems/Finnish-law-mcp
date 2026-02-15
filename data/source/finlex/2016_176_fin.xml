@@ -1,0 +1,297 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2016/176/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/176"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/176/alkup"/>
+                    <FRBRdate date="2016-03-18" name="dateIssued"/>
+                    <FRBRdate date="2016-03-21" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="176"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2016/176/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/176/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/176/alkup/fin"/>
+                    <FRBRdate date="2016-03-18" name="dateIssued"/>
+                    <FRBRdate date="2016-03-21" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2016/176/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2016/176/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2016/176/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2016-03-21" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2016</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>176/2016</docNumber>
+                <docTitle>Laki Finanssivalvonnasta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         Finanssivalvonnasta annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2008/878">878/2008</affectedDocument>
+                        ) 24 §:n 1 momentti, 28 §:n otsikko ja 1 momentin johdantokappale, 41 §:n 2 momentti, 43 ja 44 a §, 53 §:n 1 momentti ja 73 §:n 2 ja 3 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin niistä ovat 28 §:n otsikko ja 1 momentin johdantokappale sekä 73 §:n 2 ja 3 momentti laissa 752/2012, 41 §:n 2 momentti ja 43 § laissa 611/2014 sekä 44 a § laeissa 1242/2011, 902/2012 ja 611/2014, sekä</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         28 §:ään, sellaisena kuin se on laissa 752/2012, uusi 3 momentti ja 41 a §:ään, sellaisena kuin se on laissa 1279/2015, uusi 3 momentti, jolloin nykyiset 3 ja 4 momentti siirtyvät 4 ja 5 momentiksi, seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>24 §</num>
+                    <heading>Tarkastusoikeus</heading>
+                    <subsection>
+                        <content>
+                            <p>Finanssivalvonnalla on salassapitosäännösten estämättä oikeus saada tarkastettavakseen valvottavan ja muun finanssimarkkinoilla toimivan toimipaikassa tämän toimintaa ja hallintoa koskevat asiakirjat, tallenteet puhelinkeskusteluista ja sähköisestä viestinnästä, muut tietoliikennetiedot sekä tietojärjestelmät siinä laajuudessa kuin se on tarpeen Finanssivalvonnalle laissa säädetyn valvontatehtävän hoitamiseksi. Finanssivalvonnalla on oikeus saada valvottavalta ja muulta finanssimarkkinoilla toimivalta maksutta tarpeelliset jäljennökset tässä pykälässä tarkoitetuista asiakirjoista ja muista tallenteista ja tietoliikennetiedoista.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>28 §</num>
+                    <heading>Johdon toiminnan rajoittaminen</heading>
+                    <subsection>
+                        <intro>
+                            <p>Finanssivalvonta voi määräajaksi, enintään viideksi vuodeksi, kieltää henkilöä toimimasta toimilupavalvottavan hallituksen jäsenenä ja varajäsenenä, hallintoneuvoston jäsenenä ja varajäsenenä, toimitusjohtajana ja toimitusjohtajan sijaisena sekä toimitusjohtajan välittömään alaisuuteen kuuluvissa tehtävissä, jotka ovat toimilupavalvottavan ylimpiä johtotehtäviä tai joissa tosiasiallisesti johdetaan sen toimintaa, jos:</p>
+                        </intro>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Finanssivalvonta voi pysyvästi kieltää henkilöä toimimasta sijoitusrahastolaissa tarkoitetussa rahastoyhtiössä ja sijoitusrahastolain nojalla toimiluvan saaneessa säilytysyhteisössä 1 momentissa tarkoitetussa tehtävässä, jos tämä on toistuvasti ja vakavasti rikkonut tai laiminlyönyt sijoitusrahastolain 144 b §:ssä mainittuja säännöksiä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>41 §</num>
+                    <heading>Seuraamusmaksun määrääminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Seuraamusmaksun määrä perustuu kokonaisarviointiin. Seuraamusmaksun määrää arvioitaessa on otettava huomioon menettelyn laatu, laajuus ja kestoaika sekä tekijän taloudellinen asema. Lisäksi arvioinnissa on otettava huomioon menettelyllä saavutettu hyöty ja sillä  aiheutettu vahinko, jos ne ovat määritettävissä, tekijän yhteistyö Finanssivalvonnan kanssa asian selvittämiseksi ja toimenpiteet rikkomisen toistumisen estämiseksi, aiemmat finanssimarkkinoita koskeviin säännöksiin kohdistuneet rikkomukset ja laiminlyönnit sekä menettelyn mahdolliset vaikutukset rahoitusjärjestelmän vakaudelle.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>41 a § </num>
+                    <heading>Seuraamusmaksun enimmäismäärä eräissä tapauksissa</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Jos seuraamusmaksu koskee sijoitusrahastolain 144 b §:n 2 momentissa mainittujen säännösten rikkomista, oikeushenkilölle määrättävä seuraamusmaksu saa olla enintään joko 10 prosenttia oikeushenkilön tekoa tai laiminlyöntiä edeltävän vuoden liikevaihdosta tai enintään viisi miljoonaa euroa, ja luonnolliselle henkilölle määrättävä seuraamusmaksu enintään viisi miljoonaa euroa.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>43 § </num>
+                    <heading>Hallinnollisen seuraamuksen ja muun päätöksen julkistaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>Finanssivalvonnan on julkistettava päätös, jossa määrätään rikemaksu, julkinen varoitus tai seuraamusmaksu sekä markkinaoikeuden määräämä seuraamusmaksu viipymättä sen jälkeen, kun päätöksestä on ilmoitettu sen kohteena olevalle henkilölle. Julkistamisesta on käytävä ilmi, onko seuraamuksen antamista tai määräämistä koskeva päätös lainvoimainen, rikkomisen luonne ja tyyppi sekä rikkomisesta vastuussa olevan henkilöllisyys. Jos muutoksenhakuviranomainen kumoaa päätöksen kokonaan tai osittain, Finanssivalvonnan on julkistettava tieto muutoksenhakuviranomaisen päätöksestä vastaavalla tavalla kuin seuraamuksen antaminen tai määrääminen on julkistettu. Seuraamusta koskevat tiedot on pidettävä Finanssivalvonnan internetsivuilla viiden vuoden ajan. </p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Jos seuraamuksen kohteena olevan luonnollisen henkilön tai oikeushenkilön nimen julkistaminen olisi kohtuutonta, tai jos seuraamuksen julkistaminen vaarantaisi finanssimarkkinoiden vakauden tai meneillään olevan viranomaistutkinnan, Finanssivalvonta voi:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>lykätä seuraamusta koskevan päätöksen julkistamista, kunnes perusteita olla julkistamatta päätöstä ei enää ole; </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>julkistaa seuraamusta koskevan päätöksen ilman seuraamuksen kohteena olevan henkilön nimeä; </p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3) </num>
+                            <content>
+                                <p>jättää seuraamusta koskevan päätöksen julkistamatta, jos 1 ja 2 kohdassa tarkoitetut toimenpiteet eivät ole riittäviä varmistamaan sitä, että finanssimarkkinoiden vakaus ei vaarannu;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4) </num>
+                            <content>
+                                <p>jättää 4 momentissa tarkoitetun päätöksen julkistamatta, jos päätöksen julkistaminen ei olisi kohtuullista sen kohteena olevan toimenpiteen vähäisyyden vuoksi.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos Finanssivalvonta julkistaa seuraamusta koskevan päätöksen 2 momentin 2 kohdan mukaisesti ilman seuraamuksen kohteena olevan henkilön nimeä, Finanssivalvonta voi samalla päättää julkistaa nimen myöhemmin kohtuullisen ajan kuluttua, jos perusteet julkistamatta jättämiselle lakkaavat tuossa ajassa.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mitä edellä tässä pykälässä säädetään rikemaksun, julkisen varoituksen ja seuraamusmaksun julkistamisesta, sovelletaan myös 26—29, 33 ja 33 a §:ssä ja sijoitusrahastolain 18 j ja 122 §:ssä tarkoitettujen päätösten julkistamiseen.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>44 a § </num>
+                    <heading>Seuraamuksista ja muista päätöksistä ilmoittaminen Euroopan valvontaviranomaisille</heading>
+                    <subsection>
+                        <intro>
+                            <p>Finanssivalvonnan on finanssimarkkinoita koskevissa Euroopan unionin säädöksissä tarkoitetuissa tapauksissa toimitettava asianomaiselle Euroopan valvontaviranomaiselle:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>tieto tässä luvussa tarkoitetusta julkistetusta seuraamuksesta samanaikaisesti, kun seuraamus julkistetaan sekä tieto mahdollisesta muutoksenhausta ja sen lopputuloksesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>tieto tässä luvussa tarkoitetusta julkistamattomasta seuraamuksesta samanaikaisesti, kun seuraamus annetaan tai määrätään sekä tieto mahdollisesta muutoksenhausta ja sen lopputuloksesta;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3) </num>
+                            <content>
+                                <p>vuosittain yhdistelmätiedot kunakin vuonna määrätyistä tämän luvun mukaisista seuraamuksista;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4) </num>
+                            <content>
+                                <p>tieto finanssimarkkinoita koskevien säännösten rikkomisesta annetuista rikosoikeudellisista seuraamuksista sekä tieto mahdollisesta muutoksenhausta ja sen lopputuloksesta.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Mitä 1 momentin 1—3 kohdassa säädetään seuraamuksesta ilmoittamisesta, sovelletaan myös 26—29, 33 ja 33 a §:ssä ja sijoitusrahastolain 18 j ja 122 §:ssä tarkoitettuihin päätöksiin.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>53 §</num>
+                    <heading>Valvontayhteistyöstä kieltäytyminen</heading>
+                    <subsection>
+                        <intro>
+                            <p>Finanssivalvonta voi kieltäytyä valvontayhteistyöstä ulkomaisen ETA-valvontaviranomaisen kanssa vain, jos:</p>
+                        </intro>
+                        <paragraph>
+                            <num>1) </num>
+                            <content>
+                                <p>yhteistyö vaarantaisi Suomen itsemääräämisoikeuden, turvallisuuden tai yleisen järjestyksen;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>2) </num>
+                            <content>
+                                <p>yhteistyöpyyntö koskee henkilöä, jota koskeva yhteistyöpyynnössä tarkoitettua asiaa koskeva oikeudenkäynti on vireillä Suomessa;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>3) </num>
+                            <content>
+                                <p>Suomessa on annettu lainvoimainen päätös, joka koskee yhteistyöpyynnön kohteena olevaa henkilöä ja tekoa; taikka</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>4) </num>
+                            <content>
+                                <p>pyynnön noudattaminen vaikuttaisi todennäköisesti haitallisesti sen omaan tutkintaan tai täytäntöönpanon valvontaan.</p>
+                            </content>
+                        </paragraph>
+                        <hcontainer name="omission"/>
+                    </subsection>
+                </section>
+                <section>
+                    <num>73 §</num>
+                    <heading>Muutoksenhaku</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Finanssivalvonnan 38—41 ja 41 a §:n nojalla antamaan päätökseen saa hakea muutosta valittamalla markkinaoikeuteen siten kuin hallintolainkäyttölaissa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Markkinaoikeuden 2 momentissa tarkoitettuun päätökseen sekä 40, 41 ja 41 a §:n nojalla antamaan päätökseen saa hakea muutosta valittamalla korkeimpaan hallinto-oikeuteen siten kuin hallintolainkäyttölaissa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 21 päivänä maaliskuuta 2016. </p>
+                    <p>Tekoon ja laiminlyöntiin, joka on tehty ennen tämän lain voimaantuloa, sovelletaan tämän lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2016/3">HE 3/2016</ref>
+                        </p>
+                        <p>TaVM 2/2016</p>
+                        <p>EV 14/2016</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2014/91/EU (32014L0091); EUVL L 257, 28.8.2014, s. 186</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 18 päivänä maaliskuuta 2016</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti</role>
+                                <person refersTo="">Sauli Niinistö</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Valtiovarainministeri</role>
+                                <person refersTo="">Alexander Stubb</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

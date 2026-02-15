@@ -1,0 +1,135 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1169/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1169"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1169/alkup"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1169"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1169/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1169/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1169/alkup/fin"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1169/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1169/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1169/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="169"/>
+                    <finlex:date date="2007-12-13"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1169/2007</docNumber>
+                <docTitle>Laki merimieseläkelain voimaanpanosta annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         merimieseläkelain voimaanpanosta 22 päivänä joulukuuta 2006 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2006/1291">1291/2006</affectedDocument>
+                        ) 4 §:n 4 momentti, 9 §:n 1 momentti ja 22 §:n 1 momentti seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>4 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Uuden lain 81 §:n 3 ja 4 momentissa tarkoitetun eläkeotteen toimittaneen eläkelaitoksen sijasta 31 päivään joulukuuta 2012 asti eläkeotteella ilmoitettujen yksityisten alojen työeläkelakien mukaisten työansioiden oikeellisuuden selvittää ja selvityksen perusteella päätöksen antaa se eläkelaitos, joka on järjestänyt eläketurvan selvityksen kohteena olevasta työstä. Otteen toimittanut eläkelaitos siirtää asian toimivaltaisen eläkelaitoksen käsiteltäväksi.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>9 §</num>
+                    <subsection>
+                        <content>
+                            <p>Jos eläketapahtuma on vuosina 2006―2009, tulevan ajan ansiota määrättäessä otetaan vuoden 2004 työansiona huomioon vuosiansioksi muutettuna se eläkepalkka, jonka perusteella tulevan ajan eläkeosuus olisi laskettu, jos työntekijä olisi tullut työkyvyttömäksi 31 päivänä joulukuuta 2004, ja vuoden 2005 työansiot otetaan huomioon siten kuin uuden lain 82―84 §:ssä säädetään. Tällöin tarkasteluaikana käytetään vastaavasti tulevan ajan ansion perusteena huomioon otettavien vuosien määrää. Jos eläketapahtuma on vuonna 2010, otetaan vuoden 2005 työansiot huomioon siten kuin uuden lain 69, 75 ja 82―84 §:ssä sekä 86 §:n 1 ja 2 momentissa säädetään ja tarkasteluaika määrätään vastaavasti vuosien 2005―2010 perusteella. Uuden lain 25 §:n 1 momentin 2 kohdassa tarkoitettua ansioedellytystä määrättäessä otetaan huomioon työansioita kuntoutushakemuksen vireille tuloa edeltävän viiden kalenterivuoden ajalta.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>22 §</num>
+                    <subsection>
+                        <content>
+                            <p>Ennen vuotta 1950 syntyneellä pitkäaikaisesti työttömällä työntekijällä on oikeus työttömyyseläkkeeseen siten kuin uuden lain voimaan tullessa voimassa olleessa vanhassa laissa ja sen muuttamisesta annettujen lakien voimaantulosäännöksissä säädetään. Muilta osin työttömyyseläkkeeseen ja sen saajaan sovelletaan, mitä uuden lain voimaan tullessa voimassa olleessa vanhan lain 2 ja 15 e §:ssä, 16 §:n 2 momentin 1 kohdassa ja 4 momentissa, 17 §:n 2 momentin 1 kohdassa ja 4 momentissa sekä työntekijäin eläkelain 17 b §:n 3 momentissa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/95">HE 95/2007</ref>
+                        </p>
+                        <p>StVM 9/2007</p>
+                        <p>EV 55/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 7 päivänä joulukuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

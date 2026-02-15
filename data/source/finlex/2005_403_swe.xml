@@ -1,0 +1,188 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/403/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/403"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/403/alkup"/>
+                    <FRBRdate date="2005-06-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="403"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/403/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/403/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/403/alkup/swe"/>
+                    <FRBRdate date="2005-06-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/403/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/403/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/403/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="74"/>
+                    <finlex:date date="2005-06-15"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>403/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om fordonstrafikregistret</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 13 juni 2003 om fordonstrafikregistret (
+                        <affectedDocument href="/akn/fi/act/statute/2003/541">541/2003</affectedDocument>
+                        ) 9 § 1 mom. 5 och 6 punkten, 17 § 2 mom. 9 punkten och 3 mom. samt 20 § samt
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 9 § 1 mom. en ny 7 punkt som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>9 §</num>
+                    <heading>Utplåning av personuppgifter ur registret</heading>
+                    <subsection>
+                        <intro>
+                            <p>Personuppgifter utplånas ur registret enligt följande:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>en registrerads fotografi och namnteckning sedan fem år förflutit från det att körrätten upphörde eller förarkortets giltighetstid gick ut,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>uppgifter i anslutning till beviljade tillstånd och kort sedan fem år förflutit från det att giltighetstiden för tillståndet, körrätten eller kortet i fråga gick ut,</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>samtliga uppgifter sedan ett år förflutit från den registrerades död.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>17 §</num>
+                    <heading>Sekretessbelagda uppgifter och utlämnande av dem</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Sekretessbelagda uppgifter i registret får dock lämnas ut som följer:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>9)</num>
+                            <content>
+                                <p>till handläggare av kort för färdskrivare vid vägtransporter, fotografier och namnteckningsprov för hantering av kortet,</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Uppgifterna får också lämnas ut med hjälp av en teknisk anslutning eller på annat sätt i elektronisk form. Innan uppgifter lämnas ut skall mottagaren lägga fram en utredning om skydd för uppgifterna.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>20 §</num>
+                    <heading>Andra begränsningar av utlämnande av uppgifter</heading>
+                    <subsection>
+                        <content>
+                            <p>En person har dessutom, utöver vad som bestäms i 30 § i personuppgiftslagen, rätt att förbjuda att hans eller hennes adressuppgifter lämnas ut per telefon till andra än myndigheter, Trafikförsäkringscentralen, trafikförsäkringsbolag, besiktningsförrättare, förarexamensmottagare eller avtalsregistrerare eller för någon annan i lag föreskriven användning.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Om en person har grundad anledning att misstänka att hans eller hennes egen eller familjens hälsa eller säkerhet kan komma att hotas, kan Fordonsförvaltningscentralen på skriftlig begäran besluta att personuppgifter som gäller honom eller henne inte får lämnas ut ur registret till andra än myndigheter, Trafikförsäkringscentralen, trafikförsäkringsbolag, besiktningsförrättare, avtalsregistrerare, förarexamensmottagare och till handläggare av kort för färdskrivare vid vägtransporter för skötseln av i lag föreskrivna uppgifter. Detta beslut kan första gången gälla högst fem år. Begränsningens giltighetstid kan förlängas med två år i sänder.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>När en sådan i befolkningsdatasystemet registrerad begränsning av utlämnande av uppgifter som avses i 11 § 1 mom. 1 punkten överförs till registret skall begränsningen utvidgas till att omfatta de uppgifter som avses i 2 mom. i denna paragraf. Att begränsningen utvidgas hindrar inte att personuppgifterna lämnas ut till dem som avses i 2 mom.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>När uppgifter som omfattas av en i 2 eller 3 mom. avsedd begränsning av utlämnande av uppgifter lämnas ut, skall mottagaren samtidigt underrättas om begränsningen samt om begränsningarna i fråga om användning av och skydd för uppgifterna. Av särskilda skäl kan den registeransvarige besluta att mottagaren inte underrättas om utlämningsbegränsningen, ifall den uppgift som lämnas ut och dess användningsändamål är sådana att syftet med begränsningen av utlämnande av uppgifter inte bedöms äventyras av att mottagaren inte underrättas om utlämningsbegränsningen.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 20 juni 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 267/2004</p>
+                        <p>KoUB 8/2005</p>
+                        <p>RSv 38/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 10 juni 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Ulla-Maija Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

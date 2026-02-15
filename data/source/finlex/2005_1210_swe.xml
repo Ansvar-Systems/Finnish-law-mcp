@@ -1,0 +1,436 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1210/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1210"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1210/alkup"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1210"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1210/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1210/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1210/alkup/swe"/>
+                    <FRBRdate date="2005-12-29" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/1210/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/1210/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/1210/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="199"/>
+                    <finlex:date date="2005-12-30"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1210/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om bostadsrättsbostäder</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 16 juli 1990 om bostadsrättsbostäder (<affectedDocument href="/akn/fi/act/statute/1990/650">650/1990</affectedDocument>) 4 § 1 och 2 mom., 4 a § 2 och 3 mom., 4 b §, 4 c § 2 mom., rubriken för 5 §, 26 b § 1 mom., 45 § 1 mom., 51 a §, 51 d § 2 mom., 55 och 59 §,
+                    </block>
+                    <block name="substitutions-originals">av dem 4 § 1 mom., 4 a § 2 och 3 mom., 4 b §, 4 c § 2 mom., 26 b § 1 mom., 45 § 1 mom., 51 a §, 51 d § 2 mom. och 59 § sådana de lyder i lag 127/2003, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 4 a §, sådan den lyder i sistnämnda lag, ett nytt 5 mom., varvid det nuvarande 5 mom. blir 6 mom., till 5 § nya 3―5 mom., till lagen en ny 5 a §, till 20 § ett nytt 2 mom., till 26 a §, sådan den lyder i sistnämnda lag, ett nytt 4 mom., till lagen nya 50 b och 50 c §, till 51 §, sådan den lyder i sistnämnda lag, nya 3―5 mom. samt till lagen en ny 54 a § som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>1 kap.</num>
+                    <heading>Allmänna stadganden</heading>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Bostadsrättshavarna</heading>
+                        <subsection>
+                            <content>
+                                <p>Utöver vad som bestäms i denna paragraf kan som bostadsrättshavare godkännas endast en eller flera sådana personer som uppfyller villkoren i 4 a och 4 b §. Finns det inga sådana sökande den gången kan också någon annan än en ovan avsedd person godkännas. Finns det flera sådana andra sökande har den sökande vars ordningsnummer är lägre än de andras företräde till en bostad.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Bostadsrättshavaren skall vara en person som kommunen har godkänt och som avses i 1 mom. eller en person på vilken bostadsrätten enligt denna lag kan överföras.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>4 a §</num>
+                        <heading>Val av och krav på bostadsrättshavare</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <intro>
+                                <p>Den som ansöker om bostadsrätt skall vid utgången av ansökningstiden eller, om ansökningar kan lämnas in kontinuerligt, vid inlämnandet av ansökan</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>ha fyllt 18 år eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>dessutom höra till en särskilt angiven åldersgrupp eller någon annan specialgrupp, om de bostäder som delas ut i första hand är avsedda för sådana personer och om kravet på lägsta ålder eller andra krav på behörigt sätt och offentligt uppgivits då bostadsrätterna förklarades lediga att sökas.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>En förutsättning för att en sökande skall kunna godkännas som bostadsrättshavare är att han eller hon behöver en bostadsrättsbostad. Sökanden anses inte behöva en bostadsrättsbostad, om han eller hon</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>inom ansökningsområdet har en ägarbostad som till läge, storlek, utrustning, boendekostnader och övriga egenskaper skäligen motsvarar den bostadsrättsbostad som söks, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>har så stor förmögenhet att han eller hon förmår finansiera minst 50 procent av det gängse priset på den fria marknaden för den bostad han eller hon söker eller för en motsvarande bostad, eller förmår bygga om den ägarbostad som finns inom ansökningsområdet så att den motsvarar den bostad som sökts.</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Vad som i 3 mom. bestäms om kraven på godkännande av en bostadsrättshavare tillämpas inte</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>på en sökande som byter från en bostadsrättsbostad till en annan, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>på en sökande som fyllt 55 år.</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 b §</num>
+                        <heading>Företräde för en boende</heading>
+                        <subsection>
+                            <content>
+                                <p>Ändras ett hus till bostadsrättshus kan en person som på grundval av aktieinnehavare eller hyresrätt besitter en lägenhet och som fyllt 18 år eller en familjemedlem som bor i lägenheten och härleder sin rätt från honom eller henne utan hinder av 4 a § godkännas som bostadsrättshavare, eller också fortsätta att besitta lägenheten som hyresgäst eller som ägare eller delägare till de aktier som medför rätt till besittning av lägenheten. Härvid kan personen utan hinder av 4 a § också senare godkännas som bostadsrättshavare i fråga om en bostad som han eller hon eller familjen har besuttit redan innan huset ändrades till ett bostadsrättshus. Då en sådan bostad blir ledig, väljs bostadsrättshavaren så som föreskrivs i 4 och 4 a §.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 c §</num>
+                        <heading>Ansökningsförfarande</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>
+                                    För identifiering av dem som får bostadsrätter som tas i bruk eller blir lediga inom ansökningsområdet skall kommunen förklara att de i 1 mom. avsedda ordningsnumren offentligt och allmänt kan sökas. Ordningsnumren skall förklaras lediga att sökas inom en angiven tid (<i>ansökningstid</i>). De ansökningar som kommit in inom ansökningstiden behandlas i enlighet med 3 mom. 1 punkten. Efter ansökningstidens utgång kan ansökan om ordningsnummer lämnas in kontinuerligt. Ansökningar som kommit in efter ansökningstidens utgång behandlas i enlighet med 3 mom. 2 punkten. Om ett tillräckligt antal ansökningar inte har kommit in, kan en ny ansökningstid utsättas, varvid de ansökningar som då kommer in behandlas i enlighet med 1 punkten. Att sökanden tidigare ansökt om eller erhållit ett ordningsnummer utgör inte något hinder för erhållande av nya ordningsnummer antingen inom samma eller ett annat ansökningsområde. Om sökanden inom ett ansökningsområdet har flera ordningsnummer, mot vilka någon bostadsrättsbostad inte har erhållits, beslutar han eller hon om vilket ordningsnummer som används vid ansökan.
+                                </p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Bestämmelsernas bindande och tvingande natur och när tillämpningen av dem upphör</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Då ett bostadsrättshus eller de aktier som medför rätt att besitta en bostadslägenhet i huset har befriats från begränsningarna i fråga om bruksrättigheter och överlåtelse enligt denna lag och de anteckningar som avses i 51 § har utplånats på behörigt sätt, upphör även tillämpningen av denna lag och bestämmelser som utfärdats med stöd av den på bostadsrättshuset och på de aktier som medför rätt att besitta en bostadslägenhet i huset. Bestämmelser om befrielse från begränsningarna finns i 50 b §.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Äger husägaren inte längre sådana hus som omfattas av begränsningarna i denna lag i fråga om bruksrättigheter och överlåtelse, upphör tilllämpningen av lagen även på en sådan ägare, på aktierna i huset och på aktieägarna, dock med beaktande av vad som bestäms i 1 c §.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Erbjuds i ett hus som redan har befriats från begränsningarna en lägenhet på nytt för besittning med stöd av boenderätt, skall bestämmelserna i denna lag tillämpas på huset och husägaren.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>5 a §</num>
+                        <heading>Produktion som inte omfattas av lagens tillämpningsområde</heading>
+                        <subsection>
+                            <content>
+                                <p>Om en ägare enligt denna lag även äger sådana hus eller lägenheter som inte har erbjudits för besittning med stöd av bostadsrätt, tillämpas denna lag inte på dessa hus och lägenheter eller på aktier som medför rätt att besitta dessa lägenheter.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>20 §</num>
+                        <heading>Den tid under vilken bruksvederlaget skall betalas</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Om lägenheten överlåts av husägaren till en ny bostadsrättshavare eller en ny innehavare av någon annan rättighet under den tid för vilken den som avstår från sin bostadsrätt enligt 1 mom. skall betala bruksvederlag, upphör betalningsskyldigheten för den som avstår från sin bostadsrätt, om inte annat avtalats mellan den som avstår från sin bostadsrätt och den nya boende.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>26 a §</num>
+                        <heading>Reserveringsskyldighet</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Vid bedömningen av huruvida reserveringsskyldigheten enligt denna paragraf har fullgjorts i tillräcklig omfattning kan rådande efterfrågan på och utbud av bostäder beaktas. Reserveringen kan anses tillräcklig, om den täcker den betalningsskyldighet som orsakas av de kända och sannolika inlösningarna under innevarande och därpå följande räkenskapsperiod och något annat inte följer av särskilda skäl.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>26 b §</num>
+                        <heading>Disponibla medel för inlösen och ansvar för felaktig inlösning</heading>
+                        <subsection>
+                            <content>
+                                <p>Följer inget annat av 2 mom. eller av 26 c § får en husägare använda medel som avses i 51 e § eller annat eget kapital eller andra medel som enligt bokslutet influtit under den föregående eller tidigare räkenskapsperioder till att lösa in bostadsrätter. För betalning av den indexförhöjning och den finansieringsandel för ombyggnad av en lägenhet som avses i 24 § 2 mom. 2 och 3 punkten och som ingår i bostadsrättens inlösningspris skall dock i första hand användas andra medel eller annat eget kapital än posten bostadsrättsavgifter i balansräkningen. Bestämmelser om nedsättning av posten bostadsrättsavgifter i balansräkningen till följd av inlösning av en bostadsrätt och om en ökning av posten sedan bostadsrätten på nytt har överlåtits finns i 51 d §.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>45 §</num>
+                        <heading>Användningen av bostadslägenheterna i ett bostadsrättshus</heading>
+                        <subsection>
+                            <content>
+                                <p>Bostadslägenheterna i ett bostadsrättshus kan användas som bostadsrättshavarnas eller hyresgästernas stadigvarande eller tillfälliga bostäder.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>50 b §</num>
+                        <heading>Befrielse från begränsningar</heading>
+                        <subsection>
+                            <content>
+                                <p>Ägaren till ett bostadsrättshus har rätt till befrielse från begränsningarna enligt denna lag i fråga om bruksrättigheter och överlåtelse, om bostadslägenheterna i det hus som befrielsen avses gälla enligt avtalen om besittning av lägenheterna redan används för annat än bostadsrättsändamål eller senare kommer att användas för sådana ändamål.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>För att ägaren till ett hus skall befrias från begränsningarna förutsätts dessutom i fråga om det hus som befrielsen avses gälla att</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>det statliga bostadslånet eller aravalånet eller husets andel av ett sådant lån återbetalas helt och hållet, dock inte i de fall då lånefordran inte har kunnat säkerställas vid indrivning i exekutiv väg,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>ett lån som godkänts som räntestödslån eller en andel av ett sådant lån återbetalas inklusive de eventuella ersättningarna för förtida återbetalning av lånet samt andra kostnader eller att det lånebelopp som berättigar till räntestöd minskas med en del som motsvarar det hus som befrielsen avses gälla och att långivaren dessutom befriar staten från det borgensansvar för lånet som avser det hus som befrielsen avses gälla, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>ett lån som godkänts som borgenslån enligt lagen om statliga och kommunala borgenslån för bostadsrättshus- och hyreshusproduktion (126/2003) eller en andel av ett sådant lån återbetalas helt och hållet inklusive de eventuella ersättningarna för förtida återbetalning av lånet samt andra kostnader eller att den långivare som beviljat borgenslånet befriar staten samt likaså den kommun som eventuellt är ansvarig från borgensansvaret i fråga om det hus som befrielsen avses gälla, och att</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>åtgärden för husets vidkommande främjar en fungerande bostadsmarknad på området i fråga eller förebygger att boståder blir stående tomma samt ekonomiska förluster till följd därav.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Har lån enligt 2 mom. beviljats ett hus, skall befrielse sökas hos Statens bostadsfond. Befrielse skall beviljas, om de förutsättningar som avses i 1 och 2 mom. konstateras föreligga. Befrielse kan också beviljas på det villkoret att sökanden inom en utsatt tid uppfyller de krav som i denna paragraf ställs för befrielse.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Den som äger ett sådant hus som inte avses i 2 mom. kan befria huset och de aktier som medför rätt att besitta en bostadslägenhet i huset från begränsningarna i fråga om bruksrättigheter och överlåtelse enligt denna lag från och med den tidpunkt då de i 1 mom. avsedda förutsättningarna föreligger.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>I 5 § föreskrivs om verkningarna av befrielsen från begränsningar i fråga om bruksrättigheter och överlåtelse när det gäller tillämpningen av denna lag.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>50 c §</num>
+                        <heading>Skyldighet att informera om befrielse från begränsningar</heading>
+                        <subsection>
+                            <content>
+                                <p>För att de i 51 § avsedda anteckningarna om ett bostadsrättshus och om de aktier som medför rätt att besitta bostadslägenheter i huset skall kunna utplånas skall Statens bostadsfond utan dröjsmål lämna ett meddelande om befrielsen eller, om beslutet om befrielse har varit villkorligt, omedelbart efter det att fonden har konstaterat att villkoren uppfyllts. Genom förordning kan föreskrivas närmare om förfarandet när ett sådant meddelande lämnas. Statens bostadsfond skall också hålla uppgifterna om vilka hus och vilka aktier som medför rätt att besitta bostadslägenheter i dessa hus som bostadsfonden har befriat från begränsningarna samt uppgifterna om huruvida befrielsen är villkorlig och inom vilken tidsfrist villkoren skall vara uppfyllda tillgängliga för allmänheten.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Med anledning av ett beslut om befrielse skall den ägare som avses i 50 b § 4 mom. utan dröjsmål vidta åtgärder för utplånande av de anteckningar som avses i 51 §. Med anledning av ett beslut om befrielse skall ägaren till ett hus som avses i 50 b § 2 mom. också vidta åtgärder för utplånande av de anteckningar som avses i 51 § 2 mom. Genom förordning kan närmare bestämmelser utfärdas om på vilket sätt det visas att den i detta moment avsedda skyldigheten har fullgjorts. </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Med anledning av ett beslut om befrielse skall ägaren till ett hus som avses i 50 b § 2 eller 4 mom. för allmänheten hålla tillgängliga uppgifterna om vilka hus och vilka aktier som medför rätt att besitta en bostadslägenhet som har befriats eller kommer att befrias från begränsningar i fråga om bruksrättigheter och överlåtelse enligt denna lag, och när anteckningarna om det hus som befriats eller kommer att befrias från begränsningar och om de aktier som medför rätt att besitta en bostadslägenhet i huset kommer att strykas i bolagsordningen och aktierna.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om det konstateras att ägaren till ett hus som avses i 50 b § 2 mom. har försummat den skyldighet som avses i denna paragraf eller att anteckningen om att huset befriats från begränsningar är felaktig, skall anteckningen korrigeras på anmälan av statskontoret.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>51 §</num>
+                        <heading>Anteckningar om begränsningar i fråga om bruksrättigheter och överlåtelse</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Statens bostadsfond är skyldig att utan dröjsmål så som närmare bestäms genom förordning vidta åtgärder i syfte att åstadkomma de anteckningar som avses i 1 och 2 mom. efter det att bostadsfonden har beviljat ett lån enligt 50 b § 2 mom. eller har godkänt ett lån som ett räntestödslån eller borgenslån enligt 50 b § 2 mom.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Ägaren till ett bostadsrättshus är ansvarig för att de anteckningar som avses i 1 och 2 mom. har gjorts innan ägaren erbjuder bostadsrättsavtal för bostäder i ett hus som han äger eller kommer att få i sin ägo. Genom förordning kan närmare bestämmelser utfärdas om på vilket sätt det visas att den i detta moment avsedda skyldigheten har fullgjorts. </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>I 50 c § föreskrivs om skyldigheten att utplåna de anteckningar som avses i 1 och 2 mom. efter det att begränsningarna i fråga om bruksrättigheter och överlåtelse har upphört.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>51 a §</num>
+                        <heading>Skyldighet att upprätta bokslut</heading>
+                        <subsection>
+                            <content>
+                                <p>Bokslut skall, om inte något annat följer av 2 mom., upprättas enligt bestämmelserna i bokföringslagen (1336/1997) och i den speciallag som gäller husägarsamfundet eller husägarstiftelsen samt enligt bestämmelserna i detta kapitel. Bokföringsnämnden kan enligt vad som anges i bokföringslagen ge anvisningar och utlåtanden om upprättandet av ett bokslut enligt denna lag för ett samfund eller en stiftelse som äger ett bostadsrättshus.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om ägaren till ett bostadsrättshus vid sidan av verksamhet enligt denna lag utövar även annan verksamhet, skall ägarens bokföring ordnas så att riktiga och tillräckliga uppgifter om verksamheten enligt denna lag kan anges separat i ägarens bokslut. Till en sådan ägares bokslut skall fogas en separat resultaträkning för verksamheten enligt denna lag och i form av noter anges övriga uppgifter om verksamheten enligt denna lag i enlighet med vad som bestäms i denna lag och i tillämpliga delar i bokföringslagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>51 d §</num>
+                        <heading>Upptagande i balansräkningen av bostadsrättsavgifter som tagits ut för den tid husen byggts eller anskaffats</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Posten bostadsrättsavgifter i balansräkningen skall nedsättas till den del annat eget kapital eller, om ägaren är ett aktiebolag, annat fritt eget kapital enligt balansräkningen för den senast avslutade räkenskapsperioden inte har använts för bostadsrättsinlösning. Om posten bostadsrättsavgifter har minskats på grund av bostadsrättsinlösning, skall ett tilllägg till motsvarande belopp till posten bostadsrättsavgifter i balansräkningen göras efter att husägaren på nytt har överlåtit bostadsrätten.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>54 a §</num>
+                        <heading>Sökande av ändring</heading>
+                        <subsection>
+                            <content>
+                                <p>En sökande som är missnöjd med ett beslut av Statens bostadsfond i ett ärende som avses i denna lag eller med stöd av den utfärdade bestämmelser får söka rättelse i beslutet inom 14 dagar från delfåendet av beslutet. Rättelseyrkandet skall riktas till Statens bostadsfond. Till ett beslut i vilket rättelse får sökas skall fogas anvisning om rättelseyrkande. Rättelseyrkandet skall behandlas utan dröjsmål.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>I ett beslut med anledning av ett rättelseyrkande får ändring sökas genom besvär så som föreskrivs i förvaltningsprocesslagen.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>55 §</num>
+                        <heading>Delgivning av beslut</heading>
+                        <subsection>
+                            <content>
+                                <p>Ett beslut enligt denna lag delges så som föreskrivs i förvaltningslagen (434/2003). Ett beslut enligt vilket någon har godkänts som bostadsrättshavare eller mottagare får dock delges genom att kommunstyrelsens eller nämndens protokoll läggs fram så som föreskrivs i kommunallagen (365/1995), varvid delfåendet anses ha ägt rum den dag då beslutet lades fram.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>59 §</num>
+                        <heading>Närmare bestämmelser</heading>
+                        <subsection>
+                            <content>
+                                <p>Närmare bestämmelser om verkställigheten av denna lag meddelas vid behov i fråga om 50 c och 51 § genom förordning av statsrådet och i fråga om 16 § 4 mom., 51 a § 2 mom. och 58 § genom förordning av miljöministeriet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 januari 2006.</p>
+                    <p>Denna lags 4 a och 4 b § tillämpas också på ansökningar som lämnats in före lagens ikraftträdande, om bostadsrätten erbjuds sökanden efter att lagen har trätt i kraft.</p>
+                    <p>Denna lags 26 a § 4 mom., 26 b § 1 mom. och 51 d § kan också tillämpas på den räkenskapsperiod som löper då lagen träder i kraft och bokslutet för denna räkenskapsperiod.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 98/2005</p>
+                        <p>MiUB 16/2005</p>
+                        <p>RSv 177/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 29 december 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Minister </role>
+                                <person refersTo="">Hannes Manninen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

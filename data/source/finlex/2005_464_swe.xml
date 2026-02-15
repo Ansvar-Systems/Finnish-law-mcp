@@ -1,0 +1,143 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/464/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/464"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/464/alkup"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="464"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/464/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/464/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/464/alkup/swe"/>
+                    <FRBRdate date="2005-06-23" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/464/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/464/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/464/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="85"/>
+                    <finlex:date date="2005-06-29"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>464/2005</docNumber>
+                <docTitle>Lag om ändring av lagen om aktiebolaget Fonden för industriellt samarbete Ab</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen av den 9 mars 1979 om aktiebolaget Fonden för industriellt samarbete Ab (
+                        <affectedDocument href="/akn/fi/act/statute/1979/291">291/1979</affectedDocument>
+                        ) 3 § 4 mom., 3 a § 1 och 3 mom. samt 3 b §, sådana de lyder, 3 § 4 mom. i lag 116/1987 samt 3 a § 1 och 3 mom. och 3 b § i lag 1083/2000, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Statsrådet kan på de villkor som statsrådet bestämmer till bolaget avge förbindelser om att staten skall ersätta bolaget för förluster som eventuellt har uppstått vid dess kreditgivnings- och borgensverksamhet samt för förluster av och värdeminskningar i aktie- och andelsinvesteringar och om att staten, inom de gränser som närmare anges i statsbudgeten, skall täcka en eventuell kursförlust som orsakas av andra lån än lån i euro som bolaget har upptagit.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 a §</num>
+                    <subsection>
+                        <content>
+                            <p>Statsrådet har rätt att på de villkor som statsrådet bestämmer ge bolaget förbindelser om att staten årligen skall betala skillnaden mellan å ena sidan räntekostnaderna för de lån som bolaget upptar 2005―2009 och å andra sidan minst den årliga ränta som riksdagen bestämmer i samband med behandlingen av statsbudgeten. Riksdagen beslutar årligen i samband med behandlingen av statsbudgeten om maximibeloppet för de lån som förbindelse kan ges för.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Är det fråga om andra lån än lån i euro, beräknas motvärdet enligt den medelkurs som Europeiska centralbanken publicerar för valutan i fråga vid den tidpunkt då statens förbindelse ges.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 b §</num>
+                    <subsection>
+                        <content>
+                            <p>Statsrådet har rätt att utan krav på motsäkerhet och i övrigt på de villkor som statsrådet bestämmer ställa statlig proprieborgen till säkerhet för betalningen av de lån som bolaget upptagit och för uppfyllandet av övriga avtalade villkor. Här nämnda lån får samtidigt vara utestående till sammanlagt högst 100 000 000 euro. Borgen kan ställas till utgången av 2009.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Motvärdet av andra lån än lån i euro beräknas enligt den medelkurs som Europeiska centralbanken publicerar för valutan i fråga vid den tidpunkt då borgen ställs.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 juli 2005. Lagen tillämpas dock från och med den 1 januari 2005.</p>
+                    <p>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan lagen träder i kraft.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 61/2005</p>
+                        <p>EkUB 10/2005</p>
+                        <p>RSv 77/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Nådendal den 23 juni 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Utrikeshandels- och utvecklingsminister </role>
+                                <person refersTo="">Paula Lehtomäki</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

@@ -1,0 +1,545 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/350/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/350"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/350/alkup"/>
+                    <FRBRdate date="2007-03-30" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="350"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/350/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/350/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/350/alkup/swe"/>
+                    <FRBRdate date="2007-03-30" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/350/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/350/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/350/alkup/swe/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="56"/>
+                    <finlex:date date="2007-04-10"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>350/2007</docNumber>
+                <docTitle>Lag om ändring av lagen om fastighetsfonder</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="repeals">
+                        <i>upphävs</i>
+                         i lagen av den 19 december 1997 om fastighetsfonder (<affectedDocument href="/akn/fi/act/statute/1997/1173">1173/1997</affectedDocument>) 21 §,
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         1 § 1 mom., 3 § 1―3 punkten, 4 och 6―8 §, 9 § 1―3 mom., 10 §, 11 § 1 mom., 12 §, 13 § 3 mom., 14 § 3―5 mom., 15 § 2 mom. 1, 2, 4, 8 och 9 punkten samt 3 mom., 16 § 5 mom., 17 § 1, 2 och 4 mom., den svenska språkdräkten i rubriken för 18 § samt 18 § 1 och 4 mom., 19, 20, 22, 23 och 26 §,
+                    </block>
+                    <block name="substitutions-originals">av dem 3 § 3 punkten och 4 § sådana de lyder i lag 649/2006, 12 § sådan den lyder delvis ändrad i sistnämnda lag samt 22 § sådan den lyder i lag 107/1999, samt</block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 1 § ett nytt 3 mom., till 2 § ett nytt 2 mom., till 3 §, sådan den lyder delvis ändrad i nämnda lag 649/2006, ett nytt 2 mom. samt till lagen en ny 6 a §, som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>1 kap.</num>
+                    <heading>Allmänna bestämmelser</heading>
+                    <section>
+                        <num>1 §</num>
+                        <heading>Tillämpningsområde</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Verksamhet som innebär att allmänheten erbjuds möjlighet att delta i gemensamma fastighetsplaceringar kan bedrivas i enlighet med denna lag så att allmänheten deltar i placeringsverksamheten genom att teckna, köpa eller på annat sätt förvärva aktier i ett publikt aktiebolag eller andelar i ett kommanditbolag varefter bolaget, i annat syfte än byggande eller fastighetsförädling, vidareplacerar de från allmänheten influtna medlen huvudsakligen i fastigheter och fastighetsvärdepapper (<i>fastighetsfondsverksamhet</i>).
+                                </p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>I lagen om placeringsfonder (48/1999) föreskrivs om specialplaceringsfonder som investerar sina tillgångar huvudsakligen i fastigheter och fastighetsvärdepapper.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>2 §</num>
+                        <heading>Fastighetsfond</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Ett kommanditbolag vars andelar är sådana värdepapper som avses i värdepappersmarknadslagen (495/1989) och som erbjuder allmänheten möjlighet att delta i gemensamma fastighetsplaceringar på det sätt som föreskrivs i 1 § 1 mom. jämställs med en fastighetsfond, med undantag för vad som föreskrivs i 11 §. Vad som i denna lag föreskrivs om fastighetsfonder, dessas aktiekapital, stiftelseurkund, aktier, ägare och bolagsordning gäller, med undantag för vad som föreskrivs i 11 §, kommanditbolag, dessas sammanlagda antal andelar, andelarnas art, bolagsmän och bolagsavtal.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>3 §</num>
+                        <heading>Övriga definitioner</heading>
+                        <subsection>
+                            <intro>
+                                <p>I denna lag avses med</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>
+                                        <i>fastighet </i>
+                                        en fastighet som avses i 2 § 1 mom. i fastighetsregisterlagen (392/1985),
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>
+                                        <i>fastighetsvärdepapper</i>
+                                         en aktie eller ett annat värdepapper som ensamt för sig eller tillsammans med andra värdepapper medför rätt att besitta en viss bostad, en annan lägenhet eller fastighet en del av en fastighet,
+                                    </p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>
+                                        <i>värdepapper</i>
+                                         ett bevis av det slag som definieras i 1 kap. 2 § 1 mom. i värdepappersmarknadslagen,
+                                    </p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Vad som i denna lag föreskrivs om fastigheter skall tillämpas också på andra registerenheter som avses i 2 § 2 mom. i fastighetsregisterlagen, på lego- och nyttjanderätt vars innehavare enligt 14 kap. 2 § i jordabalken (540/1995) är skyldig att ansöka om inskrivning av sin rätt samt på byggnader och konstruktioner som varaktigt betjänar fastighetens användning.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>4 §</num>
+                        <heading>Tillämpning av annan lagstiftning</heading>
+                        <subsection>
+                            <content>
+                                <p>På fastighetsfonder i aktiebolagsform och deras aktieägare tillämpas aktiebolagslagen (624/2006), värdepappersmarknadslagen, bokföringslagen (1336/1997) och revisionslagen (936/1994), om något annat inte föreskrivs i denna lag. På kommanditbolag som bedriver fastighetsfondsverksamhet och deras bolagsmän skall i stället för aktiebolagslagen tillämpas lagen om öppna bolag och kommanditbolag (389/1988).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 §</num>
+                        <heading>Tillsyn</heading>
+                        <subsection>
+                            <content>
+                                <p>Finansinspektionen övervakar iakttagandet av denna lags 13, 14 och 19―23 §, med stöd av dem utfärdade bestämmelser, föreskrifter och anvisningar samt iakttagandet av informationsskyldigheten enligt 15―18 §.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 a §</num>
+                        <heading>Förberedelser</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    Fastighetsfonderna skall genom deltagande i beredskapsplanering på finansmarknaden och genom förberedelser av verksamhet under undantagsförhållanden samt genom andra åtgärder säkerställa att deras uppgifter kan skötas så störningsfritt som möjligt också under undantagsförhållanden (<i>förberedelser</i>).
+                                </p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Om de uppgifter som följer av 1 mom. förutsätter åtgärder som klart avviker från sådan verksamhet som skall anses vara sedvanlig för fastighetsfonder och som medför väsentliga merkostnader, kan dessa kostnader ersättas ur den försörjningsberedskapsfond som avses i lagen om tryggande av försörjningsberedskapen (1390/1992).</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Finansinspektionen kan meddela föreskrifter om tillämpningen av 1 mom.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>7 §</num>
+                        <heading>Affärsverksamhet</heading>
+                        <subsection>
+                            <content>
+                                <p>En fastighetsfond skall bedriva fastighetsfondsverksamheten omsorgsfullt och sakkunnigt för ägarnas gemensamma bästa. Fastighetsfonden skall i sin verksamhet bemöta ägarna jämlikt.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>8 §</num>
+                        <heading>Annan tillåten verksamhet</heading>
+                        <subsection>
+                            <content>
+                                <p>En fastighetsfond får bedriva endast fastighetsfondsverksamhet och till fastighetsfondsverksamheten väsentligen hörande verksamhet, om denna är ägnad främja samtliga ägares intressen samt, med de begränsningar som föreskrivs i 15 § 5 mom., byggande och fastighetsförädlingsverksamhet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>9 §</num>
+                        <heading>Aktiekapital</heading>
+                        <subsection>
+                            <content>
+                                <p>En fastighetsfonds aktiekapital skall uppgå till minst fem miljoner euro samt vara helt inbetalt och i fastighetsfondens besittning innan fastighetsfonden anmäls för registrering och innan den inleder sin verksamhet.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Fastighetsfonden skall uppnå det i 1 mom. angivna kapitalbeloppet inom 18 månader efter fondens bildande, om inte Finansinspektionen av särskilda skäl beviljar undantag från detta krav.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Fastighetsfondens aktiekapital skall betalas in i pengar på fondens konto i Finland i en sådan inlåningsbank som avses i kreditinstitutslagen (121/2007) eller i ett sådant utländskt kreditinstituts filial som avses i lagen om utländska kreditinstituts och finansiella instituts verksamhet i Finland (1608/1993) och som har rätt att ta emot insättningar.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>10 §</num>
+                        <heading>Bildande av en fastighetsfond</heading>
+                        <subsection>
+                            <content>
+                                <p>När en fastighetsfond bildas skall den ha minst fem aktieägare, om inte Finansinspektionen av särskilda skäl beviljar undantag från detta krav. Antalet aktieägare skall räknas så att sådana bokföringsskyldiga betraktas som en helhet, vilka ensamma eller tillsammans har i 1 kap. 5 § i bokföringslagen angivet bestämmande inflytande i en annan bokföringsskyldig eller i ett motsvarande utländskt företag.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>11 §</num>
+                        <heading>Handel med en fastighetsfonds aktier</heading>
+                        <subsection>
+                            <content>
+                                <p>En fastighetsfond skall ansöka om att dess aktier upptas till offentlig handel enligt värdepappersmarknadslagen inom ett år från inledandet av fastighetsfondsverksamheten, om inte Finansinspektionen av särskilda skäl beviljar undantag från detta krav.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>12 §</num>
+                        <heading>Bolagsordning</heading>
+                        <subsection>
+                            <content>
+                                <p>Ändringar i en fastighetsfonds bolagsordning skall utan dröjsmål anmälas för registrering enligt 5 kap. 30 § 2 mom. i aktiebolagslagen, på det sätt som föreskrivs i handelsregisterlagen (129/1979).</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Fastighetsfonden skall utan dröjsmål informera Finansinspektionen om den registrerade bolagsordningen och ändringar i den.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>13 §</num>
+                        <heading>Stadgar för fastighetsplaceringsverksamheten</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av finansministeriet föreskrivs om minimikraven på innehållet i stadgarna för fastighetsplaceringsverksamheten.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>14 §</num>
+                        <heading>Fastställande av stadgarna</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Stadgarna för fastighetsplaceringsverksamheten samt ändringar i dem träder i kraft en månad efter att Finansinspektionen har godkänt dem och fastighetsfondens aktieägare har informerats om ändringarna i enlighet med stadgarna för fastighetsplaceringsverksamheten, om inte Finansinspektionen bestämmer något annat.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Fastighetsfondens aktier får inte marknadsföras till allmänheten och medel får inte tillföras fonden från allmänheten förrän Finansinspektionen har godkänt stadgarna för fastighetsplaceringsverksamheten.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Fastighetsfonden skall anmäla till Finansinspektionen när den inleder sin verksamhet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>15 §</num>
+                        <heading>Placering av medel</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <intro>
+                                <p>Fastighetsfondens medel skall utan oskäligt dröjsmål, så som närmare föreskrivs i stadgarna för fastighetsplaceringsverksamheten, placeras i följande objekt:</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>fastigheter som är belägna i stater som hör till Europeiska ekonomiska samarbetsområdet,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>fastighetsvärdepapper avseende fastigheter som är belägna i stater som hör till Europeiska ekonomiska samarbetsområdet,</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>värdepapper som är föremål för handel inom ett i någon annan stat etablerat eller fungerande omsättningssystem, då detta kan jämställas med sådan offentlig handel som avses i 3 punkten,</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>8)</num>
+                                <content>
+                                    <p>derivatinstrument, varvid i tillämpliga delar skall iakttas vad som föreskrivs i 80 § i lagen om placeringsfonder, samt</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>9)</num>
+                                <content>
+                                    <p>låne- och återköpsavtal avseende värdepapper, varvid i tillämpliga delar skall iakttas vad som föreskrivs i 81 § i lagen om placeringsfonder.</p>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Fastighetsfonden kan av något i stadgarna för fastighetsplaceringsverksamheten angivet särskilt skäl avvika från de krav som nämns ovan i 2 mom. Fastighetsfonden skall offentliggöra ett sådant undantag i delårsrapporten, verksamhetsberättelsen och bokslutet. Fastighetsfonden skall likväl alltid placera minst tre femtedelar av sina tillgångar i fastigheter som är belägna i stater som hör till Europeiska ekonomiska samarbetsområdet eller i fastighetsvärdepapper som avser sådana fastigheter. En fastighetsfond kan tillfälligt avvika från detta krav när fastighetsfonden bildas och aktierna emitteras samt när den säljer eller förvärvar fastigheter eller fastighetsvärdepapper.</p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                    </section>
+                    <section>
+                        <num>16 §</num>
+                        <heading>Kredittagning</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av finansministeriet föreskrivs om kredittagning och användning av fastighetsfondens tillgångar som kreditsäkerhet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>17 §</num>
+                        <heading>Värdering av egendom</heading>
+                        <subsection>
+                            <content>
+                                <p>En fastighetsfond skall i delårsrapporten, i verksamhetsberättelsen, i bokslutet samt i stadgarna för fastighetsplaceringsverksamheten redovisa grunderna för värdering av fastigheter och fastighetsvärdepapper.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <intro>
+                                <p>Genom förordning av finansministeriet föreskrivs om de värderingsgrunder som avses i 1 mom. I värderingsgrunderna enligt förordningen skall åtminstone föreskrivas om</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>förfarandet vid värdering av fastigheter och fastighetsvärdepapper,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>fastighetsfondens indextal och beräkningsmetoderna för dem,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>fastighetsbeståndet och om vilka fastighetstyper värdepapperen avser när det gäller bostads-, lager-, affärs-, kontors- och produktionslokaler,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>4)</num>
+                                <content>
+                                    <p>utnyttjandet av fastigheterna,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>5)</num>
+                                <content>
+                                    <p>upprättandet av arrendeavtal för fastigheterna,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>6)</num>
+                                <content>
+                                    <p>fastighetsfondens viktigaste projekt, samt om</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>7)</num>
+                                <content>
+                                    <p>fastighetsfondens skulder, borgensförbindelser, pantförskrivningar och inteckningar.</p>
+                                    <p class="omission"/>
+                                </content>
+                            </paragraph>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Fastighetsfonden kan av sådana särskilda skäl som nämns i stadgarna för fastighetsplaceringsverksamheten offentliggöra uppgifter mera sällan än enligt 3 mom., om förfarandet inte väsentligen äventyrar fastighetsfondens aktieägares intressen. Fastighetsfonden skall offentliggöra sådana undantag i delårsrapporten, verksamhetsberättelsen och bokslutet.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>18 §</num>
+                        <heading>Fastighetsvärderare och fastighetsvärdering</heading>
+                        <subsection>
+                            <content>
+                                <p>
+                                    En fastighetsfond skall låta en opartisk och utomstående värderare värdera fastigheter och andra fastighetsvärdepapper i sin ägo än sådana som är föremål för offentlig handel. Fastighetsfonden skall i delårsrapporten, verksamhetsberättelsen och bokslutet nämna och offentliggöra de opartiska och utomstående värderare som fonden anlitar (<i>fastighetsvärderare</i>).
+                                </p>
+                            </content>
+                        </subsection>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av finansministeriet föreskrivs om kraven på fastighetsvärderingsmetoderna. I förordningen skall anges åtminstone minimikraven på fastighetsvärderarnas utlåtande.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>19 §</num>
+                        <heading>Tillämpning av värdepappersmarknadslagen</heading>
+                        <subsection>
+                            <content>
+                                <p>På fastighetsfonder och deras aktieägare tillämpas 2 kap. i värdepappersmarknadslagen, om något annat inte föreskrivs nedan i detta kapitel eller om annat inte följer av det som föreskrivs ovan i 2 §.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>20 §</num>
+                        <heading>Delårsrapport, verksamhetsberättelse och bokslut</heading>
+                        <subsection>
+                            <content>
+                                <p>Av delårsrapporten, verksamhetsberättelsen och bokslutet för fastighetsfonder i aktiebolagsform eller i kommanditbolagsform skall framgå hur det fastighetsbestånd och de fastighetsvärdepapper som fonden äger fördelar sig mellan bostads-, lager-, affärs-, kontors- och produktionslokaliteter, utom i det fall att det finns endast en fastighet av respektive typ. Till delårsrapporten, verksamhetsberättelsen och bokslutet skall fogas stadgarna för fastighetsplaceringsverksamheten med ett omnämnande av vilka ändringar som har gjorts i dem under de tre senaste åren.</p>
+                            </content>
+                        </subsection>
+                        <subsection>
+                            <content>
+                                <p>Delårsrapport, verksamhetsberättelse och bokslut för en fastighetsfond i kommanditbolagsform vars andelar inte är föremål för offentlig handel, skall upprättas och offentliggöras i enlighet med 2 kap. 5 och 6 § i värdepappersmarknadslagen. En delårsrapport skall upprättas för räkenskapsperiodens sex första månader och i den skall redogöras för sådana i kommanditbolagets bolagsavtal intagna bestämmelser som påverkar placerarnas ställning.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>22 §</num>
+                        <heading>Närmare bestämmelser</heading>
+                        <subsection>
+                            <content>
+                                <p>Genom förordning av finansministeriet föreskrivs om de särdrag i fastighetsfondernas informationsskyldighet som gäller grunderna för placeringsverksamheten och placeringsförfarandena, begränsningarna av placeringsverksamheten och kredittagningsfullmakterna, värderingsgrunderna för egendom samt fastighetsfondernas viktigaste egenskaper, med iakttagande i tillämpliga delar av 2 kap. 3, 3 a―3 d, 4, 4 a―4 f, 5, 5 a, 6 och 6 a § i värdepappersmarknadslagen och med beaktande av att uppgifterna också kan tas in i stadgarna för fastighetsplaceringsverksamheten.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>23 §</num>
+                        <heading>Beviljande av undantag</heading>
+                        <subsection>
+                            <content>
+                                <p>Finansinspektionen kan på ansökan bevilja undantag från de skyldigheter som avses i detta kapitel, om det kan ske utan att placerarnas ställning äventyras.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>26 §</num>
+                        <heading>Fastighetsfondsförseelse</heading>
+                        <subsection>
+                            <intro>
+                                <p>Den som uppsåtligen eller av oaktsamhet</p>
+                            </intro>
+                            <paragraph>
+                                <num>1)</num>
+                                <content>
+                                    <p>bryter mot förbudet i 14 § 4 mom. eller 16 §,</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>2)</num>
+                                <content>
+                                    <p>försummar de skyldigheter som fastighetsfonden har enligt 5 och 7―15 §, eller</p>
+                                </content>
+                            </paragraph>
+                            <paragraph>
+                                <num>3)</num>
+                                <content>
+                                    <p>förvärvar eller avyttrar fastigheter eller fastighetsvärdepapper i strid med 17 §,</p>
+                                </content>
+                            </paragraph>
+                            <wrapUp>
+                                <p>
+                                    skall, om inte gärningen är ringa eller om inte strängare straff för den föreskrivs någon annanstans i lag, för 
+                                    <i>fastighetsfondsförseelse</i>
+                                     dömas till böter.
+                                </p>
+                            </wrapUp>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 maj 2007.</p>
+                    <p>Åtgärder enligt denna lag får vidtas redan innan lagen träder i kraft.</p>
+                    <p>En delårsrapport och årsberättelse enligt denna lag skall första gången upprättas senast för den räkenskapsperiod som börjar den 1 januari 2007 eller därefter.</p>
+                    <p>Ett kommanditbolag som bedriver verksamhet enligt denna lag skall uppfylla lagens kriterier inom sex månader från lagens ikraftträdande.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 102/2006</p>
+                        <p>EkUB 31/2006</p>
+                        <p>RSv 277/2006</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>Helsingfors den 30 mars 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Andra finansminister </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

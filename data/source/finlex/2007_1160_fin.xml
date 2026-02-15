@@ -1,0 +1,129 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1160/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1160"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1160/alkup"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1160"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1160/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1160/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1160/alkup/fin"/>
+                    <FRBRdate date="2007-12-07" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1160/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1160/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1160/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="169"/>
+                    <finlex:date date="2007-12-13"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1160/2007</docNumber>
+                <docTitle>Laki asumistukilain 3 ja 25 §:n muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         4 päivänä kesäkuuta 1975 annetun asumistukilain (
+                        <affectedDocument href="/akn/fi/act/statute/1975/408">408/1975</affectedDocument>
+                        ) 3 §:n 3 momentti ja 25 §:n 2 momentti,
+                    </block>
+                    <block name="substitutions-originals">sellaisina kuin ne ovat, 3 §:n 3 momentti laissa 580/2007 ja 25 §:n 2 momentti laissa 689/2002, seuraavasti:</block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>3 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Edellä 1 momentin 2 kohdassa tarkoitettuihin pysyviin kuukausituloihin luetaan ruokakuntaan kuuluvien henkilöiden yhteenlasketusta 3 a §:n mukaisesta omaisuudesta viisitoista prosenttia jaettuna kahdellatoista siltä osin kuin se ylittää valtioneuvoston asetuksella vuosittain ruokakunnan koon mukaan säädettävän määrän. Omaisuudesta vähennetään velat. Pysyviin kuukausituloihin ei lueta valtioneuvoston asetuksella säädettäviä tuloja eikä 6 §:n 4 momentissa tarkoitettuja alivuokralaiselta saatuja vuokratuloja. Korko- ja osinkotulot otetaan tulona huomioon, jos ruokakunnan jäsenen korko- ja osinkotulot yhteensä ylittävät viisi euroa kuukaudessa. Korkotuloja arvioitaessa jokaisen ruokakunnan jäsenen talletuksista vähennetään käyttövaroina 2 000 euroa. Metsätalouden tulona otetaan huomioon varojen arvostamisesta verotuksessa annetun lain (1142/2005) 7 §:n 3 momentin mukaan vahvistettu metsän keskimääräinen vuotuinen tuotto kerrottuna metsän pinta-alalla. Pysyviä kuukausituloja määriteltäessä voidaan käyttää muun luotettavan selvityksen puuttuessa perusteena henkilön veronalaisen ansio- ja pääomatulojen yhteismäärää viimeksi toimitetussa verotuksessa.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>25 §</num>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Kansaneläkelaitoksella ja tämän lain mukaisella muutoksenhakuelimellä on myös oikeus saada pyynnöstä salassapitosäännösten ja muiden tiedon saantia koskevien rajoitusten estämättä maksutta käsiteltävänä olevan tämän lain mukaisen asian ratkaisemista varten välttämättömät tiedot rahalaitoksilta koskien asumistuenhakijaa tai -saajaa tai muita ruokakuntaan kuuluvia, jollei riittäviä tietoja ja selvityksiä muutoin saada ja on perusteltua syytä epäillä etuuden hakijan tai saajan antamien tietojen riittävyyttä tai luotettavuutta eikä hän ole antanut suostumustaan tietojen saamiseen. Pyyntö tietojen saamiseksi tulee esittää kirjallisena. Ennen pyynnön esittämistä hakijalle tai saajalle on annettava siitä tieto.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä tammikuuta 2008.</p>
+                    <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/95">HE 95/2007</ref>
+                        </p>
+                        <p>StVM 9/2007</p>
+                        <p>EV 55/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 7 päivänä joulukuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Sosiaali- ja terveysministeri </role>
+                                <person refersTo="">Liisa Hyssälä</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

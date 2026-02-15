@@ -1,0 +1,201 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1123/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1123"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1123/alkup"/>
+                    <FRBRdate date="2007-11-30" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="1123"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1123/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1123/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1123/alkup/fin"/>
+                    <FRBRdate date="2007-11-30" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2007/1123/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2007/1123/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2007/1123/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2007</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2007"/>
+                    <finlex:number value="165"/>
+                    <finlex:date date="2007-12-11"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>1123/2007</docNumber>
+                <docTitle>Laki opiskelijavalintarekisteristä ja ylioppilastutkintorekisteristä annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         opiskelijavalintarekisteristä ja ylioppilastutkintorekisteristä 18 päivänä joulukuuta 1998 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/1998/1058">1058/1998</affectedDocument>
+                        ) 1 §:n 1 momentin 3 kohta ja 2 momentti, 2 §:n 1 momentin 3 kohta ja 2 momentin 2 kohta, 3 §:n 2 momentti ja 4 §:n 1 momentti, sellaisena kuin niistä on 1 §:n 2 momentti laissa 547/2002, sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         lakiin uusi 1 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>1 §</num>
+                    <heading>Rekisteri ja rekisterinpitäjä</heading>
+                    <subsection>
+                        <intro>
+                            <p>Opiskelijavalintarekisteriin kuuluvat:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>ammatillisen koulutuksen ja lukiokoulutuksen hakurekisteri.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Opiskelijavalintarekisteriä ylläpitää opetushallitus. Lisäksi ammattikorkeakoulut osallistuvat rekisterinpitoon 1 momentin 2 kohdassa tarkoitetun sekä ammatillisen koulutuksen ja lukiokoulutuksen järjestäjät 1 momentin 3 kohdassa tarkoitetun osarekisterin osalta opetushallituksen lukuun.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>1 a §</num>
+                    <heading>Rekisterinpitäjän tehtävät</heading>
+                    <subsection>
+                        <content>
+                            <p>Opetushallitus vastaa opiskelijavalintarekisterin tietojen kokoamisesta ja hakujärjestelmien valtakunnallisesta toteutuksesta sekä koulutukseen hakemiseen ja opiskelijaksi ottamiseen liittyvästä yleisestä tiedottamisesta, ohjauksesta ja neuvonnasta.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Rekisterinpitäjän tehtävistä säädetään tarkemmin valtioneuvoston asetuksella.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>2 §</num>
+                    <heading>Käyttötarkoitus</heading>
+                    <subsection>
+                        <intro>
+                            <p>Opiskelijavalintarekisterin osarekistereitä käytetään:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>3)</num>
+                            <content>
+                                <p>ammatillisen koulutuksen ja lukiokoulutuksen hakurekisteriä valittaessa opiskelijoita ammatillisesta koulutuksesta annetussa laissa (630/1998), lukiolaissa (629/1998) ja ammatillisesta aikuiskoulutuksesta annetussa laissa (631/1998) tarkoitettuihin koulutuksiin ja tutkintoihin.</p>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <intro>
+                            <p>Opiskelijavalintarekisteriä käytetään seuraaviin toimintoihin:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>2)</num>
+                            <content>
+                                <p>koulutukseen hakeutumisen, opiskelijavalinnan ja opiskelupaikan vastaanottamisen järjestämiseen, johon kuuluvat myös yliopistojen ja ammattikorkeakoulujen opiskelijavalinnassa yhden korkeakoulututkintoon johtavan opiskelijapaikan vastaanottamista koskevat järjestelyt, sekä hakeutumisen ja opiskelijavalinnan seuraamiseen;</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>3 §</num>
+                    <heading>Tietosisältö</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Ammattikorkeakoulujen yhteishakurekisteriin ja ammatillisen koulutuksen ja lukiokoulutuksen hakurekisteriin voidaan tallettaa 1 momentissa lueteltujen tietojen lisäksi hakijan ilmoituksen mukaisina ammatinvalintaan vaikuttavat terveystiedot sekä tiedot työkokemuksesta ja harrastustoiminnasta. Nämä tiedot pyydetään ilmoittamaan ja talletetaan vain silloin, kun niillä on merkitystä opiskelijoiden valinnassa.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>4 §</num>
+                    <heading>Tietolähteet</heading>
+                    <subsection>
+                        <content>
+                            <p>Opiskelijavalintarekisterin pitäjällä on oikeus koulutukseen hakevan henkilön ilmoittamien tietojen lisäksi salassapitosäännösten estämättä saada 3 §:n 1 ja 3 momentissa tarkoitettuja tietoja ylioppilastutkintorekisteristä, Väestörekisterikeskukselta, työvoimaviranomaisilta, perus- ja lisäopetuksen järjestäjiltä, yliopistoilta, ammattikorkeakouluilta, ammatillisen koulutuksen ja lukiokoulutuksen järjestäjiltä sekä kahden tai useamman yliopiston yhteisistä rekistereistä, jotka on muodostettu opiskelijoiden valintaa varten.</p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä helmikuuta 2008.</p>
+                    <p>Tätä lakia sovelletaan ammatilliseen koulutukseen ja lukiokoulutukseen hakuun ensimmäisen kerran lukuvuonna 2008―2009 alkavaa koulutusta varten.</p>
+                    <p>Ennen tämän lain voimaantuloa voidaan ryhtyä lain täytäntöönpanon edellyttämiin toimenpiteisiin.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2007/38">HE 38/2007</ref>
+                        </p>
+                        <p>SiVM 3/2007</p>
+                        <p>EV 44/2007</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 30 päivänä marraskuuta 2007</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Opetusministeri </role>
+                                <person refersTo="">Sari Sarkomaa</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

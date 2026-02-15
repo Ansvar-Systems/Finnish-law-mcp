@@ -1,0 +1,184 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/403/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/403"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/403/alkup"/>
+                    <FRBRdate date="2005-06-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="403"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/403/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/403/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/403/alkup/fin"/>
+                    <FRBRdate date="2005-06-10" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/403/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/403/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/403/alkup/fin/xml"/>
+                    <FRBRdate date="2025-02-22" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="74"/>
+                    <finlex:date date="2005-06-15"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>403/2005</docNumber>
+                <docTitle>Laki ajoneuvoliikennerekisteristä annetun lain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         ajoneuvoliikennerekisteristä 13 päivänä kesäkuuta 2003 annetun lain (
+                        <affectedDocument href="/akn/fi/act/statute/2003/541">541/2003</affectedDocument>
+                        ) 9 §:n 1 momentin 5 ja 6 kohta, 17 §:n 2 momentin 9 kohta ja 3 momentti sekä 20 § sekä lisätään 9 §:n 1 momenttiin uusi 7 kohta seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>9 §</num>
+                    <heading>Henkilötietojen poistaminen rekisteristä</heading>
+                    <subsection>
+                        <intro>
+                            <p>Henkilötiedot poistetaan rekisteristä seuraavasti:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>5)</num>
+                            <content>
+                                <p>rekisteröidyn valokuva ja nimikirjoitus viiden vuoden kuluttua ajo-oikeuden tai kuljettajakortin voimassaolon päättymisestä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>6)</num>
+                            <content>
+                                <p>myönnettyihin lupiin ja kortteihin liittyvät tiedot viiden vuoden kuluttua kyseisen luvan, ajo-oikeuden tai kortin voimassaolon päättymisestä;</p>
+                            </content>
+                        </paragraph>
+                        <paragraph>
+                            <num>7)</num>
+                            <content>
+                                <p>kaikki tiedot vuoden kuluttua rekisteröidyn kuolemasta.</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                </section>
+                <section>
+                    <num>17 §</num>
+                    <heading>Salassa pidettävät tiedot ja niiden luovuttaminen</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <intro>
+                            <p>Rekisteriin talletetun salassa pidettävän tiedon saa salassapitosäännösten estämättä luovuttaa:</p>
+                        </intro>
+                        <hcontainer name="omission"/>
+                        <paragraph>
+                            <num>9)</num>
+                            <content>
+                                <p>tieliikenteen valvontalaitteen korttien käsittelijälle henkilön valokuvan ja nimikirjoitusnäytteen korttien käsittelyä varten;</p>
+                                <p class="omission"/>
+                            </content>
+                        </paragraph>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Tiedot saa luovuttaa myös teknisen käyttöyhteyden avulla tai muutoin sähköisesti. Luovutuksensaajan on ennen tietojen luovuttamista esitettävä selvitys tietojen suojaamisesta.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>20 §</num>
+                    <heading>Tietojen luovuttamisen muut rajoitukset</heading>
+                    <subsection>
+                        <content>
+                            <p>Henkilöllä on sen lisäksi, mitä henkilötietolain 30 §:ssä säädetään, oikeus kieltää osoitetietojensa luovuttaminen puhelimitse muuhun kuin viranomaisen, Liikennevakuutuskeskuksen, liikennevakuutusyhtiön, katsastuksen suorittajan, kuljettajantutkinnon vastaanottajan tai sopimusrekisteröijän käyttöön tai muuhun laissa säädettyyn käyttöön.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos henkilöllä on perusteltua syytä epäillä itsensä tai perheensä terveyden tai turvallisuuden tulevan uhatuksi, Ajoneuvohallintokeskus voi kirjallisesta pyynnöstä päättää, ettei häntä koskevia henkilötietoja saa luovuttaa rekisteristä muille kuin viranomaisille, Liikennevakuutuskeskukselle, liikennevakuutusyhtiölle, katsastuksen suorittajalle, sopimusrekisteröijälle, kuljettajantutkinnon vastaanottajalle ja tieliikenteen valvontalaitteen korttien käsittelijälle laissa säädettyjen tehtävien hoitamista varten. Tämä päätös voi ensimmäisen kerran olla voimassa enintään viisi vuotta. Rajoituksen voimassaoloa voidaan jatkaa kahdeksi vuodeksi kerrallaan.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Siirrettäessä 11 §:n 1 momentin 1 kohdassa tarkoitettu väestötietojärjestelmään talletettu luovutusrajoitus rekisteriin luovutusrajoitus tulee laajentaa vastaamaan tämän pykälän 2 momentissa tarkoitettuja tietoja. Luovutusrajoituksen laajentuminen ei estä henkilötietojen luovuttamista 2 momentissa tarkoitetuille.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Luovutettaessa 2 tai 3 momentissa tarkoitettu luovutusrajoituksen alainen tieto on luovutuksensaajalle samalla ilmoitettava luovutusrajoituksesta samoin kuin tietojen käyttöä ja suojausta koskevat rajoitukset. Rekisterinpitäjä voi erityisestä syystä päättää luovutusrajoituksesta ilmoittamatta jättämisestä, jos luovutettava tieto ja sen käyttötarkoitus on sellainen, että ilmoittamatta jättämisen ei arvioida vaarantavan luovutusrajoituksen tarkoitusta.</p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 20 päivänä kesäkuuta 2005.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/267">HE 267/2004</ref>
+                        </p>
+                        <p>LiVM 8/2005</p>
+                        <p>EV 38/2005</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 10 päivänä kesäkuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Ministeri </role>
+                                <person refersTo="">Ulla-Maj Wideroos</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

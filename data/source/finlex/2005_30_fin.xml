@@ -1,0 +1,174 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2005/30/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/30"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/30/alkup"/>
+                    <FRBRdate date="2005-01-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="30"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2005/30/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/30/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/30/alkup/fin"/>
+                    <FRBRdate date="2005-01-21" name="dateIssued"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2005/30/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2005/30/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/30/alkup/fin/xml"/>
+                    <FRBRdate date="2025-09-06" name="dateProduced"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:statuteBookOfFinlandReference>
+                    <finlex:year value="2005"/>
+                    <finlex:number value="7"/>
+                    <finlex:date date="2005-01-28"/>
+                </finlex:statuteBookOfFinlandReference>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>30/2005</docNumber>
+                <docTitle>Laki vakuutussopimuslain muuttamisesta</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>Eduskunnan päätöksen mukaisesti</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>muutetaan</i>
+                         28 päivänä kesäkuuta 1994 annetun vakuutussopimuslain (<affectedDocument href="/akn/fi/act/statute/1994/543">543/1994</affectedDocument>) 5 §:n 3 momentti, 6 §:n 1 momentti ja 12 § sekä
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>lisätään</i>
+                         5 §:ään uusi 4 momentti ja lakiin uusi 13 a § seuraavasti:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Säädöksen teksti" name="statuteProvisionsWrapper">
+                <section>
+                    <num>5 §</num>
+                    <heading>Tiedot ennen sopimuksen päättämistä</heading>
+                    <hcontainer name="omission"/>
+                    <subsection>
+                        <content>
+                            <p>Vakuutusten etämyynnissä kuluttajalle on lisäksi annettava kuluttajansuojalain (38/1978) 6 a luvussa tarkoitetut ennakkotiedot.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Valtioneuvoston asetuksella voidaan tarvittaessa antaa tarkempia säännöksiä siitä, mitä tietoja vakuutuksenantajan on annettava vakuutuksen hakijalle ennen sopimuksen päättämistä.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>6 §</num>
+                    <heading>Eräiden asiakirjojen antaminen</heading>
+                    <subsection>
+                        <content>
+                            <p>
+                                Vakuutussopimuksen päättämisen jälkeen vakuutuksenantajan on ilman aiheetonta viivytystä annettava vakuutuksenottajalle asiakirja, johon on merkitty sopimuksen keskeinen sisältö (<i>vakuutuskirja</i>), sekä vakuutusehdot. Vakuutusten etämyynnissä kuluttajalle sovelletaan kuitenkin, mitä kuluttajansuojalain 6 a luvun 11 §:ssä säädetään.
+                            </p>
+                        </content>
+                    </subsection>
+                    <hcontainer name="omission"/>
+                </section>
+                <section>
+                    <num>12 §</num>
+                    <heading>Vakuutuksenottajan oikeus irtisanoa vakuutus</heading>
+                    <subsection>
+                        <content>
+                            <p>Vakuutuksenottajalla on oikeus milloin tahansa irtisanoa vakuutus päättymään vakuutuskauden aikana. Irtisanominen on suoritettava kirjallisesti. Muu irtisanominen on mitätön. Jos vakuutuksenottaja ei ole määrännyt vakuutuksen päättymisaikaa, vakuutus päättyy, kun irtisanomista koskeva ilmoitus on annettu tai lähetetty vakuutuksenantajalle. Irtisanomisoikeutta ei kuitenkaan ole, jos vakuutussopimuksen sovittu voimassaoloaika on lyhyempi kuin 30 päivää.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section>
+                    <num>13 a §</num>
+                    <heading>Vakuutuksenottajan oikeus peruuttaa eläkevakuutus tai säästöhenkivakuutus</heading>
+                    <subsection>
+                        <content>
+                            <p>Vakuutuksenottajalla on oikeus peruuttaa eläkevakuutus tai säästöhenkivakuutus ilmoittamalla siitä vakuutuksenantajalle kirjallisesti 30 päivän kuluessa siitä päivästä, jona vakuutuksenottaja on saanut tiedon vakuutushakemuksen tai tarjouksen hyväksymisestä. Peruuttamisaika ei kuitenkaan ala kulua ennen kuin vakuutuksenottaja on saanut 6 §:ssä tarkoitetut asiakirjat tai vakuutusten etämyynnissä kuluttajansuojalain 6 a luvussa tarkoitetut ennakkotiedot ja sopimusehdot pysyvällä tavalla.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vakuutuksenantajan on viivytyksettä ja viimeistään 30 päivän kuluttua peruuttamisilmoituksen saatuaan palautettava vakuutuksenottajan vakuutussopimuksen perusteella suorittamat maksut. Jos vakuutuksen säästöosuus riippuu valitun sijoituskohteen arvonkehityksestä, vakuutuksenantaja saa kuitenkin vähentää palautettavista maksuista määrän, joka vastaa sijoituskohteen arvon alentumista peruuttamisilmoituksen saapumispäivänä. Jos muuta selvitystä peruuttamisilmoituksen saapumispäivästä ei voida esittää, postitse lähetetyn ilmoituksen katsotaan saapuneen vakuutuksenantajalle seitsemäntenä päivänä sen lähettämisestä ja sähköisesti lähetetyn ilmoituksen päivänä, jona se lähetettiin.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Jos eläkevakuutukseen tai säästöhenkivakuutukseen liittyy muu vakuutus, liitännäisvakuutus peruuntuu vakuutuksenottajan peruuttaessa päävakuutuksen. Vakuutuksenantajan oikeudesta vaatia maksu vakuutuksenottajan ennen liitännäisvakuutuksen peruuntumista saamasta vakuutusturvasta on voimassa, mitä 45 §:n 1 momentissa säädetään.</p>
+                        </content>
+                    </subsection>
+                    <subsection>
+                        <content>
+                            <p>Vakuutuksenantajalla on oikeus tehdä 2 momentissa tarkoitettu vähennys tai periä vakuutusmaksua 3 momentissa tarkoitetun vakuutuksen voimassaoloajalta vain, jos tästä on ilmoitettu vakuutuksenottajalle ennakolta. </p>
+                        </content>
+                    </subsection>
+                </section>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Tämä laki tulee voimaan 1 päivänä huhtikuuta 2005.</p>
+                    <p>Ennen tämän lain voimaantuloa tehtyihin sopimuksiin sovelletaan lain voimaan tullessa voimassa olleita säännöksiä.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Esityöt ja allekirjoitukset" name="conclusions">
+                <hcontainer finlex:outline="Esityöt" name="preliminaryWork">
+                    <content>
+                        <p>
+                            <ref href="/akn/fi/doc/government-proposal/2004/122">HE 122/2004</ref>
+                        </p>
+                        <p>TaVM 20/2004</p>
+                        <p>EV 166/2004</p>
+                        <p>Euroopan parlamentin ja neuvoston direktiivi 2002/65/EY (32002L0065); EYVL N:o L 271, 9.10.2002, s. 16</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Allekirjoitukset" name="signatures">
+                    <content>
+                        <p>Helsingissä 21 päivänä tammikuuta 2005</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Tasavallan Presidentti </role>
+                                <person refersTo="">TARJA HALONEN</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Oikeusministeri </role>
+                                <person refersTo="">Johannes Koskinen</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>

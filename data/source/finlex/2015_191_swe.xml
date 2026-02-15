@@ -1,0 +1,147 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="originalVersion" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute/2015/191/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/191"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/191/alkup"/>
+                    <FRBRdate date="2015-03-06" name="dateIssued"/>
+                    <FRBRdate date="2015-03-10" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute"/>
+                    <FRBRnumber value="191"/>
+                    <FRBRprescriptive value="true"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute/2015/191/swe@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/191/swe@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/191/alkup/swe"/>
+                    <FRBRdate date="2015-03-06" name="dateIssued"/>
+                    <FRBRdate date="2015-03-10" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.parliament"/>
+                    <FRBRlanguage language="swe"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute/2015/191/swe@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute/2015/191/swe@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2015/191/alkup/swe/xml"/>
+                    <FRBRdate date="2025-02-21" name="dateProduced"/>
+                    <FRBRdate date="2015-03-10" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Lag"/>
+                <TLCConcept eId="amending-statute" href="/akn/ontology/concept/statute/category-statute.amending-statute" showAs="Muutossäädös"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:categoryStatute refersTo="#amending-statute"/>
+                <finlex:documentYear>2015</finlex:documentYear>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>191/2015</docNumber>
+                <docTitle>Lag om ändring av 2 och 7 kap. i lagen om bostadsköp</docTitle>
+            </p>
+        </preface>
+        <preamble>
+            <formula name="enactingClause">
+                <p>I enlighet med riksdagens beslut</p>
+                <blockContainer>
+                    <block name="substitutions">
+                        <i>ändras</i>
+                         i lagen om bostadsköp (
+                        <affectedDocument href="/akn/fi/act/statute/1994/843">843/1994</affectedDocument>
+                        ) 2 kap. 1 b §, sådan den lyder i lag 795/2005, och
+                    </block>
+                </blockContainer>
+                <blockContainer>
+                    <block name="insertions">
+                        <i>fogas</i>
+                         till 2 kap. 6 a §, sådan den lyder i lag 795/2005, ett nytt 3 mom. och till 7 kap. 5 §, sådan den lyder i lag 795/2005, ett nytt 3 mom. som följer:
+                    </block>
+                </blockContainer>
+            </formula>
+        </preamble>
+        <body>
+            <hcontainer finlex:outline="Förordningens text" name="statuteProvisionsWrapper">
+                <chapter>
+                    <num>2 kap.</num>
+                    <heading>Köparens skydd under byggnadsfasen</heading>
+                    <section>
+                        <num>1 b §</num>
+                        <heading>Begränsningar i tillämpningsområdet</heading>
+                        <subsection>
+                            <content>
+                                <p>Detta kapitel tillämpas inte om bolagets byggnader omfattar eller kommer att omfatta sammanlagt högst tre bostadslägenheter och det inte är fråga om ett bostadsaktiebolag eller ett bostadsandelslag. Detta kapitel tillämpas inte heller om det är fråga om sådant gruppbyggande som har formen av en bostadssammanslutning och som hör till tillämpningsområdet för lagen om gruppbyggande (190/2015).</p>
+                            </content>
+                        </subsection>
+                    </section>
+                    <section>
+                        <num>6 a §</num>
+                        <heading>Förvaring och överlåtelse av pantbrev</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Ett elektroniskt pantbrev anses ha överlämnats till den som i lagfarts- och inteckningsregistret inskrivits som det elektroniska pantbrevets mottagare.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+                <chapter>
+                    <num>7 kap.</num>
+                    <heading>Särskilda stadganden</heading>
+                    <section>
+                        <num>5 §</num>
+                        <heading>Brott mot bestämmelserna om skydd för köpare</heading>
+                        <hcontainer name="omission"/>
+                        <subsection>
+                            <content>
+                                <p>Bestämmelserna i 2 mom. 3 punkten til lämpas inte på konsulter för gruppbyggande som till konsumenter marknadsför sådant gruppbyggande som avses i lagen om gruppbyggande.</p>
+                            </content>
+                        </subsection>
+                    </section>
+                </chapter>
+            </hcontainer>
+            <hcontainer name="entryIntoForceStart"/>
+            <hcontainer eId="entryIntoForce" name="entryIntoForce">
+                <content>
+                    <p>Denna lag träder i kraft den 1 september 2015.</p>
+                </content>
+            </hcontainer>
+            <hcontainer finlex:outline="Förarbeten och signaturer" name="conclusions">
+                <hcontainer finlex:outline="Förarbeten" name="preliminaryWork">
+                    <content>
+                        <p>RP 228/2014</p>
+                        <p>EkUB 24/2014</p>
+                        <p>RSv 233/2014</p>
+                    </content>
+                </hcontainer>
+                <hcontainer finlex:outline="Signaturer" name="signatures">
+                    <content>
+                        <p>  Helsingfors den 6 mars 2015</p>
+                        <p>
+                            <signature>
+                                <role refersTo="">Republikens President</role>
+                                <person refersTo="">SAULI NIINISTÖ</person>
+                            </signature>
+                            <signature>
+                                <role refersTo="">Justitieminister</role>
+                                <person refersTo="">Anna-Maja Henriksson</person>
+                            </signature>
+                        </p>
+                    </content>
+                </hcontainer>
+            </hcontainer>
+        </body>
+    </act>
+</akomaNtoso>
