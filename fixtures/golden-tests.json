@@ -7,25 +7,25 @@
     {
       "id": "fi-001",
       "category": "article_retrieval",
-      "description": "Retrieve provision from Perustuslaki (Constitution, 731/1999)",
+      "description": "Retrieve provision from Tietosuojalaki (Data Protection Act, 1050/2018)",
       "tool": "get_provision",
-      "input": { "document_id": "731/1999", "section": "1" },
-      "assertions": { "result_not_empty": true, "fields_present": ["results"] }
+      "input": { "document_id": "1050/2018", "chapter": "1", "section": "1" },
+      "assertions": { "result_not_empty": true, "fields_present": ["results"], "text_contains": ["tietosuoja"] }
     },
     {
       "id": "fi-002",
       "category": "article_retrieval",
-      "description": "Retrieve provision from Tietosuojalaki (Data Protection Act, 1050/2018)",
+      "description": "Retrieve provision from Hallintolaki (Administrative Procedure Act, 434/2003)",
       "tool": "get_provision",
-      "input": { "document_id": "1050/2018", "section": "1" },
-      "assertions": { "result_not_empty": true, "fields_present": ["results"] }
+      "input": { "document_id": "434/2003", "chapter": "1", "section": "1" },
+      "assertions": { "result_not_empty": true, "fields_present": ["results"], "text_contains": ["hallinto"] }
     },
     {
       "id": "fi-003",
       "category": "article_retrieval",
-      "description": "Retrieve all provisions of Perustuslaki",
+      "description": "Retrieve all provisions of Tietosuojalaki (Data Protection Act, 1050/2018)",
       "tool": "get_provision",
-      "input": { "document_id": "731/1999" },
+      "input": { "document_id": "1050/2018" },
       "assertions": { "result_not_empty": true, "min_results": 5 }
     },
     {
@@ -49,7 +49,7 @@
       "category": "citation_roundtrip",
       "description": "Validate a Finnish legal citation",
       "tool": "validate_citation",
-      "input": { "citation": "731/1999 1 §" },
+      "input": { "citation": "1050/2018 1:1 §" },
       "assertions": { "result_not_empty": true }
     },
     {
@@ -57,15 +57,15 @@
       "category": "citation_roundtrip",
       "description": "Format citation returns standard Finnish format",
       "tool": "format_citation",
-      "input": { "citation": "731/1999 6 §" },
+      "input": { "citation": "1050/2018 1:2 §" },
       "assertions": { "result_not_empty": true }
     },
     {
       "id": "fi-008",
       "category": "currency",
-      "description": "Check currency of Perustuslaki",
+      "description": "Check currency of Tietosuojalaki",
       "tool": "check_currency",
-      "input": { "document_id": "731/1999" },
+      "input": { "document_id": "1050/2018" },
       "assertions": { "result_not_empty": true }
     },
     {
