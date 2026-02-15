@@ -1,0 +1,104 @@
+{
+  "$schema": "./golden-tests.schema.json",
+  "version": "1.0",
+  "mcp_name": "Finnish Law MCP",
+  "description": "Golden contract tests for the Finnish Law MCP",
+  "tests": [
+    {
+      "id": "fi-001",
+      "category": "article_retrieval",
+      "description": "Retrieve provision from Perustuslaki (Constitution, 731/1999)",
+      "tool": "get_provision",
+      "input": { "document_id": "731/1999", "section": "1" },
+      "assertions": { "result_not_empty": true, "fields_present": ["results"] }
+    },
+    {
+      "id": "fi-002",
+      "category": "article_retrieval",
+      "description": "Retrieve provision from Tietosuojalaki (Data Protection Act, 1050/2018)",
+      "tool": "get_provision",
+      "input": { "document_id": "1050/2018", "section": "1" },
+      "assertions": { "result_not_empty": true, "fields_present": ["results"] }
+    },
+    {
+      "id": "fi-003",
+      "category": "article_retrieval",
+      "description": "Retrieve all provisions of Perustuslaki",
+      "tool": "get_provision",
+      "input": { "document_id": "731/1999" },
+      "assertions": { "result_not_empty": true, "min_results": 5 }
+    },
+    {
+      "id": "fi-004",
+      "category": "search",
+      "description": "Search for 'henkilötieto' returns data protection results",
+      "tool": "search_legislation",
+      "input": { "query": "henkilötieto" },
+      "assertions": { "result_not_empty": true, "min_results": 1 }
+    },
+    {
+      "id": "fi-005",
+      "category": "search",
+      "description": "Search for 'työsopimus' returns employment law results",
+      "tool": "search_legislation",
+      "input": { "query": "työsopimus" },
+      "assertions": { "result_not_empty": true, "min_results": 1 }
+    },
+    {
+      "id": "fi-006",
+      "category": "citation_roundtrip",
+      "description": "Validate a Finnish legal citation",
+      "tool": "validate_citation",
+      "input": { "citation": "731/1999 1 §" },
+      "assertions": { "result_not_empty": true }
+    },
+    {
+      "id": "fi-007",
+      "category": "citation_roundtrip",
+      "description": "Format citation returns standard Finnish format",
+      "tool": "format_citation",
+      "input": { "citation": "731/1999 6 §" },
+      "assertions": { "result_not_empty": true }
+    },
+    {
+      "id": "fi-008",
+      "category": "currency",
+      "description": "Check currency of Perustuslaki",
+      "tool": "check_currency",
+      "input": { "document_id": "731/1999" },
+      "assertions": { "result_not_empty": true }
+    },
+    {
+      "id": "fi-009",
+      "category": "eu_cross_reference",
+      "description": "EU basis lookup for Tietosuojalaki returns GDPR references",
+      "tool": "get_eu_basis",
+      "input": { "sfs_number": "1050/2018" },
+      "assertions": { "result_not_empty": true }
+    },
+    {
+      "id": "fi-010",
+      "category": "negative_test",
+      "description": "Non-existent law returns gracefully",
+      "tool": "get_provision",
+      "input": { "document_id": "9999/9999", "section": "1" },
+      "assertions": { "handles_gracefully": true }
+    },
+    {
+      "id": "fi-011",
+      "category": "negative_test",
+      "description": "Search with no results handled gracefully",
+      "tool": "search_legislation",
+      "input": { "query": "xyznonexistentlawterm9999" },
+      "assertions": { "handles_gracefully": true }
+    },
+    {
+      "id": "fi-012",
+      "category": "negative_test",
+      "description": "Invalid citation format handled gracefully",
+      "tool": "validate_citation",
+      "input": { "citation": "not-a-real-citation-12345" },
+      "assertions": { "handles_gracefully": true }
+    }
+  ]
+}

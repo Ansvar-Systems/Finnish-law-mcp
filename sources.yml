@@ -1,0 +1,28 @@
+schema_version: '1.0'
+mcp_name: 'Finnish Law MCP'
+jurisdiction: 'FI'
+
+sources:
+  - name: 'Finlex'
+    authority: 'Finnish Ministry of Justice'
+    official_portal: 'https://finlex.fi'
+    canonical_identifier: 'Statute number (e.g., 1050/2018)'
+    retrieval_method: 'API'
+    api_documentation: 'https://finlex.fi/fi/api/'
+    update_frequency: 'daily'
+    last_ingested: '2026-02-14'
+    license_or_terms:
+      type: 'Government Open Data (CC BY 4.0)'
+      url: 'https://finlex.fi/fi/oikeuslaitos/tietoa-finlexista/'
+      summary: 'Finnish government open data, free to use with attribution'
+    coverage:
+      scope: 'Finnish statutes and regulations'
+      limitations: 'Historical versions depend on Finlex coverage'
+    languages:
+      - 'fi'
+      - 'sv'  # Finland has Swedish as official language too
+
+data_freshness:
+  automated_checks: true
+  check_frequency: 'daily'
+  last_verified: '2026-02-15'

@@ -1,0 +1,49 @@
+{
+  "$schema": "./golden-hashes.schema.json",
+  "version": "1.0",
+  "mcp_name": "Finnish Law MCP",
+  "jurisdiction": "FI",
+  "description": "Drift detection anchors for stable Finnish legal provisions. Constitutional and foundational articles that rarely change.",
+  "provisions": [
+    {
+      "id": "fi-hash-001",
+      "description": "Perustuslaki § 1 — sovereignty, constitution (Suomen valtiosääntö)",
+      "upstream_url": "https://finlex.fi/fi/laki/ajantasa/1999/19990731#L1P1",
+      "selector_hint": "Section 1",
+      "expected_sha256": "COMPUTE_ON_FIRST_RUN",
+      "expected_snippet": "Suomi on täysivaltainen tasavalta"
+    },
+    {
+      "id": "fi-hash-002",
+      "description": "Perustuslaki § 6 — equality (yhdenvertaisuus)",
+      "upstream_url": "https://finlex.fi/fi/laki/ajantasa/1999/19990731#L2P6",
+      "selector_hint": "Section 6",
+      "expected_sha256": "COMPUTE_ON_FIRST_RUN",
+      "expected_snippet": "Ihmiset ovat yhdenvertaisia lain edessä"
+    },
+    {
+      "id": "fi-hash-003",
+      "description": "Perustuslaki § 10 — privacy (yksityiselämän suoja)",
+      "upstream_url": "https://finlex.fi/fi/laki/ajantasa/1999/19990731#L2P10",
+      "selector_hint": "Section 10",
+      "expected_sha256": "COMPUTE_ON_FIRST_RUN",
+      "expected_snippet": "yksityiselämä"
+    },
+    {
+      "id": "fi-hash-004",
+      "description": "Perustuslaki § 12 — freedom of expression (sananvapaus)",
+      "upstream_url": "https://finlex.fi/fi/laki/ajantasa/1999/19990731#L2P12",
+      "selector_hint": "Section 12",
+      "expected_sha256": "COMPUTE_ON_FIRST_RUN",
+      "expected_snippet": "sananvapaus"
+    },
+    {
+      "id": "fi-hash-005",
+      "description": "Rikoslaki § 1 — criminal code Chapter 1 Section 1 (legality principle)",
+      "upstream_url": "https://finlex.fi/fi/laki/ajantasa/1889/18890039001#L1P1",
+      "selector_hint": "Chapter 1 Section 1",
+      "expected_sha256": "COMPUTE_ON_FIRST_RUN",
+      "expected_snippet": "rikos"
+    }
+  ]
+}
