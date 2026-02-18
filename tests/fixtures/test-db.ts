@@ -1,5 +1,5 @@
 /**
- * Test database fixture with Swedish law sample data.
+ * Test database fixture with Finnish law sample data.
  */
 
 import Database from '@ansvar/mcp-sqlite';
@@ -239,65 +239,65 @@ CREATE INDEX IF NOT EXISTS idx_eu_references_provision ON eu_references(provisio
 `;
 
 const SAMPLE_DOCUMENTS = [
-  { id: '2018:218', type: 'statute', title: 'Lag med kompletterande bestämmelser till EU:s dataskyddsförordning', title_en: 'Act with supplementary provisions to the EU GDPR', short_name: 'DSL', status: 'in_force', issued_date: '2018-04-19', in_force_date: '2018-05-25', url: 'https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2018218-med-kompletterande-bestammelser_sfs-2018-218/', description: 'Kompletterande bestämmelser till GDPR' },
-  { id: '1998:204', type: 'statute', title: 'Personuppgiftslag', title_en: 'Personal Data Act', short_name: 'PUL', status: 'repealed', issued_date: '1998-04-29', in_force_date: '1998-10-24', url: null, description: 'Upphävd 2018-05-25 genom SFS 2018:218' },
-  { id: '2017/18:105', type: 'bill', title: 'Ny dataskyddslag', title_en: 'New Data Protection Act', short_name: null, status: 'in_force', issued_date: '2018-02-15', in_force_date: null, url: null, description: 'Proposition om kompletterande bestämmelser till GDPR' },
-  { id: '2017:39', type: 'sou', title: 'Ny dataskyddslag - Kompletterande bestämmelser till EU:s dataskyddsförordning', title_en: null, short_name: null, status: 'in_force', issued_date: '2017-05-12', in_force_date: null, url: null, description: 'Utredning om kompletterande dataskyddsbestämmelser' },
-  { id: 'NJA 2020', type: 'case_law', title: 'NJA 2020 s. 45', title_en: null, short_name: null, status: 'in_force', issued_date: '2020-03-15', in_force_date: null, url: null, description: 'Avgörande om personuppgiftsbehandling' },
-  { id: 'HFD 2019', type: 'case_law', title: 'HFD 2019 ref. 12', title_en: null, short_name: null, status: 'in_force', issued_date: '2019-06-20', in_force_date: null, url: null, description: 'Avgörande om tillsyn enligt dataskyddslagen' },
+  { id: '1050/2018', type: 'statute', title: 'Tietosuojalaki', title_en: 'Data Protection Act', short_name: 'TietosuojaL', status: 'in_force', issued_date: '2018-12-05', in_force_date: '2019-01-01', url: 'https://www.finlex.fi/fi/laki/ajantasa/2018/20181050', description: 'Laki luonnollisten henkilöiden suojelusta henkilötietojen käsittelyssä' },
+  { id: '523/1999', type: 'statute', title: 'Henkilötietolaki', title_en: 'Personal Data Act', short_name: 'HenkilötietoL', status: 'repealed', issued_date: '1999-04-22', in_force_date: '1999-06-01', url: null, description: 'Kumottu 2019-01-01 lailla 1050/2018' },
+  { id: 'HE 9/2018 vp', type: 'bill', title: 'Hallituksen esitys tietosuojalaiksi', title_en: 'Government proposal for Data Protection Act', short_name: null, status: 'in_force', issued_date: '2018-03-01', in_force_date: null, url: null, description: 'Hallituksen esitys EU:n yleistä tietosuoja-asetusta täydentäväksi lainsäädännöksi' },
+  { id: 'LaVM 13/2018 vp', type: 'sou', title: 'Lakivaliokunnan mietintö tietosuojalaiksi', title_en: null, short_name: null, status: 'in_force', issued_date: '2018-10-12', in_force_date: null, url: null, description: 'Lakivaliokunnan mietintö hallituksen esityksestä tietosuojalaiksi' },
+  { id: 'KKO:2020:45', type: 'case_law', title: 'KKO:2020:45', title_en: null, short_name: null, status: 'in_force', issued_date: '2020-03-15', in_force_date: null, url: null, description: 'Ratkaisu henkilötietojen käsittelystä' },
+  { id: 'KHO:2019:100', type: 'case_law', title: 'KHO:2019:100', title_en: null, short_name: null, status: 'in_force', issued_date: '2019-06-20', in_force_date: null, url: null, description: 'Ratkaisu tietosuojavaltuutetun päätöksestä' },
 ];
 
 const SAMPLE_PROVISIONS = [
-  { document_id: '2018:218', provision_ref: '1:1', chapter: '1', section: '1', title: 'Lagens syfte', content: 'Denna lag kompletterar Europaparlamentets och rådets förordning (EU) 2016/679 av den 27 april 2016 om skydd för fysiska personer med avseende på behandling av personuppgifter och om det fria flödet av sådana uppgifter och om upphävande av direktiv 95/46/EG (allmän dataskyddsförordning).' },
-  { document_id: '2018:218', provision_ref: '1:2', chapter: '1', section: '2', title: 'Lagens tillämpningsområde', content: 'Denna lag gäller vid behandling av personuppgifter som helt eller delvis företas på automatisk väg och vid annan behandling av personuppgifter som ingår i eller kommer att ingå i ett register.' },
-  { document_id: '2018:218', provision_ref: '1:3', chapter: '1', section: '3', title: null, content: 'Lagen gäller inte för behandling av personuppgifter som en fysisk person utför som ett led i verksamhet av rent privat natur.' },
-  { document_id: '2018:218', provision_ref: '2:1', chapter: '2', section: '1', title: 'Rättslig grund för behandling av personuppgifter', content: 'Personuppgifter får behandlas med stöd av artikel 6.1 e i EU:s dataskyddsförordning, om behandlingen är nödvändig för att utföra en uppgift av allmänt intresse.' },
-  { document_id: '2018:218', provision_ref: '2:2', chapter: '2', section: '2', title: 'Behandling som rör ett viktigt allmänt intresse', content: 'Personuppgifter som avses i artikel 9.1 i EU:s dataskyddsförordning (känsliga personuppgifter) får behandlas av en myndighet med stöd av artikel 9.2 g i förordningen under förutsättning att behandlingen är nödvändig med hänsyn till ett viktigt allmänt intresse.' },
-  { document_id: '2018:218', provision_ref: '3:1', chapter: '3', section: '1', title: 'Tillsynsmyndighet', content: 'Integritetsskyddsmyndigheten är tillsynsmyndighet enligt EU:s dataskyddsförordning.' },
-  { document_id: '2018:218', provision_ref: '3:2', chapter: '3', section: '2', title: 'Sanktionsavgifter', content: 'Integritetsskyddsmyndigheten får besluta om administrativa sanktionsavgifter enligt artiklarna 83 och 84 i EU:s dataskyddsförordning.' },
-  { document_id: '2018:218', provision_ref: '4:1', chapter: '4', section: '1', title: 'Skadestånd', content: 'Den personuppgiftsansvarige eller personuppgiftsbiträdet ska ersätta den registrerade för den skada och kränkning av den personliga integriteten som en behandling i strid med denna lag har orsakat.' },
-  { document_id: '1998:204', provision_ref: '1', chapter: null, section: '1', title: 'Lagens syfte', content: 'Syftet med denna lag är att skydda människor mot att deras personliga integritet kränks genom behandling av personuppgifter.' },
-  { document_id: '1998:204', provision_ref: '3', chapter: null, section: '3', title: 'Definitioner', content: 'I denna lag används följande beteckningar med den betydelse som här anges: personuppgifter - all slags information som direkt eller indirekt kan hänföras till en fysisk person som är i livet.' },
-  { document_id: '1998:204', provision_ref: '5 a', chapter: null, section: '5 a', title: 'Missbruksregeln', content: 'Behandling av personuppgifter som inte ingår i eller är avsedda att ingå i en samling av personuppgifter som har strukturerats för att påtagligt underlätta sökning efter eller sammanställning av personuppgifter är tillåten om behandlingen inte innebär en kränkning av den registrerades personliga integritet.' },
+  { document_id: '1050/2018', provision_ref: '1:1', chapter: '1', section: '1', title: 'Lain tarkoitus', content: 'Tällä lailla täydennetään Euroopan parlamentin ja neuvoston asetusta (EU) 2016/679 luonnollisten henkilöiden suojelusta henkilötietojen käsittelyssä sekä näiden tietojen vapaasta liikkuvuudesta ja direktiivin 95/46/EY kumoamisesta (yleinen tietosuoja-asetus).' },
+  { document_id: '1050/2018', provision_ref: '1:2', chapter: '1', section: '2', title: 'Lain soveltamisala', content: 'Tätä lakia sovelletaan henkilötietojen käsittelyyn, joka on kokonaan tai osittain automaattista, sekä muuhun henkilötietojen käsittelyyn silloin, kun henkilötiedot muodostavat rekisterin osan.' },
+  { document_id: '1050/2018', provision_ref: '1:3', chapter: '1', section: '3', title: null, content: 'Lakia ei sovelleta henkilötietojen käsittelyyn, jonka luonnollinen henkilö suorittaa yksinomaan henkilökohtaisessa tai niihin verrattavissa kotitalouttaan koskevassa toiminnassa.' },
+  { document_id: '1050/2018', provision_ref: '2:1', chapter: '2', section: '1', title: 'Oikeusperuste henkilötietojen käsittelylle', content: 'Henkilötietoja saa käsitellä yleisen tietosuoja-asetuksen 6 artiklan 1 kohdan e alakohdan nojalla, jos käsittely on tarpeen yleistä etua koskevan tehtävän suorittamiseksi.' },
+  { document_id: '1050/2018', provision_ref: '2:2', chapter: '2', section: '2', title: 'Tärkeää yleistä etua koskeva käsittely', content: 'Yleisen tietosuoja-asetuksen 9 artiklan 1 kohdassa tarkoitettuja erityisiä henkilötietoryhmiä saa käsitellä viranomaisen toimesta 9 artiklan 2 kohdan g alakohdan nojalla, kun käsittely on tarpeen tärkeän yleisen edun vuoksi.' },
+  { document_id: '1050/2018', provision_ref: '3:1', chapter: '3', section: '1', title: 'Valvontaviranomainen', content: 'Tietosuojavaltuutetun toimisto on yleisessä tietosuoja-asetuksessa tarkoitettu valvontaviranomainen.' },
+  { document_id: '1050/2018', provision_ref: '3:2', chapter: '3', section: '2', title: 'Hallinnolliset seuraamusmaksut', content: 'Tietosuojavaltuutetun toimisto voi määrätä hallinnollisen seuraamusmaksun yleisen tietosuoja-asetuksen 83 ja 84 artiklan nojalla.' },
+  { document_id: '1050/2018', provision_ref: '4:1', chapter: '4', section: '1', title: 'Vahingonkorvaus', content: 'Rekisterinpitäjän tai henkilötietojen käsittelijän on korvattava rekisteröidylle vahinko ja henkilökohtaisen koskemattomuuden loukkaus, joka on aiheutunut tämän lain vastaisesta henkilötietojen käsittelystä.' },
+  { document_id: '523/1999', provision_ref: '1', chapter: null, section: '1', title: 'Lain tarkoitus', content: 'Tämän lain tarkoituksena on toteuttaa yksityiselämän suojaa ja muita yksityisyyden suojaa turvaavia perusoikeuksia henkilötietoja käsiteltäessä.' },
+  { document_id: '523/1999', provision_ref: '3', chapter: null, section: '3', title: 'Määritelmät', content: 'Tässä laissa tarkoitetaan: henkilötiedolla kaikenlaisia luonnollista henkilöä taikka hänen ominaisuuksiaan tai elinolosuhteitaan kuvaavia merkintöjä.' },
+  { document_id: '523/1999', provision_ref: '5 a', chapter: null, section: '5 a', title: 'Väärinkäyttösäännös', content: 'Henkilötietojen käsittely, joka ei sisälly tai ole tarkoitettu sisällytettäväksi henkilötietojen jäsennettyyn kokoelmaan, on sallittua, jos käsittely ei loukkaa rekisteröidyn yksityisyyden suojaa.' },
 ];
 
 const SAMPLE_PROVISION_VERSIONS = [
-  { document_id: '2018:218', provision_ref: '1:1', chapter: '1', section: '1', title: 'Lagens syfte', content: 'Denna lag kompletterar Europaparlamentets och rådets förordning (EU) 2016/679 av den 27 april 2016 om skydd för fysiska personer med avseende på behandling av personuppgifter och om det fria flödet av sådana uppgifter och om upphävande av direktiv 95/46/EG (allmän dataskyddsförordning).', valid_from: '2018-05-25', valid_to: null },
-  { document_id: '2018:218', provision_ref: '1:2', chapter: '1', section: '2', title: 'Lagens tillämpningsområde', content: 'Denna lag gäller vid behandling av personuppgifter som helt eller delvis företas på automatisk väg och vid annan behandling av personuppgifter som ingår i eller kommer att ingå i ett register.', valid_from: '2018-05-25', valid_to: null },
-  { document_id: '2018:218', provision_ref: '1:3', chapter: '1', section: '3', title: null, content: 'Lagen gäller inte för behandling av personuppgifter som en fysisk person utför som ett led i verksamhet av rent privat natur.', valid_from: '2018-05-25', valid_to: null },
-  { document_id: '2018:218', provision_ref: '2:1', chapter: '2', section: '1', title: 'Rättslig grund för behandling av personuppgifter', content: 'Personuppgifter får behandlas med stöd av artikel 6.1 e i EU:s dataskyddsförordning, om behandlingen är nödvändig för att utföra en uppgift av allmänt intresse.', valid_from: '2018-05-25', valid_to: null },
-  { document_id: '2018:218', provision_ref: '2:2', chapter: '2', section: '2', title: 'Behandling som rör ett viktigt allmänt intresse', content: 'Personuppgifter som avses i artikel 9.1 i EU:s dataskyddsförordning (känsliga personuppgifter) får behandlas av en myndighet med stöd av artikel 9.2 g i förordningen under förutsättning att behandlingen är nödvändig med hänsyn till ett viktigt allmänt intresse.', valid_from: '2018-05-25', valid_to: null },
-  { document_id: '2018:218', provision_ref: '3:1', chapter: '3', section: '1', title: 'Tillsynsmyndighet', content: 'Datainspektionen är tillsynsmyndighet enligt EU:s dataskyddsförordning.', valid_from: '2018-05-25', valid_to: '2021-01-01' },
-  { document_id: '2018:218', provision_ref: '3:1', chapter: '3', section: '1', title: 'Tillsynsmyndighet', content: 'Integritetsskyddsmyndigheten är tillsynsmyndighet enligt EU:s dataskyddsförordning.', valid_from: '2021-01-01', valid_to: null },
-  { document_id: '2018:218', provision_ref: '3:2', chapter: '3', section: '2', title: 'Sanktionsavgifter', content: 'Integritetsskyddsmyndigheten får besluta om administrativa sanktionsavgifter enligt artiklarna 83 och 84 i EU:s dataskyddsförordning.', valid_from: '2018-05-25', valid_to: null },
-  { document_id: '2018:218', provision_ref: '4:1', chapter: '4', section: '1', title: 'Skadestånd', content: 'Den personuppgiftsansvarige eller personuppgiftsbiträdet ska ersätta den registrerade för den skada och kränkning av den personliga integriteten som en behandling i strid med denna lag har orsakat.', valid_from: '2018-05-25', valid_to: null },
-  { document_id: '1998:204', provision_ref: '1', chapter: null, section: '1', title: 'Lagens syfte', content: 'Syftet med denna lag är att skydda människor mot att deras personliga integritet kränks genom behandling av personuppgifter.', valid_from: '1998-10-24', valid_to: '2018-05-25' },
-  { document_id: '1998:204', provision_ref: '3', chapter: null, section: '3', title: 'Definitioner', content: 'I denna lag används följande beteckningar med den betydelse som här anges: personuppgifter - all slags information som direkt eller indirekt kan hänföras till en fysisk person som är i livet.', valid_from: '1998-10-24', valid_to: '2018-05-25' },
-  { document_id: '1998:204', provision_ref: '5 a', chapter: null, section: '5 a', title: 'Missbruksregeln', content: 'Behandling av personuppgifter som inte ingår i eller är avsedda att ingå i en samling av personuppgifter som har strukturerats för att påtagligt underlätta sökning efter eller sammanställning av personuppgifter är tillåten om behandlingen inte innebär en kränkning av den registrerades personliga integritet.', valid_from: '1998-10-24', valid_to: '2018-05-25' },
+  { document_id: '1050/2018', provision_ref: '1:1', chapter: '1', section: '1', title: 'Lain tarkoitus', content: 'Tällä lailla täydennetään Euroopan parlamentin ja neuvoston asetusta (EU) 2016/679 luonnollisten henkilöiden suojelusta henkilötietojen käsittelyssä sekä näiden tietojen vapaasta liikkuvuudesta ja direktiivin 95/46/EY kumoamisesta (yleinen tietosuoja-asetus).', valid_from: '2018-05-25', valid_to: null },
+  { document_id: '1050/2018', provision_ref: '1:2', chapter: '1', section: '2', title: 'Lain soveltamisala', content: 'Tätä lakia sovelletaan henkilötietojen käsittelyyn, joka on kokonaan tai osittain automaattista, sekä muuhun henkilötietojen käsittelyyn silloin, kun henkilötiedot muodostavat rekisterin osan.', valid_from: '2018-05-25', valid_to: null },
+  { document_id: '1050/2018', provision_ref: '1:3', chapter: '1', section: '3', title: null, content: 'Lakia ei sovelleta henkilötietojen käsittelyyn, jonka luonnollinen henkilö suorittaa yksinomaan henkilökohtaisessa tai niihin verrattavissa kotitalouttaan koskevassa toiminnassa.', valid_from: '2018-05-25', valid_to: null },
+  { document_id: '1050/2018', provision_ref: '2:1', chapter: '2', section: '1', title: 'Oikeusperuste henkilötietojen käsittelylle', content: 'Henkilötietoja saa käsitellä yleisen tietosuoja-asetuksen 6 artiklan 1 kohdan e alakohdan nojalla, jos käsittely on tarpeen yleistä etua koskevan tehtävän suorittamiseksi.', valid_from: '2018-05-25', valid_to: null },
+  { document_id: '1050/2018', provision_ref: '2:2', chapter: '2', section: '2', title: 'Tärkeää yleistä etua koskeva käsittely', content: 'Yleisen tietosuoja-asetuksen 9 artiklan 1 kohdassa tarkoitettuja erityisiä henkilötietoryhmiä saa käsitellä viranomaisen toimesta 9 artiklan 2 kohdan g alakohdan nojalla, kun käsittely on tarpeen tärkeän yleisen edun vuoksi.', valid_from: '2018-05-25', valid_to: null },
+  { document_id: '1050/2018', provision_ref: '3:1', chapter: '3', section: '1', title: 'Valvontaviranomainen', content: 'Tietosuojavaltuutettu on yleisessä tietosuoja-asetuksessa tarkoitettu valvontaviranomainen.', valid_from: '2018-05-25', valid_to: '2021-01-01' },
+  { document_id: '1050/2018', provision_ref: '3:1', chapter: '3', section: '1', title: 'Valvontaviranomainen', content: 'Tietosuojavaltuutetun toimisto on yleisessä tietosuoja-asetuksessa tarkoitettu valvontaviranomainen.', valid_from: '2021-01-01', valid_to: null },
+  { document_id: '1050/2018', provision_ref: '3:2', chapter: '3', section: '2', title: 'Hallinnolliset seuraamusmaksut', content: 'Tietosuojavaltuutetun toimisto voi määrätä hallinnollisen seuraamusmaksun yleisen tietosuoja-asetuksen 83 ja 84 artiklan nojalla.', valid_from: '2018-05-25', valid_to: null },
+  { document_id: '1050/2018', provision_ref: '4:1', chapter: '4', section: '1', title: 'Vahingonkorvaus', content: 'Rekisterinpitäjän tai henkilötietojen käsittelijän on korvattava rekisteröidylle vahinko ja henkilökohtaisen koskemattomuuden loukkaus, joka on aiheutunut tämän lain vastaisesta henkilötietojen käsittelystä.', valid_from: '2018-05-25', valid_to: null },
+  { document_id: '523/1999', provision_ref: '1', chapter: null, section: '1', title: 'Lain tarkoitus', content: 'Tämän lain tarkoituksena on toteuttaa yksityiselämän suojaa ja muita yksityisyyden suojaa turvaavia perusoikeuksia henkilötietoja käsiteltäessä.', valid_from: '1998-10-24', valid_to: '2018-05-25' },
+  { document_id: '523/1999', provision_ref: '3', chapter: null, section: '3', title: 'Määritelmät', content: 'Tässä laissa tarkoitetaan: henkilötiedolla kaikenlaisia luonnollista henkilöä taikka hänen ominaisuuksiaan tai elinolosuhteitaan kuvaavia merkintöjä.', valid_from: '1998-10-24', valid_to: '2018-05-25' },
+  { document_id: '523/1999', provision_ref: '5 a', chapter: null, section: '5 a', title: 'Väärinkäyttösäännös', content: 'Henkilötietojen käsittely, joka ei sisälly tai ole tarkoitettu sisällytettäväksi henkilötietojen jäsennettyyn kokoelmaan, on sallittua, jos käsittely ei loukkaa rekisteröidyn yksityisyyden suojaa.', valid_from: '1998-10-24', valid_to: '2018-05-25' },
 ];
 
 const SAMPLE_CASE_LAW = [
-  { document_id: 'NJA 2020', court: 'HD', case_number: 'T 1234-19', decision_date: '2020-03-15', summary: 'Högsta domstolen prövade frågan om skadestånd vid otillåten behandling av personuppgifter. Domstolen fann att den registrerade hade rätt till ersättning för den kränkning som behandlingen inneburit.', keywords: 'personuppgifter skadestånd kränkning dataskydd GDPR' },
-  { document_id: 'HFD 2019', court: 'HFD', case_number: '5765-18', decision_date: '2019-06-20', summary: 'Högsta förvaltningsdomstolen fastställde Integritetsskyddsmyndighetens beslut om sanktionsavgift för bristfällig behandling av känsliga personuppgifter inom hälso- och sjukvården.', keywords: 'tillsyn sanktionsavgift känsliga personuppgifter hälso- och sjukvård' },
+  { document_id: 'KKO:2020:45', court: 'KKO', case_number: 'S2019/123', decision_date: '2020-03-15', summary: 'Korkein oikeus tutki vahingonkorvausvaatimuksen lainvastaisesta henkilötietojen käsittelystä. Tuomioistuin katsoi, että rekisteröidyllä oli oikeus korvaukseen käsittelyn aiheuttamasta henkilökohtaisen koskemattomuuden loukkauksesta.', keywords: 'henkilötiedot vahingonkorvaus tietosuoja GDPR' },
+  { document_id: 'KHO:2019:100', court: 'KHO', case_number: '1234/2/18', decision_date: '2019-06-20', summary: 'Korkein hallinto-oikeus vahvisti tietosuojavaltuutetun päätöksen hallinnollisesta seuraamusmaksusta puutteellisesta erityisten henkilötietoryhmien käsittelystä terveydenhuollossa.', keywords: 'valvonta seuraamusmaksu erityiset henkilötietoryhmät terveydenhuolto' },
 ];
 
 const SAMPLE_PREPARATORY_WORKS = [
-  { statute_id: '2018:218', prep_document_id: '2017/18:105', title: 'Ny dataskyddslag', summary: 'Propositionen föreslår en ny lag med kompletterande bestämmelser till EU:s dataskyddsförordning. Lagen ersätter personuppgiftslagen (1998:204).' },
-  { statute_id: '2018:218', prep_document_id: '2017:39', title: 'Ny dataskyddslag - SOU', summary: 'Utredningen föreslår kompletterande bestämmelser till EU:s dataskyddsförordning med fokus på anpassning av svensk rätt.' },
+  { statute_id: '1050/2018', prep_document_id: 'HE 9/2018 vp', title: 'Hallituksen esitys tietosuojalaiksi', summary: 'Hallituksen esityksessä ehdotetaan säädettäväksi tietosuojalaki, jolla täydennetään EU:n yleistä tietosuoja-asetusta. Laki korvaa henkilötietolain (523/1999).' },
+  { statute_id: '1050/2018', prep_document_id: 'LaVM 13/2018 vp', title: 'Lakivaliokunnan mietintö tietosuojalaiksi', summary: 'Lakivaliokunnan mietinnössä ehdotetaan täydentäviä säännöksiä EU:n yleiseen tietosuoja-asetukseen Suomen oikeusjärjestelmän mukauttamiseksi.' },
 ];
 
 const SAMPLE_DEFINITIONS = [
-  { document_id: '2018:218', term: 'personuppgift', term_en: 'personal data', definition: 'Varje upplysning som avser en identifierad eller identifierbar fysisk person.', source_provision: '1:1' },
-  { document_id: '2018:218', term: 'behandling', term_en: 'processing', definition: 'En åtgärd eller kombination av åtgärder beträffande personuppgifter.', source_provision: '1:1' },
-  { document_id: '2018:218', term: 'personuppgiftsansvarig', term_en: 'controller', definition: 'En fysisk eller juridisk person som bestämmer ändamålen och medlen för behandlingen av personuppgifter.', source_provision: '1:1' },
-  { document_id: '2018:218', term: 'tillsynsmyndighet', term_en: 'supervisory authority', definition: 'Integritetsskyddsmyndigheten (IMY) är tillsynsmyndighet.', source_provision: '3:1' },
-  { document_id: '1998:204', term: 'personuppgift', term_en: 'personal data', definition: 'All slags information som direkt eller indirekt kan hänföras till en fysisk person som är i livet.', source_provision: '3' },
+  { document_id: '1050/2018', term: 'henkilötieto', term_en: 'personal data', definition: 'Kaikki tunnistettuun tai tunnistettavissa olevaan luonnolliseen henkilöön liittyvät tiedot.', source_provision: '1:1' },
+  { document_id: '1050/2018', term: 'käsittely', term_en: 'processing', definition: 'Toiminto tai toimintojen kokonaisuus, joka kohdistuu henkilötietoihin.', source_provision: '1:1' },
+  { document_id: '1050/2018', term: 'rekisterinpitäjä', term_en: 'controller', definition: 'Luonnollinen henkilö tai oikeushenkilö, joka määrittelee henkilötietojen käsittelyn tarkoitukset ja keinot.', source_provision: '1:1' },
+  { document_id: '1050/2018', term: 'valvontaviranomainen', term_en: 'supervisory authority', definition: 'Tietosuojavaltuutetun toimisto on valvontaviranomainen.', source_provision: '3:1' },
+  { document_id: '523/1999', term: 'henkilötieto', term_en: 'personal data', definition: 'Kaikenlaisia luonnollista henkilöä taikka hänen ominaisuuksiaan tai elinolosuhteitaan kuvaavia merkintöjä.', source_provision: '3' },
 ];
 
 const SAMPLE_CROSS_REFS = [
-  { source_document_id: '2018:218', source_provision_ref: '1:1', target_document_id: '1998:204', target_provision_ref: null, ref_type: 'amended_by' },
-  { source_document_id: '2018:218', source_provision_ref: '3:2', target_document_id: '2018:218', target_provision_ref: '3:1', ref_type: 'references' },
-  { source_document_id: 'NJA 2020', source_provision_ref: null, target_document_id: '2018:218', target_provision_ref: '4:1', ref_type: 'references' },
+  { source_document_id: '1050/2018', source_provision_ref: '1:1', target_document_id: '523/1999', target_provision_ref: null, ref_type: 'amended_by' },
+  { source_document_id: '1050/2018', source_provision_ref: '3:2', target_document_id: '1050/2018', target_provision_ref: '3:1', ref_type: 'references' },
+  { source_document_id: 'KKO:2020:45', source_provision_ref: null, target_document_id: '1050/2018', target_provision_ref: '4:1', ref_type: 'references' },
 ];
 
 const SAMPLE_EU_DOCUMENTS = [
@@ -309,7 +309,7 @@ const SAMPLE_EU_DOCUMENTS = [
     community: 'EU',
     celex_number: '32016R0679',
     title: 'Regulation (EU) 2016/679 on the protection of natural persons with regard to the processing of personal data',
-    title_sv: 'Europaparlamentets och rådets förordning (EU) 2016/679 om skydd för fysiska personer med avseende på behandling av personuppgifter',
+    title_sv: 'Euroopan parlamentin ja neuvoston asetus (EU) 2016/679 luonnollisten henkilöiden suojelusta henkilötietojen käsittelyssä',
     short_name: 'GDPR',
     adoption_date: '2016-04-27',
     entry_into_force_date: '2018-05-25',
@@ -325,7 +325,7 @@ const SAMPLE_EU_DOCUMENTS = [
     community: 'EG',
     celex_number: '31995L0046',
     title: 'Directive 95/46/EC on the protection of individuals with regard to the processing of personal data',
-    title_sv: 'Direktiv 95/46/EG om skydd för enskilda vid behandling av personuppgifter',
+    title_sv: 'Direktiivi 95/46/EY yksilöiden suojelusta henkilötietojen käsittelyssä',
     short_name: 'Data Protection Directive',
     adoption_date: '1995-10-24',
     entry_into_force_date: '1995-10-24',
@@ -337,11 +337,11 @@ const SAMPLE_EU_DOCUMENTS = [
 ];
 
 const SAMPLE_EU_REFERENCES = [
-  // DSL (2018:218) supplements GDPR
+  // Tietosuojalaki (1050/2018) supplements GDPR
   {
     source_type: 'document',
-    source_id: '2018:218',
-    document_id: '2018:218',
+    source_id: '1050/2018',
+    document_id: '1050/2018',
     provision_id: null,
     eu_document_id: 'regulation:2016/679',
     eu_article: null,
@@ -350,11 +350,11 @@ const SAMPLE_EU_REFERENCES = [
     is_primary_implementation: 1,
     implementation_status: 'complete',
   },
-  // DSL 2:1 references GDPR Article 6.1.e
+  // Tietosuojalaki 2:1 references GDPR Article 6.1.e
   {
     source_type: 'provision',
-    source_id: '2018:218:2:1',
-    document_id: '2018:218',
+    source_id: '1050/2018:2:1',
+    document_id: '1050/2018',
     provision_id: 4, // provision_ref 2:1
     eu_document_id: 'regulation:2016/679',
     eu_article: '6.1.e',
@@ -362,11 +362,11 @@ const SAMPLE_EU_REFERENCES = [
     full_citation: 'GDPR Article 6.1.e',
     is_primary_implementation: 0,
   },
-  // DSL 2:2 references GDPR Article 9.2.g
+  // Tietosuojalaki 2:2 references GDPR Article 9.2.g
   {
     source_type: 'provision',
-    source_id: '2018:218:2:2',
-    document_id: '2018:218',
+    source_id: '1050/2018:2:2',
+    document_id: '1050/2018',
     provision_id: 5, // provision_ref 2:2
     eu_document_id: 'regulation:2016/679',
     eu_article: '9.2.g',
@@ -374,11 +374,11 @@ const SAMPLE_EU_REFERENCES = [
     full_citation: 'GDPR Article 9.2.g',
     is_primary_implementation: 0,
   },
-  // DSL 3:2 references GDPR Articles 83-84
+  // Tietosuojalaki 3:2 references GDPR Articles 83-84
   {
     source_type: 'provision',
-    source_id: '2018:218:3:2',
-    document_id: '2018:218',
+    source_id: '1050/2018:3:2',
+    document_id: '1050/2018',
     provision_id: 7, // provision_ref 3:2
     eu_document_id: 'regulation:2016/679',
     eu_article: '83,84',
@@ -386,11 +386,11 @@ const SAMPLE_EU_REFERENCES = [
     full_citation: 'GDPR Articles 83 and 84',
     is_primary_implementation: 0,
   },
-  // PUL (1998:204) implemented old Data Protection Directive (now repealed)
+  // Henkilötietolaki (523/1999) implemented old Data Protection Directive (now repealed)
   {
     source_type: 'document',
-    source_id: '1998:204',
-    document_id: '1998:204',
+    source_id: '523/1999',
+    document_id: '523/1999',
     provision_id: null,
     eu_document_id: 'directive:95/46',
     eu_article: null,

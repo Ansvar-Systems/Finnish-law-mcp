@@ -30,6 +30,7 @@ export function extractRepealDateFromDescription(description: string | null): st
   if (!description) {
     return undefined;
   }
-  const match = description.match(/Upphävd\s+(\d{4}-\d{2}-\d{2})/i);
+  // Match Swedish "Upphävd YYYY-MM-DD" or Finnish "Kumottu YYYY-MM-DD"
+  const match = description.match(/(?:Upphävd|Kumottu)\s+(\d{4}-\d{2}-\d{2})/i);
   return match?.[1];
 }

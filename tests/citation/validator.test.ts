@@ -16,22 +16,22 @@ describe('validateCitation', () => {
 
   describe('valid citations', () => {
     it('should validate an existing statute', () => {
-      const result = validateCitation(db, 'SFS 2018:218');
+      const result = validateCitation(db, 'SFS 1050/2018');
       expect(result.document_exists).toBe(true);
       expect(result.provision_exists).toBe(true); // no provision specified, so N/A
-      expect(result.document_title).toContain('dataskyddsförordning');
+      expect(result.document_title).toContain('Tietosuojalaki');
       expect(result.warnings).toHaveLength(0);
     });
 
     it('should validate a specific provision', () => {
-      const result = validateCitation(db, 'SFS 2018:218 1 kap. 1 §');
+      const result = validateCitation(db, 'SFS 1050/2018 1 kap. 1 §');
       expect(result.document_exists).toBe(true);
       expect(result.provision_exists).toBe(true);
       expect(result.warnings).toHaveLength(0);
     });
 
     it('should validate a flat statute provision', () => {
-      const result = validateCitation(db, '1998:204 3 §');
+      const result = validateCitation(db, '523/1999 3 §');
       expect(result.document_exists).toBe(true);
       expect(result.provision_exists).toBe(true);
     });
@@ -39,13 +39,13 @@ describe('validateCitation', () => {
 
   describe('warnings', () => {
     it('should warn about repealed statute', () => {
-      const result = validateCitation(db, '1998:204');
+      const result = validateCitation(db, '523/1999');
       expect(result.document_exists).toBe(true);
       expect(result.warnings.some(w => w.includes('repealed'))).toBe(true);
     });
 
     it('should warn about non-existent provision', () => {
-      const result = validateCitation(db, 'SFS 2018:218 99 kap. 99 §');
+      const result = validateCitation(db, 'SFS 1050/2018 99 kap. 99 §');
       expect(result.document_exists).toBe(true);
       expect(result.provision_exists).toBe(false);
       expect(result.warnings.some(w => w.includes('not found'))).toBe(true);

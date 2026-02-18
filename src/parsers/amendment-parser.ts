@@ -1,7 +1,7 @@
 /**
- * Parse amendment references from Swedish statute text.
+ * Parse amendment references from Finnish statute text.
  *
- * Swedish statutes indicate amendments using standard phrases:
+ * Finnish statutes indicate amendments using standard phrases:
  *   - "Lag (YYYY:NNN)." at end of provision
  *   - "Upphävd genom lag (YYYY:NNN)"
  *   - "Införd genom lag (YYYY:NNN)"
@@ -240,7 +240,7 @@ export interface AmendmentSection {
  *   1 kap. 3 § ska ha följande lydelse:
  *   [new text]
  *
- * Note: Full implementation requires advanced Swedish legal NLP and
+ * Note: Full implementation requires advanced Finnish legal NLP and
  * understanding of "ska ha följande lydelse" constructions.
  */
 export function parseAmendingStatute(text: string): AmendmentSection[] {

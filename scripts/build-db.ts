@@ -636,7 +636,7 @@ function buildDatabase(): void {
 
   const db = new Database(DB_PATH);
   db.pragma('foreign_keys = ON');
-  db.pragma('journal_mode = WAL');
+  db.pragma('journal_mode = DELETE');
 
   db.exec(SCHEMA);
 
@@ -1108,10 +1108,10 @@ function buildDatabase(): void {
     insertMeta.run('schema_version', '2');
     insertMeta.run('built_at', new Date().toISOString());
     insertMeta.run('builder', 'build-db.ts');
+    insertMeta.run('jurisdiction', 'FI');
   });
   writeMeta();
 
-  db.pragma('wal_checkpoint(TRUNCATE)');
   db.exec('ANALYZE');
   db.close();
 

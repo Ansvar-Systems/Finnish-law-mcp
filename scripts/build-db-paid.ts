@@ -103,7 +103,7 @@ function buildPaidTier(): void {
 
   const db = new Database(DB_PATH);
   db.pragma('foreign_keys = ON');
-  db.pragma('journal_mode = WAL');
+  db.pragma('journal_mode = DELETE');
 
   // Verify base schema exists
   const hasLegalDocs = db.prepare(

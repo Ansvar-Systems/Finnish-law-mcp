@@ -1,11 +1,11 @@
 /**
- * Format Swedish legal citations per standard conventions.
+ * Format Finnish legal citations per standard conventions.
  */
 
 import type { ParsedCitation, CitationFormat } from '../types/index.js';
 
 /**
- * Format a parsed citation into a standard Swedish citation string.
+ * Format a parsed citation into a standard Finnish citation string.
  *
  * Formats:
  *   - full:     "SFS 2018:218 3 kap. 5 §" or "Prop. 2017/18:105"

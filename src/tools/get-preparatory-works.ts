@@ -1,5 +1,5 @@
 /**
- * get_preparatory_works — Retrieve preparatory works (forarbeten) for a statute.
+ * get_preparatory_works — Retrieve preparatory works (esityöt) for a statute.
  */
 
 import type { Database } from '@ansvar/mcp-sqlite';

@@ -25,6 +25,8 @@ import { searchEUImplementations, SearchEUImplementationsInput } from './search-
 import { getProvisionEUBasis, GetProvisionEUBasisInput } from './get-provision-eu-basis.js';
 import { validateEUCompliance, ValidateEUComplianceInput } from './validate-eu-compliance.js';
 import { getAbout, type AboutContext } from './about.js';
+import { listSources } from './list-sources.js';
+import { getProvisionAtDate, GetProvisionAtDateParams, toolDefinition as provisionAtDateDef } from './get-provision-at-date.js';
 export type { AboutContext } from './about.js';
 
 const ABOUT_TOOL: Tool = {
@@ -45,7 +47,9 @@ export const TOOLS: Tool[] = [
 
 Searches provision text using FTS5 with BM25 ranking. Supports boolean operators (AND, OR, NOT), phrase search ("exact phrase"), and prefix matching (term*).
 
-Returns matched provisions with snippets, relevance scores, and document metadata.`,
+Returns matched provisions with snippets, relevance scores, and document metadata.
+
+When NOT to use: If you already know the exact statute number and provision, use get_provision instead. If you need a comprehensive multi-source answer, use build_legal_stance.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -53,7 +57,7 @@ Returns matched provisions with snippets, relevance scores, and document metadat
         document_id: { type: 'string', description: 'Filter to a specific statute by statute number (e.g., "1050/2018" or "2018:218")' },
         status: { type: 'string', enum: ['in_force', 'amended', 'repealed'], description: 'Filter by document status' },
         as_of_date: { type: 'string', description: 'Optional historical date filter (YYYY-MM-DD).' },
-        limit: { type: 'number', description: 'Maximum results (default: 10, max: 50)' },
+        limit: { type: 'number', description: 'Maximum results', default: 10, minimum: 1, maximum: 50 },
       },
       required: ['query'],
     },
@@ -62,7 +66,9 @@ Returns matched provisions with snippets, relevance scores, and document metadat
     name: 'get_provision',
     description: `Retrieve a specific provision from a Finnish statute.
 
-Specify the statute number and either chapter+section or provision_ref directly.`,
+Specify the statute number and either chapter+section or provision_ref directly.
+
+When NOT to use: If you are searching by keyword and don't know the exact statute/provision, use search_legislation instead.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -77,22 +83,26 @@ Specify the statute number and either chapter+section or provision_ref directly.
   },
   {
     name: 'search_case_law',
-    description: `Search Finnish court decisions (rattsfall). Filter by court (HD, HFD, AD, etc.) and date range.`,
+    description: `Search Finnish court decisions (oikeustapaukset). Filter by court (KKO, KHO, hovioikeus, etc.) and date range.
+
+When NOT to use: If you need statute text, use search_legislation. Case law searches only cover court decisions.`,
     inputSchema: {
       type: 'object',
       properties: {
         query: { type: 'string', description: 'Search query for case law summaries' },
-        court: { type: 'string', description: 'Filter by court (e.g., "HD", "HFD", "AD")' },
+        court: { type: 'string', description: 'Filter by court (e.g., "KKO", "KHO", "hovioikeus")' },
         date_from: { type: 'string', description: 'Start date filter (ISO 8601)' },
         date_to: { type: 'string', description: 'End date filter (ISO 8601)' },
-        limit: { type: 'number', description: 'Maximum results (default: 10, max: 50)' },
+        limit: { type: 'number', description: 'Maximum results', default: 10, minimum: 1, maximum: 50 },
       },
       required: ['query'],
     },
   },
   {
     name: 'get_preparatory_works',
-    description: `Get preparatory works (forarbeten) for a Finnish statute. Returns linked propositions, SOUs, and Ds documents.`,
+    description: `Get preparatory works (esityöt) for a Finnish statute. Returns linked government proposals (HE), committee reports, and related documents.
+
+When NOT to use: If you need the statute text itself, use get_provision. Preparatory works explain legislative intent, not current law.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -103,7 +113,9 @@ Specify the statute number and either chapter+section or provision_ref directly.
   },
   {
     name: 'validate_citation',
-    description: `Validate a Finnish legal citation against the database. Parses the citation, checks existence, and returns warnings.`,
+    description: `Validate a Finnish legal citation against the database. Parses the citation, checks existence, and returns warnings.
+
+When NOT to use: If you want to format a citation string, use format_citation. This tool checks existence in the database.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -114,7 +126,9 @@ Specify the statute number and either chapter+section or provision_ref directly.
   },
   {
     name: 'build_legal_stance',
-    description: `Build a comprehensive set of citations for a legal question. Searches across statutes, case law, and preparatory works.`,
+    description: `Build a comprehensive set of citations for a legal question. Searches across statutes, case law, and preparatory works.
+
+When NOT to use: If you need a specific provision or targeted search, use get_provision or search_legislation instead.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -123,14 +137,16 @@ Specify the statute number and either chapter+section or provision_ref directly.
         include_case_law: { type: 'boolean', description: 'Include case law results (default: true)' },
         include_preparatory_works: { type: 'boolean', description: 'Include preparatory works results (default: true)' },
         as_of_date: { type: 'string', description: 'Optional historical date (YYYY-MM-DD).' },
-        limit: { type: 'number', description: 'Max results per category (default: 5, max: 20)' },
+        limit: { type: 'number', description: 'Max results per category', default: 5, minimum: 1, maximum: 20 },
       },
       required: ['query'],
     },
   },
   {
     name: 'format_citation',
-    description: `Format a Finnish legal citation per standard conventions (full, short, or pinpoint).`,
+    description: `Format a Finnish legal citation per standard conventions (full, short, or pinpoint).
+
+When NOT to use: If you want to check whether a citation exists in the database, use validate_citation instead.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -142,7 +158,9 @@ Specify the statute number and either chapter+section or provision_ref directly.
   },
   {
     name: 'check_currency',
-    description: `Check if a Finnish statute or provision is in force (current or historical).`,
+    description: `Check if a Finnish statute or provision is in force (current or historical).
+
+When NOT to use: If you need the actual text of a provision, use get_provision. This tool only checks status.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -155,7 +173,9 @@ Specify the statute number and either chapter+section or provision_ref directly.
   },
   {
     name: 'get_eu_basis',
-    description: `Get EU legal basis (directives and regulations) for a Finnish statute.`,
+    description: `Get EU legal basis (directives and regulations) for a Finnish statute.
+
+When NOT to use: For provision-level EU references, use get_provision_eu_basis. To find Finnish laws implementing EU law, use get_finnish_implementations.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -168,7 +188,9 @@ Specify the statute number and either chapter+section or provision_ref directly.
   },
   {
     name: 'get_finnish_implementations',
-    description: `Find Finnish statutes implementing a specific EU directive or regulation.`,
+    description: `Find Finnish statutes implementing a specific EU directive or regulation.
+
+When NOT to use: If you have a Finnish statute and want its EU basis, use get_eu_basis (opposite direction).`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -181,7 +203,9 @@ Specify the statute number and either chapter+section or provision_ref directly.
   },
   {
     name: 'search_eu_implementations',
-    description: `Search for EU directives and regulations with Finnish implementation information.`,
+    description: `Search for EU directives and regulations with Finnish implementation information.
+
+When NOT to use: If you already know the EU document ID, use get_finnish_implementations for direct lookup.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -191,13 +215,15 @@ Specify the statute number and either chapter+section or provision_ref directly.
         year_to: { type: 'number', description: 'Filter by year (to)' },
         community: { type: 'string', enum: ['EU', 'EG', 'EEG', 'Euratom'], description: 'Filter by community' },
         has_finnish_implementation: { type: 'boolean', description: 'Filter by Finnish implementation existence' },
-        limit: { type: 'number', description: 'Maximum results (default: 20, max: 100)' },
+        limit: { type: 'number', description: 'Maximum results', default: 20, minimum: 1, maximum: 100 },
       },
     },
   },
   {
     name: 'get_provision_eu_basis',
-    description: `Get EU legal basis for a specific provision within a Finnish statute.`,
+    description: `Get EU legal basis for a specific provision within a Finnish statute.
+
+When NOT to use: For statute-level EU references (not a specific provision), use get_eu_basis instead.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -209,7 +235,9 @@ Specify the statute number and either chapter+section or provision_ref directly.
   },
   {
     name: 'validate_eu_compliance',
-    description: `Validate EU compliance status for a Finnish statute or provision.`,
+    description: `Validate EU compliance status for a Finnish statute or provision.
+
+When NOT to use: For basic EU reference lookup, use get_eu_basis. This tool assesses compliance status.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -220,6 +248,15 @@ Specify the statute number and either chapter+section or provision_ref directly.
       required: ['sfs_number'],
     },
   },
+  {
+    name: 'list_sources',
+    description: `List all authoritative data sources used by this server, including provider, license, coverage, and freshness metadata. Call this to understand where the data comes from.`,
+    inputSchema: {
+      type: 'object',
+      properties: {},
+    },
+  },
+  provisionAtDateDef as Tool,
 ];
 
 export function buildTools(context?: AboutContext): Tool[] {
@@ -285,6 +322,12 @@ export function registerTools(
           break;
         case 'validate_eu_compliance':
           result = await validateEUCompliance(db, args as unknown as ValidateEUComplianceInput);
+          break;
+        case 'list_sources':
+          result = listSources();
+          break;
+        case 'get_provision_at_date':
+          result = getProvisionAtDate(db, args as unknown as GetProvisionAtDateParams);
           break;
         case 'about':
           if (context) {
