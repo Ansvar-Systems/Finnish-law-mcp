@@ -21,6 +21,24 @@ sources:
     languages:
       - 'fi'
       - 'sv'  # Finland has Swedish as official language too
+  - name: 'EUR-Lex'
+    authority: 'Publications Office of the European Union'
+    official_portal: 'https://eur-lex.europa.eu'
+    canonical_identifier: 'CELEX number (e.g., 32016R0679)'
+    retrieval_method: 'EUR-Lex CELLAR API'
+    api_documentation: 'https://eur-lex.europa.eu/content/tools/webservices/SearchWebServiceUserManual_v2.00.pdf'
+    update_frequency: 'as needed'
+    last_ingested: '2026-02-14'
+    license_or_terms:
+      type: 'EU public domain'
+      url: 'https://eur-lex.europa.eu/content/legal-notice/legal-notice.html'
+      summary: 'EU law documents are public domain'
+    coverage:
+      scope: 'EU directives and regulations referenced by Finnish statutes'
+      limitations: 'Metadata only — full EU regulation text available via EU Regulations MCP'
+    languages:
+      - 'en'
+      - 'fi'
 
 data_freshness:
   automated_checks: true
