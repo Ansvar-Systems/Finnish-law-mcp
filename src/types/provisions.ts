@@ -10,7 +10,7 @@ export interface LegalProvision {
   /** Statute number of the parent statute */
   document_id: string;
 
-  /** Provision reference, e.g., "3:5" for Kap 3 Para 5, or "5" for flat statutes */
+  /** Provision reference, e.g., "3:5" for luku 3 § 5, or "5" for flat statutes */
   provision_ref: string;
 
   /** Chapter number (null for flat statutes) */

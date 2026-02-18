@@ -40,7 +40,7 @@ src/
     ├── format-citation.ts       # format_citation - Citation formatting
     ├── check-currency.ts        # check_currency - Is statute in force?
     ├── get-eu-basis.ts          # get_eu_basis - EU law for Finnish statute
-    ├── get-swedish-implementations.ts # get_swedish_implementations - Finnish laws for EU act
+    ├── get-swedish-implementations.ts # get_finnish_implementations - Finnish laws for EU act
     ├── search-eu-implementations.ts   # search_eu_implementations - Search EU documents
     ├── get-provision-eu-basis.ts      # get_provision_eu_basis - EU basis for provision
     └── validate-eu-compliance.ts      # validate_eu_compliance - Future feature
@@ -81,7 +81,7 @@ data/
 | Tool | Description |
 |------|-------------|
 | `get_eu_basis` | Get EU directives/regulations for Finnish statute |
-| `get_swedish_implementations` | Find Finnish laws implementing EU act |
+| `get_finnish_implementations` | Find Finnish laws implementing EU act |
 | `search_eu_implementations` | Search EU documents with Finnish implementation counts |
 | `get_provision_eu_basis` | Get EU law references for specific provision |
 | `validate_eu_compliance` | Check implementation status (future, requires EU MCP) |
@@ -125,7 +125,7 @@ npx @anthropic/mcp-inspector node dist/index.js
 -- All legal documents (statutes, government proposals, case law)
 CREATE TABLE legal_documents (
   id TEXT PRIMARY KEY,          -- Statute number or doc ID
-  type TEXT NOT NULL,           -- statute|government_proposal|committee_report|case_law
+  type TEXT NOT NULL,           -- statute|bill|sou|ds|case_law
   title TEXT NOT NULL,
   title_en TEXT,
   short_name TEXT,              -- e.g., "TietosuojaL", "RikosL"
@@ -288,7 +288,7 @@ The MCP server includes comprehensive cross-referencing between Finnish law and 
 
 **EU Integration Features:**
 - **Bi-directional Lookup:** Find EU basis for Finnish law AND Finnish implementations of EU law
-- **5 Specialized Tools:** `get_eu_basis`, `get_swedish_implementations`, `search_eu_implementations`, `get_provision_eu_basis`, `validate_eu_compliance`
+- **5 Specialized Tools:** `get_eu_basis`, `get_finnish_implementations`, `search_eu_implementations`, `get_provision_eu_basis`, `validate_eu_compliance`
 - **CELEX Numbers:** Official EU document identifiers for all documents
 - **EUR-Lex Metadata:** 47 documents fetched directly from EUR-Lex API
 - **Implementation Tracking:** Primary vs supplementary implementation metadata

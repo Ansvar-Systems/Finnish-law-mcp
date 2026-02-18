@@ -216,7 +216,7 @@ amendment history showing what changed after the queried date.
       sfs: {
         type: 'string',
         description: 'Statute number (e.g., "1050/2018" for Tietosuojalaki)',
-        pattern: '^\\d{4}:\\d+$',
+        pattern: '^\\d+/\\d{4}$',
       },
       provision_ref: {
         type: 'string',
