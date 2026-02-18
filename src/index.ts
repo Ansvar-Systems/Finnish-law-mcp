@@ -127,7 +127,9 @@ const TOOLS: Tool[] = [
 
 Searches provision text using FTS5 with BM25 ranking. Supports boolean operators (AND, OR, NOT), phrase search ("exact phrase"), and prefix matching (term*).
 
-Returns matched provisions with snippets, relevance scores, and document metadata.`,
+Returns matched provisions with snippets, relevance scores, and document metadata.
+
+When NOT to use: If you already know the exact statute number and provision, use get_provision instead. If you need a comprehensive multi-source answer, use build_legal_stance.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -150,7 +152,10 @@ Returns matched provisions with snippets, relevance scores, and document metadat
         },
         limit: {
           type: 'number',
-          description: 'Maximum results (default: 10, max: 50)',
+          description: 'Maximum results',
+          default: 10,
+          minimum: 1,
+          maximum: 50,
         },
       },
       required: ['query'],
@@ -166,7 +171,9 @@ Examples:
   - document_id="1050/2018", provision_ref="1:1" → same result
   - document_id="434/2003", section="6" → 6 § (flat lookup)
 
-Omit chapter/section/provision_ref to get all provisions in the statute.`,
+Omit chapter/section/provision_ref to get all provisions in the statute.
+
+When NOT to use: If you are searching by keyword and don't know the exact statute/provision, use search_legislation instead.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -198,7 +205,9 @@ Omit chapter/section/provision_ref to get all provisions in the statute.`,
     name: 'search_case_law',
     description: `Search Finnish court decisions (oikeustapaukset).
 
-Searches case summaries and keywords. Filter by court (KKO, KHO, hovioikeus, etc.) and date range.`,
+Searches case summaries and keywords. Filter by court (KKO, KHO, hovioikeus, etc.) and date range.
+
+When NOT to use: If you need statute text, use search_legislation. Case law searches only cover court decisions.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -220,7 +229,10 @@ Searches case summaries and keywords. Filter by court (KKO, KHO, hovioikeus, etc
         },
         limit: {
           type: 'number',
-          description: 'Maximum results (default: 10, max: 50)',
+          description: 'Maximum results',
+          default: 10,
+          minimum: 1,
+          maximum: 50,
         },
       },
       required: ['query'],
@@ -231,7 +243,9 @@ Searches case summaries and keywords. Filter by court (KKO, KHO, hovioikeus, etc
     description: `Get preparatory works (esityöt) for a Finnish statute.
 
 Returns linked government proposals (HE), committee reports, and related documents with summaries.
-Essential for understanding legislative intent behind statutory provisions.`,
+Essential for understanding legislative intent behind statutory provisions.
+
+When NOT to use: If you need the statute text itself, use get_provision. Preparatory works explain legislative intent, not current law.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -255,7 +269,9 @@ Supported formats:
   - "SFS 2018:218 1 kap. 1 §" (legacy compatibility)
   - "Prop. 2017/18:105"
   - "SOU 2017:39"
-  - "NJA 2020 s. 45"`,
+  - "NJA 2020 s. 45"
+
+When NOT to use: If you want to format a citation string, use format_citation. This tool checks existence in the database.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -271,7 +287,9 @@ Supported formats:
     name: 'build_legal_stance',
     description: `Build a comprehensive set of citations for a legal question.
 
-Searches across statutes, case law, and preparatory works simultaneously to aggregate relevant citations. Use this for broad legal research questions.`,
+Searches across statutes, case law, and preparatory works simultaneously to aggregate relevant citations. Use this for broad legal research questions.
+
+When NOT to use: If you need a specific provision or targeted search, use get_provision or search_legislation instead.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -297,7 +315,10 @@ Searches across statutes, case law, and preparatory works simultaneously to aggr
         },
         limit: {
           type: 'number',
-          description: 'Max results per category (default: 5, max: 20)',
+          description: 'Max results per category',
+          default: 5,
+          minimum: 1,
+          maximum: 20,
         },
       },
       required: ['query'],
@@ -310,7 +331,9 @@ Searches across statutes, case law, and preparatory works simultaneously to aggr
 Formats:
   - full: "Laki 1050/2018 3 luku 5 §"
   - short: "1050/2018 3:5"
-  - pinpoint: "3 luku 5 §"`,
+  - pinpoint: "3 luku 5 §"
+
+When NOT to use: If you want to check whether a citation exists in the database, use validate_citation instead.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -331,7 +354,9 @@ Formats:
     name: 'check_currency',
     description: `Check if a Finnish statute or provision is in force (current or historical).
 
-Returns the document's status (in_force, amended, repealed, not_yet_in_force), dates, and warnings. Provide as_of_date for historical evaluation.`,
+Returns the document's status (in_force, amended, repealed, not_yet_in_force), dates, and warnings. Provide as_of_date for historical evaluation.
+
+When NOT to use: If you need the actual text of a provision, use get_provision. This tool only checks status.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -357,7 +382,9 @@ Returns the document's status (in_force, amended, repealed, not_yet_in_force), d
 
 Returns all EU directives and regulations that this statute implements, supplements, or references. Includes reference types, article citations, and whether each EU document is a primary implementation.
 
-Essential for understanding which EU law a Finnish statute is based on.`,
+Essential for understanding which EU law a Finnish statute is based on.
+
+When NOT to use: For provision-level EU references, use get_provision_eu_basis. To find Finnish laws implementing EU law, use get_finnish_implementations.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -384,7 +411,9 @@ Essential for understanding which EU law a Finnish statute is based on.`,
 
 Given an EU document ID (e.g., "regulation:2016/679" for GDPR), returns all Finnish statutes that implement, supplement, or reference it. Shows implementation status and which articles are referenced.
 
-Essential for finding Finnish law corresponding to EU requirements.`,
+Essential for finding Finnish law corresponding to EU requirements.
+
+When NOT to use: If you have a Finnish statute and want its EU basis, use get_eu_basis (opposite direction).`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -410,7 +439,9 @@ Essential for finding Finnish law corresponding to EU requirements.`,
 
 Search by keyword, type, year range, or community. Returns matching EU documents with counts of Finnish statutes referencing them.
 
-Use this for exploratory searches like "data protection" or "privacy" to find relevant EU law.`,
+Use this for exploratory searches like "data protection" or "privacy" to find relevant EU law.
+
+When NOT to use: If you already know the EU document ID, use get_finnish_implementations for direct lookup.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -442,7 +473,10 @@ Use this for exploratory searches like "data protection" or "privacy" to find re
         },
         limit: {
           type: 'number',
-          description: 'Maximum results (default: 20, max: 100)',
+          description: 'Maximum results',
+          default: 20,
+          minimum: 1,
+          maximum: 100,
         },
       },
     },
@@ -453,7 +487,9 @@ Use this for exploratory searches like "data protection" or "privacy" to find re
 
 Returns EU directives/regulations that a specific provision implements or references, with article-level precision. For example, DSL 2:1 references GDPR Article 6.1.c.
 
-Use this for pinpoint EU compliance checks at the provision level.`,
+Use this for pinpoint EU compliance checks at the provision level.
+
+When NOT to use: For statute-level EU references (not a specific provision), use get_eu_basis instead.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -480,7 +516,9 @@ Checks for:
 
 Returns compliance status (compliant, partial, unclear, not_applicable) with warnings and recommendations.
 
-Note: This is Phase 1 validation. Full compliance checking against EU requirements will be added in future phases.`,
+Note: This is Phase 1 validation. Full compliance checking against EU requirements will be added in future phases.
+
+When NOT to use: For basic EU reference lookup, use get_eu_basis. This tool assesses compliance status.`,
     inputSchema: {
       type: 'object',
       properties: {
