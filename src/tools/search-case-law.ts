@@ -1,5 +1,5 @@
 /**
- * search_case_law — Full-text search across Swedish court decisions.
+ * search_case_law — Full-text search across Finnish court decisions.
  */
 
 import type { Database } from '@ansvar/mcp-sqlite';

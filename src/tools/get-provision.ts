@@ -1,5 +1,5 @@
 /**
- * get_provision — Retrieve a specific provision from a Swedish statute.
+ * get_provision — Retrieve a specific provision from a Finnish statute.
  */
 
 import type { Database } from '@ansvar/mcp-sqlite';

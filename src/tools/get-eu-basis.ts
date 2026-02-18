@@ -1,5 +1,5 @@
 /**
- * get_eu_basis — Retrieve EU legal basis for a Swedish statute.
+ * get_eu_basis — Retrieve EU legal basis for a Finnish statute.
  */
 
 import type { Database } from '@ansvar/mcp-sqlite';
@@ -25,7 +25,7 @@ export interface GetEUBasisResult {
 }
 
 /**
- * Get EU legal basis for a Swedish statute.
+ * Get EU legal basis for a Finnish statute.
  *
  * Returns all EU directives and regulations referenced by the given statute,
  * grouped by EU document with all article references aggregated.

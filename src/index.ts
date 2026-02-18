@@ -38,6 +38,8 @@ import { searchEUImplementations, SearchEUImplementationsInput } from './tools/s
 import { getProvisionEUBasis, GetProvisionEUBasisInput } from './tools/get-provision-eu-basis.js';
 import { validateEUCompliance, ValidateEUComplianceInput } from './tools/validate-eu-compliance.js';
 import { getAbout } from './tools/about.js';
+import { listSources } from './tools/list-sources.js';
+import { getProvisionAtDate, GetProvisionAtDateParams, toolDefinition as provisionAtDateDef } from './tools/get-provision-at-date.js';
 import {
   detectCapabilities,
   readDbMetadata,
@@ -182,7 +184,7 @@ Omit chapter/section/provision_ref to get all provisions in the statute.`,
         },
         provision_ref: {
           type: 'string',
-          description: 'Direct provision reference (e.g., "3:5" for Kap 3 § 5)',
+          description: 'Direct provision reference (e.g., "3:5" for luku 3 § 5)',
         },
         as_of_date: {
           type: 'string',
@@ -194,9 +196,9 @@ Omit chapter/section/provision_ref to get all provisions in the statute.`,
   },
   {
     name: 'search_case_law',
-    description: `Search Finnish court decisions (rattsfall).
+    description: `Search Finnish court decisions (oikeustapaukset).
 
-Searches case summaries and keywords. Filter by court (HD, HFD, AD, etc.) and date range.`,
+Searches case summaries and keywords. Filter by court (KKO, KHO, hovioikeus, etc.) and date range.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -206,7 +208,7 @@ Searches case summaries and keywords. Filter by court (HD, HFD, AD, etc.) and da
         },
         court: {
           type: 'string',
-          description: 'Filter by court (e.g., "HD", "HFD", "AD")',
+          description: 'Filter by court (e.g., "KKO", "KHO", "hovioikeus")',
         },
         date_from: {
           type: 'string',
@@ -226,9 +228,9 @@ Searches case summaries and keywords. Filter by court (HD, HFD, AD, etc.) and da
   },
   {
     name: 'get_preparatory_works',
-    description: `Get preparatory works (forarbeten) for a Finnish statute.
+    description: `Get preparatory works (esityöt) for a Finnish statute.
 
-Returns linked propositions (Prop.), SOUs, and Ds documents with summaries.
+Returns linked government proposals (HE), committee reports, and related documents with summaries.
 Essential for understanding legislative intent behind statutory provisions.`,
     inputSchema: {
       type: 'object',
@@ -508,6 +510,15 @@ Note: This is Phase 1 validation. Full compliance checking against EU requiremen
       properties: {},
     },
   },
+  {
+    name: 'list_sources',
+    description: `List all authoritative data sources used by this server, including provider, license, coverage, and freshness metadata. Call this to understand where the data comes from.`,
+    inputSchema: {
+      type: 'object',
+      properties: {},
+    },
+  },
+  provisionAtDateDef as Tool,
 ];
 
 const server = new Server(
@@ -707,6 +718,12 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         break;
       case 'about':
         result = getAbout(getDb(), aboutContext);
+        break;
+      case 'list_sources':
+        result = listSources();
+        break;
+      case 'get_provision_at_date':
+        result = getProvisionAtDate(getDb(), args as unknown as GetProvisionAtDateParams);
         break;
       default:
         return {

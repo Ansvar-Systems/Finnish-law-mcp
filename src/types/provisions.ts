@@ -1,5 +1,5 @@
 /**
- * Types for legal provisions (paragrafer) within Swedish statutes.
+ * Types for legal provisions (paragrafer) within Finnish statutes.
  */
 
 /** A specific provision within a statute */
@@ -7,7 +7,7 @@ export interface LegalProvision {
   /** Auto-increment ID */
   id: number;
 
-  /** SFS number of the parent statute */
+  /** Statute number of the parent statute */
   document_id: string;
 
   /** Provision reference, e.g., "3:5" for Kap 3 Para 5, or "5" for flat statutes */
@@ -22,7 +22,7 @@ export interface LegalProvision {
   /** Rubrik (heading) for the provision */
   title?: string;
 
-  /** Full text content in Swedish */
+  /** Full text content in Finnish */
   content: string;
 
   /** JSON metadata: stycken, punkter, etc. */
@@ -31,7 +31,7 @@ export interface LegalProvision {
 
 /** A reference to a specific provision */
 export interface ProvisionRef {
-  /** SFS number */
+  /** Statute number */
   document_id: string;
 
   /** Chapter (may be undefined for flat statutes) */

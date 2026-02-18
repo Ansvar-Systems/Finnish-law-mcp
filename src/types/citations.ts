@@ -1,5 +1,5 @@
 /**
- * Types for Swedish legal citation parsing, formatting, and validation.
+ * Types for Finnish legal citation parsing, formatting, and validation.
  */
 
 import type { DocumentType, DocumentStatus } from './documents.js';
@@ -15,7 +15,7 @@ export interface ParsedCitation {
   /** Detected document type */
   type: DocumentType;
 
-  /** Document identifier (SFS number, case ref, prop number) */
+  /** Document identifier (Statute number, case ref, prop number) */
   document_id: string;
 
   /** Chapter reference (if any) */

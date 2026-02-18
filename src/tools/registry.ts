@@ -25,6 +25,8 @@ import { searchEUImplementations, SearchEUImplementationsInput } from './search-
 import { getProvisionEUBasis, GetProvisionEUBasisInput } from './get-provision-eu-basis.js';
 import { validateEUCompliance, ValidateEUComplianceInput } from './validate-eu-compliance.js';
 import { getAbout, type AboutContext } from './about.js';
+import { listSources } from './list-sources.js';
+import { getProvisionAtDate, GetProvisionAtDateParams, toolDefinition as provisionAtDateDef } from './get-provision-at-date.js';
 export type { AboutContext } from './about.js';
 
 const ABOUT_TOOL: Tool = {
@@ -77,12 +79,12 @@ Specify the statute number and either chapter+section or provision_ref directly.
   },
   {
     name: 'search_case_law',
-    description: `Search Finnish court decisions (rattsfall). Filter by court (HD, HFD, AD, etc.) and date range.`,
+    description: `Search Finnish court decisions (oikeustapaukset). Filter by court (KKO, KHO, hovioikeus, etc.) and date range.`,
     inputSchema: {
       type: 'object',
       properties: {
         query: { type: 'string', description: 'Search query for case law summaries' },
-        court: { type: 'string', description: 'Filter by court (e.g., "HD", "HFD", "AD")' },
+        court: { type: 'string', description: 'Filter by court (e.g., "KKO", "KHO", "hovioikeus")' },
         date_from: { type: 'string', description: 'Start date filter (ISO 8601)' },
         date_to: { type: 'string', description: 'End date filter (ISO 8601)' },
         limit: { type: 'number', description: 'Maximum results (default: 10, max: 50)' },
@@ -92,7 +94,7 @@ Specify the statute number and either chapter+section or provision_ref directly.
   },
   {
     name: 'get_preparatory_works',
-    description: `Get preparatory works (forarbeten) for a Finnish statute. Returns linked propositions, SOUs, and Ds documents.`,
+    description: `Get preparatory works (esityöt) for a Finnish statute. Returns linked government proposals (HE), committee reports, and related documents.`,
     inputSchema: {
       type: 'object',
       properties: {
@@ -220,6 +222,15 @@ Specify the statute number and either chapter+section or provision_ref directly.
       required: ['sfs_number'],
     },
   },
+  {
+    name: 'list_sources',
+    description: `List all authoritative data sources used by this server, including provider, license, coverage, and freshness metadata. Call this to understand where the data comes from.`,
+    inputSchema: {
+      type: 'object',
+      properties: {},
+    },
+  },
+  provisionAtDateDef as Tool,
 ];
 
 export function buildTools(context?: AboutContext): Tool[] {
@@ -285,6 +296,12 @@ export function registerTools(
           break;
         case 'validate_eu_compliance':
           result = await validateEUCompliance(db, args as unknown as ValidateEUComplianceInput);
+          break;
+        case 'list_sources':
+          result = listSources();
+          break;
+        case 'get_provision_at_date':
+          result = getProvisionAtDate(db, args as unknown as GetProvisionAtDateParams);
           break;
         case 'about':
           if (context) {

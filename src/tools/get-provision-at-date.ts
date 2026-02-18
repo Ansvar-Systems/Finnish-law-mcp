@@ -191,14 +191,14 @@ export function getProvisionAtDate(
 export const toolDefinition = {
   name: 'get_provision_at_date',
   description: `
-Retrieve Swedish statute provision text as it read on a specific date (time-travel query).
+Retrieve Finnish statute provision text as it read on a specific date (time-travel query).
 
 This tool enables historical legal research by showing how a provision was worded
 at any point in time, accounting for all amendments since original enactment.
 
 Use cases:
-- "What did Dataskyddslagen 3:5 say in 2019?"
-- "Show me Brottsbalken 3:1 before the 2019 amendment"
+- "What did Tietosuojalaki 1:3 say in 2019?"
+- "Show me Rikoslaki 3:1 before the 2019 amendment"
 - "Was this provision in force on 2020-06-15?"
 
 Supports:
@@ -215,7 +215,7 @@ amendment history showing what changed after the queried date.
     properties: {
       sfs: {
         type: 'string',
-        description: 'SFS number (e.g., "2018:218" for Dataskyddslagen)',
+        description: 'Statute number (e.g., "1050/2018" for Tietosuojalaki)',
         pattern: '^\\d{4}:\\d+$',
       },
       provision_ref: {

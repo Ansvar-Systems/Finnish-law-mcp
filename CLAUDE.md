@@ -1,16 +1,16 @@
 # CLAUDE.md
 
-> Instructions for Claude Code when working on Swedish Law MCP
+> Instructions for Claude Code when working on Finnish Law MCP
 
 ## Project Overview
 
-This is an MCP server providing Swedish legal citation tools — searching statutes, case law, preparatory works, and validating citations. Built with TypeScript and SQLite FTS5 for full-text search.
+This is an MCP server providing Finnish legal citation tools — searching statutes, case law, preparatory works, and validating citations. Built with TypeScript and SQLite FTS5 for full-text search.
 
-**Core principle: Verified data only** — the server NEVER generates citations, only returns data verified against authoritative Swedish legal sources (Riksdagen, lagen.nu). All database entries are validated during ingestion.
+**Core principle: Verified data only** — the server NEVER generates citations, only returns data verified against authoritative Finnish legal sources (Finlex). All database entries are validated during ingestion.
 
 **Data Sources:**
-- Riksdagen (Swedish Parliament) legal database
-- Svensk Forfattningssamling (SFS) - Swedish Code of Statutes
+- Finlex (Finnish Ministry of Justice) legal database
+- Suomen Säädöskokoelma - Finnish Statute Book
 - EUR-Lex - Official EU legislation database (metadata)
 
 ## Architecture
@@ -24,8 +24,8 @@ src/
 │   ├── provisions.ts        # LegalProvision, ProvisionRef, CrossReference
 │   └── citations.ts         # ParsedCitation, CitationFormat, ValidationResult
 ├── citation/
-│   ├── parser.ts            # Parse citation strings (SFS, Prop., SOU, NJA, etc.)
-│   ├── formatter.ts         # Format citations per Swedish conventions
+│   ├── parser.ts            # Parse citation strings (Laki, HE, KKO, etc.)
+│   ├── formatter.ts         # Format citations per Finnish conventions
 │   └── validator.ts         # Validate citations against database
 ├── parsers/
 │   ├── provision-parser.ts  # Parse raw statute text into provisions
@@ -34,24 +34,24 @@ src/
     ├── search-legislation.ts    # search_legislation - FTS5 provision search
     ├── get-provision.ts         # get_provision - Retrieve specific provision
     ├── search-case-law.ts       # search_case_law - FTS5 case law search
-    ├── get-preparatory-works.ts # get_preparatory_works - Linked forarbeten
+    ├── get-preparatory-works.ts # get_preparatory_works - Linked esityöt
     ├── validate-citation.ts     # validate_citation - Zero-hallucination check
     ├── build-legal-stance.ts    # build_legal_stance - Multi-source aggregation
     ├── format-citation.ts       # format_citation - Citation formatting
     ├── check-currency.ts        # check_currency - Is statute in force?
-    ├── get-eu-basis.ts          # get_eu_basis - EU law for Swedish statute
-    ├── get-swedish-implementations.ts # get_swedish_implementations - Swedish laws for EU act
+    ├── get-eu-basis.ts          # get_eu_basis - EU law for Finnish statute
+    ├── get-swedish-implementations.ts # get_swedish_implementations - Finnish laws for EU act
     ├── search-eu-implementations.ts   # search_eu_implementations - Search EU documents
     ├── get-provision-eu-basis.ts      # get_provision_eu_basis - EU basis for provision
     └── validate-eu-compliance.ts      # validate_eu_compliance - Future feature
 
 scripts/
 ├── build-db.ts              # Build SQLite database from seed files
-├── ingest-riksdagen.ts      # Ingest statutes from Riksdagen API
+├── ingest-finlex.ts         # Ingest statutes from Finlex API
 └── check-updates.ts         # Check for statute amendments
 
 tests/
-├── fixtures/test-db.ts      # In-memory SQLite with Swedish law sample data
+├── fixtures/test-db.ts      # In-memory SQLite with Finnish law sample data
 ├── citation/                # Parser, formatter, validator tests
 ├── parsers/                 # Provision parser tests
 └── tools/                   # Tool-level integration tests
@@ -68,9 +68,9 @@ data/
 | Tool | Description |
 |------|-------------|
 | `search_legislation` | FTS5 search on provision text with BM25 ranking |
-| `get_provision` | Retrieve specific provision by SFS + chapter/section |
+| `get_provision` | Retrieve specific provision by statute number + chapter/section |
 | `search_case_law` | FTS5 search on case law with court/date filters |
-| `get_preparatory_works` | Get linked propositions and SOUs for a statute |
+| `get_preparatory_works` | Get linked government proposals (HE) for a statute |
 | `validate_citation` | Validate citation against database (verification check) |
 | `build_legal_stance` | Aggregate citations from statutes, case law, prep works |
 | `format_citation` | Format citations (full/short/pinpoint) |
@@ -80,27 +80,27 @@ data/
 
 | Tool | Description |
 |------|-------------|
-| `get_eu_basis` | Get EU directives/regulations for Swedish statute |
-| `get_swedish_implementations` | Find Swedish laws implementing EU act |
-| `search_eu_implementations` | Search EU documents with Swedish implementation counts |
+| `get_eu_basis` | Get EU directives/regulations for Finnish statute |
+| `get_swedish_implementations` | Find Finnish laws implementing EU act |
+| `search_eu_implementations` | Search EU documents with Finnish implementation counts |
 | `get_provision_eu_basis` | Get EU law references for specific provision |
 | `validate_eu_compliance` | Check implementation status (future, requires EU MCP) |
 
-## Swedish Law Structure
+## Finnish Law Structure
 
-Swedish statutes follow this structure:
-- **SFS number**: e.g., "2018:218" (year:sequence)
-- **Chapters** (Kapitel): Major divisions, e.g., "3 kap."
-- **Sections** (Paragrafer): Individual provisions, marked with §
-- **Paragraphs** (Stycken): Within sections
+Finnish statutes follow this structure:
+- **Statute number**: e.g., "1050/2018" (sequence/year)
+- **Chapters** (Luku): Major divisions, e.g., "3 luku"
+- **Sections** (Pykälät): Individual provisions, marked with §
+- **Paragraphs** (Momentit): Within sections
 
 Citation formats:
-- Full: `SFS 2018:218 3 kap. 5 §`
-- Short: `2018:218 3:5`
-- Pinpoint: `3 kap. 5 §`
-- Proposition: `Prop. 2017/18:105`
-- SOU: `SOU 2017:39`
-- Case law: `NJA 2020 s. 45`, `HFD 2019 ref. 12`
+- Full: `Laki 1050/2018 3 luku 5 §`
+- Short: `1050/2018 3:5`
+- Pinpoint: `3 luku 5 §`
+- Government Proposal: `HE 9/2018 vp`
+- Committee Report: `LaVM 13/2018 vp`
+- Case law: `KKO 2020:45`, `KHO 2019:100`
 
 ## Key Commands
 
@@ -111,7 +111,7 @@ npm run build            # Compile TypeScript
 npm test                 # Run tests (vitest)
 
 # Data Management
-npm run ingest -- <sfs-number> <output.json>  # Ingest statute from Riksdagen
+npm run ingest -- <statute-number> <output.json>  # Ingest statute from Finlex
 npm run build:db                               # Rebuild database from seed/
 npm run check-updates                          # Check for amendments
 
@@ -122,13 +122,13 @@ npx @anthropic/mcp-inspector node dist/index.js
 ## Database Schema
 
 ```sql
--- All legal documents (statutes, bills, SOUs, case law)
+-- All legal documents (statutes, government proposals, case law)
 CREATE TABLE legal_documents (
-  id TEXT PRIMARY KEY,          -- SFS number or doc ID
-  type TEXT NOT NULL,           -- statute|bill|sou|ds|case_law
+  id TEXT PRIMARY KEY,          -- Statute number or doc ID
+  type TEXT NOT NULL,           -- statute|government_proposal|committee_report|case_law
   title TEXT NOT NULL,
   title_en TEXT,
-  short_name TEXT,              -- e.g., "DSL", "BrB"
+  short_name TEXT,              -- e.g., "TietosuojaL", "RikosL"
   status TEXT NOT NULL,         -- in_force|amended|repealed|not_yet_in_force
   issued_date TEXT,
   in_force_date TEXT,
@@ -167,22 +167,22 @@ CREATE TABLE eu_documents (
   UNIQUE(type, year, number)
 );
 
--- Swedish → EU cross-references (v1.1.0)
+-- Finnish → EU cross-references (v1.1.0)
 CREATE TABLE eu_references (
   id INTEGER PRIMARY KEY,
-  document_id TEXT NOT NULL REFERENCES legal_documents(id),  -- Swedish SFS number
+  document_id TEXT NOT NULL REFERENCES legal_documents(id),  -- Finnish statute number
   provision_id INTEGER REFERENCES legal_provisions(id),      -- Optional provision link
   eu_document_id TEXT NOT NULL REFERENCES eu_documents(id),  -- EU directive/regulation
   eu_article TEXT,              -- "6.1.c", "13-15", etc.
   reference_type TEXT,          -- "implements", "supplements", "applies", etc.
   is_primary_implementation BOOLEAN DEFAULT 0,
-  context TEXT,                 -- Surrounding Swedish text
+  context TEXT,                 -- Surrounding Finnish text
   UNIQUE(document_id, provision_id, eu_document_id, eu_article)
 );
 
 -- EU reference keywords for classification (v1.1.0)
 CREATE TABLE eu_reference_keywords (
-  keyword TEXT PRIMARY KEY,     -- "genomförande", "kompletterar", etc.
+  keyword TEXT PRIMARY KEY,     -- "täytäntöönpano", "täydentää", etc.
   reference_type TEXT NOT NULL  -- Maps to eu_references.reference_type
 );
 
@@ -201,7 +201,7 @@ CREATE VIRTUAL TABLE definitions_fts USING fts5(...);
 ### Bi-Directional Reference Model
 
 ```
-Swedish Statute ←→ EU Directive/Regulation
+Finnish Statute ←→ EU Directive/Regulation
        ↓                      ↓
   Provisions          EU Articles
        ↓                      ↓
@@ -210,25 +210,25 @@ Swedish Statute ←→ EU Directive/Regulation
 
 ### Data Flow
 
-1. **Ingestion:** EU references extracted from Swedish statute text via `src/parsers/eu-reference-parser.ts`
+1. **Ingestion:** EU references extracted from Finnish statute text via `src/parsers/eu-reference-parser.ts`
 2. **Storage:** Stored in `eu_documents` and `eu_references` tables
 3. **Lookup:** Bi-directional queries via MCP tools
 4. **Validation:** CELEX numbers validated against EUR-Lex format
 
 ### Example Queries
 
-**Swedish → EU:**
+**Finnish → EU:**
 ```sql
--- Find EU basis for DSL
+-- Find EU basis for Tietosuojalaki
 SELECT ed.id, ed.short_name, er.reference_type
 FROM eu_references er
 JOIN eu_documents ed ON er.eu_document_id = ed.id
-WHERE er.document_id = '2018:218';
+WHERE er.document_id = '1050/2018';
 ```
 
-**EU → Swedish:**
+**EU → Finnish:**
 ```sql
--- Find Swedish implementations of GDPR
+-- Find Finnish implementations of GDPR
 SELECT ld.id, ld.title, er.is_primary_implementation
 FROM eu_references er
 JOIN legal_documents ld ON er.document_id = ld.id
@@ -237,17 +237,17 @@ WHERE er.eu_document_id = 'regulation:2016/679';
 
 **Provision-level:**
 ```sql
--- EU basis for DSL 3:5
+-- EU basis for Tietosuojalaki 3:5
 SELECT ed.id, ed.short_name, er.eu_article
 FROM eu_references er
 JOIN eu_documents ed ON er.eu_document_id = ed.id
 JOIN legal_provisions lp ON er.provision_id = lp.id
-WHERE lp.document_id = '2018:218' AND lp.provision_ref = '3:5';
+WHERE lp.document_id = '1050/2018' AND lp.provision_ref = '3:5';
 ```
 
 ## Testing
 
-Tests use in-memory SQLite with sample Swedish law data:
+Tests use in-memory SQLite with sample Finnish law data:
 
 ```typescript
 import { createTestDatabase, closeTestDatabase } from '../fixtures/test-db.js';
@@ -257,38 +257,37 @@ describe('search_legislation', () => {
   beforeAll(() => { db = createTestDatabase(); });
   afterAll(() => { closeTestDatabase(db); });
 
-  it('should find dataskydd provisions', async () => {
-    const result = await searchLegislation(db, { query: 'personuppgifter' });
+  it('should find tietosuoja provisions', async () => {
+    const result = await searchLegislation(db, { query: 'henkilötiedot' });
     expect(result.length).toBeGreaterThan(0);
   });
 });
 ```
 
-Sample data includes: DSL (2018:218), PUL (1998:204), 2 court decisions, 2 preparatory works, definitions, and cross-references.
+Sample data includes: Tietosuojalaki (1050/2018), Henkilötietolaki (523/1999), 2 court decisions, 2 preparatory works, definitions, and cross-references.
 
-## Database Statistics (v1.1.0)
+## Database Statistics
 
-- **Statutes:** 750 laws (823% growth from v1.0.0)
-- **Provisions:** 31,641 sections
-- **Preparatory Works:** 3,625 documents
-- **EU Cross-References:** 668 references to 228 EU documents
-- **Legal Definitions:** 1,210 terms
-- **Database Size:** 65.6 MB
+- **Statutes:** Free-tier Finlex ingestion (growing)
+- **Provisions:** Indexed with FTS5
+- **Preparatory Works:** Linked government proposals
+- **EU Cross-References:** Cross-references to EU documents
+- **Legal Definitions:** Indexed terms
 - **MCP Tools:** 13 (8 core + 5 EU integration)
 
 ## EU Law Integration
 
-The MCP server includes comprehensive cross-referencing between Swedish law and EU directives/regulations.
+The MCP server includes comprehensive cross-referencing between Finnish law and EU directives/regulations.
 
 **Data Source:**
 - **Provider:** [EUR-Lex](https://eur-lex.europa.eu/)
 - **License:** EU public domain
 - **Coverage:** 668 cross-references, 228 EU documents (89 directives, 139 regulations)
-- **Swedish Statutes:** 49 statutes (68% of database) have EU references
+- **Finnish Statutes:** Statutes with EU references tracked
 - **Granularity:** Provision-level references to specific EU articles
 
 **EU Integration Features:**
-- **Bi-directional Lookup:** Find EU basis for Swedish law AND Swedish implementations of EU law
+- **Bi-directional Lookup:** Find EU basis for Finnish law AND Finnish implementations of EU law
 - **5 Specialized Tools:** `get_eu_basis`, `get_swedish_implementations`, `search_eu_implementations`, `get_provision_eu_basis`, `validate_eu_compliance`
 - **CELEX Numbers:** Official EU document identifiers for all documents
 - **EUR-Lex Metadata:** 47 documents fetched directly from EUR-Lex API
@@ -315,25 +314,24 @@ npm run verify:eu-coverage
 
 **Data Quality:**
 - Zero-hallucination constraint applies to EU data
-- All EU references extracted from verified Swedish statute text
+- All EU references extracted from verified Finnish statute text
 - EUR-Lex metadata validated with CELEX number verification
-- 97.95% reference coverage (668/682 seed references)
 - FTS5 full-text search on EU document metadata
 
-## Ingestion from Riksdagen
+## Ingestion from Finlex
 
 API endpoints:
-- Document list: `https://data.riksdagen.se/dokumentlista/?doktyp=sfs&format=json`
-- Document content: `https://data.riksdagen.se/dokument/{id}.json`
+- Finlex data: `https://data.finlex.fi/`
+- Statute content: `https://www.finlex.fi/fi/laki/ajantasa/`
 
-Rate limit: 0.5s between requests.
+Rate limit: Respect Finlex usage guidelines.
 
 ## Resources
 
-- [Riksdagen Open Data](https://data.riksdagen.se/)
-- [Svensk Forfattningssamling](https://svenskforfattningssamling.se/)
-- [Lagrummet](https://lagrummet.se/) - Legal information system
-- [Lagen.nu](https://lagen.nu) - Case law and legal information (CC-BY Domstolsverket)
+- [Finlex](https://www.finlex.fi/) - Finnish legislation database (Ministry of Justice)
+- [Finlex Open Data](https://data.finlex.fi/) - Linked open data for Finnish law
+- [Eduskunta](https://www.eduskunta.fi/) - Finnish Parliament
+- [EDILEX](https://www.edilex.fi/) - Legal information service
 
 ## Git Workflow
 
