@@ -93,4 +93,4 @@ ENV FINNISH_LAW_DB_PATH=/app/data/database.db
 # MCP servers use stdio, so we run node directly
 # ───────────────────────────────────────────────────────────────────────────
 
-CMD ["node", "dist/index.js"]
+CMD ["node", "dist/http-server.js"]
