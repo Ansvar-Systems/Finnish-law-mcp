@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm run build",
+  "buildCommand": "bash scripts/download-db.sh && npm run build",
   "outputDirectory": ".",
   "functions": {
     "api/mcp.ts": {
