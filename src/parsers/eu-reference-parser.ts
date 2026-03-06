@@ -2,9 +2,9 @@
  * EU Reference Parser
  *
  * Extracts and structures EU law references (directives and regulations)
- * from Swedish legal text.
+ * from Finnish legal text.
  *
- * Based on analysis of 83 Swedish statutes showing 406 EU references:
+ * Based on analysis of 83 Finnish statutes showing 406 EU references:
  * - 164 directives (40%)
  * - 242 regulations (60%)
  */
@@ -24,12 +24,12 @@ export interface EUReference {
 }
 
 export type ReferenceType =
-  | 'implements'        // Swedish law implements this EU directive
-  | 'supplements'       // Swedish law supplements this EU regulation
+  | 'implements'        // Finnish law implements this EU directive
+  | 'supplements'       // Finnish law supplements this EU regulation
   | 'applies'           // This EU regulation applies directly
   | 'references'        // General reference to EU law
-  | 'complies_with'     // Swedish law must comply with this
-  | 'derogates_from'    // Swedish law derogates from this
+  | 'complies_with'     // Finnish law must comply with this
+  | 'derogates_from'    // Finnish law derogates from this
   | 'cites_article';    // Cites specific article(s)
 
 /**
@@ -78,7 +78,7 @@ const IMPLEMENTATION_KEYWORDS: Record<string, ReferenceType> = {
 };
 
 /**
- * Extract all EU references from Swedish legal text
+ * Extract all EU references from Finnish legal text
  */
 export function extractEUReferences(text: string): EUReference[] {
   const references: EUReference[] = [];

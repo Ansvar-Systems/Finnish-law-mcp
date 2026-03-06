@@ -1,5 +1,5 @@
 /**
- * validate_eu_compliance — Check Swedish statute's EU compliance status.
+ * validate_eu_compliance — Check Finnish statute's EU compliance status.
  */
 
 import type { Database } from '@ansvar/mcp-sqlite';
@@ -28,7 +28,7 @@ export interface EUComplianceResult {
 }
 
 /**
- * Validate EU compliance status for a Swedish statute or provision.
+ * Validate EU compliance status for a Finnish statute or provision.
  *
  * Phase 1: Basic validation checking for:
  * - References to repealed EU directives
@@ -193,7 +193,7 @@ export async function validateEUCompliance(
   } else if (outdatedReferences.length > 0) {
     complianceStatus = 'partial';
     recommendations.push(
-      'Statute references repealed EU directives. Review whether Swedish law has been updated to implement current EU requirements.'
+      'Statute references repealed EU directives. Review whether Finnish law has been updated to implement current EU requirements.'
     );
   } else if (warnings.length > 0) {
     complianceStatus = 'unclear';

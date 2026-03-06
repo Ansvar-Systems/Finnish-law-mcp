@@ -15,16 +15,16 @@ describe('get_preparatory_works', () => {
   });
 
   it('should return preparatory works for a statute', async () => {
-    const response = await getPreparatoryWorks(db, { document_id: '2018:218' });
+    const response = await getPreparatoryWorks(db, { document_id: '1050/2018' });
 
-    expect(response.results.length).toBe(2); // Prop. and SOU
-    expect(response.results[0]).toHaveProperty('statute_id', '2018:218');
+    expect(response.results.length).toBe(2); // HE and LaVM
+    expect(response.results[0]).toHaveProperty('statute_id', '1050/2018');
     expect(response.results[0]).toHaveProperty('prep_document_id');
     expect(response.results[0]).toHaveProperty('prep_title');
   });
 
   it('should include both propositions and SOUs', async () => {
-    const response = await getPreparatoryWorks(db, { document_id: '2018:218' });
+    const response = await getPreparatoryWorks(db, { document_id: '1050/2018' });
 
     const types = response.results.map(r => r.prep_type);
     expect(types).toContain('bill');
@@ -32,7 +32,7 @@ describe('get_preparatory_works', () => {
   });
 
   it('should return empty array for statute with no preparatory works', async () => {
-    const response = await getPreparatoryWorks(db, { document_id: '1998:204' });
+    const response = await getPreparatoryWorks(db, { document_id: '523/1999' });
     expect(response.results).toEqual([]);
   });
 

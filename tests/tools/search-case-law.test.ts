@@ -15,7 +15,7 @@ describe('search_case_law', () => {
   });
 
   it('should find case law by keyword', async () => {
-    const response = await searchCaseLaw(db, { query: 'personuppgifter' });
+    const response = await searchCaseLaw(db, { query: 'henkilötietojen' });
     expect(response.results.length).toBeGreaterThan(0);
     expect(response.results[0]).toHaveProperty('document_id');
     expect(response.results[0]).toHaveProperty('court');
@@ -24,17 +24,17 @@ describe('search_case_law', () => {
 
   it('should filter by court', async () => {
     const response = await searchCaseLaw(db, {
-      query: 'personuppgifter',
-      court: 'HD',
+      query: 'henkilötietojen',
+      court: 'KKO',
     });
     for (const r of response.results) {
-      expect(r.court).toBe('HD');
+      expect(r.court).toBe('KKO');
     }
   });
 
   it('should filter by date range', async () => {
     const response = await searchCaseLaw(db, {
-      query: 'personuppgifter',
+      query: 'henkilötietojen',
       date_from: '2020-01-01',
     });
     for (const r of response.results) {
@@ -51,14 +51,14 @@ describe('search_case_law', () => {
 
   it('should respect limit', async () => {
     const response = await searchCaseLaw(db, {
-      query: 'personuppgifter',
+      query: 'henkilötietojen',
       limit: 1,
     });
     expect(response.results.length).toBeLessThanOrEqual(1);
   });
 
   it('should include attribution metadata in all results', async () => {
-    const response = await searchCaseLaw(db, { query: 'personuppgifter' });
+    const response = await searchCaseLaw(db, { query: 'henkilötietojen' });
     expect(response.results.length).toBeGreaterThan(0);
 
     for (const result of response.results) {

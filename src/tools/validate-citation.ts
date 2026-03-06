@@ -1,5 +1,5 @@
 /**
- * validate_citation — Validate a Swedish legal citation against the database.
+ * validate_citation — Validate a Finnish legal citation against the database.
  *
  * Zero-hallucination enforcer: checks that the cited document and provision
  * actually exist in the database.
