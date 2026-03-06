@@ -15,17 +15,17 @@ describe('check_currency', () => {
   });
 
   it('should return currency info for in-force statute', async () => {
-    const response = await checkCurrency(db, { document_id: '2018:218' });
+    const response = await checkCurrency(db, { document_id: '1050/2018' });
 
     expect(response.results).not.toBeNull();
-    expect(response.results!.document_id).toBe('2018:218');
+    expect(response.results!.document_id).toBe('1050/2018');
     expect(response.results!.status).toBe('in_force');
     expect(response.results!.is_current).toBe(true);
     expect(response.results!.warnings).toHaveLength(0);
   });
 
   it('should warn about repealed statute', async () => {
-    const response = await checkCurrency(db, { document_id: '1998:204' });
+    const response = await checkCurrency(db, { document_id: '523/1999' });
 
     expect(response.results).not.toBeNull();
     expect(response.results!.status).toBe('repealed');
@@ -35,7 +35,7 @@ describe('check_currency', () => {
 
   it('should check provision existence', async () => {
     const response = await checkCurrency(db, {
-      document_id: '2018:218',
+      document_id: '1050/2018',
       provision_ref: '1:1',
     });
 
@@ -45,7 +45,7 @@ describe('check_currency', () => {
 
   it('should warn about non-existent provision', async () => {
     const response = await checkCurrency(db, {
-      document_id: '2018:218',
+      document_id: '1050/2018',
       provision_ref: '99:99',
     });
 
@@ -67,7 +67,7 @@ describe('check_currency', () => {
 
   it('should compute historical status for as_of_date', async () => {
     const response = await checkCurrency(db, {
-      document_id: '1998:204',
+      document_id: '523/1999',
       as_of_date: '2007-01-01',
     });
 
@@ -78,7 +78,7 @@ describe('check_currency', () => {
 
   it('should compute historical repeal for as_of_date after repeal date', async () => {
     const response = await checkCurrency(db, {
-      document_id: '1998:204',
+      document_id: '523/1999',
       as_of_date: '2020-01-01',
     });
 
@@ -88,7 +88,7 @@ describe('check_currency', () => {
   });
 
   it('should not include case_law_stats if sync metadata table does not exist', async () => {
-    const response = await checkCurrency(db, { document_id: '2018:218' });
+    const response = await checkCurrency(db, { document_id: '1050/2018' });
 
     expect(response.results).not.toBeNull();
     // Test database doesn't have case_law_sync_metadata table, so stats should be undefined

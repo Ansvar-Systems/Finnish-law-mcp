@@ -15,9 +15,9 @@ describe('build_legal_stance', () => {
   });
 
   it('should aggregate citations from multiple sources', async () => {
-    const response = await buildLegalStance(db, { query: 'personuppgifter' });
+    const response = await buildLegalStance(db, { query: 'henkilötietojen' });
 
-    expect(response.results.query).toBe('personuppgifter');
+    expect(response.results.query).toBe('henkilötietojen');
     expect(response.results.provisions.length).toBeGreaterThan(0);
     expect(response.results.case_law.length).toBeGreaterThan(0);
     expect(response.results.total_citations).toBeGreaterThan(0);
@@ -28,18 +28,18 @@ describe('build_legal_stance', () => {
 
   it('should filter provisions by document_id', async () => {
     const response = await buildLegalStance(db, {
-      query: 'personuppgifter',
-      document_id: '2018:218',
+      query: 'henkilötietojen',
+      document_id: '1050/2018',
     });
 
     for (const prov of response.results.provisions) {
-      expect(prov.document_id).toBe('2018:218');
+      expect(prov.document_id).toBe('1050/2018');
     }
   });
 
   it('should exclude case law when requested', async () => {
     const response = await buildLegalStance(db, {
-      query: 'personuppgifter',
+      query: 'henkilötietojen',
       include_case_law: false,
     });
 
@@ -48,7 +48,7 @@ describe('build_legal_stance', () => {
 
   it('should exclude preparatory works when requested', async () => {
     const response = await buildLegalStance(db, {
-      query: 'personuppgifter',
+      query: 'henkilötietojen',
       include_preparatory_works: false,
     });
 
@@ -57,7 +57,7 @@ describe('build_legal_stance', () => {
 
   it('should respect limit', async () => {
     const response = await buildLegalStance(db, {
-      query: 'personuppgifter',
+      query: 'henkilötietojen',
       limit: 1,
     });
 
@@ -76,8 +76,8 @@ describe('build_legal_stance', () => {
 
   it('should apply as_of_date to historical retrieval', async () => {
     const response = await buildLegalStance(db, {
-      query: 'Datainspektionen',
-      document_id: '2018:218',
+      query: 'Tietosuojavaltuutettu',
+      document_id: '1050/2018',
       as_of_date: '2019-06-01',
       include_case_law: false,
       include_preparatory_works: false,

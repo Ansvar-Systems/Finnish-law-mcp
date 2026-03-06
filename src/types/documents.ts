@@ -1,31 +1,39 @@
 /**
- * Domain types for Swedish legal documents.
+ * Domain types for Finnish legal documents.
  */
 
-/** Types of legal documents in the Swedish system */
+/** Types of legal documents in the Finnish system */
 export type DocumentType = 'statute' | 'bill' | 'sou' | 'ds' | 'case_law';
 
 /** Status of a legal document */
 export type DocumentStatus = 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
 
-/** Swedish court types */
-export type CourtType = 'HD' | 'HFD' | 'AD' | 'MD' | 'MIG' | 'hovrätt' | 'kammarrätt' | 'tingsrätt' | 'förvaltningsrätt';
+/** Finnish court types */
+export type CourtType =
+  | 'KKO'                // Korkein oikeus (Supreme Court)
+  | 'KHO'                // Korkein hallinto-oikeus (Supreme Administrative Court)
+  | 'hovioikeus'          // Court of Appeal
+  | 'hallinto-oikeus'     // Administrative Court
+  | 'käräjäoikeus'        // District Court
+  | 'markkinaoikeus'      // Market Court
+  | 'työtuomioistuin'     // Labour Court
+  | 'vakuutusoikeus';     // Insurance Court
 
-/** A legal document in the Swedish system */
+/** A legal document in the Finnish system */
 export interface LegalDocument {
-  /** SFS number (e.g., "2018:218"), case reference, or prop number */
+  /** Statute number (e.g., "1050/2018"), case reference, or prop number */
   id: string;
 
   /** Document type */
   type: DocumentType;
 
-  /** Swedish title */
+  /** Finnish title */
   title: string;
 
   /** English title if available */
   title_en?: string;
 
-  /** Short name / abbreviation (e.g., "DSL", "BrB") */
+  /** Short name / abbreviation (e.g., "TSL", "RL") */
   short_name?: string;
 
   /** Current status */

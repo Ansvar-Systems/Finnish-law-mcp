@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 const SERVER_NAME = 'finnish-legal-citations';
-const SERVER_VERSION = '1.2.2';
+const SERVER_VERSION = '1.2.3';
 const REPO_URL = 'https://github.com/Ansvar-Systems/finnish-law-mcp';
 const FRESHNESS_MAX_DAYS = 30;
 

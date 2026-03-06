@@ -16,7 +16,7 @@ describe('get_provision', () => {
 
   it('should get a specific provision by chapter and section', async () => {
     const response = await getProvision(db, {
-      document_id: '2018:218',
+      document_id: '1050/2018',
       chapter: '1',
       section: '1',
     });
@@ -25,46 +25,46 @@ describe('get_provision', () => {
     expect(response.results).not.toBeInstanceOf(Array);
     const prov = response.results as Exclude<typeof response.results, null | Array<unknown>>;
     expect(prov.provision_ref).toBe('1:1');
-    expect(prov.content).toContain('dataskyddsförordning');
-    expect(prov.title).toBe('Lagens syfte');
+    expect(prov.content).toContain('tietosuoja-asetus');
+    expect(prov.title).toBe('Lain tarkoitus');
   });
 
   it('should get a provision by provision_ref directly', async () => {
     const response = await getProvision(db, {
-      document_id: '2018:218',
+      document_id: '1050/2018',
       provision_ref: '3:1',
     });
 
     expect(response.results).not.toBeNull();
     const prov = response.results as Exclude<typeof response.results, null | Array<unknown>>;
     expect(prov.provision_ref).toBe('3:1');
-    expect(prov.title).toBe('Tillsynsmyndighet');
+    expect(prov.title).toBe('Valvontaviranomainen');
   });
 
   it('should get a flat statute provision', async () => {
     const response = await getProvision(db, {
-      document_id: '1998:204',
+      document_id: '523/1999',
       section: '5 a',
     });
 
     expect(response.results).not.toBeNull();
     const prov = response.results as Exclude<typeof response.results, null | Array<unknown>>;
     expect(prov.provision_ref).toBe('5 a');
-    expect(prov.title).toBe('Missbruksregeln');
-    expect(prov.content).toContain('personuppgifter');
+    expect(prov.title).toBe('Väärinkäyttösäännös');
+    expect(prov.content).toContain('henkilötietojen');
   });
 
   it('should return all provisions when no specific one requested', async () => {
-    const response = await getProvision(db, { document_id: '2018:218' });
+    const response = await getProvision(db, { document_id: '1050/2018' });
 
     expect(Array.isArray(response.results)).toBe(true);
     const provisions = response.results as Array<unknown>;
-    expect(provisions.length).toBe(8); // 8 sample provisions for 2018:218
+    expect(provisions.length).toBe(8); // 8 sample provisions for 1050/2018
   });
 
   it('should return null for non-existent provision', async () => {
     const response = await getProvision(db, {
-      document_id: '2018:218',
+      document_id: '1050/2018',
       provision_ref: '99:99',
     });
 
@@ -73,7 +73,7 @@ describe('get_provision', () => {
 
   it('should include cross-references', async () => {
     const response = await getProvision(db, {
-      document_id: '2018:218',
+      document_id: '1050/2018',
       provision_ref: '1:1',
     });
 
@@ -91,20 +91,20 @@ describe('get_provision', () => {
 
   it('should return historical text when as_of_date is provided', async () => {
     const response = await getProvision(db, {
-      document_id: '2018:218',
+      document_id: '1050/2018',
       provision_ref: '3:1',
       as_of_date: '2019-06-01',
     });
 
     expect(response.results).not.toBeNull();
     const prov = response.results as Exclude<typeof response.results, null | Array<unknown>>;
-    expect(prov.content).toContain('Datainspektionen');
+    expect(prov.content).toContain('Tietosuojavaltuutettu');
     expect(prov.valid_to).toBe('2021-01-01');
   });
 
   it('should return null when provision is outside historical validity window', async () => {
     const response = await getProvision(db, {
-      document_id: '1998:204',
+      document_id: '523/1999',
       provision_ref: '1',
       as_of_date: '2020-01-01',
     });

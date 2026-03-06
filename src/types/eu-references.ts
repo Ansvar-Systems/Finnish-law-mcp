@@ -1,7 +1,7 @@
 /**
  * EU References Types
  *
- * Types for EU law cross-references in Swedish legislation.
+ * Types for EU law cross-references in Finnish legislation.
  */
 
 export type EUDocumentType = 'directive' | 'regulation';
@@ -9,14 +9,14 @@ export type EUDocumentType = 'directive' | 'regulation';
 export type EUCommunity = 'EU' | 'EG' | 'EEG' | 'Euratom';
 
 export type ReferenceType =
-  | 'implements'          // Swedish law implements this EU directive
-  | 'supplements'         // Swedish law supplements this EU regulation
+  | 'implements'          // Finnish law implements this EU directive
+  | 'supplements'         // Finnish law supplements this EU regulation
   | 'applies'             // This EU regulation applies directly
   | 'references'          // General reference to EU law
-  | 'complies_with'       // Swedish law must comply with this
-  | 'derogates_from'      // Swedish law derogates from this (allowed by EU law)
-  | 'amended_by'          // Swedish law was amended to implement this
-  | 'repealed_by'         // Swedish law was repealed by this EU act
+  | 'complies_with'       // Finnish law must comply with this
+  | 'derogates_from'      // Finnish law derogates from this (allowed by EU law)
+  | 'amended_by'          // Finnish law was amended to implement this
+  | 'repealed_by'         // Finnish law was repealed by this EU act
   | 'cites_article';      // Cites specific article(s) of EU act
 
 export type ImplementationStatus = 'complete' | 'partial' | 'pending' | 'unknown';
@@ -73,6 +73,7 @@ export interface EUBasisDocument {
   url_eur_lex?: string;
 }
 
+/** @legacy Kept as SwedishImplementation for backward compatibility; use FinnishImplementation for new code */
 export interface SwedishImplementation {
   sfs_number: string;
   sfs_title: string;

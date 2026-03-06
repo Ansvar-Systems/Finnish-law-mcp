@@ -1,5 +1,5 @@
 /**
- * Parse Swedish legal citation strings into structured objects.
+ * Parse Finnish legal citation strings into structured objects.
  *
  * Supported formats:
  *   - SFS 2018:218
@@ -45,7 +45,7 @@ const CASE_HFD_PATTERN = /^(HFD)\s+(\d{4})\s+ref\.\s*(\d+)/i;
 const CASE_GENERIC_PATTERN = /^(AD|MD|MIG)\s+(\d{4})\s+(?:nr|ref\.?)\s*(\d+)/i;
 
 /**
- * Parse a Swedish legal citation string.
+ * Parse a Finnish legal citation string.
  *
  * @param citation - Raw citation string
  * @returns Parsed citation with type, document ID, and optional provision reference

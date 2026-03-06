@@ -1,5 +1,5 @@
 /**
- * get_provision_eu_basis — Get EU legal basis for a specific provision.
+ * get_provision_eu_basis — Get EU legal basis for a specific Finnish statute provision.
  */
 
 import type { Database } from '@ansvar/mcp-sqlite';
@@ -20,7 +20,7 @@ export interface GetProvisionEUBasisResult {
 }
 
 /**
- * Get EU legal basis for a specific provision within a Swedish statute.
+ * Get EU legal basis for a specific provision within a Finnish statute.
  *
  * Returns EU directives/regulations that this specific provision implements or references,
  * including article-level references.

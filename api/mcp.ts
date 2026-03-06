@@ -43,7 +43,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method === 'GET') {
     res.status(200).json({
       name: 'finnish-legal-citations',
-      version: '1.2.2',
+      version: '1.2.3',
       protocol: 'mcp-streamable-http',
     });
     return;
@@ -58,7 +58,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const database = getDatabase();
 
     const server = new Server(
-      { name: 'finnish-legal-citations', version: '1.2.2' },
+      { name: 'finnish-legal-citations', version: '1.2.3' },
       { capabilities: { tools: {} } }
     );
 
