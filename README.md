@@ -1,21 +1,21 @@
-# Swedish Law MCP Server
+# Finnish Law MCP Server
 
-**The Riksdagen alternative for the AI age.**
+**The Finlex alternative for the AI age.**
 
-[![npm version](https://badge.fury.io/js/@ansvar%2Fswedish-law-mcp.svg)](https://www.npmjs.com/package/@ansvar/swedish-law-mcp)
+[![npm version](https://badge.fury.io/js/@ansvar%2Ffinnish-law-mcp.svg)](https://www.npmjs.com/package/@ansvar/finnish-law-mcp)
 [![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue)](https://registry.modelcontextprotocol.io)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![GitHub stars](https://img.shields.io/github/stars/Ansvar-Systems/swedish-law-mcp?style=social)](https://github.com/Ansvar-Systems/swedish-law-mcp)
-[![CI](https://github.com/Ansvar-Systems/swedish-law-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/Ansvar-Systems/swedish-law-mcp/actions/workflows/ci.yml)
-[![Daily Data Check](https://github.com/Ansvar-Systems/swedish-law-mcp/actions/workflows/check-updates.yml/badge.svg)](https://github.com/Ansvar-Systems/swedish-law-mcp/actions/workflows/check-updates.yml)
+[![GitHub stars](https://img.shields.io/github/stars/Ansvar-Systems/finnish-law-mcp?style=social)](https://github.com/Ansvar-Systems/finnish-law-mcp)
+[![CI](https://github.com/Ansvar-Systems/finnish-law-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/Ansvar-Systems/finnish-law-mcp/actions/workflows/ci.yml)
+[![Daily Data Check](https://github.com/Ansvar-Systems/finnish-law-mcp/actions/workflows/check-updates.yml/badge.svg)](https://github.com/Ansvar-Systems/finnish-law-mcp/actions/workflows/check-updates.yml)
 [![Database](https://img.shields.io/badge/database-pre--built-green)](docs/EU_INTEGRATION_GUIDE.md)
 [![Provisions](https://img.shields.io/badge/provisions-31%2C198-blue)](docs/EU_INTEGRATION_GUIDE.md)
 
-Query **717 Swedish statutes** -- from Dataskyddslagen and Brottsbalken to Aktiebolagslagen, Miljöbalken, and more -- directly from Claude, Cursor, or any MCP-compatible client.
+Query **Finnish statutes** -- from Tietosuojalaki and Rikoslaki to Osakeyhtiölaki, Ympäristönsuojelulaki, and more -- directly from Claude, Cursor, or any MCP-compatible client.
 
-If you're building legal tech, compliance tools, or doing Swedish legal research, this is your verified reference database.
+If you're building legal tech, compliance tools, or doing Finnish legal research, this is your verified reference database.
 
-Built by [Ansvar Systems](https://ansvar.eu) -- Stockholm, Sweden
+Built by [Ansvar Systems](https://ansvar.eu) -- Helsinki, Finland
 
 ---
 
