@@ -2,7 +2,7 @@
 
 **CRITICAL READING FOR LEGAL PROFESSIONALS**
 
-This document addresses privacy and confidentiality considerations when using this Tool, with particular attention to professional obligations under Swedish Bar Association (Advokatsamfundet) rules.
+This document addresses privacy and confidentiality considerations when using this Tool, with particular attention to professional obligations under Finnish Bar Association (Suomen Asianajajaliitto) rules.
 
 ---
 
@@ -11,7 +11,7 @@ This document addresses privacy and confidentiality considerations when using th
 ⚠️ **Key Risks:**
 - Queries flow through Claude API infrastructure (Anthropic cloud)
 - Query content may reveal client matters and privileged information
-- Swedish Bar Association rules require strict data processing controls
+- Finnish Bar Association (Suomen Asianajajaliitto) rules require strict data processing controls
 
 ✅ **Safe Use Options:**
 1. **General Legal Research**: Use Tool for non-client-specific queries
@@ -55,9 +55,9 @@ When you use this Tool through Claude Desktop or API:
 
 ## Legal Professional Obligations
 
-### Advokatsamfundet (Swedish Bar Association) Rules
+### Suomen Asianajajaliitto (Finnish Bar Association) Rules
 
-Swedish lawyers are bound by **strict confidentiality rules** under the Advocates Act (Rättegångsbalken 8:4) and Advokatsamfundet's Code of Conduct.
+Finnish lawyers are bound by **strict confidentiality rules** under the Advocates Act (Laki asianajajista 496/1958) and Suomen Asianajajaliitto's Code of Conduct.
 
 #### Tystnadsplikt (Duty of Confidentiality)
 
@@ -96,7 +96,7 @@ Under **GDPR Article 28**, when you use a service that processes client data:
 **Safe to use through Claude API:**
 
 ```
-Example Query: "What does Swedish GDPR implementation say about data breach notification?"
+Example Query: "What does Finnish GDPR implementation say about data breach notification?"
 ```
 
 - No client identity
@@ -109,7 +109,7 @@ Example Query: "What does Swedish GDPR implementation say about data breach noti
 **Use with caution:**
 
 ```
-Example Query: "What are the penalties under Swedish criminal law for insider trading?"
+Example Query: "What are the penalties under Finnish criminal law for insider trading?"
 ```
 
 **Risks:**
@@ -134,7 +134,7 @@ Bad Example: "Find precedents for custody disputes involving allegations of subs
 - Geographic specificity
 - Case-specific facts
 - May reveal client identity or confidential strategy
-- May violate Advokatsamfundet rules even if client name not mentioned
+- May violate Suomen Asianajajaliitto rules even if client name not mentioned
 
 **What to do instead:**
 - Use Karnov, Juno, or other commercial legal databases with DPAs
@@ -156,7 +156,7 @@ User Query → Local MCP Client → Local LLM (no external API) → MCP Server (
 **Benefits:**
 - No query data sent to Anthropic or any external service
 - Full control over logging and data retention
-- Compliant with Advokatsamfundet confidentiality rules
+- Compliant with Suomen Asianajajaliitto confidentiality rules
 - GDPR-compliant (no third-party processors)
 
 ### Self-Hosted LLM Options
@@ -192,9 +192,9 @@ For acceptable performance with a 70B parameter model (Llama 3.1 70B or similar)
    ```json
    {
      "mcpServers": {
-       "swedish-law": {
+       "finnish-law": {
          "command": "npx",
-         "args": ["-y", "@ansvar/swedish-law-mcp"],
+         "args": ["-y", "@ansvar/finnish-law-mcp"],
          "env": {
            "ANTHROPIC_API_KEY": "local",
            "LOCAL_LLM": "ollama",
@@ -303,7 +303,7 @@ Some jurisdictions require disclosing AI tool use in legal work:
 - **To Clients**: Best practice even if not strictly required
 - **To Opposing Counsel**: Generally not required unless court rules mandate
 
-**Sweden**: No specific disclosure requirement yet, but professional ethics (god advokatsed) may require transparency with clients.
+**Finland**: No specific disclosure requirement yet, but professional ethics (hyvä asianajajatapa) may require transparency with clients.
 
 ---
 
@@ -350,8 +350,8 @@ Some jurisdictions require disclosing AI tool use in legal work:
 For questions about privacy and confidentiality:
 
 1. **Anthropic Privacy**: Contact privacy@anthropic.com
-2. **Advokatsamfundet Guidance**: Consult Swedish Bar Association ethics hotline
-3. **Tool-Specific**: Open issue on [GitHub](https://github.com/Ansvar-Systems/swedish-law-mcp/issues)
+2. **Suomen Asianajajaliitto Guidance**: Consult Finnish Bar Association ethics helpline
+3. **Tool-Specific**: Open issue on [GitHub](https://github.com/Ansvar-Systems/finnish-law-mcp/issues)
 
 ### Incident Reporting
 
@@ -360,8 +360,8 @@ If you suspect a confidentiality breach (e.g., accidentally queried client name)
 1. **Document Incident**: Record what information was transmitted and when
 2. **Notify Client**: Inform affected client under GDPR breach notification rules
 3. **Contact Anthropic**: Request deletion of query logs (if possible)
-4. **Advokatsamfundet**: Report to Bar Association if required
-5. **GDPR Authority**: Report to Integritetsskyddsmyndigheten if personal data breach
+4. **Suomen Asianajajaliitto**: Report to Finnish Bar Association if required
+5. **GDPR Authority**: Report to Tietosuojavaltuutettu (Finnish Data Protection Ombudsman) if personal data breach
 
 ---
 
@@ -372,7 +372,7 @@ This privacy notice may be updated as:
 - New professional ethics guidance emerges
 - Tool deployment options expand
 
-Check [GitHub repository](https://github.com/Ansvar-Systems/swedish-law-mcp) for current version.
+Check [GitHub repository](https://github.com/Ansvar-Systems/finnish-law-mcp) for current version.
 
 ---
 
