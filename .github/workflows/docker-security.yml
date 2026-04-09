@@ -22,16 +22,16 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f # v3
 
       - name: Create placeholder database for CI build
         run: mkdir -p data && touch data/database.db
 
       - name: Build Docker image for scanning
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25 # v5
         with:
           context: .
           file: Dockerfile
@@ -43,7 +43,7 @@ jobs:
           cache-to: type=gha,mode=max
 
       - name: Run Trivy vulnerability scanner (SARIF)
-        uses: aquasecurity/trivy-action@0.34.0
+        uses: aquasecurity/trivy-action@57a97c7e7821a5776cebc9bb87c984fa69cba8f1 # 0.35.0
         with:
           image-ref: finnish-law-mcp:scan
           format: 'sarif'
@@ -54,14 +54,14 @@ jobs:
           exit-code: '0'
 
       - name: Upload Trivy SARIF to GitHub Security
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@7fc1baf373eb073c686865bd453d412d506a05a2 # v3
         if: always()
         with:
           sarif_file: 'trivy-container.sarif'
           category: 'trivy-container'
 
       - name: Run Trivy for JSON report (audit evidence)
-        uses: aquasecurity/trivy-action@0.34.0
+        uses: aquasecurity/trivy-action@57a97c7e7821a5776cebc9bb87c984fa69cba8f1 # 0.35.0
         with:
           image-ref: finnish-law-mcp:scan
           format: 'json'
@@ -70,7 +70,7 @@ jobs:
           vuln-type: 'os,library'
 
       - name: Run Trivy for table output (summary)
-        uses: aquasecurity/trivy-action@0.34.0
+        uses: aquasecurity/trivy-action@57a97c7e7821a5776cebc9bb87c984fa69cba8f1 # 0.35.0
         with:
           image-ref: finnish-law-mcp:scan
           format: 'table'
@@ -78,7 +78,7 @@ jobs:
           vuln-type: 'os,library'
 
       - name: Upload container scan artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         if: always()
         with:
           name: container-scan-results
@@ -95,16 +95,16 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f # v3
 
       - name: Create placeholder database for CI build
         run: mkdir -p data && touch data/database.db
 
       - name: Build image for SBOM
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25 # v5
         with:
           context: .
           file: Dockerfile
@@ -115,7 +115,7 @@ jobs:
           cache-from: type=gha
 
       - name: Generate SBOM (CycloneDX format)
-        uses: anchore/sbom-action@v0
+        uses: anchore/sbom-action@e22c389904149dbc22b58101806040fa8d37a610 # v0
         with:
           image: finnish-law-mcp:sbom
           format: cyclonedx-json
@@ -123,7 +123,7 @@ jobs:
           artifact-name: sbom-cyclonedx
 
       - name: Generate SBOM (SPDX format)
-        uses: anchore/sbom-action@v0
+        uses: anchore/sbom-action@e22c389904149dbc22b58101806040fa8d37a610 # v0
         with:
           image: finnish-law-mcp:sbom
           format: spdx-json
@@ -131,7 +131,7 @@ jobs:
           artifact-name: sbom-spdx
 
       - name: Upload SBOM artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: sbom-finnish-law-mcp
           path: |
@@ -166,7 +166,7 @@ jobs:
           echo "- **SBOM (CycloneDX + SPDX)**: 365-day retention (compliance)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### About This Scan" >> $GITHUB_STEP_SUMMARY
-          echo "This workflow scans the Swedish Law MCP **Docker container image** for:" >> $GITHUB_STEP_SUMMARY
+          echo "This workflow scans the Finnish Law MCP **Docker container image** for:" >> $GITHUB_STEP_SUMMARY
           echo "- OS package vulnerabilities (Alpine base)" >> $GITHUB_STEP_SUMMARY
           echo "- Node.js dependency vulnerabilities" >> $GITHUB_STEP_SUMMARY
           echo "- Container configuration issues" >> $GITHUB_STEP_SUMMARY
