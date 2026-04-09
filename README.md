@@ -21,15 +21,15 @@ Built by [Ansvar Systems](https://ansvar.eu) -- Helsinki, Finland
 
 ## Why This Exists
 
-Swedish legal research is scattered across Riksdagen, SFS publications, lagen.nu, and EUR-Lex. Whether you're:
+Finnish legal research is scattered across Finlex, HE proposals, Edita Publishing, and EUR-Lex. Whether you're:
 - A **lawyer** validating citations in a brief or contract
 - A **compliance officer** checking if a statute is still in force
-- A **legal tech developer** building tools on Swedish law
-- A **researcher** tracing legislative history from proposition to statute
+- A **legal tech developer** building tools on Finnish law
+- A **researcher** tracing legislative history from hallituksen esitys to statute
 
 ...you shouldn't need 47 browser tabs and manual PDF cross-referencing. Ask Claude. Get the exact provision. With context.
 
-This MCP server makes Swedish law **searchable, cross-referenceable, and AI-readable**.
+This MCP server makes Finnish law **searchable, cross-referenceable, and AI-readable**.
 
 ---
 
@@ -44,7 +44,7 @@ This MCP server makes Swedish law **searchable, cross-referenceable, and AI-read
 | Client | How to Connect |
 |--------|---------------|
 | **Claude.ai** | Settings > Connectors > Add Integration > paste URL |
-| **Claude Code** | `claude mcp add swedish-law --transport http https://mcp.ansvar.eu/law-fi/mcp` |
+| **Claude Code** | `claude mcp add finnish-law --transport http https://mcp.ansvar.eu/law-fi/mcp` |
 | **Claude Desktop** | Add to config (see below) |
 | **GitHub Copilot** | Add to VS Code settings (see below) |
 
@@ -53,7 +53,7 @@ This MCP server makes Swedish law **searchable, cross-referenceable, and AI-read
 ```json
 {
   "mcpServers": {
-    "swedish-law": {
+    "finnish-law": {
       "type": "url",
       "url": "https://mcp.ansvar.eu/law-fi/mcp"
     }
@@ -66,7 +66,7 @@ This MCP server makes Swedish law **searchable, cross-referenceable, and AI-read
 ```json
 {
   "github.copilot.chat.mcp.servers": {
-    "swedish-law": {
+    "finnish-law": {
       "type": "http",
       "url": "https://mcp.ansvar.eu/law-fi/mcp"
     }
@@ -77,7 +77,7 @@ This MCP server makes Swedish law **searchable, cross-referenceable, and AI-read
 ### Use Locally (npm)
 
 ```bash
-npx @ansvar/swedish-law-mcp
+npx @ansvar/finnish-law-mcp
 ```
 
 **Claude Desktop** — add to `claude_desktop_config.json`:
@@ -88,9 +88,9 @@ npx @ansvar/swedish-law-mcp
 ```json
 {
   "mcpServers": {
-    "swedish-law": {
+    "finnish-law": {
       "command": "npx",
-      "args": ["-y", "@ansvar/swedish-law-mcp"]
+      "args": ["-y", "@ansvar/finnish-law-mcp"]
     }
   }
 }
@@ -101,9 +101,9 @@ npx @ansvar/swedish-law-mcp
 ```json
 {
   "mcp.servers": {
-    "swedish-law": {
+    "finnish-law": {
       "command": "npx",
-      "args": ["-y", "@ansvar/swedish-law-mcp"]
+      "args": ["-y", "@ansvar/finnish-law-mcp"]
     }
   }
 }
@@ -113,15 +113,15 @@ npx @ansvar/swedish-law-mcp
 
 Once connected, just ask naturally:
 
-- *"What does Dataskyddslagen 3 kap. 5 § say about consent?"*
-- *"Is PUL (1998:204) still in force?"*
-- *"Find provisions about personuppgifter in Swedish law"*
-- *"What EU directives does DSL implement?"*
-- *"Which Swedish laws implement the GDPR?"*
-- *"Get the preparatory works for Dataskyddslagen"*
-- *"Compare incident reporting requirements across NIS2 Swedish implementations"*
-- *"Validate the citation NJA 2020 s. 45"*
-- *"Find Labour Court cases about discrimination from 2020-2023"*
+- *"What does Tietosuojalaki 3 luku 5 § say about consent?"*
+- *"Is Henkilötietolaki (523/1999) still in force?"*
+- *"Find provisions about henkilötiedot in Finnish law"*
+- *"What EU directives does Tietosuojalaki implement?"*
+- *"Which Finnish laws implement the GDPR?"*
+- *"Get the preparatory works for Tietosuojalaki"*
+- *"Compare incident reporting requirements across NIS2 Finnish implementations"*
+- *"Validate the citation KKO 2020:45"*
+- *"Find KHO cases about data protection from 2020-2023"*
 
 ---
 
@@ -129,15 +129,15 @@ Once connected, just ask naturally:
 
 | Category | Count | Details |
 |----------|-------|---------|
-| **Statutes** | 717 laws | Comprehensive Swedish legislation |
+| **Statutes** | 717 laws | Comprehensive Finnish legislation |
 | **Provisions** | 31,198 sections | Full-text searchable with FTS5 |
-| **Preparatory Works** | 3,625 documents | Propositions (Prop.) and SOUs |
+| **Preparatory Works** | 3,625 documents | Hallituksen esitykset (HE) and committee reports |
 | **EU Cross-References** | 668 references | 228 EU directives and regulations |
 | **Legal Definitions** | 615 terms | Extracted from statute text |
 | **Database Size** | ~70 MB | Optimized SQLite, portable |
-| **Daily Updates** | Automated | Freshness checks against Riksdagen |
+| **Daily Updates** | Automated | Freshness checks against Finlex |
 
-**Verified data only** -- every citation is validated against official sources (Riksdagen, lagen.nu, EUR-Lex). Zero LLM-generated content.
+**Verified data only** -- every citation is validated against official sources (Finlex, opendata.finlex.fi, EUR-Lex). Zero LLM-generated content.
 
 ---
 
@@ -146,27 +146,27 @@ Once connected, just ask naturally:
 ### Why This Works
 
 **Verbatim Source Text (No LLM Processing):**
-- All statute text is ingested from Riksdagen/SFS official sources
+- All statute text is ingested from Finlex/opendata.finlex.fi official sources
 - Provisions are returned **unchanged** from SQLite FTS5 database rows
 - Zero LLM summarization or paraphrasing -- the database contains regulation text, not AI interpretations
 
 **Smart Context Management:**
 - Search returns ranked provisions with BM25 scoring (safe for context)
-- Provision retrieval gives exact text by SFS number + chapter/section
+- Provision retrieval gives exact text by statute number + chapter/section
 - Cross-references help navigate without loading everything at once
 
 **Technical Architecture:**
 ```
-Riksdagen API → Parse → SQLite → FTS5 snippet() → MCP response
-                  ↑                      ↑
-           Provision parser       Verbatim database query
+Finlex API → Parse → SQLite → FTS5 snippet() → MCP response
+               ↑                      ↑
+        Provision parser       Verbatim database query
 ```
 
 ### Traditional Research vs. This MCP
 
 | Traditional Approach | This MCP Server |
 |---------------------|-----------------|
-| Search Riksdagen by SFS number | Search by plain Swedish: *"personuppgifter samtycke"* |
+| Search Finlex by statute number | Search in Finnish: *"henkilötiedot suostumus"* |
 | Navigate multi-chapter statutes manually | Get the exact provision with context |
 | Manual cross-referencing between laws | `build_legal_stance` aggregates across sources |
 | "Is this statute still in force?" → check manually | `check_currency` tool → answer in seconds |
@@ -174,9 +174,9 @@ Riksdagen API → Parse → SQLite → FTS5 snippet() → MCP response
 | Check 5+ sites for updates | Daily automated freshness checks |
 | No API, no integration | MCP protocol → AI-native |
 
-**Traditional:** Search Riksdagen → Download SFS PDF → Ctrl+F → Cross-reference with proposition → Check EUR-Lex for EU basis → Repeat
+**Traditional:** Search Finlex → Download PDF → Ctrl+F → Cross-reference with hallituksen esitys → Check EUR-Lex for EU basis → Repeat
 
-**This MCP:** *"What EU law is the basis for DSL 3 kap. 5 § about consent?"* → Done.
+**This MCP:** *"What EU law is the basis for Tietosuojalaki 3 luku 5 § about consent?"* → Done.
 
 ---
 
@@ -187,21 +187,21 @@ Riksdagen API → Parse → SQLite → FTS5 snippet() → MCP response
 | Tool | Description |
 |------|-------------|
 | `search_legislation` | FTS5 search on 31,198 provisions with BM25 ranking |
-| `get_provision` | Retrieve specific provision by SFS + chapter/section |
+| `get_provision` | Retrieve specific provision by statute number + chapter/section |
 | `search_case_law` | FTS5 search on case law with court/date filters |
-| `get_preparatory_works` | Get linked propositions and SOUs for a statute |
+| `get_preparatory_works` | Get linked hallituksen esitykset (HE) for a statute |
 | `validate_citation` | Validate citation against database (zero-hallucination check) |
 | `build_legal_stance` | Aggregate citations from statutes, case law, prep works |
-| `format_citation` | Format citations per Swedish conventions (full/short/pinpoint) |
+| `format_citation` | Format citations per Finnish conventions (full/short/pinpoint) |
 | `check_currency` | Check if statute is in force, amended, or repealed |
 
 ### EU Law Integration Tools (5)
 
 | Tool | Description |
 |------|-------------|
-| `get_eu_basis` | Get EU directives/regulations for Swedish statute |
-| `get_swedish_implementations` | Find Swedish laws implementing EU act |
-| `search_eu_implementations` | Search EU documents with Swedish implementation counts |
+| `get_eu_basis` | Get EU directives/regulations for Finnish statute |
+| `get_finnish_implementations` | Find Finnish laws implementing EU act |
+| `search_eu_implementations` | Search EU documents with Finnish implementation counts |
 | `get_provision_eu_basis` | Get EU law references for specific provision |
 | `validate_eu_compliance` | Check implementation status (future, requires EU MCP) |
 
@@ -209,13 +209,13 @@ Riksdagen API → Parse → SQLite → FTS5 snippet() → MCP response
 
 ## EU Law Integration
 
-**668 cross-references** linking 49 Swedish statutes to EU law, with bi-directional lookup.
+**668 cross-references** linking 49 Finnish statutes to EU law, with bi-directional lookup.
 
 | Metric | Value |
 |--------|-------|
 | **EU References** | 668 cross-references |
 | **EU Documents** | 228 unique directives and regulations |
-| **Swedish Statutes with EU Refs** | 49 (68% of database) |
+| **Finnish Statutes with EU Refs** | 49 (68% of database) |
 | **Directives** | 89 |
 | **Regulations** | 139 |
 | **EUR-Lex Integration** | Automated metadata fetching |
@@ -234,11 +234,11 @@ See [EU_INTEGRATION_GUIDE.md](docs/EU_INTEGRATION_GUIDE.md) for detailed documen
 
 ## Data Sources & Freshness
 
-All content is sourced from authoritative Swedish legal databases:
+All content is sourced from authoritative Finnish legal databases:
 
-- **[Riksdagen](https://riksdagen.se/)** -- Swedish Parliament's official legal database
-- **[Svensk Forfattningssamling](https://svenskforfattningssamling.se/)** -- Official statute collection
-- **[Lagen.nu](https://lagen.nu)** -- Case law database (CC-BY Domstolsverket)
+- **[Finlex](https://finlex.fi/)** -- Finnish Ministry of Justice's official legal database
+- **[Finlex Open Data](https://opendata.finlex.fi/)** -- Machine-readable statute and case law data
+- **[Eduskunta](https://eduskunta.fi/)** -- Finnish Parliament's legislative records and HE proposals
 - **[EUR-Lex](https://eur-lex.europa.eu/)** -- Official EU law database (metadata only)
 
 ### Automated Freshness Checks (Daily)
@@ -247,10 +247,10 @@ A [daily GitHub Actions workflow](.github/workflows/check-updates.yml) monitors 
 
 | Source | Check | Method |
 |--------|-------|--------|
-| **Statute amendments** | Riksdagen API date comparison | All 717 statutes checked |
-| **New statutes** | Riksdagen SFS publications (90-day window) | Diffed against database |
-| **Case law** | lagen.nu feed entry count | Compared to database |
-| **Preparatory works** | Riksdagen proposition API (30-day window) | New props detected |
+| **Statute amendments** | Finlex API date comparison | All 717 statutes checked |
+| **New statutes** | Finlex statute publications (90-day window) | Diffed against database |
+| **Case law** | opendata.finlex.fi feed entry count | Compared to database |
+| **Preparatory works** | Eduskunta HE API (30-day window) | New HE documents detected |
 | **EU reference staleness** | Git commit timestamps | Flagged if >90 days old |
 
 The workflow supports `auto_update: true` dispatch for automated sync, rebuild, version bump, and npm publishing.
@@ -282,17 +282,17 @@ See [SECURITY.md](SECURITY.md) for the full policy and vulnerability reporting.
 
 > **THIS TOOL IS NOT LEGAL ADVICE**
 >
-> Statute text is sourced from official Riksdagen/SFS publications. However:
+> Statute text is sourced from official Finlex/opendata.finlex.fi publications. However:
 > - This is a **research tool**, not a substitute for professional legal counsel
 > - **Court case coverage is limited** -- do not rely solely on this for case law research
 > - **Verify critical citations** against primary sources for court filings
-> - **EU cross-references** are extracted from Swedish statute text, not EUR-Lex full text
+> - **EU cross-references** are extracted from Finnish statute text, not EUR-Lex full text
 
 **Before using professionally, read:** [DISCLAIMER.md](DISCLAIMER.md) | [PRIVACY.md](PRIVACY.md)
 
 ### Client Confidentiality
 
-Queries go through the Claude API. For privileged or confidential matters, use on-premise deployment. See [PRIVACY.md](PRIVACY.md) for Advokatsamfundet compliance guidance.
+Queries go through the Claude API. For privileged or confidential matters, use on-premise deployment. See [PRIVACY.md](PRIVACY.md) for Asianajajaliiton compliance guidance.
 
 ---
 
@@ -311,8 +311,8 @@ Queries go through the Claude API. For privileged or confidential matters, use o
 ### Setup
 
 ```bash
-git clone https://github.com/Ansvar-Systems/swedish-law-mcp
-cd swedish-law-mcp
+git clone https://github.com/Ansvar-Systems/Finnish-law-mcp
+cd Finnish-law-mcp
 npm install
 npm run build
 npm test
@@ -328,7 +328,7 @@ npx @anthropic/mcp-inspector node dist/index.js   # Test with MCP Inspector
 ### Data Management
 
 ```bash
-npm run ingest -- <sfs-number> <output.json>   # Ingest statute from Riksdagen
+npm run ingest -- <statute-number> <output.json>   # Ingest statute from Finlex
 npm run ingest:cases:full-archive              # Ingest case law (full archive)
 npm run sync:cases                             # Ingest case law (incremental)
 npm run sync:prep-works                        # Sync preparatory works
@@ -352,8 +352,8 @@ This server is part of **Ansvar's Compliance Suite** -- MCP servers that work to
 ### [@ansvar/eu-regulations-mcp](https://github.com/Ansvar-Systems/EU_compliance_MCP)
 **Query 49 EU regulations directly from Claude** -- GDPR, AI Act, DORA, NIS2, MiFID II, eIDAS, and more. Full regulatory text with article-level search. `npx @ansvar/eu-regulations-mcp`
 
-### @ansvar/swedish-law-mcp (This Project)
-**Query 717 Swedish statutes directly from Claude** -- DSL, BrB, ABL, MB, and more. Full provision text with EU cross-references. `npx @ansvar/swedish-law-mcp`
+### @ansvar/finnish-law-mcp (This Project)
+**Query 717 Finnish statutes directly from Claude** -- Tietosuojalaki, Rikoslaki, Osakeyhtiölaki, Ympäristönsuojelulaki, and more. Full provision text with EU cross-references. `npx @ansvar/finnish-law-mcp`
 
 ### [@ansvar/us-regulations-mcp](https://github.com/Ansvar-Systems/US_Compliance_MCP)
 **Query US federal and state compliance laws** -- HIPAA, CCPA, SOX, GLBA, FERPA, and more. `npm install @ansvar/us-regulations-mcp`
@@ -377,7 +377,7 @@ Priority areas:
 - Court case law expansion (currently limited coverage)
 - EU Regulations MCP integration (full EU law text, CJEU case law)
 - Historical statute versions and amendment tracking
-- Lower court decisions (Tingsrätt, Hovrätt)
+- Lower court decisions (Käräjäoikeus, Hovioikeus)
 
 ---
 
@@ -387,7 +387,7 @@ Priority areas:
 - [x] **EU law integration** -- 668 cross-references to 228 EU directives/regulations (v1.1.0)
 - [ ] Court case law expansion (scraper updated, re-ingestion needed for 12K-18K cases)
 - [ ] Full EU text integration (via @ansvar/eu-regulations-mcp)
-- [ ] Lower court coverage (Tingsrätt, Hovrätt archives)
+- [ ] Lower court coverage (Käräjäoikeus, Hovioikeus archives)
 - [ ] Historical statute versions (amendment tracking)
 - [ ] English translations for key statutes
 - [ ] Web API for programmatic access
@@ -399,12 +399,12 @@ Priority areas:
 If you use this MCP server in academic research:
 
 ```bibtex
-@software{swedish_law_mcp_2025,
+@software{finnish_law_mcp_2025,
   author = {Ansvar Systems AB},
-  title = {Swedish Law MCP Server: Production-Grade Legal Research Tool},
+  title = {Finnish Law MCP Server: Production-Grade Legal Research Tool},
   year = {2025},
-  url = {https://github.com/Ansvar-Systems/swedish-law-mcp},
-  note = {Comprehensive Swedish legal database with 717 statutes and EU law cross-references}
+  url = {https://github.com/Ansvar-Systems/Finnish-law-mcp},
+  note = {Comprehensive Finnish legal database with 717 statutes and EU law cross-references}
 }
 ```
 
@@ -416,22 +416,22 @@ Apache License 2.0. See [LICENSE](./LICENSE) for details.
 
 ### Data Licenses
 
-- **Statutes & Propositions:** Swedish Government (public domain)
-- **Case Law:** CC-BY Domstolsverket (via lagen.nu)
+- **Statutes & HE Proposals:** Finnish Government (public domain via Finlex open data)
+- **Case Law:** CC-BY Oikeusministeriö (via opendata.finlex.fi)
 - **EU Metadata:** EUR-Lex (EU public domain)
 
 ---
 
 ## About Ansvar Systems
 
-We build AI-accelerated compliance and legal research tools for the European market. This MCP server started as our internal reference tool for Swedish law -- turns out everyone building for the Swedish market has the same research frustrations.
+We build AI-accelerated compliance and legal research tools for the European market. This MCP server started as our internal reference tool for Finnish law -- turns out everyone building for the Finnish market has the same research frustrations.
 
 So we're open-sourcing it. Navigating 717 statutes shouldn't require a law degree.
 
-**[ansvar.eu](https://ansvar.eu)** -- Stockholm, Sweden
+**[ansvar.eu](https://ansvar.eu)** -- Helsinki, Finland
 
 ---
 
 <p align="center">
-  <sub>Built with care in Stockholm, Sweden</sub>
+  <sub>Built with care in Helsinki, Finland</sub>
 </p>
