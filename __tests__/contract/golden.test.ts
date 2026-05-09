@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
 import { createHash } from 'node:crypto';
-import { readFileSync, rmdirSync, rmSync } from 'node:fs';
+import { existsSync, readFileSync, rmdirSync, rmSync, statSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
@@ -140,7 +140,16 @@ let db: InstanceType<typeof Database>;
 // Contract test runner
 // ---------------------------------------------------------------------------
 
-describe(`Contract tests: ${fixture.mcp_name}`, () => {
+// Skip the suite when the on-disk DB is missing or a 0-byte stub. The
+// release-pattern (manifest db_release_path) provisions the real DB at GHCR
+// build time; locally + in PR-CI the file may be empty until `npm run build:db`
+// populates it. Per memory feedback_contract_test_skip_on_empty_db_2026_05_07.md.
+const dbPathModuleScope =
+  process.env['FINNISH_LAW_DB_PATH'] ?? join(__dirname, '..', '..', 'data', 'database.db');
+const dbReady = existsSync(dbPathModuleScope) && statSync(dbPathModuleScope).size > 1024;
+const describeFn = dbReady ? describe : describe.skip;
+
+describeFn(`Contract tests: ${fixture.mcp_name}`, () => {
   beforeAll(async () => {
     const dbPath =
       process.env['FINNISH_LAW_DB_PATH'] ?? join(__dirname, '..', '..', 'data', 'database.db');

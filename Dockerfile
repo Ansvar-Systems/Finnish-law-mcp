@@ -1,97 +1,45 @@
-# ═══════════════════════════════════════════════════════════════════════════
-# MCP SERVER DOCKERFILE
-# ═══════════════════════════════════════════════════════════════════════════
-#
-# Multi-stage Dockerfile for building and running the MCP server.
-#
-# IMPORTANT: The database must be pre-built BEFORE running docker build.
-# It is NOT built during the Docker build because the full DB includes
-# ingested data (12K+ case law entries) that requires hours of network
-# scraping. Build it locally first, then bake it into the image.
-#
-# Free tier (seeds only, ~45 MB):
-#   npm run build:db
-#   docker build -t finnish-law-mcp .
-#
-# Full tier (seeds + ingested case law, ~80 MB):
-#   npm run build:db
-#   npm run ingest:cases:full-archive
-#   npm run build:db:paid
-#   docker build -t finnish-law-mcp .
-#
-# ═══════════════════════════════════════════════════════════════════════════
-
-# ───────────────────────────────────────────────────────────────────────────
-# STAGE 1: BUILD
-# ───────────────────────────────────────────────────────────────────────────
-# Compiles TypeScript to JavaScript
-# ───────────────────────────────────────────────────────────────────────────
+# MCP Server — Hetzner / Kubernetes
+# Image contract: docs/superpowers/specs/2026-04-25-mcp-infrastructure-standard-design.md §3
+# Profile: node-wasm (runtime: @ansvar/mcp-sqlite WASM — no native runtime compile)
+# DB pattern: release (data/database.db)
+# Build-time native compile (better-sqlite3 in devDeps for build:db): False
 
 FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-# Copy package files first (for better caching)
 COPY package*.json ./
-
-# Install ALL dependencies (including dev)
-# --ignore-scripts prevents postinstall from running
-RUN npm ci --ignore-scripts
-
-# Copy TypeScript config and source
+RUN npm ci --ignore-scripts && npm cache clean --force
 COPY tsconfig.json ./
-COPY src ./src
-
-# Compile TypeScript
+COPY src/ ./src/
+COPY scripts/ ./scripts/
 RUN npm run build
 
-# ───────────────────────────────────────────────────────────────────────────
-# STAGE 2: PRODUCTION
-# ───────────────────────────────────────────────────────────────────────────
-# Minimal image with only production dependencies
-# ───────────────────────────────────────────────────────────────────────────
-
-FROM node:20-alpine AS production
+FROM node:20-alpine AS runtime
 
 WORKDIR /app
 
-# Copy package files
+RUN addgroup -g 1001 -S nodejs \
+ && adduser -u 1001 -S nodejs -G nodejs
+
 COPY package*.json ./
+RUN npm ci --omit=dev --ignore-scripts && npm cache clean --force
 
-# Install production dependencies only
-RUN npm ci --omit=dev
+COPY --from=builder --chown=nodejs:nodejs /app/dist ./dist
+COPY --chown=nodejs:nodejs data/database.db ./data/database.db
 
-# Copy compiled JavaScript from builder stage
-COPY --from=builder /app/dist ./dist
+# Ensure /app/data exists and is writable by the runtime user.
+# SQLite needs to write -wal/-shm sidecars in the DB directory.
+RUN mkdir -p /app/data && chown -R nodejs:nodejs /app/data
 
-# Copy pre-built database
-# This file MUST exist — run `npm run build:db` (or full pipeline) first
-COPY data/database.db ./data/database.db
-
-# ───────────────────────────────────────────────────────────────────────────
-# SECURITY
-# ───────────────────────────────────────────────────────────────────────────
-# Create and use non-root user
-# ───────────────────────────────────────────────────────────────────────────
-
-RUN addgroup -S nodejs && adduser -S nodejs -G nodejs \
- && chown -R nodejs:nodejs /app/data
 USER nodejs
 
-# ───────────────────────────────────────────────────────────────────────────
-# ENVIRONMENT
-# ───────────────────────────────────────────────────────────────────────────
+ENV NODE_ENV=production \
+    PORT=3000
 
-# Production mode
-ENV NODE_ENV=production
+EXPOSE 3000
 
-# Database path (matches the COPY destination above)
-ENV FINNISH_LAW_DB_PATH=/app/data/database.db
-
-# ───────────────────────────────────────────────────────────────────────────
-# ENTRY POINT
-# ───────────────────────────────────────────────────────────────────────────
-# MCP servers use stdio, so we run node directly
-# ───────────────────────────────────────────────────────────────────────────
+HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=3 \
+  CMD node -e "fetch('http://localhost:3000/health').then(r=>r.ok?process.exit(0):process.exit(1)).catch(()=>process.exit(1))"
 
 CMD ["node", "dist/http-server.js"]
