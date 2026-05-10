@@ -26,6 +26,7 @@ import { getProvisionEUBasis, GetProvisionEUBasisInput } from './get-provision-e
 import { validateEUCompliance, ValidateEUComplianceInput } from './validate-eu-compliance.js';
 import { getAbout, type AboutContext } from './about.js';
 import { listSources } from './list-sources.js';
+import { checkDataFreshness } from './check-data-freshness.js';
 import { getProvisionAtDate, GetProvisionAtDateParams, toolDefinition as provisionAtDateDef } from './get-provision-at-date.js';
 export type { AboutContext } from './about.js';
 
@@ -256,6 +257,17 @@ When NOT to use: For basic EU reference lookup, use get_eu_basis. This tool asse
       properties: {},
     },
   },
+  {
+    name: 'check_data_freshness',
+    description:
+      'Returns the corpus build timestamp and per-source last_verified dates with staleness_days against a 90-day threshold. ' +
+      'Use this to verify whether the data backing this MCP is current before relying on it for compliance work. ' +
+      'For full source provenance, use list_sources; for server statistics, use about.',
+    inputSchema: {
+      type: 'object',
+      properties: {},
+    },
+  },
   provisionAtDateDef as Tool,
 ];
 
@@ -325,6 +337,9 @@ export function registerTools(
           break;
         case 'list_sources':
           result = listSources();
+          break;
+        case 'check_data_freshness':
+          result = checkDataFreshness(db);
           break;
         case 'get_provision_at_date':
           result = getProvisionAtDate(db, args as unknown as GetProvisionAtDateParams);
