@@ -364,9 +364,9 @@ Apache License 2.0. See [LICENSE](./LICENSE) for details.
 
 ### Data Licenses
 
-- **Statutes & Propositions:** Swedish Government (public domain)
-- **Case Law:** CC-BY Domstolsverket (via lagen.nu)
-- **EU Metadata:** EUR-Lex (EU public domain)
+- **Statutes & Decrees:** `FI-Statutory-PD` — Finnish statutory public domain. Tekijänoikeuslaki 9 § (404/1961 as amended by 608/2015) excludes laws and decrees, decisions and statements of public authorities, and authority-produced translations of these works from copyright protection. Verified verbatim 2026-05-17 — see [`docs/audits/2026-05-17-eu-copyright-statutory-works-batch-1a-AT-BE-DK-FI-FR.md`](https://github.com/Ansvar-Systems/Ansvar-Architecture-Documentation/blob/main/docs/audits/2026-05-17-eu-copyright-statutory-works-batch-1a-AT-BE-DK-FI-FR.md). Catalog entry: `FI-Statutory-PD` in `infrastructure/attribution-licenses.json`.
+- **Case Law:** Finnish court decisions — same statutory basis (Tekijänoikeuslaki 9 § public-authority-decisions clause)
+- **EU Metadata:** EUR-Lex (EU public domain, Decision 2011/833/EU)
 
 ---
 
