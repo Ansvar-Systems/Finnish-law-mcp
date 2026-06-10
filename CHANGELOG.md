@@ -1,9 +1,32 @@
 # Changelog
 
-All notable changes to the Swedish Law MCP Server will be documented in this file.
+All notable changes to the Finnish Law MCP Server will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+---
+
+## [Unreleased] - Corpus version-pin repair (issue #78)
+
+### Fixed
+- **Whole-corpus staleness:** all 2,053 statute seeds had been acquired from the
+  ORIGINAL as-enacted expression (`act/statute/{y}/{n}/fin@`, ELI `alkup`).
+  Acquisition now fetches the current consolidation
+  (`act/statute-consolidated/{y}/{n}/fin@latest`, ELI `ajantasa`) and falls back
+  to the original only on a definitive consolidated 404 (stamped + enumerated).
+- `check-updates` was structurally blind to amendments (it paged the original
+  statute list, whose entries never change on amendment); it now compares newest
+  consolidation version tokens against seed stamps.
+
+### Added
+- `_ingest` version-identity stamp in every seed (expression URI,
+  `consolidation_version`, `dateConsolidated`, ELI, per-language versions).
+- `npm run ingest:refresh` / `ingest:bulk --refresh --seeds-only` — version-keyed
+  refresh with unconditional self-heal for unstamped seeds, no corpus expansion.
+- Per-provision `metadata.amended_by` (from `finlex:originalVersionLabel`).
+- Transient≠gone HTTP discipline (5xx/429/network retry then THROW; 404 is a
+  finding) and a ≥2s politeness floor on all Finlex requests.
 
 ---
 
