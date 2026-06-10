@@ -57,6 +57,12 @@ interface CLIOptions {
   resume: boolean;
   /** Version-keyed refresh of existing seeds (overrides --resume skipping). */
   refresh: boolean;
+  /**
+   * Candidates from data/seed/*.json instead of the remote catalogue list.
+   * A refresh sweep must walk the EXISTING corpus — list-driven candidates
+   * would silently expand it with every statute Finlex lists.
+   */
+  seedsOnly: boolean;
   refreshList: boolean;
   cacheOnly: boolean;
 }
@@ -172,6 +178,7 @@ function parseArgs(argv: string[]): CLIOptions {
     maxPages: 5000,
     resume: false,
     refresh: false,
+    seedsOnly: false,
     refreshList: false,
     cacheOnly: false,
   };
@@ -183,6 +190,8 @@ function parseArgs(argv: string[]): CLIOptions {
       options.resume = true;
     } else if (arg === '--refresh') {
       options.refresh = true;
+    } else if (arg === '--seeds-only') {
+      options.seedsOnly = true;
     } else if (arg === '--refresh-list') {
       options.refreshList = true;
     } else if (arg === '--cache-only') {
@@ -213,6 +222,8 @@ function parseArgs(argv: string[]): CLIOptions {
       console.log('  --resume             Skip statutes whose seed files already exist');
       console.log('  --refresh            Version-keyed refresh: refetch seeds whose stamped');
       console.log('                       consolidation is older than upstream; self-heal unstamped seeds');
+      console.log('  --seeds-only         Walk existing data/seed/*.json instead of the remote');
+      console.log('                       catalogue (no corpus expansion)');
       console.log('  --refresh-list       Force refresh list from Finlex API');
       console.log('  --cache-only         Use cached list only (no network calls)');
       console.log('  --max-pages <N>      Safety cap for paginated list loading');
@@ -405,6 +416,61 @@ function outputPathFor(candidate: StatuteCandidate): string {
   return path.resolve(SEED_DIR, `${candidate.canonical_number}_${candidate.year}.json`);
 }
 
+const NON_STATUTE_SEEDS = new Set(['eu-references.json']);
+
+/**
+ * Candidates from the existing seed corpus (--seeds-only). The fetch number
+ * token (which may carry a historical version suffix, e.g. '39-001') is
+ * recovered from the seed's stored expression URL when present.
+ */
+export function deriveSeedCandidates(seedDir: string): StatuteCandidate[] {
+  const candidates: StatuteCandidate[] = [];
+
+  for (const file of fs.readdirSync(seedDir)) {
+    if (!file.endsWith('.json') || file.startsWith('_') || NON_STATUTE_SEEDS.has(file)) continue;
+    const match = file.match(/^(\d+)_(\d{4})\.json$/u);
+    if (!match) continue;
+
+    const canonicalNumber = normalizeCanonicalNumberToken(match[1]);
+    const year = match[2];
+
+    let numberToken = canonicalNumber;
+    let sourceUri = '';
+    try {
+      const seed = JSON.parse(fs.readFileSync(path.join(seedDir, file), 'utf-8')) as {
+        url?: string;
+      };
+      const tokenMatch = (seed.url ?? '').match(
+        /\/act\/(?:statute|statute-consolidated)\/\d{4}\/([^/]+)\/[a-z]{3}@/u
+      );
+      if (tokenMatch) {
+        numberToken = tokenMatch[1];
+        sourceUri = seed.url ?? '';
+      }
+    } catch {
+      // Unreadable seed: keep the filename-derived token; the refresh run
+      // will rewrite the seed anyway (refetch_unknown).
+    }
+
+    candidates.push({
+      canonical_id: `${canonicalNumber}/${year}`,
+      canonical_number: canonicalNumber,
+      year,
+      number_token: numberToken,
+      version: parseVersion(numberToken),
+      source_uri: sourceUri,
+    });
+  }
+
+  candidates.sort((a, b) => {
+    const yearDiff = Number(a.year) - Number(b.year);
+    if (yearDiff !== 0) return yearDiff;
+    return Number(a.canonical_number) - Number(b.canonical_number);
+  });
+
+  return candidates;
+}
+
 function writeManifest(candidates: StatuteCandidate[]): void {
   const manifest = {
     generated_at: new Date().toISOString(),
@@ -432,21 +498,37 @@ export async function ingestFinlexBulk(argv: string[] = process.argv.slice(2)): 
   console.log(`  limit:    ${options.limit ?? 'none'}`);
   console.log(`  resume:   ${options.resume ? 'yes' : 'no'}`);
   console.log(`  refresh:  ${options.refresh ? 'yes (version-keyed)' : 'no'}`);
+  console.log(`  scope:    ${options.seedsOnly ? 'existing seeds (--seeds-only)' : 'remote catalogue list'}`);
   console.log('');
 
-  const entries = await loadListEntries(options);
-  const allCandidates = selectCandidates(entries);
-  const selected = selectCandidates(entries, options.limit);
+  let allCandidates: StatuteCandidate[];
+  let selected: StatuteCandidate[];
+  let listEntryCount = 0;
+
+  if (options.seedsOnly) {
+    allCandidates = deriveSeedCandidates(SEED_DIR);
+    if (allCandidates.length === 0) {
+      throw new Error(`--seeds-only: no statute seeds found under ${SEED_DIR}`);
+    }
+    selected = options.limit !== undefined ? allCandidates.slice(0, options.limit) : allCandidates;
+  } else {
+    const entries = await loadListEntries(options);
+    listEntryCount = entries.length;
+    allCandidates = selectCandidates(entries);
+    selected = selectCandidates(entries, options.limit);
+  }
 
   fs.mkdirSync(SEED_DIR, { recursive: true });
   fs.mkdirSync(path.dirname(REPORT_PATH), { recursive: true });
-  writeManifest(selected);
+  if (!options.seedsOnly) {
+    writeManifest(selected);
+  }
 
   const report: IngestionReport = {
     started_at: startedAt,
     finished_at: startedAt,
     options,
-    list_entries: entries.length,
+    list_entries: listEntryCount,
     unique_candidates: allCandidates.length,
     selected_candidates: selected.length,
     ingested: 0,
@@ -458,7 +540,7 @@ export async function ingestFinlexBulk(argv: string[] = process.argv.slice(2)): 
     failures: [],
   };
 
-  console.log(`List entries loaded:      ${entries.length}`);
+  console.log(`List entries loaded:      ${listEntryCount}`);
   console.log(`Unique statute candidates: ${allCandidates.length}`);
   console.log(`Selected for ingestion:    ${selected.length}`);
   console.log('');
