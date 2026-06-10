@@ -19,9 +19,14 @@ sources:
     canonical_identifier: 'Statute number (e.g., 1050/2018)'
     retrieval_method: 'API'
     api_documentation: 'https://finlex.fi/fi/api/'
+    # Version discipline (issue #78): statutes are acquired from the CURRENT
+    # consolidation (akn/fi/act/statute-consolidated/{y}/{n}/fin@latest, ELI
+    # ajantasa) and version-stamped in each seed (`_ingest`). The original
+    # as-enacted expression (act/statute/.../fin@, ELI alkup) is used only on
+    # a definitive consolidated 404. Refresh sweep: `npm run ingest:refresh`.
     update_frequency: 'daily'
-    last_ingested: '2026-02-14'
-    last_verified: '2026-05-09'
+    last_ingested: '2026-06-10'
+    last_verified: '2026-06-10'
     license_or_terms:
       type: 'FI-Statutory-PD'
       url: 'https://finlex.fi/fi/lainsaadanto/1961/404'
@@ -55,4 +60,24 @@ sources:
 data_freshness:
   automated_checks: true
   check_frequency: 'daily'
-  last_verified: '2026-02-15'
+  last_verified: '2026-06-10'
+
+# Fix-Sweep rebuild contract (chassis corpus freshness automation).
+# Schema: Ansvar-Architecture-Documentation/infrastructure/policy/rebuild-contract.schema.json
+# Runbook: Ansvar-Architecture-Documentation/docs/runbooks/fix-sweep.md
+# Supersedes the 2026-06-10 fan-out's runnable:false draft (unpushed commit
+# 55d28cd on feat/2026-06-10-rebuild-contract): the "corrupted seed data" that
+# blocked that declaration was uncommitted chassis-migration WIP in the working
+# tree, not the committed corpus. On this branch the committed seeds build.
+rebuild_contract:
+  schema_version: '1.0'
+  runnable: true
+  ingest_cmd: 'npm run ingest:refresh'
+  build_cmd: 'npm run build:db'
+  build_cwd: '.'
+  premium_build_cmd: 'npm run build:db:paid'
+  output_db: 'data/database.db'
+  schema_kind: 'statute'
+  drift_cmd: 'npm run drift:detect'
+  golden_hashes: 'fixtures/golden-hashes.json'
+  node_version: '22'

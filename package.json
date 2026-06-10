@@ -22,6 +22,7 @@
     "test:coverage": "vitest run --coverage",
     "ingest": "node --import tsx scripts/ingest-finlex.ts",
     "ingest:bulk": "node --import tsx scripts/ingest-finlex-bulk.ts",
+    "ingest:refresh": "node --import tsx scripts/ingest-finlex-bulk.ts --refresh",
     "ingest:current": "node --import tsx scripts/ingest-finlex-current.ts",
     "ingest:cases": "node --import tsx scripts/ingest-lagennu-cases.ts",
     "ingest:cases:full-archive": "node --import tsx scripts/ingest-lagennu-full-archive.ts",

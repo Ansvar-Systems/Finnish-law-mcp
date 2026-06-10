@@ -5,6 +5,13 @@
  * Fetches Finnish statutes from Finlex open data (Akoma Ntoso XML) and converts
  * them to seed JSON format for reproducible `build:db` runs.
  *
+ * Version discipline (issue #78): the acquisition fetches the CURRENT
+ * consolidation (act/statute-consolidated/{y}/{n}/{lang}@latest, ELI ajantasa)
+ * and stamps the seed with the version identity (`_ingest`). The original
+ * as-enacted expression (act/statute/{y}/{n}/{lang}@, ELI alkup) is used only
+ * when upstream answers a definitive 404 for the consolidated document — and
+ * that, too, is stamped. See scripts/lib/finlex-version.ts for the semantics.
+ *
  * Usage:
  *   npm run ingest -- <statute-id> [output-path]
  *
@@ -16,13 +23,26 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { pathToFileURL } from 'url';
-import { execFileSync } from 'child_process';
 import { XMLParser } from 'fast-xml-parser';
 import { foldNordicText, normalizeLegalText } from '../src/utils/legal-normalization.js';
+import {
+  fetchWithRetry,
+  politeDelay,
+  FINLEX_REQUEST_DELAY_MS,
+  FINLEX_USER_AGENT,
+} from './lib/finlex-http.js';
+import {
+  FINLEX_API_BASE,
+  parseVersionIdentity,
+  assertCurrentConsolidation,
+  buildIngestStamp,
+  decideRewrite,
+  type FetchDecision,
+  type FinlexDocType,
+  type IngestStamp,
+  type VersionIdentity,
+} from './lib/finlex-version.js';
 
-const FINLEX_BASE = 'https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute';
-const USER_AGENT = 'Finnish-Law-MCP/1.2.2 (https://github.com/Ansvar-Systems/finnish-law-mcp)';
-const REQUEST_DELAY_MS = 250;
 const SCRIPT_DIR = path.dirname(new URL(import.meta.url).pathname);
 const SOURCE_CACHE_DIR = path.resolve(SCRIPT_DIR, '../data/source/finlex');
 
@@ -41,6 +61,8 @@ interface DocumentSeed {
   provision_versions?: ProvisionVersionSeed[];
   definitions?: DefinitionSeed[];
   preparatory_works?: PrepWorkSeed[];
+  /** Version identity of the upstream expression this seed was built from (issue #78). */
+  _ingest?: IngestStamp;
 }
 
 interface ProvisionSeed {
@@ -75,6 +97,8 @@ interface FinlexProvision {
   section: string;
   title?: string;
   content: string;
+  /** Amending statute label from finlex:originalVersionLabel, e.g. '27.11.2020/902'. */
+  amendedBy?: string;
 }
 
 interface ParsedStatute {
@@ -96,6 +120,37 @@ export interface IngestFinlexOptions {
    * Optional override for canonical statute id written to seed file.
    */
   canonicalStatuteId?: string;
+  /** Injectable fetch (tests). Defaults to global fetch. */
+  fetchImpl?: typeof fetch;
+  /** Politeness delay between Finlex requests. Defaults to FINLEX_REQUEST_DELAY_MS (2s). */
+  delayMs?: number;
+  /** Source XML cache directory. Defaults to data/source/finlex. */
+  cacheDir?: string;
+  /** Retry backoff override (tests). */
+  retryBackoffMs?: number[];
+  /**
+   * Consolidation version stamped on the existing seed (`_ingest.consolidation_version`),
+   * passed by refresh callers. When the fetched version equals it, the seed is
+   * NOT rewritten (decision 'skip_current').
+   */
+  existingStampedVersion?: string | null;
+}
+
+export type SwedishOutcome =
+  | 'consolidated'
+  | 'original'
+  | 'omitted_not_available'
+  | 'omitted_version_mismatch'
+  /** Seed already current — the Swedish expression was never requested. */
+  | 'not_fetched';
+
+export interface IngestOutcome {
+  decision: FetchDecision;
+  written: boolean;
+  /** True when upstream has no consolidated document (definitive 404) and the as-enacted original was used. */
+  consolidationAbsent: boolean;
+  identity: VersionIdentity;
+  swedish: SwedishOutcome;
 }
 
 const SHORT_NAME_BY_ID: Record<string, string> = {
@@ -104,10 +159,6 @@ const SHORT_NAME_BY_ID: Record<string, string> = {
   '434/2003': 'Hallintolaki',
   '39/1889': 'Rikoslaki',
 };
-
-function delay(ms: number): Promise<void> {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
 
 function asArray<T>(value: T | T[] | undefined): T[] {
   if (value === undefined || value === null) return [];
@@ -302,12 +353,17 @@ function extractProvisions(node: unknown, inheritedChapter: string | undefined, 
     const content = normalizeProvisionContent(contentParts.join('\n'));
     if (!content) continue;
 
+    const amendedBy = typeof sectionNode['@_finlex:originalVersionLabel'] === 'string'
+      ? (sectionNode['@_finlex:originalVersionLabel'] as string)
+      : undefined;
+
     out.push({
       eId,
       chapter: inheritedChapter,
       section,
       title,
       content,
+      amendedBy,
     });
   }
 
@@ -317,64 +373,73 @@ function extractProvisions(node: unknown, inheritedChapter: string | undefined, 
   }
 }
 
-async function fetchXml(year: string, number: string, lang: 'fin' | 'swe'): Promise<string | null> {
-  const cachePath = path.join(SOURCE_CACHE_DIR, `${year}_${number}_${lang}.xml`);
-  if (fs.existsSync(cachePath)) {
-    return fs.readFileSync(cachePath, 'utf-8');
-  }
-
-  const url = `${FINLEX_BASE}/${year}/${number}/${lang}@`;
-  const maxAttempts = 4;
-
-  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
-    try {
-      const raw = execFileSync(
-        'curl',
-        [
-          '-sS',
-          '-L',
-          '-A',
-          USER_AGENT,
-          '-H',
-          'Accept: application/xml,text/xml',
-          '-w',
-          '\n%{http_code}',
-          url,
-        ],
-        { encoding: 'utf-8' }
-      );
-
-      const splitAt = raw.lastIndexOf('\n');
-      if (splitAt === -1) {
-        throw new Error(`Unexpected curl response for ${url}`);
-      }
-
-      const body = raw.slice(0, splitAt);
-      const statusCode = Number(raw.slice(splitAt + 1).trim());
-
-      if (statusCode === 404) {
-        return null;
-      }
-      if (!Number.isFinite(statusCode) || statusCode >= 400) {
-        throw new Error(`HTTP ${statusCode} for ${url}`);
-      }
-
-      fs.mkdirSync(SOURCE_CACHE_DIR, { recursive: true });
-      fs.writeFileSync(cachePath, body, 'utf-8');
-
-      return body;
-    } catch (error) {
-      if (attempt === maxAttempts) {
-        throw error;
-      }
-      await delay(REQUEST_DELAY_MS * attempt);
-    }
-  }
-
-  return null;
+interface FetchExpressionOptions {
+  fetchImpl?: typeof fetch;
+  cacheDir: string;
+  retryBackoffMs?: number[];
 }
 
-function parseFinlexXml(xml: string, fallbackId: string): ParsedStatute {
+/**
+ * Fetch one AKN expression. Returns null ONLY on a definitive upstream 404;
+ * transient failures (5xx/429/network) retry inside fetchWithRetry and then
+ * THROW — they are never reported as "gone".
+ *
+ * Cache policy: original (as-enacted) expressions are immutable, so the
+ * version-blind cache file may be read back. Consolidated expressions are
+ * NEVER read from cache — a version-blind cache read is exactly the
+ * stale-version pin this module exists to remove. Fetched consolidated XML is
+ * written to a version-keyed file as a forensic copy only.
+ */
+async function fetchExpression(
+  docType: FinlexDocType,
+  year: string,
+  number: string,
+  lang: 'fin' | 'swe',
+  version: 'latest' | '',
+  opts: FetchExpressionOptions
+): Promise<string | null> {
+  const originalCachePath = path.join(opts.cacheDir, `${year}_${number}_${lang}.xml`);
+  if (docType === 'statute' && fs.existsSync(originalCachePath)) {
+    return fs.readFileSync(originalCachePath, 'utf-8');
+  }
+
+  const url = `${FINLEX_API_BASE}/${docType}/${year}/${number}/${lang}@${version}`;
+  const res = await fetchWithRetry(url, {
+    fetchImpl: opts.fetchImpl,
+    backoffMs: opts.retryBackoffMs,
+    headers: {
+      'User-Agent': FINLEX_USER_AGENT,
+      Accept: 'application/xml,text/xml',
+    },
+  });
+
+  if (res.status === 404) {
+    return null;
+  }
+  if (!res.ok) {
+    // fetchWithRetry only returns non-retryable 4xx here; anything but 404 is
+    // a contract violation worth failing loud on.
+    throw new Error(`HTTP ${res.status} for ${url}`);
+  }
+
+  const body = await res.text();
+  fs.mkdirSync(opts.cacheDir, { recursive: true });
+  if (docType === 'statute') {
+    fs.writeFileSync(originalCachePath, body, 'utf-8');
+  } else {
+    const identity = parseVersionIdentity(body);
+    const versionKey = identity.version_number ?? 'unversioned';
+    fs.writeFileSync(
+      path.join(opts.cacheDir, `${year}_${number}_${lang}@${versionKey}.consolidated.xml`),
+      body,
+      'utf-8'
+    );
+  }
+
+  return body;
+}
+
+export function parseFinlexXml(xml: string, fallbackId: string): ParsedStatute {
   const parser = new XMLParser({
     ignoreAttributes: false,
     attributeNamePrefix: '@_',
@@ -429,7 +494,7 @@ export async function ingestFinlexStatute(
   statuteId: string,
   outputPath?: string,
   options: IngestFinlexOptions = {}
-): Promise<void> {
+): Promise<IngestOutcome> {
   const { number, year } = parseStatuteId(statuteId);
   const canonicalNumber = normalizeCanonicalNumberToken(number);
   const canonicalId = options.canonicalStatuteId
@@ -439,6 +504,12 @@ export async function ingestFinlexStatute(
   const targetPath = outputPath
     ? path.resolve(outputPath)
     : path.resolve(SCRIPT_DIR, `../data/seed/${canonicalNumber}_${year}.json`);
+  const delayMs = options.delayMs ?? FINLEX_REQUEST_DELAY_MS;
+  const fetchOpts: FetchExpressionOptions = {
+    fetchImpl: options.fetchImpl,
+    cacheDir: options.cacheDir ?? SOURCE_CACHE_DIR,
+    retryBackoffMs: options.retryBackoffMs,
+  };
 
   console.log('Finlex Data Ingestion');
   console.log(`  Statute: ${canonicalId}`);
@@ -448,19 +519,77 @@ export async function ingestFinlexStatute(
   console.log(`  Output:  ${targetPath}`);
   console.log('');
 
-  const finXml = await fetchXml(year, fetchNumberToken, 'fin');
+  // 1. Acquire Finnish text: newest consolidation first; the as-enacted
+  //    original ONLY on a definitive consolidated 404 (no consolidation
+  //    published — e.g. brand-new statutes). Both outcomes are stamped.
+  let consolidationAbsent = false;
+  let finXml = await fetchExpression('statute-consolidated', year, fetchNumberToken, 'fin', 'latest', fetchOpts);
 
-  if (!finXml) {
-    throw new Error(`Could not fetch Finnish text for ${canonicalId} from Finlex.`);
+  if (finXml === null) {
+    consolidationAbsent = true;
+    console.log(`  No consolidated document for ${canonicalId} (404) — acquiring as-enacted original.`);
+    await politeDelay(delayMs);
+    finXml = await fetchExpression('statute', year, fetchNumberToken, 'fin', '', fetchOpts);
   }
 
+  if (finXml === null) {
+    throw new Error(
+      `Statute ${canonicalId} not found upstream: 404 for both statute-consolidated and statute expressions.`
+    );
+  }
+
+  const finIdentity = parseVersionIdentity(finXml);
+  if (!consolidationAbsent) {
+    assertCurrentConsolidation(finIdentity);
+  }
+
+  // Refresh short-circuit: when the stamped version PROVES the seed already
+  // holds this consolidation, keep the file untouched (no git churn).
+  const decision = decideRewrite({
+    stampedVersion: options.existingStampedVersion ?? null,
+    fetchedVersion: finIdentity.version_number,
+  });
+  if (decision === 'skip_current' && fs.existsSync(targetPath)) {
+    console.log(`  Seed already at consolidation ${finIdentity.version_number} — skipping rewrite.`);
+    return {
+      decision,
+      written: false,
+      consolidationAbsent,
+      identity: finIdentity,
+      swedish: 'not_fetched',
+    };
+  }
+
+  // 2. Acquire Swedish text at the SAME version discipline. A Swedish
+  //    consolidation at a different version is omitted (loudly) rather than
+  //    silently paired with Finnish text from another point in time.
   let sweXml: string | null = null;
-  try {
-    await delay(REQUEST_DELAY_MS);
-    sweXml = await fetchXml(year, fetchNumberToken, 'swe');
-  } catch (error) {
-    const message = error instanceof Error ? error.message : String(error);
-    console.warn(`  Warning: Swedish version fetch failed for ${canonicalId}: ${message}`);
+  let sweIdentity: VersionIdentity | null = null;
+  let swedish: SwedishOutcome = 'omitted_not_available';
+
+  await politeDelay(delayMs);
+  if (consolidationAbsent) {
+    sweXml = await fetchExpression('statute', year, fetchNumberToken, 'swe', '', fetchOpts);
+    if (sweXml !== null) {
+      sweIdentity = parseVersionIdentity(sweXml);
+      swedish = 'original';
+    }
+  } else {
+    sweXml = await fetchExpression('statute-consolidated', year, fetchNumberToken, 'swe', 'latest', fetchOpts);
+    if (sweXml !== null) {
+      sweIdentity = parseVersionIdentity(sweXml);
+      if (sweIdentity.version_number !== finIdentity.version_number) {
+        console.warn(
+          `  Warning: Swedish consolidation ${sweIdentity.version_number ?? 'unversioned'} != ` +
+            `Finnish ${finIdentity.version_number ?? 'unversioned'} for ${canonicalId} — omitting Swedish text.`
+        );
+        sweXml = null;
+        sweIdentity = null;
+        swedish = 'omitted_version_mismatch';
+      } else {
+        swedish = 'consolidated';
+      }
+    }
   }
 
   const fiParsed = parseFinlexXml(finXml, canonicalId);
@@ -483,6 +612,10 @@ export async function ingestFinlexStatute(
       folded_fi: foldNordicText(provision.content),
     };
 
+    if (provision.amendedBy) {
+      metadata.amended_by = provision.amendedBy;
+    }
+
     if (sv) {
       metadata.title_sv = sv.title;
       metadata.content_sv = sv.content;
@@ -504,6 +637,11 @@ export async function ingestFinlexStatute(
   const preparatoryWorks = extractPreparatoryWorksFromContent(provisions);
   const normalizedParsedId = normalizeCanonicalStatuteId(fiParsed.id);
 
+  const languages: Record<string, VersionIdentity> = { fin: finIdentity };
+  if (sweIdentity) {
+    languages.swe = sweIdentity;
+  }
+
   const seed: DocumentSeed = {
     id: normalizedParsedId || canonicalId,
     type: 'statute',
@@ -513,7 +651,8 @@ export async function ingestFinlexStatute(
     status: 'in_force',
     issued_date: fiParsed.issuedDate,
     in_force_date: fiParsed.issuedDate,
-    url: `${FINLEX_BASE}/${year}/${fetchNumberToken}/fin@`,
+    // Version-pinned expression URL — never the ambiguous-version form.
+    url: `https://opendata.finlex.fi/finlex/avoindata/v1${finIdentity.expression_uri}`,
     description: `Ingested from Finlex open data (${fiParsed.category ?? 'statute'})`,
     provisions,
     provision_versions: provisions.map(p => ({
@@ -523,16 +662,53 @@ export async function ingestFinlexStatute(
     })),
     definitions: definitions.length > 0 ? definitions : undefined,
     preparatory_works: preparatoryWorks.length > 0 ? preparatoryWorks : undefined,
+    _ingest: buildIngestStamp({
+      now: new Date().toISOString(),
+      primary: finIdentity,
+      languages,
+    }),
   };
 
-  fs.mkdirSync(path.dirname(targetPath), { recursive: true });
-  fs.writeFileSync(targetPath, JSON.stringify(seed, null, 2), 'utf-8');
+  // Churn guard: when a refresh re-derives a byte-identical seed (everything
+  // but the retrieval timestamp), keep the existing file untouched.
+  const written = writeSeedUnlessUnchanged(targetPath, seed);
 
+  console.log(`  Source expression:      ${finIdentity.expression_uri}`);
+  console.log(`  Consolidation version:  ${finIdentity.version_number ?? 'none (as-enacted original)'}`);
+  console.log(`  Swedish text:           ${swedish}`);
   console.log(`  Parsed provisions (FI): ${fiParsed.provisions.length}`);
   console.log(`  Parsed provisions (SV): ${svParsed?.provisions.length ?? 0}`);
   console.log(`  Definitions extracted:  ${definitions.length}`);
   console.log(`  Preparatory refs:       ${preparatoryWorks.length}`);
-  console.log(`\n✅ Wrote seed file: ${targetPath}`);
+  console.log(written ? `\n✅ Wrote seed file: ${targetPath}` : `\n✅ Seed unchanged: ${targetPath}`);
+
+  return { decision, written, consolidationAbsent, identity: finIdentity, swedish };
+}
+
+/** Serialize without the volatile retrieval timestamp, for change detection. */
+function canonicalSeedJson(seed: unknown): string {
+  const clone = JSON.parse(JSON.stringify(seed)) as Record<string, unknown>;
+  const ingest = clone._ingest as Record<string, unknown> | undefined;
+  if (ingest) {
+    delete ingest.retrieved_at;
+  }
+  return JSON.stringify(clone);
+}
+
+function writeSeedUnlessUnchanged(targetPath: string, seed: DocumentSeed): boolean {
+  if (fs.existsSync(targetPath)) {
+    try {
+      const existing = JSON.parse(fs.readFileSync(targetPath, 'utf-8')) as unknown;
+      if (canonicalSeedJson(existing) === canonicalSeedJson(seed)) {
+        return false;
+      }
+    } catch {
+      // Unreadable/corrupt existing seed: overwrite it.
+    }
+  }
+  fs.mkdirSync(path.dirname(targetPath), { recursive: true });
+  fs.writeFileSync(targetPath, JSON.stringify(seed, null, 2), 'utf-8');
+  return true;
 }
 
 async function main(): Promise<void> {
