@@ -19,11 +19,11 @@
 
 import Database from 'better-sqlite3';
 import * as path from 'path';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 import * as fs from 'fs';
 import { execFileSync } from 'child_process';
 import { FINLEX_REQUEST_DELAY_MS, FINLEX_USER_AGENT } from './lib/finlex-http.js';
-import { compareVersionNumbers, stampedVersionOf } from './lib/finlex-version.js';
+import { compareVersionNumbers, seedStampInfoOf, type SeedStampInfo } from './lib/finlex-version.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -84,12 +84,16 @@ function yearFromStatuteId(id: string): string | null {
   return null;
 }
 
-/** Parse '/act/statute-consolidated/{year}/{number}/fin@{version}' into id + version token. */
-function parseConsolidatedAknUri(uri: string | undefined): { id: string; version: string } | null {
+/** Parse '/act/statute-consolidated/{year}/{number}/{lang}@{version}' into id + lang + version token. */
+function parseConsolidatedAknUri(
+  uri: string | undefined
+): { id: string; lang: string; version: string } | null {
   if (!uri) return null;
-  const match = uri.match(/\/act\/statute-consolidated\/(\d{4})\/(\d+)(?:-\d+)?\/fin@([0-9a-zA-Z]*)$/u);
+  const match = uri.match(
+    /\/act\/statute-consolidated\/(\d{4})\/(\d+)(?:-\d+)?\/([a-z]{3})@([0-9a-zA-Z]*)$/u
+  );
   if (!match) return null;
-  return { id: `${match[2]}/${match[1]}`, version: match[3] };
+  return { id: `${match[2]}/${match[1]}`, lang: match[3], version: match[4] };
 }
 
 function newerVersion(current: string | undefined, incoming: string): string {
@@ -101,9 +105,73 @@ function newerVersion(current: string | undefined, incoming: string): string {
   return compareVersionNumbers(incoming, current) > 0 ? incoming : current;
 }
 
+export interface ListShapeStats {
+  entriesSeen: number;
+  finCount: number;
+  otherLanguageCount: number;
+  unrecognized: string[];
+}
+
+/**
+ * Fold one page of consolidated-list entries into the versions map, counting
+ * exactly what was seen. Entries that match no recognized shape are RECORDED,
+ * never silently dropped — if the upstream URI shape drifts, the run must
+ * fail loud instead of reporting "0 statutes, everything current".
+ */
+export function collectNewestVersions(
+  entries: RemoteEntry[],
+  versions: Map<string, string>
+): ListShapeStats {
+  const stats: ListShapeStats = {
+    entriesSeen: entries.length,
+    finCount: 0,
+    otherLanguageCount: 0,
+    unrecognized: [],
+  };
+  for (const entry of entries) {
+    const parsed = parseConsolidatedAknUri(entry.akn_uri);
+    if (!parsed) {
+      stats.unrecognized.push(entry.akn_uri ?? '(no akn_uri)');
+      continue;
+    }
+    if (parsed.lang !== 'fin') {
+      stats.otherLanguageCount += 1; // Swedish twins are expected, not drift
+      continue;
+    }
+    stats.finCount += 1;
+    versions.set(parsed.id, newerVersion(versions.get(parsed.id), parsed.version));
+  }
+  return stats;
+}
+
+/** Fail loud on list shape drift: unrecognized entries or an all-entries-unparseable page set. */
+export function assertListShape(stats: ListShapeStats, context: string): void {
+  if (stats.unrecognized.length > 0) {
+    const sample = stats.unrecognized.slice(0, 5).join(', ');
+    throw new Error(
+      `${context}: ${stats.unrecognized.length} unrecognized consolidated-list entr(ies) — upstream URI ` +
+        `shape drift, refusing to report freshness from a partial parse (sample: ${sample})`
+    );
+  }
+  if (stats.entriesSeen > 0 && stats.finCount === 0) {
+    throw new Error(
+      `${context}: ${stats.entriesSeen} list entries but NONE parsed as a fin@ consolidated URI — ` +
+        'shape drift, refusing to conclude "no consolidated works upstream"'
+    );
+  }
+}
+
+function mergeStats(into: ListShapeStats, page: ListShapeStats): void {
+  into.entriesSeen += page.entriesSeen;
+  into.finCount += page.finCount;
+  into.otherLanguageCount += page.otherLanguageCount;
+  into.unrecognized.push(...page.unrecognized);
+}
+
 /** Newest consolidation version token per statute id, for one work year. */
 async function fetchNewestVersionsForYear(year: string): Promise<Map<string, string>> {
   const versions = new Map<string, string>();
+  const yearStats: ListShapeStats = { entriesSeen: 0, finCount: 0, otherLanguageCount: 0, unrecognized: [] };
 
   for (let page = 1; page <= MAX_PAGES_PER_YEAR; page++) {
     const params = new URLSearchParams({
@@ -149,11 +217,7 @@ async function fetchNewestVersionsForYear(year: string): Promise<Map<string, str
       break;
     }
 
-    for (const entry of entries) {
-      const parsed = parseConsolidatedAknUri(entry.akn_uri);
-      if (!parsed) continue;
-      versions.set(parsed.id, newerVersion(versions.get(parsed.id), parsed.version));
-    }
+    mergeStats(yearStats, collectNewestVersions(entries, versions));
 
     if (entries.length < PAGE_LIMIT) {
       break;
@@ -166,18 +230,104 @@ async function fetchNewestVersionsForYear(year: string): Promise<Map<string, str
     await delay(REQUEST_DELAY_MS);
   }
 
+  assertListShape(yearStats, `year ${year}`);
   return versions;
 }
 
-function stampFor(statuteId: string): string | null {
+function stampInfoFor(statuteId: string): SeedStampInfo | null {
   const safe = toFinnishStatuteId(statuteId).replace('/', '_');
   const seedPath = path.join(SEED_DIR, `${safe}.json`);
   if (!fs.existsSync(seedPath)) return null;
   try {
-    return stampedVersionOf(JSON.parse(fs.readFileSync(seedPath, 'utf-8')));
+    return seedStampInfoOf(JSON.parse(fs.readFileSync(seedPath, 'utf-8')));
   } catch {
     return null;
   }
+}
+
+const VERSION_TOKEN_RE = /^\d{8}$/u;
+
+export interface FreshnessVerdict {
+  has_update: boolean;
+  stamped_version: string | null;
+  error?: string;
+}
+
+/**
+ * Classify one seed's freshness from its full stamp identity vs the newest
+ * upstream consolidation version (null = absent from the consolidated list).
+ *
+ * The load-bearing distinctions (PR #79 round-2):
+ *  - stamped AS-ENACTED (doc_type 'statute', consolidation_version null) is
+ *    NOT "unstamped": the stamp PROVES the as-enacted expression is the
+ *    current text when no consolidated work exists upstream.
+ *  - a consolidation APPEARING upstream makes an as-enacted seed stale.
+ *  - a stamped-CONSOLIDATED seed missing from the consolidated list is an
+ *    anomaly to surface, never silently "up to date".
+ */
+export function classifySeedFreshness(
+  stamp: SeedStampInfo | null,
+  remote: string | null
+): FreshnessVerdict {
+  if (!stamp || stamp.doc_type === null) {
+    return {
+      has_update: true,
+      stamped_version: null,
+      error: 'No ingest stamp — freshness unprovable, re-ingest (self-heal)',
+    };
+  }
+
+  const remoteValid = remote !== null && VERSION_TOKEN_RE.test(remote);
+
+  // The version that proves which consolidation the seed reflects: for
+  // contentAbsent fallbacks that is the stamped SHELL version.
+  const effectiveVersion = stamp.consolidation_version ?? stamp.content_absent_version;
+
+  if (effectiveVersion === null) {
+    // Stamped as-enacted: the legitimate consolidated-404 cohort.
+    if (stamp.doc_type !== 'statute') {
+      return {
+        has_update: true,
+        stamped_version: null,
+        error: 'Consolidated stamp without a version token — unprovable, re-ingest (self-heal)',
+      };
+    }
+    if (remoteValid) {
+      return {
+        has_update: true,
+        stamped_version: null,
+        error: `Consolidation ${remote} appeared upstream — as-enacted seed is stale, re-ingest`,
+      };
+    }
+    // No consolidated work upstream: the stamped as-enacted original IS the
+    // current text. Proven, not assumed.
+    return { has_update: false, stamped_version: null };
+  }
+
+  if (!VERSION_TOKEN_RE.test(effectiveVersion)) {
+    return {
+      has_update: true,
+      stamped_version: effectiveVersion,
+      error: `Unparseable stamped version "${effectiveVersion}" — unprovable, re-ingest (self-heal)`,
+    };
+  }
+
+  if (!remoteValid) {
+    // The stamp PROVES a consolidated work existed upstream; its absence from
+    // the consolidated list is an anomaly, not a green light.
+    return {
+      has_update: true,
+      stamped_version: effectiveVersion,
+      error:
+        `Stamped consolidation ${effectiveVersion} but the statute is ABSENT from the upstream ` +
+        'consolidated list — anomaly, investigate before trusting freshness',
+    };
+  }
+
+  return {
+    has_update: compareVersionNumbers(remote as string, effectiveVersion) > 0,
+    stamped_version: effectiveVersion,
+  };
 }
 
 async function checkUpdates(): Promise<void> {
@@ -235,41 +385,17 @@ async function checkUpdates(): Promise<void> {
   const results: UpdateCheckResult[] = [];
   for (const doc of documents) {
     const finlexId = toFinnishStatuteId(doc.id);
-    const stamped = stampFor(doc.id);
+    const stamp = stampInfoFor(doc.id);
     const remote = remoteVersions.get(finlexId) ?? null;
+    const verdict = classifySeedFreshness(stamp, remote);
 
-    if (!stamped) {
-      results.push({
-        id: doc.id,
-        title: doc.title,
-        stamped_version: null,
-        remote_version: remote,
-        has_update: true,
-        error: 'No consolidation stamp — freshness unprovable, re-ingest (self-heal)',
-      });
-      continue;
-    }
-
-    if (!remote || !/^\d{8}$/u.test(remote)) {
-      // No consolidated work upstream: the as-enacted original is the current
-      // text. The stamp records which expression we hold; nothing to compare.
-      results.push({
-        id: doc.id,
-        title: doc.title,
-        stamped_version: stamped,
-        remote_version: remote,
-        has_update: false,
-      });
-      continue;
-    }
-
-    const hasUpdate = !/^\d{8}$/u.test(stamped) || compareVersionNumbers(remote, stamped) > 0;
     results.push({
       id: doc.id,
       title: doc.title,
-      stamped_version: stamped,
+      stamped_version: verdict.stamped_version,
       remote_version: remote,
-      has_update: hasUpdate,
+      has_update: verdict.has_update,
+      error: verdict.error,
     });
   }
 
@@ -277,7 +403,7 @@ async function checkUpdates(): Promise<void> {
   for (const result of results) {
     process.stdout.write(`  ${result.id} (${result.title.substring(0, 48)})... `);
     if (result.error) {
-      console.log(`needs re-ingest: ${result.error}`);
+      console.log(`needs attention: ${result.error}`);
     } else if (result.has_update) {
       console.log(`UPDATE AVAILABLE (${result.stamped_version} -> ${result.remote_version})`);
     } else {
@@ -315,7 +441,9 @@ async function checkUpdates(): Promise<void> {
   }
 }
 
-checkUpdates().catch(error => {
-  console.error('Check failed:', error instanceof Error ? error.message : String(error));
-  process.exit(1);
-});
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+  checkUpdates().catch(error => {
+    console.error('Check failed:', error instanceof Error ? error.message : String(error));
+    process.exit(1);
+  });
+}
