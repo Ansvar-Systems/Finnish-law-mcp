@@ -9,6 +9,77 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] - Corpus version-pin repair (issue #78)
 
+### Fixed (round 2 — adversarial-review findings on PR #79)
+
+- **Zero-provision gate (live damage class):** consolidated `contentAbsent`
+  shells silently overwrote seeds holding real statute text (~60 seeds hollowed
+  in the aborted first sweep; all seeds restored from git before this round).
+  A document parsing to zero provisions now NEVER becomes a seed: the
+  recognized contentAbsent shell triggers an explicit, stamped fallback to the
+  as-enacted original (`_ingest.consolidated_content_absent`); any other
+  zero-parse fails loud per-document (enumerated, non-zero exit). A last-line
+  tripwire refuses to replace a seed holding provisions with an empty one.
+- **Status is a fact, not a constant:** seeds were hardcoded `in_force` while
+  Finlex publishes `finlex:isInForce` / `dateInForceEnd` / `repealedBy` on
+  consolidated expressions (live-verified: repealed 523/1999 was being stamped
+  in force). Status now derives from lifecycle metadata, the facts are stamped
+  (`_ingest.lifecycle`, `_ingest.status_basis`), and repealed acts seed
+  `status: 'repealed'` (feeds the repealed-demotion downstream). As-enacted
+  originals carry no lifecycle metadata upstream — that cohort keeps the
+  documented default `in_force`, stamped `as_enacted_default_unverified`
+  (auditable, never disguised as a proven fact). `in_force_date` now uses
+  `dateEntryIntoForce` when published.
+- **check-updates conflations:** stamped-as-enacted (doc_type `statute`, the
+  legitimate consolidated-404 cohort, ~60% of the corpus) is no longer treated
+  as "unstamped / update-needed" (which would have made the checker exit 1
+  forever); a consolidation APPEARING upstream now flags an as-enacted seed
+  stale; a stamped-CONSOLIDATED seed absent from the upstream list is a loud
+  anomaly, not "up to date"; list entries that stop matching the URI shape are
+  counted and fail the run (no silent regex drops).
+- **404-downgrade guard:** a single unretried 404 on `fin@latest` no longer
+  silently downgrades a stamped consolidated seed to as-enacted text — the 404
+  is confirmed with a retry, and a persistent 404 for a previously-consolidated
+  statute throws a loud anomaly (enumerated in the run report).
+- **Stale-upstream guard:** an expression OLDER than the seed stamp (realistic
+  under the ~10-min `@latest` server cache) is never written back — the newer
+  seed is kept and the anomaly is enumerated (`stale_upstream` report bucket).
+- **Swedish skip-current hole:** `skip_current` now requires BOTH languages'
+  stamped versions to match upstream; seeds written with Swedish omitted are
+  re-examined each refresh until the Swedish consolidation catches up.
+- **provision_versions.valid_from** uses the consolidation date
+  (`dateConsolidated`) for consolidated text instead of claiming amended or
+  inserted provisions were valid from the original enactment date.
+- **Bare-`@` URL pinning:** single-version consolidations are served with a
+  bare-`@` FRBRuri; identities are pinned with the document's own
+  FRBRversionNumber so `seed.url` / stamps cannot re-resolve to the OLDEST
+  expression once a second consolidation appears.
+- **Body-identity check** (Dutch 976c0ef lesson): the served document's preface
+  identity must match the requested statute; mismatches throw, for both
+  languages.
+- **Atomic writes everywhere** (seeds, source cache, forensic copies, reports,
+  manifest, list cache) via tmp+rename; a corrupt as-enacted cache file now
+  self-heals (validated on read, removed, refetched) instead of poisoning every
+  later run.
+- **Forensic-copy pollution:** version-keyed consolidated XML copies moved out
+  of the git-tracked `data/source/finlex` into gitignored
+  `data/source-cache/finlex`, pruned to the newest version per statute and
+  language. The 368 copies the first sweep wrote into the tracked dir were
+  removed.
+- **Transport-outage abort:** 5 consecutive exhausted-retry transport failures
+  abort the sweep (observed live: 269 consecutive failures burned ~80 minutes
+  of retry exhaustion); HTTP 429 still aborts immediately.
+- **Durable run-stamped reports:** `reports/ingest/finlex-bulk-run-<ts>.json`
+  is flushed atomically after every statute, so a killed sweep leaves a
+  complete record; fixed-name `finlex-bulk-latest.json` remains as a
+  convenience copy.
+- **Refresh contract:** `npm run ingest:refresh` now includes `--seeds-only`
+  (a corpus refresh walks the EXISTING corpus; list-driven mode silently
+  expanded it from a stale cached catalogue).
+- **Legacy writer guard:** `auto-ingest-all-statutes.ts` and
+  `ingest-relevant-laws.ts` (Swedish-template Riksdagen leftovers writing
+  unstamped seeds into `data/seed/`) refuse to run without
+  `FORCE_LEGACY_INGEST=1`.
+
 ### Fixed
 - **Whole-corpus staleness:** all 2,053 statute seeds had been acquired from the
   ORIGINAL as-enacted expression (`act/statute/{y}/{n}/fin@`, ELI `alkup`).
