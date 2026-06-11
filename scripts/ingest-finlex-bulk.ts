@@ -29,7 +29,8 @@ import { execFileSync } from 'child_process';
 import { pathToFileURL } from 'url';
 import { ingestFinlexStatute, type IngestOutcome } from './ingest-finlex.js';
 import { FINLEX_REQUEST_DELAY_MS, FINLEX_USER_AGENT } from './lib/finlex-http.js';
-import { decideFetch, stampedVersionOf } from './lib/finlex-version.js';
+import { decideFetch, stampedLanguageVersionsOf, stampedVersionOf } from './lib/finlex-version.js';
+import { writeFileAtomicSync } from './lib/fs-atomic.js';
 
 const FINLEX_LIST_URL = 'https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute/list';
 const USER_AGENT = FINLEX_USER_AGENT;
@@ -40,10 +41,37 @@ const LIST_CACHE_PATH = path.resolve(
   path.dirname(new URL(import.meta.url).pathname),
   '../data/source/finlex/statute-list-fin.json'
 );
-const REPORT_PATH = path.resolve(
+const REPORT_DIR = path.resolve(
   path.dirname(new URL(import.meta.url).pathname),
-  '../reports/ingest/finlex-bulk-latest.json'
+  '../reports/ingest'
 );
+const REPORT_PATH = path.join(REPORT_DIR, 'finlex-bulk-latest.json');
+
+/**
+ * Durable, run-stamped report path (Dutch round-2 lesson: report files are
+ * run-stamped, never a fixed name a later smoke run overwrites). The report
+ * is flushed after every candidate so a killed sweep still leaves a complete
+ * record of what it did.
+ */
+export function runReportPath(startedAt: string): string {
+  const stamp = startedAt.replace(/\.\d{3}Z$/u, 'Z').replace(/:/gu, '-');
+  return path.join(REPORT_DIR, `finlex-bulk-run-${stamp}.json`);
+}
+
+/**
+ * Failure taxonomy for the abort policy: rate limiting and sustained
+ * transport outages must stop the sweep (continuing burns the whole worklist
+ * at retry-exhaustion speed); per-document failures are enumerated and the
+ * sweep moves on.
+ */
+export function classifyIngestFailure(message: string): 'rate_limited' | 'transport' | 'other' {
+  if (/HTTP 429/u.test(message)) return 'rate_limited';
+  if (/failed after \d+ attempts/u.test(message)) return 'transport';
+  return 'other';
+}
+
+/** Consecutive exhausted-retry transport failures that abort the sweep. */
+export const TRANSPORT_ABORT_THRESHOLD = 5;
 const MANIFEST_PATH = path.resolve(
   path.dirname(new URL(import.meta.url).pathname),
   '../data/seed/_finlex-statutes-manifest.json'
@@ -107,6 +135,10 @@ interface IngestionReport {
   skipped_current: number;
   /** Statutes with no consolidated document upstream (definitive 404) — as-enacted original acquired. */
   consolidation_absent: string[];
+  /** Consolidated expression was an empty contentAbsent shell — as-enacted text seeded, stamped. */
+  content_absent_fallback: string[];
+  /** Upstream served an expression OLDER than the seed stamp — newer seed kept, anomaly surfaced. */
+  stale_upstream: string[];
   /** Statutes whose Swedish text was omitted, by reason. */
   swedish_omitted: { not_available: string[]; version_mismatch: string[] };
   failed: number;
@@ -384,7 +416,7 @@ async function loadListEntries(options: CLIOptions): Promise<RemoteEntry[]> {
     },
     entries,
   };
-  fs.writeFileSync(LIST_CACHE_PATH, JSON.stringify(payload, null, 2), 'utf-8');
+  writeFileAtomicSync(LIST_CACHE_PATH, JSON.stringify(payload, null, 2));
   console.log(`Cached list payload: ${LIST_CACHE_PATH}`);
 
   return entries;
@@ -485,7 +517,7 @@ function writeManifest(candidates: StatuteCandidate[]): void {
     })),
   };
 
-  fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2), 'utf-8');
+  writeFileAtomicSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2));
 }
 
 export async function ingestFinlexBulk(argv: string[] = process.argv.slice(2)): Promise<void> {
@@ -535,15 +567,25 @@ export async function ingestFinlexBulk(argv: string[] = process.argv.slice(2)): 
     skipped_existing: 0,
     skipped_current: 0,
     consolidation_absent: [],
+    content_absent_fallback: [],
+    stale_upstream: [],
     swedish_omitted: { not_available: [], version_mismatch: [] },
     failed: 0,
     failures: [],
+  };
+  const durableReportPath = runReportPath(startedAt);
+  const flushReport = (): void => {
+    report.finished_at = new Date().toISOString();
+    writeFileAtomicSync(durableReportPath, JSON.stringify(report, null, 2));
   };
 
   console.log(`List entries loaded:      ${listEntryCount}`);
   console.log(`Unique statute candidates: ${allCandidates.length}`);
   console.log(`Selected for ingestion:    ${selected.length}`);
+  console.log(`Run report (flushed per statute): ${durableReportPath}`);
   console.log('');
+
+  let consecutiveTransportFailures = 0;
 
   for (let i = 0; i < selected.length; i++) {
     const candidate = selected[i];
@@ -554,11 +596,15 @@ export async function ingestFinlexBulk(argv: string[] = process.argv.slice(2)): 
     // historical behavior exactly: --resume skips existing seeds, a plain run
     // re-ingests everything.
     let stampedVersion: string | null = null;
+    let stampedSwedishVersion: string | null = null;
     if (seedExists && options.refresh) {
       try {
-        stampedVersion = stampedVersionOf(JSON.parse(fs.readFileSync(outputPath, 'utf-8')));
+        const seedJson = JSON.parse(fs.readFileSync(outputPath, 'utf-8')) as unknown;
+        stampedVersion = stampedVersionOf(seedJson);
+        stampedSwedishVersion = stampedLanguageVersionsOf(seedJson)?.swe ?? null;
       } catch {
         stampedVersion = null; // unreadable seed: self-heal via refetch_unknown
+        stampedSwedishVersion = null;
       }
       const decision = decideFetch({ seedExists, refresh: true, stampedVersion });
       console.log(
@@ -580,14 +626,21 @@ export async function ingestFinlexBulk(argv: string[] = process.argv.slice(2)): 
         fetchNumberToken: candidate.number_token,
         canonicalStatuteId: candidate.canonical_id,
         existingStampedVersion: stampedVersion,
+        existingStampedSwedishVersion: stampedSwedishVersion,
       });
-      if (outcome.decision === 'skip_current' || !outcome.written) {
+      consecutiveTransportFailures = 0;
+      if (outcome.decision === 'stale_upstream') {
+        report.stale_upstream.push(candidate.canonical_id);
+      } else if (outcome.decision === 'skip_current' || !outcome.written) {
         report.skipped_current += 1;
       } else {
         report.ingested += 1;
       }
       if (outcome.consolidationAbsent) {
         report.consolidation_absent.push(candidate.canonical_id);
+      }
+      if (outcome.contentAbsentFallback) {
+        report.content_absent_fallback.push(candidate.canonical_id);
       }
       if (outcome.swedish === 'omitted_not_available') {
         report.swedish_omitted.not_available.push(candidate.canonical_id);
@@ -604,18 +657,37 @@ export async function ingestFinlexBulk(argv: string[] = process.argv.slice(2)): 
       });
       console.error(`  ERROR: ${message}`);
 
-      if (/HTTP 429/u.test(message)) {
+      const kind = classifyIngestFailure(message);
+      if (kind === 'rate_limited') {
         report.aborted_reason = `rate_limited_at_${candidate.canonical_id}`;
         console.error('  Aborting run due to Finlex rate limiting.');
+        flushReport();
         break;
+      }
+      if (kind === 'transport') {
+        consecutiveTransportFailures += 1;
+        if (consecutiveTransportFailures >= TRANSPORT_ABORT_THRESHOLD) {
+          // A sustained outage must stop the sweep: every further candidate
+          // costs full retry exhaustion (~16s) and accomplishes nothing.
+          report.aborted_reason = `transport_outage_at_${candidate.canonical_id}`;
+          console.error(
+            `  Aborting run: ${consecutiveTransportFailures} consecutive transport failures — ` +
+              'sustained outage, resume with the same command once connectivity returns.'
+          );
+          flushReport();
+          break;
+        }
+      } else {
+        consecutiveTransportFailures = 0;
       }
     }
 
+    flushReport();
     await delay(REQUEST_DELAY_MS);
   }
 
-  report.finished_at = new Date().toISOString();
-  fs.writeFileSync(REPORT_PATH, JSON.stringify(report, null, 2), 'utf-8');
+  flushReport();
+  writeFileAtomicSync(REPORT_PATH, JSON.stringify(report, null, 2));
 
   console.log('');
   console.log('Bulk ingestion summary');
@@ -623,12 +695,15 @@ export async function ingestFinlexBulk(argv: string[] = process.argv.slice(2)): 
   console.log(`  Skipped existing:      ${report.skipped_existing}`);
   console.log(`  Skipped current:       ${report.skipped_current}`);
   console.log(`  Consolidation absent:  ${report.consolidation_absent.length} (as-enacted original acquired)`);
+  console.log(`  ContentAbsent shells:  ${report.content_absent_fallback.length} (as-enacted fallback, stamped)`);
+  console.log(`  Stale upstream:        ${report.stale_upstream.length} (newer seed kept)`);
   console.log(`  Swedish omitted:       ${report.swedish_omitted.not_available.length} unavailable, ${report.swedish_omitted.version_mismatch.length} version-mismatch`);
   console.log(`  Failed:                ${report.failed}`);
   if (report.aborted_reason) {
     console.log(`  Aborted reason:        ${report.aborted_reason}`);
   }
-  console.log(`  Report:                ${REPORT_PATH}`);
+  console.log(`  Run report:            ${durableReportPath}`);
+  console.log(`  Report (latest):       ${REPORT_PATH}`);
   console.log(`  Manifest:              ${MANIFEST_PATH}`);
 
   if (report.failed > 0) {

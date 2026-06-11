@@ -135,6 +135,13 @@ data/seed_paid/
 # Downloaded source archives (cache for re-runs of ingestion)
 data/cache/
 
+# Version-keyed forensic copies of fetched consolidated XML (write-only audit
+# trail; one per statute/language/version - NEVER next to tracked corpus inputs)
+data/source-cache/
+
+# Run-stamped bulk-ingest reports (durable per-run records; finlex-bulk-latest.json stays tracked)
+reports/ingest/finlex-bulk-run-*.json
+
 # Bulk download artifacts from upstream
 *.tgz
 *.tar.gz
