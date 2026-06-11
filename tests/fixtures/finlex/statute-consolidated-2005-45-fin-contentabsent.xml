@@ -1,0 +1,67 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:finlex="http://data.finlex.fi/schema/finlex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <act contains="multipleVersions" name="main">
+        <meta>
+            <identification source="#organization_fi.finlex">
+                <FRBRWork>
+                    <FRBRthis value="/akn/fi/act/statute-consolidated/2005/45/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute-consolidated/2005/45"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/45/ajantasa"/>
+                    <FRBRdate date="2005-01-28" name="dateIssued"/>
+                    <FRBRdate date="2005-02-02" name="datePublished"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.finlex"/>
+                    <FRBRcountry value="fi"/>
+                    <FRBRsubtype value="statute-consolidated"/>
+                    <FRBRnumber value="45"/>
+                    <FRBRprescriptive value="false"/>
+                    <FRBRauthoritative value="false"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/fi/act/statute-consolidated/2005/45/fin@/!main"/>
+                    <FRBRuri value="/akn/fi/act/statute-consolidated/2005/45/fin@"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/45/ajantasa/2005-01-28/fin"/>
+                    <FRBRdate date="2005-01-28" name="dateIssued"/>
+                    <FRBRdate date="2005-01-28" name="dateConsolidated"/>
+                    <FRBRauthor as="#role_author" href="#organization_fi.finlex"/>
+                    <FRBRversionNumber value="20050045"/>
+                    <FRBRlanguage language="fin"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/fi/act/statute-consolidated/2005/45/fin@/!main.xml"/>
+                    <FRBRuri value="/akn/fi/act/statute-consolidated/2005/45/fin@.akn"/>
+                    <FRBRalias name="eli" value="http://data.finlex.fi/eli/sd/2005/45/ajantasa/2005-01-28/fin/xml"/>
+                    <FRBRdate date="2026-05-20" name="dateProduced"/>
+                    <FRBRdate date="2005-02-02" name="datePublished"/>
+                    <FRBRauthor as="#role_editor" href="#organization_fi.finlex"/>
+                    <FRBRformat value="xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#organization_fi.finlex">
+                <TLCOrganization eId="organization_fi.finlex" href="/akn/ontology/organization/fi.finlex" showAs="Finlex"/>
+                <TLCRole eId="role_author" href="/akn/ontology/role/author" showAs="Tekijä"/>
+                <TLCRole eId="role_editor" href="/akn/ontology/role/editor" showAs="Toimittaja"/>
+                <TLCOrganization eId="fi.ministry-of-justice" href="/akn/ontology/organization/fi.ministry-of-justice" showAs="Oikeusministeriö"/>
+                <TLCConcept eId="act" href="/akn/ontology/concept/statute/type-statute.act" showAs="Laki"/>
+            </references>
+            <proprietary source="#organization_fi.finlex">
+                <finlex:documentYear>2005</finlex:documentYear>
+                <finlex:administrativeBranch refersTo="#fi.ministry-of-justice"/>
+                <finlex:typeStatute refersTo="#act"/>
+                <finlex:isInForce value="true"/>
+                <finlex:inForce>
+                    <finlex:dateEntryIntoForce date="2005-10-05"/>
+                    <finlex:noteEditorial>ks. A 789/2005</finlex:noteEditorial>
+                </finlex:inForce>
+                <finlex:noteEditorial>ks. soveltamisesta ennen pöytäkirjan kansainvälistä voimaantuloa A 308/2005</finlex:noteEditorial>
+            </proprietary>
+        </meta>
+        <preface>
+            <p>
+                <docNumber>45/2005</docNumber>
+                <docTitle>Laki keskinäisestä oikeusavusta rikosasioissa Euroopan unionin jäsenvaltioiden välillä tehtyyn yleissopimukseen liitettävän pöytäkirjan lainsäädännön alaan kuuluvien määräysten voimaansaattamisesta</docTitle>
+            </p>
+        </preface>
+        <body>
+            <hcontainer name="contentAbsent"/>
+        </body>
+    </act>
+</akomaNtoso>

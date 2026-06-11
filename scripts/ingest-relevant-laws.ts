@@ -12,6 +12,20 @@ import * as path from 'path';
 import { fileURLToPath } from 'url';
 import { ingest } from './ingest-riksdagen.js';
 
+// LEGACY GUARD (issue #78 round-2): Swedish-template leftover — writes
+// UNSTAMPED Riksdagen-sourced seeds into data/seed/, bypassing the
+// version-stamped Finlex acquisition. Refuses to run unless forced.
+if (process.env.FORCE_LEGACY_INGEST !== '1') {
+  console.error(
+    'REFUSING TO RUN: ingest-relevant-laws.ts is a LEGACY Swedish-template script ' +
+      '(Riksdagen API) that writes unstamped seeds into data/seed/, bypassing the ' +
+      'version-stamped Finlex acquisition (issue #78).\n' +
+      'Use `npm run ingest`, `npm run ingest:bulk`, or `npm run ingest:refresh` instead.\n' +
+      'Set FORCE_LEGACY_INGEST=1 to override (you almost certainly do not want this).'
+  );
+  process.exit(2);
+}
+
 interface RelevantStatute {
   id: string;
   slug: string;
