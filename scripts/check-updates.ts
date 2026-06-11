@@ -278,6 +278,12 @@ export function classifySeedFreshness(
   }
 
   const remoteValid = remote !== null && VERSION_TOKEN_RE.test(remote);
+  // Live-verified (2026-06-11): never-amended consolidations appear in the
+  // consolidated list ONLY as bare-@ akn_uris (empty version token), while
+  // the served document carries a real FRBRversionNumber. Present-but-bare
+  // therefore means "a consolidation exists, exactly one version" — it is
+  // NEITHER absent NOR a dated comparison target.
+  const remoteBare = remote === '';
 
   // The version that proves which consolidation the seed reflects: for
   // contentAbsent fallbacks that is the stamped SHELL version.
@@ -292,11 +298,11 @@ export function classifySeedFreshness(
         error: 'Consolidated stamp without a version token — unprovable, re-ingest (self-heal)',
       };
     }
-    if (remoteValid) {
+    if (remoteValid || remoteBare) {
       return {
         has_update: true,
         stamped_version: null,
-        error: `Consolidation ${remote} appeared upstream — as-enacted seed is stale, re-ingest`,
+        error: `Consolidation ${remoteBare ? '(single-version)' : remote} appeared upstream — as-enacted seed is stale, re-ingest`,
       };
     }
     // No consolidated work upstream: the stamped as-enacted original IS the
@@ -310,6 +316,12 @@ export function classifySeedFreshness(
       stamped_version: effectiveVersion,
       error: `Unparseable stamped version "${effectiveVersion}" — unprovable, re-ingest (self-heal)`,
     };
+  }
+
+  if (remoteBare) {
+    // Stamped consolidated + bare-@ list entry: the single-version cohort.
+    // Our stamp IS that one version — current, proven.
+    return { has_update: false, stamped_version: effectiveVersion };
   }
 
   if (!remoteValid) {

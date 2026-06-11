@@ -121,3 +121,23 @@ describe('consolidated-list parsing (no silent regex drops)', () => {
     ).not.toThrow();
   });
 });
+
+describe('bare-@ consolidated list entries (PR #79 round 3)', () => {
+  // Live-verified: never-amended consolidations appear ONLY as bare-@ akn_uris
+  // (empty version token) while the served document carries FRBRversionNumber.
+  it('a stamped-consolidated seed with a bare-@ remote entry is CURRENT, not an anomaly', () => {
+    const verdict = classifySeedFreshness(
+      { doc_type: 'statute-consolidated', consolidation_version: '19990005', content_absent_version: null },
+      '',
+    );
+    expect(verdict.has_update).toBe(false);
+  });
+
+  it('a stamped as-enacted seed with a bare-@ remote entry IS stale (a consolidation exists upstream)', () => {
+    const verdict = classifySeedFreshness(
+      { doc_type: 'statute', consolidation_version: null, content_absent_version: null },
+      '',
+    );
+    expect(verdict.has_update).toBe(true);
+  });
+});

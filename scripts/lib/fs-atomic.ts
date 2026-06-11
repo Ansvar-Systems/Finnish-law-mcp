@@ -13,6 +13,20 @@ import * as path from 'path';
 
 export function writeFileAtomicSync(filePath: string, data: string): void {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  // Sweep orphan tmp files from earlier SIGKILLed/OOMed runs: writes are
+  // serialized per target file, so any surviving `<file>.tmp-<pid>` is an
+  // orphan by definition (a different pid never cleans it otherwise).
+  const dir = path.dirname(filePath);
+  const orphanPrefix = `${path.basename(filePath)}.tmp-`;
+  for (const entry of fs.readdirSync(dir)) {
+    if (entry.startsWith(orphanPrefix)) {
+      try {
+        fs.unlinkSync(path.join(dir, entry));
+      } catch {
+        // already gone — fine
+      }
+    }
+  }
   const tmpPath = `${filePath}.tmp-${process.pid}`;
   try {
     fs.writeFileSync(tmpPath, data, 'utf-8');

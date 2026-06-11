@@ -26,3 +26,17 @@ describe('writeFileAtomicSync', () => {
     expect(fs.readdirSync(dir)).toEqual(['file.txt']);
   });
 });
+
+describe('orphan tmp cleanup (PR #79 round 3)', () => {
+  it('removes stale tmp orphans from earlier killed processes before writing', () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'fs-atomic-r3-'));
+    const target = path.join(dir, 'seed.json');
+    // Orphans from two earlier SIGKILLed runs (different pids).
+    fs.writeFileSync(`${target}.tmp-11111`, 'orphan one');
+    fs.writeFileSync(`${target}.tmp-22222`, 'orphan two');
+    writeFileAtomicSync(target, 'fresh content');
+    expect(fs.readFileSync(target, 'utf-8')).toBe('fresh content');
+    const leftovers = fs.readdirSync(dir).filter(f => f.includes('.tmp-'));
+    expect(leftovers).toEqual([]);
+  });
+});

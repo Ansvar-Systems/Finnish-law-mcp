@@ -39,6 +39,7 @@ import {
   assertCurrentConsolidation,
   buildIngestStamp,
   decideRewrite,
+  stampedVersionOf,
   type ContentAbsentStamp,
   type FetchDecision,
   type FinlexDocType,
@@ -165,11 +166,21 @@ export interface IngestFinlexOptions {
   forensicCacheDir?: string;
 }
 
+function readSeedJson(seedPath: string): unknown {
+  try {
+    return JSON.parse(fs.readFileSync(seedPath, 'utf-8'));
+  } catch {
+    return null; // missing/torn seed: no stamp to read — self-heal semantics
+  }
+}
+
 export type SwedishOutcome =
   | 'consolidated'
   | 'original'
   | 'omitted_not_available'
   | 'omitted_version_mismatch'
+  /** Swedish expression fetched but parsed to zero provisions (empty shell). */
+  | 'omitted_content_absent'
   /** Seed already current — the Swedish expression was never requested. */
   | 'not_fetched';
 
@@ -437,6 +448,12 @@ async function fetchExpression(
     const cached = fs.readFileSync(originalCachePath, 'utf-8');
     try {
       parseVersionIdentity(cached);
+      // Head-only identity parsing accepts body-torn files (empirically: a
+      // 60%-truncated statute still parses with partial provisions). The
+      // closing root tag is the cheap whole-document integrity witness.
+      if (!cached.trimEnd().endsWith('</akomaNtoso>')) {
+        throw new Error('cache file does not end with </akomaNtoso> — truncated body');
+      }
       return cached;
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
@@ -475,16 +492,40 @@ async function fetchExpression(
     const prefix = `${year}_${number}_${lang}@`;
     const currentCopy = `${prefix}${versionKey}.consolidated.xml`;
     fs.mkdirSync(opts.forensicDir, { recursive: true });
-    // Prune superseded forensic copies: keep exactly the version just fetched.
-    for (const file of fs.readdirSync(opts.forensicDir)) {
-      if (file.startsWith(prefix) && file.endsWith('.consolidated.xml') && file !== currentCopy) {
+    // Write FIRST, then prune to the NEWEST version per statute+language
+    // (round 3): in the stale_upstream case the just-fetched expression is
+    // OLDER than an existing audit copy — the newer copy (the XML the kept
+    // seed was built from) must survive, and a write failure must never
+    // leave zero copies.
+    writeFileAtomicSync(path.join(opts.forensicDir, currentCopy), body);
+    const versionOf = (file: string): string =>
+      file.slice(prefix.length, -'.consolidated.xml'.length);
+    const copies = fs
+      .readdirSync(opts.forensicDir)
+      .filter(f => f.startsWith(prefix) && f.endsWith('.consolidated.xml'));
+    const newest = copies.reduce((a, b) => {
+      const va = versionOf(a);
+      const vb = versionOf(b);
+      if (va === 'unversioned') return b;
+      if (vb === 'unversioned') return a;
+      return vb > va ? b : a;
+    });
+    for (const file of copies) {
+      if (file !== newest) {
         fs.unlinkSync(path.join(opts.forensicDir, file));
       }
     }
-    writeFileAtomicSync(path.join(opts.forensicDir, currentCopy), body);
   }
 
   return body;
+}
+
+function isContentAbsentBody(xml: string): boolean {
+  const body = /<body[\s>][\s\S]*?<\/body>/u.exec(xml)?.[0];
+  if (!body) return false;
+  if (!/<hcontainer[^>]*\bname="contentAbsent"/u.test(body)) return false;
+  // Substantive vocabulary in the body disqualifies the empty-shell reading.
+  return !/<(section|chapter|paragraph|subsection|article)[\s>]/u.test(body);
 }
 
 export function parseFinlexXml(xml: string, fallbackId: string): ParsedStatute {
@@ -516,10 +557,11 @@ export function parseFinlexXml(xml: string, fallbackId: string): ParsedStatute {
     category,
     provisions,
     // Finlex publishes some consolidations as explicit empty shells:
-    // <body><hcontainer name="contentAbsent"/></body>. Recognized vocabulary,
-    // surfaced so the caller can fall back EXPLICITLY instead of silently
-    // writing a hollow seed.
-    contentAbsent: /<hcontainer[^>]*\bname="contentAbsent"/u.test(xml),
+    // <body><hcontainer name="contentAbsent"/></body>. STRUCTURAL check
+    // (round 3): the marker must be inside the body AND the body must hold
+    // no substantive vocabulary — a marker elsewhere in the document must
+    // never reroute an extractor shape-gap into the silent fallback.
+    contentAbsent: isContentAbsentBody(xml),
   };
 }
 
@@ -580,7 +622,11 @@ export async function ingestFinlexStatute(
     forensicDir: options.forensicCacheDir ?? FORENSIC_CACHE_DIR,
     retryBackoffMs: options.retryBackoffMs,
   };
-  const stampedVersion = options.existingStampedVersion ?? null;
+  // The 404-confirm and stale-upstream guards key on the stamp. Callers may
+  // supply it, but the default is the TARGET SEED's own stamp — otherwise the
+  // guards are dead code on every path that forgets the option (the CLI
+  // single-statute entry steered operators onto exactly that path, round 3).
+  const stampedVersion = options.existingStampedVersion ?? stampedVersionOf(readSeedJson(targetPath));
 
   console.log('Finlex Data Ingestion');
   console.log(`  Statute: ${canonicalId}`);
@@ -615,8 +661,18 @@ export async function ingestFinlexStatute(
   }
 
   if (finXml === null) {
+    // No stamp to prove a consolidation existed — but the consolidated-404
+    // classification shapes the corpus (as-enacted cohort), so a single
+    // unretried 404 is not enough evidence either way: confirm once (round 3).
+    await politeDelay(delayMs);
+    finXml = await fetchExpression('statute-consolidated', year, fetchNumberToken, 'fin', 'latest', fetchOpts);
+  }
+
+  if (finXml === null) {
     consolidationAbsent = true;
-    console.log(`  No consolidated document for ${canonicalId} (404) — acquiring as-enacted original.`);
+    console.log(
+      `  No consolidated document for ${canonicalId} (404, confirmed by second probe) — acquiring as-enacted original.`
+    );
     await politeDelay(delayMs);
     finXml = await fetchExpression('statute', year, fetchNumberToken, 'fin', '', fetchOpts);
   }
@@ -774,9 +830,22 @@ export async function ingestFinlexStatute(
     }
   }
 
-  const svParsed = sweXml ? parseFinlexXml(sweXml, canonicalId) : null;
+  let svParsed = sweXml ? parseFinlexXml(sweXml, canonicalId) : null;
   if (svParsed) {
     assertBodyIdentity(svParsed, canonicalId, `Swedish expression ${sweIdentity?.expression_uri ?? 'unknown'}`);
+  }
+  // Zero-provision Swedish text must never be stamped as present (round 3):
+  // version equality alone proved nothing about CONTENT — an empty shell
+  // stamped 'consolidated' parks the seed as bilingual-complete forever.
+  if (svParsed && svParsed.provisions.length === 0) {
+    console.warn(
+      `  Warning: Swedish expression for ${canonicalId} parsed to ZERO provisions` +
+        `${svParsed.contentAbsent ? ' (contentAbsent shell)' : ''} — omitting Swedish text.`
+    );
+    svParsed = null;
+    sweXml = null;
+    sweIdentity = null;
+    swedish = 'omitted_content_absent';
   }
 
   const svByEid = new Map<string, FinlexProvision>(
@@ -853,7 +922,14 @@ export async function ingestFinlexStatute(
     in_force_date: lifecycle.date_entry_into_force ?? fiParsed.issuedDate,
     // Version-pinned expression URL — never the ambiguous-version form.
     url: `https://opendata.finlex.fi/finlex/avoindata/v1${finIdentity.expression_uri}`,
-    description: `Ingested from Finlex open data (${fiParsed.category ?? 'statute'})`,
+    // The repeal date must reach the downstream pipeline: build-db derives
+    // document validity via extractRepealDateFromDescription, which matches
+    // the 'Kumottu YYYY-MM-DD' convention (round 3 — _ingest.lifecycle alone
+    // is invisible to it, so repealed acts computed as in_force downstream).
+    description:
+      status === 'repealed' && lifecycle.date_in_force_end
+        ? `Ingested from Finlex open data (${fiParsed.category ?? 'statute'}). Kumottu ${lifecycle.date_in_force_end}`
+        : `Ingested from Finlex open data (${fiParsed.category ?? 'statute'})`,
     provisions,
     provision_versions: provisions.map(p => ({
       ...p,

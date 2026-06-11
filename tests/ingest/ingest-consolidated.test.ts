@@ -475,3 +475,178 @@ describe('ingestFinlexStatute (offline, injected fetch)', () => {
     expect(copies).toEqual(['2018_1050_fin@20260380.consolidated.xml']);
   });
 });
+
+describe('round-3 hardening (PR #79 delta review)', () => {
+  let tmpDir: string;
+  beforeEach(() => {
+    tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'finlex-r3-test-'));
+  });
+  function makeCountingFetch(
+    routes: Record<string, { status: number; body?: string } | Array<{ status: number; body?: string }>>,
+    counts: Map<string, number>,
+  ): typeof fetch {
+    return (async (url: unknown) => {
+      const u = String(url);
+      for (const [needle, r] of Object.entries(routes)) {
+        if (u.includes(needle)) {
+          const n = (counts.get(needle) ?? 0) + 1;
+          counts.set(needle, n);
+          const resp = Array.isArray(r) ? r[Math.min(n - 1, r.length - 1)] : r;
+          return new Response(resp.body ?? 'not found', { status: resp.status });
+        }
+      }
+      throw new Error(`Unexpected URL in test: ${u}`);
+    }) as typeof fetch;
+  }
+  const opts = () => ({
+    delayMs: 0,
+    cacheDir: path.join(tmpDir, 'cache'),
+    forensicCacheDir: path.join(tmpDir, 'forensic'),
+  });
+
+  it('F1: zero-provision Swedish text is never stamped consolidated', async () => {
+    // Swedish responds with the contentAbsent shell at the MATCHING version:
+    // version equality alone must not stamp swedish='consolidated'.
+    const sweShell = contentAbsentShell
+      .replace(/2005\/45/gu, '2018/1050')
+      .replace(/20050045/gu, '20260380')
+      .replace(/45\/2005/gu, '1050/2018');
+    const seedPath = path.join(tmpDir, '1050_2018.json');
+    const counts = new Map<string, number>();
+    const outcome = await ingestFinlexStatute('1050/2018', seedPath, {
+      fetchImpl: makeCountingFetch(
+        {
+          'statute-consolidated/2018/1050/fin@latest': { status: 200, body: consolidatedFin },
+          'statute-consolidated/2018/1050/swe@latest': { status: 200, body: sweShell },
+        },
+        counts,
+      ),
+      ...opts(),
+    });
+    expect(outcome.written).toBe(true);
+    expect(outcome.swedish).toBe('omitted_content_absent');
+    const seed = JSON.parse(fs.readFileSync(seedPath, 'utf-8'));
+    // No Swedish stamp => the both-languages skip_current can never treat
+    // this seed as bilingual-complete.
+    expect(seed._ingest.languages.swe).toBeUndefined();
+  });
+
+  it('F2a: the stamp is read from the existing seed when the caller does not supply it', async () => {
+    const seedPath = path.join(tmpDir, '1050_2018.json');
+    fs.writeFileSync(
+      seedPath,
+      JSON.stringify({ id: '1050/2018', _ingest: { doc_type: 'statute-consolidated', consolidation_version: '20260380' } }),
+    );
+    const counts = new Map<string, number>();
+    // Persistent 404 on the consolidated expression: the on-disk stamp proves
+    // a consolidation existed -> loud anomaly, NEVER a silent downgrade.
+    await expect(
+      ingestFinlexStatute('1050/2018', seedPath, {
+        fetchImpl: makeCountingFetch(
+          { 'statute-consolidated/2018/1050/fin@latest': { status: 404 } },
+          counts,
+        ),
+        ...opts(),
+      }),
+    ).rejects.toThrow(/DISAPPEARED|anomaly/iu);
+  });
+
+  it('F2b: a first 404 on the consolidated expression gets one confirming probe even with no stamp', async () => {
+    const seedPath = path.join(tmpDir, '1050_2018.json');
+    const counts = new Map<string, number>();
+    const outcome = await ingestFinlexStatute('1050/2018', seedPath, {
+      fetchImpl: makeCountingFetch(
+        {
+          // transient 404, then the real consolidation on the confirm probe
+          'statute-consolidated/2018/1050/fin@latest': [
+            { status: 404 },
+            { status: 200, body: consolidatedFin },
+          ],
+          'statute-consolidated/2018/1050/swe@latest': { status: 200, body: consolidatedSwe },
+        },
+        counts,
+      ),
+      ...opts(),
+    });
+    expect(counts.get('statute-consolidated/2018/1050/fin@latest')).toBe(2);
+    expect(outcome.consolidationAbsent).toBe(false);
+  });
+
+  it('F3: a body-torn as-enacted cache file is discarded and refetched', async () => {
+    const cacheDir = path.join(tmpDir, 'cache');
+    fs.mkdirSync(cacheDir, { recursive: true });
+    // Head intact (identification parses), body torn at 60%.
+    const torn = original45.slice(0, Math.floor(original45.length * 0.6));
+    fs.writeFileSync(path.join(cacheDir, '2005_45_fin.xml'), torn);
+    const counts = new Map<string, number>();
+    const outcome = await ingestFinlexStatute('45/2005', path.join(tmpDir, '45_2005.json'), {
+      fetchImpl: makeCountingFetch(
+        {
+          'statute-consolidated/2005/45/fin@latest': { status: 200, body: contentAbsentShell },
+          'statute/2005/45/fin@': { status: 200, body: original45 },
+          'statute-consolidated/2005/45/swe@latest': { status: 404 },
+          'statute/2005/45/swe@': { status: 404 },
+        },
+        counts,
+      ),
+      ...opts(),
+    });
+    expect(outcome.written).toBe(true);
+    // The torn cache must NOT have been trusted: the as-enacted expression
+    // was refetched over the network.
+    expect(counts.get('statute/2005/45/fin@')).toBeGreaterThanOrEqual(1);
+  });
+
+  it('F4: the forensic prune keeps the NEWEST version, not the just-fetched one', async () => {
+    const forensic = path.join(tmpDir, 'forensic');
+    fs.mkdirSync(forensic, { recursive: true });
+    // A NEWER forensic copy exists (the XML the kept seed was built from).
+    fs.writeFileSync(path.join(forensic, '2018_1050_fin@20270001.consolidated.xml'), '<newer/>');
+    const seedPath = path.join(tmpDir, '1050_2018.json');
+    fs.writeFileSync(seedPath, JSON.stringify({ id: '1050/2018' }));
+    const counts = new Map<string, number>();
+    // Upstream serves the OLDER 20260380 while the stamp says 20270001:
+    // stale_upstream path — the newer audit copy must survive.
+    await ingestFinlexStatute('1050/2018', seedPath, {
+      existingStampedVersion: '20270001',
+      fetchImpl: makeCountingFetch(
+        { 'statute-consolidated/2018/1050/fin@latest': { status: 200, body: consolidatedFin } },
+        counts,
+      ),
+      ...opts(),
+    });
+    expect(fs.existsSync(path.join(forensic, '2018_1050_fin@20270001.consolidated.xml'))).toBe(true);
+  });
+
+  it('F7: repealed statutes carry the repeal date in the description (build-db extractor convention)', async () => {
+    const seedPath = path.join(tmpDir, '523_1999.json');
+    const counts = new Map<string, number>();
+    await ingestFinlexStatute('523/1999', seedPath, {
+      fetchImpl: makeCountingFetch(
+        {
+          'statute-consolidated/1999/523/fin@latest': { status: 200, body: repealedFin },
+          'statute-consolidated/1999/523/swe@latest': { status: 404 },
+          'statute/1999/523/swe@': { status: 404 },
+        },
+        counts,
+      ),
+      ...opts(),
+    });
+    const seed = JSON.parse(fs.readFileSync(seedPath, 'utf-8'));
+    expect(seed.status).toBe('repealed');
+    expect(seed.description).toMatch(/Kumottu \d{4}-\d{2}-\d{2}/u);
+  });
+});
+
+describe('contentAbsent detection is structural (round 3, F8)', () => {
+  it('does not flag a document whose marker sits outside an otherwise substantive body', () => {
+    // A future shape gap that parses 0 provisions must FAIL LOUD, not slide
+    // into the contentAbsent fallback because a marker matched anywhere.
+    const xml = contentAbsentShell.replace(
+      '<hcontainer name="contentAbsent"/>',
+      '<unknownVocab>real text the extractor cannot read yet</unknownVocab>',
+    ).replace('</meta>', '<note><hcontainer name="contentAbsent"/></note></meta>');
+    const parsed = parseFinlexXml(xml, '45/2005');
+    expect(parsed.contentAbsent).toBe(false);
+  });
+});
