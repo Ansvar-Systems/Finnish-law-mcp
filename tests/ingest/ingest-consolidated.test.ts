@@ -25,6 +25,15 @@ const consolidatedSwe = fs.readFileSync(
   'utf-8'
 );
 const originalFin = fs.readFileSync(path.join(FIXTURES, 'statute-2018-1050-fin-original.xml'), 'utf-8');
+const repealedFin = fs.readFileSync(
+  path.join(FIXTURES, 'statute-consolidated-1999-523-fin-latest.xml'),
+  'utf-8'
+);
+const contentAbsentShell = fs.readFileSync(
+  path.join(FIXTURES, 'statute-consolidated-2005-45-fin-contentabsent.xml'),
+  'utf-8'
+);
+const original45 = fs.readFileSync(path.join(FIXTURES, 'statute-2005-45-fin-original.xml'), 'utf-8');
 
 describe('parseFinlexXml on a consolidated (multipleVersions) document', () => {
   const parsed = parseFinlexXml(consolidatedFin, '1050/2018');
@@ -70,6 +79,14 @@ describe('ingestFinlexStatute (offline, injected fetch)', () => {
     }) as typeof fetch;
   }
 
+  function baseOpts(): { delayMs: number; cacheDir: string; forensicCacheDir: string } {
+    return {
+      delayMs: 0,
+      cacheDir: path.join(tmpDir, 'cache'),
+      forensicCacheDir: path.join(tmpDir, 'forensic'),
+    };
+  }
+
   it('acquires the newest consolidation and stamps the version identity', async () => {
     const seedPath = path.join(tmpDir, '1050_2018.json');
     const outcome = await ingestFinlexStatute('1050/2018', seedPath, {
@@ -77,8 +94,7 @@ describe('ingestFinlexStatute (offline, injected fetch)', () => {
         'statute-consolidated/2018/1050/fin@latest': { status: 200, body: consolidatedFin },
         'statute-consolidated/2018/1050/swe@latest': { status: 200, body: consolidatedSwe },
       }),
-      delayMs: 0,
-      cacheDir: path.join(tmpDir, 'cache'),
+      ...baseOpts(),
     });
 
     expect(outcome.written).toBe(true);
@@ -101,6 +117,24 @@ describe('ingestFinlexStatute (offline, injected fetch)', () => {
     expect(sec18a).toBeDefined();
     // Amendment provenance captured from finlex:originalVersionLabel
     expect(sec18a.metadata.amended_by).toBe('27.11.2020/902');
+
+    // Status is a FACT from finlex lifecycle metadata, never a constant.
+    expect(seed.status).toBe('in_force');
+    expect(seed._ingest.status_basis).toBe('finlex_lifecycle_metadata');
+    expect(seed._ingest.lifecycle.is_in_force).toBe(true);
+    // in_force_date from finlex:dateEntryIntoForce, not the enactment date.
+    expect(seed.in_force_date).toBe('2019-01-01');
+
+    // provision_versions claim validity from the CONSOLIDATION's date, not the
+    // original enactment date (an inserted §18a did not exist in 2018).
+    expect(seed.provision_versions[0].valid_from).toBe('2026-05-22');
+
+    // Forensic copies live OUTSIDE the immutable original cache.
+    const cacheDir = path.join(tmpDir, 'cache');
+    const cacheFiles = fs.existsSync(cacheDir) ? fs.readdirSync(cacheDir) : [];
+    expect(cacheFiles.filter(f => f.includes('@'))).toEqual([]);
+    const forensic = fs.readdirSync(path.join(tmpDir, 'forensic'));
+    expect(forensic).toContain('2018_1050_fin@20260380.consolidated.xml');
   });
 
   it('falls back to the original ONLY on a definitive consolidated 404, loudly stamped', async () => {
@@ -112,8 +146,7 @@ describe('ingestFinlexStatute (offline, injected fetch)', () => {
         'statute/2018/1050/fin@': { status: 200, body: originalFin },
         'statute/2018/1050/swe@': { status: 404 },
       }),
-      delayMs: 0,
-      cacheDir: path.join(tmpDir, 'cache'),
+      ...baseOpts(),
     });
 
     expect(outcome.consolidationAbsent).toBe(true);
@@ -123,6 +156,31 @@ describe('ingestFinlexStatute (offline, injected fetch)', () => {
     expect(seed.url).toBe(
       'https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute/2018/1050/fin@'
     );
+    // As-enacted originals carry NO lifecycle metadata upstream: the status is
+    // the documented corpus default, stamped as unverified — auditable, never
+    // disguised as a proven fact.
+    expect(seed.status).toBe('in_force');
+    expect(seed._ingest.status_basis).toBe('as_enacted_default_unverified');
+    // As-enacted text: validity claimed from enactment, the only date upstream proves.
+    expect(seed.provision_versions[0].valid_from).toBe('2018-12-05');
+  });
+
+  it('stamps repealed acts as repealed from finlex lifecycle metadata (523/1999, repealed by 1050/2018)', async () => {
+    const seedPath = path.join(tmpDir, '523_1999.json');
+    await ingestFinlexStatute('523/1999', seedPath, {
+      fetchImpl: makeFetch({
+        'statute-consolidated/1999/523/fin@latest': { status: 200, body: repealedFin },
+        'statute-consolidated/1999/523/swe@latest': { status: 404 },
+      }),
+      ...baseOpts(),
+    });
+
+    const seed = JSON.parse(fs.readFileSync(seedPath, 'utf-8'));
+    expect(seed.status).toBe('repealed');
+    expect(seed._ingest.status_basis).toBe('finlex_lifecycle_metadata');
+    expect(seed._ingest.lifecycle.is_in_force).toBe(false);
+    expect(seed._ingest.lifecycle.date_in_force_end).toBe('2018-12-31');
+    expect(seed._ingest.lifecycle.repealed_by).toEqual(['1050/2018']);
   });
 
   it('THROWS when both consolidated and original are gone — never writes a hollow seed', async () => {
@@ -133,8 +191,7 @@ describe('ingestFinlexStatute (offline, injected fetch)', () => {
           'statute-consolidated/2018/1050/fin@latest': { status: 404 },
           'statute/2018/1050/fin@': { status: 404 },
         }),
-        delayMs: 0,
-        cacheDir: path.join(tmpDir, 'cache'),
+        ...baseOpts(),
       })
     ).rejects.toThrow(/404|not found/iu);
     expect(fs.existsSync(seedPath)).toBe(false);
@@ -147,34 +204,60 @@ describe('ingestFinlexStatute (offline, injected fetch)', () => {
         fetchImpl: makeFetch({
           'statute-consolidated/2018/1050/fin@latest': { status: 503 },
         }),
-        delayMs: 0,
-        cacheDir: path.join(tmpDir, 'cache'),
+        ...baseOpts(),
         retryBackoffMs: [0, 0, 0],
       })
     ).rejects.toThrow(/503/u);
     expect(fs.existsSync(seedPath)).toBe(false);
   });
 
-  it('skips the rewrite when the stamped version matches upstream (skip_current)', async () => {
+  it('skips the rewrite when BOTH stamped language versions match upstream (skip_current, no Swedish probe)', async () => {
     const seedPath = path.join(tmpDir, '1050_2018.json');
     const opts = {
       fetchImpl: makeFetch({
         'statute-consolidated/2018/1050/fin@latest': { status: 200, body: consolidatedFin },
         'statute-consolidated/2018/1050/swe@latest': { status: 200, body: consolidatedSwe },
       }),
-      delayMs: 0,
-      cacheDir: path.join(tmpDir, 'cache'),
+      ...baseOpts(),
     };
     await ingestFinlexStatute('1050/2018', seedPath, opts);
     const firstWrite = fs.readFileSync(seedPath, 'utf-8');
 
     const second = await ingestFinlexStatute('1050/2018', seedPath, {
-      ...opts,
+      // Routes deliberately limited to the FINNISH probe: a skip must not
+      // touch the Swedish endpoint (makeFetch throws on unexpected URLs).
+      fetchImpl: makeFetch({
+        'statute-consolidated/2018/1050/fin@latest': { status: 200, body: consolidatedFin },
+      }),
+      ...baseOpts(),
       existingStampedVersion: '20260380',
+      existingStampedSwedishVersion: '20260380',
     });
     expect(second.written).toBe(false);
     expect(second.decision).toBe('skip_current');
     expect(fs.readFileSync(seedPath, 'utf-8')).toBe(firstWrite);
+  });
+
+  it('does NOT skip when the Finnish version matches but Swedish was previously omitted (the parked-forever hole)', async () => {
+    const seedPath = path.join(tmpDir, '1050_2018.json');
+    // Seed written earlier with Swedish omitted: stamped fin=20260380, no swe.
+    fs.writeFileSync(seedPath, JSON.stringify({ id: '1050/2018', provisions: [{ provision_ref: '1:1', section: '1', content: 'x' }] }), 'utf-8');
+
+    const outcome = await ingestFinlexStatute('1050/2018', seedPath, {
+      fetchImpl: makeFetch({
+        'statute-consolidated/2018/1050/fin@latest': { status: 200, body: consolidatedFin },
+        'statute-consolidated/2018/1050/swe@latest': { status: 200, body: consolidatedSwe },
+      }),
+      ...baseOpts(),
+      existingStampedVersion: '20260380',
+      existingStampedSwedishVersion: null,
+    });
+
+    // The Swedish consolidation has caught up — the seed must be completed.
+    expect(outcome.decision).not.toBe('skip_current');
+    expect(outcome.swedish).toBe('consolidated');
+    const seed = JSON.parse(fs.readFileSync(seedPath, 'utf-8'));
+    expect(seed._ingest.languages.swe.consolidation_version).toBe('20260380');
   });
 
   it('omits Swedish text when the Swedish consolidation is at a DIFFERENT version (no silently mixed versions)', async () => {
@@ -187,13 +270,208 @@ describe('ingestFinlexStatute (offline, injected fetch)', () => {
         'statute-consolidated/2018/1050/fin@latest': { status: 200, body: consolidatedFin },
         'statute-consolidated/2018/1050/swe@latest': { status: 200, body: mismatchedSwe },
       }),
-      delayMs: 0,
-      cacheDir: path.join(tmpDir, 'cache'),
+      ...baseOpts(),
     });
 
     expect(outcome.swedish).toBe('omitted_version_mismatch');
     const seed = JSON.parse(fs.readFileSync(seedPath, 'utf-8'));
     expect(JSON.stringify(seed.provisions)).not.toContain('content_sv');
     expect(seed._ingest.languages.swe).toBeUndefined();
+  });
+
+  it('falls back EXPLICITLY (stamped) to the original when the consolidation is an empty contentAbsent shell', async () => {
+    const seedPath = path.join(tmpDir, '45_2005.json');
+    const outcome = await ingestFinlexStatute('45/2005', seedPath, {
+      fetchImpl: makeFetch({
+        'statute-consolidated/2005/45/fin@latest': { status: 200, body: contentAbsentShell },
+        'statute/2005/45/fin@': { status: 200, body: original45 },
+        'statute/2005/45/swe@': { status: 404 },
+      }),
+      ...baseOpts(),
+    });
+
+    expect(outcome.contentAbsentFallback).toBe(true);
+    const seed = JSON.parse(fs.readFileSync(seedPath, 'utf-8'));
+    // Real text from the as-enacted original — never a hollow seed.
+    expect(seed.provisions.length).toBeGreaterThan(0);
+    expect(seed._ingest.doc_type).toBe('statute');
+    expect(seed.url).toContain('/act/statute/2005/45/fin@');
+    // The shell's existence and version are stamped, not erased.
+    expect(seed._ingest.consolidated_content_absent).toEqual({
+      version: '20050045',
+      consolidated_to: '2005-01-28',
+    });
+    // Status comes from the SHELL's lifecycle metadata (authoritative even
+    // when the body is absent): 45/2005 is in force per finlex:isInForce.
+    expect(seed.status).toBe('in_force');
+    expect(seed._ingest.status_basis).toBe('finlex_lifecycle_metadata');
+    expect(seed.in_force_date).toBe('2005-10-05');
+  });
+
+  it('FAILS LOUD when a document parses to zero provisions without a recognized contentAbsent marker', async () => {
+    const seedPath = path.join(tmpDir, '45_2005.json');
+    const unknownShape = contentAbsentShell.replace(
+      '<hcontainer name="contentAbsent"/>',
+      '<p>unrecognized body shape</p>'
+    );
+    await expect(
+      ingestFinlexStatute('45/2005', seedPath, {
+        fetchImpl: makeFetch({
+          'statute-consolidated/2005/45/fin@latest': { status: 200, body: unknownShape },
+        }),
+        ...baseOpts(),
+      })
+    ).rejects.toThrow(/zero provisions/iu);
+    expect(fs.existsSync(seedPath)).toBe(false);
+  });
+
+  it('NEVER overwrites a seed holding real content when the shell fallback has nothing to offer', async () => {
+    const seedPath = path.join(tmpDir, '45_2005.json');
+    const realContent = JSON.stringify({
+      id: '45/2005',
+      provisions: [{ provision_ref: '1', section: '1', content: 'real statute text' }],
+    });
+    fs.writeFileSync(seedPath, realContent, 'utf-8');
+
+    await expect(
+      ingestFinlexStatute('45/2005', seedPath, {
+        fetchImpl: makeFetch({
+          'statute-consolidated/2005/45/fin@latest': { status: 200, body: contentAbsentShell },
+          'statute/2005/45/fin@': { status: 404 },
+        }),
+        ...baseOpts(),
+      })
+    ).rejects.toThrow();
+    expect(fs.readFileSync(seedPath, 'utf-8')).toBe(realContent);
+  });
+
+  it('retries a 404 on a PREVIOUSLY-consolidated statute and proceeds when it was transient', async () => {
+    const seedPath = path.join(tmpDir, '1050_2018.json');
+    fs.writeFileSync(seedPath, '{"id":"1050/2018","provisions":[{"section":"1","content":"old"}]}', 'utf-8');
+    let finCalls = 0;
+    const fetchImpl = (async (url: unknown) => {
+      const u = String(url);
+      if (u.includes('statute-consolidated/2018/1050/fin@latest')) {
+        finCalls += 1;
+        return finCalls === 1
+          ? new Response('not found', { status: 404 })
+          : new Response(consolidatedFin, { status: 200 });
+      }
+      if (u.includes('statute-consolidated/2018/1050/swe@latest')) {
+        return new Response(consolidatedSwe, { status: 200 });
+      }
+      throw new Error(`Unexpected URL in test: ${u}`);
+    }) as typeof fetch;
+
+    const outcome = await ingestFinlexStatute('1050/2018', seedPath, {
+      fetchImpl,
+      ...baseOpts(),
+      existingStampedVersion: '20230239',
+    });
+    expect(finCalls).toBe(2);
+    expect(outcome.consolidationAbsent).toBe(false);
+    expect(outcome.decision).toBe('refetch_changed');
+  });
+
+  it('treats a PERSISTENT 404 on a previously-consolidated statute as a loud anomaly, never a silent downgrade', async () => {
+    const seedPath = path.join(tmpDir, '1050_2018.json');
+    const before = '{"id":"1050/2018","provisions":[{"section":"1","content":"consolidated text"}]}';
+    fs.writeFileSync(seedPath, before, 'utf-8');
+    let finCalls = 0;
+    const fetchImpl = (async (url: unknown) => {
+      const u = String(url);
+      if (u.includes('statute-consolidated/2018/1050/fin@latest')) {
+        finCalls += 1;
+        return new Response('not found', { status: 404 });
+      }
+      // The as-enacted original IS available — the old code silently downgraded to it.
+      if (u.includes('statute/2018/1050/fin@')) {
+        return new Response(originalFin, { status: 200 });
+      }
+      throw new Error(`Unexpected URL in test: ${u}`);
+    }) as typeof fetch;
+
+    await expect(
+      ingestFinlexStatute('1050/2018', seedPath, {
+        fetchImpl,
+        ...baseOpts(),
+        existingStampedVersion: '20230239',
+      })
+    ).rejects.toThrow(/disappear|downgrade|anomal/iu);
+    expect(finCalls).toBeGreaterThanOrEqual(2);
+    expect(fs.readFileSync(seedPath, 'utf-8')).toBe(before);
+  });
+
+  it('keeps the newer seed when upstream serves an OLDER consolidation than the stamp (stale_upstream)', async () => {
+    const seedPath = path.join(tmpDir, '1050_2018.json');
+    const before = '{"id":"1050/2018","provisions":[{"section":"1","content":"newer text"}]}';
+    fs.writeFileSync(seedPath, before, 'utf-8');
+
+    const outcome = await ingestFinlexStatute('1050/2018', seedPath, {
+      fetchImpl: makeFetch({
+        'statute-consolidated/2018/1050/fin@latest': { status: 200, body: consolidatedFin },
+      }),
+      ...baseOpts(),
+      existingStampedVersion: '20270001', // stamp PROVES a newer consolidation was served before
+    });
+
+    expect(outcome.decision).toBe('stale_upstream');
+    expect(outcome.written).toBe(false);
+    expect(fs.readFileSync(seedPath, 'utf-8')).toBe(before);
+  });
+
+  it('REJECTS a served body whose identity does not match the requested statute (redirect surprises)', async () => {
+    const seedPath = path.join(tmpDir, '999_2018.json');
+    await expect(
+      ingestFinlexStatute('999/2018', seedPath, {
+        fetchImpl: makeFetch({
+          // Upstream serves the 1050/2018 document for the 999/2018 request.
+          'statute-consolidated/2018/999/fin@latest': { status: 200, body: consolidatedFin },
+        }),
+        ...baseOpts(),
+      })
+    ).rejects.toThrow(/identity|mismatch/iu);
+    expect(fs.existsSync(seedPath)).toBe(false);
+  });
+
+  it('self-heals a corrupt original-XML cache file instead of failing forever (sticky-cache fix)', async () => {
+    const seedPath = path.join(tmpDir, '1050_2018.json');
+    const cacheDir = path.join(tmpDir, 'cache');
+    fs.mkdirSync(cacheDir, { recursive: true });
+    // A truncated/corrupt cache file from an interrupted earlier run.
+    fs.writeFileSync(path.join(cacheDir, '2018_1050_fin.xml'), '<akomaNtoso><act><met', 'utf-8');
+
+    const outcome = await ingestFinlexStatute('1050/2018', seedPath, {
+      fetchImpl: makeFetch({
+        'statute-consolidated/2018/1050/fin@latest': { status: 404 },
+        'statute-consolidated/2018/1050/swe@latest': { status: 404 },
+        'statute/2018/1050/fin@': { status: 200, body: originalFin },
+        'statute/2018/1050/swe@': { status: 404 },
+      }),
+      ...baseOpts(),
+    });
+
+    expect(outcome.consolidationAbsent).toBe(true);
+    expect(fs.existsSync(seedPath)).toBe(true);
+    // The corrupt cache entry was replaced by the refetched valid document.
+    expect(fs.readFileSync(path.join(cacheDir, '2018_1050_fin.xml'), 'utf-8')).toContain('<identification');
+  });
+
+  it('prunes superseded forensic copies (keep only the version just fetched)', async () => {
+    const seedPath = path.join(tmpDir, '1050_2018.json');
+    const forensicDir = path.join(tmpDir, 'forensic');
+    fs.mkdirSync(forensicDir, { recursive: true });
+    fs.writeFileSync(path.join(forensicDir, '2018_1050_fin@20230239.consolidated.xml'), '<old/>', 'utf-8');
+
+    await ingestFinlexStatute('1050/2018', seedPath, {
+      fetchImpl: makeFetch({
+        'statute-consolidated/2018/1050/fin@latest': { status: 200, body: consolidatedFin },
+        'statute-consolidated/2018/1050/swe@latest': { status: 200, body: consolidatedSwe },
+      }),
+      ...baseOpts(),
+    });
+
+    const copies = fs.readdirSync(forensicDir).filter(f => f.startsWith('2018_1050_fin@'));
+    expect(copies).toEqual(['2018_1050_fin@20260380.consolidated.xml']);
   });
 });

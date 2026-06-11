@@ -34,17 +34,31 @@ import {
 import {
   FINLEX_API_BASE,
   parseVersionIdentity,
+  parseLifecycle,
+  deriveSeedStatus,
   assertCurrentConsolidation,
   buildIngestStamp,
   decideRewrite,
+  type ContentAbsentStamp,
   type FetchDecision,
   type FinlexDocType,
   type IngestStamp,
+  type StatuteLifecycle,
   type VersionIdentity,
 } from './lib/finlex-version.js';
+import { writeFileAtomicSync } from './lib/fs-atomic.js';
 
 const SCRIPT_DIR = path.dirname(new URL(import.meta.url).pathname);
 const SOURCE_CACHE_DIR = path.resolve(SCRIPT_DIR, '../data/source/finlex');
+/**
+ * Version-keyed forensic copies of fetched consolidated XML. Deliberately
+ * OUTSIDE data/source/finlex: that directory's contents are git-tracked
+ * corpus inputs, and forensic copies (one per statute per language per
+ * version) would bury them in hundreds of MB of write-only output.
+ * data/source-cache/ is gitignored.
+ */
+const FORENSIC_CACHE_DIR = path.resolve(SCRIPT_DIR, '../data/source-cache/finlex');
+const VERSION_TOKEN_RE = /^\d{8}$/u;
 
 interface DocumentSeed {
   id: string;
@@ -108,6 +122,8 @@ interface ParsedStatute {
   documentNumber?: string;
   category?: string;
   provisions: FinlexProvision[];
+  /** True when the body is an explicit empty shell (<hcontainer name="contentAbsent"/>). */
+  contentAbsent: boolean;
 }
 
 export interface IngestFinlexOptions {
@@ -134,6 +150,19 @@ export interface IngestFinlexOptions {
    * NOT rewritten (decision 'skip_current').
    */
   existingStampedVersion?: string | null;
+  /**
+   * Swedish consolidation version stamped on the existing seed
+   * (`_ingest.languages.swe.consolidation_version`). skip_current requires
+   * BOTH languages' stamped versions to match the fetched Finnish version —
+   * otherwise a seed written with Swedish omitted would park forever.
+   */
+  existingStampedSwedishVersion?: string | null;
+  /**
+   * Directory for version-keyed forensic copies of consolidated XML.
+   * Defaults to data/source-cache/finlex (gitignored — NEVER the tracked
+   * data/source/finlex corpus-input directory). Tests should pass a tmp dir.
+   */
+  forensicCacheDir?: string;
 }
 
 export type SwedishOutcome =
@@ -149,6 +178,8 @@ export interface IngestOutcome {
   written: boolean;
   /** True when upstream has no consolidated document (definitive 404) and the as-enacted original was used. */
   consolidationAbsent: boolean;
+  /** True when the consolidation exists upstream but is an empty contentAbsent shell — as-enacted text used, stamped. */
+  contentAbsentFallback: boolean;
   identity: VersionIdentity;
   swedish: SwedishOutcome;
 }
@@ -376,6 +407,7 @@ function extractProvisions(node: unknown, inheritedChapter: string | undefined, 
 interface FetchExpressionOptions {
   fetchImpl?: typeof fetch;
   cacheDir: string;
+  forensicDir: string;
   retryBackoffMs?: number[];
 }
 
@@ -385,10 +417,12 @@ interface FetchExpressionOptions {
  * THROW — they are never reported as "gone".
  *
  * Cache policy: original (as-enacted) expressions are immutable, so the
- * version-blind cache file may be read back. Consolidated expressions are
- * NEVER read from cache — a version-blind cache read is exactly the
- * stale-version pin this module exists to remove. Fetched consolidated XML is
- * written to a version-keyed file as a forensic copy only.
+ * version-blind cache file may be read back — but only after it VALIDATES
+ * (a truncated file from an interrupted run must self-heal via refetch, not
+ * fail every later run). Consolidated expressions are NEVER read from cache —
+ * a version-blind cache read is exactly the stale-version pin this module
+ * exists to remove. Fetched consolidated XML goes to a version-keyed forensic
+ * copy in the gitignored forensic dir; superseded versions are pruned.
  */
 async function fetchExpression(
   docType: FinlexDocType,
@@ -400,7 +434,17 @@ async function fetchExpression(
 ): Promise<string | null> {
   const originalCachePath = path.join(opts.cacheDir, `${year}_${number}_${lang}.xml`);
   if (docType === 'statute' && fs.existsSync(originalCachePath)) {
-    return fs.readFileSync(originalCachePath, 'utf-8');
+    const cached = fs.readFileSync(originalCachePath, 'utf-8');
+    try {
+      parseVersionIdentity(cached);
+      return cached;
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      console.warn(
+        `  Corrupt original-XML cache ${originalCachePath} (${message}) — removing it and refetching.`
+      );
+      fs.unlinkSync(originalCachePath);
+    }
   }
 
   const url = `${FINLEX_API_BASE}/${docType}/${year}/${number}/${lang}@${version}`;
@@ -423,17 +467,21 @@ async function fetchExpression(
   }
 
   const body = await res.text();
-  fs.mkdirSync(opts.cacheDir, { recursive: true });
   if (docType === 'statute') {
-    fs.writeFileSync(originalCachePath, body, 'utf-8');
+    writeFileAtomicSync(originalCachePath, body);
   } else {
     const identity = parseVersionIdentity(body);
     const versionKey = identity.version_number ?? 'unversioned';
-    fs.writeFileSync(
-      path.join(opts.cacheDir, `${year}_${number}_${lang}@${versionKey}.consolidated.xml`),
-      body,
-      'utf-8'
-    );
+    const prefix = `${year}_${number}_${lang}@`;
+    const currentCopy = `${prefix}${versionKey}.consolidated.xml`;
+    fs.mkdirSync(opts.forensicDir, { recursive: true });
+    // Prune superseded forensic copies: keep exactly the version just fetched.
+    for (const file of fs.readdirSync(opts.forensicDir)) {
+      if (file.startsWith(prefix) && file.endsWith('.consolidated.xml') && file !== currentCopy) {
+        fs.unlinkSync(path.join(opts.forensicDir, file));
+      }
+    }
+    writeFileAtomicSync(path.join(opts.forensicDir, currentCopy), body);
   }
 
   return body;
@@ -467,7 +515,28 @@ export function parseFinlexXml(xml: string, fallbackId: string): ParsedStatute {
     documentNumber: parseDocumentNumber(preface),
     category,
     provisions,
+    // Finlex publishes some consolidations as explicit empty shells:
+    // <body><hcontainer name="contentAbsent"/></body>. Recognized vocabulary,
+    // surfaced so the caller can fall back EXPLICITLY instead of silently
+    // writing a hollow seed.
+    contentAbsent: /<hcontainer[^>]*\bname="contentAbsent"/u.test(xml),
   };
+}
+
+/**
+ * Body-identity check (Dutch round-2 lesson, dutch-law 976c0ef): the served
+ * document's own preface identity must match the requested statute. Redirects
+ * are followed transparently, so without this check a mis-served body would
+ * be written under the requested statute's filename with the WRONG content.
+ */
+function assertBodyIdentity(parsed: ParsedStatute, canonicalId: string, label: string): void {
+  if (!parsed.documentNumber) return; // no preface docNumber upstream — nothing to compare
+  const served = normalizeCanonicalStatuteId(parsed.id);
+  if (served !== canonicalId) {
+    throw new Error(
+      `Body identity mismatch for ${label}: requested ${canonicalId} but upstream served ${served} — refusing to seed mis-served content`
+    );
+  }
 }
 
 function parseStatuteId(id: string): { number: string; year: string } {
@@ -508,8 +577,10 @@ export async function ingestFinlexStatute(
   const fetchOpts: FetchExpressionOptions = {
     fetchImpl: options.fetchImpl,
     cacheDir: options.cacheDir ?? SOURCE_CACHE_DIR,
+    forensicDir: options.forensicCacheDir ?? FORENSIC_CACHE_DIR,
     retryBackoffMs: options.retryBackoffMs,
   };
+  const stampedVersion = options.existingStampedVersion ?? null;
 
   console.log('Finlex Data Ingestion');
   console.log(`  Statute: ${canonicalId}`);
@@ -525,6 +596,24 @@ export async function ingestFinlexStatute(
   let consolidationAbsent = false;
   let finXml = await fetchExpression('statute-consolidated', year, fetchNumberToken, 'fin', 'latest', fetchOpts);
 
+  if (finXml === null && stampedVersion !== null && VERSION_TOKEN_RE.test(stampedVersion)) {
+    // The stamp PROVES a consolidation existed upstream. A single unretried
+    // 404 must not silently downgrade the seed to as-enacted text: confirm
+    // once, and treat a persistent 404 as a loud anomaly.
+    console.warn(
+      `  404 on statute-consolidated for ${canonicalId}, but the seed stamp (${stampedVersion}) proves a ` +
+        'consolidation existed — confirming before treating it as real.'
+    );
+    await politeDelay(delayMs);
+    finXml = await fetchExpression('statute-consolidated', year, fetchNumberToken, 'fin', 'latest', fetchOpts);
+    if (finXml === null) {
+      throw new Error(
+        `Consolidated expression for ${canonicalId} DISAPPEARED upstream (persistent 404, stamp ` +
+          `${stampedVersion} proves it existed) — anomaly; refusing the silent downgrade to as-enacted text`
+      );
+    }
+  }
+
   if (finXml === null) {
     consolidationAbsent = true;
     console.log(`  No consolidated document for ${canonicalId} (404) — acquiring as-enacted original.`);
@@ -538,37 +627,130 @@ export async function ingestFinlexStatute(
     );
   }
 
-  const finIdentity = parseVersionIdentity(finXml);
+  let finIdentity = parseVersionIdentity(finXml);
   if (!consolidationAbsent) {
     assertCurrentConsolidation(finIdentity);
   }
 
-  // Refresh short-circuit: when the stamped version PROVES the seed already
-  // holds this consolidation, keep the file untouched (no git churn).
-  const decision = decideRewrite({
-    stampedVersion: options.existingStampedVersion ?? null,
+  // Refresh short-circuit and stale-upstream guard, keyed on the stamp.
+  let decision = decideRewrite({
+    stampedVersion,
     fetchedVersion: finIdentity.version_number,
   });
-  if (decision === 'skip_current' && fs.existsSync(targetPath)) {
-    console.log(`  Seed already at consolidation ${finIdentity.version_number} — skipping rewrite.`);
+  if (decision === 'stale_upstream') {
+    // fin@latest sits behind a ~10-min server-side cache; an expression older
+    // than the stamp is a realistic transient. The stamp proves newer text was
+    // already acquired — keep it, surface the anomaly, never rewrite backwards.
+    if (!fs.existsSync(targetPath)) {
+      throw new Error(
+        `Stale upstream for ${canonicalId} (fetched ${finIdentity.version_number}, stamped ${stampedVersion}) ` +
+          'with no local seed file — inconsistent caller state, refusing to write the older expression'
+      );
+    }
+    console.warn(
+      `  STALE UPSTREAM for ${canonicalId}: fetched consolidation ${finIdentity.version_number} is OLDER than ` +
+        `the stamped ${stampedVersion} — keeping the newer seed untouched.`
+    );
     return {
       decision,
       written: false,
       consolidationAbsent,
+      contentAbsentFallback: false,
       identity: finIdentity,
       swedish: 'not_fetched',
     };
   }
+  // skip_current requires BOTH languages to be proven current: a seed whose
+  // Swedish text was omitted (no swe stamp) must be re-examined — the Swedish
+  // consolidation may have caught up since.
+  if (decision === 'skip_current') {
+    if (
+      fs.existsSync(targetPath) &&
+      (options.existingStampedSwedishVersion ?? null) === finIdentity.version_number
+    ) {
+      console.log(
+        `  Seed already at consolidation ${finIdentity.version_number} (both languages) — skipping rewrite.`
+      );
+      return {
+        decision,
+        written: false,
+        consolidationAbsent,
+        contentAbsentFallback: false,
+        identity: finIdentity,
+        swedish: 'not_fetched',
+      };
+    }
+    if (fs.existsSync(targetPath)) {
+      console.log(
+        `  Finnish text already at ${finIdentity.version_number}, but the Swedish stamp does not match — ` +
+          're-examining the Swedish expression.'
+      );
+      decision = 'refetch_check';
+    } else {
+      decision = 'refetch_unknown'; // stamped current but the seed file is missing — rebuild it
+    }
+  }
 
-  // 2. Acquire Swedish text at the SAME version discipline. A Swedish
+  // 2. Parse the Finnish text and apply the zero-provision gate: a document
+  //    that parses to zero provisions must never become a seed. The ONLY
+  //    recognized empty shape is Finlex's explicit contentAbsent shell, which
+  //    triggers a stamped fallback to the as-enacted original; anything else
+  //    fails loud (unknown vocabulary/shape).
+  let fiParsed = parseFinlexXml(finXml, canonicalId);
+  // Lifecycle facts for the status: from the document that CARRIES them — the
+  // consolidated expression (or shell). As-enacted originals publish none.
+  let lifecycle: StatuteLifecycle = parseLifecycle(finXml);
+  let lifecycleDocType: FinlexDocType = finIdentity.doc_type;
+  let contentAbsentStamp: ContentAbsentStamp | undefined;
+
+  if (fiParsed.provisions.length === 0) {
+    if (!consolidationAbsent && fiParsed.contentAbsent) {
+      console.warn(
+        `  Consolidation ${finIdentity.version_number ?? 'unversioned'} for ${canonicalId} is an EMPTY ` +
+          'contentAbsent shell — explicit fallback to the as-enacted original (stamped as such).'
+      );
+      contentAbsentStamp = {
+        version: finIdentity.version_number,
+        consolidated_to: finIdentity.consolidated_to,
+      };
+      await politeDelay(delayMs);
+      const originalXml = await fetchExpression('statute', year, fetchNumberToken, 'fin', '', fetchOpts);
+      if (originalXml === null) {
+        throw new Error(
+          `Statute ${canonicalId}: consolidated expression is a contentAbsent shell AND the as-enacted ` +
+            'original is gone (404) — nothing real to seed, failing loud'
+        );
+      }
+      finXml = originalXml;
+      finIdentity = parseVersionIdentity(finXml);
+      fiParsed = parseFinlexXml(finXml, canonicalId);
+      if (fiParsed.provisions.length === 0) {
+        throw new Error(
+          `Statute ${canonicalId}: zero provisions in BOTH the consolidated shell and the as-enacted ` +
+            'original — refusing to write a hollow seed'
+        );
+      }
+    } else {
+      throw new Error(
+        `Statute ${canonicalId}: document ${finIdentity.expression_uri} parsed to ZERO provisions without a ` +
+          'recognized contentAbsent marker — unknown document shape, refusing to write a hollow seed'
+      );
+    }
+  }
+
+  assertBodyIdentity(fiParsed, canonicalId, `Finnish expression ${finIdentity.expression_uri}`);
+
+  // 3. Acquire Swedish text at the SAME version discipline. A Swedish
   //    consolidation at a different version is omitted (loudly) rather than
-  //    silently paired with Finnish text from another point in time.
+  //    silently paired with Finnish text from another point in time. When the
+  //    Finnish text is the as-enacted original (consolidated 404 or
+  //    contentAbsent shell), Swedish pairs with the as-enacted original too.
   let sweXml: string | null = null;
   let sweIdentity: VersionIdentity | null = null;
   let swedish: SwedishOutcome = 'omitted_not_available';
 
   await politeDelay(delayMs);
-  if (consolidationAbsent) {
+  if (consolidationAbsent || contentAbsentStamp) {
     sweXml = await fetchExpression('statute', year, fetchNumberToken, 'swe', '', fetchOpts);
     if (sweXml !== null) {
       sweIdentity = parseVersionIdentity(sweXml);
@@ -592,8 +774,10 @@ export async function ingestFinlexStatute(
     }
   }
 
-  const fiParsed = parseFinlexXml(finXml, canonicalId);
   const svParsed = sweXml ? parseFinlexXml(sweXml, canonicalId) : null;
+  if (svParsed) {
+    assertBodyIdentity(svParsed, canonicalId, `Swedish expression ${sweIdentity?.expression_uri ?? 'unknown'}`);
+  }
 
   const svByEid = new Map<string, FinlexProvision>(
     (svParsed?.provisions ?? []).map(p => [p.eId, p])
@@ -642,22 +826,38 @@ export async function ingestFinlexStatute(
     languages.swe = sweIdentity;
   }
 
+  // Status is a FACT from upstream lifecycle metadata (finlex:isInForce,
+  // dateInForceEnd, repealedBy), never a constant. For a contentAbsent shell
+  // the SHELL carries the authoritative lifecycle even though the text comes
+  // from the as-enacted original. As-enacted originals without lifecycle
+  // metadata get the documented default, stamped as unverified.
+  const { status, basis: statusBasis } = deriveSeedStatus({
+    docType: lifecycleDocType,
+    lifecycle,
+  });
+
+  // Validity claim for the served text: a consolidation proves its wording as
+  // of dateConsolidated — claiming validity from the original enactment date
+  // would assert amended/inserted provisions existed before they did. The
+  // as-enacted original proves its wording from enactment.
+  const textValidFrom = finIdentity.consolidated_to ?? fiParsed.issuedDate;
+
   const seed: DocumentSeed = {
     id: normalizedParsedId || canonicalId,
     type: 'statute',
     title: fiParsed.title,
     title_en: svParsed?.title,
     short_name: SHORT_NAME_BY_ID[normalizedParsedId] ?? SHORT_NAME_BY_ID[canonicalId],
-    status: 'in_force',
+    status,
     issued_date: fiParsed.issuedDate,
-    in_force_date: fiParsed.issuedDate,
+    in_force_date: lifecycle.date_entry_into_force ?? fiParsed.issuedDate,
     // Version-pinned expression URL — never the ambiguous-version form.
     url: `https://opendata.finlex.fi/finlex/avoindata/v1${finIdentity.expression_uri}`,
     description: `Ingested from Finlex open data (${fiParsed.category ?? 'statute'})`,
     provisions,
     provision_versions: provisions.map(p => ({
       ...p,
-      valid_from: fiParsed.issuedDate,
+      valid_from: textValidFrom,
       valid_to: null,
     })),
     definitions: definitions.length > 0 ? definitions : undefined,
@@ -666,6 +866,9 @@ export async function ingestFinlexStatute(
       now: new Date().toISOString(),
       primary: finIdentity,
       languages,
+      lifecycle,
+      statusBasis,
+      consolidatedContentAbsent: contentAbsentStamp,
     }),
   };
 
@@ -675,6 +878,7 @@ export async function ingestFinlexStatute(
 
   console.log(`  Source expression:      ${finIdentity.expression_uri}`);
   console.log(`  Consolidation version:  ${finIdentity.version_number ?? 'none (as-enacted original)'}`);
+  console.log(`  Status:                 ${status} (${statusBasis})`);
   console.log(`  Swedish text:           ${swedish}`);
   console.log(`  Parsed provisions (FI): ${fiParsed.provisions.length}`);
   console.log(`  Parsed provisions (SV): ${svParsed?.provisions.length ?? 0}`);
@@ -682,7 +886,14 @@ export async function ingestFinlexStatute(
   console.log(`  Preparatory refs:       ${preparatoryWorks.length}`);
   console.log(written ? `\n✅ Wrote seed file: ${targetPath}` : `\n✅ Seed unchanged: ${targetPath}`);
 
-  return { decision, written, consolidationAbsent, identity: finIdentity, swedish };
+  return {
+    decision,
+    written,
+    consolidationAbsent,
+    contentAbsentFallback: contentAbsentStamp !== undefined,
+    identity: finIdentity,
+    swedish,
+  };
 }
 
 /** Serialize without the volatile retrieval timestamp, for change detection. */
@@ -702,12 +913,27 @@ function writeSeedUnlessUnchanged(targetPath: string, seed: DocumentSeed): boole
       if (canonicalSeedJson(existing) === canonicalSeedJson(seed)) {
         return false;
       }
-    } catch {
+      // Last-line tripwire (defense in depth behind the zero-provision gate):
+      // a seed holding real provisions must NEVER be replaced by an empty one.
+      const existingProvisions = (existing as { provisions?: unknown[] }).provisions;
+      if (
+        Array.isArray(existingProvisions) &&
+        existingProvisions.length > 0 &&
+        (seed.provisions?.length ?? 0) === 0
+      ) {
+        throw new Error(
+          `Refusing to overwrite ${targetPath}: existing seed has ${existingProvisions.length} provisions, ` +
+            'replacement has zero — hollow overwrite blocked'
+        );
+      }
+    } catch (error) {
+      if (error instanceof Error && /hollow overwrite blocked/u.test(error.message)) {
+        throw error;
+      }
       // Unreadable/corrupt existing seed: overwrite it.
     }
   }
-  fs.mkdirSync(path.dirname(targetPath), { recursive: true });
-  fs.writeFileSync(targetPath, JSON.stringify(seed, null, 2), 'utf-8');
+  writeFileAtomicSync(targetPath, JSON.stringify(seed, null, 2));
   return true;
 }
 
