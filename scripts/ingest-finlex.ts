@@ -415,6 +415,90 @@ function extractProvisions(node: unknown, inheritedChapter: string | undefined, 
   }
 }
 
+/**
+ * Named-hcontainer fallback for the issue #82 shape gap: 22 as-enacted
+ * statutes (short amendment/transition acts and annex amendments) carry NO
+ * <section> elements — their text lives in named hcontainers. This fallback
+ * runs ONLY when the section walk yields zero provisions, and extracts from
+ * an explicit whitelist:
+ *
+ *   statuteTextWrapper -> ref 'teksti'      (substantive standalone text)
+ *   entryIntoForce     -> ref 'voimaantulo' (entry into force)
+ *   attachment         -> ref 'liite'       (annex tables — for "liitteen
+ *                         muuttamisesta" acts the annex IS the substance)
+ *
+ * conclusions / preliminaryWork / signatures are NEVER extracted: preparatory
+ * references and signatures are not law text. The elided-amendment marker
+ * <p class="omission"/> is empty and naturally drops out (empty content is
+ * skipped), so an omission-only wrapper yields no fabricated provision.
+ *
+ * eIds are language-independent (hcontainer:<name>) so Finnish/Swedish
+ * provisions pair by eId exactly like sectioned documents.
+ */
+const FALLBACK_EXCLUDED_HCONTAINERS = new Set([
+  'conclusions',
+  'preliminaryWork',
+  'signatures',
+  'contentAbsent',
+]);
+
+function collectHcontainersByName(node: unknown, out: Map<string, Record<string, unknown>[]>): void {
+  if (node === null || node === undefined || typeof node !== 'object') return;
+  if (Array.isArray(node)) {
+    for (const item of node) collectHcontainersByName(item, out);
+    return;
+  }
+
+  const obj = node as Record<string, unknown>;
+  for (const [key, value] of Object.entries(obj)) {
+    if (key.startsWith('@_')) continue;
+    if (key === 'hcontainer') {
+      for (const hc of asArray(value as Record<string, unknown> | Record<string, unknown>[])) {
+        const name = typeof hc['@_name'] === 'string' ? (hc['@_name'] as string) : '';
+        // Never descend into excluded containers: nothing inside conclusions
+        // (preliminary works, signatures) may surface as law text.
+        if (FALLBACK_EXCLUDED_HCONTAINERS.has(name)) continue;
+        if (name) {
+          const list = out.get(name) ?? [];
+          list.push(hc);
+          out.set(name, list);
+        }
+        collectHcontainersByName(hc, out);
+      }
+    } else {
+      collectHcontainersByName(value, out);
+    }
+  }
+}
+
+function extractNamedHcontainerProvisions(body: unknown, out: FinlexProvision[]): void {
+  const byName = new Map<string, Record<string, unknown>[]>();
+  collectHcontainersByName(body, byName);
+
+  const pushAll = (
+    nodes: Record<string, unknown>[],
+    section: string,
+    title: string,
+    eIdBase: string
+  ): void => {
+    nodes.forEach((node, index) => {
+      const content = normalizeProvisionContent(textFromNode(node.content));
+      if (!content) return; // omission-only / empty containers yield nothing
+      const suffix = nodes.length > 1 ? `-${index + 1}` : '';
+      out.push({
+        eId: `${eIdBase}${suffix}`,
+        section: `${section}${suffix}`,
+        title,
+        content,
+      });
+    });
+  };
+
+  pushAll(byName.get('statuteTextWrapper') ?? [], 'teksti', 'Säädöksen teksti', 'hcontainer:statuteTextWrapper');
+  pushAll(byName.get('entryIntoForce') ?? [], 'voimaantulo', 'Voimaantulo', 'hcontainer:entryIntoForce');
+  pushAll(byName.get('attachment') ?? [], 'liite', 'Liite', 'hcontainer:attachment');
+}
+
 interface FetchExpressionOptions {
   fetchImpl?: typeof fetch;
   cacheDir: string;
@@ -546,8 +630,19 @@ export function parseFinlexXml(xml: string, fallbackId: string): ParsedStatute {
   const issuedDate = parseIssuedDate(meta);
   const category = parseCategory(meta);
 
+  const contentAbsent = isContentAbsentBody(xml);
+
   const provisions: FinlexProvision[] = [];
   extractProvisions(body, undefined, provisions);
+  // Issue #82 shape gap: bodies without <section> vocabulary (short
+  // amendment/transition acts, annex amendments) fall back to whitelisted
+  // named hcontainers. Scoped two ways: only when the section walk found
+  // nothing, and NEVER for an explicit contentAbsent shell — the shell must
+  // stay zero-provision so the ingest-level as-enacted fallback fires
+  // (serving only annex scraps from a shell would mask the real text).
+  if (provisions.length === 0 && !contentAbsent) {
+    extractNamedHcontainerProvisions(body, provisions);
+  }
 
   return {
     id,
@@ -561,7 +656,7 @@ export function parseFinlexXml(xml: string, fallbackId: string): ParsedStatute {
     // (round 3): the marker must be inside the body AND the body must hold
     // no substantive vocabulary — a marker elsewhere in the document must
     // never reroute an extractor shape-gap into the silent fallback.
-    contentAbsent: isContentAbsentBody(xml),
+    contentAbsent,
   };
 }
 
