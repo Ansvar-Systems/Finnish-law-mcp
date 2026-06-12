@@ -947,6 +947,22 @@ export async function ingestFinlexStatute(
     (svParsed?.provisions ?? []).map(p => [p.eId, p])
   );
 
+  // Pairing-symmetry check (PR #83 review, P2): pairing is keyed by eId, and
+  // the fallback's multi-instance suffix scheme means a Finnish/Swedish
+  // instance-count mismatch produces eIds that never match — the Swedish
+  // text would drop SILENTLY. No such document exists today; if one ever
+  // appears, this must be loud, not silent.
+  if (svParsed) {
+    const fiEids = new Set(fiParsed.provisions.map(p => p.eId));
+    const unmatchedSv = svParsed.provisions.filter(p => !fiEids.has(p.eId));
+    if (unmatchedSv.length > 0) {
+      console.warn(
+        `  Warning: ${unmatchedSv.length} Swedish provision(s) for ${canonicalId} have no Finnish eId ` +
+          `counterpart and their text will not be paired: ${unmatchedSv.map(p => p.eId).join(', ')}`
+      );
+    }
+  }
+
   const provisions: ProvisionSeed[] = fiParsed.provisions.map(provision => {
     const provisionRef = provision.chapter
       ? `${provision.chapter}:${provision.section}`

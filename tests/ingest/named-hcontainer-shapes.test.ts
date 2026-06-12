@@ -20,11 +20,12 @@
  * provisions, and it must NEVER extract signatures, preliminary works or
  * other conclusions material as law text.
  */
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import * as fs from 'fs';
+import * as os from 'os';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
-import { parseFinlexXml } from '../../scripts/ingest-finlex.js';
+import { parseFinlexXml, ingestFinlexStatute } from '../../scripts/ingest-finlex.js';
 
 const FIXTURES = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../fixtures/finlex');
 const wrapperOnlyFin = fs.readFileSync(
@@ -93,7 +94,7 @@ describe('named-hcontainer fallback (issue #82 shape gap)', () => {
       expect(liite!.content).toContain('Savukkeet');
     });
 
-    it('extracts the wrapper entry-into-force text under ref "teksti"', () => {
+    it('extracts the statuteTextWrapper text (here: the act\'s entry-into-force sentence) under ref "teksti"', () => {
       const teksti = parsed.provisions.find(p => p.section === 'teksti');
       expect(teksti).toBeDefined();
       expect(teksti!.content).toContain('1 päivänä tammikuuta 2016');
@@ -143,6 +144,47 @@ describe('named-hcontainer fallback (issue #82 shape gap)', () => {
       const voimaantulo = parsed.provisions.find(p => p.section === 'voimaantulo');
       expect(teksti!.eId).toBe('hcontainer:statuteTextWrapper');
       expect(voimaantulo!.eId).toBe('hcontainer:entryIntoForce');
+    });
+  });
+
+  describe('pairing-symmetry warning (PR #83 review P2)', () => {
+    it('an FI/SV instance-count mismatch warns instead of dropping Swedish silently', async () => {
+      // Swedish carries TWO entryIntoForce containers where Finnish has one:
+      // the suffix scheme produces eIds (-1/-2) that never match the bare
+      // Finnish eId — the Swedish text cannot pair. That must be LOUD.
+      const asymmetricSwe = wrapperOnlyFin.replace(
+        /<hcontainer eId="entryIntoForce" name="entryIntoForce">[\s\S]*?<\/hcontainer>/u,
+        '<hcontainer eId="entryIntoForce" name="entryIntoForce">' +
+          '<content><p>Denna lag träder i kraft den 1 januari 2006.</p></content></hcontainer>' +
+          '<hcontainer eId="entryIntoForce2" name="entryIntoForce">' +
+          '<content><p>Andra ikraftträdandebestämmelsen.</p></content></hcontainer>'
+      );
+
+      const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'fi82-pairing-'));
+      const warn = vi.spyOn(console, 'warn').mockImplementation(() => {});
+      try {
+        const fetchImpl = (async (url: unknown) => {
+          const u = String(url);
+          if (u.includes('statute-consolidated/2005/1080/')) return new Response('gone', { status: 404 });
+          if (u.includes('statute/2005/1080/fin@')) return new Response(wrapperOnlyFin, { status: 200 });
+          if (u.includes('statute/2005/1080/swe@')) return new Response(asymmetricSwe, { status: 200 });
+          throw new Error(`Unexpected URL in test: ${u}`);
+        }) as typeof fetch;
+
+        await ingestFinlexStatute('1080/2005', path.join(tmpDir, '1080_2005.json'), {
+          fetchImpl,
+          delayMs: 0,
+          cacheDir: path.join(tmpDir, 'cache'),
+          forensicCacheDir: path.join(tmpDir, 'forensic'),
+        });
+
+        const warned = warn.mock.calls.map(args => String(args[0])).join('\n');
+        expect(warned).toContain('no Finnish eId counterpart');
+        expect(warned).toContain('hcontainer:entryIntoForce-1');
+      } finally {
+        warn.mockRestore();
+        fs.rmSync(tmpDir, { recursive: true, force: true });
+      }
     });
   });
 });
